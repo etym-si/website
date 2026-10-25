@@ -63,7 +63,8 @@ export function renderStory(root: HTMLElement, param: string): () => void {
     ...CHAPTERS.map((c, i) => h('a', {
       href: `#/story/${i + 1}`, role: 'tab', class: `tab ${i + 1 === n ? 'on' : ''}`, 'aria-selected': String(i + 1 === n),
     }, `${t('chapter')} ${i + 1}${t('chapter') === '第' ? '章' : ''} · ${tx(c.title)}`)));
-  const body = h('section', { class: 'story-main' });
+  const topicBar = h('div', { class: 'story-topic' }, `📖 ${tx(ch.title)} — ${tx(ch.topic)}`);
+  const body = h('section', { class: 'story-main' }, topicBar);
   root.replaceChildren(
     header(),
     h('main', { class: 'story' }, h('h1', { class: 'page-title' }, `🎬 ${t('storyTitle')}`), tabs, body),

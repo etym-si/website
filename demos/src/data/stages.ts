@@ -14,7 +14,7 @@ export interface StageMeta {
 const m = (en: string, zhs: string, zht: string): Tri => ({ en, zhs, zht });
 
 export const STAGES: StageMeta[] = [
-  { id: 'picture', icon: '🖍️', color: '#f5b82e', name: m('Picture', '图画', '圖畫'), era: m('Long, long ago', '很久很久以前', '很久很久以前') },
+  { id: 'picture', icon: '🖍️', color: '#f5b82e', name: m('Picture', '图画', '圖畫'), era: m('Drawn from life · what ancient eyes saw', '照着眼前事物画成', '照著眼前事物畫成') },
   { id: 'oracle', icon: '🐢', color: '#c9824a', name: m('Oracle bone script', '甲骨文', '甲骨文'),
     era: m('~3,200 years ago · carved on turtle shells & bones', '约3200年前 · 刻在龟甲和兽骨上', '約3200年前 · 刻在龜甲和獸骨上') },
   { id: 'bronze', icon: '🔔', color: '#3f9b8f', name: m('Bronze script', '金文', '金文'),

@@ -1,5 +1,10 @@
-// Sound: synthesized UI chimes (Web Audio, no audio files) and speech via the Web Speech API.
+// Sound: synthesized UI chimes (Web Audio) and natural neural storytelling speech
+// (pre-generated edge-tts MP3s in public/tts/, with Web Speech API fallback).
 import { settings } from './settings';
+import ttsManifest from './data/tts-manifest.json';
+
+const base = import.meta.env.BASE_URL;
+const MANIFEST = ttsManifest as Record<'en' | 'zh', Record<string, string>>;
 
 let ctx: AudioContext | null = null;
 
@@ -58,7 +63,7 @@ export function chime(kind: Chime): void {
   }
 }
 
-// ---- speech ------------------------------------------------------------------
+// ---- speech (pre-generated neural MP3 + Web Speech fallback) -----------------
 
 let voices: SpeechSynthesisVoice[] = [];
 const synth: SpeechSynthesis | undefined = 'speechSynthesis' in window ? window.speechSynthesis : undefined;
@@ -67,13 +72,15 @@ if (synth) {
   synth.addEventListener('voiceschanged', () => { voices = synth.getVoices(); });
 }
 
+let activeAudio: HTMLAudioElement | null = null;
+let activeFinish: (() => void) | null = null;
+let speechSpeed = 1;
+
 function pickVoice(lang: 'zh' | 'en'): SpeechSynthesisVoice | undefined {
   const prefs = lang === 'zh'
     ? settings().script === 'trad' ? ['zh-TW', 'zh-HK', 'zh-CN', 'zh'] : ['zh-CN', 'cmn', 'zh-TW', 'zh']
     : ['en-US', 'en-GB', 'en'];
   const norm = (v: SpeechSynthesisVoice) => v.lang.replace('_', '-');
-  // Privacy: prefer on-device voices (localService) so text is not sent to a cloud speech service.
-  // TODO(privacy): ship pre-recorded audio in the real app instead of relying on device voices.
   for (const local of [true, false]) {
     for (const p of prefs) {
       const v = voices.find((x) => norm(x).startsWith(p) && x.localService === local);
@@ -84,28 +91,81 @@ function pickVoice(lang: 'zh' | 'en'): SpeechSynthesisVoice | undefined {
 }
 
 export function hasVoice(lang: 'zh' | 'en'): boolean {
+  if (Object.keys(MANIFEST[lang] ?? {}).length > 0) return true;
   return !!synth && !!pickVoice(lang);
 }
 
-/** Speak text; resolves when finished (or immediately if sound is off / unsupported). */
+export function setSpeechSpeed(rate: number): void {
+  speechSpeed = Math.min(1.6, Math.max(0.7, rate));
+  if (activeAudio) activeAudio.playbackRate = speechSpeed;
+}
+
+export function pauseSpeech(): void {
+  if (activeAudio && !activeAudio.paused) activeAudio.pause();
+  synth?.pause();
+}
+
+export function resumeSpeech(): void {
+  if (activeAudio && activeAudio.paused) void activeAudio.play().catch(() => activeFinish?.());
+  synth?.resume();
+}
+
+export function cancelSpeech(): void {
+  if (activeAudio) {
+    activeAudio.pause();
+    activeAudio.removeAttribute('src');
+    activeAudio = null;
+  }
+  if (activeFinish) {
+    const fn = activeFinish;
+    activeFinish = null;
+    fn();
+  }
+  synth?.cancel();
+}
+
+/** Speak text using pre-generated neural storytelling audio (or Web Speech fallback). */
 export function speak(text: string, lang: 'zh' | 'en'): Promise<void> {
-  if (!synth || !settings().sound || !text) return Promise.resolve();
+  if (!settings().sound || !text) return Promise.resolve();
+  cancelSpeech();
+
+  const file = MANIFEST[lang]?.[text];
+  if (file) {
+    return new Promise((resolve) => {
+      const audio = new Audio(`${base}tts/${file}`);
+      audio.playbackRate = speechSpeed;
+      let done = false;
+      const finish = () => {
+        if (done) return;
+        done = true;
+        if (activeAudio === audio) activeAudio = null;
+        if (activeFinish === finish) activeFinish = null;
+        resolve();
+      };
+      activeAudio = audio;
+      activeFinish = finish;
+      audio.addEventListener('ended', finish, { once: true });
+      audio.addEventListener('error', finish, { once: true });
+      const timer = setTimeout(finish, Math.max(6000, text.length * 320));
+      audio.addEventListener('ended', () => clearTimeout(timer), { once: true });
+      void audio.play().catch(finish);
+    });
+  }
+
+  if (!synth) return Promise.resolve();
   return new Promise((resolve) => {
     const u = new SpeechSynthesisUtterance(text);
     const v = pickVoice(lang);
     if (v) u.voice = v;
     u.lang = v?.lang ?? (lang === 'zh' ? 'zh-CN' : 'en-US');
-    u.rate = lang === 'zh' ? 0.72 : 0.95;
+    u.rate = (lang === 'zh' ? 0.72 : 0.95) * speechSpeed;
     u.pitch = 1.1;
     let done = false;
     const finish = () => { if (!done) { done = true; resolve(); } };
+    activeFinish = finish;
     u.onend = finish;
     u.onerror = finish;
     setTimeout(finish, Math.max(3000, text.length * 250));
     synth.speak(u);
   });
-}
-
-export function cancelSpeech(): void {
-  synth?.cancel();
 }

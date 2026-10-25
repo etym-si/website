@@ -6,7 +6,7 @@ import { PICTURES } from '../pictures';
 import { tx } from '../i18n';
 import { BY_CHAR, displayChar } from '../data/chars';
 import { settings } from '../settings';
-import { speak, cancelSpeech } from '../audio';
+import { speak, cancelSpeech, pauseSpeech, resumeSpeech, setSpeechSpeed } from '../audio';
 import type { StageId } from '../data/stages';
 import type { Ambient, Gait, Step, Tone } from './script';
 import type { Actor, Stage } from './stage';
@@ -49,6 +49,8 @@ const TONES: Record<Tone, { fill: string; opacity: number }> = {
 export class Player {
   private running = new Set<Animation>();
   private loops = new Set<Animation>();
+  private pendingSpeech: Promise<void> | null = null;
+  private speakingNarration = false;
   private gen = 0;
   private _speed = 1;
   private _paused = false;
@@ -65,6 +67,7 @@ export class Player {
 
   setSpeed(x: number): void {
     this._speed = x;
+    setSpeechSpeed(x);
     for (const a of [...this.running, ...this.loops]) a.playbackRate = x;
   }
 
@@ -72,13 +75,14 @@ export class Player {
     if (this._paused) return;
     this._paused = true;
     for (const a of [...this.running, ...this.loops]) a.pause();
-    cancelSpeech();
+    pauseSpeech();
   }
 
   resume(): void {
     if (!this._paused) return;
     this._paused = false;
     for (const a of [...this.running, ...this.loops]) a.play();
+    resumeSpeech();
   }
 
   stop(): void {
@@ -86,8 +90,18 @@ export class Player {
     for (const a of [...this.running, ...this.loops]) a.cancel();
     this.running.clear();
     this.loops.clear();
+    this.pendingSpeech = null;
+    this.speakingNarration = false;
     this._paused = false;
     cancelSpeech();
+  }
+
+  private async finishSpeech(gen: number): Promise<void> {
+    const p = this.pendingSpeech;
+    if (!p) return;
+    this.pendingSpeech = null;
+    await p;
+    this.check(gen);
   }
 
   /** Play a script from the start. Resolves true when it ran to completion, false if stopped. */
@@ -103,6 +117,7 @@ export class Player {
         this.hooks.onStep?.(i);
         await this.exec(script[i], gen);
       }
+      await this.finishSpeech(gen);
       this.hooks.onStep?.(-1);
       return gen === this.gen;
     } catch (e) {
@@ -265,9 +280,11 @@ export class Player {
         return this.anim(S.tint, [{ opacity: tone.opacity, fill: tone.fill }], st.ms ?? 1500, gen);
       }
       case 'stage':
+        await this.finishSpeech(gen);
         this.hooks.onStage?.(st.stage, st.variant);
         return;
       case 'caption':
+        await this.finishSpeech(gen);
         this.hooks.onCaption?.(st.text ? tx(st.text) : null);
         return;
       case 'tag':
@@ -275,11 +292,29 @@ export class Player {
       case 'say': {
         const text = typeof st.text === 'string' ? st.text : tx(st.text);
         const lang = st.lang === 'zh' ? 'zh' : settings().lang;
+        if (!st.wait) {
+          // Character tag callout inside a story beat: speak when narration is off/silent
+          if (!st.silent && !this.speakingNarration) void speak(text, lang);
+          return;
+        }
+        await this.finishSpeech(gen);
+        this.speakingNarration = !st.silent && st.lang === 'ui';
         const p = st.silent ? Promise.resolve() : speak(text, lang);
-        if (st.wait) {
-          // pace by the narrator, but always leave enough time to read the caption (sound may be off)
-          const readMs = Math.max(1700, text.length * (lang === 'zh' ? 170 : 55));
-          await Promise.all([p, this.wait(readMs, gen)]);
+        const readMs = Math.max(1700, text.length * (lang === 'zh' ? 170 : 55));
+        const task = Promise.all([p, this.wait(readMs, gen)])
+          .then(() => {
+            this.speakingNarration = false;
+            return this.wait(220, gen);
+          })
+          .catch(() => {
+            this.speakingNarration = false;
+          });
+        if (st.lang === 'zh') {
+          await task;
+          this.check(gen);
+        } else {
+          // Run narration concurrently with the visual steps that follow, awaiting before the next caption/stage/end
+          this.pendingSpeech = task;
         }
         return;
       }

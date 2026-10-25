@@ -176,12 +176,12 @@ export interface Unit {
 }
 
 export const UNITS: Unit[] = [
-  { n: 1, title: m('Morning in the Mountains', '山林的早晨', '山林的早晨'), chars: CHARS.slice(0, 6).map((x) => x.char), color: '#2fb67c', playable: true },
-  { n: 2, title: m('The Horse Rider', '骑马的人', '騎馬的人'), chars: CHARS.slice(6, 12).map((x) => x.char), color: '#f08a24', playable: true },
-  { n: 3, title: m('Gone Fishing', '去捕鱼', '去捕魚'), chars: CHARS.slice(12, 18).map((x) => x.char), color: '#3d8fe0', playable: false },
-  { n: 4, title: m('The Storm', '暴风雨', '暴風雨'), chars: CHARS.slice(18, 24).map((x) => x.char), color: '#8b5cf6', playable: false },
-  { n: 5, title: m('The Tiger', '老虎来了', '老虎來了'), chars: CHARS.slice(24, 30).map((x) => x.char), color: '#e8453c', playable: false },
-  { n: 6, title: m('Home Again', '回家', '回家'), chars: CHARS.slice(30, 36).map((x) => x.char), color: '#d99a00', playable: false },
+  { n: 1, title: m('Sunrise in the Valley', '山谷的日出', '山谷的日出'), chars: CHARS.slice(0, 6).map((x) => x.char), color: '#2fb67c', playable: true },
+  { n: 2, title: m('Galloping Across the Meadow', '田野上的奔跑', '田野上的奔跑'), chars: CHARS.slice(6, 12).map((x) => x.char), color: '#f08a24', playable: true },
+  { n: 3, title: m('Casting the Net', '小船去捕鱼', '小船去捕魚'), chars: CHARS.slice(12, 18).map((x) => x.char), color: '#3d8fe0', playable: false },
+  { n: 4, title: m('Shelter Under the Cliff', '山崖下避雨', '山崖下避雨'), chars: CHARS.slice(18, 24).map((x) => x.char), color: '#8b5cf6', playable: false },
+  { n: 5, title: m('Grandpa Chases the Tiger', '爷爷吓跑大老虎', '爺爺嚇跑大老虎'), chars: CHARS.slice(24, 30).map((x) => x.char), color: '#e8453c', playable: false },
+  { n: 6, title: m('Home Under the Crescent Moon', '月光下回家', '月光下回家'), chars: CHARS.slice(30, 36).map((x) => x.char), color: '#d99a00', playable: false },
 ];
 
 export type LessonKind = 'learn' | 'review' | 'story';

@@ -8,6 +8,7 @@ import { evolutionScript, withoutNarration } from '../engine/scripts';
 import { loadGlyph } from '../glyphs';
 import { PICTURES } from '../pictures';
 import { BY_CHAR, UNITS, displayChar } from '../data/chars';
+import { CHAR_STORIES } from '../data/char-stories';
 import { STAGE_BY_ID, type StageId } from '../data/stages';
 import { speak } from '../audio';
 import { artifactFor } from '../data/artifacts';
@@ -52,6 +53,7 @@ export function renderTheater(root: HTMLElement, param: string): () => void {
     narrBtn);
 
   const infoCard = h('div', { class: 'info-card' });
+  const topicBar = h('div', { class: 'story-topic' });
 
   root.replaceChildren(
     header(),
@@ -59,7 +61,7 @@ export function renderTheater(root: HTMLElement, param: string): () => void {
       h('h1', { class: 'page-title' }, `🎭 ${t('theaterTitle')}`),
       h('div', { class: 'theater-grid' },
         picker,
-        h('section', { class: 'theater-main' }, stageBox, caption, tlHost, controls, infoCard),
+        h('section', { class: 'theater-main' }, topicBar, stageBox, caption, tlHost, controls, infoCard),
         h('section', { class: 'theater-side' }, viewer.el))),
   );
 
@@ -109,7 +111,9 @@ export function renderTheater(root: HTMLElement, param: string): () => void {
 
   function renderInfo(ch: string) {
     const info = BY_CHAR[ch];
+    const story = CHAR_STORIES[ch];
     const disp = displayChar(info, settings().script);
+    topicBar.textContent = story ? `📖 ${disp} · ${tx(story.topic)}` : '';
     infoCard.replaceChildren(
       h('div', { class: 'info-char', lang: 'zh' }, disp),
       h('div', { class: 'info-body' },

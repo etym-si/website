@@ -120,6 +120,7 @@ main { padding: 18px; max-width: 1280px; margin: 0 auto; }
 }
 .caption.show { color: var(--ink); border-color: #d9ccb3; }
 .caption:empty::before { content: "· · ·"; color: #d9ccb3; }
+.story-topic { display: inline-block; margin-bottom: 10px; font-weight: 900; font-size: 15px; color: var(--cinnabar); background: #fff8ec; border: 2px solid #eadfca; border-radius: 12px; padding: 6px 14px; }
 .start-overlay {
   position: absolute; inset: 0; display: grid; place-items: center; border: 0; cursor: pointer;
   background: rgba(247, 240, 225, 0.55);
@@ -195,10 +196,10 @@ main { padding: 18px; max-width: 1280px; margin: 0 auto; }
 .script-list code { font-family: inherit; }
 
 /* ---------- story ---------- */
-.tabs { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 14px; }
-.tab { padding: 10px 16px; border-radius: 14px; background: #fff; border: 2px solid #eadfca; font-weight: 800; text-decoration: none; }
+.tabs { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 12px; }
+.tab { padding: 8px 14px; border-radius: 14px; background: #fff; border: 2px solid #eadfca; font-weight: 800; font-size: 14px; text-decoration: none; }
 .tab.on { background: var(--plum); color: #fff; border-color: var(--plum); box-shadow: 0 4px 0 #6a3fd6; }
-.story-main { max-width: 1100px; margin: 0 auto; }
+.story-main { max-width: 860px; margin: 0 auto; }
 .story-main .script-panel { margin-top: 10px; }
 
 /* ---------- learn path ---------- */
