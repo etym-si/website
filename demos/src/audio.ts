@@ -75,6 +75,7 @@ if (synth) {
 let activeAudio: HTMLAudioElement | null = null;
 let activeFinish: (() => void) | null = null;
 let speechSpeed = 1;
+const audioCache = new Map<string, HTMLAudioElement>();
 
 function pickVoice(lang: 'zh' | 'en'): SpeechSynthesisVoice | undefined {
   const prefs = lang === 'zh'
@@ -113,7 +114,7 @@ export function resumeSpeech(): void {
 export function cancelSpeech(): void {
   if (activeAudio) {
     activeAudio.pause();
-    activeAudio.removeAttribute('src');
+    activeAudio.currentTime = 0;
     activeAudio = null;
   }
   if (activeFinish) {
@@ -132,22 +133,31 @@ export function speak(text: string, lang: 'zh' | 'en'): Promise<void> {
   const file = MANIFEST[lang]?.[text];
   if (file) {
     return new Promise((resolve) => {
-      const audio = new Audio(`${base}tts/${file}`);
+      let audio = audioCache.get(file);
+      if (!audio) {
+        audio = new Audio(`${base}tts/${file}`);
+        audio.preload = 'auto';
+        audioCache.set(file, audio);
+      } else {
+        audio.currentTime = 0;
+      }
       audio.playbackRate = speechSpeed;
       let done = false;
       const finish = () => {
         if (done) return;
         done = true;
+        audio.removeEventListener('ended', finish);
+        audio.removeEventListener('error', finish);
+        clearTimeout(timer);
         if (activeAudio === audio) activeAudio = null;
         if (activeFinish === finish) activeFinish = null;
         resolve();
       };
       activeAudio = audio;
       activeFinish = finish;
+      const timer = setTimeout(finish, Math.max(6000, text.length * 320));
       audio.addEventListener('ended', finish, { once: true });
       audio.addEventListener('error', finish, { once: true });
-      const timer = setTimeout(finish, Math.max(6000, text.length * 320));
-      audio.addEventListener('ended', () => clearTimeout(timer), { once: true });
       void audio.play().catch(finish);
     });
   }
