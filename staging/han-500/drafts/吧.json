@@ -1,0 +1,34 @@
+{
+  "id": "吧",
+  "text": { "Hans": "吧", "Hant": "吧" },
+  "readings": { "pinyin": "ba" },
+  "meaning": { "en": "particle for suggestions ('let's…')", "zh-Hans": "走吧", "zh-Hant": "走吧" },
+  "fact": {
+    "en": "吧 has a mouth 口 for the meaning and 巴 for the sound: 巴 bā, 吧 ba, they sound alike! You add it at the end of a sentence, as in 走吧, 'let's go'.",
+    "zh-Hans": "“吧”由表示意思的“口”和表示读音的“巴”组成：“巴”bā，“吧”ba，读起来很像！它常放在句子最后，比如“走吧”。",
+    "zh-Hant": "「吧」由表示意思的「口」和表示讀音的「巴」組成：「巴」bā，「吧」ba，讀起來很像！它常放在句子最後，比如「走吧」。"
+  },
+  "story": {
+    "topic": { "en": "Kitchen Dance Party", "zh-Hans": "厨房舞会", "zh-Hant": "廚房舞會" },
+    "hook": {
+      "en": "Let's dance! Dad turns up the music, and soon the whole family is wiggling and twirling around the kitchen.",
+      "zh-Hans": "我们跳舞吧！爸爸把音乐开大，全家人很快就在厨房里扭来扭去、转起圈来。",
+      "zh-Hant": "我們跳舞吧！爸爸把音樂開大，全家人很快就在廚房裡扭來扭去、轉起圈來。"
+    },
+    "closer": {
+      "en": "A mouth 口 plus 巴: that's 吧, as in 跳舞吧, let's dance!",
+      "zh-Hans": "嘴巴“口”加上“巴”，这就是“跳舞吧”的“吧”！",
+      "zh-Hant": "嘴巴「口」加上「巴」，這就是「跳舞吧」的「吧」！"
+    }
+  },
+  "journey": [],
+  "origin": {
+    "type": "phono-semantic",
+    "parts": [
+      { "char": "口", "role": "meaning", "gloss": { "en": "mouth", "zh-Hans": "嘴巴", "zh-Hant": "嘴巴" } },
+      { "char": "巴", "role": "sound" }
+    ]
+  },
+  "status": "draft",
+  "sources": [ { "title": "Wiktionary: 吧", "url": "https://en.wiktionary.org/wiki/%E5%90%A7" } ]
+}

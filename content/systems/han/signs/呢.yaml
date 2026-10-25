@@ -1,0 +1,21 @@
+id: 呢
+text: { Hans: 呢, Hant: 呢 }
+readings: { pinyin: ne }
+meaning: { en: question particle ('and you?'), zh-Hans: 你呢, zh-Hant: 你呢 }
+fact:
+  en: 呢 has a mouth 口 for the meaning and 尼 for the sound. Add it to bounce a question back, as in 你呢 ('and you?').
+  zh-Hans: “呢”由表示意思的“口”和表示读音的“尼”组成。用它可以把问题抛回去，比如“你呢？”
+  zh-Hant: 「呢」由表示意思的「口」和表示讀音的「尼」組成。用它可以把問題拋回去，比如「你呢？」
+story:
+  topic: { en: Video Call with Grandma, zh-Hans: 和奶奶视频, zh-Hant: 和奶奶視訊 }
+  hook: { en: "I'm great, and you? A girl waves at Grandma on a video call and holds up her newest drawing.", zh-Hans: 我很好，你呢？小女孩和奶奶视频通话，一边挥手，一边举起她的新画。, zh-Hant: 我很好，你呢？小女孩和奶奶視訊，一邊揮手，一邊舉起她的新畫。 }
+  closer: { en: "Toss the question back with a smile: that's 呢, as in 你呢, 'and you?'", zh-Hans: 笑着把问题抛回去，这就是“你呢”的“呢”！, zh-Hant: 笑著把問題拋回去，這就是「你呢」的「呢」！ }
+journey: []
+origin:
+  type: phono-semantic
+  parts:
+    - { char: 口, role: meaning, gloss: { en: mouth, zh-Hans: 嘴巴, zh-Hant: 嘴巴 } }
+    - { char: 尼, role: sound }
+status: draft
+sources:
+  - { title: 'Wiktionary: 呢', url: 'https://en.wiktionary.org/wiki/%E5%91%A2' }

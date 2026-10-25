@@ -1,0 +1,34 @@
+{
+  "id": "息",
+  "text": { "Hans": "息", "Hant": "息" },
+  "readings": { "pinyin": "xī" },
+  "meaning": { "en": "breath; to rest (in 休息)", "zh-Hans": "休息", "zh-Hant": "休息" },
+  "fact": {
+    "en": "息 is a nose 自 over a heart 心: breathing in and out! 自 first meant 'nose' and was later borrowed to mean 'self'.",
+    "zh-Hans": "“息”上面是鼻子“自”，下面是“心”：一呼一吸！“自”本来的意思是鼻子，后来才被借去表示“自己”。",
+    "zh-Hant": "「息」上面是鼻子「自」，下面是「心」：一呼一吸！「自」本來的意思是鼻子，後來才被借去表示「自己」。"
+  },
+  "story": {
+    "topic": { "en": "Breathing Like Sleepy Lions", "zh-Hans": "像狮子一样深呼吸", "zh-Hant": "像獅子一樣深呼吸" },
+    "hook": {
+      "en": "Breathe in, breathe out! In kids' yoga class, everyone lies on their mats and breathes slow and deep like sleepy lions.",
+      "zh-Hans": "吸气，呼气！儿童瑜伽课上，大家躺在垫子上，像困倦的狮子一样慢慢地深呼吸。",
+      "zh-Hant": "吸氣，吐氣！兒童瑜伽課上，大家躺在墊子上，像睏倦的獅子一樣慢慢地深呼吸。"
+    },
+    "closer": {
+      "en": "Nose 自 on top, heart 心 below: that's 息, a breath, as in 休息, taking a rest!",
+      "zh-Hans": "上面是鼻子，下面是心，这就是休息的“息”！",
+      "zh-Hant": "上面是鼻子，下面是心，這就是休息的「息」！"
+    }
+  },
+  "journey": [],
+  "origin": {
+    "type": "compound-ideogram",
+    "parts": [
+      { "char": "自", "role": "meaning", "gloss": { "en": "nose", "zh-Hans": "鼻子", "zh-Hant": "鼻子" } },
+      { "char": "心", "role": "meaning", "gloss": { "en": "heart", "zh-Hans": "心", "zh-Hant": "心" } }
+    ]
+  },
+  "status": "draft",
+  "sources": [ { "title": "Wiktionary: 息", "url": "https://en.wiktionary.org/wiki/%E6%81%AF" } ]
+}

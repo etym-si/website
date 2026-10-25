@@ -1,0 +1,21 @@
+id: 他
+text: { Hans: 他, Hant: 他 }
+readings: { pinyin: tā }
+meaning: { en: 'he, him', zh-Hans: 他们, zh-Hant: 他們 }
+fact:
+  en: 他 has 亻, a person, for the meaning and 也 for the sound. It began as a changed form of an older character, 佗.
+  zh-Hans: “他”由表示人的“亻”和表示读音的“也”组成。它是从一个更老的字“佗”变来的。
+  zh-Hant: 「他」由表示人的「亻」和表示讀音的「也」組成。它是從一個更老的字「佗」變來的。
+story:
+  topic: { en: The Scooter Superhero, zh-Hans: 骑滑板车的超人, zh-Hant: 騎滑板車的超人 }
+  hook: { en: "Whoosh! A boy in a red cape zooms past on his scooter, shouting, 'I'm a superhero!'", zh-Hans: 嗖——！一个披着红斗篷的男孩踩着滑板车飞驰而过，大喊：“我是超人！”, zh-Hant: 咻——！一個披著紅斗篷的男孩踩著滑板車飛馳而過，大喊：「我是超人！」 }
+  closer: { en: "A person 亻 plus 也: that's 他, he! At first it could mean 'she' too, until 她 took over that job.", zh-Hans: 人字旁加上“也”，这就是他们的“他”！以前它也能指女生，后来这个任务交给了“她”。, zh-Hant: 人字旁加上「也」，這就是他們的「他」！以前它也能指女生，後來這個任務交給了「她」。 }
+journey: []
+origin:
+  type: phono-semantic
+  parts:
+    - { char: 亻, role: meaning, gloss: { en: person, zh-Hans: 人, zh-Hant: 人 } }
+    - { char: 也, role: sound }
+status: draft
+sources:
+  - { title: 'Wiktionary: 他', url: 'https://en.wiktionary.org/wiki/%E4%BB%96' }

@@ -1,0 +1,21 @@
+id: 孩
+text: { Hans: 孩, Hant: 孩 }
+readings: { pinyin: hái }
+meaning: { en: child, zh-Hans: 孩子, zh-Hant: 孩子 }
+fact:
+  en: 孩 has 子, a child, on the left for the meaning and 亥 on the right for the sound.
+  zh-Hans: “孩”左边的“子”表示意思，右边的“亥”表示读音。
+  zh-Hant: 「孩」左邊的「子」表示意思，右邊的「亥」表示讀音。
+story:
+  topic: { en: Round and Round We Go, zh-Hans: 转圈圈, zh-Hant: 轉圈圈 }
+  hook: { en: 'Round and round! A circle of children holds hands and spins until everyone flops onto the grass, dizzy and laughing.', zh-Hans: 转圈圈！一群孩子手拉手围成一个圆圈，转呀转，最后晕乎乎地倒在草地上哈哈大笑。, zh-Hant: 轉圈圈！一群孩子手拉手圍成一個圓圈，轉呀轉，最後暈乎乎地倒在草地上哈哈大笑。 }
+  closer: { en: "子 for the meaning, 亥 for the sound: that's 孩, as in 孩子, a child just like you!", zh-Hans: “子”管意思，“亥”管读音，这就是孩子的“孩”，就像你一样！, zh-Hant: 「子」管意思，「亥」管讀音，這就是孩子的「孩」，就像你一樣！ }
+journey: []
+origin:
+  type: phono-semantic
+  parts:
+    - { char: 子, role: meaning, gloss: { en: child, zh-Hans: 孩子, zh-Hant: 孩子 } }
+    - { char: 亥, role: sound }
+status: draft
+sources:
+  - { title: 'Wiktionary: 孩', url: 'https://en.wiktionary.org/wiki/%E5%AD%A9' }

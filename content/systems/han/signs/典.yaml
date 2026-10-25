@@ -1,0 +1,21 @@
+id: 典
+text: { Hans: 典, Hant: 典 }
+readings: { pinyin: diǎn }
+meaning: { en: important book; dictionary (in 字典), zh-Hans: 字典, zh-Hant: 字典 }
+fact:
+  en: '典 shows books 册 (冊) resting on a table 丌: important books, set out with care.'
+  zh-Hans: “典”画的是放在桌子“丌”上的书“册”：郑重摆好的重要书籍。
+  zh-Hant: 「典」畫的是放在桌子「丌」上的書「冊」：鄭重擺好的重要書籍。
+story:
+  topic: { en: Looking It Up in the Dictionary, zh-Hans: 查字典, zh-Hant: 查字典 }
+  hook: { en: 'Thump! A heavy dictionary lands on the desk, and the whole class crowds around to look up a tricky word.', zh-Hans: 咚！一本厚厚的字典放到了桌上，全班同学都围过来查一个难字。, zh-Hant: 咚！一本厚厚的字典放到了桌上，全班同學都圍過來查一個難字。 }
+  closer: { en: "The top looks like 曲, but it's really books on a table: that's 典, as in 字典, a dictionary!", zh-Hans: 上面像“曲”，其实是桌上的书，这就是字典的“典”！, zh-Hant: 上面像「曲」，其實是桌上的書，這就是字典的「典」！ }
+journey: default
+origin:
+  type: compound-ideogram
+  parts:
+    - { char: 冊, role: meaning, gloss: { en: books, zh-Hans: 书册, zh-Hant: 書冊 } }
+    - { char: 丌, role: meaning, gloss: { en: table, zh-Hans: 桌子, zh-Hant: 桌子 } }
+status: draft
+sources:
+  - { title: 'Wiktionary: 典', url: 'https://en.wiktionary.org/wiki/%E5%85%B8' }

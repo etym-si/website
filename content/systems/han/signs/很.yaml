@@ -1,0 +1,21 @@
+id: 很
+text: { Hans: 很, Hant: 很 }
+readings: { pinyin: hěn }
+meaning: { en: very, zh-Hans: 很好, zh-Hant: 很好 }
+fact:
+  en: 很 has 彳 on the left for the meaning and 艮 on the right for the sound. Today it's the handy word for 'very', as in 很大, very big!
+  zh-Hans: “很”左边的“彳”表示意思，右边的“艮”表示读音。今天它就是表示“非常”的“很”，比如“很大”！
+  zh-Hant: 「很」左邊的「彳」表示意思，右邊的「艮」表示讀音。今天它就是表示「非常」的「很」，比如「很大」！
+story:
+  topic: { en: 'Very, Very Sleepy', zh-Hans: 很困很困, zh-Hant: 很睏很睏 }
+  hook: { en: 'Nod, nod, snore! Little brother is so very sleepy that he dozes off in his high chair, spoon still in hand.', zh-Hans: 点点头，点点头，呼噜！弟弟很困很困，手里还拿着勺子，就在宝宝椅上睡着了。, zh-Hant: 點點頭，點點頭，呼嚕！弟弟很睏很睏，手裡還拿著湯匙，就在寶寶椅上睡著了。 }
+  closer: { en: "彳 plus 艮: that's 很, very, as in 很困, very sleepy!", zh-Hans: “彳”加上“艮”，这就是“很困”的“很”！, zh-Hant: 「彳」加上「艮」，這就是「很睏」的「很」！ }
+journey: []
+origin:
+  type: phono-semantic
+  parts:
+    - { char: 彳, role: meaning }
+    - { char: 艮, role: sound }
+status: draft
+sources:
+  - { title: 'Wiktionary: 很', url: 'https://en.wiktionary.org/wiki/%E5%BE%88' }

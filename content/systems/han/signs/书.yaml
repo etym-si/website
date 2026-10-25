@@ -1,0 +1,23 @@
+id: 书
+text: { Hans: 书, Hant: 書 }
+readings: { pinyin: shū }
+meaning: { en: book, zh-Hans: 书本, zh-Hant: 書本 }
+fact:
+  en: 书 (書) pairs a writing brush 聿 for the meaning with 者 for the sound.
+  zh-Hans: “书”的繁体字“書”由表示意思的毛笔“聿”和表示读音的“者”组成。
+  zh-Hant: 「書」由表示意思的毛筆「聿」和表示讀音的「者」組成。
+story:
+  topic: { en: The Giant Volcano Book, zh-Hans: 超大的火山书, zh-Hant: 超大的火山書 }
+  hook: { en: 'Look what I found! In the quiet school library, a boy pulls out a giant book about volcanoes and hugs it with both arms.', zh-Hans: 看我找到了什么！安静的学校图书馆里，小男孩抽出一本超大的火山书，用两只胳膊紧紧抱住。, zh-Hant: 看我找到了什麼！安靜的學校圖書館裡，小男孩抽出一本超大的火山書，用兩隻胳膊緊緊抱住。 }
+  turn: { en: Simplified 书 comes from quick cursive handwriting. Now it looks like a simple hand holding a brush., zh-Hans: 简化字“书”来自写得飞快的草书。现在它看起来像一只简单的手握着一支笔。, zh-Hant: 簡化字是從寫得飛快的草書來的，現在看起來像一隻簡單的手握著一支筆。 }
+  closer: { en: "A brush for the meaning, 者 for the sound: that's 书 (書), a book!", zh-Hans: 毛笔管意思，“者”管读音，这就是书本的“书”！, zh-Hant: 毛筆管意思，「者」管讀音，這就是書本的「書」！ }
+journey: default
+origin:
+  type: phono-semantic
+  parts:
+    - { char: 聿, role: meaning, gloss: { en: writing brush, zh-Hans: 毛笔, zh-Hant: 毛筆 } }
+    - { char: 者, role: sound }
+status: draft
+sources:
+  - { title: 'Wiktionary: 书', url: 'https://en.wiktionary.org/wiki/%E4%B9%A6' }
+  - { title: 'Wiktionary: 書', url: 'https://en.wiktionary.org/wiki/%E6%9B%B8' }

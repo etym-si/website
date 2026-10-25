@@ -1,0 +1,23 @@
+id: 热
+text: { Hans: 热, Hant: 熱 }
+readings: { pinyin: rè }
+meaning: { en: hot, zh-Hans: 热水, zh-Hant: 熱水 }
+fact:
+  en: 热 (熱) has fire 灬 at the bottom for the meaning and 埶 on top for the sound. Those four dots 灬 are a way of writing fire 火!
+  zh-Hans: “热”的繁体字“熱”，下面是表示意思的火“灬”，上面是表示读音的“埶”。这四个点就是“火”的另一种写法！
+  zh-Hant: 「熱」下面是表示意思的火「灬」，上面是表示讀音的「埶」。這四個點就是「火」的另一種寫法！
+story:
+  topic: { en: A Steaming Sweet Potato, zh-Hans: 热乎乎的烤红薯, zh-Hant: 熱呼呼的烤地瓜 }
+  hook: { en: 'Hah, hah, hot! A boy bites into a roasted sweet potato from the street cart and huffs and puffs to cool it down.', zh-Hans: 哈，哈，好烫！小男孩咬了一口刚从小推车上买来的烤红薯，呼呼地直吹气。, zh-Hant: 哈，哈，好燙！小男孩咬了一口剛從小推車上買來的烤地瓜，呼呼地直吹氣。 }
+  turn: { en: Simplified 热 swaps the sound part 埶 for the simpler 执., zh-Hans: 简化字“热”把表示读音的“埶”换成了更简单的“执”。, zh-Hant: 簡化字則把上面表示讀音的「埶」寫得更簡單。 }
+  closer: { en: "Fire 灬 underneath, the sound part on top: that's 热 (熱), hot!", zh-Hans: 下面烧着火，上面管读音，这就是热水的“热”！, zh-Hant: 下面燒著火，上面管讀音，這就是熱水的「熱」！ }
+journey: default
+origin:
+  type: phono-semantic
+  parts:
+    - { char: 灬, role: meaning, gloss: { en: fire, zh-Hans: 火, zh-Hant: 火 } }
+    - { char: 埶, role: sound }
+status: draft
+sources:
+  - { title: 'Wiktionary: 热', url: 'https://en.wiktionary.org/wiki/%E7%83%AD' }
+  - { title: 'Wiktionary: 熱', url: 'https://en.wiktionary.org/wiki/%E7%86%B1' }

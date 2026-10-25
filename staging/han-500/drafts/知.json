@@ -1,0 +1,40 @@
+{
+  "id": "知",
+  "text": { "Hans": "知", "Hant": "知" },
+  "readings": { "pinyin": "zhī" },
+  "meaning": { "en": "to know", "zh-Hans": "知道", "zh-Hant": "知道" },
+  "fact": {
+    "en": "The oldest 知 was a grown-up 大, a mouth 口 and a child 子: passing knowledge from grown-up to child! 知 and 智 started out as the same character.",
+    "zh-Hans": "最早的“知”由大人“大”、嘴巴“口”和孩子“子”组成：大人把知识讲给孩子听！“知”和“智”原来是同一个字。",
+    "zh-Hant": "最早的「知」由大人「大」、嘴巴「口」和孩子「子」組成：大人把知識講給孩子聽！「知」和「智」原來是同一個字。"
+  },
+  "story": {
+    "topic": { "en": "Auntie Knows That Song", "zh-Hans": "阿姨听声识鸟", "zh-Hant": "阿姨聽聲識鳥" },
+    "hook": {
+      "en": "Chatter, chatter! Auntie Mei closes her eyes, listens for a moment, and knows right away: 'That's a magpie!'",
+      "zh-Hans": "喳喳，喳喳！梅阿姨闭上眼睛听了一会儿，马上就知道：“那是喜鹊！”",
+      "zh-Hant": "喳喳，喳喳！梅阿姨閉上眼睛聽了一會兒，馬上就知道：「那是喜鵲！」"
+    },
+    "turn": {
+      "en": "Later 大 turned into 矢, which also gave the sound, and the child 子 was dropped. That left today's 知: 矢 and 口.",
+      "zh-Hans": "后来，“大”变成了“矢”，还兼管读音；孩子“子”也慢慢省掉了，就成了今天的“知”：“矢”加“口”。",
+      "zh-Hant": "後來，「大」變成了「矢」，還兼管讀音；孩子「子」也慢慢省掉了，就成了今天的「知」：「矢」加「口」。"
+    },
+    "closer": {
+      "en": "From grown-up to child, knowledge passes along: that's 知, to know!",
+      "zh-Hans": "知识从大人传给孩子，这就是知道的“知”！",
+      "zh-Hant": "知識從大人傳給孩子，這就是知道的「知」！"
+    }
+  },
+  "journey": "default",
+  "origin": {
+    "type": "compound-ideogram",
+    "parts": [
+      { "char": "大", "role": "meaning", "gloss": { "en": "grown-up", "zh-Hans": "大人", "zh-Hant": "大人" } },
+      { "char": "口", "role": "meaning", "gloss": { "en": "mouth", "zh-Hans": "嘴巴", "zh-Hant": "嘴巴" } },
+      { "char": "子", "role": "meaning", "gloss": { "en": "child", "zh-Hans": "孩子", "zh-Hant": "孩子" } }
+    ]
+  },
+  "status": "draft",
+  "sources": [ { "title": "Wiktionary: 知", "url": "https://en.wiktionary.org/wiki/%E7%9F%A5" } ]
+}

@@ -1,0 +1,21 @@
+id: 念
+text: { Hans: 念, Hant: 念 }
+readings: { pinyin: niàn }
+meaning: { en: 'to miss, to think of', zh-Hans: 想念, zh-Hant: 想念 }
+fact:
+  en: 'Some scholars think 念 shows an upside-down mouth (written like 今) over a heart 心: listening to your own heart.'
+  zh-Hans: 有学者认为，“念”上面是一张倒过来的嘴（写得像“今”），下面是“心”：倾听自己的心声。
+  zh-Hant: 有學者認為，「念」上面是一張倒過來的嘴（寫得像「今」），下面是「心」：傾聽自己的心聲。
+story:
+  topic: { en: Missing a Faraway Friend, zh-Hans: 想念远方的好朋友, zh-Hant: 想念遠方的好朋友 }
+  hook: { en: 'Hug the photo! At bedtime, a girl looks at a picture of her best friend who moved far away, and wishes she were here.', zh-Hans: 抱紧照片！睡觉前，小女孩看着搬到远方的好朋友的照片，真希望她就在身边。, zh-Hant: 抱緊照片！睡覺前，小女孩看著搬到遠方的好朋友的照片，真希望她就在身邊。 }
+  closer: { en: "When your heart 心 keeps thinking of someone, that's 念, to miss!", zh-Hans: 心里一直想着一个人，这就是想念的“念”！, zh-Hant: 心裡一直想著一個人，這就是想念的「念」！ }
+journey: default
+origin:
+  type: compound-ideogram
+  parts:
+    - { char: 亼, role: meaning, gloss: { en: upside-down mouth, zh-Hans: 倒过来的嘴, zh-Hant: 倒過來的嘴 } }
+    - { char: 心, role: meaning, gloss: { en: heart, zh-Hans: 心, zh-Hant: 心 } }
+status: draft
+sources:
+  - { title: 'Wiktionary: 念', url: 'https://en.wiktionary.org/wiki/%E5%BF%B5' }

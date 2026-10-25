@@ -1,0 +1,34 @@
+{
+  "id": "爸",
+  "text": { "Hans": "爸", "Hant": "爸" },
+  "readings": { "pinyin": "bà" },
+  "meaning": { "en": "dad, father", "zh-Hans": "爸爸", "zh-Hant": "爸爸" },
+  "fact": {
+    "en": "爸 has 父, father, on top for the meaning and 巴 below for the sound. Say 巴 bā and 爸 bà: they sound alike!",
+    "zh-Hans": "“爸”上面的“父”是父亲，表示意思；下面的“巴”表示读音。读一读：“巴”bā，“爸”bà，是不是很像？",
+    "zh-Hant": "「爸」上面的「父」是父親，表示意思；下面的「巴」表示讀音。讀一讀：「巴」bā，「爸」bà，是不是很像？"
+  },
+  "story": {
+    "topic": { "en": "Giddy-Up, Daddy Horse!", "zh-Hans": "爸爸当大马", "zh-Hant": "爸爸當大馬" },
+    "hook": {
+      "en": "Giddy-up! Dad crawls around the living room with a giggling toddler riding on his back.",
+      "zh-Hans": "驾，驾！爸爸趴在客厅地上，背着咯咯笑的小宝宝到处爬。",
+      "zh-Hant": "駕，駕！爸爸趴在客廳地上，背著咯咯笑的小寶寶到處爬。"
+    },
+    "closer": {
+      "en": "Father 父 on top, 巴 humming the sound below: that's 爸, as in 爸爸, Dad!",
+      "zh-Hans": "上面是父亲的“父”，下面的“巴”来配音，这就是爸爸的“爸”！",
+      "zh-Hant": "上面是父親的「父」，下面的「巴」來配音，這就是爸爸的「爸」！"
+    }
+  },
+  "journey": [],
+  "origin": {
+    "type": "phono-semantic",
+    "parts": [
+      { "char": "父", "role": "meaning", "gloss": { "en": "father", "zh-Hans": "父亲", "zh-Hant": "父親" } },
+      { "char": "巴", "role": "sound" }
+    ]
+  },
+  "status": "draft",
+  "sources": [ { "title": "Wiktionary: 爸", "url": "https://en.wiktionary.org/wiki/%E7%88%B8" } ]
+}

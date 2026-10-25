@@ -1,0 +1,40 @@
+{
+  "id": "得",
+  "text": { "Hans": "得", "Hant": "得" },
+  "readings": { "pinyin": "dé" },
+  "meaning": { "en": "to get, to obtain", "zh-Hans": "得到", "zh-Hant": "得到" },
+  "fact": {
+    "en": "得 began as a hand 又 grabbing a cowrie shell 贝 (貝): picking up something valuable! Sometimes 彳 was added to show the shell was found on the road.",
+    "zh-Hans": "“得”最早是一只手“又”抓住一枚贝壳“贝”：捡到宝贝啦！有时还加上“彳”，表示贝壳是在路上捡到的。",
+    "zh-Hant": "「得」最早是一隻手「又」抓住一枚貝殼「貝」：撿到寶貝啦！有時還加上「彳」，表示貝殼是在路上撿到的。"
+  },
+  "story": {
+    "topic": { "en": "Winning at the Ring Toss", "zh-Hans": "套圈赢大奖", "zh-Hant": "套圈贏大獎" },
+    "hook": {
+      "en": "Ringer! At the carnival, a boy finally lands his ring on a bottle and wins a giant stuffed banana.",
+      "zh-Hans": "套中啦！游园会上，小男孩终于把圈套在瓶子上，赢得了一根超大的香蕉玩偶。",
+      "zh-Hant": "套中囉！園遊會上，小男孩終於把圈套在瓶子上，贏得了一根超大的香蕉玩偶。"
+    },
+    "turn": {
+      "en": "Over time the hand 又 got an extra line and became 寸, and the shell slimmed down to 目 and then to 旦. That's why the right side of today's 得 shows 旦 over 寸!",
+      "zh-Hans": "后来，手“又”多了一横，变成了“寸”；贝壳先简化成“目”，又变成了“旦”。所以今天“得”的右边是“旦”加“寸”！",
+      "zh-Hant": "後來，手「又」多了一橫，變成了「寸」；貝殼先簡化成「目」，又變成了「旦」。所以今天「得」的右邊是「旦」加「寸」！"
+    },
+    "closer": {
+      "en": "A hand grabbing a treasure by the road: that's 得, to get!",
+      "zh-Hans": "在路上用手捡到宝贝，这就是得到的“得”！",
+      "zh-Hant": "在路上用手撿到寶貝，這就是得到的「得」！"
+    }
+  },
+  "journey": "default",
+  "origin": {
+    "type": "compound-ideogram",
+    "parts": [
+      { "char": "貝", "role": "meaning", "gloss": { "en": "cowrie shell", "zh-Hans": "贝壳", "zh-Hant": "貝殼" } },
+      { "char": "又", "role": "meaning", "gloss": { "en": "hand", "zh-Hans": "手", "zh-Hant": "手" } },
+      { "char": "彳", "role": "meaning", "gloss": { "en": "road", "zh-Hans": "道路", "zh-Hant": "道路" } }
+    ]
+  },
+  "status": "draft",
+  "sources": [ { "title": "Wiktionary: 得", "url": "https://en.wiktionary.org/wiki/%E5%BE%97" } ]
+}

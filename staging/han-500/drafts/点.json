@@ -1,0 +1,37 @@
+{
+  "id": "点",
+  "text": { "Hans": "点", "Hant": "點" },
+  "readings": { "pinyin": "diǎn" },
+  "meaning": { "en": "dot, spot", "zh-Hans": "雨点", "zh-Hant": "雨點" },
+  "fact": {
+    "en": "点 (點) has black 黑 for the meaning and 占 for the sound: a little black spot!",
+    "zh-Hans": "“点”的繁体字“點”，由表示意思的“黑”和表示读音的“占”组成：一个小黑点！",
+    "zh-Hant": "「點」由表示意思的「黑」和表示讀音的「占」組成：一個小黑點！"
+  },
+  "story": {
+    "topic": { "en": "Connect the Dots", "zh-Hans": "连点成画", "zh-Hant": "連點成畫" },
+    "hook": {
+      "en": "Connect the dots! A boy draws a line from dot to dot, and a hidden sailboat appears on the page.",
+      "zh-Hans": "连一连！小男孩把一个个小点连起来，纸上出现了一艘藏起来的小帆船。",
+      "zh-Hant": "連一連！小男孩把一個個小點連起來，紙上出現了一艘藏起來的小帆船。"
+    },
+    "closer": {
+      "en": "Black 黑 for the meaning, 占 for the sound: that's 点 (點), a dot!",
+      "zh-Hans": "“黑”管意思，“占”管读音，这就是雨点的“点”！",
+      "zh-Hant": "「黑」管意思，「占」管讀音，這就是雨點的「點」！"
+    }
+  },
+  "journey": "default",
+  "origin": {
+    "type": "phono-semantic",
+    "parts": [
+      { "char": "黑", "role": "meaning", "gloss": { "en": "black", "zh-Hans": "黑色", "zh-Hant": "黑色" } },
+      { "char": "占", "role": "sound" }
+    ]
+  },
+  "status": "draft",
+  "sources": [
+    { "title": "Wiktionary: 点", "url": "https://en.wiktionary.org/wiki/%E7%82%B9" },
+    { "title": "Wiktionary: 點", "url": "https://en.wiktionary.org/wiki/%E9%BB%9E" }
+  ]
+}

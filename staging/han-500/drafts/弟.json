@@ -1,0 +1,30 @@
+{
+  "id": "弟",
+  "text": { "Hans": "弟", "Hant": "弟" },
+  "readings": { "pinyin": "dì" },
+  "meaning": { "en": "younger brother", "zh-Hans": "弟弟", "zh-Hant": "弟弟" },
+  "fact": {
+    "en": "弟 began as a spear handle wrapped with a leather strap. The neat wrapping meant 'order', one after another, and that led to 'younger brother'.",
+    "zh-Hans": "“弟”最早画的是一根缠着皮带的矛柄。一圈一圈缠得整整齐齐，表示“次序”，后来就有了“弟弟”的意思。",
+    "zh-Hant": "「弟」最早畫的是一根纏著皮帶的矛柄。一圈一圈纏得整整齊齊，表示「次序」，後來就有了「弟弟」的意思。"
+  },
+  "story": {
+    "topic": { "en": "Little Brother's First Haircut", "zh-Hans": "弟弟第一次理发", "zh-Hant": "弟弟第一次剪頭髮" },
+    "hook": {
+      "en": "Brave boy! Little brother sits very still for his very first haircut, then giggles at the fluffy curls on the floor.",
+      "zh-Hans": "真勇敢！弟弟第一次理发，坐得一动不动，看到地上软软的头发卷又咯咯笑了。",
+      "zh-Hant": "真勇敢！弟弟第一次剪頭髮，坐得一動不動，看到地上軟軟的捲髮又咯咯笑了。"
+    },
+    "closer": {
+      "en": "A strap wound in order around a handle: that's 弟, as in 弟弟, little brother!",
+      "zh-Hans": "皮带整整齐齐地缠在矛柄上，这就是弟弟的“弟”！",
+      "zh-Hant": "皮帶整整齊齊地纏在矛柄上，這就是弟弟的「弟」！"
+    }
+  },
+  "journey": "default",
+  "origin": {
+    "type": "pictogram"
+  },
+  "status": "draft",
+  "sources": [ { "title": "Wiktionary: 弟", "url": "https://en.wiktionary.org/wiki/%E5%BC%9F" } ]
+}

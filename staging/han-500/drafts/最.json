@@ -1,0 +1,39 @@
+{
+  "id": "最",
+  "text": { "Hans": "最", "Hant": "最" },
+  "readings": { "pinyin": "zuì" },
+  "meaning": { "en": "most, -est", "zh-Hans": "最好", "zh-Hant": "最好" },
+  "fact": {
+    "en": "最 began as 㝡: a roof 宀 for the meaning and 取 for the sound, meaning 'to gather'. Later two little marks 二 were added so it could mean 'the most'.",
+    "zh-Hans": "“最”最早写作“㝡”：“宀”（屋顶）表示意思，“取”表示读音，意思是“聚集”。后来又加上两小横“二”作记号，用来表示“最”。",
+    "zh-Hant": "「最」最早寫作「㝡」：「宀」（屋頂）表示意思，「取」表示讀音，意思是「聚集」。後來又加上兩小橫「二」作記號，用來表示「最」。"
+  },
+  "story": {
+    "topic": { "en": "The Quiet Game", "zh-Hans": "谁能安静最久", "zh-Hant": "誰能安靜最久" },
+    "hook": {
+      "en": "Who can stay quiet the longest? Dad lasts three whole seconds in the quiet game, then bursts out laughing.",
+      "zh-Hans": "谁能安静最久？玩“不说话”游戏时，爸爸才坚持了三秒钟，就哈哈大笑起来。",
+      "zh-Hant": "誰能安靜最久？玩「不說話」遊戲時，爸爸才撐了三秒鐘，就哈哈大笑起來。"
+    },
+    "turn": {
+      "en": "Over time, the roof and the two marks squeezed together into the top of 最, with 取 still sitting underneath.",
+      "zh-Hans": "后来，屋顶和两小横挤在一起，变成了“最”的上半部分，“取”还在下面。",
+      "zh-Hant": "後來，屋頂和兩小橫擠在一起，變成了「最」的上半部分，「取」還在下面。"
+    },
+    "closer": {
+      "en": "A roof, two marks and 取: that's 最, the most, as in 最好, the very best!",
+      "zh-Hans": "屋顶、两小横和“取”，合起来就是最好的“最”！",
+      "zh-Hant": "屋頂、兩小橫和「取」，合起來就是最好的「最」！"
+    }
+  },
+  "journey": "default",
+  "origin": {
+    "type": "phono-semantic",
+    "parts": [
+      { "char": "宀", "role": "meaning", "gloss": { "en": "roof", "zh-Hans": "屋顶", "zh-Hant": "屋頂" } },
+      { "char": "取", "role": "sound" }
+    ]
+  },
+  "status": "draft",
+  "sources": [ { "title": "Wiktionary: 最", "url": "https://en.wiktionary.org/wiki/%E6%9C%80" } ]
+}

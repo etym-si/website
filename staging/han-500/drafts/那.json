@@ -1,0 +1,30 @@
+{
+  "id": "那",
+  "text": { "Hans": "那", "Hant": "那" },
+  "readings": { "pinyin": "nà" },
+  "meaning": { "en": "that", "zh-Hans": "那个", "zh-Hant": "那個" },
+  "fact": {
+    "en": "那 was first the name of an old state: 邑, a city, gave the meaning and 冄 the sound. Later it was borrowed to mean 'that'.",
+    "zh-Hans": "“那”本来是一个古国的名字：“邑”（城邑）表示意思，“冄”表示读音。后来它被借来表示“那个”。",
+    "zh-Hant": "「那」本來是一個古國的名字：「邑」（城邑）表示意思，「冄」表示讀音。後來它被借來表示「那個」。"
+  },
+  "story": {
+    "topic": { "en": "The Faraway Balloon", "zh-Hans": "远处的热气球", "zh-Hant": "遠處的熱氣球" },
+    "hook": {
+      "en": "See that one over there? A boy points across the valley at a striped hot-air balloon drifting above the hills.",
+      "zh-Hans": "看到那个了吗？小男孩指着山谷那边，一个条纹热气球正飘在山顶上空。",
+      "zh-Hant": "看到那個了嗎？小男孩指著山谷那邊，一個條紋熱氣球正飄在山頂上空。"
+    },
+    "closer": {
+      "en": "Once the name of an old state, now it points over there: that's 那, that!",
+      "zh-Hans": "从前是古国的名字，现在用来指远处，这就是那里的“那”！",
+      "zh-Hant": "從前是古國的名字，現在用來指遠處，這就是那裡的「那」！"
+    }
+  },
+  "journey": "default",
+  "origin": {
+    "type": "loan"
+  },
+  "status": "draft",
+  "sources": [ { "title": "Wiktionary: 那", "url": "https://en.wiktionary.org/wiki/%E9%82%A3" } ]
+}

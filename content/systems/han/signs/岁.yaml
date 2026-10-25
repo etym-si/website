@@ -1,0 +1,23 @@
+id: 岁
+text: { Hans: 岁, Hant: 歲 }
+readings: { pinyin: suì }
+meaning: { en: year (of age), zh-Hans: 几岁, zh-Hant: 幾歲 }
+fact:
+  en: 岁 (歲) was built from 步, walking feet, for the meaning, and 戉 for the sound. The walking shows time marching on!
+  zh-Hans: “岁”的繁体字是“歲”，由表示意思的“步”（走路）和表示读音的“戉”组成。走路，表示时间一直在往前走！
+  zh-Hant: 「歲」由表示意思的「步」（走路）和表示讀音的「戉」組成。走路，表示時間一直在往前走！
+story:
+  topic: { en: Almost Six!, zh-Hans: 快六岁啦！, zh-Hant: 快六歲囉！ }
+  hook: { en: "How old are you? A little boy proudly holds up five fingers, then wiggles one more: 'Almost six!'", zh-Hans: 你几岁啦？小男孩骄傲地伸出五根手指，又动了动第六根：“快六岁啦！”, zh-Hant: 你幾歲啦？小男孩驕傲地伸出五根手指，又動了動第六根：「快六歲囉！」 }
+  early: { en: 'In old forms of 歲, other parts such as a moon 月 sometimes joined 戉, at times drawn as just two little dots.', zh-Hans: 古时候的“岁”里，除了“戉”，有时还有月亮“月”等部件，有时只画成两个小点。, zh-Hant: 古時候的「歲」裡，除了「戉」，有時還有月亮「月」等部件，有時只畫成兩個小點。 }
+  closer: { en: 'Walking feet 步 keep time marching on: every birthday, you are one more 岁 (歲) old!', zh-Hans: 走路的“步”带着时间往前走，每过一个生日，你就又长了一“岁”！, zh-Hant: 走路的「步」帶著時間往前走，每過一個生日，你就又長了一「歲」！ }
+journey: default
+origin:
+  type: phono-semantic
+  parts:
+    - { char: 步, role: meaning, gloss: { en: 'walking, steps', zh-Hans: 脚步, zh-Hant: 腳步 } }
+    - { char: 戉, role: sound }
+status: draft
+sources:
+  - { title: 'Wiktionary: 岁', url: 'https://en.wiktionary.org/wiki/%E5%B2%81' }
+  - { title: 'Wiktionary: 歲', url: 'https://en.wiktionary.org/wiki/%E6%AD%B2' }

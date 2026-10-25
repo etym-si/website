@@ -1,0 +1,34 @@
+{
+  "id": "影",
+  "text": { "Hans": "影", "Hant": "影" },
+  "readings": { "pinyin": "yǐng" },
+  "meaning": { "en": "shadow; image", "zh-Hans": "影子", "zh-Hant": "影子" },
+  "fact": {
+    "en": "影 first meant 'shadow'. 景 on the left gives the sound and also hints at 'image', and 彡 on the right gives the meaning.",
+    "zh-Hans": "“影”本来的意思是影子。左边的“景”表示读音，也带着“图像”的意思；右边的“彡”表示意思。",
+    "zh-Hant": "「影」本來的意思是影子。左邊的「景」表示讀音，也帶著「圖像」的意思；右邊的「彡」表示意思。"
+  },
+  "story": {
+    "topic": { "en": "Stepping on My Shadow", "zh-Hans": "踩影子", "zh-Hant": "踩影子" },
+    "hook": {
+      "en": "Stomp, stomp! A girl tries to jump on her own shadow, but it hops right along with her every time.",
+      "zh-Hans": "啪嗒，啪嗒！小女孩想踩住自己的影子，可是每次影子都跟着她一起跳。",
+      "zh-Hant": "啪噠，啪噠！小女孩想踩住自己的影子，可是每次影子都跟著她一起跳。"
+    },
+    "closer": {
+      "en": "景 for the sound, 彡 for the meaning: that's 影, a shadow!",
+      "zh-Hans": "“景”管读音，“彡”管意思，这就是影子的“影”！",
+      "zh-Hant": "「景」管讀音，「彡」管意思，這就是影子的「影」！"
+    }
+  },
+  "journey": [],
+  "origin": {
+    "type": "phono-semantic",
+    "parts": [
+      { "char": "彡", "role": "meaning" },
+      { "char": "景", "role": "sound" }
+    ]
+  },
+  "status": "draft",
+  "sources": [ { "title": "Wiktionary: 影", "url": "https://en.wiktionary.org/wiki/%E5%BD%B1" } ]
+}

@@ -1,0 +1,39 @@
+{
+  "id": "赤",
+  "text": { "Hans": "赤", "Hant": "赤" },
+  "readings": { "pinyin": "chì" },
+  "meaning": { "en": "red, crimson", "zh-Hans": "赤红", "zh-Hant": "赤紅" },
+  "fact": {
+    "en": "赤 is a person 大 by a fire 火: the color of fire, red!",
+    "zh-Hans": "“赤”是一个人“大”站在火“火”旁边：火的颜色，红红的！",
+    "zh-Hant": "「赤」是一個人「大」站在火「火」旁邊：火的顏色，紅紅的！"
+  },
+  "story": {
+    "topic": { "en": "The Bright Red Fire Truck", "zh-Hans": "红彤彤的消防车", "zh-Hant": "紅通通的消防車" },
+    "hook": {
+      "en": "Nee-naw, nee-naw! A bright red fire truck zooms down the street, lights flashing.",
+      "zh-Hans": "呜哇，呜哇！一辆红彤彤的消防车闪着灯，飞快地开过大街。",
+      "zh-Hant": "喔咿，喔咿！一輛紅通通的消防車閃著燈，飛快地開過大街。"
+    },
+    "turn": {
+      "en": "Later the person on top was simplified to 土, just like in 去 and 走, and the fire at the bottom was restyled too.",
+      "zh-Hans": "后来，上面的人简化成了“土”，就像“去”和“走”一样；下面的火也换了写法。",
+      "zh-Hant": "後來，上面的人簡化成了「土」，就像「去」和「走」一樣；下面的火也換了寫法。"
+    },
+    "closer": {
+      "en": "A person standing by a glowing fire: that's 赤, fiery red!",
+      "zh-Hans": "人站在通红的火旁边，这就是赤红的“赤”！",
+      "zh-Hant": "人站在通紅的火旁邊，這就是赤紅的「赤」！"
+    }
+  },
+  "journey": "default",
+  "origin": {
+    "type": "compound-ideogram",
+    "parts": [
+      { "char": "大", "role": "meaning", "gloss": { "en": "person", "zh-Hans": "人", "zh-Hant": "人" } },
+      { "char": "火", "role": "meaning", "gloss": { "en": "fire", "zh-Hans": "火", "zh-Hant": "火" } }
+    ]
+  },
+  "status": "draft",
+  "sources": [ { "title": "Wiktionary: 赤", "url": "https://en.wiktionary.org/wiki/%E8%B5%A4" } ]
+}

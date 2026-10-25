@@ -1,0 +1,44 @@
+{
+  "id": "正",
+  "text": { "Hans": "正", "Hant": "正" },
+  "readings": { "pinyin": "zhèng" },
+  "meaning": { "en": "straight, upright; correct", "zh-Hans": "正确", "zh-Hant": "正確" },
+  "fact": {
+    "en": "正 is built from a foot 止 for the meaning and 丁 for the sound. Today 丁 is just the flat stroke on top.",
+    "zh-Hans": "“正”由表示意思的脚“止”和表示读音的“丁”组成。今天，“丁”只剩下顶上的一横了。",
+    "zh-Hant": "「正」由表示意思的腳「止」和表示讀音的「丁」組成。今天，「丁」只剩下頂上的一橫了。"
+  },
+  "story": {
+    "topic": { "en": "Straightening the Painting", "zh-Hans": "把画挂正", "zh-Hant": "把畫掛正" },
+    "hook": {
+      "en": "Left a bit, right a bit, perfect! A boy straightens the crooked painting on the wall until it hangs just right.",
+      "zh-Hans": "往左一点，往右一点，好了！小男孩把墙上歪歪的画扶正，挂得端端正正。",
+      "zh-Hant": "往左一點，往右一點，好了！小男孩把牆上歪歪的畫扶正，掛得端端正正。"
+    },
+    "early": {
+      "en": "On oracle bones and early bronze, 正 shows 丁 together with a foot 止.",
+      "zh-Hans": "在甲骨文和早期金文里，“正”是“丁”加上一只脚“止”。",
+      "zh-Hant": "在甲骨文和早期金文裡，「正」是「丁」加上一隻腳「止」。"
+    },
+    "turn": {
+      "en": "On some later bronzes, 丁 shrank to one flat stroke joined to 止, just like the top of today's 正.",
+      "zh-Hans": "在后来的一些金文里，“丁”缩成了一横，连在“止”上面，就像今天“正”字顶上的那一横。",
+      "zh-Hant": "在後來的一些金文裡，「丁」縮成了一橫，連在「止」上面，就像今天「正」字頂上的那一橫。"
+    },
+    "closer": {
+      "en": "One flat stroke over a foot 止: that's 正, straight and correct!",
+      "zh-Hans": "一横加上“止”，端端正正，这就是正确的“正”！",
+      "zh-Hant": "一橫加上「止」，端端正正，這就是正確的「正」！"
+    }
+  },
+  "journey": "default",
+  "origin": {
+    "type": "phono-semantic",
+    "parts": [
+      { "char": "止", "role": "meaning", "gloss": { "en": "foot", "zh-Hans": "脚", "zh-Hant": "腳" } },
+      { "char": "丁", "role": "sound" }
+    ]
+  },
+  "status": "draft",
+  "sources": [ { "title": "Wiktionary: 正", "url": "https://en.wiktionary.org/wiki/%E6%AD%A3" } ]
+}

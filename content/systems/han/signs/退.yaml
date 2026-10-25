@@ -1,0 +1,22 @@
+id: 退
+text: { Hans: 退, Hant: 退 }
+readings: { pinyin: tuì }
+meaning: { en: 'to step back, to retreat', zh-Hans: 后退, zh-Hant: 後退 }
+fact:
+  en: 'The oldest 退 shows a food vessel 皀 and a foot 夊 walking away: leaving the table after eating!'
+  zh-Hans: 最早的“退”由盛饭的器皿“皀”和往外走的脚“夊”组成：吃完饭，离开饭桌！
+  zh-Hant: 最早的「退」由盛飯的器皿「皀」和往外走的腳「夊」組成：吃完飯，離開飯桌！
+story:
+  topic: { en: Leaving the Dinner Table, zh-Hans: 吃饱了，离开饭桌, zh-Hant: 吃飽了，離開飯桌 }
+  hook: { en: 'All done! Uncle Wang pats his full tummy, pushes back his chair and steps away from the table.', zh-Hans: 吃饱啦！王叔叔拍拍圆滚滚的肚子，把椅子往后一推，离开了饭桌。, zh-Hant: 吃飽啦！王叔叔拍拍圓滾滾的肚子，把椅子往後一推，離開了飯桌。 }
+  turn: { en: 'On bronze, a walking part was added to show someone walking away. Later the bowl 皀 turned into 艮, which has nothing to do with food.', zh-Hans: 到了金文，又加上了表示走路的部件，强调“走开”。后来，器皿“皀”简化成了毫不相干的“艮”。, zh-Hant: 到了金文，又加上了表示走路的部件，強調「走開」。後來，器皿「皀」簡化成了毫不相干的「艮」。 }
+  closer: { en: "A foot walking away from the food bowl: that's 退, to step back!", zh-Hans: 脚离开饭碗往回走，这就是后退的“退”！, zh-Hant: 腳離開飯碗往回走，這就是後退的「退」！ }
+journey: default
+origin:
+  type: compound-ideogram
+  parts:
+    - { char: 皀, role: meaning, gloss: { en: food vessel, zh-Hans: 盛饭的器皿, zh-Hant: 盛飯的器皿 } }
+    - { char: 夊, role: meaning, gloss: { en: foot, zh-Hans: 脚, zh-Hant: 腳 } }
+status: draft
+sources:
+  - { title: 'Wiktionary: 退', url: 'https://en.wiktionary.org/wiki/%E9%80%80' }

@@ -1,0 +1,21 @@
+id: 班
+text: { Hans: 班, Hant: 班 }
+readings: { pinyin: bān }
+meaning: { en: 'class, group', zh-Hans: 班级, zh-Hant: 班級 }
+fact:
+  en: '班 is jade 珏 and a knife 刀: cutting jade into pieces. Look closely: a piece of jade on each side, with the knife in the middle!'
+  zh-Hans: “班”由玉“珏”和刀“刀”组成：用刀把玉切开。仔细看：左右两边各是一块玉，刀就在正中间！
+  zh-Hant: 「班」由玉「珏」和刀「刀」組成：用刀把玉切開。仔細看：左右兩邊各是一塊玉，刀就在正中間！
+story:
+  topic: { en: Class Two's Big Play, zh-Hans: 二班的话剧, zh-Hant: 二班的話劇 }
+  hook: { en: 'Lights up! Class Two puts on a play with three trees, two clouds and one very nervous sun.', zh-Hans: 演出开始啦！二班的小朋友们表演话剧：三棵树、两朵云，还有一个特别紧张的太阳。, zh-Hant: 演出開始囉！二班的小朋友們表演話劇：三棵樹、兩朵雲，還有一個特別緊張的太陽。 }
+  closer: { en: "Jade on each side, a knife in the middle: that's 班, your class!", zh-Hans: 两边是玉，中间是刀，这就是班级的“班”！, zh-Hant: 兩邊是玉，中間是刀，這就是班級的「班」！ }
+journey: default
+origin:
+  type: compound-ideogram
+  parts:
+    - { char: 珏, role: meaning, gloss: { en: pieces of jade, zh-Hans: 玉块, zh-Hant: 玉塊 } }
+    - { char: 刀, role: meaning, gloss: { en: knife, zh-Hans: 小刀, zh-Hant: 小刀 } }
+status: draft
+sources:
+  - { title: 'Wiktionary: 班', url: 'https://en.wiktionary.org/wiki/%E7%8F%AD' }

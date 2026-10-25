@@ -1,0 +1,21 @@
+id: 奶
+text: { Hans: 奶, Hant: 奶 }
+readings: { pinyin: nǎi }
+meaning: { en: milk; grandma (in 奶奶), zh-Hans: 奶奶, zh-Hant: 奶奶 }
+fact:
+  en: '奶 has 女, a woman, for the meaning and 乃 for the sound: 乃 nǎi and 奶 nǎi sound exactly the same! 奶 means milk, and 奶奶 is Grandma.'
+  zh-Hans: “奶”由表示意思的“女”和表示读音的“乃”组成，“乃”和“奶”都读 nǎi！“奶”是牛奶的“奶”，也是奶奶的“奶”。
+  zh-Hant: 「奶」由表示意思的「女」和表示讀音的「乃」組成，「乃」和「奶」都讀 nǎi！「奶」是牛奶的「奶」，也是奶奶的「奶」。
+story:
+  topic: { en: Grandma's Wobbly Pudding, zh-Hans: 奶奶的牛奶布丁, zh-Hant: 奶奶的牛奶布丁 }
+  hook: { en: 'Wobble, wobble! Grandma sets down her famous milk pudding, and it jiggles like jelly on the plate.', zh-Hans: 颤悠悠！奶奶端出她拿手的牛奶布丁，布丁在盘子里抖个不停。, zh-Hant: 顫悠悠！奶奶端出她拿手的牛奶布丁，布丁在盤子裡抖個不停。 }
+  closer: { en: 'Milk in the pudding and Grandma at the table: both are 奶!', zh-Hans: 布丁里的牛奶，桌边的奶奶，都是这个“奶”！, zh-Hant: 布丁裡的牛奶，桌邊的奶奶，都是這個「奶」！ }
+journey: []
+origin:
+  type: phono-semantic
+  parts:
+    - { char: 女, role: meaning, gloss: { en: woman, zh-Hans: 女子, zh-Hant: 女子 } }
+    - { char: 乃, role: sound }
+status: draft
+sources:
+  - { title: 'Wiktionary: 奶', url: 'https://en.wiktionary.org/wiki/%E5%A5%B6' }

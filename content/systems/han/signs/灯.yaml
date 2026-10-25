@@ -1,0 +1,22 @@
+id: 灯
+text: { Hans: 灯, Hant: 燈 }
+readings: { pinyin: dēng }
+meaning: { en: 'lamp, lantern', zh-Hans: 灯笼, zh-Hant: 燈籠 }
+fact:
+  en: 灯 (燈) has fire 火 on the left for the meaning. Traditional 燈 uses 登 for the sound, and simplified 灯 uses the much shorter 丁.
+  zh-Hans: “灯”左边的“火”表示意思。繁体字“燈”用“登”表示读音，简化字“灯”换成了更短的“丁”。
+  zh-Hant: 「燈」左邊的「火」表示意思，右邊的「登」表示讀音。簡化字把「登」換成了更短的「丁」。
+story:
+  topic: { en: The Rabbit Lantern, zh-Hans: 兔子灯笼, zh-Hant: 兔子燈籠 }
+  hook: { en: 'Glow, glow! On Lantern Festival night, a girl carries a paper rabbit lantern down the street, a candle flickering inside.', zh-Hans: 亮晶晶！元宵节的晚上，小女孩提着一盏纸做的兔子灯笼走在街上，里面的蜡烛一闪一闪。, zh-Hant: 亮晶晶！元宵節的晚上，小女孩提著一盞紙做的兔子燈籠走在街上，裡面的蠟燭一閃一閃。 }
+  closer: { en: "Fire 火 for the meaning, 丁 (or 登 in 燈) for the sound: that's 灯, a lamp!", zh-Hans: “火”管意思，“丁”管读音，这就是灯笼的“灯”！, zh-Hant: 「火」管意思，「登」管讀音，這就是燈籠的「燈」！ }
+journey: []
+origin:
+  type: phono-semantic
+  parts:
+    - { char: 火, role: meaning, gloss: { en: 'fire, candlelight', zh-Hans: 火光, zh-Hant: 火光 } }
+    - { char: 登, role: sound }
+status: draft
+sources:
+  - { title: 'Wiktionary: 灯', url: 'https://en.wiktionary.org/wiki/%E7%81%AF' }
+  - { title: 'Wiktionary: 燈', url: 'https://en.wiktionary.org/wiki/%E7%87%88' }

@@ -1,0 +1,20 @@
+id: 夏
+text: { Hans: 夏, Hant: 夏 }
+readings: { pinyin: xià }
+meaning: { en: summer, zh-Hans: 夏天, zh-Hant: 夏天 }
+fact:
+  en: 'Look closely at 夏: the top comes from 页 (頁), a head, and the bottom part 夊 took the place of a foot 止. It is a person from head to toe!'
+  zh-Hans: 仔细看“夏”：上面来自表示头的“页”，下面的“夊”取代了表示脚的“止”。从头到脚，是一个完整的人！
+  zh-Hant: 仔細看「夏」：上面來自表示頭的「頁」，下面的「夊」取代了表示腳的「止」。從頭到腳，是一個完整的人！
+story:
+  topic: { en: Running Through the Sprinkler, zh-Hans: 冲过洒水器, zh-Hant: 衝過灑水器 }
+  hook: { en: 'Squeal, splash! Kids leap through the sprinkler in the backyard as icy water sprays their legs.', zh-Hans: 哇——哗！小朋友们在院子里冲过洒水器，冰凉的水喷得他们哇哇大叫。, zh-Hant: 哇——嘩！小朋友們在院子裡衝過灑水器，冰涼的水噴得他們哇哇大叫。 }
+  early: { en: "Some scholars think an oracle-bone sign made of the sun 日 and a person 页 (頁) is the first 夏: a man under the scorching sun. But that sign only appears as someone's name, so no one is sure.", zh-Hans: 有学者认为，甲骨文里一个由太阳“日”和人“页”组成的字就是最早的“夏”：一个人顶着火辣辣的太阳。不过这个字只当人名用，所以还说不准。, zh-Hant: 有學者認為，甲骨文裡一個由太陽「日」和人「頁」組成的字就是最早的「夏」：一個人頂著火辣辣的太陽。不過這個字只當人名用，所以還說不準。 }
+  turn: { en: "On bronze, a foot 止 was often added under the person, and sometimes two hands replaced the sun. Later the hands and the legs of 页 (頁) were dropped, leaving today's 夏.", zh-Hans: 在金文里，人的下面常常加上一只脚“止”，有时太阳不见了，换成了两只手。后来，手和“页”的腿都省掉了，就成了今天的“夏”。, zh-Hant: 在金文裡，人的下面常常加上一隻腳「止」，有時太陽不見了，換成了兩隻手。後來，手和「頁」的腿都省掉了，就成了今天的「夏」。 }
+  closer: { en: "A head on top and feet at the bottom: that's 夏, summer, the hottest season of the year!", zh-Hans: 上面是头，下面是脚，这就是夏天的“夏”，一年里最热的季节！, zh-Hant: 上面是頭，下面是腳，這就是夏天的「夏」，一年裡最熱的季節！ }
+journey: default
+origin:
+  type: uncertain
+status: draft
+sources:
+  - { title: 'Wiktionary: 夏', url: 'https://en.wiktionary.org/wiki/%E5%A4%8F' }

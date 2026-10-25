@@ -1,0 +1,22 @@
+id: 教
+text: { Hans: 教, Hant: 教 }
+readings: { pinyin: jiāo }
+meaning: { en: to teach, zh-Hans: 教书, zh-Hant: 教書 }
+fact:
+  en: "教 has a child 子 and 攵, a teacher's stick, for the meaning, plus 爻 for the sound: teaching a child! 学 (學) shares 爻 and 子 with it."
+  zh-Hans: “教”里有孩子“子”和代表老师教鞭的“攵”，表示意思，还有表示读音的“爻”：教孩子！“学”的繁体字“學”里也有“爻”和“子”。
+  zh-Hant: 「教」裡有孩子「子」和代表老師教鞭的「攵」，表示意思，還有表示讀音的「爻」：教孩子！「學」字裡也有「爻」和「子」。
+story:
+  topic: { en: Grandma's Knitting Lesson, zh-Hans: 奶奶教我织毛线, zh-Hant: 奶奶教我織毛線 }
+  hook: { en: "Over, under, through! Grandma guides her grandson's hands as he knits his very first wobbly row of red wool.", zh-Hans: 绕过来，穿过去！奶奶握着孙子的小手，教他织出了第一排歪歪扭扭的红毛线。, zh-Hant: 繞過來，穿過去！奶奶握著孫子的小手，教他織出了第一排歪歪扭扭的紅毛線。 }
+  closer: { en: "A child, a teacher's stick and 爻 for the sound: that's 教, to teach!", zh-Hans: 孩子、教鞭，再加上表示读音的“爻”，这就是教书的“教”！, zh-Hant: 孩子、教鞭，再加上表示讀音的「爻」，這就是教書的「教」！ }
+journey: default
+origin:
+  type: phono-semantic
+  parts:
+    - { char: 子, role: meaning, gloss: { en: child, zh-Hans: 孩子, zh-Hant: 孩子 } }
+    - { char: 攵, role: meaning, gloss: { en: teacher's stick, zh-Hans: 教鞭, zh-Hant: 教鞭 } }
+    - { char: 爻, role: sound }
+status: draft
+sources:
+  - { title: 'Wiktionary: 教', url: 'https://en.wiktionary.org/wiki/%E6%95%99' }

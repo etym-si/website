@@ -1,0 +1,22 @@
+id: 么
+text: { Hans: 么, Hant: 麼 }
+readings: { pinyin: me }
+meaning: { en: 'question suffix (as in 什么, what)', zh-Hans: 什么, zh-Hant: 什麼 }
+fact:
+  en: 么 (麼) has 幺, 'small, tiny', for the meaning and 麻 for the sound. Simplified 么 simply drops the 麻!
+  zh-Hans: “么”的繁体字“麼”，由表示意思的“幺”（小小的）和表示读音的“麻”组成。简化字“么”干脆把“麻”去掉了！
+  zh-Hant: 「麼」由表示意思的「幺」（小小的）和表示讀音的「麻」組成。簡化字乾脆把「麻」去掉了！
+story:
+  topic: { en: The Bumpy Red Fruit, zh-Hans: 疙疙瘩瘩的红果子, zh-Hant: 疙疙瘩瘩的紅果子 }
+  hook: { en: "What's this bumpy red thing? Grandpa peels it open, and inside is a sweet, juicy white lychee!", zh-Hans: 这是什么呀？爷爷递来一个疙疙瘩瘩的红果子，剥开一看，里面是白白嫩嫩的荔枝！, zh-Hant: 這是什麼呀？爺爺遞來一個疙疙瘩瘩的紅果子，剝開一看，裡面是白白嫩嫩的荔枝！ }
+  closer: { en: "Tiny 幺 helps you ask: that's 么 (麼), as in 什么, what?", zh-Hans: 小小的“幺”帮你提问，这就是什么的“么”！, zh-Hant: 小小的「幺」幫你提問，這就是什麼的「麼」！ }
+journey: []
+origin:
+  type: phono-semantic
+  parts:
+    - { char: 幺, role: meaning, gloss: { en: 'small, tiny', zh-Hans: 小, zh-Hant: 小 } }
+    - { char: 麻, role: sound }
+status: draft
+sources:
+  - { title: 'Wiktionary: 么', url: 'https://en.wiktionary.org/wiki/%E4%B9%88' }
+  - { title: 'Wiktionary: 麼', url: 'https://en.wiktionary.org/wiki/%E9%BA%BC' }

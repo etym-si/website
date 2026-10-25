@@ -1,0 +1,34 @@
+{
+  "id": "您",
+  "text": { "Hans": "您", "Hant": "您" },
+  "readings": { "pinyin": "nín" },
+  "meaning": { "en": "you (polite)", "zh-Hans": "您好", "zh-Hant": "您好" },
+  "fact": {
+    "en": "您 is 你 (you) with a heart 心 underneath: a polite, respectful 'you'!",
+    "zh-Hans": "“您”就是“你”下面加一个“心”：带着尊敬的“你”！",
+    "zh-Hant": "「您」就是「你」下面加一個「心」：帶著尊敬的「你」！"
+  },
+  "story": {
+    "topic": { "en": "Thank You, Shopkeeper!", "zh-Hans": "谢谢您！", "zh-Hant": "謝謝您！" },
+    "hook": {
+      "en": "Thank you very much! A girl bows to the old shopkeeper and takes her change with both hands.",
+      "zh-Hans": "谢谢您！小女孩向老店主鞠了一躬，用双手接过找回的零钱。",
+      "zh-Hant": "謝謝您！小女孩向老店主鞠了一躬，用雙手接過找回的零錢。"
+    },
+    "closer": {
+      "en": "You 你 plus a heart 心: that's 您, the polite way to say 'you'!",
+      "zh-Hans": "“你”加上一颗心，这就是您好的“您”！",
+      "zh-Hant": "「你」加上一顆心，這就是您好的「您」！"
+    }
+  },
+  "journey": [],
+  "origin": {
+    "type": "compound-ideogram",
+    "parts": [
+      { "char": "你", "role": "meaning", "gloss": { "en": "you", "zh-Hans": "你", "zh-Hant": "你" } },
+      { "char": "心", "role": "meaning", "gloss": { "en": "heart", "zh-Hans": "心", "zh-Hant": "心" } }
+    ]
+  },
+  "status": "draft",
+  "sources": [ { "title": "Wiktionary: 您", "url": "https://en.wiktionary.org/wiki/%E6%82%A8" } ]
+}

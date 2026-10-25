@@ -1,0 +1,39 @@
+{
+  "id": "她",
+  "text": { "Hans": "她", "Hant": "她" },
+  "readings": { "pinyin": "tā" },
+  "meaning": { "en": "she, her", "zh-Hans": "她们", "zh-Hant": "她們" },
+  "fact": {
+    "en": "她 is 他 with the person 亻 swapped for a woman 女. It was once just another way of writing 姐, big sister!",
+    "zh-Hans": "“她”就是把“他”的“亻”换成了“女”。它原来只是“姐”的另一种写法！",
+    "zh-Hant": "「她」就是把「他」的「亻」換成了「女」。它原來只是「姐」的另一種寫法！"
+  },
+  "story": {
+    "topic": { "en": "There She Goes!", "zh-Hans": "她来啦！", "zh-Hant": "她來囉！" },
+    "hook": {
+      "en": "There she goes! A girl on roller skates whizzes along the park path, her ponytail flying behind her.",
+      "zh-Hans": "她来啦！一个穿着轮滑鞋的女孩沿着公园小路飞快地滑过，马尾辫在身后飘了起来。",
+      "zh-Hant": "她來囉！一個穿著直排輪的女孩沿著公園小路飛快地滑過，馬尾在身後飄了起來。"
+    },
+    "turn": {
+      "en": "Later, people gave 她 a new job, meaning 'she', inspired by European languages that have their own word for 'she'.",
+      "zh-Hans": "后来，受到欧洲语言的影响，人们让“她”有了新任务：专门用来指女性。",
+      "zh-Hant": "後來，受到歐洲語言的影響，人們讓「她」有了新任務：專門用來指女性。"
+    },
+    "closer": {
+      "en": "Woman 女 plus 也: that's 她, she or her!",
+      "zh-Hans": "女字旁加上“也”，这就是她们的“她”！",
+      "zh-Hant": "女字旁加上「也」，這就是她們的「她」！"
+    }
+  },
+  "journey": [],
+  "origin": {
+    "type": "phono-semantic",
+    "parts": [
+      { "char": "女", "role": "meaning", "gloss": { "en": "woman", "zh-Hans": "女子", "zh-Hant": "女子" } },
+      { "char": "也", "role": "sound" }
+    ]
+  },
+  "status": "draft",
+  "sources": [ { "title": "Wiktionary: 她", "url": "https://en.wiktionary.org/wiki/%E5%A5%B9" } ]
+}

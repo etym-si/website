@@ -1,0 +1,34 @@
+{
+  "id": "你",
+  "text": { "Hans": "你", "Hant": "你" },
+  "readings": { "pinyin": "nǐ" },
+  "meaning": { "en": "you", "zh-Hans": "你好", "zh-Hant": "你好" },
+  "fact": {
+    "en": "你 has 亻, a person, for the meaning and 尔 for the sound. Some scholars think 尔 adds meaning too, since it can also mean 'you'.",
+    "zh-Hans": "“你”左边的“亻”是人，表示意思；右边的“尔”表示读音。也有学者认为，“尔”本身就有“你”的意思。",
+    "zh-Hant": "「你」左邊的「亻」是人，表示意思；右邊的「尔」表示讀音。也有學者認為，「尔」本身就有「你」的意思。"
+  },
+  "story": {
+    "topic": { "en": "Your Turn to Jump!", "zh-Hans": "轮到你跳啦！", "zh-Hant": "輪到你跳囉！" },
+    "hook": {
+      "en": "Your turn! A boy hands the jump rope to his friend and starts counting, 'Now you go: one, two, three!'",
+      "zh-Hans": "轮到你啦！小男孩把跳绳递给好朋友，开始数：“该你跳了，一、二、三！”",
+      "zh-Hant": "輪到你囉！小男孩把跳繩遞給好朋友，開始數：「換你跳了，一、二、三！」"
+    },
+    "closer": {
+      "en": "A person 亻 next to 尔: that's 你, you!",
+      "zh-Hans": "人字旁加上“尔”，这就是你好的“你”！",
+      "zh-Hant": "人字旁加上「尔」，這就是你好的「你」！"
+    }
+  },
+  "journey": [],
+  "origin": {
+    "type": "phono-semantic",
+    "parts": [
+      { "char": "亻", "role": "meaning", "gloss": { "en": "person", "zh-Hans": "人", "zh-Hant": "人" } },
+      { "char": "尔", "role": "sound" }
+    ]
+  },
+  "status": "draft",
+  "sources": [ { "title": "Wiktionary: 你", "url": "https://en.wiktionary.org/wiki/%E4%BD%A0" } ]
+}
