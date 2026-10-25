@@ -1,0 +1,19 @@
+id: 黑
+text: { Hans: 黑, Hant: 黑 }
+readings: { pinyin: hēi }
+meaning: { en: black; dark, zh-Hans: 黑色, zh-Hant: 黑色 }
+fact:
+  en: 黑 is a picture-character, but what its oracle-bone form shows is still a puzzle.
+  zh-Hans: “黑”是一个象形字，不过甲骨文里的“黑”到底画的是什么，现在还说不准。
+  zh-Hant: 「黑」是一個象形字，不過甲骨文裡的「黑」到底畫的是什麼，現在還說不準。
+story:
+  topic: { en: The Panda's Black Patches, zh-Hans: 大熊猫的黑眼圈, zh-Hant: 貓熊的黑眼圈 }
+  hook: { en: 'Look at the panda! It has black ears, black legs and two black patches around its eyes, like sunglasses.', zh-Hans: 快看大熊猫！它有黑黑的耳朵、黑黑的腿，眼睛周围还有两块黑眼圈，像戴了墨镜。, zh-Hant: 快看貓熊！牠有黑黑的耳朵、黑黑的腿，眼睛周圍還有兩塊黑眼圈，像戴了墨鏡。 }
+  turn: { en: 'On bronze vessels, dots were added to a big head. Many scholars think they were ink tattoos on a face.', zh-Hans: 到了金文，人们在一个大大的头上加了一些点。很多学者认为，这些点是刺在脸上的墨色花纹。, zh-Hant: 到了金文，人們在一個大大的頭上加了一些點。很多學者認為，這些點是刺在臉上的墨色花紋。 }
+  closer: { en: "Black ears, black patches, black as ink: that's 黑, black!", zh-Hans: 黑耳朵、黑眼圈，黑得像墨水，这就是黑色的“黑”！, zh-Hant: 黑耳朵、黑眼圈，黑得像墨水，這就是黑色的「黑」！ }
+journey: default
+origin:
+  type: pictogram
+status: draft
+sources:
+  - { title: 'Wiktionary: 黑', url: 'https://en.wiktionary.org/wiki/%E9%BB%91' }

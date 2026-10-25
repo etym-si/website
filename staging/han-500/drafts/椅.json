@@ -1,0 +1,34 @@
+{
+  "id": "椅",
+  "text": { "Hans": "椅", "Hant": "椅" },
+  "readings": { "pinyin": "yǐ" },
+  "meaning": { "en": "chair", "zh-Hans": "椅子", "zh-Hant": "椅子" },
+  "fact": {
+    "en": "椅 has 木 (wood) on the left for the meaning and 奇 on the right for the sound. 椅 is also the name of a kind of tree.",
+    "zh-Hans": "“椅”左边的“木”表示意思，右边的“奇”表示读音。“椅”也是一种树的名字。",
+    "zh-Hant": "「椅」左邊的「木」表示意思，右邊的「奇」表示讀音。「椅」也是一種樹的名字。"
+  },
+  "story": {
+    "topic": { "en": "Grandpa's Rocking Chair", "zh-Hans": "爷爷的摇椅", "zh-Hant": "爺爺的搖椅" },
+    "hook": {
+      "en": "Back and forth, back and forth! Grandpa rocks in his old wooden rocking chair, telling Tim a story.",
+      "zh-Hans": "前后摇，前后摇！爷爷坐在旧木摇椅上，给提姆讲故事。",
+      "zh-Hant": "前後搖，前後搖！爺爺坐在舊木搖椅上，給提姆講故事。"
+    },
+    "closer": {
+      "en": "Wood for the meaning, 奇 for the sound: 椅 is a chair, rocking or not!",
+      "zh-Hans": "木字旁加上“奇”，就是摇椅、小椅子的“椅”！",
+      "zh-Hant": "木字旁加上「奇」，就是搖椅、小椅子的「椅」！"
+    }
+  },
+  "journey": [],
+  "origin": {
+    "type": "phono-semantic",
+    "parts": [
+      { "char": "木", "role": "meaning", "gloss": { "en": "wood", "zh-Hans": "木头", "zh-Hant": "木頭" } },
+      { "char": "奇", "role": "sound" }
+    ]
+  },
+  "status": "draft",
+  "sources": [ { "title": "Wiktionary: 椅", "url": "https://en.wiktionary.org/wiki/%E6%A4%85" } ]
+}

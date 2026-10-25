@@ -1,0 +1,22 @@
+id: 鞋
+text: { Hans: 鞋, Hant: 鞋 }
+readings: { pinyin: xié }
+meaning: { en: shoe, zh-Hans: 鞋子, zh-Hant: 鞋子 }
+fact:
+  en: '鞋 has 革 (leather) on the left for the meaning and 圭 on the right for the sound: leather shoes!'
+  zh-Hans: “鞋”左边的“革”是皮革，表示意思；右边的“圭”表示读音，意思是皮做的鞋。
+  zh-Hant: 「鞋」左邊的「革」是皮革，表示意思；右邊的「圭」表示讀音，意思是皮做的鞋。
+story:
+  topic: { en: Tiger Shoes for the Baby, zh-Hans: 给宝宝的虎头鞋, zh-Hant: 給寶寶的虎頭鞋 }
+  hook: { en: 'Stitch, stitch! Grandma sews a pair of tiny cloth shoes with tiger faces for the new baby.', zh-Hans: 一针一线！奶奶给刚出生的小宝宝缝了一双小小的虎头鞋。, zh-Hant: 一針一線！奶奶給剛出生的小寶寶縫了一雙小小的虎頭鞋。 }
+  turn: { en: 'It was first written 鞵. And though 圭 looks like two 土 (earth) stacked up, it has nothing to do with dirt.', zh-Hans: 它原来写作“鞵”。还有，“圭”虽然看起来像两个“土”叠在一起，其实和泥土没有关系。, zh-Hant: 它原來寫作「鞵」。還有，「圭」雖然看起來像兩個「土」疊在一起，其實和泥土沒有關係。 }
+  closer: { en: '革 for leather, 圭 for the sound: 鞋 is a shoe, even a tiny tiger one!', zh-Hans: “革”表示皮革，“圭”管读音，这就是鞋子的“鞋”，小小的虎头鞋也是！, zh-Hant: 「革」表示皮革，「圭」管讀音，這就是鞋子的「鞋」，小小的虎頭鞋也是！ }
+journey: default
+origin:
+  type: phono-semantic
+  parts:
+    - { char: 革, role: meaning, gloss: { en: leather, zh-Hans: 皮革, zh-Hant: 皮革 } }
+    - { char: 圭, role: sound }
+status: draft
+sources:
+  - { title: 'Wiktionary: 鞋', url: 'https://en.wiktionary.org/wiki/%E9%9E%8B' }

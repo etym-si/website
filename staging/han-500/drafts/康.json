@@ -1,0 +1,39 @@
+{
+  "id": "康",
+  "text": { "Hans": "康", "Hant": "康" },
+  "readings": { "pinyin": "kāng" },
+  "meaning": { "en": "healthy; peaceful", "zh-Hans": "健康", "zh-Hant": "健康" },
+  "fact": {
+    "en": "康 started out as 庚 (threshing tools) plus 米 (rice), meaning chaff, the husks knocked off grain. Today chaff is written 糠, and 康 means healthy and peaceful.",
+    "zh-Hans": "“康”原本是“庚”（打谷的工具）加“米”，指打下来的谷壳。现在谷壳写成“糠”，“康”则表示健康、安乐。",
+    "zh-Hant": "「康」原本是「庚」（打穀的工具）加「米」，指打下來的穀殼。現在穀殼寫成「糠」，「康」則表示健康、安樂。"
+  },
+  "story": {
+    "topic": { "en": "Full of Energy", "zh-Hans": "浑身是劲", "zh-Hant": "渾身是勁" },
+    "hook": {
+      "en": "Carrots for lunch, a full water bottle and three laps around the park: Xiaoyu is bursting with energy!",
+      "zh-Hans": "午饭吃胡萝卜，水壶里装满水，再绕着公园跑三圈：小雨浑身是劲！",
+      "zh-Hant": "午餐吃紅蘿蔔，水壺裡裝滿水，再繞著公園跑三圈：小雨渾身是勁！"
+    },
+    "turn": {
+      "en": "The bottom of today's 康 looks a bit like 水 (water), but it really comes from 米, rice.",
+      "zh-Hans": "今天“康”的下半部分有点像“水”，其实它是从“米”变来的。",
+      "zh-Hant": "今天「康」的下半部分有點像「水」，其實它是從「米」變來的。"
+    },
+    "closer": {
+      "en": "From rice chaff to a strong, happy body: 康 means healthy, as in 健康!",
+      "zh-Hans": "从谷壳的“康”，到健健康康的“康”，祝你身体健康！",
+      "zh-Hant": "從穀殼的「康」，到健健康康的「康」，祝你身體健康！"
+    }
+  },
+  "journey": "default",
+  "origin": {
+    "type": "compound-ideogram",
+    "parts": [
+      { "char": "庚", "role": "meaning", "gloss": { "en": "threshing tools", "zh-Hans": "打谷的工具", "zh-Hant": "打穀的工具" } },
+      { "char": "米", "role": "meaning", "gloss": { "en": "rice", "zh-Hans": "米", "zh-Hant": "米" } }
+    ]
+  },
+  "status": "draft",
+  "sources": [ { "title": "Wiktionary: 康", "url": "https://en.wiktionary.org/wiki/%E5%BA%B7" } ]
+}

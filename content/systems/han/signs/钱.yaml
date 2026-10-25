@@ -1,0 +1,23 @@
+id: 钱
+text: { Hans: 钱, Hant: 錢 }
+readings: { pinyin: qián }
+meaning: { en: money, zh-Hans: 零钱, zh-Hant: 零錢 }
+fact:
+  en: 錢 (钱) has 金 (metal, gold, money) on the left for the meaning and 戔 on the right for the sound.
+  zh-Hans: “钱”左边的金字旁表示金属和钱，是意思部分；右边的“戋”表示读音。
+  zh-Hant: 「錢」左邊的「金」表示金屬和錢，是意思部分；右邊的「戔」表示讀音。
+story:
+  topic: { en: Coins in the Piggy Bank, zh-Hans: 存钱罐里的硬币, zh-Hant: 撲滿裡的硬幣 }
+  hook: { en: Ka-ching! Hugo drops two shiny coins into his piggy bank and gives it a happy shake., zh-Hans: 当啷，当啷！雨果把两枚亮晶晶的硬币投进小猪存钱罐，还开心地摇了摇。, zh-Hant: 噹啷，噹啷！雨果把兩枚亮晶晶的硬幣投進小豬撲滿，還開心地搖了搖。 }
+  turn: { en: 'Simplified 钱 shortens both halves: 金 becomes 钅 and 戔 becomes 戋.', zh-Hans: 简化字把两边都变简单了：“釒”变成“钅”，“戔”变成“戋”。, zh-Hant: 簡化字把兩邊都變簡單了：「釒」變成「钅」，「戔」變成「戋」。 }
+  closer: { en: "Metal on the left, 戔 for the sound: that's 钱 (錢), money!", zh-Hans: 左边是金字旁，右边管读音，这就是零钱的“钱”！, zh-Hant: 左邊是「金」，右邊的「戔」管讀音，這就是零錢的「錢」！ }
+journey: []
+origin:
+  type: phono-semantic
+  parts:
+    - { char: 金, role: meaning, gloss: { en: metal; money, zh-Hans: 金属, zh-Hant: 金屬 } }
+    - { char: 戔, role: sound }
+status: draft
+sources:
+  - { title: 'Wiktionary: 钱', url: 'https://en.wiktionary.org/wiki/%E9%92%B1' }
+  - { title: 'Wiktionary: 錢', url: 'https://en.wiktionary.org/wiki/%E9%8C%A2' }

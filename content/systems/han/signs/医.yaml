@@ -1,0 +1,23 @@
+id: 医
+text: { Hans: 医, Hant: 醫 }
+readings: { pinyin: yī }
+meaning: { en: doctor; medicine, zh-Hans: 医生, zh-Hant: 醫生 }
+fact:
+  en: 醫 (医) has 殹 on top for the sound and 酉 (liquor) underneath for the meaning.
+  zh-Hans: 繁体字里，上面的“殹”表示读音，下面的“酉”是酒，表示意思。
+  zh-Hant: 「醫」上面的「殹」表示讀音，下面的「酉」是酒，表示意思。
+story:
+  topic: { en: Checkup Time, zh-Hans: 去医院做检查, zh-Hant: 去醫院做檢查 }
+  hook: { en: 'First the ears, then the heartbeat! The doctor checks Lucy carefully and listens to her chest with a stethoscope.', zh-Hans: 先看耳朵，再听心跳！医生仔细地给露西做检查，还用听诊器听了听她的胸口。, zh-Hant: 先看耳朵，再聽心跳！醫生仔細地幫露西做檢查，還用聽診器聽了聽她的胸口。 }
+  turn: { en: "Look at the top-left corner of 醫: that's 医, the simplified form, made of 矢 (arrow) inside 匸 (a box that stores things).", zh-Hans: 仔细看繁体字的左上角：那就是简化字“医”，由“匸”（收藏东西的框）和“矢”（箭）组成。, zh-Hant: 仔細看「醫」的左上角：簡化字就是用這個部分，由「匸」（收藏東西的框）和「矢」（箭）組成。 }
+  closer: { en: "Whether you write it 醫 or 医, it's the 医 in 医生: the doctor who helps us get better!", zh-Hans: 不管写成繁体还是简体，它都是医生的“医”，帮我们把病治好！, zh-Hant: 不管寫成繁體還是簡體，它都是醫生的「醫」，幫我們把病治好！ }
+journey: default
+origin:
+  type: phono-semantic
+  parts:
+    - { char: 酉, role: meaning, gloss: { en: liquor, zh-Hans: 酒, zh-Hant: 酒 } }
+    - { char: 殹, role: sound }
+status: draft
+sources:
+  - { title: 'Wiktionary: 医', url: 'https://en.wiktionary.org/wiki/%E5%8C%BB' }
+  - { title: 'Wiktionary: 醫', url: 'https://en.wiktionary.org/wiki/%E9%86%AB' }

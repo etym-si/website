@@ -1,0 +1,42 @@
+{
+  "id": "鸡",
+  "text": { "Hans": "鸡", "Hant": "雞" },
+  "readings": { "pinyin": "jī" },
+  "meaning": { "en": "chicken", "zh-Hans": "小鸡", "zh-Hant": "小雞" },
+  "fact": {
+    "en": "雞 (鸡) has 奚 on the left for the sound and 隹, a short-tailed bird, on the right for the meaning.",
+    "zh-Hans": "繁体字里，左边的“奚”表示读音，右边的“隹”是短尾巴的鸟，表示意思。",
+    "zh-Hant": "「雞」左邊的「奚」表示讀音，右邊的「隹」是短尾巴的鳥，表示意思。"
+  },
+  "story": {
+    "topic": { "en": "Fluffy Chicks in the Yard", "zh-Hans": "院子里的小鸡", "zh-Hant": "院子裡的小雞" },
+    "hook": {
+      "en": "Cheep, cheep! Fluffy yellow chicks peck at corn while Mother Hen keeps watch.",
+      "zh-Hans": "叽叽叽！毛茸茸的黄色小鸡在啄玉米粒，鸡妈妈在一旁看着它们。",
+      "zh-Hant": "嘰嘰嘰！毛茸茸的黃色小雞在啄玉米粒，雞媽媽在一旁看著牠們。"
+    },
+    "turn": {
+      "en": "Simplified 鸡 comes from another traditional form, 鷄: 奚 shrank to 又, and 鳥 became 鸟.",
+      "zh-Hans": "简化字“鸡”来自另一个繁体写法“鷄”：“奚”简化成了“又”，“鳥”简化成了“鸟”。",
+      "zh-Hant": "簡化字來自另一個繁體寫法「鷄」：「奚」簡化成了「又」，「鳥」簡化成了「鸟」。"
+    },
+    "closer": {
+      "en": "奚 for the sound and a bird for the meaning: that's 鸡 (雞), the chicken!",
+      "zh-Hans": "“奚”表示读音，小鸟表示意思，这就是小鸡的“鸡”！",
+      "zh-Hant": "「奚」表示讀音，「隹」表示意思，這就是小雞的「雞」！"
+    }
+  },
+  "journey": "default",
+  "origin": {
+    "type": "phono-semantic",
+    "parts": [
+      { "char": "隹", "role": "meaning", "gloss": { "en": "short-tailed bird", "zh-Hans": "短尾巴的鸟", "zh-Hant": "短尾巴的鳥" } },
+      { "char": "奚", "role": "sound" }
+    ]
+  },
+  "status": "draft",
+  "sources": [
+    { "title": "Wiktionary: 鸡", "url": "https://en.wiktionary.org/wiki/%E9%B8%A1" },
+    { "title": "Wiktionary: 雞", "url": "https://en.wiktionary.org/wiki/%E9%9B%9E" }
+  ]
+}

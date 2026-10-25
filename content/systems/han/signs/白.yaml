@@ -1,0 +1,18 @@
+id: 白
+text: { Hans: 白, Hant: 白 }
+readings: { pinyin: bái }
+meaning: { en: white, zh-Hans: 白云, zh-Hant: 白雲 }
+fact:
+  en: No one is completely sure what the first 白 showed. Some scholars think it was an acorn; others think it was a person's head.
+  zh-Hans: 最早的“白”画的是什么，现在还没有定论。有学者认为是一颗橡子，也有学者认为是一个人的头。
+  zh-Hant: 最早的「白」畫的是什麼，現在還沒有定論。有學者認為是一顆橡實，也有學者認為是一個人的頭。
+story:
+  topic: { en: Cotton-Candy Clouds, zh-Hans: 棉花糖一样的白云, zh-Hant: 棉花糖一樣的白雲 }
+  hook: { en: 'Way up high, puffy white clouds drift across the sky like giant scoops of cotton candy.', zh-Hans: 高高的天上，一朵朵蓬松的白云飘过，像一大团一大团的棉花糖。, zh-Hant: 高高的天上，一朵朵蓬鬆的白雲飄過，像一大團一大團的棉花糖。 }
+  closer: { en: 'Scholars are still puzzling over the first picture, but everyone agrees: 白 means white!', zh-Hans: 最早画的是什么，学者们还在研究，可是大家都知道，“白”就是白色！, zh-Hant: 最早畫的是什麼，學者們還在研究，可是大家都知道，「白」就是白色！ }
+journey: default
+origin:
+  type: uncertain
+status: draft
+sources:
+  - { title: 'Wiktionary: 白', url: 'https://en.wiktionary.org/wiki/%E7%99%BD' }

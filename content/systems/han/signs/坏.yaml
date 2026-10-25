@@ -1,0 +1,23 @@
+id: 坏
+text: { Hans: 坏, Hant: 壞 }
+readings: { pinyin: huài }
+meaning: { en: bad; spoiled, zh-Hans: 坏人, zh-Hant: 壞人 }
+fact:
+  en: 壞 (坏) has 土 (earth) for the meaning and 褱 (huái) for the sound. Earth, because anything that rots ends up as earth!
+  zh-Hans: 繁体字里，左边的“土”表示意思，右边的“褱”（huái）表示读音。为什么用“土”呢？因为东西坏掉腐烂以后，最后会变成泥土。
+  zh-Hant: 「壞」左邊的「土」表示意思，右邊的「褱」（huái）表示讀音。為什麼用「土」呢？因為東西壞掉腐爛以後，最後會變成泥土。
+story:
+  topic: { en: The Mushy Brown Banana, zh-Hans: 变坏的香蕉, zh-Hant: 變壞的香蕉 }
+  hook: { en: 'Pee-yew! Owen finds a banana at the bottom of his bag, all brown, mushy and spoiled.', zh-Hans: 噢，好臭！欧文在书包底下翻出一根香蕉，已经又黑又软，完全坏掉了。, zh-Hant: 噢，好臭！歐文在書包底下翻出一根香蕉，已經又黑又軟，完全壞掉了。 }
+  turn: { en: Simplified 坏 replaced the big sound part 褱 with 不., zh-Hans: 简化字“坏”把复杂的“褱”换成了“不”。, zh-Hant: 簡化字把複雜的「褱」換成了「不」。 }
+  closer: { en: 'Rotten things go back to the earth: 坏 (壞) means bad or spoiled!', zh-Hans: 坏掉的东西最后都回到泥土里，这就是“坏”！, zh-Hant: 壞掉的東西最後都回到泥土裡，這就是「壞」！ }
+journey: default
+origin:
+  type: phono-semantic
+  parts:
+    - { char: 土, role: meaning, gloss: { en: earth, zh-Hans: 泥土, zh-Hant: 泥土 } }
+    - { char: 褱, role: sound }
+status: draft
+sources:
+  - { title: 'Wiktionary: 坏', url: 'https://en.wiktionary.org/wiki/%E5%9D%8F' }
+  - { title: 'Wiktionary: 壞', url: 'https://en.wiktionary.org/wiki/%E5%A3%9E' }

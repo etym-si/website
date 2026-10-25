@@ -1,0 +1,21 @@
+id: 慢
+text: { Hans: 慢, Hant: 慢 }
+readings: { pinyin: màn }
+meaning: { en: slow, zh-Hans: 慢慢, zh-Hant: 慢慢 }
+fact:
+  en: 慢 has the heart part 忄 (心) for the meaning and 曼 (màn) for the sound. 曼 can also mean 'long', a fitting hint for something that takes a long time.
+  zh-Hans: “慢”左边的“忄”表示意思，右边的“曼”（màn）表示读音。“曼”还有“长”的意思，正好让人想到花很长时间。
+  zh-Hant: 「慢」左邊的「忄」表示意思，右邊的「曼」（màn）表示讀音。「曼」還有「長」的意思，正好讓人想到花很長時間。
+story:
+  topic: { en: The Snail's Long Journey, zh-Hans: 蜗牛的长途旅行, zh-Hant: 蝸牛的長途旅行 }
+  hook: { en: 'Inch by inch, a little snail climbs the garden wall, carrying its house on its back.', zh-Hans: 一点一点地，一只小蜗牛背着自己的房子，往花园的墙上爬。, zh-Hant: 一點一點地，一隻小蝸牛背著自己的房子，往花園的牆上爬。 }
+  closer: { en: 'No hurry, little snail! 忄 plus 曼 makes 慢, slow.', zh-Hans: 别着急，小蜗牛！“忄”加上“曼”，就是慢慢的“慢”。, zh-Hant: 別著急，小蝸牛！「忄」加上「曼」，就是慢慢的「慢」。 }
+journey: []
+origin:
+  type: phono-semantic
+  parts:
+    - { char: 忄, role: meaning, gloss: { en: heart, zh-Hans: 心, zh-Hant: 心 } }
+    - { char: 曼, role: sound }
+status: draft
+sources:
+  - { title: 'Wiktionary: 慢', url: 'https://en.wiktionary.org/wiki/%E6%85%A2' }

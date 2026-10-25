@@ -1,0 +1,34 @@
+{
+  "id": "站",
+  "text": { "Hans": "站", "Hant": "站" },
+  "readings": { "pinyin": "zhàn" },
+  "meaning": { "en": "to stand", "zh-Hans": "站立", "zh-Hant": "站立" },
+  "fact": {
+    "en": "站 has 立 (stand) for the meaning and 占 (zhàn), which sounds exactly the same, for the sound. It's a younger character: the old dictionary Shuowen doesn't list it, but a later one does.",
+    "zh-Hans": "“站”左边的“立”表示站立，右边的“占”（zhàn）表示读音。它是个比较年轻的字：古老的《说文解字》里没有它，后来的字典里才有。",
+    "zh-Hant": "「站」左邊的「立」表示站立，右邊的「占」（zhàn）表示讀音。它是個比較年輕的字：古老的《說文解字》裡沒有它，後來的字典裡才有。"
+  },
+  "story": {
+    "topic": { "en": "Standing Like a Flamingo", "zh-Hans": "像火烈鸟一样站", "zh-Hant": "像紅鶴一樣站" },
+    "hook": {
+      "en": "Arms out, one foot up! Nini stands like a flamingo and counts all the way to ten without falling.",
+      "zh-Hans": "张开手臂，抬起一只脚！妮妮像火烈鸟一样站着，一直数到十都没有倒下。",
+      "zh-Hant": "張開手臂，抬起一隻腳！妮妮像紅鶴一樣站著，一直數到十都沒有倒下。"
+    },
+    "closer": {
+      "en": "Feet planted (or just one!), body straight: that's 站, to stand!",
+      "zh-Hans": "双脚（或者一只脚）踩稳，身体挺直，这就是站立的“站”！",
+      "zh-Hant": "雙腳（或者一隻腳）踩穩，身體挺直，這就是站立的「站」！"
+    }
+  },
+  "journey": [],
+  "origin": {
+    "type": "phono-semantic",
+    "parts": [
+      { "char": "立", "role": "meaning", "gloss": { "en": "to stand", "zh-Hans": "站立", "zh-Hant": "站立" } },
+      { "char": "占", "role": "sound" }
+    ]
+  },
+  "status": "draft",
+  "sources": [ { "title": "Wiktionary: 站", "url": "https://en.wiktionary.org/wiki/%E7%AB%99" } ]
+}

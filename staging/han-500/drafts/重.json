@@ -1,0 +1,44 @@
+{
+  "id": "重",
+  "text": { "Hans": "重", "Hant": "重" },
+  "readings": { "pinyin": "zhòng" },
+  "meaning": { "en": "heavy", "zh-Hans": "重量", "zh-Hant": "重量" },
+  "fact": {
+    "en": "重 means heavy. It's built from 人 (a man) for the meaning and 東 (a bag), which also gives the sound.",
+    "zh-Hans": "“重”就是分量大。它由“人”和“东”组成：“人”表示意思，“东”在这里是一个袋子，同时表示读音。",
+    "zh-Hant": "「重」就是分量大。它由「人」和「東」組成：「人」表示意思，「東」在這裡是一個袋子，同時表示讀音。"
+  },
+  "story": {
+    "topic": { "en": "Grandpa's Heavy Suitcase", "zh-Hans": "爷爷的行李箱", "zh-Hant": "爺爺的行李箱" },
+    "hook": {
+      "en": "Oof! Big brother tugs at Grandpa's suitcase, but it won't budge: is it full of rocks?",
+      "zh-Hans": "嘿——咻！哥哥使劲拉爷爷的行李箱，可它一动也不动：里面装的是石头吗？",
+      "zh-Hant": "嘿——咻！哥哥使勁拉爺爺的行李箱，可是它一動也不動：裡面裝的是石頭嗎？"
+    },
+    "early": {
+      "en": "The oldest 重 shows a man carrying a bag: a heavy load!",
+      "zh-Hans": "最早的“重”，画的是一个人带着一个大袋子——好重呀！",
+      "zh-Hant": "最早的「重」，畫的是一個人帶著一個大袋子——好重呀！"
+    },
+    "turn": {
+      "en": "Later, 土 (earth) was added to show the man standing on the ground. The top of today's 重 looks like 千, but it's really the man!",
+      "zh-Hans": "后来又加上了“土”，表示这个人站在地上。今天“重”的上半部分看起来像“千”，其实那是那个人！",
+      "zh-Hant": "後來又加上了「土」，表示這個人站在地上。今天「重」的上半部分看起來像「千」，其實那是那個人！"
+    },
+    "closer": {
+      "en": "A man, his bag and the ground under his feet: together they make 重, heavy!",
+      "zh-Hans": "一个人、一个袋子，再加上脚下的土地，合起来就是很重的“重”！",
+      "zh-Hant": "一個人、一個袋子，再加上腳下的土地，合起來就是很重的「重」！"
+    }
+  },
+  "journey": "default",
+  "origin": {
+    "type": "phono-semantic",
+    "parts": [
+      { "char": "人", "role": "meaning", "gloss": { "en": "man", "zh-Hans": "人", "zh-Hant": "人" } },
+      { "char": "東", "role": "sound" }
+    ]
+  },
+  "status": "draft",
+  "sources": [ { "title": "Wiktionary: 重", "url": "https://en.wiktionary.org/wiki/%E9%87%8D" } ]
+}

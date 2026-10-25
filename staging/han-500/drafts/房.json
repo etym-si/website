@@ -1,0 +1,34 @@
+{
+  "id": "房",
+  "text": { "Hans": "房", "Hant": "房" },
+  "readings": { "pinyin": "fáng" },
+  "meaning": { "en": "house; room", "zh-Hans": "房子", "zh-Hant": "房子" },
+  "fact": {
+    "en": "房 has 户 (door) on top for the meaning and 方 (fāng) below for the sound, close to fáng. If 房 first meant a side room, 方 ('side') may help with the meaning too.",
+    "zh-Hans": "“房”上面的“户”是门，表示意思；下面的“方”（fāng）表示读音，和“房”（fáng）读起来很像。如果“房”原本指正屋旁边的侧房，那“方”（旁边）也许还帮着表示意思呢。",
+    "zh-Hant": "「房」上面的「戶」是門，表示意思；下面的「方」（fāng）表示讀音，和「房」（fáng）讀起來很像。如果「房」原本指正屋旁邊的側房，那「方」（旁邊）也許還幫著表示意思呢。"
+  },
+  "story": {
+    "topic": { "en": "A Cardboard-Box House", "zh-Hans": "纸箱小房子", "zh-Hant": "紙箱小房子" },
+    "hook": {
+      "en": "Cut, cut, tape! Niuniu turns a giant cardboard box into a little house with a door and a window, then moves in with her teddy bear.",
+      "zh-Hans": "剪一剪，贴一贴！妞妞把大纸箱变成了一座有门有窗的小房子，还抱着小熊搬了进去。",
+      "zh-Hant": "剪一剪，貼一貼！妞妞把大紙箱變成了一座有門有窗的小房子，還抱著小熊搬了進去。"
+    },
+    "closer": {
+      "en": "A door on top, 方 below: 房 is a house, or a room of your own!",
+      "zh-Hans": "上面一扇门，下面一个“方”，这就是房子、房间的“房”！",
+      "zh-Hant": "上面一扇門，下面一個「方」，這就是房子、房間的「房」！"
+    }
+  },
+  "journey": "default",
+  "origin": {
+    "type": "phono-semantic",
+    "parts": [
+      { "char": "戶", "role": "meaning", "gloss": { "en": "door", "zh-Hans": "门", "zh-Hant": "門" } },
+      { "char": "方", "role": "sound" }
+    ]
+  },
+  "status": "draft",
+  "sources": [ { "title": "Wiktionary: 房", "url": "https://en.wiktionary.org/wiki/%E6%88%BF" } ]
+}

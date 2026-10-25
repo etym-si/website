@@ -1,0 +1,18 @@
+id: 累
+text: { Hans: 累, Hant: 累 }
+readings: { pinyin: lèi }
+meaning: { en: tired, zh-Hans: 很累, zh-Hant: 很累 }
+fact:
+  en: '累 is a shortened form of 纍: the three 田 on top were cut down to just one.'
+  zh-Hans: “累”是“纍”的简化写法：上面三个“田”减成了一个。
+  zh-Hant: 「累」是「纍」的簡化寫法：上面三個「田」減成了一個。
+story:
+  topic: { en: Home After a Long Hike, zh-Hans: 爬山回来, zh-Hant: 爬山回來 }
+  hook: { en: "Home at last! After hiking up and down the mountain all day, Dad flops onto the sofa and doesn't move a muscle.", zh-Hans: 终于到家了！爬了一整天的山，爸爸一进门就瘫在沙发上，一动也不想动。, zh-Hant: 終於到家了！爬了一整天的山，爸爸一進門就癱在沙發上，一動也不想動。 }
+  closer: { en: "Heavy legs, sleepy eyes: when you've worked hard all day, you feel 累, tired!", zh-Hans: 腿沉沉的，眼皮重重的，忙了一整天，就会觉得“累”！, zh-Hant: 腿沉沉的，眼皮重重的，忙了一整天，就會覺得「累」！ }
+journey: []
+origin:
+  type: uncertain
+status: draft
+sources:
+  - { title: 'Wiktionary: 累', url: 'https://en.wiktionary.org/wiki/%E7%B4%AF' }

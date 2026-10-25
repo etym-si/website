@@ -1,0 +1,21 @@
+id: 穿
+text: { Hans: 穿, Hant: 穿 }
+readings: { pinyin: chuān }
+meaning: { en: to wear; to go through, zh-Hans: 穿衣服, zh-Hant: 穿衣服 }
+fact:
+  en: 穿 is 穴 (cave) on top of 牙 (tooth), and it means to go right through something. Today it also means to put on clothes.
+  zh-Hans: “穿”是上面的“穴”（洞穴）加上下面的“牙”（牙齿），意思是穿过去、穿透。现在它也表示穿衣服。
+  zh-Hant: 「穿」是上面的「穴」（洞穴）加上下面的「牙」（牙齒），意思是穿過去、穿透。現在它也表示穿衣服。
+story:
+  topic: { en: Pop Goes the Head!, zh-Hans: 小脑袋钻出来啦, zh-Hant: 小腦袋鑽出來啦 }
+  hook: { en: "Wriggle, wriggle, pop! Luke's head pushes through the neck of his woolly sweater.", zh-Hans: 钻呀钻，嘭！卢克的小脑袋从毛衣领口钻了出来。, zh-Hant: 鑽呀鑽，砰！盧克的小腦袋從毛衣領口鑽了出來。 }
+  closer: { en: '穴 over 牙 makes 穿: go through the hole and your sweater is on!', zh-Hans: “穴”加上“牙”就是“穿”：从洞口穿过去，毛衣就穿好啦！, zh-Hant: 「穴」加上「牙」就是「穿」：從洞口穿過去，毛衣就穿好啦！ }
+journey: []
+origin:
+  type: compound-ideogram
+  parts:
+    - { char: 穴, role: meaning, gloss: { en: cave, zh-Hans: 洞穴, zh-Hant: 洞穴 } }
+    - { char: 牙, role: meaning, gloss: { en: tooth, zh-Hans: 牙齿, zh-Hant: 牙齒 } }
+status: draft
+sources:
+  - { title: 'Wiktionary: 穿', url: 'https://en.wiktionary.org/wiki/%E7%A9%BF' }

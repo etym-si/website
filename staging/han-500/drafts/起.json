@@ -1,0 +1,34 @@
+{
+  "id": "起",
+  "text": { "Hans": "起", "Hant": "起" },
+  "readings": { "pinyin": "qǐ" },
+  "meaning": { "en": "to rise; to get up", "zh-Hans": "起床", "zh-Hant": "起床" },
+  "fact": {
+    "en": "起 has 走 (to walk) for the meaning and 巳 for the sound. It means to rise or to stand up.",
+    "zh-Hans": "“起”的“走”字旁表示意思，“巳”表示读音。它的意思是升起、站起来。",
+    "zh-Hant": "「起」的「走」字旁表示意思，「巳」表示讀音。它的意思是升起、站起來。"
+  },
+  "story": {
+    "topic": { "en": "Rise and Shine!", "zh-Hans": "起床啦！", "zh-Hant": "起床囉！" },
+    "hook": {
+      "en": "Beep-beep-beep! Ava kicks off her blanket, sits up and reaches her arms toward the morning sun.",
+      "zh-Hans": "嘀嘀嘀！艾娃踢开被子坐起来，朝着早晨的太阳伸了个大懒腰。",
+      "zh-Hant": "嗶嗶嗶！艾娃踢開被子坐起來，朝著早晨的太陽伸了個大懶腰。"
+    },
+    "closer": {
+      "en": "Up from bed and up on your feet: that's 起, to rise!",
+      "zh-Hans": "从床上起来，站起身子，这就是起床的“起”！",
+      "zh-Hant": "從床上起來，站起身子，這就是起床的「起」！"
+    }
+  },
+  "journey": "default",
+  "origin": {
+    "type": "phono-semantic",
+    "parts": [
+      { "char": "走", "role": "meaning", "gloss": { "en": "to walk", "zh-Hans": "走路", "zh-Hant": "走路" } },
+      { "char": "巳", "role": "sound" }
+    ]
+  },
+  "status": "draft",
+  "sources": [ { "title": "Wiktionary: 起", "url": "https://en.wiktionary.org/wiki/%E8%B5%B7" } ]
+}

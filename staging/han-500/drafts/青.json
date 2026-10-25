@@ -1,0 +1,33 @@
+{
+  "id": "青",
+  "text": { "Hans": "青", "Hant": "青" },
+  "readings": { "pinyin": "qīng" },
+  "meaning": { "en": "blue-green", "zh-Hans": "青草", "zh-Hant": "青草" },
+  "fact": {
+    "en": "Scholars don't agree on how 青 was built. An old dictionary says 生 (growing plants) plus 丹 (cinnabar, used as a dye) means 'the color of growing plants'; a newer idea says 生 and 井 were both sound parts.",
+    "zh-Hans": "“青”是怎么组成的，学者们看法不一样。古老的字典说它是“生”（草木生长）加“丹”（可以染色的朱砂），意思是草木生长的颜色；新的说法认为“生”和“井”都是表示读音的。",
+    "zh-Hant": "「青」是怎麼組成的，學者們看法不一樣。古老的字典說它是「生」（草木生長）加「丹」（可以染色的朱砂），意思是草木生長的顏色；新的說法認為「生」和「井」都是表示讀音的。"
+  },
+  "story": {
+    "topic": { "en": "Blue Hill or Green Hill?", "zh-Hans": "是蓝还是绿？", "zh-Hant": "是藍還是綠？" },
+    "hook": {
+      "en": "Is that faraway hill blue or green? Dad says blue, Mom says green, and they're both right!",
+      "zh-Hans": "远处的山是蓝色还是绿色？爸爸说是蓝的，妈妈说是绿的——两个人都没说错！",
+      "zh-Hant": "遠處的山是藍色還是綠色？爸爸說是藍的，媽媽說是綠的——兩個人都沒說錯！"
+    },
+    "turn": {
+      "en": "In today's 青, the top has shrunk to 龶, and the bottom looks like 月 (moon), though it has nothing to do with the moon.",
+      "zh-Hans": "今天的“青”，上面缩成了“龶”，下面看起来像“月”，其实和月亮一点关系也没有。",
+      "zh-Hant": "今天的「青」，上面縮成了「龶」，下面看起來像「月」，其實和月亮一點關係也沒有。"
+    },
+    "closer": {
+      "en": "Blue sky, green grass, blue-green hills: they can all be 青!",
+      "zh-Hans": "蓝蓝的天、绿绿的草、青青的山，都可以用“青”来形容！",
+      "zh-Hant": "藍藍的天、綠綠的草、青青的山，都可以用「青」來形容！"
+    }
+  },
+  "journey": "default",
+  "origin": { "type": "uncertain" },
+  "status": "draft",
+  "sources": [ { "title": "Wiktionary: 青", "url": "https://en.wiktionary.org/wiki/%E9%9D%92" } ]
+}

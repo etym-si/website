@@ -1,0 +1,24 @@
+id: 边
+text: { Hans: 边, Hant: 邊 }
+readings: { pinyin: biān }
+meaning: { en: side; edge, zh-Hans: 海边, zh-Hant: 海邊 }
+fact:
+  en: 邊 (边) is the walking part 辶 plus 臱, which gives the sound. It means an edge or a side.
+  zh-Hans: “边”的“辶”表示走动，是意思部分；在繁体字里，表示读音的部分是“臱”。它的意思是边缘、旁边。
+  zh-Hant: 「邊」由表示走動的「辶」和表示讀音的「臱」組成，意思是邊緣、旁邊。
+story:
+  topic: { en: Walking Along the Seashore, zh-Hans: 沿着海边走, zh-Hant: 沿著海邊走 }
+  hook: { en: 'Here comes a wave! Nina walks along the edge of the sea, letting the water tickle her toes.', zh-Hans: 浪花来啦！妮娜沿着海边散步，让浪花轻轻挠她的脚丫。, zh-Hant: 浪花來囉！妮娜沿著海邊散步，讓浪花輕輕搔她的腳丫。 }
+  early: { en: 'At first, the word was written with 臱 alone, with no walking part at all.', zh-Hans: 最早，这个字只写作“臱”，还没有表示走路的部分。, zh-Hant: 最早，這個字只寫作「臱」，還沒有表示走路的部分。 }
+  turn: { en: 'In bronze inscriptions, the walking part 辶 was added. Much later, simplified 边 shrank 臱 down to 力.', zh-Hans: 到了金文，才加上了表示走路的“辶”。很久以后，简化字又把“臱”换成了“力”。, zh-Hant: 到了金文，才加上了表示走路的「辶」。很久以後，簡化字又把「臱」換成了「力」。 }
+  closer: { en: "The edge of the sea, the side of the road: they're all 边 (邊)!", zh-Hans: 海的边上，路的旁边，都是“边”！, zh-Hant: 海的邊上，路的旁邊，都是「邊」！ }
+journey: default
+origin:
+  type: phono-semantic
+  parts:
+    - { char: 辶, role: meaning, gloss: { en: walking; movement, zh-Hans: 走动, zh-Hant: 走動 } }
+    - { char: 臱, role: sound }
+status: draft
+sources:
+  - { title: 'Wiktionary: 边', url: 'https://en.wiktionary.org/wiki/%E8%BE%B9' }
+  - { title: 'Wiktionary: 邊', url: 'https://en.wiktionary.org/wiki/%E9%82%8A' }

@@ -1,0 +1,21 @@
+id: 快
+text: { Hans: 快, Hant: 快 }
+readings: { pinyin: kuài }
+meaning: { en: happy; fast, zh-Hans: 快乐, zh-Hant: 快樂 }
+fact:
+  en: 快 has the heart part 忄 (心) on the left for the meaning and 夬 on the right for the sound. It can mean happy, as in 快乐, and today it also means fast!
+  zh-Hans: “快”左边的“忄”就是“心”，表示意思；右边的“夬”表示读音。它可以表示高兴，比如“快乐”，现在也常常表示速度快！
+  zh-Hant: 「快」左邊的「忄」就是「心」，表示意思；右邊的「夬」表示讀音。它可以表示高興，比如「快樂」，現在也常常表示速度快！
+story:
+  topic: { en: Zooming Down the Snowy Hill, zh-Hans: 冲下雪坡, zh-Hant: 衝下雪坡 }
+  hook: { en: Down we go! The sled zooms down the snowy hill so fast that everyone squeals with joy., zh-Hans: 冲呀！雪橇飞快地冲下雪坡，大家开心得哇哇大叫。, zh-Hant: 衝呀！雪橇飛快地衝下雪坡，大家開心得哇哇大叫。 }
+  closer: { en: "Fast and happy at the same time: that's 快, with a heart 忄 to feel the fun!", zh-Hans: 又快又开心，这就是“快”！左边的“忄”，让你感受到心里的快乐。, zh-Hant: 又快又開心，這就是「快」！左邊的「忄」，讓你感受到心裡的快樂。 }
+journey: []
+origin:
+  type: phono-semantic
+  parts:
+    - { char: 忄, role: meaning, gloss: { en: heart, zh-Hans: 心, zh-Hant: 心 } }
+    - { char: 夬, role: sound }
+status: draft
+sources:
+  - { title: 'Wiktionary: 快', url: 'https://en.wiktionary.org/wiki/%E5%BF%AB' }

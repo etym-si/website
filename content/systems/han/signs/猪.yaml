@@ -1,0 +1,23 @@
+id: 猪
+text: { Hans: 猪, Hant: 豬 }
+readings: { pinyin: zhū }
+meaning: { en: pig, zh-Hans: 小猪, zh-Hant: 小豬 }
+fact:
+  en: 豬 (猪) has 豕 (pig) on the left for the meaning and 者 on the right for the sound.
+  zh-Hans: 繁体字里，左边的“豕”表示猪，是意思部分；右边的“者”表示读音。
+  zh-Hant: 「豬」左邊的「豕」表示豬，是意思部分；右邊的「者」表示讀音。
+story:
+  topic: { en: Piglets in the Mud, zh-Hans: 泥坑里的小猪, zh-Hant: 泥坑裡的小豬 }
+  hook: { en: 'Oink, oink! Three little piglets roll in a cool mud puddle, splashing and squealing with delight.', zh-Hans: 哼哼！三只小猪在凉凉的泥坑里打滚，溅起泥花，开心得直叫。, zh-Hant: 哼哼！三隻小豬在涼涼的泥坑裡打滾，濺起泥花，開心得直叫。 }
+  turn: { en: "Simplified 猪 uses the dog part 犭 on the left instead of the pig 豕. Funny, isn't it?", zh-Hans: 简化字“猪”的左边，用的是表示狗的“犭”，而不是“豕”。是不是很有趣？, zh-Hant: 簡化字的左邊，用的是表示狗的「犭」，而不是「豕」。是不是很有趣？ }
+  closer: { en: "A pig part (or a dog part!) plus 者 for the sound: that's 猪 (豬), the pig!", zh-Hans: 左边是动物，右边的“者”管读音，这就是小猪的“猪”！, zh-Hant: 左邊的「豕」是豬，右邊的「者」管讀音，這就是小豬的「豬」！ }
+journey: default
+origin:
+  type: phono-semantic
+  parts:
+    - { char: 豕, role: meaning, gloss: { en: pig, zh-Hans: 猪, zh-Hant: 豬 } }
+    - { char: 者, role: sound }
+status: draft
+sources:
+  - { title: 'Wiktionary: 猪', url: 'https://en.wiktionary.org/wiki/%E7%8C%AA' }
+  - { title: 'Wiktionary: 豬', url: 'https://en.wiktionary.org/wiki/%E8%B1%AC' }
