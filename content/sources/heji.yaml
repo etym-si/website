@@ -1,0 +1,13 @@
+# yaml-language-server: $schema=../_schema/source.schema.json
+id: heji
+stage: han.oracle
+title: { en: "Heji: the big catalogue of oracle bones (甲骨文合集)", zh-Hans: 《甲骨文合集》, zh-Hant: 《甲骨文合集》 }
+match: 合(?<number>\d+)
+photo: heji6057
+templates:
+  example:
+    title: { en: "Copied from oracle bone No. {number}", zh-Hans: "描自甲骨文合集 {number} 号", zh-Hant: "描自甲骨文合集 {number} 號" }
+    text:
+      en: This {sign} was copied from oracle bone No. {number} in the big catalogue of oracle bones (甲骨文合集).{firstBook} The photo shows another bone from the same time.
+      zh-Hans: 这个“{sign}”描自《甲骨文合集》第{number}号甲骨。{firstBook}照片是同一时代的另一块牛骨。
+      zh-Hant: 這個「{sign}」描自《甲骨文合集》第{number}號甲骨。{firstBook}照片是同一時代的另一塊牛骨。

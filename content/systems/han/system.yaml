@@ -1,0 +1,153 @@
+# yaml-language-server: $schema=../../_schema/system.schema.json
+id: han
+name: { en: Chinese characters, zh-Hans: 汉字, zh-Hant: 漢字 }
+signNoun: { en: character, zh-Hans: 字, zh-Hant: 字 }
+signId: ^\p{Script=Han}(-\p{Script=Han})?$
+textScripts: [ Hans, Hant ]
+readings:
+  pinyin: { primary: true }
+pronounce: { voice: pron-zh, from: text.Hans }
+ingest: { glyphs: commons-acc, strokes: hanzi-writer-data }
+journeyForm: Hant
+defaultJourney: [ oracle, bronze, seal, clerical ]
+variantNotes:
+  slip: { en: from bamboo slips, zh-Hans: 出自竹简, zh-Hant: 出自竹簡 }
+  silk: { en: from silk manuscripts, zh-Hans: 出自帛书, zh-Hant: 出自帛書 }
+  clerical-han: { en: Han dynasty, zh-Hans: 汉代, zh-Hant: 漢代 }
+  clerical: { en: Han dynasty, zh-Hans: 汉代, zh-Hant: 漢代 }
+  bronze-shang: { en: Shang dynasty bronze, zh-Hans: 商代金文, zh-Hant: 商代金文 }
+noteFragments:
+  takenFrom:
+    match: taken from (?<component>\S)
+    text:
+      en: " (it is the {sign} part of the character {component})"
+      zh-Hans: （取自“{component}”字里的“{sign}”）
+      zh-Hant: （取自「{component}」字裡的「{sign}」）
+  firstBook:
+    match: ^鐵
+    text:
+      en: " It was first printed in 1903 in “Tieyun Canggui”, the very first book of oracle bones!"
+      zh-Hans: 它最早印在1903年的《铁云藏龟》里——第一本甲骨文的书！
+      zh-Hant: 它最早印在1903年的《鐵雲藏龜》裡——第一本甲骨文的書！
+stages:
+  - id: picture
+    kind: picture
+    icon: 🖍️
+    color: "#f5b82e"
+    name: { en: Picture, zh-Hans: 图画, zh-Hant: 圖畫 }
+    era: { en: Drawn from life · what ancient eyes saw, zh-Hans: 照着眼前事物画成, zh-Hant: 照著眼前事物畫成 }
+  - id: oracle
+    kind: paths
+    icon: 🐢
+    color: "#c9824a"
+    name: { en: Oracle bone script, zh-Hans: 甲骨文, zh-Hant: 甲骨文 }
+    era:
+      en: ~3,200 years ago · carved on turtle shells & bones
+      zh-Hans: 约3200年前 · 刻在龟甲和兽骨上
+      zh-Hant: 約3200年前 · 刻在龜甲和獸骨上
+    commonsVariants: [ oracle ]
+    examples:
+      - when: { note: true }
+        artifact: heji6057
+        title: { en: "Copied from oracle bone {note}", zh-Hans: "描自甲骨 {note}", zh-Hant: "描自甲骨 {note}" }
+        text:
+          en: This {sign} was copied from a real oracle bone (catalogue {note}). The photo shows another bone from the same time.
+          zh-Hans: 这个“{sign}”描自一片真正的甲骨（编号 {note}）。照片是同一时代的另一块牛骨。
+          zh-Hant: 這個「{sign}」描自一片真正的甲骨（編號 {note}）。照片是同一時代的另一塊牛骨。
+      - artifact: heji6057
+        title: { en: Oracle bones, zh-Hans: 甲骨, zh-Hant: 甲骨 }
+        text:
+          en: Oracle bone script was carved on ox bones and turtle shells like this one, to ask about rain, harvests and hunting.
+          zh-Hans: 甲骨文刻在这样的牛骨和龟甲上，用来占卜下雨、收成和打猎。
+          zh-Hant: 甲骨文刻在這樣的牛骨和龜甲上，用來占卜下雨、收成和打獵。
+  - id: bronze
+    kind: paths
+    icon: 🔔
+    color: "#3f9b8f"
+    name: { en: Bronze script, zh-Hans: 金文, zh-Hant: 金文 }
+    era: { en: "~3,000 years ago · cast on bronze pots & bells", zh-Hans: 约3000年前 · 铸在青铜器上, zh-Hant: 約3000年前 · 鑄在青銅器上 }
+    commonsVariants: [ bronze, bronze-shang ]
+    examples:
+      - artifact: dayu-ding
+        title: { en: Bronze vessels, zh-Hans: 青铜器, zh-Hant: 青銅器 }
+        text:
+          en: Bronze script was cast into bronze cauldrons and bowls like this one, the Da Yu ding, about 3,000 years ago.
+          zh-Hans: 金文是铸在青铜器上的文字，就像这件约3000年前的大盂鼎。
+          zh-Hant: 金文是鑄在青銅器上的文字，就像這件約3000年前的大盂鼎。
+  - id: seal
+    kind: paths
+    icon: 🏯
+    color: "#e8453c"
+    name: { en: Seal script, zh-Hans: 篆书, zh-Hant: 篆書 }
+    era:
+      en: ~2,200 years ago · the First Emperor made one writing for all
+      zh-Hans: 约2200年前 · 秦始皇统一文字
+      zh-Hant: 約2200年前 · 秦始皇統一文字
+    commonsVariants: [ seal ]
+    turn: true
+    examples:
+      - kind: book
+        artifact: shuowen
+        title: { en: Shuowen Jiezi (說文解字), zh-Hans: 《说文解字》, zh-Hant: 《說文解字》 }
+        text:
+          en: "Seal forms like this were collected in the Shuowen Jiezi, China’s first great character dictionary (about 100 CE). It explained 9,353 characters! Photo: a page from Xu Xuan’s edition."
+          zh-Hans: 这样的篆书收录在《说文解字》里——中国第一部重要的字典（约公元100年），一共解释了9353个字！照片是徐铉校订本的一页。
+          zh-Hant: 這樣的篆書收錄在《說文解字》裡——中國第一部重要的字典（約公元100年），一共解釋了9353個字！照片是徐鉉校訂本的一頁。
+  - id: clerical
+    kind: paths
+    icon: 🎋
+    color: "#7a8b2e"
+    name: { en: Clerical script, zh-Hans: 隶书, zh-Hant: 隸書 }
+    era:
+      en: ~2,000 years ago · quick brush writing on bamboo & silk
+      zh-Hans: 约2000年前 · 写在竹简和帛上的毛笔字
+      zh-Hant: 約2000年前 · 寫在竹簡和帛上的毛筆字
+    commonsVariants: [ clerical-han, clerical, slip, silk ]
+    turn: true
+    examples:
+      - when: { variant: slip }
+        artifact: qin-slips
+        title: { en: Bamboo slips, zh-Hans: 竹简, zh-Hant: 竹簡 }
+        text:
+          en: Around 2,200 years ago, people wrote with brushes on strips of bamboo like these, tied together into scrolls.
+          zh-Hans: 约2200年前，人们用毛笔在这样的竹片上写字，再用绳子编成一卷。
+          zh-Hant: 約2200年前，人們用毛筆在這樣的竹片上寫字，再用繩子編成一卷。
+      - when: { variant: silk }
+        artifact: mawangdui
+        title: { en: Han silk manuscript (Mawangdui), zh-Hans: 马王堆帛书, zh-Hant: 馬王堆帛書 }
+        text:
+          en: This {sign} comes from Han-dynasty brush writing on silk, like this manuscript from the Mawangdui tombs (2nd century BCE).
+          zh-Hans: 这个“{sign}”来自汉代的毛笔字（写在丝绸上），就像这份马王堆出土的帛书（公元前2世纪）。
+          zh-Hant: 這個「{sign}」來自漢代的毛筆字（寫在絲綢上），就像這份馬王堆出土的帛書（公元前2世紀）。
+      - artifact: mawangdui
+        title: { en: Han silk manuscript (Mawangdui), zh-Hans: 马王堆帛书, zh-Hant: 馬王堆帛書 }
+        text:
+          en: This {sign} comes from Han-dynasty brush writing, like this manuscript from the Mawangdui tombs (2nd century BCE).
+          zh-Hans: 这个“{sign}”来自汉代的毛笔字，就像这份马王堆出土的帛书（公元前2世纪）。
+          zh-Hant: 這個「{sign}」來自漢代的毛筆字，就像這份馬王堆出土的帛書（公元前2世紀）。
+  - id: regular
+    kind: strokes
+    icon: 🖌️
+    color: "#3a2e2a"
+    name: { en: Regular script, zh-Hans: 楷书, zh-Hant: 楷書 }
+    era: { en: "~1,800 years ago → today", zh-Hans: 约1800年前到今天, zh-Hant: 約1800年前到今天 }
+    script: Hant
+    examples:
+      - artifact: zhiyong
+        title: { en: Thousand Character Classic (千字文), zh-Hans: 《千字文》, zh-Hant: 《千字文》 }
+        text:
+          en: "Regular script became the standard way to write. Photo: Zhiyong’s Thousand Character Classic, about 1,400 years old."
+          zh-Hans: 楷书成了写字的标准。照片是约1400年前智永写的《千字文》。
+          zh-Hant: 楷書成了寫字的標準。照片是約1400年前智永寫的《千字文》。
+  - id: simplified
+    kind: strokes
+    icon: ✨
+    color: "#4aa3df"
+    name: { en: Simplified, zh-Hans: 简体字, zh-Hant: 簡體字 }
+    era: { en: "1950s · fewer strokes, easier to write", zh-Hans: 1950年代 · 笔画更少，更好写, zh-Hant: 1950年代 · 筆畫更少，更好寫 }
+    script: Hans
+    derivedFrom: Hant
+    intro:
+      en: In modern simplified writing, {from} is written {to}.
+      zh-Hans: 在现代简化字里，“{from}”写作“{to}”。
+      zh-Hant: 在現代簡化字裡，「{from}」寫作「{to}」。

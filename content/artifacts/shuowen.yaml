@@ -1,0 +1,12 @@
+# yaml-language-server: $schema=../_schema/artifact.schema.json
+id: shuowen
+kind: book
+stage: han.seal
+title: { en: Shuowen Jiezi (說文解字), zh-Hans: 《说文解字》, zh-Hant: 《說文解字》 }
+image: { file: shuowen.jpg, commons: "File:Shuowen Jiezi, by Xu Xuan.png" }
+credit:
+  author: photographic version of the Shuowen jiezi compiled by Xu Xuan and published by Zhonghua shuju in 1963.
+  license: Public domain
+  page: https://commons.wikimedia.org/wiki/File%3AShuowen_Jiezi%2C_by_Xu_Xuan.png
+  width: 804
+  height: 816

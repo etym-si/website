@@ -1,0 +1,35 @@
+# yaml-language-server: $schema=../_schema/artifact.schema.json
+id: zheng-scapula
+kind: bone
+stage: han.oracle
+title: { en: "A big ox bone, National Museum of China", zh-Hans: 大型牛骨刻辞（中国国家博物馆）, zh-Hant: 大型牛骨刻辭（中國國家博物館） }
+image: { file: zheng-scapula.jpg, commons: File:Shang dynasty inscribed scapula.jpg }
+occurrences:
+  - sign: han/日
+    text:
+      en: "Look closely at the red circle: this bone says 三日, “on the third day”. The diviner Zheng carved it about 3,200 years ago."
+      zh-Hans: 看红圈里：这块牛骨上写着“三日”，就是“第三天”。约3200年前，占卜师“争”刻下了它。
+      zh-Hant: 看紅圈裡：這塊牛骨上寫著「三日」，就是「第三天」。約3200年前，占卜師「爭」刻下了它。
+    marks:
+      - box: [ 0.643, 0.748, 0.054, 0.03 ]
+        label:
+          en: "日 (“day”) under 三 (“three”): 三日, “on the third day”"
+          zh-Hans: “三”下面的“日”：“三日”（第三天）
+          zh-Hant: 「三」下面的「日」：「三日」（第三天）
+  - sign: han/月
+    text:
+      en: "Look closely at the red circle: this bone says 五月, “in the fifth month”. The diviner Zheng carved it about 3,200 years ago."
+      zh-Hans: 看红圈里：这块牛骨上写着“五月”。约3200年前，占卜师“争”刻下了它。
+      zh-Hant: 看紅圈裡：這块牛骨上寫著「五月」。約3200年前，占卜師「爭」刻下了它。
+    marks:
+      - box: [ 0.199, 0.663, 0.042, 0.06 ]
+        label:
+          en: "月 (“month”) under 五 (“five”): 五月, “in the fifth month”"
+          zh-Hans: “五”下面的弯月：“五月”
+          zh-Hant: 「五」下面的彎月：「五月」
+credit:
+  author: BabelStone
+  license: CC BY-SA 3.0
+  page: https://commons.wikimedia.org/wiki/File%3AShang_dynasty_inscribed_scapula.jpg
+  width: 584
+  height: 900

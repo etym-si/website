@@ -1,0 +1,29 @@
+# yaml-language-server: $schema=../_schema/artifact.schema.json
+id: heji6057
+kind: bone
+stage: han.oracle
+title: { en: Oracle bone No. 6057 (Heji), zh-Hans: 甲骨文合集 6057 号, zh-Hant: 甲骨文合集 6057 號 }
+aliases: [ 合6057 ]
+image:
+  file: heji6057.jpg
+  commons: File:Shang Inscribed Ox Scapula (for divination).jpg
+occurrences:
+  - sign: han/田
+    marks:
+      - box: [ 0.418, 0.766, 0.052, 0.036 ]
+        label:
+          en: 田 (“field”) in “侵我西鄙田” — invaded the fields on our western border
+          zh-Hans: “侵我西鄙田”（侵犯我们西边的农田）里的“田”
+          zh-Hant: 「侵我西鄙田」（侵犯我們西邊的農田）裡的「田」
+templates:
+  exact:
+    text:
+      en: This very ox bone! The {sign} you just saw (circled in red) was copied right from it. It is about 3,200 years old and lives in the National Museum of China.
+      zh-Hans: 就是这块牛骨！刚才的“{sign}”（红圈处）就是从它上面描下来的。它已经约3200岁了，现藏中国国家博物馆。
+      zh-Hant: 就是這塊牛骨！剛才的「{sign}」（紅圈處）就是從它上面描下來的。它已經約3200歲了，現藏中國國家博物館。
+credit:
+  author: Gary Lee Todd
+  license: CC0
+  page: https://commons.wikimedia.org/wiki/File%3AShang_Inscribed_Ox_Scapula_%28for_divination%29.jpg
+  width: 860
+  height: 900

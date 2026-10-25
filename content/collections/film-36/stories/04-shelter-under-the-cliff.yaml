@@ -1,0 +1,67 @@
+# yaml-language-server: $schema=../../../_schema/story.schema.json
+id: shelter-under-the-cliff
+title: { en: Shelter Under the Cliff, zh-Hans: 山崖下避雨, zh-Hant: 山崖下避雨 }
+topic: { en: Keeping warm in a sudden storm, zh-Hans: 大雨里的篝火与伙伴, zh-Hant: 大雨裡的篝火與夥伴 }
+cast: [ 雨, 伞, 石, 火, 龟, 鹿 ]
+script:
+  - { do: bg, tone: dawn, ms: 800 }
+  - narrate:
+      en: "Rumble… Pitter-patter! The sky darkens and heavy raindrops begin to fall: 雨!"
+      zh-Hans: 轰隆隆……淅淅沥沥！天空暗了下来，豆大的雨点落了下来：“雨”！
+      zh-Hant: 轟隆隆……淅淅瀝瀝！天空暗了下來，豆大的雨點落了下來：「雨」！
+  - { do: place, actor: rain, at: [ 300, 145 ], size: 190 }
+  - { do: draw, actor: rain, glyph: { sign: 雨, stage: oracle }, ms: 1500, color: "#1f5fa8" }
+  - do: together
+    steps:
+      - { do: wash, actor: rain, color: "#4a90e2", size: 250, opacity: 0.38 }
+      - tagSay: { actor: rain, sign: 雨, dx: 140, dy: 95 }
+  - narrate:
+      en: "Quick — pop open a round umbrella to keep the raindrops off our heads: 伞!"
+      zh-Hans: 快——啪地撑开一把圆雨伞，挡住漫天雨滴：“伞”！
+      zh-Hant: 快——啪地撐開一把圓雨傘，擋住漫天雨滴：「傘」！
+  - { do: place, actor: umbrella, at: [ 250, 390 ], size: 175 }
+  - { do: draw, actor: umbrella, glyph: { sign: 伞, stage: regular }, ms: 1600, color: "#b8321f" }
+  - tagSay: { actor: umbrella, sign: 伞, dx: 130, dy: 80 }
+  - narrate:
+      en: "Look ahead: an overhanging rock cliff with a boulder at its foot — 石 — makes a dry cave!"
+      zh-Hans: 看前面：突出的山崖下立着大石头——“石”，正好是个避雨的山洞！
+      zh-Hant: 看前面：突出的山崖下立著大石頭——「石」，正好是個避雨的山洞！
+  - { do: place, actor: stone, at: [ 770, 350 ], size: 240 }
+  - { do: draw, actor: stone, glyph: { sign: 石, stage: oracle }, ms: 1500, color: "#5a524c" }
+  - do: together
+    steps:
+      - { do: wash, actor: stone, color: "#8c8275", size: 280, opacity: 0.35 }
+      - tagSay: { actor: stone, sign: 石, dx: -160, dy: 100 }
+  - narrate:
+      en: "Under the dry cliff, we light dry twigs into a crackling campfire: 火!"
+      zh-Hans: 在干燥的山崖下，我们拢起枯枝，点起噼啪作响的篝火：“火”！
+      zh-Hant: 在乾燥的山崖下，我們攏起枯枝，點起噼啪作響的篝火：「火」！
+  - { do: place, actor: fire, at: [ 530, 490 ], size: 170 }
+  - { do: draw, actor: fire, glyph: { sign: 火, stage: oracle }, ms: 1400, color: "#d9381e" }
+  - do: together
+    steps:
+      - { do: wash, actor: fire, color: "#ff7b29", size: 220, opacity: 0.5 }
+      - tagSay: { actor: fire, sign: 火, dx: 130, dy: 80 }
+  - { do: ambient, actor: fire, motion: pulse }
+  - narrate:
+      en: Drawn by the cozy warmth, a little turtle — 龟 — pokes its head out beside the fire.
+      zh-Hans: 暖融融的火光，吸引了一只背着硬壳的小乌龟——“龟”，慢吞吞地爬来烤火。
+      zh-Hant: 暖融融的火光，吸引了一隻背著硬殼的小烏龜——「龜」，慢吞吞地爬來烤火。
+  - { do: place, actor: turtle, at: [ 380, 540 ], size: 150 }
+  - { do: draw, actor: turtle, glyph: { sign: 龟, stage: oracle }, ms: 1600, color: "#2f6f2a" }
+  - tagSay: { actor: turtle, sign: 龟, dx: -120, dy: 70 }
+  - { do: ambient, actor: turtle, motion: bob }
+  - narrate:
+      en: "And stepping softly out of the rain comes a gentle deer with branching antlers: 鹿!"
+      zh-Hans: 还有一头顶着分叉大角的梅花鹿——“鹿”，也轻巧地走进山崖下躲雨啦！
+      zh-Hant: 還有一頭頂著分叉大角的梅花鹿——「鹿」，也輕巧地走進山崖下躲雨啦！
+  - { do: place, actor: deer, at: [ 980, 490 ], size: 195 }
+  - { do: draw, actor: deer, glyph: { sign: 鹿, stage: oracle }, ms: 1600, color: "#8a4b22" }
+  - { do: rotate, actor: deer, deg: -90, target: all, ms: 800 }
+  - { do: move, actor: deer, to: [ 720, 500 ], ms: 2000, gait: walk }
+  - tagSay: { actor: deer, sign: 鹿, dx: 120, dy: 70 }
+  - narrate:
+      en: Outside the rain patters on, while inside the rocky shelter everyone is dry and warm.
+      zh-Hans: 洞外雨声淅沥，山崖下火光融融，大家都暖洋洋的。
+      zh-Hant: 洞外雨聲淅瀝，山崖下火光融融，大家都暖洋洋的。
+  - { do: wait, ms: 2000 }

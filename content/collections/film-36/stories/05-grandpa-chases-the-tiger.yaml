@@ -1,0 +1,62 @@
+# yaml-language-server: $schema=../../../_schema/story.schema.json
+id: grandpa-chases-the-tiger
+title: { en: Grandpa Chases the Tiger, zh-Hans: 爷爷吓跑大老虎, zh-Hant: 爺爺嚇跑大老虎 }
+topic: { en: Guarding the mountain cottage, zh-Hans: 守护山脚下的农家小屋, zh-Hant: 守護山腳下的農家小屋 }
+cast: [ 舍, 豕, 羊, 虎, 叟, 弓 ]
+script:
+  - { do: bg, tone: paper, ms: 500 }
+  - narrate:
+      en: "After the rain clears, we reach a cozy thatched cottage at the foot of the hill: 舍."
+      zh-Hans: 雨过天晴，我们来到山脚下一座尖顶的小屋前：“舍”。
+      zh-Hant: 雨過天晴，我們來到山腳下一座尖頂的小屋前：「舍」。
+  - { do: place, actor: hut, at: [ 220, 340 ], size: 230 }
+  - { do: draw, actor: hut, glyph: { sign: 舍, stage: bronze }, ms: 1600, color: "#6b4a1e" }
+  - do: together
+    steps:
+      - { do: wash, actor: hut, color: "#e3c66b", size: 260, opacity: 0.4 }
+      - tagSay: { actor: hut, sign: 舍, dx: -150, dy: 90 }
+  - narrate:
+      en: In the yard beside the cottage, a plump little pig — 豕 — sniffs for acorns…
+      zh-Hans: 小屋旁的院子里，一头圆肚子的小猪——“豕”，正哼哼唧唧地找橡子吃……
+      zh-Hant: 小屋旁的院子裡，一頭圓肚子的小豬——「豕」，正哼哼唧唧地找橡子吃……
+  - { do: place, actor: pig, at: [ 440, 490 ], size: 155 }
+  - { do: draw, actor: pig, glyph: { sign: 豕, stage: oracle }, ms: 1400, color: "#8a4b22" }
+  - tagSay: { actor: pig, sign: 豕, dy: 90 }
+  - { do: ambient, actor: pig, motion: bob }
+  - narrate:
+      en: …while a gentle sheep with curly horns — 羊 — nibbles the fresh grass.
+      zh-Hans: ……还有一只长着弯弯羊角的小羊——“羊”，正低头吃着鲜嫩的青草。
+      zh-Hant: ……還有一隻長著彎彎羊角的小羊——「羊」，正低頭吃著鮮嫩的青草。
+  - { do: place, actor: sheep, at: [ 610, 470 ], size: 160 }
+  - { do: draw, actor: sheep, glyph: { sign: 羊, stage: oracle }, ms: 1400 }
+  - tagSay: { actor: sheep, sign: 羊, dx: 110, dy: 85 }
+  - { do: ambient, actor: sheep, motion: sway }
+  - narrate:
+      en: Suddenly — ROAAAR! A fierce striped tiger — 虎 — creeps out of the forest toward the sheep!
+      zh-Hans: 突然——嗷呜！一只张着大嘴的斑斓猛虎——“虎”，从林子里扑向小羊！
+      zh-Hant: 突然——嗷嗚！一隻張著大嘴的斑斕猛虎——「虎」，從林子裡撲向小羊！
+  - { do: place, actor: tiger, at: [ 920, 360 ], size: 220 }
+  - { do: draw, actor: tiger, glyph: { sign: 虎, stage: oracle }, ms: 1600, color: "#c85a17" }
+  - do: together
+    steps:
+      - { do: wash, actor: tiger, color: "#f08a24", size: 250, opacity: 0.4 }
+      - tagSay: { actor: tiger, sign: 虎, dx: -140, dy: -100 }
+  - { do: rotate, actor: tiger, deg: -90, target: all, ms: 800 }
+  - { do: move, actor: tiger, to: [ 780, 390 ], ms: 1400, gait: walk }
+  - narrate:
+      en: "Out from the cottage steps a brave old grandfather — 叟 — holding a curved wooden bow: 弓!"
+      zh-Hans: 小屋里大步走出一位勇敢的老爷爷——“叟”，手里举着一张弯弯的木弓：“弓”！
+      zh-Hant: 小屋裡大步走出一位勇敢的老爺爺——「叟」，手裡舉著一張彎彎的木弓：「弓」！
+  - { do: place, actor: elder, at: [ 290, 260 ], size: 155 }
+  - { do: draw, actor: elder, glyph: { sign: 叟, stage: regular }, ms: 1500 }
+  - tagSay: { actor: elder, sign: 叟, dx: -120, dy: -80 }
+  - { do: place, actor: bow, at: [ 420, 255 ], size: 150 }
+  - { do: draw, actor: bow, glyph: { sign: 弓, stage: oracle }, ms: 1300, color: "#6b4a1e" }
+  - tagSay: { actor: bow, sign: 弓, dx: 110, dy: -80 }
+  - narrate:
+      en: Twang! He snaps the bowstring, and the startled tiger bounds right back into the mountains!
+      zh-Hans: 嘣！老爷爷拉响弓弦，吓得大老虎掉头逃回了深山！
+      zh-Hant: 嘣！老爺爺拉響弓弦，嚇得大老虎掉頭逃回了深山！
+  - { do: rotate, actor: tiger, deg: 90, target: all, ms: 500 }
+  - { do: move, actor: tiger, to: [ 1180, 320 ], ms: 2000, gait: gallop, ease: ease-in }
+  - { do: wait, ms: 2000 }

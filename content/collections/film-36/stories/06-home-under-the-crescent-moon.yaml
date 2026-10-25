@@ -1,0 +1,63 @@
+# yaml-language-server: $schema=../../../_schema/story.schema.json
+id: home-under-the-crescent-moon
+title: { en: Home Under the Crescent Moon, zh-Hans: 月光下回家, zh-Hant: 月光下回家 }
+topic: { en: A warm family evening, zh-Hans: 弯月下的小院与家人, zh-Hant: 彎月下的小院與家人 }
+cast: [ 月, 花, 门, 犬, 女, 子 ]
+script:
+  - { do: bg, tone: night, ms: 1200 }
+  - narrate:
+      en: Evening settles softly over the village, and a silver crescent moon — 月 — rises in the starry sky.
+      zh-Hans: 夜幕轻轻降临小村庄，一弯银亮的月牙——“月”，升上了星空。
+      zh-Hant: 夜幕輕輕降臨小村莊，一彎銀亮的月牙——「月」，升上了星空。
+  - { do: place, actor: moon, at: [ 820, 130 ], size: 150 }
+  - { do: draw, actor: moon, glyph: { sign: 月, stage: oracle }, ms: 1400, color: "#d99a00" }
+  - do: together
+    steps:
+      - { do: wash, actor: moon, color: "#ffd966", size: 200, opacity: 0.55 }
+      - tagSay: { actor: moon, sign: 月, dx: -130, dy: 80 }
+  - { do: ambient, actor: moon, motion: pulse }
+  - narrate:
+      en: Beside the garden path, fragrant night blossoms — 花 — sway in the moonlight.
+      zh-Hans: 回家的小路旁，芬芳的花朵——“花”，在月光下轻轻摇曳。
+      zh-Hant: 回家的小路旁，芬芳的花朵——「花」，在月光下輕輕搖曳。
+  - { do: place, actor: flower, at: [ 160, 480 ], size: 165 }
+  - { do: draw, actor: flower, glyph: { sign: 花, stage: bronze }, ms: 1500, color: "#d43f5e" }
+  - do: together
+    steps:
+      - { do: wash, actor: flower, color: "#ff8da1", size: 200, opacity: 0.4 }
+      - tagSay: { actor: flower, sign: 花, dx: 120, dy: 80 }
+  - { do: ambient, actor: flower, motion: sway }
+  - narrate:
+      en: "Ahead stands the tall double-leaf wooden gate of home: 门!"
+      zh-Hans: 前面就是自家院子那扇对称的两扇木大门：“门”！
+      zh-Hant: 前面就是自家院子那扇對稱的兩扇木大門：「門」！
+  - { do: place, actor: gate, at: [ 480, 370 ], size: 240 }
+  - { do: draw, actor: gate, glyph: { sign: 门, stage: bronze }, ms: 1600, color: "#6b4a1e" }
+  - tagSay: { actor: gate, sign: 门, dx: -150, dy: -100 }
+  - narrate:
+      en: Woof, woof! Our loyal puppy — 犬 — trots out to the gate with its tail curled high!
+      zh-Hans: 汪汪！忠实的小狗——“犬”，翘着卷尾巴跑到门口迎接啦！
+      zh-Hant: 汪汪！忠實的小狗——「犬」，翹著捲尾巴跑到門口迎接啦！
+  - { do: place, actor: dog, at: [ 320, 490 ], size: 155 }
+  - { do: draw, actor: dog, glyph: { sign: 犬, stage: oracle }, ms: 1400, color: "#8a4b22" }
+  - tagSay: { actor: dog, sign: 犬, dx: -120, dy: 80 }
+  - { do: ambient, actor: dog, motion: bob }
+  - narrate:
+      en: Inside the warm lamplight, a mother — 女 — kneels beside the cradle…
+      zh-Hans: 温暖的灯光下，温柔的妈妈——“女”，端庄地坐在摇篮旁……
+      zh-Hant: 溫暖的燈光下，溫柔的媽媽——「女」，端莊地坐在搖籃旁……
+  - { do: place, actor: mother, at: [ 700, 420 ], size: 185 }
+  - { do: draw, actor: mother, glyph: { sign: 女, stage: oracle }, ms: 1500, color: "#b8321f" }
+  - do: together
+    steps:
+      - { do: wash, actor: mother, color: "#ffb366", size: 250, opacity: 0.42 }
+      - tagSay: { actor: mother, sign: 女, dx: -120, dy: 90 }
+  - narrate:
+      en: …and hugs her little baby — 子 — who waves both tiny hands before drifting off to sleep. Good night!
+      zh-Hans: ……轻轻抱着挥舞小手的宝宝——“子”，哄他进入甜甜的梦乡。晚安啦！
+      zh-Hant: ……輕輕抱著揮舞小手的寶寶——「子」，哄他進入甜甜的夢鄉。晚安啦！
+  - { do: place, actor: child, at: [ 835, 430 ], size: 145 }
+  - { do: draw, actor: child, glyph: { sign: 子, stage: oracle }, ms: 1400, color: "#b8321f" }
+  - tagSay: { actor: child, sign: 子, dx: 110, dy: 80 }
+  - { do: move, actor: child, to: [ 755, 420 ], ms: 1400, gait: hop }
+  - { do: wait, ms: 2400 }

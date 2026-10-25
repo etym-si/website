@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../_schema/artifact.schema.json
+id: qin-legal
+kind: slips
+stage: han.clerical
+title:
+  en: "Qin bamboo slips: “Questions and Answers on the Law”"
+  zh-Hans: 睡虎地秦简《法律答问》
+  zh-Hant: 睡虎地秦簡《法律答問》
+image:
+  file: qin-legal.jpg
+  commons: File:Qin Bamboo Slips Dealing with Legal Questions (10160525384).jpg
+credit:
+  author: Gary Todd from Xinzheng, China
+  license: CC0
+  page: https://commons.wikimedia.org/wiki/File%3AQin_Bamboo_Slips_Dealing_with_Legal_Questions_%2810160525384%29.jpg
+  width: 600
+  height: 900

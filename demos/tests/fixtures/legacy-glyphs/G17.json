@@ -1,0 +1,10 @@
+{
+ "char": "𓅓",
+ "trad": "𓅓",
+ "stages": [
+  { "stage": "hieroglyph", "form": "𓅓", "variant": "hieroglyph", "src": "https://commons.wikimedia.org/wiki/File%3AHiero_G17.svg", "prov": { "period": "", "code": "", "note": "test note" }, "box": [0, 0, 100, 100], "paths": [{ "d": "M10 10 L90 90 L10 90 Z" }] },
+  { "stage": "hieratic", "form": "𓅓", "variant": "hieratic", "src": "https://commons.wikimedia.org/wiki/File%3AHieratic_G17.svg", "box": [0, 0, 100, 100], "paths": [{ "d": "M30 85 C30 50 70 50 70 85", "mode": "stroke", "w": 8 }] },
+  { "stage": "demotic", "form": "𓅓", "variant": "demotic", "src": "https://commons.wikimedia.org/wiki/File%3ADemotic_G17.svg", "box": [0, 0, 100, 100], "paths": [{ "d": "M25 70 C40 40 60 40 75 70", "mode": "stroke", "w": 8 }] }
+ ],
+ "hanzi": []
+}

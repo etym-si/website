@@ -1,0 +1,29 @@
+# yaml-language-server: $schema=../_schema/artifact.schema.json
+id: zhiyong
+kind: manuscript
+stage: han.regular
+title: { en: Thousand Character Classic (千字文), zh-Hans: 《千字文》, zh-Hant: 《千字文》 }
+image: { file: zhiyong.jpg, commons: File:ZhiYong1000charcter.Color.jpg }
+occurrences:
+  - sign: han/舍
+    text:
+      en: "Spot it in the red circles! In this 1,400-year-old page by the monk Zhiyong, 舍 is the 2nd character of the third column from the right: “丙舍傍啟”, side halls open next to the palace. The column next to it shows the same words in fast cursive writing."
+      zh-Hans: 看红圈里！在这页约1400年前智永写的《千字文》里，“舍”是右边第三行的第二个字：“丙舍傍启”。旁边那一行是同样的字，用草书写的。
+      zh-Hant: 看紅圈裡！在這頁約1400年前智永寫的《千字文》裡，「舍」是右邊第三行的第二個字：「丙舍傍啟」。旁邊那一行是同樣的字，用草書寫的。
+    marks:
+      - box: [ 0.27, 0.122, 0.185, 0.078 ]
+        label:
+          en: "舍 in regular script (楷書): “丙舍傍啟” (3rd column from right)"
+          zh-Hans: 右边第3行楷书写的“舍”（“丙舍傍启”）
+          zh-Hant: 右邊第3行楷書寫的「舍」（「丙舍傍啟」）
+      - box: [ 0.045, 0.128, 0.15, 0.088 ]
+        label:
+          en: The same 舍 in cursive script (草書) in the column beside it!
+          zh-Hans: 旁边第4行用草书写的同一个“舍”字！
+          zh-Hant: 旁邊第4行用草書寫的同一個「舍」字！
+credit:
+  author: Zhi Yong(7th century, China)
+  license: Public domain
+  page: https://commons.wikimedia.org/wiki/File%3AZhiYong1000charcter.Color.jpg
+  width: 409
+  height: 900

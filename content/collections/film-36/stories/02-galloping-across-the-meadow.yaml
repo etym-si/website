@@ -1,0 +1,94 @@
+# yaml-language-server: $schema=../../../_schema/story.schema.json
+id: galloping-across-the-meadow
+title: { en: Galloping Across the Meadow, zh-Hans: 田野上的奔跑, zh-Hant: 田野上的奔跑 }
+topic: { en: A lively ride past the fields, zh-Hans: 穿过农田与竹林的奔跑, zh-Hant: 穿過農田與竹林的奔跑 }
+cast: [ 田, 草, 竹, 象, 马, 夫 ]
+script:
+  - narrate:
+      en: "Follow the footpath out of the woods, and neat square farm plots open up before us: 田!"
+      zh-Hans: 顺着小路走出树林，眼前豁然开朗，是一块块方方正正的农田：“田”！
+      zh-Hant: 順著小路走出樹林，眼前豁然開朗，是一塊塊方方正正的農田：「田」！
+  - { do: place, actor: field, at: [ 745, 470 ], size: 190 }
+  - { do: draw, actor: field, glyph: { sign: 田, stage: oracle }, ms: 1500, color: "#6b4a1e" }
+  - do: together
+    steps:
+      - { do: wash, actor: field, color: "#e3c66b", size: 270, opacity: 0.55 }
+      - tagSay: { actor: field, sign: 田, dx: -160, dy: 150 }
+  - narrate:
+      en: Along the border of the fields, tender green shoots of 草 carpet the meadow.
+      zh-Hans: 田埂边上，嫩绿的小草芽铺满了草地，这就是“草”。
+      zh-Hant: 田埂邊上，嫩綠的小草芽鋪滿了草地，這就是「草」。
+  - { do: place, actor: grass1, at: [ 110, 555 ], size: 95 }
+  - { do: draw, actor: grass1, glyph: { sign: 草, stage: seal, index: 0 }, ms: 1000, color: "#2f6f2a" }
+  - do: together
+    steps:
+      - { do: place, actor: grass2, at: [ 255, 565 ], size: 78 }
+      - { do: place, actor: grass3, at: [ 400, 555 ], size: 95 }
+  - do: together
+    steps:
+      - { do: show, actor: grass2, glyph: { sign: 草, stage: seal, index: 0 }, color: "#2f6f2a" }
+      - { do: show, actor: grass3, glyph: { sign: 草, stage: seal, index: 0 }, color: "#2f6f2a" }
+      - { do: wash, actor: grass1, color: "#58b947", size: 120, opacity: 0.35 }
+      - { do: wash, actor: grass2, color: "#58b947", size: 100, opacity: 0.35 }
+      - { do: wash, actor: grass3, color: "#58b947", size: 120, opacity: 0.35 }
+      - tagSay: { actor: grass1, sign: 草, dy: 10 }
+  - { do: ambient, actor: grass1, motion: sway }
+  - { do: ambient, actor: grass2, motion: sway }
+  - { do: ambient, actor: grass3, motion: sway }
+  - narrate:
+      en: By the corner of the field, slender stalks of 竹 rustle their drooping leaves in the breeze.
+      zh-Hans: 田角边，几竿修长的竹子随风摇曳，竹叶轻轻垂下，这就是“竹”。
+      zh-Hant: 田角邊，幾竿修長的竹子隨風搖曳，竹葉輕輕垂下，這就是「竹」。
+  - { do: place, actor: bamboo, at: [ 905, 220 ], size: 180 }
+  - { do: draw, actor: bamboo, glyph: { sign: 竹, stage: oracle }, ms: 1400, color: "#2f6f2a" }
+  - do: together
+    steps:
+      - { do: wash, actor: bamboo, color: "#6cbf4f", size: 220, opacity: 0.35 }
+      - tagSay: { actor: bamboo, sign: 竹, dx: -150, dy: 150 }
+  - { do: ambient, actor: bamboo, motion: sway }
+  - narrate:
+      en: Thump, thump! Attracted by the sweet bamboo leaves, a friendly elephant — 象 — lumbers into the clearing.
+      zh-Hans: 咚、咚！闻到清香的竹叶味，一头温顺的大象——“象”，迈着大步走进了空地。
+      zh-Hant: 咚、咚！聞到清香的竹葉味，一頭溫順的大象——「象」，邁著大步走進了空地。
+  - { do: place, actor: elephant, at: [ 1150, 330 ], size: 250 }
+  - { do: show, actor: elephant, glyph: { sign: 象, stage: oracle }, color: "#4a6fc0" }
+  - { do: rotate, actor: elephant, deg: -90, target: all, ms: 1 }
+  - { do: move, actor: elephant, to: [ 600, 320 ], ms: 3600, gait: walk, ease: ease-out }
+  - tagSay: { actor: elephant, sign: 象, dy: 40 }
+  - { do: ambient, actor: elephant, motion: bob }
+  - narrate:
+      en: Neigh! A spirited brown horse — 马 — wants to race across the grass!
+      zh-Hans: 咴咴——！一匹神气活现的骏马——“马”，想在草地上赛跑啦！
+      zh-Hant: 咴咴——！一匹神氣活現的駿馬——「馬」，想在草地上賽跑啦！
+  - { do: place, actor: horse, at: [ 300, 330 ], size: 220 }
+  - { do: draw, actor: horse, glyph: { sign: 马, stage: oracle }, ms: 1700, color: "#8a4b22" }
+  - tagSay: { actor: horse, sign: 马 }
+  - narrate:
+      en: In oracle bone writing, the horse stands upright. To run, it drops onto all four hooves!
+      zh-Hans: 在甲骨文里，马是竖着站的；要奔跑起来，它就四蹄落地！
+      zh-Hant: 在甲骨文裡，馬是豎著站的；要奔跑起來，牠就四蹄落地！
+  - { do: rotate, actor: horse, deg: -90, target: all, ms: 1000 }
+  - narrate:
+      en: "Out steps a grown man with a hairpin in his topknot: 夫!"
+      zh-Hans: 走来一位头顶束发插簪的大人：“夫”！
+      zh-Hant: 走來一位頭頂束髮插簪的大人：「夫」！
+  - { do: place, actor: man, at: [ 100, 330 ], size: 165 }
+  - { do: draw, actor: man, glyph: { sign: 夫, stage: oracle }, ms: 1500 }
+  - tagSay: { actor: man, sign: 夫 }
+  - narrate:
+      en: With one nimble leap, he hops onto the horse’s back…
+      zh-Hans: 他身手敏捷地一跃，跳上了马背……
+      zh-Hant: 他身手敏捷地一躍，跳上了馬背……
+  - do: together
+    steps:
+      - { do: move, actor: man, to: [ 300, 228 ], ms: 900, gait: hop }
+      - { do: scale, actor: man, to: 0.72, ms: 900 }
+  - narrate:
+      en: …and away they gallop toward the river, hooves drumming clip-clop, clip-clop!
+      zh-Hans: ……一人一马朝着大河的方向，哒哒哒地飞奔而去！
+      zh-Hant: ……一人一馬朝著大河的方向，噠噠噠地飛奔而去！
+  - do: together
+    steps:
+      - { do: move, actor: horse, to: [ -220, 330 ], ms: 3600, gait: gallop, ease: ease-in }
+      - { do: move, actor: man, to: [ -220, 228 ], ms: 3600, gait: gallop, ease: ease-in }
+  - { do: wait, ms: 2000 }

@@ -1,0 +1,12 @@
+# yaml-language-server: $schema=../_schema/artifact.schema.json
+id: dayu-ding
+kind: vessel
+stage: han.bronze
+title: { en: The Da Yu ding (大盂鼎), zh-Hans: 大盂鼎, zh-Hant: 大盂鼎 }
+image: { file: dayu-ding.jpg, commons: File:Western Zhou bronze ding.jpg }
+credit:
+  author: Gary Todd
+  license: CC0
+  page: https://commons.wikimedia.org/wiki/File%3AWestern_Zhou_bronze_ding.jpg
+  width: 900
+  height: 600

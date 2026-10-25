@@ -1,0 +1,42 @@
+# yaml-language-server: $schema=../../_schema/collection.schema.json
+id: film-36
+system: han
+title: { en: Thirty-Six Characters, zh-Hans: 三十六个字, zh-Hant: 三十六個字 }
+featured: [ 日, 马, 山, 鸟, 象, 木 ]
+units:
+  - n: 1
+    title: { en: Sunrise in the Valley, zh-Hans: 山谷的日出, zh-Hant: 山谷的日出 }
+    color: "#2fb67c"
+    playable: true
+    signs: [ 日, 山, 水, 林, 木, 鸟 ]
+    story: sunrise-in-the-valley
+  - n: 2
+    title: { en: Galloping Across the Meadow, zh-Hans: 田野上的奔跑, zh-Hant: 田野上的奔跑 }
+    color: "#f08a24"
+    playable: true
+    signs: [ 象, 草, 田, 竹, 马, 夫 ]
+    story: galloping-across-the-meadow
+  - n: 3
+    title: { en: Casting the Net, zh-Hans: 小船去捕鱼, zh-Hant: 小船去捕魚 }
+    color: "#3d8fe0"
+    playable: false
+    signs: [ 刀, 舟, 鱼, 网, 燕, 云 ]
+    story: casting-the-net
+  - n: 4
+    title: { en: Shelter Under the Cliff, zh-Hans: 山崖下避雨, zh-Hant: 山崖下避雨 }
+    color: "#8b5cf6"
+    playable: false
+    signs: [ 雨, 伞, 石, 火, 龟, 鹿 ]
+    story: shelter-under-the-cliff
+  - n: 5
+    title: { en: Grandpa Chases the Tiger, zh-Hans: 爷爷吓跑大老虎, zh-Hant: 爺爺嚇跑大老虎 }
+    color: "#e8453c"
+    playable: false
+    signs: [ 豕, 叟, 虎, 弓, 舍, 羊 ]
+    story: grandpa-chases-the-tiger
+  - n: 6
+    title: { en: Home Under the Crescent Moon, zh-Hans: 月光下回家, zh-Hant: 月光下回家 }
+    color: "#d99a00"
+    playable: false
+    signs: [ 花, 门, 犬, 子, 女, 月 ]
+    story: home-under-the-crescent-moon

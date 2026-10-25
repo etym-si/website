@@ -1,0 +1,12 @@
+# yaml-language-server: $schema=../_schema/artifact.schema.json
+id: qin-rishu
+kind: slips
+stage: han.clerical
+title: { en: "Qin bamboo slips: “Daybook A”", zh-Hans: 睡虎地秦简《日书甲种》, zh-Hant: 睡虎地秦簡《日書甲種》 }
+image: { file: qin-rishu.jpg, commons: File:Qin Rishu Bamboo Slips (10160493624).jpg }
+credit:
+  author: Gary Todd from Xinzheng, China
+  license: CC0
+  page: https://commons.wikimedia.org/wiki/File%3AQin_Rishu_Bamboo_Slips_%2810160493624%29.jpg
+  width: 900
+  height: 600

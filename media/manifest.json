@@ -1,0 +1,4373 @@
+{
+ "v": 1,
+ "clips": {
+  "004ffc69999d69ced40f9e91584079f314b20a7c6a845df6649afc88320aa795": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "“刀”是一把刀：有刀柄，还有弯弯的刀刃。",
+   "bytes": 25344,
+   "ms": 4224
+  },
+  "005cbb0e77148a43784d926ce834ca7180b9f5c73755b8cd70361ce9329c46f4": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "Seen from above as it soars upward, every part of the swallow stayed in place from oracle bone to seal script.",
+   "bytes": 43200,
+   "ms": 7200
+  },
+  "010131bffddf92c9e23c92b16d1b796922e34988f3a84f9c3f034513f1073c51": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "How did carvers tell a dog (犬) apart from a plump pig (豕)? By the dog’s slender waist and that perky curled-up tail!",
+   "bytes": 58896,
+   "ms": 9816
+  },
+  "012ae3eced6eeb15f56fc479a1af5cf52e9f641c978d5aac57129b616ad12c42": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "弯弯羊角温顺的羊",
+   "bytes": 14688,
+   "ms": 2448
+  },
+  "01cc2f836be67e02de884d3e521643629452519147f1e514dee63b3b249256d3": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "How do you draw a whole forest without spending all afternoon drawing trees? Put two trees side by side!",
+   "bytes": 43632,
+   "ms": 7272
+  },
+  "023d51b426d5c754d20d450cdb808fc47ba9ceb08c605ea883774146763e3974": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "The double-curved shape of 弓 is a reflex bow: when unstrung or drawn, its wooden limbs curve like a wave.",
+   "bytes": 47376,
+   "ms": 7896
+  },
+  "02cb1a42d077ef57adcd19fc411abf9db14a58957b6cc9c9b98f0c4e3b9e9a11": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "留住清晨的太阳",
+   "bytes": 13392,
+   "ms": 2232
+  },
+  "0303a565c4077a03b560442e24e3120b81d8800a4a98aceb942b1cfea57aabf9": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "举着火把的老人家",
+   "bytes": 14112,
+   "ms": 2352
+  },
+  "03a8bd8b84be90a58200775374c44e4201d0ce16a157f2d6d7b02011c67d042b": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "到了楷书“鳥”，眼睛变成了头里的一点，底下的四个点则是它的尾羽和爪子。",
+   "bytes": 45216,
+   "ms": 7536
+  },
+  "0402f956901c9734c38a4fb6569be1022ba4382029fd15815beecb6429687499": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "In modern simplified writing, 雲 is written 云.",
+   "bytes": 22896,
+   "ms": 3816
+  },
+  "059e8114aebacc84570aac07fdeee92612bc0a83fd65d4cff04a06be354b159a": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "燕 is a swallow flying with its wings spread wide and its forked tail behind.",
+   "bytes": 32400,
+   "ms": 5400
+  },
+  "0633ee25dd45214071f312b85310806fb5cded5687f5c7029650cac68b5a4da7": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "Galloping Across the Meadow",
+   "bytes": 11808,
+   "ms": 1968
+  },
+  "068485569b66d585f7528899992633f30d5d1c0ddac12f4a7faa4d1958fff86e": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "... while a gentle sheep with curly horns , 羊 , nibbles the fresh grass.",
+   "bytes": 30240,
+   "ms": 5040
+  },
+  "06cedde370b5720e893b3759e82139a693758c19b40b9e2b54446dc15340088a": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "木 is a tree: branches reaching up on top, roots spreading out below.",
+   "bytes": 31824,
+   "ms": 5304
+  },
+  "06f77057a8422a0fba94544d5f0396694ea3fae1150dc964bcb8a117911b60dd": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "Put 女 (mother) and 子 (child) right next to each other and what word do they make? 好 , good and happy!",
+   "bytes": 45360,
+   "ms": 7560
+  },
+  "0729158c2dcd92a94b0369d9bec0bd14ba0ca900c075bd18d7494c8651c32a91": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "田角边，几竿修长的竹子随风摇曳，竹叶轻轻垂下，这就是“竹”。",
+   "bytes": 41328,
+   "ms": 6888
+  },
+  "0735239aa3bf17dcd02d009a26b07ac1c00454b795479ac65e70eb2e779dfe7d": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "河岸边立着一棵树：树枝向上迎着阳光，树根向下紧紧抓住泥土。",
+   "bytes": 43632,
+   "ms": 7272
+  },
+  "0859c288d3b7b167c48466a84e0d714632eb328fbda35ad82dd143b8c7d79eb4": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "大脑袋、张开的小手、裹着的襁褓：这就是孩子的“子”！",
+   "bytes": 33408,
+   "ms": 5568
+  },
+  "08cb81bcc7bde780c47e9cb8532e047d4aa92a847e1600b8b035fdb083d1adf3": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "今天的“鹿”字，上半部来自鹿头和鹿角，底下的“比”则是它修长的四条腿！",
+   "bytes": 43632,
+   "ms": 7272
+  },
+  "09005b029ac546c54ee9d104a34b4ca8fc2567338f690a5b4dd39eb6d1dae4b5": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "一笔横折钩做刀背，一笔长撇做刀刃，两笔就写出锋利的“刀”！",
+   "bytes": 38016,
+   "ms": 6336
+  },
+  "09bab0b9277b4300fb05ad6f12550955002e6381c0663eeda75483effa351808": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-15%",
+   "text": "日",
+   "bytes": 11232,
+   "ms": 1872
+  },
+  "0a2e81bb3a9197a9ec67fe693b13a349fd1b42d1aea307e65c4cfe534f52971c": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "Whenever you see 水 , or its three-drop sidekick , something wet and flowing is nearby!",
+   "bytes": 35424,
+   "ms": 5904
+  },
+  "0a8c299a1b3676413bb4a1b087185cd94ffbecca9083e5d837594944f670eb51": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "龟 has a head, a shell and feet. The oldest Chinese writing we have was carved on turtle shells and bones!",
+   "bytes": 47808,
+   "ms": 7968
+  },
+  "0aa99f3bba1d9b1402826703a95d58f4022ec188dcf632b9353d76ecbe62f78a": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "Head at the top, tail at the bottom: the ancient 鱼 is a fish swimming upward. The four dots at the bottom of 魚 were once its tail!",
+   "bytes": 53712,
+   "ms": 8952
+  },
+  "0ad9ad7daefda866f15f3a67b2e5a3302fb7bf3cf387f67ec4878ae66b6e2d2e": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "……一人一马朝着大河的方向，哒哒哒地飞奔而去！",
+   "bytes": 28944,
+   "ms": 4824
+  },
+  "0b1c40c1a1a70074f1123f3669b40a82fcad6bf6c54e97f0ece60a1a683cc532": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "Whispering Bamboo Leaves",
+   "bytes": 12672,
+   "ms": 2112
+  },
+  "0b4905d63b2fd2b5bc9351cd6dfbecd6b907171c18e87e237beb5304939cd37f": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "小屋旁的院子里，一头圆肚子的小猪——“豕”，正哼哼唧唧地找橡子吃……",
+   "bytes": 40608,
+   "ms": 6768
+  },
+  "0bfdacc39781fbc1a79d6f01e8f2a41babb0dac35ba82260a0a83db66ded0684": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "山谷的日出",
+   "bytes": 11232,
+   "ms": 1872
+  },
+  "0c9f7a6105331cd83e75730221cb6a75febc9db6b3c63716c2683bce4785589a": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "Casting the Net",
+   "bytes": 11232,
+   "ms": 1872
+  },
+  "0d1d6c7ca48492d88f58a10e643aebcd81732c9bda7bbfd5ea1baa86243cb7fd": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "Outside the rain patters on, while inside the rocky shelter everyone is dry and warm.",
+   "bytes": 39744,
+   "ms": 6624
+  },
+  "0da8fa867792e21bf1b093c629215db69126a4715217c7ec54eda4b205524bc4": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "这就是树木的“木”——许许多多和植物、木材有关的字，都是由它搭出来的！",
+   "bytes": 41616,
+   "ms": 6936
+  },
+  "0dc41de640907a5e2d7ede724d5f8db812670d3daaca32a809b64c275594122f": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "到了简化字“鱼”，底下的四点鱼尾又连成了一道稳稳的横画！",
+   "bytes": 34272,
+   "ms": 5712
+  },
+  "0dd7a8e8bbe2b0b3390be4209237ca8f220806e859fdccde5bb5b8837b2a2e99": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-15%",
+   "text": "花",
+   "bytes": 11232,
+   "ms": 1872
+  },
+  "0ddaa38d7ee4152480b681cbe08b1efe90278a1130ed1f0af4fa13b438b22cf4": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "That is 木, tree and wood , the building block for hundreds of plant and forest characters!",
+   "bytes": 38736,
+   "ms": 6456
+  },
+  "0e2e4defe14124194ec0fbd4ae7232aa0bcee86b2684cbed500411bf0f1e71d4": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "Suddenly , ROAAAR! A fierce striped tiger , 虎 , creeps out of the forest toward the sheep!",
+   "bytes": 39600,
+   "ms": 6600
+  },
+  "0f063058decef4c5b825a81a956e554e114dbe72169924746633d21c902b77cd": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "走来一位头顶束发插簪的大人：“夫”！",
+   "bytes": 23472,
+   "ms": 3912
+  },
+  "0f1478ae872e6636be31ddf73c2406617d56c2d60f78e2d43997a3798c7254a6": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "Even today, the left curve of 月 sweeps down longer like the tip of a crescent moon!",
+   "bytes": 34128,
+   "ms": 5688
+  },
+  "0fbe79c3af70188f7bef2d64adc17274cd337a5dcabef7a8a3fda7872fc7543e": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "为了吓跑大老虎，拉满一张富有弹性的木弓——嘣！",
+   "bytes": 29808,
+   "ms": 4968
+  },
+  "101c94b46bb1db24252b1a6554a2c49b4937abaeab6cd8f1b2aaefaf6c0e5ff3": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "Its earliest form showed a hand (又) holding a torch inside a room to search in the dark , and later came to mean an elder, 叟!",
+   "bytes": 54432,
+   "ms": 9072
+  },
+  "10b0134b6902799c353d7b63e3a583655f745c2fc3d476613c4552a1f4f019d7": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "春雨后的嫩草芽",
+   "bytes": 13680,
+   "ms": 2280
+  },
+  "11084d5d8aae78d4c2c82364b7e6e070ae107f6a5d1aafb88a84ca0e89762a92": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "山崖下的大石头",
+   "bytes": 14256,
+   "ms": 2376
+  },
+  "117753e6f332833f32389f689237f54a072f82fbb417385878c6962ac096e596": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "... and hugs her little baby , 子 , who waves both tiny hands before drifting off to sleep. Good night!",
+   "bytes": 39168,
+   "ms": 6528
+  },
+  "11dd489915d5459d02a1358bcb526edbf1f8927ad5bf3399cab6a3ee8fa76e25": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "In three thousand years, this character barely changed at all , an outer boundary with a cross of paths inside.",
+   "bytes": 45072,
+   "ms": 7512
+  },
+  "1200ae704ef813e7ed4c128e8aecb9a0c84f5dd2cb49395bb84e7411d2c3d34b": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "Skimming low over the water flies a spring swallow: open beak in front, wide wings on left and right, and a scissor-like forked tail behind!",
+   "bytes": 59328,
+   "ms": 9888
+  },
+  "1280eefbddecb94fd11f9d46a0f6362127909ec613d78068f5095b6fcab60431": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "Today 舟 still keeps its arched hull and cross-ribs , and sits on the left of boat words like 船 and 航!",
+   "bytes": 44064,
+   "ms": 7344
+  },
+  "13beee358ff22ad2cf23a57308ad0c90448155253e61717f1ae248a35be340a8": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-15%",
+   "text": "林",
+   "bytes": 11232,
+   "ms": 1872
+  },
+  "1409ffef8b91f7b00171ddc9124c4672ac8fc12095790d6e399b3adc47e10939": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "伞 has no oracle-bone or bronze carvings because folding umbrellas were invented later , yet the character itself looks just like an open umbrella!",
+   "bytes": 56160,
+   "ms": 9360
+  },
+  "141ce75f3fdd7e43d04f1adede7d180477d9f7e3446851a42b6504f9702cfafa": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "还有一头顶着分叉大角的梅花鹿——“鹿”，也轻巧地走进山崖下躲雨啦！",
+   "bytes": 40032,
+   "ms": 6672
+  },
+  "15d0bc650c886181dcc8dfa32a744bac1b955852681e805d375b1ab60f06de62": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "Later, the two sprouts became the grass crown on top, and 早 (“early morning”) was added underneath to give its sound!",
+   "bytes": 50544,
+   "ms": 8424
+  },
+  "15e241425aee6f9a95e0f88d7272398d67afe3ee0d3cdf4ad61edb5e26ebab69": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "Stepping lightly through the mist comes a graceful deer, crowned with a pair of branching antlers.",
+   "bytes": 40320,
+   "ms": 6720
+  },
+  "1647608722481cc6376bbeaf10fc62b1b95b6db7404e67c7537fe44fac27862c": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "后来，两棵小芽变成了顶上的草字头，下面加上“早”字来提示它的读音！",
+   "bytes": 42768,
+   "ms": 7128
+  },
+  "167683a25cb20195ef1a1b9805fbd2159fec2c33477d62279e62ebd0c04f0eef": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "一棵树是“木”，两棵树在一起，就成了树林的“林”！",
+   "bytes": 28800,
+   "ms": 4800
+  },
+  "1681cda80d04cdd8ae38632a5614edfe24ff68cfb97d1df31b3ed86cd8d4194a": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-15%",
+   "text": "夫",
+   "bytes": 11232,
+   "ms": 1872
+  },
+  "17125b05f2515b5313ee89e931c923a436029c8f858057e94dd683110e5a7d50": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "温暖的屋子里，一个胖娃娃裹在襁褓里，正开心地挥舞着两只小手。",
+   "bytes": 40320,
+   "ms": 6720
+  },
+  "174beb73787f70e8730cede1688e934b98cd5a94bbb23036e772c41b9c9a4b0f": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "农夫",
+   "bytes": 11232,
+   "ms": 1872
+  },
+  "175d5f93b05fd0d19d013aa6676056f3d7d60de97e093458c1fc2bf6997786dc": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "Before paper was invented, people split bamboo into strips and tied them together into books , so they knew bamboo well!",
+   "bytes": 43344,
+   "ms": 7224
+  },
+  "17f44bb2e927c859649584ef75e5cd1b1cadb42ed48772ed0dfdf24a24f175f5": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "In oracle bone and bronze scripts, the bird stands proudly with its crest raised and claws gripping tight.",
+   "bytes": 44784,
+   "ms": 7464
+  },
+  "17f8ecd8d7da91d8f66896b3765f2da11c5432c4e87e530e2de4812a432f1ae7": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "月 is a crescent moon. People drew it as a crescent so nobody would mix it up with the round sun, 日.",
+   "bytes": 42192,
+   "ms": 7032
+  },
+  "18ad3857b7721768927b172c5400c29aa5b7a89384b407daf4255a512fe4c8a9": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "Why didn’t carvers draw a full round moon? Because a round circle already belonged to 日, the sun! Drawing a crescent made 月 unmistakable.",
+   "bytes": 61056,
+   "ms": 10176
+  },
+  "1976d0371f499ab99db88a96a38d6167c2e473602b032fda67e00753e0c1b0cc": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "今天的“虎”字，顶上依然戴着威风的虎头冠，底下稳稳立着强壮的后腿！",
+   "bytes": 41904,
+   "ms": 6984
+  },
+  "1b3fd314df330c6ddae6283343ed3dc31f146f5c8dc96d854b98a03183dc327f": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "Clip-clop, clip-clop! A spirited horse gallops across the plain, its thick mane and long tail streaming in the wind.",
+   "bytes": 53280,
+   "ms": 8880
+  },
+  "1b85d8e478d8668302a57d6e5aa8414e58deac8547b8f8ae73e8eb604ef53d5d": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "前面就是自家院子那扇对称的两扇木大门：“门”！",
+   "bytes": 31104,
+   "ms": 5184
+  },
+  "1bc3e2ad7c442990280d28d27baa879cc82f5c74979d38b8b2c0a9314a603c4f": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "他身手敏捷地一跃，跳上了马背……",
+   "bytes": 20880,
+   "ms": 3480
+  },
+  "1c42404835fbd820b0090d1a03ba4027a3267bd138d6b35eda99db0388953630": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "头顶分叉角的梅花鹿",
+   "bytes": 15984,
+   "ms": 2664
+  },
+  "1c85998c18bea6b176aaf13a8bfe6d90f453ff2f4c396243ecf2a74a9436e558": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "在现代简化字里，“門”写作“门”。",
+   "bytes": 20880,
+   "ms": 3480
+  },
+  "1cf990bf44f59766c3291e30597c3c8daf39ea8dfe4271f46b35d0a62e08c22d": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "三千年过去了，这个字几乎一点儿也没变——外面一圈田界，中间十字田埂。",
+   "bytes": 45216,
+   "ms": 7536
+  },
+  "1d732c153dfbd916273ad86984b25978a7003151fdb64d3c9f830587523cfeca": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "In today’s 雨, the top bar is the sky, the frame is the cloud, and the four dots inside are raindrops on the window!",
+   "bytes": 49536,
+   "ms": 8256
+  },
+  "1f47c60aa46df945fc94fcbd2d7de48755f90c2479e2065b0cc18b106e00407e": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "Oracle bones were carved in narrow vertical columns , so the big elephant stood up on its hind legs, trunk pointing to the sky!",
+   "bytes": 51552,
+   "ms": 8592
+  },
+  "1f52241addaf2c4ac5ee0121459b4fbfffafd2155cdd2c6e7d5f848b2cd0b8dc": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "河岸边，渔夫拿起一把弯弯的青铜小刀——“刀”，利落地割好麻绳。",
+   "bytes": 39456,
+   "ms": 6576
+  },
+  "1f75845fe4cc1a027a9a8822187717e99367cc675438e233a1284ec9027b1c84": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "The ancient 虎 is a tiger standing up, with a big open mouth, stripes and claws.",
+   "bytes": 35856,
+   "ms": 5976
+  },
+  "1f81a0f85a3a1a9940a575150bb92e37e38a48c126e6fdceb02e7ad20d900c41": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "这扇装满阳光的小窗户就是“日”——既是太阳，也代表从早到晚的一整天！",
+   "bytes": 43632,
+   "ms": 7272
+  },
+  "1fc8791f62b7edb130842019b62c9c9dc8ba502e99634b8bb09723f80279953a": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "轰隆隆……淅淅沥沥！天空暗了下来，豆大的雨点落了下来：“雨”！",
+   "bytes": 40896,
+   "ms": 6816
+  },
+  "208e1c53b570abdb8cc138f1988abf36adbae6fcc7973bf1ee358b4b656d9147": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-15%",
+   "text": "雨",
+   "bytes": 7056,
+   "ms": 1176
+  },
+  "20d90d06592506b6553fd8d4851057fdfc5caacc46fe5eaad22f4088820cd6ac": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "Find the beak, the eye, the wing and the tail! The ancient 鸟 is a bird standing sideways.",
+   "bytes": 45360,
+   "ms": 7560
+  },
+  "20ec784fe51d5a0bd7f98b0bb32ec6a0c885c4841ab922235f342a7fa65ccc10": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "因为商朝占卜师就在龟壳上刻字，所以他们把“龜”画得格外仔细——背甲、肚子和爪子一应俱全！",
+   "bytes": 60336,
+   "ms": 10056
+  },
+  "21077794c8b046f0c8f362de06511f964ca30b1ce62c28747f5eccde7040b234": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "“竹”画的是两根竹枝，叶子垂了下来。",
+   "bytes": 22752,
+   "ms": 3792
+  },
+  "211bc7b83bc72df04648791ed7457954af86f906a6bca1b19125dbb179d59061": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "Night falls, and a silver crescent moon hangs above the quiet courtyard.",
+   "bytes": 29520,
+   "ms": 4920
+  },
+  "21c6b5eddadb5b3c99fa0a73263287265b6ba25b565b1e623d59d8216f04f43f": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "What a bright morning! The valley is wide awake, and our bird has found its new home.",
+   "bytes": 37152,
+   "ms": 6192
+  },
+  "238f9e1914d32adbb9e24fdca9dc201d6d2ccbca2e08228d1d16a40416acc6b1": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "Out from the cottage steps a brave old grandfather , 叟 , holding a curved wooden bow: 弓!",
+   "bytes": 40464,
+   "ms": 6744
+  },
+  "23bd2370874293fe6a45cb875e7203cbde99c2e1bee454631e7570b699bc216b": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "Inside the warm house, a happy baby waves both little arms in the air while its legs are tucked snugly in a swaddling blanket.",
+   "bytes": 50256,
+   "ms": 8376
+  },
+  "24f01a3d5ddf1ea347051218a77f79d6950ec1d225d554fe11eb57e727bc037b": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "古代的“叟”是屋子里一只举着火把的手——在找东西！后来它被借来表示“老人”，“找”的意思就交给了“搜”。",
+   "bytes": 61056,
+   "ms": 10176
+  },
+  "25b4f4161402bca7add5b2f31928228377094acc7c4d33bdfe9b947f121e8782": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "……轻轻抱着挥舞小手的宝宝——“子”，哄他进入甜甜的梦乡。晚安啦！",
+   "bytes": 42912,
+   "ms": 7152
+  },
+  "2609ae99f62b20f75a2db92cfe48a76c22a2cb4cc4854d552a2f0d542becdc93": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "In modern simplified writing, 龜 is written 龟.",
+   "bytes": 20160,
+   "ms": 3360
+  },
+  "26232b0256605c88815fb345798a7732a9ec91e43ac607c4d08c39bf3cfb99a1": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "Even in today’s 燕, the top is the head, 北 on the sides are the two wings, and the four dots below are the tail!",
+   "bytes": 42336,
+   "ms": 7056
+  },
+  "26cf5df40a91a5deb9e91f19a909c8fe284cb422a2a5ff001776ff313fac5cca": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "薄雾中轻轻走来一头梅花鹿，头顶立着一对漂亮的枝形鹿角。",
+   "bytes": 37008,
+   "ms": 6168
+  },
+  "26e3d77567f821b6acaf9219d5547a34814cd733fa4d88f9d248ddc4145cf5ca": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "“門”画的是一扇有两块门板的大门。简化字“门”来自它快速连笔的写法。",
+   "bytes": 43488,
+   "ms": 7248
+  },
+  "26ea13cbad16e662e689b306a09b4d33d2c2a793ba2a08a8c8ffe21cc6c5b726": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-15%",
+   "text": "竹",
+   "bytes": 11232,
+   "ms": 1872
+  },
+  "27a9da7ea514b26f72872c4da88976438bff278f3da6697c366cfad98055687a": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-15%",
+   "text": "豕",
+   "bytes": 11232,
+   "ms": 1872
+  },
+  "2b09fa971e9defabf3cd81964279123e8bfd449a50d41a8faa3f5050ce5c1719": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "Climb to the top of a hill and look down at the valley: farmers have divided the flat earth into neat square plots crossed by ditches and footpaths.",
+   "bytes": 55872,
+   "ms": 9312
+  },
+  "2b8d828482890682b14846cfdb694aaf16c8650fd1558121b1d802132353de70": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "小路边盛开的花朵",
+   "bytes": 14976,
+   "ms": 2496
+  },
+  "2b931fda50a70ff81988a171bb4fccf7c2ce9ce39d66e865d0c98850b7a214e6": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "一场温暖的春雨过后，嫩绿的小草芽钻出泥土，每根茎上都展开两片小叶。",
+   "bytes": 48240,
+   "ms": 8040
+  },
+  "2ba40f4ea73f86164ed07898de7ab2e9d6fd7f97daf972334b6a3bd4a2737c1c": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "The Silver Crescent Moon",
+   "bytes": 11808,
+   "ms": 1968
+  },
+  "2cae9eeddf44d51672f6917348812bb53ecf5ef721cc1164710a89fe9daf1f29": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "在三千年前的大盂鼎铭文上，“雨”是弯弯的天空下面落下一排排雨滴。",
+   "bytes": 41904,
+   "ms": 6984
+  },
+  "2d3da99437704ec8f7f70d4842815460c210597acc8902ee6924ed3f6952f360": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "Grass was first drawn as little sprouts: 艸. Later, 早 was added underneath to hint at the sound.",
+   "bytes": 43776,
+   "ms": 7296
+  },
+  "2d521cde6b909937dc6cf41f78d91b3a1222e2077c61d7a1953b823f6b89dca4": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "In brush writing, the middle current straightened into a hooked vertical spine, while the splashes joined into side strokes.",
+   "bytes": 46656,
+   "ms": 7776
+  },
+  "2d58193015362d4372f2d3a151112d674dad04bcabce4bd2c7370312c0b357f7": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "到了楷书“馬”，马鬃变成了上面的横画，四只马蹄变成了底下的四个点。",
+   "bytes": 43200,
+   "ms": 7200
+  },
+  "2dd760097271717ea82b16d1cde8b140a30a94aa1ab72da7692b2d00dbd8af91": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "The cool river water gives a drink to a young tree on the bank: 木.",
+   "bytes": 26064,
+   "ms": 4344
+  },
+  "2e4cb4ea1ef333fa8f33d946727ac5e8933307eabaa2f2e42e83da4732c5ffdf": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "To scare the tiger away, bend a flexible wooden bow and pull the bowstring taut: twang!",
+   "bytes": 41760,
+   "ms": 6960
+  },
+  "2f583f3ee44219d9e96ec218da5bed2970bb1752b2323ed649ed844dd25415aa": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "大雨哗哗下起来，啪！一把圆圆的雨伞撑开了，伞骨支着伞面，中间立着伞柄。",
+   "bytes": 50832,
+   "ms": 8472
+  },
+  "3089981db6376ae78cef8ee2bf9ddf7b0f7e926457ffeb9c7432139fb26659e5": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "三座山峰并排站着，就是“山”。中间那座最高！",
+   "bytes": 32688,
+   "ms": 5448
+  },
+  "31041cfd9bacecdfbe9c358845caae6cc14443ab33030f6b9a798ccb9414a518": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "在现代简化字里，“傘”写作“伞”。",
+   "bytes": 21456,
+   "ms": 3576
+  },
+  "31ab883ff133e1573a05db7aeabab0c71c10b24485105f8858bf0364a1e4d26d": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "剪刀尾巴的春燕",
+   "bytes": 13392,
+   "ms": 2232
+  },
+  "31cb8893ca8c06a46d7be33e0ae3b6e3a64d68063bc51713a865ddc6c4e31bd4": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "云端的三座山峰",
+   "bytes": 13392,
+   "ms": 2232
+  },
+  "321cd20a603d02ae9d574679634cb6a04da71537c3ce5747e8ef34d8ff7e0199": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "In modern simplified writing, 門 is written 门.",
+   "bytes": 20448,
+   "ms": 3408
+  },
+  "3295b7e713ac93c6d5dbfaf238dd13aea40186597996cee3ba921d551c6ec061": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "Look at the branching antlers on top: that’s how you know it’s a deer!",
+   "bytes": 27936,
+   "ms": 4656
+  },
+  "329f3f68f9860538c8ff7c7ace8b651ad707a60913bce8d4b245f563953c9bde": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-15%",
+   "text": "火",
+   "bytes": 11232,
+   "ms": 1872
+  },
+  "33681213f88b6c0cb0fcf958e1cf6cf3aa258c88448ebae5a1e5be3a5cf75c4e": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "圆肚子短尾巴的猪",
+   "bytes": 14112,
+   "ms": 2352
+  },
+  "33c5f8ee9686d8e4c620641fec16a57057d25f2916951271e1ec359ca04f1309": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "枝头唱歌的小鸟",
+   "bytes": 14112,
+   "ms": 2352
+  },
+  "33e450cf6710eebce047bc98057480d38b6cabf5251b0ea88ca6dbf61772ee7f": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "尖顶休憩的小屋",
+   "bytes": 13248,
+   "ms": 2208
+  },
+  "3436c86f4be2d7fa4cd8c1452cce11af35bdbb705e2acb837e040d87fce51992": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "从青铜器一直到1400年前智永禅师写的《千字文》，“舍”始终顶着尖屋顶、立在方地基上。",
+   "bytes": 55152,
+   "ms": 9192
+  },
+  "3479f06a8cfdd91c289b7d1125c7348bf2891f0f2997e20bd182bb306593d46d": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "Curly Horns, Gentle Face",
+   "bytes": 16272,
+   "ms": 2712
+  },
+  "34ab6b7ee2b565a80f7b6f8d1492d6e5947d545304cab7550c6316f2a1478b7c": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "上面是山崖厂字头，下面是方石头“口”，合起来就是石头的“石”！",
+   "bytes": 37440,
+   "ms": 6240
+  },
+  "3585c659dd7039df24f1fb8c9604b73cbceb762ebc8c0d44998d49d9600c1583": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-15%",
+   "text": "田",
+   "bytes": 7632,
+   "ms": 1272
+  },
+  "371904357325a979169e6a0ad0d56e655c164b9d3bf691cef3ec827ceef13994": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "Safe and sound! At the edge of the field stands a welcoming cottage with a peaked roof, a center post, and a raised floor.",
+   "bytes": 54720,
+   "ms": 9120
+  },
+  "3783e690a767699e2b3b9f514e7ce5b7de1374d3a728bf24c98fc09fd77b0d5c": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "In seal and regular script 魚, the scaly body became a checkered 田 shape, and the forked tail split into four little dots.",
+   "bytes": 50256,
+   "ms": 8376
+  },
+  "37a79d3245625a22b934fbe6e9e1b0801fdcf63412272fb5283292804aea7136": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "弓 is a bow for shooting arrows. Some of the oldest versions even show the string.",
+   "bytes": 35424,
+   "ms": 5904
+  },
+  "385cb0f4964983e74864aeccf8f5f82b9d7f8a40760a21bba5ceb8d3cc12af5b": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "看顶上分叉的鹿角，一看就知道是“鹿”！",
+   "bytes": 23760,
+   "ms": 3960
+  },
+  "3901da34dc2c46e84a52c574170c2c4a85938699b9526a7aa36ac6efa5ee03ed": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "守护山脚下的农家小屋",
+   "bytes": 17568,
+   "ms": 2928
+  },
+  "39571a2124172b131609c1ffd569973eb4678f368095f90ac22c5cb5dac02007": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "Ahead stands the tall double-leaf wooden gate of home: 门!",
+   "bytes": 23616,
+   "ms": 3936
+  },
+  "398c7227acd2c1927af49f286de40c470eb26a0c71599787654a94cf4b4af174": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "长鼻弯弯的大象",
+   "bytes": 13824,
+   "ms": 2304
+  },
+  "3ac201b183667bdf5e58329f29cf230d24d5af127c594d597525c630b7d71852": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "舟 is a small wooden boat. The lines across it are its planks.",
+   "bytes": 28224,
+   "ms": 4704
+  },
+  "3aca6b38111190e9a1f788dc6bf432d982f8cd557d533412b14403af312638a5": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "The Galloping Steed",
+   "bytes": 11232,
+   "ms": 1872
+  },
+  "3b05b8082c17259e2c5336ace49e34f24a41f47369bf468d6355d19049b54f9b": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "在现代简化字里，“鳥”写作“鸟”。",
+   "bytes": 21168,
+   "ms": 3528
+  },
+  "3caae3bfec55c7440705e4b147c0000f78b92fb8d995cd075de7baa0b91ee7f8": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "看大盂鼎铭文上的字形：一个张开双臂站立的大人（大），头顶正中横穿一根发簪！",
+   "bytes": 49104,
+   "ms": 8184
+  },
+  "3d6bbd933ab7a971ebd6216a1022bd8f7ed0c03d60c4f93a9b26bf58ae791cff": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "“竹”字的左右两边各是一根垂下叶子的竹枝，并排站在一起就是一片翠竹。",
+   "bytes": 44784,
+   "ms": 7464
+  },
+  "3d7b37fc59140619cc936f177827db5df06aae3ea2a366e8d8c1e8b8e35fb868": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-15%",
+   "text": "月",
+   "bytes": 11232,
+   "ms": 1872
+  },
+  "3f61977947182e9254f0ae6fafa683e8d7c4178fcaacf2292ab6192f2d7254a7": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "On the 3,000-year-old Da Yu ding cauldron, 雨 is an arched sky dome with vertical streaks of falling drops.",
+   "bytes": 44352,
+   "ms": 7392
+  },
+  "3ff11d333059f642754e8227ed5176ab5be2c6fa6c611fdd2816917e42a3845d": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "大雨里的篝火与伙伴",
+   "bytes": 15552,
+   "ms": 2592
+  },
+  "40513b05a8c39e8a12429771057ac1466b43c57b0112581f45a30f25f10d0cdc": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "多么明朗的早晨！山谷彻底醒来了，小鸟也在树林里安下了家。",
+   "bytes": 40464,
+   "ms": 6744
+  },
+  "4149822853c69b6b7a2183f97537f7d64a4b535d1dbc9a096c04fa29e4281dd6": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "到了篆书和楷书里，张开的双臂变成了下面一横，头顶的发簪则是上面那一横。",
+   "bytes": 47952,
+   "ms": 7992
+  },
+  "419f27f89d6771f84b736cd16de02133ca0bcba57d9f1fed07ec2eed8dee38b1": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "The Leaping River Fish",
+   "bytes": 11088,
+   "ms": 1848
+  },
+  "429abea85ccccc49d0e8661a6f6eecec1d44160503ce034787032dc6eba70ed9": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "穿过农田与竹林的奔跑",
+   "bytes": 17136,
+   "ms": 2856
+  },
+  "43010c52f85d00558883c48a9b6963698b717491af9028a66f5c6914c4008696": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "捕到鱼啦！趁着天上的云还没变黑，快划船靠岸吧。",
+   "bytes": 34272,
+   "ms": 5712
+  },
+  "432a71b30c6cd1319c43be073eedeab465c760a2e9ecda7c4dc2aefc53ccc8a3": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "今天再看“象”字的最上面，你还能一眼认出大象弯弯的长鼻子！",
+   "bytes": 37152,
+   "ms": 6192
+  },
+  "43434e0ddc30a2c0dd4cba8c3c4d8efcf634c112568dec3f4043e2c2765af2dc": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "中间弯弯的线是流动的河水，两边的点是溅起的水花。",
+   "bytes": 35856,
+   "ms": 5976
+  },
+  "4359022fd160444e9e9ca71e47c11139c826ce76bdbe6b3d761a099804ad49fc": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "And in simplified 马, the four galloping hooves are swept together into one fast horizontal stroke!",
+   "bytes": 40608,
+   "ms": 6768
+  },
+  "43c8783cb2b65134ead2128c597a29282f098e21a941ac9405a32d3161ebabd9": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "The oldest 云 was simply two sky lines above a curling swirl of vapor. Later, 雨 (rain) was placed on top to make 雲.",
+   "bytes": 54144,
+   "ms": 9024
+  },
+  "442fd1abe6b044b2a295d9210251fe9fa12555d356d5b51d4c93fc77fa6d65a9": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "田埂边上，嫩绿的小草芽铺满了草地，这就是“草”。",
+   "bytes": 33264,
+   "ms": 5544
+  },
+  "452d75fff90acb93f4eb97d9d81a3fb8b314902550be3c7d197a2e5a97665dcc": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "它最初的意思是手里（又）举着火把在屋里找东西，后来专门用来称呼智慧的长辈——“叟”！",
+   "bytes": 50688,
+   "ms": 8448
+  },
+  "459a3a0f643ead6259adbc9dfe2df5421e1f9ca999ff289d13bd36c26a1a6dc7": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "上伸枝丫、下扎树根",
+   "bytes": 17712,
+   "ms": 2952
+  },
+  "45b199b3c690b26f38d8f579ca7402d674518ddfc1cb21841a446a950c931cd6": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-15%",
+   "text": "草",
+   "bytes": 11232,
+   "ms": 1872
+  },
+  "46575d03e3f4a3d00e445cf23e012dff0239817442f4b4740cc4185f93a3a40e": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "扑通！一条银亮的小鱼跃出水面——尖尖的鱼头朝上，带鳞的身子居中，分叉的鱼尾朝下。",
+   "bytes": 56160,
+   "ms": 9360
+  },
+  "47d2d30dfc40500c88703926145188989b271438df7da7b129203c817c8a35f0": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "今天的简化字“云”，又回到了三千年前那朵卷卷的古云朵！",
+   "bytes": 34128,
+   "ms": 5688
+  },
+  "485755ba3b3be56ccf68e076e4e68b4d68eb8c038df3b3d988b4f7d7cfd007ba": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "Carved upright on bone and cast in bronze, the tiger’s striped head became the famous “tiger crown”.",
+   "bytes": 42624,
+   "ms": 7104
+  },
+  "4912285211102e7a347720c04646c0d66f46b1e6dbd597a76c9d5e5b756d1354": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "快——啪地撑开一把圆雨伞，挡住漫天雨滴：“伞”！",
+   "bytes": 32112,
+   "ms": 5352
+  },
+  "4937d433b058313513925b1eb3ffa6464481c7625a2059373747a6c139f5d9be": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "在今天的“火”字里，中间的人字形是主火苗，左右两点就是跳动的火星！",
+   "bytes": 42192,
+   "ms": 7032
+  },
+  "4973be16e02133fb3c724602078f2337ecae8be1114105f032ce2e770a29b6f8": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "沙沙沙……细长的竹枝在微风里轻轻摇晃，尖尖的竹叶像绿羽毛一样垂下来。",
+   "bytes": 46368,
+   "ms": 7728
+  },
+  "4a02284461df7ab71c33aa97f3e27cd274f3b8d0c3c786f8c7ef527c533f9d9a": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "When the rain pours down, pop! Up goes a wide round canopy held up by ribs on a central handle.",
+   "bytes": 42336,
+   "ms": 7056
+  },
+  "4ab8b9c2322d848ded515c91bb42e0d99e4e254f29593f65dd30d887f6fcb97e": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "汪、汪！守在大门口的是一只忠实的小狗，正欢快地摇着向上卷起的尾巴迎接主人！",
+   "bytes": 57312,
+   "ms": 9552
+  },
+  "4b0f7989a8e9e3e50d295abec8af7e3e35392ee336fb7c8756eba5c78c756144": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "In modern simplified writing, 網 is written 网.",
+   "bytes": 22464,
+   "ms": 3744
+  },
+  "4c04bde5f14dbed5b5882f3e30741cd34ebd7e9b08c4a1d40dc0426fbb5c9724": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "在现代简化字里，“雲”写作“云”。",
+   "bytes": 20880,
+   "ms": 3480
+  },
+  "4eaba30f4500bafd26704be2f1e7bd64aa9f5b671864f4ef449b8523ed3de45c": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "In the yard beside the cottage, a plump little pig , 豕 , sniffs for acorns...",
+   "bytes": 29232,
+   "ms": 4872
+  },
+  "4ee1156b5b052d5b76a022c6a99d37e765c17c515ce27967c026b7cdc49cc574": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "溪水对岸，一棵树挨着一棵树，长成了绿荫浓密的树林：“林”！",
+   "bytes": 38160,
+   "ms": 6360
+  },
+  "4f63c1ec6b2664d221655318fb81e857aa913545e34747d4cd369de237bf5004": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "上面一横是天空，下面的点点是落下来的雨滴。",
+   "bytes": 29232,
+   "ms": 4872
+  },
+  "4f82ce5305ffabcf4195f6e20c604c1e92f7a87e7e8caf8d721510534a406e19": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "Out steps a grown man with a hairpin in his topknot: 夫!",
+   "bytes": 22032,
+   "ms": 3672
+  },
+  "4fb074baffcac5139e28c251329a82648b6cf6d7b4a689c1972556f8a10d02c1": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "After the rain clears, we reach a cozy thatched cottage at the foot of the hill: 舍.",
+   "bytes": 34704,
+   "ms": 5784
+  },
+  "4fb30be621418ced7b3524d317fc9a186f01a831dc926c8f1ee0aebee4672e50": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "Round head, open arms, swaddled legs: that is 子, child!",
+   "bytes": 25488,
+   "ms": 4248
+  },
+  "4fef579d3befc3f9958cc0185ef0057c6674f1189b5c16f8d7e4baf0f1a2654f": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "宽阔的大河上空，一朵卷曲的白云——“云”，慢悠悠地飘过蓝天。",
+   "bytes": 38304,
+   "ms": 6384
+  },
+  "502ce7ea8e2824d6b70bf1c9327a3eaff17fdc1058a37a6df8533c925dec17a1": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "看刻字的最顶上：那道弯弯的钩就是象鼻，下面是圆滚滚的身子和四条粗腿。",
+   "bytes": 48384,
+   "ms": 8064
+  },
+  "50af4e4bcede8ad538a07e26d2c289abf340d16afaf374849377aadeae4fc7bb": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "就算不画树叶，刻出来的样子也一目了然：中间是树干，上面两根分叉是树枝，下面两根分叉是树根。",
+   "bytes": 62640,
+   "ms": 10440
+  },
+  "50fb4576e9309b2398de5405289b56d00071f9d1553168097550a7c3f767542f": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "Woof, woof! Waiting right outside the gate is a loyal dog, barking happily with its tail curled high!",
+   "bytes": 44784,
+   "ms": 7464
+  },
+  "51a14c856e7c44311fc5ab62c3254322160ef76f016780885bdf9f28a7cea7ed": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "From bone to bronze to brush, the back of the knife stayed strong and angled, while the cutting edge swept down in a curve.",
+   "bytes": 47088,
+   "ms": 7848
+  },
+  "51c483b67eff563642aceb5337abfbd4db2d8f8f2ca38a8e551855e3c53d271c": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "A single tree stands by the riverbank: green branches reaching up for sunlight, and roots gripping the soil underground.",
+   "bytes": 47376,
+   "ms": 7896
+  },
+  "523317bb83be4eb97b45f8e6032f23dba5e5a18c14e3f7993155691bd2108c68": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "看呀！东边的山脊后面，一轮红彤彤的太阳慢慢爬了上来：“日”！",
+   "bytes": 42768,
+   "ms": 7128
+  },
+  "525087c2cecdde85f80af57e69c555d914257813ff3763194ffadb939dab3484": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "“燕”是一只张开翅膀飞翔的燕子，后面还有分叉的尾巴。",
+   "bytes": 33552,
+   "ms": 5592
+  },
+  "54a3888a116065e462d3d3f580947b6b98fef868a7145c62a02f7157553c4346": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "The Crown of Antlers",
+   "bytes": 11232,
+   "ms": 1872
+  },
+  "54b31f0249095568a053881575baf035d80037f5b20146e6dc6ee525c4a069b0": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "嘣！老爷爷拉响弓弦，吓得大老虎掉头逃回了深山！",
+   "bytes": 37008,
+   "ms": 6168
+  },
+  "54d1c1ccf7c8546da58e6a154f8c614eefe8f96e39a174ffa8b46d14cdca4485": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-15%",
+   "text": "伞",
+   "bytes": 11232,
+   "ms": 1872
+  },
+  "54f28e9b2f8048d8dcf774d12b09eef3e19678fac8c3ade1a2e9a70cb5a39a5e": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "在6057号甲骨上，“田”被刻成分成四格的方框；在大盂鼎的青铜铭文上，也能找到它！",
+   "bytes": 53136,
+   "ms": 8856
+  },
+  "54fc70cad153323eac6962e72bb7b58d32fd0fc223780098535ec42f5902c5ac": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "拿小刀在坚硬的骨头上刻圆圈可不容易，于是刻字的人刻出边框，中间加上代表光芒的一笔。",
+   "bytes": 55728,
+   "ms": 9288
+  },
+  "561b77f2d9f46594e576c612de7d96201761303f7e8d7896b4a6dedc26a7175c": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "哗哗流淌的溪水",
+   "bytes": 13968,
+   "ms": 2328
+  },
+  "5642ebbc6c1e5d83e04af22be7a211e4012b4b58165f1f2580f8f05e07c8dc80": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "从山顶俯瞰农田",
+   "bytes": 14688,
+   "ms": 2448
+  },
+  "569e7a2fc514bd4ee8a146a1fbb101115fd676e6743f0184c1f6f6e74571f0f8": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "Branches Above, Roots Below",
+   "bytes": 13824,
+   "ms": 2304
+  },
+  "5711951a710a1a470461473252b8b5cf6a02ccafdfd2bd08800f8475c2622ccd": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "Carving a round circle on hard bone with a knife was tricky, so carvers made an outline with a bright mark in the middle.",
+   "bytes": 45504,
+   "ms": 7584
+  },
+  "57d1cac229be2b80b9f5811309591528473f05fc913275de7a6167159c32c6c3": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "不管是甲骨文、金文还是篆书，那对分叉的大鹿角始终高高立在鹿头顶上。",
+   "bytes": 47664,
+   "ms": 7944
+  },
+  "580bc6f1b6f0918a7ed9bc52cb28647470dcc1eb818bfccd5455279d8de3d3a1": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "With one nimble leap, he hops onto the horse’s back...",
+   "bytes": 23760,
+   "ms": 3960
+  },
+  "58e89916471dd1656d019ddcffdc1429a05e472776003a544345479197ba973b": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "就算在今天的“燕”字里，顶上依然是燕头，两边的“北”是双翅，底下四点就是燕尾！",
+   "bytes": 47664,
+   "ms": 7944
+  },
+  "58ebe7f5fa4fcc48176c89ffc78bd898a313134ff81586bb1d735bb8c849aee1": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "跃出水面的小鱼",
+   "bytes": 13536,
+   "ms": 2256
+  },
+  "591140d0461dbc188cda396ffb3d48ed08416288b71d999848cccb40f6683b31": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "迎风奔跑的骏马",
+   "bytes": 13680,
+   "ms": 2280
+  },
+  "59879ecf2a777c6f3e34552d6092270fc42549229ec6e1d0798c665c786db518": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-15%",
+   "text": "网",
+   "bytes": 7200,
+   "ms": 1200
+  },
+  "5a40eafd593bda097982d1b8dcb9d08d9fee593d029e8aaea13366be057f08b4": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "在现代简化字里，“龜”写作“龟”。",
+   "bytes": 21168,
+   "ms": 3528
+  },
+  "5b14efcfe15db84af5dbadd23ac624d8d1de4adae44a694884f4047bf1601168": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "Twang! He snaps the bowstring, and the startled tiger bounds right back into the mountains!",
+   "bytes": 37728,
+   "ms": 6288
+  },
+  "5b9439cffd366fb58fc7878245b0e3ee1551e80f2fdd22d5cfebc8ad83ea24a2": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-15%",
+   "text": "燕",
+   "bytes": 11232,
+   "ms": 1872
+  },
+  "5bd6014b75e5f097ccdf7ad1943ba1b117b6c9d847894c4cd34faea210aeeeb9": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "先写一个大人的“大”，头顶再加一根发簪，就是长大成人的“夫”！",
+   "bytes": 35424,
+   "ms": 5904
+  },
+  "5bfb70d91ca01a21e72e8035f16fb1a78ee4e748a384410bb58a70b514cc3303": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "上面草字头表意，下面“化”字表音，合起来就是百花盛开的“花”！",
+   "bytes": 37728,
+   "ms": 6288
+  },
+  "5c7271ecdfc0e75d776b71614440a067615f13f624135697faea193c21613324": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "回家的小路旁，一朵朵鲜花在晚风里展开花瓣。",
+   "bytes": 30672,
+   "ms": 5112
+  },
+  "5ca1f77fba514a0827384dd4755bec0be7bd89f5774af0077abf9498e898046b": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "要想画出一片树林，难道要画上一整天吗？聪明的人把两棵树并排画在一起！",
+   "bytes": 48528,
+   "ms": 8088
+  },
+  "5d3dfb1a36dc8a555f3a0b320cc4db4d0368ca724e2687718b3fdc8c05673eac": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "The Giant with a Curling Trunk",
+   "bytes": 13824,
+   "ms": 2304
+  },
+  "5e3bb86208d37116e7cee684be5186f849e81f3eb7b91a243c3bbda9620cb0db": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "The Boulder Under the Cliff",
+   "bytes": 10944,
+   "ms": 1824
+  },
+  "5ec54b23b8b3d844e666059b51496f911cd1665c7cf157bd515494807092f2a7": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "“舍”是一座简单的小屋：上面是尖尖的屋顶，中间是柱子，下面是地基。",
+   "bytes": 44064,
+   "ms": 7344
+  },
+  "5f0c244742328bd7573074ccd969d5428cf7b465967e09a1066f84713bd94aa5": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "“女”画的是一位跪坐着、双手交叉放在身前的女子。",
+   "bytes": 31824,
+   "ms": 5304
+  },
+  "5f83c46d39adb7fab0118ee8dcfa354bb8f8f7371d08517b64efd211e8282032": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-15%",
+   "text": "女",
+   "bytes": 11232,
+   "ms": 1872
+  },
+  "5fbc8e1c59932a7ba586bb3d34b7b95bf2e18bf21e7d2bcf798fc007cf1943b4": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "暖烘烘的石头后面爬出一只小乌龟：背着花纹硬壳，四条短腿慢吞吞，后面还有小尾巴。",
+   "bytes": 54144,
+   "ms": 9024
+  },
+  "5fc782652fe7514f3e765c2d860383ce887bb430b3bf7373fddb98df28e7dde3": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "跟大象一样，为了写进窄窄的竖行里，骏马也竖着站了起来！",
+   "bytes": 35568,
+   "ms": 5928
+  },
+  "600dd9417a5dcd18c8ab714488ace26bb69ca51a24abd37b13cbf9cad0816608": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "The Plump Little Pig",
+   "bytes": 10656,
+   "ms": 1776
+  },
+  "6024623b59e4a9651d5c75f69f33977178993f4f21d409445118d1be158ba1d3": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "The Puppy with a Curled Tail",
+   "bytes": 13104,
+   "ms": 2184
+  },
+  "608c790ebb6673c1144fd80878fa5a37a1bec51804661e0deea5cf01708b8aa3": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "In regular script 鳥, the eye became a dot inside the head, and the four little strokes at the bottom show its tail feathers and claws.",
+   "bytes": 50256,
+   "ms": 8376
+  },
+  "609ced774915306fe49a56330085673dcfe9bddf4bdb7189a6b6b0e67ae390c4": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "Rustle, rustle... Slender bamboo stalks bend in the breeze, their pointed leaves drooping down like little green feathers.",
+   "bytes": 49824,
+   "ms": 8304
+  },
+  "60a5b15584b4dc7db381af0c7fd77491295f894048a1f1f673762282bb6a9db5": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-15%",
+   "text": "鱼",
+   "bytes": 11232,
+   "ms": 1872
+  },
+  "6121ecc152e03b5b0c04eebf95949e7936334135e2206a2502765ae9894c1f4a": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "Notice how the left tree tucks its right root in politely so the two trees don’t bump into each other!",
+   "bytes": 36720,
+   "ms": 6120
+  },
+  "6160ff15044751ae1ee600634b6af8daf0da441f1ada7aa799af213d584c6180": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "突然——嗷呜！一只张着大嘴的斑斓猛虎——“虎”，从林子里扑向小羊！",
+   "bytes": 43920,
+   "ms": 7320
+  },
+  "61807b172ba7e74fb2e6b78c042ed38539f348259df18b3d6c47dcf274bee1f9": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "Blossoms by the Garden Path",
+   "bytes": 13392,
+   "ms": 2232
+  },
+  "61938cfd1107e0129184daaa420c805b470d5911dd7c13d2d4f97f4c19fc5160": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "Across the stream, trees grow side by side into a shady green grove: 林!",
+   "bytes": 35568,
+   "ms": 5928
+  },
+  "61ac936a3a5ca91045a75b165c71092f4c1d8fdaa249b30e37f0762f00ead8f0": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "Quick , pop open a round umbrella to keep the raindrops off our heads: 伞!",
+   "bytes": 33264,
+   "ms": 5544
+  },
+  "6251cf29b734f5ce511d24932e802e0c9570d9cb39c356310a20c5f90442a839": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-15%",
+   "text": "木",
+   "bytes": 11232,
+   "ms": 1872
+  },
+  "629804e1be121dfe81c61f52ed9429e78ab82b14d7c7331f852ca5d453c7ef25": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "得儿驾！一匹骏马在原野上飞奔，浓密的马鬃和长长的马尾在风中飞扬。",
+   "bytes": 49968,
+   "ms": 8328
+  },
+  "632e42bd8bfa046fd57926e77583be32493b2cbb713335c8947e97d60ecdf5e2": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "Three thousand years ago, wild elephants roamed the Yellow River valley! Their most famous feature was that long, curling trunk.",
+   "bytes": 52848,
+   "ms": 8808
+  },
+  "63a24babc1e7ade8f460e0af6bcb15210331586ba45bc066f2a61c9c19b65013": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "最古老的“火”就像篝火上向上跳动的火苗。",
+   "bytes": 26496,
+   "ms": 4416
+  },
+  "643c5c99dc3b81abe89059a6918f0a2e3f0e3e2765ea0cb132349141540b0626": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "在甲骨文和金文里，小鸟昂着头冠，小爪子稳稳地抓着树枝。",
+   "bytes": 38448,
+   "ms": 6408
+  },
+  "6454d1a12c3e9e81b206418a856d482a79a9ef69d926127e4e790e909f56c49a": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "The Bent Wooden Bow",
+   "bytes": 9792,
+   "ms": 1632
+  },
+  "6504ea0e100d89ee6b989e5996704b3a14c0e7966c128ceb5a5c1d972ed5eab2": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "豕 is a pig standing up, with a round belly and a short tail. Find 豕 inside 家 (home): a pig under a roof!",
+   "bytes": 51264,
+   "ms": 8544
+  },
+  "653163b89a3b0466ab9165c0a3550d27e3bb2962af6f1728a8f1f06092b2e711": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "……还有一只长着弯弯羊角的小羊——“羊”，正低头吃着鲜嫩的青草。",
+   "bytes": 37728,
+   "ms": 6288
+  },
+  "6629a286f015f71afcacf1c25cdf4e782fae1b09d4c39a1b9635e3222a9007ce": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "Today’s 虎 still wears that striped tiger-head crown on top, standing on two powerful hind legs below!",
+   "bytes": 44640,
+   "ms": 7440
+  },
+  "665cbeac9dfe2e317b1103a6a07f54be27d8ff363d0adcdabc46221fd6faf3ce": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "摇着卷尾巴的小狗",
+   "bytes": 14832,
+   "ms": 2472
+  },
+  "67d254e6cb2651ecb5330433bc8bd7e1b05054c8b258a83cb1caaffa4c54f2e1": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "古代的“虎”是一只竖起来的老虎，张着大嘴，身上有花纹，还有尖尖的爪子。",
+   "bytes": 44352,
+   "ms": 7392
+  },
+  "689ebe3b14bb3a2a08aa52fcd348e5686247e28db5698a13ce039ab330f8283f": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "Each half of 竹 is one bamboo stem with drooping leaves; side by side, they form a bamboo grove.",
+   "bytes": 44064,
+   "ms": 7344
+  },
+  "68a140305fa0013cffff3f5dc149bfc5d9c8ac14894cdcb709a12053b1241a20": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "Look out at the horizon: three rocky peaks stand shoulder to shoulder, with the tallest peak right in the middle.",
+   "bytes": 42336,
+   "ms": 7056
+  },
+  "6922df30f82dcd445a6a8301ea188891d27dd4c433d3b2e0e9033c26e3ec78f5": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-15%",
+   "text": "鹿",
+   "bytes": 11232,
+   "ms": 1872
+  },
+  "6927e1c798071eb22f0fd50eea4d84a0be48315ddcf257d697cafa67ab2542f3": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "独木不成林：一棵树是“木”，两棵树是“林”，三棵树叠在一起就是大森林的“森”！",
+   "bytes": 49104,
+   "ms": 8184
+  },
+  "692ac33f0f6869066fad5fd4701840f7426867ad88e924d3d5a0db968baed910": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "两棵小草芽并排长在一起，就是“艸”——这是“草”最早的样子。",
+   "bytes": 36288,
+   "ms": 6048
+  },
+  "69455942caa18b4410279281607a52b577a1d11805015869b235a626e98052ba": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "安全啦！田边立着一座温暖的小屋：上面是遮风挡雨的尖屋顶，中间是立柱，下面是地基。",
+   "bytes": 57024,
+   "ms": 9504
+  },
+  "69ac238e6aa2e3d9da0b8d324f5ab842934244b9b0e5bec2db2998b738a45fb7": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "乌云聚拢过来——淅淅沥沥！一串串雨点从天空中落下来。",
+   "bytes": 37728,
+   "ms": 6288
+  },
+  "6a705d7486cc93f4fe87dd688c2538d19ff98dc9f7c2f1f1eddfa82ae616da82": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "刻字的人把两个“木”并排放在一起：两根树干、两丛枝丫，肩并肩长在同一片土地上。",
+   "bytes": 55296,
+   "ms": 9216
+  },
+  "6b0d2c6ced53996ea35a0382594618464c38c3aa489f3e68fd613c2dacf8ddff": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "听——哗啦啦！山上融化的雪水顺着山谷蜿蜒流下，两边溅起晶莹的水花。",
+   "bytes": 49536,
+   "ms": 8256
+  },
+  "6b3a06ac10f74877e2a854f9784baae9e3806a5934a877158f7c9c7e43a837e6": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-15%",
+   "text": "水",
+   "bytes": 11232,
+   "ms": 1872
+  },
+  "6b6b2fcf19ae766ddbf8b9f1565c45bec4bc7d73ff585e15ba9bb9ec907da304": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "端庄跪坐的母亲",
+   "bytes": 13248,
+   "ms": 2208
+  },
+  "6bfa0b5612cde1a7d491d77635eb092800a46126df51ab48827bb4b5bd0295d7": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "That bright sky-window is 日, the sun , and also a whole day from sunrise to sunset!",
+   "bytes": 37584,
+   "ms": 6264
+  },
+  "6c3a69f46a442d91cd5143ef1db24fe2094f27e5a27f6ad677d1548ae93bb9e3": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-15%",
+   "text": "门",
+   "bytes": 11232,
+   "ms": 1872
+  },
+  "6d7ad34adc9d411578c3db1723af457da302015a90ce2d93c4651c56acf277fe": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "Write 大 for a big person, push a hairpin stroke through the top, and you have 夫 , a grown man!",
+   "bytes": 37152,
+   "ms": 6192
+  },
+  "6df9fdb26da0853a4ed93007dd570b90f30861f2ccb919544f5355ca250b1638": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "High above the river, soft white clouds drift and curl in the wind.",
+   "bytes": 29088,
+   "ms": 4848
+  },
+  "6e173f0c0b83a33bbd1032b49e34db219570c6c7fba4b72883c2726af4bf0b6a": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "嗖！一只剪刀尾巴的小燕子——“燕”，贴着水面轻快地掠过。",
+   "bytes": 39312,
+   "ms": 6552
+  },
+  "6f10690135a7691d8641ab42d55000dcdcdc124a0749209661cc420d882e8235": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "Roaaar! Out from the mountain brush creeps a fierce tiger , jaws wide open, sharp fangs gleaming, and bold stripes across its back!",
+   "bytes": 58320,
+   "ms": 9720
+  },
+  "6f17d7ee59f89f5b3c27161142047a0c46c600b461e6dec6444425f36d5bb154": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "Nature wakes up at dawn",
+   "bytes": 11088,
+   "ms": 1848
+  },
+  "6f8da9c7417e54d40d49a86df514f7d8eab74ca5ad717bf72278e74b53b75e05": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "After a warm spring rain, tiny green shoots push their way up through the soil, two leaves unfurling on each stem.",
+   "bytes": 48384,
+   "ms": 8064
+  },
+  "6fb380e0e89028df823d85dbf42e59b95864774391e56323f4f597ca9c015c90": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "夜深了，一弯银亮的月牙挂在安静的小院上空。",
+   "bytes": 30096,
+   "ms": 5016
+  },
+  "6fd5f819d4acf68fed68564b1647ed960104bbc73fb376a308d9276d0dc04e6b": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "See the long trunk at the top? Long ago, wild elephants lived in China, so people knew them well.",
+   "bytes": 41760,
+   "ms": 6960
+  },
+  "70260b3fca4c15fa75a6c6dde6098886920446df6a5a02cc1cc4582c643d03f9": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "繁体“龜”保留了繁复的背甲和爪子，简体“龟”则用几笔勾勒出龟头、龟壳和翘起的尾巴！",
+   "bytes": 53568,
+   "ms": 8928
+  },
+  "71563b13aa46ae8b3df645e4ba839468cfa8bb810222bcf5eae99c74bf38ac80": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "“伞”是一个“年轻”的字，没有甲骨文和金文。可它看起来还是像一把撑开的伞！",
+   "bytes": 45648,
+   "ms": 7608
+  },
+  "716863ac50bcbdd05abe57388f804bfd3c89310ad17a1ccdff42e707a5594226": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "As centuries passed, the curling trunk stayed right at the top of 象, while the legs fanned out into sweeping strokes below.",
+   "bytes": 47376,
+   "ms": 7896
+  },
+  "718a2ae70c6726be5668451d221b67c9254c076bd47fe3005ff26eb1fd1e5059": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "去河边之前，工匠拿起随身的青铜刀：上面是握手的刀柄，下面是弯弯的单面刀刃。",
+   "bytes": 52848,
+   "ms": 8808
+  },
+  "71b285371f468fe8642780a35e7bc33d463c9d9f5cd4c79578864d76176bd9ac": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "在纸发明以前，古人把竹子劈成竹简、编成书册，所以天天都和竹子打交道！",
+   "bytes": 48528,
+   "ms": 8088
+  },
+  "72c5d3253c3f26cf7e34e8067d1556762e4e9f8b29af1f047befaf6e43863070": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "舍 is a simple hut: a pointed roof on top, a post in the middle and a base below.",
+   "bytes": 37728,
+   "ms": 6288
+  },
+  "72cce778f0796158c74edc0dd7dfc00b3566c2ab44e87898b6e405e350e2e223": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "... and away they gallop toward the river, hooves drumming clip-clop, clip-clop!",
+   "bytes": 30240,
+   "ms": 5040
+  },
+  "734bffeee57d350daae8a738b36b3ff97ae19e6ab861d485fa170c1782dea1e5": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "The Grown-Up’s Hairpin",
+   "bytes": 11232,
+   "ms": 1872
+  },
+  "73b54bbfdf5c3a4304b6148c4d4b324e18c00414b3ce1666e0e09a2a75070c96": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "From bronze vessels to the monk Zhiyong’s 1,400-year-old calligraphy scroll, 舍 kept its pointed roof 人 on top and square room at the base.",
+   "bytes": 57888,
+   "ms": 9648
+  },
+  "741b3351b33f1c3a43e05e5b6e246d646ca2068a9e0c6e328a7660a994e76118": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "Ancient writers first drew a blooming bush as 華. Later, they combined the plant crown (meaning) with 化 (sound) to create 花.",
+   "bytes": 54288,
+   "ms": 9048
+  },
+  "74719b67e0481f0543875dc17091b3eeb5dad696a7c507d0a850802da440356f": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "很久以前，“花”写作“華”，像一株开满花的植物。“花”是后来才造的字：上面是草字头，下面的“化”提示读音。",
+   "bytes": 66528,
+   "ms": 11088
+  },
+  "74811683f5c1021df1cbbd8b4d1deddd5ce38b8fadec665774bd376ad6cebeaa": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "而在简化字“马”里，奔跑的四只马蹄一笔连成了一道飞快的横画！",
+   "bytes": 37584,
+   "ms": 6264
+  },
+  "74869be6ef1849de79e44f4ce2f0a9ad611d4b984ece168bcd547efc1fe8d416": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "撑船离岸喽！一叶窄窄的小木船滑入水中，弯弯的船身中间横着几块木板。",
+   "bytes": 48672,
+   "ms": 8112
+  },
+  "74e2af377e7b034e169bec7b2aff9d07dd5186cb8c1e83366ad0e7351325b5a7": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "Home Under the Crescent Moon",
+   "bytes": 13536,
+   "ms": 2256
+  },
+  "74e94d3536d0c80c2276269822335c6b9d8dff2df2e9dad21806d181b0faf9a5": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "在现代简化字里，“網”写作“网”。",
+   "bytes": 20448,
+   "ms": 3408
+  },
+  "74f125a219ddf588a87790f37886f9d642f2c6c8f0c06981c904492d330715d2": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "On oracle bones and bronze pots, the three peaks were drawn like a crown of stone.",
+   "bytes": 35712,
+   "ms": 5952
+  },
+  "7505a96ca62fd071dd890f37dd69ebd4de41d0c127085e8870268925e7e9ee0c": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "The Songbird on the Branch",
+   "bytes": 12816,
+   "ms": 2136
+  },
+  "75c81c4becfb2d6156595d4e3851ba082d2de3fdaf16c808f3e6cf7ea633c2a8": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "Under the dry cliff, dry twigs catch a spark , crackle, pop! , and bright flames leap upward.",
+   "bytes": 45792,
+   "ms": 7632
+  },
+  "75e888b5839f1f87c034ed75bcf3f51bf589db5b4986a8691551eef63bbd7c9c": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "山崖下避雨",
+   "bytes": 12240,
+   "ms": 2040
+  },
+  "75f1c20c9e3e019f86d9e0c6b101c263e392b12596bc6fb34755f4945b073039": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "看前面：突出的山崖下立着大石头——“石”，正好是个避雨的山洞！",
+   "bytes": 41040,
+   "ms": 6840
+  },
+  "766033a7eb7ab33ea738328942f86367955ead313f14299f67a8e94fc250ec8c": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "Inside the warm lamplight, a mother , 女 , kneels beside the cradle...",
+   "bytes": 33264,
+   "ms": 5544
+  },
+  "782cf67c35cd2a76618466b66795b738e4951c9e76a93aeef4f5cf6e8b4d1d43": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-15%",
+   "text": "舟",
+   "bytes": 11232,
+   "ms": 1872
+  },
+  "79b83718b3ca297c9d74749f422bb46ee5e0e7754e9fd57918ddf4fd528f056c": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "因为甲骨文是一列一列竖着刻的，大象只好后腿站立、把长鼻子高高举向天空！",
+   "bytes": 49104,
+   "ms": 8184
+  },
+  "7a152b6228b87563e745e2557ed1c0e4ab78adc71dfb028f208e2080a88868a7": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "A lively ride past the fields",
+   "bytes": 15264,
+   "ms": 2544
+  },
+  "7a61ed18271550b0136e0b9cb8ffd1b8263693a7d3bac415023960a284f91409": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "Neigh! A spirited brown horse , 马 , wants to race across the grass!",
+   "bytes": 33408,
+   "ms": 5568
+  },
+  "7af53564dfab728edfd7c4a6f8550e18ec4de32b2a488515a30d7208fb72c28e": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "犬 is a dog standing up, with a thin body and its tail curled up.",
+   "bytes": 32112,
+   "ms": 5352
+  },
+  "7c5abc409c0ec175a109b98b2b47309c4eba19d91da513bef450caaebdce204a": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "The Little Wooden Boat",
+   "bytes": 9936,
+   "ms": 1656
+  },
+  "7c9c5010c60aec8802f66813f4e662b7d8507b66542cad29bcd325001c7c5f57": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "往远处望去：三座山峰肩并着肩立在大地上，中间的主峰最高。",
+   "bytes": 42768,
+   "ms": 7128
+  },
+  "7cb66dd823157e1621c9a4150d65bc87b810b4719b069ca8c9a9ce57d400a4d9": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "在干燥的山崖下点燃枯枝——噼里啪啦！温暖的火苗窜了起来。",
+   "bytes": 40752,
+   "ms": 6792
+  },
+  "7ccf9808534f702edde314a0fa8b70d5c8e7a5158adf0e38441209781c219494": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "Grandpa Chases the Tiger",
+   "bytes": 12816,
+   "ms": 2136
+  },
+  "7db5a3b515771387902b7c3175c4d5852ee09011afeb1cba31455ef505d7b183": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "The Waving Baby",
+   "bytes": 11232,
+   "ms": 1872
+  },
+  "7f939d721f09e4edc0878ea232fd2db417035b5231246293e9714c7553bd578f": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "嘘……星空下的山谷还在熟睡。三座安静的山峰立在夜空下，这就是“山”。",
+   "bytes": 47232,
+   "ms": 7872
+  },
+  "7f984e2e64b37e272c3ce3c94dcbe81de10787e6ab9010900d51a6d63280569e": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "Woof, woof! Our loyal puppy , 犬 , trots out to the gate with its tail curled high!",
+   "bytes": 39456,
+   "ms": 6576
+  },
+  "7fccb6cb84a220c906f8035196fa36d9b98fcc5469068df7584f9b65fb597b4c": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "Because Shang-dynasty diviners carved their questions onto turtle shells, they drew 龜 with loving detail , shell, claws, and all!",
+   "bytes": 55728,
+   "ms": 9288
+  },
+  "7fd76a038072b3d74fd09edeb2aeb5f6610d4e42a1f355beb938713317f09ac7": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "傍晚时分，是谁在照看农家小院呢？是一位慈祥又勇敢的老爷爷：“叟”！",
+   "bytes": 45792,
+   "ms": 7632
+  },
+  "80752aa9160a544266244ebe9e00d9fc8b178624f575741f3ae078f692f67509": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "竹 shows two bamboo twigs with their leaves hanging down.",
+   "bytes": 22608,
+   "ms": 3768
+  },
+  "809f431b6bbdac4dfd8a673894c61ded2e98bb685d6b5ad09d0aa2eed1ca7cee": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-15%",
+   "text": "刀",
+   "bytes": 11232,
+   "ms": 1872
+  },
+  "80b2948573ae193f8c2f28acc64282ca5aff346ecb110a8c6d010d20f6583725": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "To catch fish in the river, you weave hemp cords into a crisscross mesh stretched between two poles.",
+   "bytes": 36864,
+   "ms": 6144
+  },
+  "82915a55a41e2bb29c25fec155338bd22efb18cdae5580264130953fce12551f": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "找一找鸟嘴、眼睛、翅膀和尾巴！古代的“鸟”是一只侧身站着的小鸟。",
+   "bytes": 44352,
+   "ms": 7392
+  },
+  "836d3d028572ed5f9953c5a6b88c1a955a290e705f4df19f817b0503d2ee7b99": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "Roosters crow! Up in the morning sky shines a warm, round ball of light.",
+   "bytes": 33696,
+   "ms": 5616
+  },
+  "83800553917e5cbd6b269cab7a4792e01891d8ce64afdcfd4712d1ca9f933a5f": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "“木”是一棵树：上面是伸向天空的树枝，下面是向四周伸展的树根。",
+   "bytes": 43344,
+   "ms": 7224
+  },
+  "83a5d7cc1ccddd290728f57f31b5723bad093809e7b3c45f9fea8e6f4f35052f": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "In oracle bone, bronze, and seal scripts, you can see the baby’s round head on top, two outstretched arms in the middle, and wrapped legs below.",
+   "bytes": 55152,
+   "ms": 9192
+  },
+  "83cafac53de6fd7747385ff42cd280074650fdf174bd0f56c636aaa28fbb152d": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "Before heading to the river, a craftsman picks up his bronze knife: a sturdy handle on top and a curved single-edged blade below.",
+   "bytes": 51264,
+   "ms": 8544
+  },
+  "84a3222204e8987dbf5a74eb4709f7483c1748060d75cef2d59999352fd11433": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "A Bird’s-Eye View of Farmland",
+   "bytes": 13968,
+   "ms": 2328
+  },
+  "84bb255450b2ec917a8cc6fa1e28e2978422a7006b295da56d875eaa625a22a0": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-15%",
+   "text": "象",
+   "bytes": 11232,
+   "ms": 1872
+  },
+  "8512bee32abaa71594f96e66610d4c40447a6528898a1f7dcd18824c663aa272": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "竖着刻在甲骨和铜器上的老虎，那颗布满花纹的大脑袋，后来变成了“虎字头”。",
+   "bytes": 47520,
+   "ms": 7920
+  },
+  "8520c7b14ec22f5b197fe029a3600351254cd17097bdd75725c680c19186fbb1": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "Curling Clouds in the Sky",
+   "bytes": 12096,
+   "ms": 2016
+  },
+  "85513ecb9802391d47dc0892994bd33e30fd71caeccc9967d78f5d75c9c3fab7": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "grown-up man",
+   "bytes": 11232,
+   "ms": 1872
+  },
+  "86220e5cbb3e588625d9468d4f4e88bf10df0bf887683d3dfe83f6c8b6ffa3a5": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "By the corner of the field, slender stalks of 竹 rustle their drooping leaves in the breeze.",
+   "bytes": 35712,
+   "ms": 5952
+  },
+  "86f1bcca944bc9d2fd76d0dfa0432dfa25b75d83706c86d18354fc3defb130a3": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "The line on top is the sky, and the dots below are raindrops falling down.",
+   "bytes": 30960,
+   "ms": 5160
+  },
+  "8711ffa9f656e7f917471ca9e005e004b291e967bb7024a8ad4bf95b67f20587": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "夫 is 大 (a grown-up) with a line through the hair: a hairpin! Grown-up men in ancient China pinned up their hair.",
+   "bytes": 48528,
+   "ms": 8088
+  },
+  "882d982fdaedf1b54734210247b4c58c059019d83424a879b4ab9bf49396b20b": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "夜幕轻轻降临小村庄，一弯银亮的月牙——“月”，升上了星空。",
+   "bytes": 37440,
+   "ms": 6240
+  },
+  "882e79a0a213b9dc9cb9f31162d881b3ceec9e504565621224fd608cbb39739a": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "Four little squares inside one big square: that is 田, field!",
+   "bytes": 27072,
+   "ms": 4512
+  },
+  "885b52e7c1040448241d3b645039778d603b4cc6cae44c01b5eba450ca81e958": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "最早的“云”上面是两横天空，下面是一团卷曲的云气。后来人们在顶上加上“雨”，写成了“雲”。",
+   "bytes": 55440,
+   "ms": 9240
+  },
+  "88612891e4790233fe025c5f75925e9c852a45ef69955da51fd4a69606e6b4c8": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "摇篮旁边，妈妈端庄地跪坐在草席上，双手轻轻交叉在身前。",
+   "bytes": 40320,
+   "ms": 6720
+  },
+  "88beca5390e45f28b11bb618c893254b93d081ffcf27ec580cfe5f744bfa2253": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "渔夫用力一撒，绳结交错的渔网——“网”，稳稳地罩向水面！",
+   "bytes": 35424,
+   "ms": 5904
+  },
+  "895fe0a3dc017b25cf17f609f3b12e19ce99adbed7b498c90233c38b01f9878e": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "Out on the wide river, a curling white cloud , 云 , drifts lazily across the blue sky.",
+   "bytes": 44208,
+   "ms": 7368
+  },
+  "8a10b12aacd65eb27e2c6cd5d4bc17950e734ce89903340602d1ec11a7ec0345": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "风中垂叶的翠竹",
+   "bytes": 14256,
+   "ms": 2376
+  },
+  "8aaa1805416070f17ac8edc0479735bc0d9cc8aebff7fe5979a3f23373b65d91": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "“弓”那一道道优美的弯折，正是古代反曲弓的形状：弓身弯曲，充满力量。",
+   "bytes": 44352,
+   "ms": 7392
+  },
+  "8b1f808df22e44398d5806a94e23445fd735b309078dd2603e5141c0f72a6590": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "The Crackling Campfire",
+   "bytes": 11232,
+   "ms": 1872
+  },
+  "8b5e2275c61805c0ab8b2ed19ef38deb2896a853463004064e5d7085280fed9e": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "古人怎么区分竖着刻的“犬”（狗）和“豕”（猪）呢？秘诀就在小狗瘦瘦的腰身，和那根高高卷起的尾巴！",
+   "bytes": 57456,
+   "ms": 9576
+  },
+  "8b82aeabc087ba83ab126089a2b0fc32a9cd66a99e4ebff8cc88cd04fa6f50dc": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "The Fisherman’s Woven Net",
+   "bytes": 13392,
+   "ms": 2232
+  },
+  "8c0c343eec48f2c74d89f07417942f0c18404569374a5b777d09dc0feb261994": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "“羊”是从正面看的羊头，上面有两只弯弯的羊角。",
+   "bytes": 32544,
+   "ms": 5424
+  },
+  "8e099bd19ed6596fbaa441e635158e578e772f77ce3ed0d97a54a63522bccc41": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "上面人字屋顶，中间支柱，下面方屋：这就是供人歇息的“舍”！",
+   "bytes": 37872,
+   "ms": 6312
+  },
+  "8f1258275231e8fc83fcabbafe26e8b6b4adbe77a8a4a12bba765ea7f9b6d973": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "In 犬 today, the little dot in the top-right corner comes from the dog’s ear and curled tail! On the left of characters like 猫 and 狗, it becomes.",
+   "bytes": 61200,
+   "ms": 10200
+  },
+  "8f42f4c70bf987501616eb05761e8711e30a2780ecb15a6dc699f9def79d53aa": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "在甲骨文和金文里，两只大羊角在头顶向两边弯弯卷起，下面是向两边伸出的耳朵和窄窄的羊脸。",
+   "bytes": 61776,
+   "ms": 10296
+  },
+  "8f9d0166f85a537fdb8ff96a36226f0df26828fe8f2d29742e517f263324c770": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "Look at the top of the carving: that hooked curve is the elephant’s trunk, above its heavy body and four legs.",
+   "bytes": 42336,
+   "ms": 7056
+  },
+  "8faae011f344a50eb7a8c83ff2770c76c71b4950bd07cac8fb1e48b4fe83ffec": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "他解开木板拼成的小船——“舟”，轻轻划向波光粼粼的河心。",
+   "bytes": 36576,
+   "ms": 6096
+  },
+  "8fb81fb5bf8f91442f12ae352ca68c72704f0cd5727acbb4a49075136ddca1ee": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "两棵树做伴成树林",
+   "bytes": 16704,
+   "ms": 2784
+  },
+  "8fe7170f957209d69c2dc180b871cb9d32323d4b4487a5f9a573ce948bba615d": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "从上往下看这只向上飞翔的燕子，从甲骨文到篆书，它的头、身、翅、尾全都一一对应。",
+   "bytes": 56304,
+   "ms": 9384
+  },
+  "9004105534913d2bf53b88b25f20c283c5a469afc8262aea9f24a0920496fa44": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "A Cozy Thatched Hut",
+   "bytes": 11232,
+   "ms": 1872
+  },
+  "900bd4ca9b74df9fff4427410aa105dfc4d72200d1e657a5143d840250defd63": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "吱呀——走到自家院子前啦！两扇高大的木门挂在左右的门柱上，正等着我们推开。",
+   "bytes": 50688,
+   "ms": 8448
+  },
+  "90b65c184c2866d4a31a92a3656bb4fe5a90ef50bc4d7d97684620332ebc0777": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "古代的“马”是一匹竖起来的马！为了写进窄窄的竖行，古人常把动物竖着写。繁体“馬”里还能看到马鬃和马腿。",
+   "bytes": 66528,
+   "ms": 11088
+  },
+  "90dd50b3306028dec5f3a3eabf120a853d4cf3b0d21e0ad8bb465282a485bf08": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "門 is a picture of a gate with two doors. The simplified 门 comes from a quick, flowing way of writing it.",
+   "bytes": 42912,
+   "ms": 7152
+  },
+  "91afef7e4a61d24a7ee44ac483787bfb65e67e754868a76d873f12fb2dece596": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "In modern simplified writing, 馬 is written 马.",
+   "bytes": 25632,
+   "ms": 4272
+  },
+  "91ba3ff8e96f38f74b68786aee587b371a6b03d5f076cc33f7919a7c478d5bf2": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "Even without leaves, the carved shape is unmistakable: a trunk in the middle, two branches curving up, and two roots curving down.",
+   "bytes": 57600,
+   "ms": 9600
+  },
+  "91d7d3450cb4e6767372fc57ae41b97fb064201a464a2d091152da811f90e30d": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "在“豕”（猪）头顶盖上宝盖头，就是“家”！屋里有猪，就代表一家人丰衣足食。",
+   "bytes": 47808,
+   "ms": 7968
+  },
+  "9247446d4bfd8ba6eff5abc505f690674297f1933ca686a6c615ed2b437871b5": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "网 is a fishing net with crossing strings. Later people wrote 網, and simplified Chinese went back to the ancient 网!",
+   "bytes": 46800,
+   "ms": 7800
+  },
+  "92932a04dd77a8181faee6ae7602d4e8d493c83eeb86c4fec6ca293dad2b0d45": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "小草最早画成几棵小芽：艸。后来下面加了一个“早”，提示它的读音。",
+   "bytes": 45216,
+   "ms": 7536
+  },
+  "929758d05604c11f7d3bb066469d5d9425e7c2c7c8c188b32382615852e0b32c": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "繁体“門”依然画着对称的两扇门板，简体“门”则吸收了草书连笔，三笔就勾出了门框！",
+   "bytes": 50256,
+   "ms": 8376
+  },
+  "94e5d1ac3d7e4017ef531d790fff197c808dbcd87f59b6dc0ebda914ee3fcdda": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "Listen , splash, gurgle! Melted snow tumbles down the valley in a winding stream, kicking up droplets on both sides.",
+   "bytes": 52704,
+   "ms": 8784
+  },
+  "95493a5f2307ba2b3c860cdbc3343436bbe3f3ced52abaa1279930b63889f3e2": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-15%",
+   "text": "弓",
+   "bytes": 11232,
+   "ms": 1872
+  },
+  "955e4b9c56c16b7ec13e852d9cc9b241542a3476603ee8b199f003386010312c": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "今天的“舟”依然保留着船身和横木，还常常用作“船”和“航”的偏旁！",
+   "bytes": 38448,
+   "ms": 6408
+  },
+  "9564f287b4c0bc3d4a5cdbc5527ce39fd709e1eac4bcef788abfa4478b28e16d": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "弯弯的青铜刀",
+   "bytes": 11952,
+   "ms": 1992
+  },
+  "957ae337b78a92113ec139c6dc782d783cf27616c66506642faf69b062677556": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "叽叽喳喳！一只小鸟侧身站在枝头，尖尖的嘴、圆圆的眼、收起的翅膀和翘起的尾羽全都看得清清楚楚。",
+   "bytes": 67392,
+   "ms": 11232
+  },
+  "9680ea533abdfd5926f1650100bba1f34c83d38a782ded191ba1aaf96de9089c": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "刀 is a knife: a handle and a curved blade.",
+   "bytes": 21744,
+   "ms": 3624
+  },
+  "9807cb8e8c220c85c029fa022ffa4c01e82f8741725eeec2aab74a0276ca7760": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "In seal and regular scripts, the person’s arms became the lower horizontal stroke, and the hairpin became the top stroke.",
+   "bytes": 48384,
+   "ms": 8064
+  },
+  "98080277cbc634acbe5c35f59eb67e5e44f1623f2b92d63828d87cd5b47c42d9": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "Chirp, chirp! A little songbird perches sideways so you can see its pointed beak, round eye, folded wing, and tail feathers.",
+   "bytes": 52560,
+   "ms": 8760
+  },
+  "989575e7d5c6e87d03ff4d7d3eb9994dc0d22b3c1c5fce9fee99f893bf6ea57f": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "Grass crown on top for plants, 化 underneath for the sound huā: that is 花, flower!",
+   "bytes": 36432,
+   "ms": 6072
+  },
+  "99557d91c45e1e93639bad839412066a435c94fdd161ba4d53c4238b7a345fb4": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "看曶鼎青铜拓片上的“門”：左右两根长长的门柱，中间两扇带方格的门板面对面合拢。",
+   "bytes": 52704,
+   "ms": 8784
+  },
+  "997d07e5ae1092b588a721824424007f5533a24ef7662f4ac48b7a46e8411fb8": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "Look at the bronze inscription on the Da Yu ding: a standing person (大) with one horizontal bar , the hairpin , right across the top!",
+   "bytes": 53712,
+   "ms": 8952
+  },
+  "9a0a2740785ab68cad82006f66411e4ab417fd764e3b1c009f84d9a06527d978": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "撑开一把小雨伞",
+   "bytes": 13968,
+   "ms": 2328
+  },
+  "9a4919986e865e555c5124ff7b6a34a6ef05b120ed9fcd411a3bb8db12c8b496": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "Shh... the mountain valley is still fast asleep under the stars. Three quiet peaks stand against the night sky: 山.",
+   "bytes": 49104,
+   "ms": 8184
+  },
+  "9a9ff17742261c59fcead27a611f4ecf721cddb826ab5ef99dcbfe5241cf92e2": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "在甲骨文里，马是竖着站的；要奔跑起来，它就四蹄落地！",
+   "bytes": 36432,
+   "ms": 6072
+  },
+  "9af3d1340d5af80fa2c1dfabd8daea9d07a05c2a14818664d4ed72c7a09bb7ae": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "小屋里大步走出一位勇敢的老爷爷——“叟”，手里举着一张弯弯的木弓：“弓”！",
+   "bytes": 44352,
+   "ms": 7392
+  },
+  "9b9a9ac5ec51443b0b49b67b12fb3818d785fcdfcf61139c914a9232406f22ca": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-15%",
+   "text": "马",
+   "bytes": 11232,
+   "ms": 1872
+  },
+  "9b9e91084c98b6c2b4f2b81d7f1fec1562547dbadf15f3af640b63564e44a5ac": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "田野上的奔跑",
+   "bytes": 12384,
+   "ms": 2064
+  },
+  "9c08bd343f900fa54b40ddff88cc149a73408b309480de1a0df717de28c381c6": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "背着硬壳的小乌龟",
+   "bytes": 13680,
+   "ms": 2280
+  },
+  "9c208c9f3dc991daa243573531aa14750c23da9b4be0129a967eda59851f8b21": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "小河上空，软绵绵的白云随着风儿轻轻打卷。",
+   "bytes": 30240,
+   "ms": 5040
+  },
+  "9cab87157fe595686a2f772c17ee56a20d222ba6ad539212fe95fb1ddf383d3a": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "Push off from the shore! A narrow wooden boat glides onto the water, its curved hull held together by cross-planks.",
+   "bytes": 48096,
+   "ms": 8016
+  },
+  "9d254de6759ab5ed951e4dc2a34ed047d201978425ee7a732bc4e587ecb89e97": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "Warm sunlight melts the mountain snow, and a clear stream rushes down the valley: 水!",
+   "bytes": 35136,
+   "ms": 5856
+  },
+  "9d9a538834ff3c10f48b7fed7d451778ca4df6884294584b9ad70408eef73b2a": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "两根挂着竹叶的竹竿并排站，就是竹子的“竹”！",
+   "bytes": 28512,
+   "ms": 4752
+  },
+  "9da2aeb9b7a57da13e206855b643344d0c553b1ab08414a750c55332c38f0f8f": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "一只春燕贴着水面掠过：前头是张开的小嘴，左右是展开的翅膀，后面拖着剪刀似的分叉尾巴！",
+   "bytes": 59472,
+   "ms": 9912
+  },
+  "9ed52134c33354687c538fc2f811b87d0c58021ef598e5cd200d3085f11bc94a": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "“夫”是“大”（一个大人）头上加一横——那是发簪！古时候，男子长大后要把头发束起来，插上簪子。",
+   "bytes": 57744,
+   "ms": 9624
+  },
+  "9f6aa2c89bed9805dfb3502290f5b6d8aa1d614fa3b83cbc21d1b2b8db88dee6": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "Three peaks side by side make 山. The middle one is the tallest!",
+   "bytes": 29376,
+   "ms": 4896
+  },
+  "9fd52cc56a161a5ee804b602d3a35beafba0591c3b387de462006ee7478c5283": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "Keeping warm in a sudden storm",
+   "bytes": 13968,
+   "ms": 2328
+  },
+  "9ffff3619a7107c4a135521ca3de9e8fb2c3e9059d9c941335e00a42c8994aa1": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "Drawn upright on bone and bronze, the boat looks like a tiny ladder with curved ends , the bow at the top and stern at the bottom.",
+   "bytes": 52416,
+   "ms": 8736
+  },
+  "a02d7e8a1a8a7ff7ee256ae164ef39627f1f4963477234cd02fe2ef412af59d9": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "后来人们在旁边加上绞丝旁，写成了十四画的繁体“網”，表示用丝绳编织。",
+   "bytes": 43632,
+   "ms": 7272
+  },
+  "a058fcc1a3ee04ae3f16fd8f8081ac01172598928d17d321ce210828f0eafd36": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "In regular script 馬, the mane became three horizontal strokes, and the four hooves turned into four dots at the bottom.",
+   "bytes": 46512,
+   "ms": 7752
+  },
+  "a08905182f5fd397b77bf631f1b37880a7863fcb1b77fb78466f43e404a91ba2": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "From oracle bone to bamboo slips, 女 traces that poised kneeling posture and crossed sleeves.",
+   "bytes": 40608,
+   "ms": 6768
+  },
+  "a08f7cd0ad6b872df811d38ef1f10a2e6e05ea374837f173d9ec7e2b01b1473e": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "三千年前，黄河流域还生活着野生大象！大象最醒目的标志，就是那根又长又弯的鼻子。",
+   "bytes": 56160,
+   "ms": 9360
+  },
+  "a0f9330078cb43454c2303ca139f4987f285d0ca40eae9dbf1ee9bd61b6c31dd": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "Stand two leafy bamboo stalks side by side and you get 竹, bamboo!",
+   "bytes": 30384,
+   "ms": 5064
+  },
+  "a150826303c4597a1553bc083d3d58fa87fbcee27d19843d34fcdb1d6ec4f5b0": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "The Fork-Tailed Swallow",
+   "bytes": 11088,
+   "ms": 1848
+  },
+  "a18fc150d6133055e1e51c043eadb91f91eceb259c6723d59ab31e19dc030f85": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "嗷呜——！山林里钻出一只威风凛凛的大老虎——大嘴张开，露着尖牙，背上布满条纹！",
+   "bytes": 53280,
+   "ms": 8880
+  },
+  "a1a799d6cd5d7bfe3fc582aff1a56e4cbb27a2f3f6b95011cb78813ad8aa5d47": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "在现代简化字里，“魚”写作“鱼”。",
+   "bytes": 20736,
+   "ms": 3456
+  },
+  "a2440d537cbe4abb29374a741971d4ef80b34c5681d89b7e7ccb3889b5e53b17": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "Baa, baa! Looking straight at you over the fence is a gentle sheep, with two curling horns on top and a pointed nose below.",
+   "bytes": 52272,
+   "ms": 8712
+  },
+  "a36220a489458124586a785ccdc0e3c85ec26250094c6e02c3ccfedf8104469e": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "后来毛笔代替了刻刀，圆圆的太阳就变成了方方正正的框，中间留着一横。",
+   "bytes": 45504,
+   "ms": 7584
+  },
+  "a3dacb195945228c4fb18e66cd94f656ad9986ea6da6adc8474e699a5196d2c1": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "绳结交错的渔网",
+   "bytes": 14256,
+   "ms": 2376
+  },
+  "a3e6cf973e4ddfa54c9df8e8ab1e57d6fdeb4d077cbb7cc2388a344b24f35a1f": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "“犬”是一只竖起来的狗，身子瘦瘦的，尾巴向上卷着。",
+   "bytes": 32544,
+   "ms": 5424
+  },
+  "a4d416b9b6a4a2988a857fcc680124d996b93af140d9e3295de6dc4cd2ada774": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "下大雨了，快到突出的山崖下躲一躲！山崖底下，正躺着一块结实的大石头。",
+   "bytes": 47952,
+   "ms": 7992
+  },
+  "a56c216c5a45d960cd6d7795907c4d505db36d5bbbb6b712a9b960b3b0579cdd": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "爷爷吓跑大老虎",
+   "bytes": 13680,
+   "ms": 2280
+  },
+  "a6461c070e0357ab11ad6508acedf6f339ff4fee81b7bc2c45470d7b1189c79a": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "大口里面加十字，分成四块小方格，这就是农田的“田”！",
+   "bytes": 33840,
+   "ms": 5640
+  },
+  "a6f81270435c4cfd32647a262f55e33e74d586e4c994f7655d0f518c6340aa28": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "Plop! A silver fish leaps straight up out of the river , pointed head at the top, scaly body in the middle, and forked tail at the bottom.",
+   "bytes": 56016,
+   "ms": 9336
+  },
+  "a7054863a77d673621a13918259a9d7d99b70a5b34f221cf59f8380264018635": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "推开两扇木大门",
+   "bytes": 13824,
+   "ms": 2304
+  },
+  "a73eb8af5d7e3140ccca2642d346b5673b49e037e1bdd5e2a2fe91fb7b0dacf4": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "仔细看：左边那棵树礼貌地把右边的一捺收成了一点，这样两棵树就不会挤在一起啦！",
+   "bytes": 50256,
+   "ms": 8376
+  },
+  "a755946292718d522b558526a2d5b41fdd52959619c6508f52375574e2d2b114": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "Look! Behind the eastern ridge, a warm red sun begins to climb: 日!",
+   "bytes": 37296,
+   "ms": 6216
+  },
+  "a9b34396af7d1306eb4a971dbf480ea6c01b09e6a91be7954d0c832fd1d326d3": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "With a wide swing, the fisherman casts his woven net , 网 , right over the water!",
+   "bytes": 33984,
+   "ms": 5664
+  },
+  "aaec62f2a0bd41479bb434c72bd045a0a91f290cbe04d7bb48f98e72759f7e11": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-15%",
+   "text": "龟",
+   "bytes": 11232,
+   "ms": 1872
+  },
+  "aafe796c8d11256b0c3211a890c3e5bb9f69ecd6c7db99cc053525de8e464736": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "“子”是一个大脑袋、挥着小手的婴儿，腿裹在襁褓里。",
+   "bytes": 31824,
+   "ms": 5304
+  },
+  "ab16398552db4fbaf3aaead0474199d5e2a32ed3c0b480869c38d026feead446": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "Grandpa with a Torch",
+   "bytes": 11232,
+   "ms": 1872
+  },
+  "ab6d27b98d8b4d4bec927ce44dd3a0efb988053a6617f9856187e2a7b16133a6": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "哗啦！水波里跃起一条肥美的银鱼：“鱼”！",
+   "bytes": 29952,
+   "ms": 4992
+  },
+  "ac4cbc5a7e106c83aa64daea0d17337e5f13b171db1e28a5cb0718ee959bf849": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "慢慢地，三座山峰简化成三根挺拔的竖画，稳稳地立在一条底线上。",
+   "bytes": 43920,
+   "ms": 7320
+  },
+  "ac6c03e402bfc683008353d5745e8a53d9d4d0956571ccd58ddc538329e3efda": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "头在上，尾巴在下：古代的“鱼”是一条往上游的鱼。繁体“魚”下面的四个点，原来是鱼尾巴！",
+   "bytes": 55152,
+   "ms": 9192
+  },
+  "ad6f76ee448f04791560c19e928b5d4e00b2a8886d90225609273ac27322bf63": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "Rumble... Pitter-patter! The sky darkens and heavy raindrops begin to fall: 雨!",
+   "bytes": 34992,
+   "ms": 5832
+  },
+  "ad7c453dae557e2896eb0fc62bba08c764d7247d848fe75d8a47e4b04e6c326b": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-15%",
+   "text": "叟",
+   "bytes": 11232,
+   "ms": 1872
+  },
+  "ae1ad77ed3d03fa617ecbdbed14b0c37eb124e142a1f643358a5f02335999fee": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "从甲骨、青铜一直到毛笔字，刀背始终厚实有力，刀刃则弯弯地向下延伸。",
+   "bytes": 49536,
+   "ms": 8256
+  },
+  "ae8160c31d494f8058697dd22fe98b59dfc6c8c69800e477d162a423d92d788f": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "Carvers placed one 木 next to another 木: two trunks, two canopies, sharing the same patch of earth.",
+   "bytes": 44928,
+   "ms": 7488
+  },
+  "af361df66bd8a39dd7bab5a89759aee058de801e7955f9626fe4030ddef4d3c3": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "The wavy line in the middle is a flowing river, and the dots on each side are splashes of water.",
+   "bytes": 36720,
+   "ms": 6120
+  },
+  "af3a3cb2ed00460fbba1e9e7bc7c0208c0d7fd0664f919cc5bd5403b30bef668": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "Raindrops from the Sky",
+   "bytes": 10512,
+   "ms": 1752
+  },
+  "b06a0ed182611d4c09d53f899b8330b7b556944719a3e57cf60acc72d4168a5e": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "古人最早把满树繁花画成“華”。后来，人们用代表植物的草字头加上提示读音的“化”，造出了“花”字。",
+   "bytes": 60624,
+   "ms": 10104
+  },
+  "b071a2ae7e341feed496c2ef0e20612ccc11c2b86c448927cd1527403cc01828": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "In oracle bone and bronze scripts, the V-shaped horns curl down on each side above the ears and snout.",
+   "bytes": 45072,
+   "ms": 7512
+  },
+  "b159ffc689410e990ec129b580cfa0bb59ee0a2e7ace5075e41e5a9564752769": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "在古代中国，男孩长大成人时要行“冠礼”：把长发束在头顶，庄重地插上一根发簪。",
+   "bytes": 51120,
+   "ms": 8520
+  },
+  "b1840cf7ef2d31a0dc26836ae5c6afe5a033f011c08223e2e1424de45c1210fb": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "On oracle bone No. 6057, 田 is carved as a crisp rectangle divided into four plots , and on the Da Yu ding bronze, it appears again!",
+   "bytes": 60768,
+   "ms": 10128
+  },
+  "b1c480f3d81d868ae7086ea8496b241418ac663819242d2ae562751be87c0a54": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-15%",
+   "text": "山",
+   "bytes": 11232,
+   "ms": 1872
+  },
+  "b2667baeeb81087c61dd5dc9ccb7a62d02b69fe201a62b0b2ff69de6b9642781": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "汪汪！忠实的小狗——“犬”，翘着卷尾巴跑到门口迎接啦！",
+   "bytes": 38016,
+   "ms": 6336
+  },
+  "b26876c04c9c32881abe1010b2df1e5067e20777fce0f8c91952a2a0dcaaca56": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "为什么古人不把月亮画成圆圆的满月呢？因为圆圈已经给了太阳“日”！画成弯弯的月牙，一眼就能认出“月”。",
+   "bytes": 62496,
+   "ms": 10416
+  },
+  "b2e9c0ec24e778da4e0c1eb6ceb47b3591ce5df82746d0294bfe5f2fde86992b": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "Beside the cradle sits the baby’s mother, kneeling gracefully on a woven mat with her hands folded gently in front.",
+   "bytes": 46080,
+   "ms": 7680
+  },
+  "b3b1b3f85cdc7444a697ce0406949f39f46423b301f60fc37ed6e97e991d50a8": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-15%",
+   "text": "云",
+   "bytes": 11232,
+   "ms": 1872
+  },
+  "b42b31c48655560696d0a030f4a35468ce8ca94f916504d5753e67c6979601ee": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "Three Peaks in the Clouds",
+   "bytes": 13392,
+   "ms": 2232
+  },
+  "b4b320cfd197c0f00ff65acc628f59c23473e5f5af2422dae71dd944b32052d0": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "天边卷曲的白云",
+   "bytes": 13968,
+   "ms": 2328
+  },
+  "b4fb36053491b747d009a65651a71a545c570c4cb5000185e02e904be98d2ea5": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "在甲骨文和金文里，上面拐弯的厂字头就是突出的山崖，下面的小块就是滚落的石头。",
+   "bytes": 52560,
+   "ms": 8760
+  },
+  "b523786752bee0b1d43a9e23ddbb9a605ecad8af257ebd5d59445bbde9573aeb": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "Long ago, flowers were written 華, a plant in full bloom. 花 came much later: (grass) on top and 化 to hint at the sound.",
+   "bytes": 62640,
+   "ms": 10440
+  },
+  "b62ee32dbfbe3e5b53b84e66c0dea185950c89cd9fdf549994f4b90b7a8b7cd9": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "子 is a baby with a big head and waving arms, its legs wrapped up in a blanket.",
+   "bytes": 35280,
+   "ms": 5880
+  },
+  "b79c7f0c1955868d8f4ee23a34f3eb754e155bdb58c783968456a7b35f80cd70": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "In 鹿 today, the top roof and grid come from its head and antlers, and 比 at the bottom comes from its slender legs!",
+   "bytes": 42480,
+   "ms": 7080
+  },
+  "b7c3fcbb1959baf2eccd0b4409efce61d0ff09db2f5078a49a8e3329b5855c68": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "顶上是嫩绿的草芽，下面是清晨的“早”，合起来就是小草的“草”！",
+   "bytes": 35424,
+   "ms": 5904
+  },
+  "b7c61f7aada646f56c671a8ef1867e8fd25cacdabf16e189541f9247d1af2ce2": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "Thump, thump! Attracted by the sweet bamboo leaves, a friendly elephant , 象 , lumbers into the clearing.",
+   "bytes": 50256,
+   "ms": 8376
+  },
+  "b8040a0bcefa4b7e57f3d442622f93818c36983556ebac29959669ed383fd4ac": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "Guarding the mountain cottage",
+   "bytes": 11520,
+   "ms": 1920
+  },
+  "b84ea49eed116a135464039f0780effb7f6ef6ec7fff18f6cfc57bc055975980": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "直到今天，“月”字左边的一竖撇依然弯弯地向下伸展，就像月牙尖尖的角！",
+   "bytes": 44496,
+   "ms": 7416
+  },
+  "b8565796a6dcd380592290e7e3c3170bc8785cb8dccbcc2ac330ee21acf73e41": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "女 shows a woman kneeling, with her arms crossed in front of her.",
+   "bytes": 27360,
+   "ms": 4560
+  },
+  "b8581dd11299a3db8bcbb721e2da30eec3fe2113f4fdbff657841f65911d4ff9": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "暖融融的火光，吸引了一只背着硬壳的小乌龟——“龟”，慢吞吞地爬来烤火。",
+   "bytes": 43056,
+   "ms": 7176
+  },
+  "b86fbbab2d1371b42aadf9f0d2b5d405138907953a5054f848ab8f4433b0f252": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "Put a roof over 豕 (pig) and you get 家 , home! Having a pig under your roof meant a well-fed family.",
+   "bytes": 42624,
+   "ms": 7104
+  },
+  "b9d381c93958349fc9023d39fdeace69b71f337ed0d6021547da8986cb9f7e38": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "In modern simplified writing, 魚 is written 鱼.",
+   "bytes": 19584,
+   "ms": 3264
+  },
+  "ba248c54133bbcb9586140c6f8613ed3d6d89834cfcda9b0e806c6f4ae8026e2": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "To stay dry in the storm, duck under an overhanging rock cliff! Right at the foot of the cliff sits a solid boulder.",
+   "bytes": 46800,
+   "ms": 7800
+  },
+  "ba9b5d458080f2175accb32923be1130cfdc3bb89e0f50aa66c8f4a13dd8f145": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "One tree is 木, two trees make 林 (woods), and three trees stacked together make 森 (deep forest)!",
+   "bytes": 40752,
+   "ms": 6792
+  },
+  "bb13c4c70aa04a00d1cd88fac861bdf1381ba324d41fd19693d6faea56127c20": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "咩——咩！篱笆后面有一只温顺的小羊正望着你：头顶一对弯弯的羊角，下面是尖尖的鼻子和嘴。",
+   "bytes": 59616,
+   "ms": 9936
+  },
+  "bb3ae528fe20387c8d92c000cb7dda71aac0215d137448b2a1a94ab01b22e7e9": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "Pointed roof on top, pillar in the middle, room below: that is 舍, a house to rest in!",
+   "bytes": 35712,
+   "ms": 5952
+  },
+  "bbe3ede8ffab1c375b691cbcfa2a1abcc5997735ef796eaf524cb966d63c07ea": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "Who is keeping watch over the farmyard at dusk? A wise old grandfather: 叟!",
+   "bytes": 35856,
+   "ms": 5976
+  },
+  "bc0d4d831b70d6c97b7ff5a8a5a5ff0044c0bab7836248f08ace56df95938802": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "“舟”是一条小木船，中间的横线是一块块木板。",
+   "bytes": 29952,
+   "ms": 4992
+  },
+  "bc966c2eca949cfdc99110e02f7418785b3a08a067ac80fb82c2928f619a993b": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "Under the dry cliff, we light dry twigs into a crackling campfire: 火!",
+   "bytes": 33264,
+   "ms": 5544
+  },
+  "bda862828bf975e258f2bf57cf5329ec1e69c8d5dfdbd95243e8ac5368daa368": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "Woken by the morning light, a little songbird , 鸟 , darts from the single tree to build its nest in the woods!",
+   "bytes": 46944,
+   "ms": 7824
+  },
+  "be2928840b33300e27e2d133589c4b024338de7875638ef9c904398bc786d5c6": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-15%",
+   "text": "鸟",
+   "bytes": 11232,
+   "ms": 1872
+  },
+  "be5d460c2b4b19e88fb53c20c5d0c56f42bebe38455fbfe35b82b26baeac3d9b": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "Splash! Up from the waves leaps a plump silver fish: 鱼!",
+   "bytes": 29232,
+   "ms": 4872
+  },
+  "be8c9c33a8f112be9c78868b9697043618f38861647faa1fbfb6f6010fec6996": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "Over time, each peak became a clean vertical stroke standing on one solid base.",
+   "bytes": 37296,
+   "ms": 6216
+  },
+  "bef4762729c0f998201f7f4ea9b5237849333d36b58e05ed456a80203c7bfcc4": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "而简化字直接回到了三千年前最初的模样：外框里面两个叉，就是渔网的“网”！",
+   "bytes": 46944,
+   "ms": 7824
+  },
+  "bf6c2a6e55651c5079a8f292683721719f105c8d1bc2641e612593c357f7bd3c": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "Along the border of the fields, tender green shoots of 草 carpet the meadow.",
+   "bytes": 30528,
+   "ms": 5088
+  },
+  "bfe12e494dfe03b1ca082b84211f8612e4bc1891de58d27954b7e02b6bf2183b": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "In today’s 火, the sweeping center strokes are the main flame, and the two side ticks are dancing sparks!",
+   "bytes": 43632,
+   "ms": 7272
+  },
+  "bfef5325f40cad58e234e17555f2693d9149d34d579d9f2a65da2d475de33a51": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "束发插簪的大人",
+   "bytes": 13824,
+   "ms": 2304
+  },
+  "c1409c75eeb3c53d36548e98231f200a08cb2d192c3723d2cb3d5959bc5d9036": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "The ancient 马 is a horse standing up on its tail! Writers turned animals sideways to fit them into narrow columns. You can still see the mane and legs in 馬.",
+   "bytes": 64800,
+   "ms": 10800
+  },
+  "c1f084ddbde27597bec4b8cbbf60c3bccca3339d2546b06745f968813901f8e3": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "中间弯弯曲曲的一道是湍急的主流，左右两边的小短线就是飞溅的水滴。",
+   "bytes": 43056,
+   "ms": 7176
+  },
+  "c23c95c3af1283d183a7f58748ea24d3cc355975aa7545109c1c68fc099648c1": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "到了毛笔字里，中间的水流拉直成挺拔的竖钩，两边的水花也连成了撇和捺。",
+   "bytes": 47088,
+   "ms": 7848
+  },
+  "c38041b3ebe2c7b111a1418618a0d24cef6fac258d2135c931e3b192fa5bcf69": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "今天“犬”字右上角的那一点，就来自小狗的耳朵与卷尾巴！当它做偏旁时，就变成了反犬旁。",
+   "bytes": 55008,
+   "ms": 9168
+  },
+  "c3bfbf63febe1b50f398ff41dcb370a14aa11d653da2929a843b24c8b3b2f339": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "“弓”是射箭用的弓，有些最古老的写法还画出了弓弦。",
+   "bytes": 32112,
+   "ms": 5352
+  },
+  "c43b0d57d31e7b5bd194e9f1b87205ab21c0ce5f0c83ce180e7391b7130ec6fd": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "在甲骨文、金文和篆书里，顶上是圆圆的小脑袋，中间一横是张开的双臂，下面是裹在一起的双腿。",
+   "bytes": 60912,
+   "ms": 10152
+  },
+  "c48977703bb6d82776cc4ac5d01178c64c4cf036484752b1c90ef7a4886f906e": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "Cliff overhang on top, square boulder underneath: that is 石, stone!",
+   "bytes": 33984,
+   "ms": 5664
+  },
+  "c4b1b60d9f86cbc2f4b1f1f5da9b077c748539e5790e74638a03ae785a3eaabc": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-15%",
+   "text": "虎",
+   "bytes": 11232,
+   "ms": 1872
+  },
+  "c4cc1c6c8476127e3f661c6a86450607dc8918d73ffee8e436ba68979568632f": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-15%",
+   "text": "子",
+   "bytes": 11232,
+   "ms": 1872
+  },
+  "c5142a55ad88626930fec2fc0e2b9f1df3e25c1c1babfaa28e739e634e63c1cb": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "“石”画的是山崖（厂）下面的一块石头（口）。",
+   "bytes": 25632,
+   "ms": 4272
+  },
+  "c5c09785cc14ac82b2649cf7d7c698d660e30c1ba3e4433d3afe8a541274e887": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "在甲骨和青铜器上，三座山峰被刻得像一顶石头王冠。",
+   "bytes": 34992,
+   "ms": 5832
+  },
+  "c65ebc4f5eef28055d3dd98996a9e1e7c52ec9714edce10b76338fbf6eb19307": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "Creak... We reach the front courtyard! Two tall wooden door-leaves hang on side posts, ready to swing open.",
+   "bytes": 45360,
+   "ms": 7560
+  },
+  "c6d246970c284c7834b4e7e422f33de3958e3b9b4d8dc27187860ffe99ef5e05": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "The Rushing Mountain Stream",
+   "bytes": 11232,
+   "ms": 1872
+  },
+  "c70c0e4cb2e4cec7d58a4237cbcca2d4035b36b81061fadc8c926bfa0cb40df6": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "甘甜的河水滋润着岸边的一棵小树：“木”。",
+   "bytes": 26784,
+   "ms": 4464
+  },
+  "c745349770feec4c24d2f595f9d4b0db59ba02a89babbd718a526bf0b08c414b": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "在甲骨文和金文里，竖起来的小猪一边鼓着圆滚滚的肚皮，另一边伸着小短腿。",
+   "bytes": 48096,
+   "ms": 8016
+  },
+  "c75c78cea76e1abf7e7965fe99169683336cf48e55551de66cdbed877571e9d5": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-15%",
+   "text": "舍",
+   "bytes": 11232,
+   "ms": 1872
+  },
+  "c7a736f791de6ba98caffe258037827c31981ceb42527275314c0392f03c8fa3": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "Look ahead: an overhanging rock cliff with a boulder at its foot , 石 , makes a dry cave!",
+   "bytes": 40320,
+   "ms": 6720
+  },
+  "c83c81bc8027f4fff88114b970bcc81b8d861f4e81eeea3cd7eb38a22e29b01a": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "张嘴咆哮的大老虎",
+   "bytes": 15552,
+   "ms": 2592
+  },
+  "c855e0972ad5e3f8bfd8c8426aa8c54bf3eae154a3b1be92ed3b61519afa45e4": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "The earliest 火 looked like a three-tongued flame, with sparks rising on the left and right.",
+   "bytes": 38016,
+   "ms": 6336
+  },
+  "c94553920fd203e0eac8a6018075c20c43626b209e7eed63b3ff6d119cad6428": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "Later, the upward branches flattened into a clean crossbar, while the roots swept out left and right.",
+   "bytes": 43488,
+   "ms": 7248
+  },
+  "c9d229e20669b05447f3d50518c8f52e20a4b079a9c707a59b0050e014707b38": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "In oracle bone and bronze scripts, the top hook is the rocky cliff overhang, and the block underneath is the stone.",
+   "bytes": 43632,
+   "ms": 7272
+  },
+  "ca1ffd94cbfc80bae2e147d1f104966d86fb3f8ca10cb86d0c115f075530b887": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "温暖的阳光融化了山顶的积雪，清澈的溪水顺着山谷哗哗流淌：“水”！",
+   "bytes": 43920,
+   "ms": 7320
+  },
+  "ca3120ed77b5a9b23ec256430ee47b2fdab1f699823c5f1ca01f28afb22d42da": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "Look at the top of 象 today: you can still spot the elephant’s curling trunk!",
+   "bytes": 30240,
+   "ms": 5040
+  },
+  "caf05d30e7a20b03f6cd120b0e6fecab010d3ee1870eff30230bdf1094ec2d31": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "Look at the Hu ding bronze rubbing: 門 has two tall side posts and two paneled doors facing each other.",
+   "bytes": 37008,
+   "ms": 6168
+  },
+  "cbcc53df65577466736d77c07113fb73123765e8c1f99157b0d79fd3ed35e2be": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "噼啪跳动的篝火",
+   "bytes": 13536,
+   "ms": 2256
+  },
+  "cc0d50735bfb2fe0b97950fb1b9d653d4884f3657e29f5261d69cac1ae65f029": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "在现代简化字里，“馬”写作“马”。",
+   "bytes": 20592,
+   "ms": 3432
+  },
+  "cc0ff8b737a0eb762cfac404908653834cd4450b0264922d4999a9d8322a43b1": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "伞 is a “young” character, so there are no oracle-bone or bronze versions. But it still looks like an open umbrella!",
+   "bytes": 44496,
+   "ms": 7416
+  },
+  "cc28a7c597baf9d624a0f1aa47f7dd3e01c1ae45c09f5a1190d28f5c6e59f9a8": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "“田”是从天上往下看的农田，被小路分成一块一块的。",
+   "bytes": 32400,
+   "ms": 5400
+  },
+  "cdf86f31cdf269a85151d2b64d363cf597c97be6e9f804d4c89c9c9c7716f952": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "When brushes replaced knives, the round sun squared off into a neat window with one horizontal bar inside.",
+   "bytes": 43488,
+   "ms": 7248
+  },
+  "ce7d888039af81df98c0b731ee8848615514143d9da10688744645dc9f3142e5": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "Stood upright in oracle bone and bronze scripts, the pig’s round belly curves out on one side while its legs kick out on the other.",
+   "bytes": 51984,
+   "ms": 8664
+  },
+  "cf65e12e9094232d0f90702fb9d1c905cbf5e1b82636ea0d573b5ceef2676900": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "With just three winding brush strokes, 弓 still looks like a bent wooden bow ready to launch an arrow!",
+   "bytes": 38160,
+   "ms": 6360
+  },
+  "cf8408ebd0a762efeac5ee009e21c864844724ec7973e9aecd16208a9448e0c8": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "“豕”是一头竖起来的猪，肚子圆圆，尾巴短短。“家”字里面就有“豕”——屋顶下养着猪！",
+   "bytes": 51984,
+   "ms": 8664
+  },
+  "cfce6b6a985d00897ab1c7efb413bb33756c4f6f1f8e0d543f8dd4876c98f3bc": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "弯月下的小院与家人",
+   "bytes": 15840,
+   "ms": 2640
+  },
+  "cfce82bd84512e790a2e31cf9516df7a3481eea10ea6cbf0ed34f76c6b853ac7": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "在干燥的山崖下，我们拢起枯枝，点起噼啪作响的篝火：“火”！",
+   "bytes": 38304,
+   "ms": 6384
+  },
+  "d047a64a1de4683573e01a43d3b0efa8e304a482d9fb5f447158e6f56cce193d": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-15%",
+   "text": "犬",
+   "bytes": 11232,
+   "ms": 1872
+  },
+  "d0c9a3dadfeae6fa8353fbc951c854e6a88f9f0878c6c92e37fa083a426b6353": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "看到“水”或者三点水，就知道一定和水流有关啦！",
+   "bytes": 29520,
+   "ms": 4920
+  },
+  "d0dde6183c7d12aae615d332d782dc9c2d2f8b7ffd4a97a5a523ee7977e36ade": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "“龟”有头、有壳、有脚。我们发现的最古老的汉字，就刻在龟甲和兽骨上！",
+   "bytes": 46512,
+   "ms": 7752
+  },
+  "d23db9ff7cb42a5785e6259ac55d4be8966c22edc822afda31a42a2e134e07d1": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "“月”是一弯月牙。古人把月亮画成弯弯的月牙，这样就不会和圆圆的“日”弄混了。",
+   "bytes": 46656,
+   "ms": 7776
+  },
+  "d3227d34695a95ad504a13cf0b7cc5e97c8816ab25b7db291dd32e3c1cd899b5": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "不管是繁体的“鳥”还是简体的“鸟”，脑袋里那一点，依然是小鸟亮晶晶的眼睛！",
+   "bytes": 42912,
+   "ms": 7152
+  },
+  "d343d3ee9f4b76c53f9d1a3336ec6c80379d70a38c7a7ab7fe1cf28175f508e4": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "在今天的“雨”字里，顶上一横是天空，方框是云层，里面的四个点就是落下的雨滴！",
+   "bytes": 48528,
+   "ms": 8088
+  },
+  "d346ed32023d536ea95a6d13b2523ae866919118b4d50fa33b4083bec0131ca9": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "Spring Sprouts After Rain",
+   "bytes": 12384,
+   "ms": 2064
+  },
+  "d43bf3ce36ae6e0ec95ab940ec22bc0c96e12b2977de8dbde9f4119adc0fe8c0": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "只用弯弯曲曲的三笔，今天的“弓”看起来依然像一张蓄势待发的良弓！",
+   "bytes": 40032,
+   "ms": 6672
+  },
+  "d5836b7f6a1200cb3a0b851d9a1ddb1da7b686420116d94b5bee1732cbbd41f7": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "Swoosh! A fork-tailed swallow , 燕 , skims low over the water, chasing dragonflies.",
+   "bytes": 43920,
+   "ms": 7320
+  },
+  "d5bfea1d3c43968834fe999b7b485d54952997b449b831016fae43bf0e47f33b": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "三根竖画连着底座，这就是高山的“山”！",
+   "bytes": 24768,
+   "ms": 4128
+  },
+  "d5e4e36b10a9878eb77506bb5b84d477f030aa432d81f707a7f490d944475d21": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "Drawn by the cozy warmth, a little turtle , 龟 , pokes its head out beside the fire.",
+   "bytes": 34128,
+   "ms": 5688
+  },
+  "d61d2942aca83ac14394e9652913dce4b2790f08449d423548cf7679e639c1c1": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "Dark clouds gather and , pitter-patter! , rows of raindrops fall from the sky.",
+   "bytes": 35712,
+   "ms": 5952
+  },
+  "d72ea7b051ef05260fabe091ccda11d424d835c9e9239f3f098e8e6ab681bbdc": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "木板拼成的小船",
+   "bytes": 13968,
+   "ms": 2328
+  },
+  "d763fb520c0a0e310be4a15fd84fcd18295fc66e91358abc9e0569b8ac077dda": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "Shelter Under the Cliff",
+   "bytes": 12816,
+   "ms": 2136
+  },
+  "d832c48f925516ee3a6da53a7eca6fcab71a79596a015a561e033cdc0e8aec3c": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "Then simplified Chinese went right back to the original 3,000-year-old picture: an outer frame with two crossed meshes inside , 网!",
+   "bytes": 52848,
+   "ms": 8808
+  },
+  "d8dd7e6d350cbd4693cea8d83e12da70583303981f1b950d7a856d5488da9334": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "清晨苏醒的大自然",
+   "bytes": 15120,
+   "ms": 2520
+  },
+  "d8e7cd1c20ea23b0cac1eaa7f92e213501490150073247d213c68cff058c2e76": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "“云”像一朵卷卷的云。后来上面加了“雨”，写成“雲”，简化字又回到了古老的“云”！",
+   "bytes": 46512,
+   "ms": 7752
+  },
+  "da26641c6a633f638f1990fc7590ada0c5627b720e8aa58ca9132bd099425e61": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "爬到山顶往下看：农夫们用田埂和水渠，把平平整整的土地分成了一块块方格。",
+   "bytes": 50256,
+   "ms": 8376
+  },
+  "da423f1a0f4994ca94e83d95f4e429c8f8a66c48f8381ea5fd5ddaf9595ceddd": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "That gives us 草: green sprouts on top, morning sun below!",
+   "bytes": 26928,
+   "ms": 4488
+  },
+  "dbc8f416e9863765709642dd1bb24071abbb93ed69ea600aa36a98c145916d1f": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "羊 is a sheep’s face seen from the front, with two curly horns on top.",
+   "bytes": 30816,
+   "ms": 5136
+  },
+  "dcec9d788f1e47f190af626b66008a687a2f6c805fdb573748540b09e11ecb48": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "Whether written 鳥 or simplified 鸟, that little dot in the head is still the bird’s bright eye!",
+   "bytes": 31680,
+   "ms": 5280
+  },
+  "dd59fb7dc7f786e25ad875bd5b62ed3a7bb72d1d53451a8cda6f0bb5409281fa": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "后来，向上的树枝变成了一道平平的横画，下面的树根化作了舒展的撇和捺。",
+   "bytes": 47232,
+   "ms": 7872
+  },
+  "dd79ef04b48e67d72a523a8e3b60f281c2257db4eb2b48fbf2992b3cc05cea4c": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "Today’s simplified 云 returned to that ancient curling cloud shape from three thousand years ago!",
+   "bytes": 37296,
+   "ms": 6216
+  },
+  "dda44e0040ed485529349f549dc2ae3716e701d03d9fe3adc221ae7d6f1de0fc": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "One Tree Meets Another",
+   "bytes": 12528,
+   "ms": 2088
+  },
+  "de3fe9c703f0bfae3ee5ded182b1110f9ce81bfa7fb73471b367419b63f78ef3": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "The ancient 叟 showed a hand holding a torch inside a house: searching! Later it came to mean “old man”, and 搜 took over the job of “search”.",
+   "bytes": 58032,
+   "ms": 9672
+  },
+  "de474eb9b379dd0d2126a4406a4e94c12a0a2e5a561eeb04ad6f87deeab67625": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "要想在河里捕鱼，就要把麻绳编成交叉的网眼，张在两根木杆之间。",
+   "bytes": 39888,
+   "ms": 6648
+  },
+  "de5afc528f033aa51ecbbadd4432a05a5b8ca80bd9d468c8ee9a4dfc6920375e": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "划着木船去河心撒网",
+   "bytes": 16704,
+   "ms": 2784
+  },
+  "de89f502cf6ed301a804ffa4e1ca1f758ac2b7d2f4d2df39ca8404a4635e4608": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "Later scribes added the silk radical 糸 and wrote 網 , a very complex character with fourteen strokes!",
+   "bytes": 43056,
+   "ms": 7176
+  },
+  "df53cc83ad96c7be0fe7e4d3e72b34c55a00516f9d0ab24a39e3dbb092ec9424": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "在古老的字形里，你能看到它大大的眼睛、脖子后一排马鬃、四条腿和长尾巴。",
+   "bytes": 47952,
+   "ms": 7992
+  },
+  "e1432aa41c058fec44128a6889f7ebfed93c814a0f0ebd664d06688c1cbb7921": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "In the ancient carvings, you can spot its big eye, flowing mane along the back, four hooves, and sweeping tail.",
+   "bytes": 44640,
+   "ms": 7440
+  },
+  "e1a065a4c140218318d887169b61ceeb652fc4046ce537fd6e2d7dc77475e63f": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "In every single stage , oracle bone, bronze, and seal , those proud branching antlers sit right on top of the deer’s head.",
+   "bytes": 52992,
+   "ms": 8832
+  },
+  "e1ce71645ada8a0de399058476c84f94420b2a3ed4ad076f815d18f98d38af9f": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "到了篆书和楷书“魚”，带鳞的鱼身变成了“田”字格，分叉的鱼尾变成了底下的四个点。",
+   "bytes": 49968,
+   "ms": 8328
+  },
+  "e1fcc49235561f03899921c60c0ce52be977e22542ca63c6af936cd7ca1e1fb7": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "挥着小手的胖娃娃",
+   "bytes": 13968,
+   "ms": 2328
+  },
+  "e2350125725c75cb4156b2315e8c1bfb27ed2cf2a9ec9a1e218bda18cfaec44a": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "Beside the garden path, fragrant night blossoms , 花 , sway in the moonlight.",
+   "bytes": 36000,
+   "ms": 6000
+  },
+  "e35cbf7447669b1464a771fa756b4b9cdf394fe0b3fd58c3fe4d6c65f6fde526": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "Along the path home, bright blossoms open their petals to the evening breeze.",
+   "bytes": 32112,
+   "ms": 5352
+  },
+  "e37719cc4bdc42fe5cab65281f18cf83ecf726af8dcf09830b53e894dee485a4": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "石 shows a rock () at the foot of a cliff ().",
+   "bytes": 19728,
+   "ms": 3288
+  },
+  "e3933a607c259d1ef5984aafacb7462cc4b433527cc0b4ee1de8167b7250c3fc": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "The Armored Storyteller",
+   "bytes": 11664,
+   "ms": 1944
+  },
+  "e4309b5032de4e44db3783123b98c865e35d1854ff5b9f2cddc41e246aca4629": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "Out from behind a warm rock pokes a little turtle: a domed shell patterned with plates, four stubby legs, and a pointed tail.",
+   "bytes": 53712,
+   "ms": 8952
+  },
+  "e56d07266b151fa5113e46cebfe5e5afef3b54cc2557ce15183bab03deaf1e88": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "小船去捕鱼",
+   "bytes": 11520,
+   "ms": 1920
+  },
+  "e578a116a714fd5dee48982e20f8000f0a4cc32035e110caf17ad37b43c12225": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "The Roaring Striped Tiger",
+   "bytes": 11808,
+   "ms": 1968
+  },
+  "e59e97595346e0d90000b9809dc40b465dd707ecdcbc833920eccbfcc11fa0dc": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "The first 日 was a circle with a dot: the shining sun. Later the circle became a square, because squares are easier to carve and write.",
+   "bytes": 49824,
+   "ms": 8304
+  },
+  "e62800d31aa55d373e9e21be243f9f50d43ed0d474a067b82fe20553f2726ce7": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "And stepping softly out of the rain comes a gentle deer with branching antlers: 鹿!",
+   "bytes": 37152,
+   "ms": 6192
+  },
+  "e65f757aa44f2a72278016da49cb87a66d076ed19d064c0aae86bcc610227c70": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "Three upright strokes connected at the bottom: that is 山, mountain!",
+   "bytes": 26352,
+   "ms": 4392
+  },
+  "e72c2d07004145bd96dfd08f27a0996a3fc1be9719731af5135d56ba82fa7fe1": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-15%",
+   "text": "石",
+   "bytes": 11232,
+   "ms": 1872
+  },
+  "e72eab631e74bc146b5d2af79855c6f8242b15c74e4313219e1ee73b7e7c8374": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "Sitting Gracefully by the Lamp",
+   "bytes": 15696,
+   "ms": 2616
+  },
+  "e76848779e4090bba3c2cc9dc4e8a81c609b7ed5ff4e74796d6f909e1efbfac8": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "看到顶上长长的鼻子了吗？很久以前，中国也有野生大象，所以古人很熟悉它们。",
+   "bytes": 49104,
+   "ms": 8184
+  },
+  "e77bc867b011f825a099e78c616f12cff4c9ccc0a94d73abb6a37485723056c4": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "从天而降的雨滴",
+   "bytes": 13248,
+   "ms": 2208
+  },
+  "e7c190c1c48d1227f2152c30846922e69eebc4cff8c9c4b1c91f781505f4dbec": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "In ancient China, when a boy grew up into a man, his family held a special ceremony: they tied his hair into a topknot and slid a pin through it.",
+   "bytes": 60336,
+   "ms": 10056
+  },
+  "e817dc25b1996adeb9a9c4cb16914d2597a52a024b8e10cbe804cc27bbccac21": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "A warm family evening",
+   "bytes": 12096,
+   "ms": 2016
+  },
+  "e84d77f8c65c0d7eace98a097f96d8eadcb36e6d5b017cddc70c0a1489814ec5": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "洞外雨声淅沥，山崖下火光融融，大家都暖洋洋的。",
+   "bytes": 32832,
+   "ms": 5472
+  },
+  "e8b902a11f1d1e92a34c7f7ee4d6c759b2d9a840093f8cf1fc0d5c69d347643a": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "On the riverbank, a fisherman uses a curved bronze knife , 刀 , to trim his hemp rope.",
+   "bytes": 39168,
+   "ms": 6528
+  },
+  "e910815edc15bc9ee8d4941656bd05e563334ee9775a7b59afdde16c308063e8": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "从甲骨文一直到秦代竹简，“女”字始终描绘着这样温婉跪坐、双手交叠的姿态。",
+   "bytes": 49392,
+   "ms": 8232
+  },
+  "e9d5f92948849081fe0e5443776b9c57c0ccc4c7baad47912cf4434cde758444": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "In modern simplified writing, 鳥 is written 鸟.",
+   "bytes": 23616,
+   "ms": 3936
+  },
+  "e9e424c5f1e9ea02197acac32b72fef007fa639fc3dd2864363218a85d4bdc43": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "月光下回家",
+   "bytes": 11520,
+   "ms": 1920
+  },
+  "ea66ed24ee4e1351f345b2624eccf2467948bf3173b07500da1e22ebe3efce49": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "The Curved Bronze Blade",
+   "bytes": 11808,
+   "ms": 1968
+  },
+  "ea6d7bd6ac332d41d3124f13d05c5c335025a8718cd892fe10326caff58c4f95": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "咚、咚！闻到清香的竹叶味，一头温顺的大象——“象”，迈着大步走进了空地。",
+   "bytes": 50112,
+   "ms": 8352
+  },
+  "eb0980c1ab23fb564385680b98d65b930a090e8ca08bfa3f7453cb68221b6944": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "夜空里的弯月牙",
+   "bytes": 13104,
+   "ms": 2184
+  },
+  "eb82af134146fc2b512fc0f57ece1943845fdcd4fb3a34c2731c65f0aea142e0": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "Oink, oink! Around the farmyard trots a plump pig with a big snout, a round belly, four short legs, and a stubby tail.",
+   "bytes": 56016,
+   "ms": 9336
+  },
+  "ec0d44500bd9603dbaa8e34ffa9f92049bf21b0cdca3d4c5fa5a6bf49e0ec860": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "Follow the footpath out of the woods, and neat square farm plots open up before us: 田!",
+   "bytes": 36288,
+   "ms": 6048
+  },
+  "ec191c708ffb506624e5050aac807818b75af02a5dd9d81c1d6b6c18ec85967b": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "云 is a curl of cloud. Later, 雨 (rain) was added on top to make 雲, and simplified Chinese went back to the ancient 云!",
+   "bytes": 54576,
+   "ms": 9096
+  },
+  "ec1ac823fb5287df89223047e6699a53c4c0387f0e9709c95879d0f127ded61e": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "竖着刻在甲骨和铜器上时，小船像一架两头微翘的小梯子——船头朝上，船尾朝下。",
+   "bytes": 52848,
+   "ms": 8808
+  },
+  "ed556352aae69172b3b1a2af5f3a40cbb7b7eb830f67c6c3c2f25a3516e61618": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "In oracle bone writing, the horse stands upright. To run, it drops onto all four hooves!",
+   "bytes": 42480,
+   "ms": 7080
+  },
+  "ed78fb863af4531aba6977c056f6666703fdeddb2fc4c8f938e117c473aa5d9f": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "最早的“日”是一个圆圈，中间有一个点，就像发光的太阳。后来圆圈变成了方框，因为方框更容易刻，也更容易写。",
+   "bytes": 68256,
+   "ms": 11376
+  },
+  "edfa2a7b5d03157b7fb21922a611f0b13057072acbc01cd8f6d6b79407dec876": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "顺着小路走出树林，眼前豁然开朗，是一块块方方正正的农田：“田”！",
+   "bytes": 43488,
+   "ms": 7248
+  },
+  "ee46504b2d0d892d137a6aa51c18d309c68be78b999b813554aa1bd91e1a9094": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "The oldest 火 looks like flames leaping up from a campfire.",
+   "bytes": 26208,
+   "ms": 4368
+  },
+  "ee9455bf2c071b5ad8ed7493faa7a0854210806afc757c5864b9460de56bf342": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "Catching the Morning Sun",
+   "bytes": 11088,
+   "ms": 1848
+  },
+  "eeadbea4f82a605c3a03603ba3f587f6c672e42693a9cf1dcf956873e401d8bd": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "In modern simplified writing, 傘 is written 伞.",
+   "bytes": 21888,
+   "ms": 3648
+  },
+  "ef3426a1747808ba218fbe92e5ca29c28a0b615cad61ce22778812fd44bff96e": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "雨过天晴，我们来到山脚下一座尖顶的小屋前：“舍”。",
+   "bytes": 33696,
+   "ms": 5616
+  },
+  "ef4069d832e00879af18c08fc3d5fcb8b95a1d5cdc9ea1253ceabd722246fc8b": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "The center wave is the deep current, and the short ticks on left and right are the splashes.",
+   "bytes": 32976,
+   "ms": 5496
+  },
+  "eff66de5a15e999916d192f5a3c083a5273463514296b5822472d04837d45011": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "公鸡喔喔叫！清晨的天空上，挂着一轮暖洋洋的圆太阳。",
+   "bytes": 36864,
+   "ms": 6144
+  },
+  "f087069a62f764b0447d5c4737660765b051ec167bfd4b70b3c2543298624738": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "Traditional 龜 still shows the full patterned shell and claws, while simplified 龟 keeps the head, shell, and curving tail!",
+   "bytes": 50688,
+   "ms": 8448
+  },
+  "f0ef9b03ad4e22ff1b0f989866a89faefe8eb819a23839435a58b261e1b73e7b": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "“网”是一张绳子交叉的渔网。后来人们写成“網”，简化字又回到了古老的“网”！",
+   "bytes": 44928,
+   "ms": 7488
+  },
+  "f16ecec840976261f3dcdde840dac2ef9fde30158b9b3d6fd20cd5bb4a68af1d": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "回家的小路旁，芬芳的花朵——“花”，在月光下轻轻摇曳。",
+   "bytes": 34992,
+   "ms": 5832
+  },
+  "f198d7c32e7a527090a7c7715de7d4f9bc589d40a6693d22d1622ca0f359d443": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "哼哼哼！院子里跑着一头胖乎乎的小猪，长鼻子、圆肚子、四条短腿，加上一根小短尾。",
+   "bytes": 58464,
+   "ms": 9744
+  },
+  "f1998e7aed87ace3e9bcd2f34abab0e9db914a0cfefc2e8fa240c0d294e4aa31": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "Pop Open the Umbrella!",
+   "bytes": 11952,
+   "ms": 1992
+  },
+  "f2798471d7a6d9c581b62526aec2618b9e994c8877dae972060a4ed099040f54": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "今天的“羊”字顶上两点依然是羊角！古人觉得羊吉祥又美好，所以“美”和“善”字里都有“羊”！",
+   "bytes": 54576,
+   "ms": 9096
+  },
+  "f29df6d2be98392c6e05ebf61f9c6180ed8b7bb3559ae59021444ad09ce0943e": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "Just like the elephant, the horse was stood upright on its tail so it could fit into a vertical column of writing!",
+   "bytes": 42048,
+   "ms": 7008
+  },
+  "f395b46e561160218e36197284160a9e9602aa80e842ee720931505540e55c2d": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "Two little sprouts side by side formed 艸 , the original character for grass and herbs.",
+   "bytes": 35136,
+   "ms": 5856
+  },
+  "f3a6ec0c7fe50aceaad6ac90390cdd7747d96faad6a7c1a0c6aea89d1f27e2b5": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "晨光叫醒了一只小鸟——“鸟”，它扇动翅膀，从独木飞向热闹的树林筑巢啦！",
+   "bytes": 43488,
+   "ms": 7248
+  },
+  "f3addcebc1a652eb2de75941c9db0e6fbea693182a70639b537f46846eb2c24e": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "因为折叠伞发明得比较晚，“伞”没有甲骨文和金文——可你看它的样子，活脱脱就是一把撑开的伞！",
+   "bytes": 54576,
+   "ms": 9096
+  },
+  "f3b5aa3fd14689e47d99b7bccd5abd5a00b8f05fad9352427104af4faf9b2798": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "In simplified 鱼, those four tail-dots join into one smooth horizontal bar at the bottom!",
+   "bytes": 40464,
+   "ms": 6744
+  },
+  "f427df2fd16b345ad6d1a92a702528f5e68a3d631d40ff8b118773cbb4fe8476": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "A fishing trip on the river",
+   "bytes": 11232,
+   "ms": 1872
+  },
+  "f62caca295a33ba19f4ac967822813faf4466d2c934421df84503e90ed5fb00b": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "Evening settles softly over the village, and a silver crescent moon , 月 , rises in the starry sky.",
+   "bytes": 45360,
+   "ms": 7560
+  },
+  "f710209c7c2067476851ba95e2f09e108a187e62711000006fe8ba1133588a14": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "He unties his wooden boat , 舟 , and glides out onto the sparkling river.",
+   "bytes": 30960,
+   "ms": 5160
+  },
+  "f7223a093fafb1345a610ccb1cc71c9666a799f9706197f490033f3ace268623": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "咴咴——！一匹神气活现的骏马——“马”，想在草地上赛跑啦！",
+   "bytes": 36288,
+   "ms": 6048
+  },
+  "f76b8625953d808e063e6ce529b702249aeaabe8d9441dd188c730b09b28297c": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "温暖的灯光下，温柔的妈妈——“女”，端庄地坐在摇篮旁……",
+   "bytes": 33408,
+   "ms": 5568
+  },
+  "f795dc17f2f98d9de99c8374de431c60f484121a16a5f4a3290733afe7f914a4": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "几千年过去，“象”字最顶上依然保留着弯弯的象鼻，下面的象腿则化作了舒展的笔画。",
+   "bytes": 51552,
+   "ms": 8592
+  },
+  "f7e11559892483809e58bbdd6d67d033254411dded26e2862a9f4d6032479f13": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "把妈妈“女”和孩子“子”放在一起，会合成什么字呢？就是美好、幸福的“好”！",
+   "bytes": 44928,
+   "ms": 7488
+  },
+  "f888488888a66f72c0c748ecbad98ed64a91e9da3b85810e629e945960925e6f": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "Dinner is caught! Time to row back to shore before those clouds turn dark.",
+   "bytes": 30240,
+   "ms": 5040
+  },
+  "f8bfb1f4b9a33b89ca43d26a323dcbfd4dcdad2afe6f4addd2d4ef9aa262e63e": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "田 is a field seen from above, divided by little paths into neat plots.",
+   "bytes": 33408,
+   "ms": 5568
+  },
+  "fbd60d0cda4291507946195347dd7b7e8119e93460eb31269ab10140ead9039c": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "Sunrise in the Valley",
+   "bytes": 11232,
+   "ms": 1872
+  },
+  "fc23712e04c9be1b29f4275970708f60273903995ecb050612d9e1d7a8f76360": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-15%",
+   "text": "羊",
+   "bytes": 11232,
+   "ms": 1872
+  },
+  "fca49e05307d874c982ddbf0e489e3a369d1e2a717bff69da8ff671e7063ca6c": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "Two brisk strokes , one hooked back, one sweeping blade , form 刀, knife!",
+   "bytes": 34560,
+   "ms": 5760
+  },
+  "fce395a3fd94b669a7aa7495bb40715146e4a886c4438ac49ec82220f382b561": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "In today’s 羊, the two top ticks are still the sheep’s horns! And because sheep were prized, 羊 sits inside 美 (beautiful) and 善 (kind)!",
+   "bytes": 60624,
+   "ms": 10104
+  },
+  "fcfbd4ab01153c709c8afde2b044f67e84498f88458529d616a030504a9718a6": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "弯弯的射箭长弓",
+   "bytes": 13104,
+   "ms": 2184
+  },
+  "fd953ba00ae270551982a807af87e10924e0ee4f38accfe4bb92400fcd23c3f4": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "One tree is 木. Put two trees together and you get 林, a little wood!",
+   "bytes": 29808,
+   "ms": 4968
+  },
+  "fdab1f202a9fbfd058abfb1844e4c5dcdcfe060a2012d6d8cfb98db1af317639": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "Traditional 門 still shows both swinging doors, while simplified 门 traces the whole doorway in three quick strokes!",
+   "bytes": 44928,
+   "ms": 7488
+  },
+  "fdc15b662063c0b769bd837231446f279396ca03705dc32b055a0dafa166b0f7": {
+   "provider": "edge-tts",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-6%",
+   "text": "最早的“火”就像一团向上蹿的三簇火苗，左右两边还飘着火星。",
+   "bytes": 38736,
+   "ms": 6456
+  },
+  "ffbb9ce46a65634bae37ebe9d1dbbde913b757324c6f8e5980cc34fd83a14247": {
+   "provider": "edge-tts",
+   "voice": "en-US-AvaMultilingualNeural",
+   "rate": "-4%",
+   "text": "Swing Open the Double Gate",
+   "bytes": 13392,
+   "ms": 2232
+  }
+ }
+}

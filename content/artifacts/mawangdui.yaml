@@ -1,0 +1,12 @@
+# yaml-language-server: $schema=../_schema/artifact.schema.json
+id: mawangdui
+kind: manuscript
+stage: han.clerical
+title: { en: Han silk manuscript (Mawangdui), zh-Hans: 马王堆帛书, zh-Hant: 馬王堆帛書 }
+image: { file: mawangdui.jpg, commons: File:Mawangdui LaoTsu Ms2.JPG }
+credit:
+  author: Mawangdui Silk Manuscript Volume First, Wen Wu Publishing, Beijing, China, 1980-03
+  license: Public domain
+  page: https://commons.wikimedia.org/wiki/File%3AMawangdui_LaoTsu_Ms2.JPG
+  width: 408
+  height: 900

@@ -1,0 +1,68 @@
+# yaml-language-server: $schema=../_schema/source.schema.json
+id: qianziwen
+stage: han.regular
+title: { en: Thousand Character Classic (千字文), zh-Hans: 《千字文》, zh-Hant: 《千字文》 }
+lines:
+  - text: { Hans: 日月盈昃, Hant: 日月盈昃 }
+    gloss: { en: The sun sets and the moon grows full., zh-Hans: 太阳偏西，月亮圆了又缺。, zh-Hant: 太陽偏西，月亮圓了又缺。 }
+  - text: { Hans: 金生丽水, Hant: 金生麗水 }
+    gloss: { en: Gold is found in the Li River., zh-Hans: 金子出产在丽水。, zh-Hant: 金子出產在麗水。 }
+  - text: { Hans: 林皋幸即, Hant: 林皋幸即 }
+    gloss:
+      en: Wise people gladly retire to the woods by the water.
+      zh-Hans: 高兴地退隐到山林水边。
+      zh-Hant: 高興地退隱到山林水邊。
+  - text: { Hans: 化被草木, Hant: 化被草木 }
+    gloss: { en: Kindness reaches even the grass and the trees., zh-Hans: 仁德的教化连草木都受到了。, zh-Hant: 仁德的教化連草木都受到了。 }
+  - text: { Hans: 鸟官人皇, Hant: 鳥官人皇 }
+    gloss:
+      en: "The Bird Officials and the Human Emperor: a legendary king named his officials after birds!"
+      zh-Hans: 传说中用鸟名做官名的少昊，和人皇。
+      zh-Hant: 傳說中用鳥名做官名的少昊，和人皇。
+  - text: { Hans: 篮笋象床, Hant: 籃筍象床 }
+    gloss:
+      en: Bamboo baskets and a bed decorated with ivory (elephant tusk).
+      zh-Hans: 竹编的器具，象牙装饰的床。
+      zh-Hant: 竹編的器具，象牙裝飾的床。
+  - text: { Hans: 鸡田赤城, Hant: 雞田赤城 }
+    gloss: { en: "Jitian and Chicheng, faraway frontier towns.", zh-Hans: 鸡田和赤城，都是边塞的地名。, zh-Hant: 雞田和赤城，都是邊塞的地名。 }
+  - text: { Hans: 夫唱妇随, Hant: 夫唱婦隨 }
+    gloss: { en: "One sings and the other joins in: a happy home.", zh-Hans: 夫妻和睦。, zh-Hant: 夫妻和睦。 }
+  - text: { Hans: 史鱼秉直, Hant: 史魚秉直 }
+    gloss: { en: Shi Yu (“Historian Fish”) always told the truth., zh-Hans: 史鱼为人正直。, zh-Hant: 史魚為人正直。 }
+  - text: { Hans: 云腾致雨, Hant: 雲騰致雨 }
+    gloss: { en: Clouds rise up and bring the rain., zh-Hans: 云气升腾，就下起雨来。, zh-Hant: 雲氣升騰，就下起雨來。 }
+  - text: { Hans: 昆池碣石, Hant: 昆池碣石 }
+    gloss:
+      en: Kunming Lake and Jieshi (“Stone Tablet”) Mountain.
+      zh-Hans: 昆明池和碣石山。
+      zh-Hant: 昆明池和碣石山。
+  - text: { Hans: 龙师火帝, Hant: 龍師火帝 }
+    gloss:
+      en: The Dragon Master and the Fire Emperor, two legendary rulers.
+      zh-Hans: 传说中的龙师伏羲和火帝神农。
+      zh-Hant: 傳說中的龍師伏羲和火帝神農。
+  - text: { Hans: 丙舍傍启, Hant: 丙舍傍啟 }
+    gloss: { en: Side halls open next to the palace., zh-Hans: 宫殿旁边的配殿打开着。, zh-Hant: 宮殿旁邊的配殿打開著。 }
+  - text: { Hans: 诗赞羔羊, Hant: 詩讚羔羊 }
+    gloss: { en: The Book of Songs praises the lambs., zh-Hans: 《诗经》里有赞美羔羊的诗。, zh-Hant: 《詩經》裡有讚美羔羊的詩。 }
+  - text: { Hans: 雁门紫塞, Hant: 雁門紫塞 }
+    gloss:
+      en: Wild Goose Gate and the Purple Wall (the Great Wall).
+      zh-Hans: 雁门关和长城。
+      zh-Hant: 雁門關和長城。
+  - text: { Hans: 犹子比儿, Hant: 猶子比兒 }
+    gloss:
+      en: Treat your nephews and nieces like your own children.
+      zh-Hans: 对待侄子要像对待自己的孩子一样。
+      zh-Hant: 對待姪子要像對待自己的孩子一樣。
+  - text: { Hans: 女慕贞洁, Hant: 女慕貞絜 }
+    gloss: { en: Women admire goodness., zh-Hans: 女子敬慕美好的品德。, zh-Hant: 女子敬慕美好的品德。 }
+photo: zhiyong
+templates:
+  quote:
+    title: { en: Thousand Character Classic (千字文), zh-Hans: 《千字文》, zh-Hant: 《千字文》 }
+    text:
+      en: "{shown} is one of the 1,000 characters in the Thousand Character Classic, a poem children learned from for more than 1,400 years: “{line.Hant}”, {gloss} Photo: Zhiyong’s copy, about 1,400 years old."
+      zh-Hans: “{shown}”是《千字文》一千个字里的一个，一千四百多年来孩子们都用它识字：“{line.Hans}”——{gloss}照片是约1400年前智永写的《千字文》。
+      zh-Hant: 「{shown}」是《千字文》一千個字裡的一個，一千四百多年來孩子們都用它識字：「{line.Hant}」——{gloss}照片是約1400年前智永寫的《千字文》。

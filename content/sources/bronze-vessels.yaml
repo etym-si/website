@@ -1,0 +1,68 @@
+# yaml-language-server: $schema=../_schema/source.schema.json
+id: bronze-vessels
+stage: han.bronze
+title: { en: Inscribed bronze vessels, zh-Hans: 有铭文的青铜器, zh-Hant: 有銘文的青銅器 }
+entries:
+  師虎簋:
+    name: { en: Shi Hu gui, zh-Hans: 师虎簋, zh-Hant: 師虎簋 }
+    vars:
+      kind: { en: a bronze food bowl, zh-Hans: 青铜食器, zh-Hant: 青銅食器 }
+      years: { en: "2,900", zh-Hans: "2900", zh-Hant: "2900" }
+  沈子它簋蓋:
+    name: { en: lid of the Shenzi Ta gui, zh-Hans: 沈子它簋盖, zh-Hant: 沈子它簋蓋 }
+    vars:
+      kind: { en: a bronze food bowl, zh-Hans: 青铜食器, zh-Hant: 青銅食器 }
+      years: { en: "3,000", zh-Hans: "3000", zh-Hant: "3000" }
+  田農鼎:
+    name: { en: Tian Nong ding, zh-Hans: 田农鼎, zh-Hant: 田農鼎 }
+    vars:
+      kind: { en: a bronze cauldron, zh-Hans: 青铜鼎, zh-Hant: 青銅鼎 }
+      years: { en: "3,000", zh-Hans: "3000", zh-Hant: "3000" }
+  父丁孤竹罍:
+    name: { en: Fu Ding Guzhu lei, zh-Hans: 父丁孤竹罍, zh-Hant: 父丁孤竹罍 }
+    vars:
+      kind: { en: a bronze wine jar, zh-Hans: 青铜酒器, zh-Hant: 青銅酒器 }
+      years: { en: "3,000", zh-Hans: "3000", zh-Hant: "3000" }
+  彔伯:
+    name: { en: lid of Lord Lu’s gui, zh-Hans: 彔伯簋盖, zh-Hant: 彔伯 }
+    vars:
+      kind: { en: a bronze food bowl, zh-Hans: 青铜食器, zh-Hant: 青銅食器 }
+      years: { en: "2,900", zh-Hans: "2900", zh-Hant: "2900" }
+  師酉簋:
+    name: { en: Shi You gui, zh-Hans: 师酉簋, zh-Hant: 師酉簋 }
+    vars:
+      kind: { en: a bronze food bowl, zh-Hans: 青铜食器, zh-Hant: 青銅食器 }
+      years: { en: "2,900", zh-Hans: "2900", zh-Hant: "2900" }
+  魚爵:
+    name: { en: Yu jue, zh-Hans: 鱼爵, zh-Hant: 魚爵 }
+    vars:
+      kind: { en: a bronze wine cup, zh-Hans: 青铜酒杯, zh-Hant: 青銅酒杯 }
+      years: { en: "3,000", zh-Hans: "3000", zh-Hant: "3000" }
+  麥方鼎:
+    name: { en: Mai square ding, zh-Hans: 麦方鼎, zh-Hant: 麥方鼎 }
+    vars:
+      kind: { en: a bronze cauldron, zh-Hans: 青铜鼎, zh-Hant: 青銅鼎 }
+      years: { en: "3,000", zh-Hans: "3000", zh-Hant: "3000" }
+  龜父丙鼎:
+    name: { en: Gui Fu Bing ding, zh-Hans: 龟父丙鼎, zh-Hant: 龜父丙鼎 }
+    vars:
+      kind: { en: a bronze cauldron, zh-Hans: 青铜鼎, zh-Hant: 青銅鼎 }
+      years: { en: "3,000", zh-Hans: "3000", zh-Hant: "3000" }
+  羊作父乙卣:
+    name: { en: Yang you, zh-Hans: 羊作父乙卣, zh-Hant: 羊作父乙卣 }
+    vars:
+      kind: { en: a bronze wine bucket, zh-Hans: 青铜酒器, zh-Hant: 青銅酒器 }
+      years: { en: "3,000", zh-Hans: "3000", zh-Hant: "3000" }
+photo: dayu-ding
+fragments:
+  tracedFrom:
+    en: "Our {sign} glyph was traced from the {name} ({key}). "
+    zh-Hans: 动画里的“{sign}”描自{name}。
+    zh-Hant: 動畫裡的「{sign}」描自{name}。
+templates:
+  example:
+    title: { en: "Copied from the {name}", zh-Hans: "描自{name}", zh-Hant: "描自{name}" }
+    text:
+      en: This {sign} was copied from the writing on the {name} ({key}){takenFrom}, {kind} from about {years} years ago. The photo shows the Da Yu ding, another bronze from that time.
+      zh-Hans: 这个“{sign}”描自{name}{takenFrom}，它是约{years}年前的{kind}。照片是同时代的大盂鼎。
+      zh-Hant: 這個「{sign}」描自{name}{takenFrom}，它是約{years}年前的{kind}。照片是同時代的大盂鼎。

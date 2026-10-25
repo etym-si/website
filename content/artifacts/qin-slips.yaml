@@ -1,0 +1,12 @@
+# yaml-language-server: $schema=../_schema/artifact.schema.json
+id: qin-slips
+kind: slips
+stage: han.clerical
+title: { en: Qin bamboo slips, zh-Hans: 秦代竹简, zh-Hant: 秦代竹簡 }
+image: { file: qin-slips.jpg, commons: File:Qin Bamboo Slips (10160678273).jpg }
+credit:
+  author: Gary Todd from Xinzheng, China
+  license: CC0
+  page: https://commons.wikimedia.org/wiki/File%3AQin_Bamboo_Slips_%2810160678273%29.jpg
+  width: 600
+  height: 900

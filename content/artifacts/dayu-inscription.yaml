@@ -1,0 +1,70 @@
+# yaml-language-server: $schema=../_schema/artifact.schema.json
+id: dayu-inscription
+kind: rubbing
+stage: han.bronze
+title: { en: The Da Yu ding (大盂鼎), zh-Hans: 大盂鼎铭文, zh-Hant: 大盂鼎銘文 }
+aliases: [ 大盂鼎 ]
+image: { file: dayu-inscription.jpg, commons: File:Da Yu ding inscription.jpg }
+related: [ dayu-ding ]
+occurrences:
+  - sign: han/雨
+    phrase:
+      en: in the character 雩 (a rain-prayer ritual), which appears three times
+      zh-Hans: 在“雩”（祈雨祭祀）字里出现了三次
+      zh-Hant: 在「雩」（祈雨祭祀）字裡出現了三次
+    marks:
+      - box: [ 0.714, 0.285, 0.038, 0.033 ]
+        label: { en: "雨 at the top of 雩 (column 5: “雩殷正百辟”)", zh-Hans: 第5行“雩”字上半部的“雨”（“雩殷正百辟”）, zh-Hant: 第5行「雩」字上半部的「雨」（「雩殷正百辟」） }
+      - box: [ 0.836, 0.704, 0.039, 0.035 ]
+        label: { en: "雨 at the top of 雩 (column 3: “在雩御事”)", zh-Hans: 第3行“雩”字上半部的“雨”（“在雩御事”）, zh-Hant: 第3行「雩」字上半部的「雨」（「在雩御事」） }
+      - box: [ 0.331, 0.356, 0.033, 0.031 ]
+        label: { en: "雨 at the top of 雩 (column 13: “雩我其遹省”)", zh-Hans: 第13行“雩”字上半部的“雨”（“雩我其遹省”）, zh-Hant: 第13行「雩」字上半部的「雨」（「雩我其遹省」） }
+  - sign: han/田
+    phrase: { en: "in “殷邊侯、田” (column 5, right above 雩)", zh-Hans: 在第5行的“殷边侯、田”里（就在“雩”字正上方）, zh-Hant: 在第5行的「殷邊侯、田」裡（就在「雩」字正上方） }
+    marks:
+      - box: [ 0.714, 0.241, 0.034, 0.031 ]
+        label: { en: 田 in “殷邊侯、田” (column 5), zh-Hans: 第5行“殷边侯、田”里的“田”, zh-Hant: 第5行「殷邊侯、田」裡的「田」 }
+  - sign: han/马
+    phrase:
+      en: in “錫車馬” — the king rewarded Yu with a chariot and horses (column 14)
+      zh-Hans: 在第14行的“锡车马”（赏赐车和马）里
+      zh-Hant: 在第14行的「錫車馬」（賞賜車和馬）裡
+    marks:
+      - box: [ 0.27, 0.798, 0.036, 0.05 ]
+        label: { en: "馬 (“horse”) right under 車 (“chariot”), column 14", zh-Hans: 第14行“车”字正下方的“马”, zh-Hant: 第14行「車」字正下方的「馬」 }
+  - sign: han/夫
+    phrase:
+      en: in “六百又五十又九夫” (659 men) and “千又五十夫” (1,050 men) in columns 15–16
+      zh-Hans: 在第15、16行的“六百又五十又九夫”和“千又五十夫”里
+      zh-Hant: 在第15、16行的「六百又五十又九夫」和「千又五十夫」裡
+    marks:
+      - box: [ 0.197, 0.675, 0.032, 0.05 ]
+        label: { en: 夫 (“men”) in “六百又五十又九夫” — 659 men (column 15), zh-Hans: 第15行“六百又五十又九夫”（659人）里的“夫”, zh-Hant: 第15行「六百又五十又九夫」（659人）裡的「夫」 }
+      - box: [ 0.148, 0.672, 0.031, 0.05 ]
+        label: { en: "夫 (“men”) in “千又五十夫” — 1,050 men (column 16)", zh-Hans: 第16行“千又五十夫”（1050人）里的“夫”, zh-Hant: 第16行「千又五十夫」（1050人）裡的「夫」 }
+  - sign: han/月
+    phrase:
+      en: in the opening words “隹九月” — in the ninth month (column 1)
+      zh-Hans: 在第1行开头的“隹九月”（在九月）里
+      zh-Hant: 在第1行開頭的「隹九月」（在九月）裡
+    marks:
+      - box: [ 0.933, 0.176, 0.031, 0.054 ]
+        label: { en: "月 (“month”) in “隹九月” (column 1, 3rd character)", zh-Hans: 第1行第3个字：“隹九月”里的“月”, zh-Hant: 第1行第3個字：「隹九月」裡的「月」 }
+templates:
+  exact:
+    title: { en: The Da Yu ding (大盂鼎), zh-Hans: 大盂鼎, zh-Hant: 大盂鼎 }
+    text:
+      en: This {sign} was copied from the Da Yu ding{takenFrom}, a giant bronze cauldron cast about 3,000 years ago. Look at the red circles on this ink rubbing of its inscription!
+      zh-Hans: 这个“{sign}”描自大盂鼎{takenFrom}。大盂鼎是约3000年前铸造的大青铜鼎，看拓片上的红圈！大盂鼎现藏中国国家博物馆。
+      zh-Hant: 這個「{sign}」描自大盂鼎{takenFrom}。大盂鼎是約3000年前鑄造的大青銅鼎，看拓片上的紅圈！大盂鼎現藏中國國家博物館。
+  appears:
+    text:
+      en: "{tracedFrom}You can also spot {sign} circled in red on this ink rubbing of the Da Yu ding (about 3,000 years old), {phrase}!"
+      zh-Hans: "{tracedFrom}在这张约3000年前的大盂鼎铭文拓片上，你也能在红圈里找到“{sign}”字——就{phrase}！"
+      zh-Hant: "{tracedFrom}在這張約3000年前的大盂鼎銘文拓片上，你也能在紅圈裡找到「{sign}」字——就{phrase}！"
+credit:
+  author: User:Mountain
+  license: Public domain
+  page: https://commons.wikimedia.org/wiki/File%3ADa_Yu_ding_inscription.jpg
+  width: 861
+  height: 900

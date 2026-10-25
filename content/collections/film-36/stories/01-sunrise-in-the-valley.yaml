@@ -1,0 +1,94 @@
+# yaml-language-server: $schema=../../../_schema/story.schema.json
+id: sunrise-in-the-valley
+title: { en: Sunrise in the Valley, zh-Hans: 山谷的日出, zh-Hant: 山谷的日出 }
+topic: { en: Nature wakes up at dawn, zh-Hans: 清晨苏醒的大自然, zh-Hant: 清晨甦醒的大自然 }
+cast: [ 山, 日, 水, 木, 林, 鸟 ]
+script:
+  - { do: bg, tone: night, ms: 1 }
+  - narrate:
+      en: "Shh… the mountain valley is still fast asleep under the stars. Three quiet peaks stand against the night sky: 山."
+      zh-Hans: 嘘……星空下的山谷还在熟睡。三座安静的山峰立在夜空下，这就是“山”。
+      zh-Hant: 噓……星空下的山谷還在熟睡。三座安靜的山峰立在夜空下，這就是「山」。
+  - { do: place, actor: water, at: [ 500, 590 ], size: 100, back: true }
+  - { do: place, actor: mountain, at: [ 560, 380 ], size: 330 }
+  - { do: draw, actor: mountain, glyph: { sign: 山, stage: oracle }, ms: 1900 }
+  - do: together
+    steps:
+      - { do: wash, actor: mountain, color: "#6f9f8a", size: 400, opacity: 0.35, dy: 30 }
+      - { do: tag, actor: mountain, sign: 山, dx: 240, dy: 120 }
+      - { do: say, text: 山, lang: zh }
+  - narrate:
+      en: "Look! Behind the eastern ridge, a warm red sun begins to climb: 日!"
+      zh-Hans: 看呀！东边的山脊后面，一轮红彤彤的太阳慢慢爬了上来：“日”！
+      zh-Hant: 看呀！東邊的山脊後面，一輪紅彤彤的太陽慢慢爬了上來：「日」！
+  - { do: place, actor: sun, at: [ 330, 330 ], size: 120, back: true }
+  - { do: draw, actor: sun, glyph: { sign: 日, stage: oracle }, ms: 1200, color: "#b8321f" }
+  - do: together
+    steps:
+      - { do: wash, actor: sun, color: "#e8453c", size: 150, opacity: 0.55 }
+      - { do: bg, tone: dawn, ms: 2600 }
+      - { do: move, actor: sun, to: [ 290, 115 ], ms: 3000, ease: "cubic-bezier(.3,0,.3,1)" }
+  - do: together
+    steps:
+      - tagSay: { actor: sun, sign: 日, dx: 120, dy: 125 }
+      - { do: bg, tone: paper, ms: 2200 }
+  - { do: ambient, actor: sun, motion: pulse }
+  - narrate:
+      en: "Warm sunlight melts the mountain snow, and a clear stream rushes down the valley: 水!"
+      zh-Hans: 温暖的阳光融化了山顶的积雪，清澈的溪水顺着山谷哗哗流淌：“水”！
+      zh-Hant: 溫暖的陽光融化了山頂的積雪，清澈的溪水順著山谷嘩嘩流淌：「水」！
+  - { do: place, actor: river, at: [ 500, 555 ], size: 150 }
+  - { do: draw, actor: river, glyph: { sign: 水, stage: oracle }, ms: 1400, color: "#1f5fa8" }
+  - tagSay: { actor: river, sign: 水, dx: 170, dy: 90 }
+  - do: together
+    steps:
+      - { do: rotate, actor: river, deg: 90, target: all, ms: 900 }
+      - { do: wash, actor: water, color: "#3d9be9", w: 1150, h: 120, opacity: 0.4, ms: 1400 }
+      - { do: place, actor: river2, at: [ 230, 560 ], size: 120 }
+      - { do: place, actor: river3, at: [ 770, 560 ], size: 120 }
+  - do: together
+    steps:
+      - { do: show, actor: river2, glyph: { sign: 水, stage: oracle }, color: "#1f5fa8" }
+      - { do: show, actor: river3, glyph: { sign: 水, stage: oracle }, color: "#1f5fa8" }
+      - { do: rotate, actor: river2, deg: 90, target: all, ms: 1 }
+      - { do: rotate, actor: river3, deg: 90, target: all, ms: 1 }
+  - { do: ambient, actor: river, motion: flow }
+  - { do: ambient, actor: river2, motion: flow }
+  - { do: ambient, actor: river3, motion: flow }
+  - narrate:
+      en: "The cool river water gives a drink to a young tree on the bank: 木."
+      zh-Hans: 甘甜的河水滋润着岸边的一棵小树：“木”。
+      zh-Hant: 甘甜的河水滋潤著岸邊的一棵小樹：「木」。
+  - { do: place, actor: tree, at: [ 140, 370 ], size: 190 }
+  - { do: draw, actor: tree, glyph: { sign: 木, stage: oracle }, ms: 1400 }
+  - do: together
+    steps:
+      - { do: wash, actor: tree, color: "#58b947", size: 210, opacity: 0.35, dy: -30 }
+      - tagSay: { actor: tree, sign: 木 }
+  - { do: ambient, actor: tree, motion: sway }
+  - narrate:
+      en: "Across the stream, trees grow side by side into a shady green grove: 林!"
+      zh-Hans: 溪水对岸，一棵树挨着一棵树，长成了绿荫浓密的树林：“林”！
+      zh-Hant: 溪水對岸，一棵樹挨著一棵樹，長成了綠蔭濃密的樹林：「林」！
+  - { do: place, actor: wood, at: [ 850, 370 ], size: 230 }
+  - { do: draw, actor: wood, glyph: { sign: 林, stage: oracle }, ms: 1800 }
+  - do: together
+    steps:
+      - { do: wash, actor: wood, color: "#58b947", size: 260, opacity: 0.35, dy: -30 }
+      - tagSay: { actor: wood, sign: 林, dx: -40 }
+  - { do: ambient, actor: wood, motion: sway }
+  - narrate:
+      en: Woken by the morning light, a little songbird — 鸟 — darts from the single tree to build its nest in the woods!
+      zh-Hans: 晨光叫醒了一只小鸟——“鸟”，它扇动翅膀，从独木飞向热闹的树林筑巢啦！
+      zh-Hant: 晨光叫醒了一隻小鳥——「鳥」，牠扇動翅膀，從獨木飛向熱鬧的樹林築巢啦！
+  - { do: place, actor: bird, at: [ 120, 150 ], size: 100 }
+  - { do: draw, actor: bird, glyph: { sign: 鸟, stage: oracle }, ms: 1300 }
+  - tagSay: { actor: bird, sign: 鸟, dx: 110, dy: 110 }
+  - { do: move, actor: bird, to: [ 640, 95 ], ms: 2600, gait: fly }
+  - { do: move, actor: bird, to: [ 848, 228 ], ms: 1300, gait: hop }
+  - { do: ambient, actor: bird, motion: bob }
+  - narrate:
+      en: What a bright morning! The valley is wide awake, and our bird has found its new home.
+      zh-Hans: 多么明朗的早晨！山谷彻底醒来了，小鸟也在树林里安下了家。
+      zh-Hant: 多麼明朗的早晨！山谷徹底醒來了，小鳥也在樹林裡安下了家。
+  - { do: wait, ms: 2200 }

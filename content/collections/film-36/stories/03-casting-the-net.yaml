@@ -1,0 +1,67 @@
+# yaml-language-server: $schema=../../../_schema/story.schema.json
+id: casting-the-net
+title: { en: Casting the Net, zh-Hans: 小船去捕鱼, zh-Hant: 小船去捕魚 }
+topic: { en: A fishing trip on the river, zh-Hans: 划着木船去河心撒网, zh-Hant: 划著木船去河心撒網 }
+cast: [ 云, 燕, 刀, 舟, 鱼, 网 ]
+script:
+  - narrate:
+      en: Out on the wide river, a curling white cloud — 云 — drifts lazily across the blue sky.
+      zh-Hans: 宽阔的大河上空，一朵卷曲的白云——“云”，慢悠悠地飘过蓝天。
+      zh-Hant: 寬闊的大河上空，一朵捲曲的白雲——「雲」，慢悠悠地飄過藍天。
+  - { do: place, actor: cloud, at: [ 240, 120 ], size: 150 }
+  - { do: draw, actor: cloud, glyph: { sign: 云, stage: oracle }, ms: 1400, color: "#3b6ea5" }
+  - do: together
+    steps:
+      - { do: wash, actor: cloud, color: "#a8d5ff", size: 210, opacity: 0.45 }
+      - tagSay: { actor: cloud, sign: 云, dx: 120, dy: 90 }
+  - { do: ambient, actor: cloud, motion: bob }
+  - narrate:
+      en: Swoosh! A fork-tailed swallow — 燕 — skims low over the water, chasing dragonflies.
+      zh-Hans: 嗖！一只剪刀尾巴的小燕子——“燕”，贴着水面轻快地掠过。
+      zh-Hant: 嗖！一隻剪刀尾巴的小燕子——「燕」，貼著水面輕快地掠過。
+  - { do: place, actor: swallow, at: [ 820, 150 ], size: 150 }
+  - { do: draw, actor: swallow, glyph: { sign: 燕, stage: oracle }, ms: 1500 }
+  - tagSay: { actor: swallow, sign: 燕, dx: -130, dy: 100 }
+  - { do: move, actor: swallow, to: [ 520, 125 ], ms: 2200, gait: fly }
+  - { do: ambient, actor: swallow, motion: bob }
+  - narrate:
+      en: On the riverbank, a fisherman uses a curved bronze knife — 刀 — to trim his hemp rope.
+      zh-Hans: 河岸边，渔夫拿起一把弯弯的青铜小刀——“刀”，利落地割好麻绳。
+      zh-Hant: 河岸邊，漁夫拿起一把彎彎的青銅小刀——「刀」，利落地割好麻繩。
+  - { do: place, actor: knife, at: [ 140, 390 ], size: 150 }
+  - { do: draw, actor: knife, glyph: { sign: 刀, stage: oracle }, ms: 1300, color: "#5a4632" }
+  - tagSay: { actor: knife, sign: 刀, dx: 110, dy: 90 }
+  - narrate:
+      en: He unties his wooden boat — 舟 — and glides out onto the sparkling river.
+      zh-Hans: 他解开木板拼成的小船——“舟”，轻轻划向波光粼粼的河心。
+      zh-Hant: 他解開木板拼成的小船——「舟」，輕輕划向波光粼粼的河心。
+  - { do: place, actor: boat, at: [ 280, 480 ], size: 190 }
+  - { do: draw, actor: boat, glyph: { sign: 舟, stage: oracle }, ms: 1500, color: "#6b4a1e" }
+  - do: together
+    steps:
+      - { do: wash, actor: boat, color: "#3d9be9", w: 900, h: 130, opacity: 0.32, dy: 65, ms: 1200 }
+      - tagSay: { actor: boat, sign: 舟, dx: 140, dy: 80 }
+  - { do: rotate, actor: boat, deg: 90, target: all, ms: 900 }
+  - { do: move, actor: boat, to: [ 470, 490 ], ms: 2200, ease: ease-out }
+  - { do: ambient, actor: boat, motion: flow }
+  - narrate:
+      en: "Splash! Up from the waves leaps a plump silver fish: 鱼!"
+      zh-Hans: 哗啦！水波里跃起一条肥美的银鱼：“鱼”！
+      zh-Hant: 嘩啦！水波裡躍起一條肥美的銀魚：「魚」！
+  - { do: place, actor: fish, at: [ 790, 500 ], size: 165 }
+  - { do: draw, actor: fish, glyph: { sign: 鱼, stage: oracle }, ms: 1500, color: "#1f5fa8" }
+  - tagSay: { actor: fish, sign: 鱼, dx: -130, dy: 90 }
+  - { do: ambient, actor: fish, motion: bob }
+  - narrate:
+      en: With a wide swing, the fisherman casts his woven net — 网 — right over the water!
+      zh-Hans: 渔夫用力一撒，绳结交错的渔网——“网”，稳稳地罩向水面！
+      zh-Hant: 漁夫用力一撒，繩結交錯的漁網——「網」，穩穩地罩向水面！
+  - { do: place, actor: net, at: [ 640, 340 ], size: 185 }
+  - { do: draw, actor: net, glyph: { sign: 网, stage: oracle }, ms: 1500 }
+  - tagSay: { actor: net, sign: 网, dx: -140, dy: -90 }
+  - { do: move, actor: net, to: [ 785, 485 ], ms: 1600, ease: ease-in-out }
+  - narrate:
+      en: Dinner is caught! Time to row back to shore before those clouds turn dark.
+      zh-Hans: 捕到鱼啦！趁着天上的云还没变黑，快划船靠岸吧。
+      zh-Hant: 捕到魚啦！趁著天上的雲還沒變黑，快划船靠岸吧。
+  - { do: wait, ms: 2000 }

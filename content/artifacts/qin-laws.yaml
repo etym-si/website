@@ -1,0 +1,14 @@
+# yaml-language-server: $schema=../_schema/artifact.schema.json
+id: qin-laws
+kind: slips
+stage: han.clerical
+title: { en: "Qin bamboo slips: “Eighteen Qin Statutes”", zh-Hans: 睡虎地秦简《秦律十八种》, zh-Hant: 睡虎地秦簡《秦律十八種》 }
+image:
+  file: qin-laws.jpg
+  commons: File:Eighteen Laws of Qin on Qin Bamboo Slips (10160622885).jpg
+credit:
+  author: Gary Todd from Xinzheng, China
+  license: CC0
+  page: https://commons.wikimedia.org/wiki/File%3AEighteen_Laws_of_Qin_on_Qin_Bamboo_Slips_%2810160622885%29.jpg
+  width: 900
+  height: 600

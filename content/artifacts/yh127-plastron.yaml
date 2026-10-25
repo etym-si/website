@@ -1,0 +1,28 @@
+# yaml-language-server: $schema=../_schema/artifact.schema.json
+id: yh127-plastron
+kind: shell
+stage: han.oracle
+title: { en: "Turtle shell from pit YH127, Academia Sinica", zh-Hans: YH127坑龟腹甲（中研院史语所）, zh-Hant: YH127坑龜腹甲（中研院史語所） }
+image: { file: yh127-plastron.jpg, commons: File:帶卜辭龜腹甲（丙86）.jpg }
+occurrences:
+  - sign: han/鹿
+    text:
+      en: "This turtle shell asks: “Will the king catch deer?” It was found in 1936 in one pit with about 17,000 inscribed shells!"
+      zh-Hans: 这片龟甲在问：“大王会捕到鹿吗？”它是1936年在一个坑里发现的，那个坑里有约一万七千片刻字的甲骨！
+      zh-Hant: 這片龜甲在問：「大王會捕到鹿嗎？」它是1936年在一個坑裡發現的，那個坑裡有約一萬七千片刻字的甲骨！
+  - sign: han/犬
+    text:
+      en: This turtle shell records offerings of dogs and sheep, and asks whether the king will catch deer.
+      zh-Hans: 这片龟甲记录了用狗和羊献祭，还问大王会不会捕到鹿。
+      zh-Hant: 這片龜甲記錄了用狗和羊獻祭，還問大王會不會捕到鹿。
+  - sign: han/羊
+    text:
+      en: This turtle shell records offerings of sheep and dogs, and asks whether the king will catch deer.
+      zh-Hans: 这片龟甲记录了用羊和狗献祭，还问大王会不会捕到鹿。
+      zh-Hant: 這片龜甲記錄了用羊和狗獻祭，還問大王會不會捕到鹿。
+credit:
+  author: 氏子
+  license: CC0
+  page: https://commons.wikimedia.org/wiki/File%3A%E5%B8%B6%E5%8D%9C%E8%BE%AD%E9%BE%9C%E8%85%B9%E7%94%B2%EF%BC%88%E4%B8%9986%EF%BC%89.jpg
+  width: 900
+  height: 900

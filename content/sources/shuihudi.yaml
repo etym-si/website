@@ -1,0 +1,37 @@
+# yaml-language-server: $schema=../_schema/source.schema.json
+id: shuihudi
+stage: han.clerical
+title: { en: Shuihudi Qin bamboo slips (睡虎地秦简), zh-Hans: 睡虎地秦简, zh-Hant: 睡虎地秦簡 }
+match: ^睡\.(?<entry>日甲|秦|法|語|雜|為|封)(?<number>\d+)(背)?
+entries:
+  秦:
+    name: { en: Eighteen Qin Statutes, zh-Hans: 秦律十八种, zh-Hant: 秦律十八種 }
+    artifact: qin-laws
+  法:
+    name: { en: Questions and Answers on the Law, zh-Hans: 法律答问, zh-Hant: 法律答問 }
+    artifact: qin-legal
+  日甲:
+    name: { en: "Daybook A, an almanac of lucky days", zh-Hans: 日书甲种, zh-Hant: 日書甲種 }
+    artifact: qin-rishu
+  語:
+    name: { en: A Governor’s Letter, zh-Hans: 语书, zh-Hant: 語書 }
+  雜:
+    name: { en: Miscellaneous Qin Statutes, zh-Hans: 秦律杂抄, zh-Hant: 秦律雜抄 }
+  為:
+    name: { en: The Way of Being an Official, zh-Hans: 为吏之道, zh-Hant: 為吏之道 }
+  封:
+    name: { en: Models for Investigations, zh-Hans: 封诊式, zh-Hant: 封診式 }
+photo: qin-slips
+templates:
+  book:
+    title: &a1 { en: "Qin bamboo slip: “{name}”", zh-Hans: "睡虎地秦简《{name}》", zh-Hant: "睡虎地秦簡《{name}》" }
+    text:
+      en: "This {sign} was copied from bamboo slip No. {number} of “{name}”, written with brush and ink around 217 BCE and found in 1975 in a Qin official’s tomb at Shuihudi. Photo: slips of this same text."
+      zh-Hans: 这个“{sign}”描自睡虎地秦简《{name}》第{number}简，约公元前217年用毛笔写成，1975年在一位秦朝官吏的墓中出土。照片就是这部竹简。
+      zh-Hant: 這個「{sign}」描自睡虎地秦簡《{name}》第{number}簡，約公元前217年用毛筆寫成，1975年在一位秦朝官吏的墓中出土。照片就是這部竹簡。
+  example:
+    title: *a1
+    text:
+      en: "This {sign} was copied from bamboo slip No. {number} of “{name}”, written with brush and ink around 217 BCE and found in 1975 in a Qin official’s tomb at Shuihudi. Photo: Qin bamboo slips."
+      zh-Hans: 这个“{sign}”描自睡虎地秦简《{name}》第{number}简，约公元前217年用毛笔写成，1975年在一位秦朝官吏的墓中出土。照片是秦代竹简。
+      zh-Hant: 這個「{sign}」描自睡虎地秦簡《{name}》第{number}簡，約公元前217年用毛筆寫成，1975年在一位秦朝官吏的墓中出土。照片是秦代竹簡。
