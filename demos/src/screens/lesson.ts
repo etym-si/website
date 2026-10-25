@@ -14,7 +14,10 @@ import { Player } from '../engine/player';
 import { evolutionScript, CHAPTERS } from '../engine/scripts';
 import { chime, speak, hasVoice } from '../audio';
 import { storyPlayer } from './story';
-import type { StageId } from '../data/stages';
+import { artifactFor } from '../data/artifacts';
+import { artifactCard, artifactList } from '../ui/artifact';
+import { STAGE_BY_ID, type StageId } from '../data/stages';
+import type { GlyphDoc } from '../glyphs';
 
 type ExKind = 'meet' | 'picture' | 'ancient' | 'listen' | 'order' | 'match' | 'trace';
 interface Ex {
@@ -141,22 +144,44 @@ function meet(ch: string, host: HTMLElement, api: ExApi): () => void {
       h('p', { class: 'meet-fact' }, tx(info.fact))));
   host.append(prompt(`✨ ${t('newChar')}`), stageBox, cap, tlHost, card);
   const stage = new Stage(stageBox, { label: info.pinyin });
+  let pausedByModal = false;
+  let doc: GlyphDoc | null = null;
+  const seen: Record<string, number> = {};
   let tl = timeline([]);
+  const onModal = (open: boolean) => {
+    if (open && !player.paused) { player.pause(); pausedByModal = true; }
+    else if (!open && pausedByModal) { pausedByModal = false; player.resume(); }
+  };
+  const artCard = artifactCard(onModal);
+  stageBox.appendChild(artCard.el);
   const player = new Player(stage, {
     onCaption: (text) => { cap.textContent = text ?? ''; cap.classList.toggle('show', !!text); },
-    onStage: (id, v) => { tl.set(id, v); cap.textContent = ''; cap.classList.remove('show'); },
+    onStage: (id, v) => {
+      tl.set(id, v);
+      cap.textContent = '';
+      cap.classList.remove('show');
+      const n = seen[id] ?? 0;
+      seen[id] = n + 1;
+      const hist = doc?.stages.filter((s) => s.stage === id)[n];
+      artCard.show(doc ? artifactFor(ch, id, hist, disp(ch)) : null);
+    },
   });
   const cont = button(t('continue'), () => api.done(true));
   cont.disabled = true;
   api.setFooter(cont);
   const unlock = setTimeout(() => { cont.disabled = false; }, 4000); // let fast kids skip
   (async () => {
-    const doc = await loadGlyph(ch);
+    doc = await loadGlyph(ch);
     const stages: StageId[] = [];
     if (PICTURES[ch]) stages.push('picture');
     for (const st of doc.stages) if (!stages.includes(st.stage)) stages.push(st.stage);
     stages.push('regular');
     if (doc.trad !== doc.char) stages.push('simplified');
+    const items = [...doc.stages.map((st) => ({ id: st.stage as StageId, a: artifactFor(ch, st.stage, st, disp(ch)) })),
+      { id: 'regular' as StageId, a: artifactFor(ch, 'regular', undefined, disp(ch)) }]
+      .filter((x): x is { id: StageId; a: NonNullable<typeof x.a> } => !!x.a)
+      .map((x) => ({ icon: STAGE_BY_ID[x.id].icon, a: x.a }));
+    if (items.length) card.appendChild(artifactList(items, onModal));
     tl = timeline(stages);
     tlHost.replaceChildren(tl.el);
     await player.play(evolutionScript(doc, { compact: true }));

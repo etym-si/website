@@ -66,11 +66,16 @@ export function renderTheater(root: HTMLElement, param: string): () => void {
   // --- engine -------------------------------------------------------------
   const stage = new Stage(stageBox, { label: t('theaterTitle') });
   stageBox.insertBefore(stage.svg, startOverlay);
-  const card = artifactCard();
-  stageBox.insertBefore(card.el, startOverlay);
+  let pausedByModal = false;
   let doc: GlyphDoc | null = null;
   let seen: Record<string, number> = {};
   let tl = timeline([]);
+  const onModal = (open: boolean) => {
+    if (open && !player.paused) { player.pause(); pausedByModal = true; }
+    else if (!open && pausedByModal) { pausedByModal = false; player.resume(); }
+  };
+  const card = artifactCard(onModal);
+  stageBox.insertBefore(card.el, startOverlay);
   const player = new Player(stage, {
     onStep: (i) => viewer.highlight(i),
     onCaption: (text) => {
@@ -138,7 +143,7 @@ export function renderTheater(root: HTMLElement, param: string): () => void {
       { id: 'regular' as StageId, a: artifactFor(ch, 'regular', undefined, disp) }]
       .filter((x): x is { id: StageId; a: NonNullable<typeof x.a> } => !!x.a)
       .map((x) => ({ icon: STAGE_BY_ID[x.id].icon, a: x.a }));
-    if (items.length) infoCard.appendChild(artifactList(items));
+    if (items.length) infoCard.appendChild(artifactList(items, onModal));
     const fresh = timeline(stages);
     tl.el.replaceWith(fresh.el);
     tl = fresh;

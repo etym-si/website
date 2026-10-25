@@ -136,7 +136,7 @@ Techniques inspired by 《三十六个字》 (Shanghai Animation Film Studio, 19
 - `帶卜辭龜腹甲（丙86）.jpg` — 氏子 — CC0 — https://commons.wikimedia.org/wiki/File%3A%E5%B8%B6%E5%8D%9C%E8%BE%AD%E9%BE%9C%E8%85%B9%E7%94%B2%EF%BC%88%E4%B8%9986%EF%BC%89.jpg
 - `Western Zhou bronze ding.jpg` — Gary Todd — CC0 — https://commons.wikimedia.org/wiki/File%3AWestern_Zhou_bronze_ding.jpg
 - `Da Yu ding inscription.jpg` — User:Mountain — Public domain — https://commons.wikimedia.org/wiki/File%3ADa_Yu_ding_inscription.jpg
-- `周曶鼎铭文.jpg` — 潘祖蔭（1830年－1890年） — Public domain — https://commons.wikimedia.org/wiki/File%3A%E5%91%A8%E6%9B%B6%E9%BC%8E%E9%93%AD%E6%96%87.jpg
+- `沈韵初旧藏曶鼎铭拓片 cutter.jpg` — 沈树镛（1832年－1873年） — Public domain — https://commons.wikimedia.org/wiki/File%3A%E6%B2%88%E9%9F%B5%E5%88%9D%E6%97%A7%E8%97%8F%E6%9B%B6%E9%BC%8E%E9%93%AD%E6%8B%93%E7%89%87_cutter.jpg
 - `Shuowen Jiezi, by Xu Xuan.png` — photographic version of the Shuowen jiezi compiled by Xu Xuan and published by Zhonghua shuju in 1963. — Public domain — https://commons.wikimedia.org/wiki/File%3AShuowen_Jiezi%2C_by_Xu_Xuan.png
 - `Eighteen Laws of Qin on Qin Bamboo Slips (10160622885).jpg` — Gary Todd from Xinzheng, China — CC0 — https://commons.wikimedia.org/wiki/File%3AEighteen_Laws_of_Qin_on_Qin_Bamboo_Slips_%2810160622885%29.jpg
 - `Qin Bamboo Slips Dealing with Legal Questions (10160525384).jpg` — Gary Todd from Xinzheng, China — CC0 — https://commons.wikimedia.org/wiki/File%3AQin_Bamboo_Slips_Dealing_with_Legal_Questions_%2810160525384%29.jpg

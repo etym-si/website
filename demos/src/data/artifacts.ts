@@ -14,10 +14,21 @@ import type { StageId } from './stages';
 
 export type ArtifactKind = 'exact' | 'book' | 'appears' | 'example';
 export interface ArtifactCredit { file: string; w: number; h: number; title: string; license: string; author: string; page: string }
+export interface ArtifactMark {
+  /** Normalized 0..1 bounding box [x, y, w, h] on `img`. */
+  x: number;
+  y: number;
+  w: number;
+  h: number;
+  label?: Tri;
+}
 export interface ArtifactRef {
   kind: ArtifactKind;
   img: ArtifactCredit;
   img2?: ArtifactCredit;
+  marks?: ArtifactMark[];
+  hist?: HistStage;
+  disp?: string;
   title: Tri;
   text: Tri;
   source?: string; // raw catalogue reference for grown-ups
@@ -28,15 +39,19 @@ const T = (en: string, zhs: string, zht: string): Tri => ({ en, zhs, zht });
 
 // ---- oracle bones -----------------------------------------------------------------------------
 
-const ORACLE_APPEARS: Record<string, { img: string; title: Tri; text: Tri }> = {
+const ORACLE_APPEARS: Record<string, { img: string; title: Tri; text: Tri; marks?: ArtifactMark[] }> = {
   日: { img: 'zheng-scapula', title: T('A big ox bone, National Museum of China', '大型牛骨刻辞（中国国家博物馆）', '大型牛骨刻辭（中國國家博物館）'),
-    text: T('Look closely: this bone says 三日, “on the third day”. The diviner Zheng carved it about 3,200 years ago.',
-      '仔细看：这块牛骨上写着“三日”，就是“第三天”。约3200年前，占卜师“争”刻下了它。',
-      '仔細看：這塊牛骨上寫著「三日」，就是「第三天」。約3200年前，占卜師「爭」刻下了它。') },
+    text: T('Look closely at the red circle: this bone says 三日, “on the third day”. The diviner Zheng carved it about 3,200 years ago.',
+      '看红圈里：这块牛骨上写着“三日”，就是“第三天”。约3200年前，占卜师“争”刻下了它。',
+      '看紅圈裡：這塊牛骨上寫著「三日」，就是「第三天」。約3200年前，占卜師「爭」刻下了它。'),
+    marks: [{ x: 0.643, y: 0.748, w: 0.054, h: 0.030,
+      label: T('日 (“day”) under 三 (“three”): 三日, “on the third day”', '“三”下面的“日”：“三日”（第三天）', '「三」下面的「日」：「三日」（第三天）') }] },
   月: { img: 'zheng-scapula', title: T('A big ox bone, National Museum of China', '大型牛骨刻辞（中国国家博物馆）', '大型牛骨刻辭（中國國家博物館）'),
-    text: T('Look closely: this bone says 五月, “in the fifth month”. The diviner Zheng carved it about 3,200 years ago.',
-      '仔细看：这块牛骨上写着“五月”。约3200年前，占卜师“争”刻下了它。',
-      '仔細看：這塊牛骨上寫著「五月」。約3200年前，占卜師「爭」刻下了它。') },
+    text: T('Look closely at the red circle: this bone says 五月, “in the fifth month”. The diviner Zheng carved it about 3,200 years ago.',
+      '看红圈里：这块牛骨上写着“五月”。约3200年前，占卜师“争”刻下了它。',
+      '看紅圈裡：這塊牛骨上寫著「五月」。約3200年前，占卜師「爭」刻下了它。'),
+    marks: [{ x: 0.199, y: 0.663, w: 0.042, h: 0.060,
+      label: T('月 (“month”) under 五 (“five”): 五月, “in the fifth month”', '“五”下面的弯月：“五月”', '「五」下面的彎月：「五月」') }] },
   鹿: { img: 'yh127-plastron', title: T('Turtle shell from pit YH127, Academia Sinica', 'YH127坑龟腹甲（中研院史语所）', 'YH127坑龜腹甲（中研院史語所）'),
     text: T('This turtle shell asks: “Will the king catch deer?” It was found in 1936 in one pit with about 17,000 inscribed shells!',
       '这片龟甲在问：“大王会捕到鹿吗？”它是1936年在一个坑里发现的，那个坑里有约一万七千片刻字的甲骨！',
@@ -51,18 +66,23 @@ const ORACLE_APPEARS: Record<string, { img: string; title: Tri; text: Tri }> = {
       '這片龜甲記錄了用羊和狗獻祭，還問大王會不會捕到鹿。') },
 };
 
+const HEJI6057_MARKS: Record<string, ArtifactMark[]> = {
+  田: [{ x: 0.418, y: 0.766, w: 0.052, h: 0.036,
+    label: T('田 (“field”) in “侵我西鄙田” — invaded the fields on our western border', '“侵我西鄙田”（侵犯我们西边的农田）里的“田”', '「侵我西鄙田」（侵犯我們西邊的農田）裡的「田」') }],
+};
+
 function oracle(ch: string, st: HistStage): ArtifactRef {
   const note = st.prov?.note ?? '';
   const heji = note.match(/合(\d+)/)?.[1];
   if (heji === '6057') {
-    return { kind: 'exact', img: C['heji6057'], source: note,
+    return { kind: 'exact', img: C['heji6057'], marks: HEJI6057_MARKS[ch], source: note,
       title: T('Oracle bone No. 6057 (Heji)', '甲骨文合集 6057 号', '甲骨文合集 6057 號'),
-      text: T(`This very ox bone! The ${ch} you just saw was copied from it. It is about 3,200 years old and lives in the National Museum of China.`,
-        `就是这块牛骨！刚才的“${ch}”就是从它上面描下来的。它已经约3200岁了，现藏中国国家博物馆。`,
-        `就是這塊牛骨！剛才的「${ch}」就是從它上面描下來的。它已經約3200歲了，現藏中國國家博物館。`) };
+      text: T(`This very ox bone! The ${ch} you just saw (circled in red) was copied right from it. It is about 3,200 years old and lives in the National Museum of China.`,
+        `就是这块牛骨！刚才的“${ch}”（红圈处）就是从它上面描下来的。它已经约3200岁了，现藏中国国家博物馆。`,
+        `就是這塊牛骨！剛才的「${ch}」（紅圈處）就是從它上面描下來的。它已經約3200歲了，現藏中國國家博物館。`) };
   }
   const appears = ORACLE_APPEARS[ch];
-  if (appears) return { kind: 'appears', img: C[appears.img], title: appears.title, text: appears.text, source: note || undefined };
+  if (appears) return { kind: 'appears', img: C[appears.img], marks: appears.marks, title: appears.title, text: appears.text, source: note || undefined };
   const firstBook = note.startsWith('鐵')
     ? T(' It was first printed in 1903 in “Tieyun Canggui”, the very first book of oracle bones!', '它最早印在1903年的《铁云藏龟》里——第一本甲骨文的书！', '它最早印在1903年的《鐵雲藏龜》裡——第一本甲骨文的書！')
     : T('', '', '');
@@ -105,27 +125,73 @@ const VESSELS: Vessel[] = [
   { key: '羊作父乙卣', en: 'Yang you', zh: '羊作父乙卣', kind: T('a bronze wine bucket', '青铜酒器', '青銅酒器'), years: '3,000' },
 ];
 
+const DAYU_MARKS: Record<string, { marks: ArtifactMark[]; phrase: Tri }> = {
+  雨: {
+    phrase: T('in the character 雩 (a rain-prayer ritual), which appears three times', '在“雩”（祈雨祭祀）字里出现了三次', '在「雩」（祈雨祭祀）字裡出現了三次'),
+    marks: [
+      { x: 0.714, y: 0.285, w: 0.038, h: 0.033, label: T('雨 at the top of 雩 (column 5: “雩殷正百辟”)', '第5行“雩”字上半部的“雨”（“雩殷正百辟”）', '第5行「雩」字上半部的「雨」（「雩殷正百辟」）') },
+      { x: 0.836, y: 0.704, w: 0.039, h: 0.035, label: T('雨 at the top of 雩 (column 3: “在雩御事”)', '第3行“雩”字上半部的“雨”（“在雩御事”）', '第3行「雩」字上半部的「雨」（「在雩御事」）') },
+      { x: 0.331, y: 0.356, w: 0.033, h: 0.031, label: T('雨 at the top of 雩 (column 13: “雩我其遹省”)', '第13行“雩”字上半部的“雨”（“雩我其遹省”）', '第13行「雩」字上半部的「雨」（「雩我其遹省」）') },
+    ],
+  },
+  田: {
+    phrase: T('in “殷邊侯、田” (column 5, right above 雩)', '在第5行的“殷边侯、田”里（就在“雩”字正上方）', '在第5行的「殷邊侯、田」裡（就在「雩」字正上方）'),
+    marks: [{ x: 0.714, y: 0.241, w: 0.034, h: 0.031, label: T('田 in “殷邊侯、田” (column 5)', '第5行“殷边侯、田”里的“田”', '第5行「殷邊侯、田」裡的「田」') }],
+  },
+  马: {
+    phrase: T('in “錫車馬” — the king rewarded Yu with a chariot and horses (column 14)', '在第14行的“锡车马”（赏赐车和马）里', '在第14行的「錫車馬」（賞賜車和馬）裡'),
+    marks: [{ x: 0.270, y: 0.798, w: 0.036, h: 0.050, label: T('馬 (“horse”) right under 車 (“chariot”), column 14', '第14行“车”字正下方的“马”', '第14行「車」字正下方的「馬」') }],
+  },
+  夫: {
+    phrase: T('in “六百又五十又九夫” (659 men) and “千又五十夫” (1,050 men) in columns 15–16', '在第15、16行的“六百又五十又九夫”和“千又五十夫”里', '在第15、16行的「六百又五十又九夫」和「千又五十夫」裡'),
+    marks: [
+      { x: 0.197, y: 0.675, w: 0.032, h: 0.050, label: T('夫 (“men”) in “六百又五十又九夫” — 659 men (column 15)', '第15行“六百又五十又九夫”（659人）里的“夫”', '第15行「六百又五十又九夫」（659人）裡的「夫」') },
+      { x: 0.148, y: 0.672, w: 0.031, h: 0.050, label: T('夫 (“men”) in “千又五十夫” — 1,050 men (column 16)', '第16行“千又五十夫”（1050人）里的“夫”', '第16行「千又五十夫」（1050人）裡的「夫」') },
+    ],
+  },
+  月: {
+    phrase: T('in the opening words “隹九月” — in the ninth month (column 1)', '在第1行开头的“隹九月”（在九月）里', '在第1行開頭的「隹九月」（在九月）裡'),
+    marks: [{ x: 0.933, y: 0.176, w: 0.031, h: 0.054, label: T('月 (“month”) in “隹九月” (column 1, 3rd character)', '第1行第3个字：“隹九月”里的“月”', '第1行第3個字：「隹九月」裡的「月」') }],
+  },
+};
+
+const HUDING_MARKS: Record<string, ArtifactMark[]> = {
+  门: [{ x: 0.118, y: 0.152, w: 0.039, h: 0.053,
+    label: T('門 (“gate”) in “于王參門” — at the King’s Three Gates', '“于王参门”（在周王的三门）里的“门”', '「于王參門」（在周王的三門）裡的「門」') }],
+};
+
 function bronze(ch: string, st: HistStage): ArtifactRef {
   const note = st.prov?.note ?? '';
   const part = note.match(/taken from (\S)/)?.[1];
   const partTri = part
     ? T(` (it is the ${ch} part of the character ${part})`, `（取自“${part}”字里的“${ch}”）`, `（取自「${part}」字裡的「${ch}」）`)
     : T('', '', '');
+  const dayu = DAYU_MARKS[ch];
   if (note.startsWith('大盂鼎')) {
-    return { kind: 'exact', img: C['dayu-inscription'], img2: C['dayu-ding'], source: note,
+    return { kind: 'exact', img: C['dayu-inscription'], img2: C['dayu-ding'], marks: dayu?.marks, source: note,
       title: T('The Da Yu ding (大盂鼎)', '大盂鼎', '大盂鼎'),
-      text: T(`This ${ch} was copied from the Da Yu ding${partTri.en}, a giant bronze cauldron cast about 3,000 years ago. This is an ink rubbing of its long inscription; the cauldron is in the National Museum of China.`,
-        `这个“${ch}”描自大盂鼎${partTri.zhs}。大盂鼎是约3000年前铸造的大青铜鼎，这是它铭文的拓片。大盂鼎现藏中国国家博物馆。`,
-        `這個「${ch}」描自大盂鼎${partTri.zht}。大盂鼎是約3000年前鑄造的大青銅鼎，這是它銘文的拓片。大盂鼎現藏中國國家博物館。`) };
+      text: T(`This ${ch} was copied from the Da Yu ding${partTri.en}, a giant bronze cauldron cast about 3,000 years ago. Look at the red circles on this ink rubbing of its inscription!`,
+        `这个“${ch}”描自大盂鼎${partTri.zhs}。大盂鼎是约3000年前铸造的大青铜鼎，看拓片上的红圈！大盂鼎现藏中国国家博物馆。`,
+        `這個「${ch}」描自大盂鼎${partTri.zht}。大盂鼎是約3000年前鑄造的大青銅鼎，看拓片上的紅圈！大盂鼎現藏中國國家博物館。`) };
   }
   if (note.startsWith('曶鼎')) {
-    return { kind: 'exact', img: C['hu-ding-rubbing'], source: note,
+    return { kind: 'exact', img: C['hu-ding-rubbing'], marks: HUDING_MARKS[ch], source: note,
       title: T('The Hu ding (曶鼎)', '曶鼎', '曶鼎'),
-      text: T(`This ${ch} was copied from the Hu ding, a bronze cauldron from about 2,900 years ago. The cauldron itself is lost — only ink rubbings of its writing survive, like this one!`,
-        `这个“${ch}”描自曶鼎，一件约2900年前的青铜鼎。鼎本身已经失传了，只留下像这样的铭文拓片！`,
-        `這個「${ch}」描自曶鼎，一件約2900年前的青銅鼎。鼎本身已經失傳了，只留下像這樣的銘文拓片！`) };
+      text: T(`This ${ch} (circled in red) was copied from the Hu ding, a bronze cauldron from about 2,900 years ago. The cauldron itself is lost — only ink rubbings of its writing survive, like this one!`,
+        `这个“${ch}”（红圈处）描自曶鼎，一件约2900年前的青铜鼎。鼎本身已经失传了，只留下像这样的铭文拓片！`,
+        `這個「${ch}」（紅圈處）描自曶鼎，一件約2900年前的青銅鼎。鼎本身已經失傳了，只留下像這樣的銘文拓片！`) };
   }
   const v = VESSELS.find((x) => note.startsWith(x.key));
+  if (dayu) {
+    const tracedFrom = v
+      ? T(`Our ${ch} glyph was traced from the ${v.en} (${v.key}). `, `动画里的“${ch}”描自${v.zh}。`, `動畫裡的「${ch}」描自${v.key}。`)
+      : T('', '', '');
+    return { kind: 'appears', img: C['dayu-inscription'], img2: C['dayu-ding'], marks: dayu.marks, source: note || undefined,
+      title: T('The Da Yu ding (大盂鼎)', '大盂鼎铭文', '大盂鼎銘文'),
+      text: T(`${tracedFrom.en}You can also spot ${ch} circled in red on this ink rubbing of the Da Yu ding (about 3,000 years old), ${dayu.phrase.en}!`,
+        `${tracedFrom.zhs}在这张约3000年前的大盂鼎铭文拓片上，你也能在红圈里找到“${ch}”字——就${dayu.phrase.zhs}！`,
+        `${tracedFrom.zht}在這張約3000年前的大盂鼎銘文拓片上，你也能在紅圈裡找到「${ch}」字——就${dayu.phrase.zht}！`) };
+  }
   if (v) {
     return { kind: 'example', img: C['dayu-ding'], source: note,
       title: T(`Copied from the ${v.en}`, `描自${v.zh}`, `描自${v.key}`),
@@ -219,10 +285,14 @@ function regular(ch: string, disp: string): ArtifactRef {
   if (ch === '舍') {
     // The photographed page really shows this line: 丙舍傍啓甲帳對楹肆筵 (regular + cursive columns).
     return { kind: 'appears', img: C['zhiyong'],
+      marks: [
+        { x: 0.270, y: 0.122, w: 0.185, h: 0.078, label: T('舍 in regular script (楷書): “丙舍傍啟” (3rd column from right)', '右边第3行楷书写的“舍”（“丙舍傍启”）', '右邊第3行楷書寫的「舍」（「丙舍傍啟」）') },
+        { x: 0.045, y: 0.128, w: 0.150, h: 0.088, label: T('The same 舍 in cursive script (草書) in the column beside it!', '旁边第4行用草书写的同一个“舍”字！', '旁邊第4行用草書寫的同一個「舍」字！') },
+      ],
       title: T('Thousand Character Classic (千字文)', '《千字文》', '《千字文》'),
-      text: T('Spot it! In this 1,400-year-old page by the monk Zhiyong, 舍 is the 2nd character of the third column from the right: “丙舍傍啟”, side halls open next to the palace. The column next to it shows the same words in fast cursive writing.',
-        '找一找！在这页约1400年前智永写的《千字文》里，“舍”是右边第三行的第二个字：“丙舍傍启”。旁边那一行是同样的字，用草书写的。',
-        '找一找！在這頁約1400年前智永寫的《千字文》裡，「舍」是右邊第三行的第二個字：「丙舍傍啟」。旁邊那一行是同樣的字，用草書寫的。') };
+      text: T('Spot it in the red circles! In this 1,400-year-old page by the monk Zhiyong, 舍 is the 2nd character of the third column from the right: “丙舍傍啟”, side halls open next to the palace. The column next to it shows the same words in fast cursive writing.',
+        '看红圈里！在这页约1400年前智永写的《千字文》里，“舍”是右边第三行的第二个字：“丙舍傍启”。旁边那一行是同样的字，用草书写的。',
+        '看紅圈裡！在這頁約1400年前智永寫的《千字文》裡，「舍」是右邊第三行的第二個字：「丙舍傍啟」。旁邊那一行是同樣的字，用草書寫的。') };
   }
   if (q) {
     return { kind: 'book', img: C['zhiyong'],
@@ -241,12 +311,14 @@ function regular(ch: string, disp: string): ArtifactRef {
 /** The artifact to show for a character at a given stage (null when there is nothing honest to show). */
 export function artifactFor(ch: string, stage: StageId, hist: HistStage | undefined, disp: string): ArtifactRef | null {
   if (!C['heji6057']) return null; // artifacts not fetched
+  let ref: ArtifactRef | null = null;
   switch (stage) {
-    case 'oracle': return hist ? oracle(ch, hist) : null;
-    case 'bronze': return hist ? bronze(ch, hist) : null;
-    case 'seal': return seal();
-    case 'clerical': return hist ? clerical(ch, hist) : null;
-    case 'regular': return regular(ch, disp);
-    default: return null;
+    case 'oracle': ref = hist ? oracle(ch, hist) : null; break;
+    case 'bronze': ref = hist ? bronze(ch, hist) : null; break;
+    case 'seal': ref = seal(); break;
+    case 'clerical': ref = hist ? clerical(ch, hist) : null; break;
+    case 'regular': ref = regular(ch, disp); break;
   }
+  if (ref) { ref.hist = hist; ref.disp = disp; }
+  return ref;
 }

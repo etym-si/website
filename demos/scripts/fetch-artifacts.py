@@ -33,7 +33,7 @@ ARTIFACTS = {
     "yh127-plastron": "File:帶卜辭龜腹甲（丙86）.jpg",
     "dayu-ding": "File:Western Zhou bronze ding.jpg",
     "dayu-inscription": "File:Da Yu ding inscription.jpg",
-    "hu-ding-rubbing": "File:周曶鼎铭文.jpg",
+    "hu-ding-rubbing": "File:沈韵初旧藏曶鼎铭拓片 cutter.jpg",
     "shuowen": "File:Shuowen Jiezi, by Xu Xuan.png",
     "qin-laws": "File:Eighteen Laws of Qin on Qin Bamboo Slips (10160622885).jpg",
     "qin-legal": "File:Qin Bamboo Slips Dealing with Legal Questions (10160525384).jpg",

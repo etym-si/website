@@ -121,6 +121,10 @@ export const STR = {
   catalogue: tri('Catalogue', '著录', '著錄'),
   viewSource: tri('Wikimedia Commons', '维基共享资源', '維基共享資源'),
   close: tri('Close', '关闭', '關閉'),
+  circledHere: tri('Circled in red on this artifact', '文物上红圈标出的字', '文物上紅圈標出的字'),
+  hideCircle: tri('Hide red circle', '隐藏红圈', '隱藏紅圈'),
+  showCircle: tri('Show red circle', '显示红圈', '顯示紅圈'),
+  compareGlyph: tri('On the artifact vs. our glyph', '文物原字 vs. 描摹字形', '文物原字 vs. 描摹字形'),
   speechUnavailable: tri('No Chinese voice on this device', '此设备没有中文语音', '此裝置沒有中文語音'),
 } satisfies Record<string, Tri>;
 

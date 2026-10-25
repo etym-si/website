@@ -21,20 +21,23 @@ try {
     await page.click('.controls .seg .chip:nth-child(3)'); // 2× speed
     const seenStages = new Set();
     let dialogShot = false;
-    for (let t = 0; t < 120 && seenStages.size < 6; t++) {
-      await page.waitForTimeout(500);
+    for (let t = 0; t < 160 && seenStages.size < 6; t++) {
+      await page.waitForTimeout(250);
       const st = await page.locator('.tl-station.current').getAttribute('data-stage').catch(() => null);
       if (!st || seenStages.has(st)) continue;
       seenStages.add(st);
-      await page.waitForTimeout(900);
+      await page.waitForTimeout(350);
       await page.screenshot({ path: join(root, 'shots', `art-${ch}-${st}.png`) });
       console.log(ch, st, await page.locator('.artifact-card:not(.hidden) .a-title').textContent().catch(() => '(no card)'));
-      if (!dialogShot && (await page.locator('.artifact-card:not(.hidden) .a-exact').count())) {
+      if (await page.locator('.artifact-card:not(.hidden) .a-mark').count()) {
         await page.locator('.artifact-card').click();
-        await page.waitForTimeout(700);
-        await page.screenshot({ path: join(root, 'shots', `art-${ch}-dialog.png`) });
+        await page.waitForTimeout(450);
+        await page.screenshot({ path: join(root, 'shots', `art-${ch}-${st}-dialog.png`) });
+        if (!dialogShot) {
+          await page.screenshot({ path: join(root, 'shots', `art-${ch}-dialog.png`) });
+          dialogShot = true;
+        }
         await page.keyboard.press('Escape');
-        dialogShot = true;
       }
     }
     await page.waitForTimeout(2500);
