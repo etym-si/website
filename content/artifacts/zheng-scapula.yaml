@@ -20,7 +20,7 @@ occurrences:
     text:
       en: "Look closely at the red circle: this bone says 五月, “in the fifth month”. The diviner Zheng carved it about 3,200 years ago."
       zh-Hans: 看红圈里：这块牛骨上写着“五月”。约3200年前，占卜师“争”刻下了它。
-      zh-Hant: 看紅圈裡：這块牛骨上寫著「五月」。約3200年前，占卜師「爭」刻下了它。
+      zh-Hant: 看紅圈裡：這塊牛骨上寫著「五月」。約3200年前，占卜師「爭」刻下了它。
     marks:
       - box: [ 0.199, 0.663, 0.042, 0.06 ]
         label:
