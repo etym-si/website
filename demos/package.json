@@ -1,0 +1,23 @@
+{
+  "name": "etymsi-demos",
+  "private": true,
+  "version": "0.0.1",
+  "description": "Throwaway prototypes for etym.si: evolution theater, story scene, lesson loop",
+  "type": "module",
+  "scripts": {
+    "glyphs": "python3 scripts/fetch-glyphs.py",
+    "dev": "vite --host 127.0.0.1 --port 3636",
+    "build": "tsc --noEmit && vite build",
+    "preview:lan": "vite preview --host 172.17.197.51 --port 3636 --strictPort",
+    "shoot": "node scripts/shoot.mjs"
+  },
+  "dependencies": {
+    "hanzi-writer": "3.7.3"
+  },
+  "devDependencies": {
+    "hanzi-writer-data": "2.0.1",
+    "playwright": "1.63.0",
+    "typescript": "7.0.2",
+    "vite": "8.3.5"
+  }
+}

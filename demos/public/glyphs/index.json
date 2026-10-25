@@ -1,0 +1,448 @@
+[
+ {
+  "char": "日",
+  "trad": "日",
+  "stages": [
+   "oracle:oracle",
+   "bronze:bronze",
+   "seal:seal",
+   "clerical:silk"
+  ],
+  "hanzi": [
+   "日"
+  ]
+ },
+ {
+  "char": "山",
+  "trad": "山",
+  "stages": [
+   "oracle:oracle",
+   "bronze:bronze",
+   "seal:seal",
+   "clerical:silk"
+  ],
+  "hanzi": [
+   "山"
+  ]
+ },
+ {
+  "char": "水",
+  "trad": "水",
+  "stages": [
+   "oracle:oracle",
+   "bronze:bronze",
+   "seal:seal",
+   "clerical:slip"
+  ],
+  "hanzi": [
+   "水"
+  ]
+ },
+ {
+  "char": "林",
+  "trad": "林",
+  "stages": [
+   "oracle:oracle",
+   "bronze:bronze",
+   "seal:seal"
+  ],
+  "hanzi": [
+   "林"
+  ]
+ },
+ {
+  "char": "木",
+  "trad": "木",
+  "stages": [
+   "oracle:oracle",
+   "bronze:bronze",
+   "seal:seal",
+   "clerical:silk"
+  ],
+  "hanzi": [
+   "木"
+  ]
+ },
+ {
+  "char": "鸟",
+  "trad": "鳥",
+  "stages": [
+   "oracle:oracle",
+   "bronze:bronze",
+   "seal:seal"
+  ],
+  "hanzi": [
+   "鳥",
+   "鸟"
+  ]
+ },
+ {
+  "char": "象",
+  "trad": "象",
+  "stages": [
+   "oracle:oracle",
+   "bronze:bronze",
+   "seal:seal"
+  ],
+  "hanzi": [
+   "象"
+  ]
+ },
+ {
+  "char": "草",
+  "trad": "草",
+  "stages": [
+   "seal:seal",
+   "seal:seal"
+  ],
+  "hanzi": [
+   "草"
+  ]
+ },
+ {
+  "char": "田",
+  "trad": "田",
+  "stages": [
+   "oracle:oracle",
+   "bronze:bronze",
+   "seal:seal",
+   "clerical:slip"
+  ],
+  "hanzi": [
+   "田"
+  ]
+ },
+ {
+  "char": "竹",
+  "trad": "竹",
+  "stages": [
+   "oracle:oracle",
+   "bronze:bronze",
+   "seal:seal",
+   "clerical:slip"
+  ],
+  "hanzi": [
+   "竹"
+  ]
+ },
+ {
+  "char": "马",
+  "trad": "馬",
+  "stages": [
+   "oracle:oracle",
+   "bronze:bronze",
+   "seal:seal",
+   "clerical:clerical-han"
+  ],
+  "hanzi": [
+   "馬",
+   "马"
+  ]
+ },
+ {
+  "char": "夫",
+  "trad": "夫",
+  "stages": [
+   "oracle:oracle",
+   "bronze:bronze",
+   "seal:seal"
+  ],
+  "hanzi": [
+   "夫"
+  ]
+ },
+ {
+  "char": "刀",
+  "trad": "刀",
+  "stages": [
+   "oracle:oracle",
+   "bronze:bronze",
+   "seal:seal",
+   "clerical:slip"
+  ],
+  "hanzi": [
+   "刀"
+  ]
+ },
+ {
+  "char": "舟",
+  "trad": "舟",
+  "stages": [
+   "oracle:oracle",
+   "bronze:bronze",
+   "seal:seal"
+  ],
+  "hanzi": [
+   "舟"
+  ]
+ },
+ {
+  "char": "鱼",
+  "trad": "魚",
+  "stages": [
+   "oracle:oracle",
+   "bronze:bronze",
+   "seal:seal"
+  ],
+  "hanzi": [
+   "魚",
+   "鱼"
+  ]
+ },
+ {
+  "char": "网",
+  "trad": "網",
+  "stages": [
+   "oracle:oracle",
+   "bronze:bronze",
+   "seal:seal",
+   "clerical:clerical"
+  ],
+  "hanzi": [
+   "網",
+   "网"
+  ]
+ },
+ {
+  "char": "燕",
+  "trad": "燕",
+  "stages": [
+   "oracle:oracle",
+   "seal:seal"
+  ],
+  "hanzi": [
+   "燕"
+  ]
+ },
+ {
+  "char": "云",
+  "trad": "雲",
+  "stages": [
+   "oracle:oracle",
+   "seal:seal"
+  ],
+  "hanzi": [
+   "雲",
+   "云"
+  ]
+ },
+ {
+  "char": "雨",
+  "trad": "雨",
+  "stages": [
+   "oracle:oracle",
+   "bronze:bronze",
+   "seal:seal",
+   "clerical:slip"
+  ],
+  "hanzi": [
+   "雨"
+  ]
+ },
+ {
+  "char": "伞",
+  "trad": "傘",
+  "stages": [],
+  "hanzi": [
+   "傘",
+   "伞"
+  ]
+ },
+ {
+  "char": "石",
+  "trad": "石",
+  "stages": [
+   "oracle:oracle",
+   "bronze:bronze",
+   "seal:seal",
+   "clerical:silk"
+  ],
+  "hanzi": [
+   "石"
+  ]
+ },
+ {
+  "char": "火",
+  "trad": "火",
+  "stages": [
+   "oracle:oracle",
+   "bronze:bronze",
+   "seal:seal",
+   "clerical:slip"
+  ],
+  "hanzi": [
+   "火"
+  ]
+ },
+ {
+  "char": "龟",
+  "trad": "龜",
+  "stages": [
+   "oracle:oracle",
+   "bronze:bronze",
+   "seal:seal"
+  ],
+  "hanzi": [
+   "龜",
+   "龟"
+  ]
+ },
+ {
+  "char": "鹿",
+  "trad": "鹿",
+  "stages": [
+   "oracle:oracle",
+   "bronze:bronze",
+   "seal:seal"
+  ],
+  "hanzi": [
+   "鹿"
+  ]
+ },
+ {
+  "char": "豕",
+  "trad": "豕",
+  "stages": [
+   "oracle:oracle",
+   "bronze:bronze",
+   "seal:seal"
+  ],
+  "hanzi": [
+   "豕"
+  ]
+ },
+ {
+  "char": "叟",
+  "trad": "叟",
+  "stages": [],
+  "hanzi": [
+   "叟"
+  ]
+ },
+ {
+  "char": "虎",
+  "trad": "虎",
+  "stages": [
+   "oracle:oracle",
+   "bronze:bronze",
+   "seal:seal",
+   "clerical:slip"
+  ],
+  "hanzi": [
+   "虎"
+  ]
+ },
+ {
+  "char": "弓",
+  "trad": "弓",
+  "stages": [
+   "oracle:oracle",
+   "bronze:bronze",
+   "seal:seal",
+   "clerical:slip"
+  ],
+  "hanzi": [
+   "弓"
+  ]
+ },
+ {
+  "char": "舍",
+  "trad": "舍",
+  "stages": [
+   "bronze:bronze",
+   "seal:seal"
+  ],
+  "hanzi": [
+   "舍"
+  ]
+ },
+ {
+  "char": "羊",
+  "trad": "羊",
+  "stages": [
+   "oracle:oracle",
+   "bronze:bronze",
+   "seal:seal"
+  ],
+  "hanzi": [
+   "羊"
+  ]
+ },
+ {
+  "char": "花",
+  "trad": "花",
+  "stages": [
+   "bronze:bronze",
+   "seal:seal"
+  ],
+  "hanzi": [
+   "花"
+  ]
+ },
+ {
+  "char": "门",
+  "trad": "門",
+  "stages": [
+   "oracle:oracle",
+   "bronze:bronze",
+   "seal:seal",
+   "clerical:slip"
+  ],
+  "hanzi": [
+   "門",
+   "门"
+  ]
+ },
+ {
+  "char": "犬",
+  "trad": "犬",
+  "stages": [
+   "oracle:oracle",
+   "bronze:bronze",
+   "seal:seal",
+   "clerical:silk"
+  ],
+  "hanzi": [
+   "犬"
+  ]
+ },
+ {
+  "char": "子",
+  "trad": "子",
+  "stages": [
+   "oracle:oracle",
+   "bronze:bronze",
+   "seal:seal",
+   "clerical:silk"
+  ],
+  "hanzi": [
+   "子"
+  ]
+ },
+ {
+  "char": "女",
+  "trad": "女",
+  "stages": [
+   "oracle:oracle",
+   "bronze:bronze",
+   "seal:seal",
+   "clerical:slip"
+  ],
+  "hanzi": [
+   "女"
+  ]
+ },
+ {
+  "char": "月",
+  "trad": "月",
+  "stages": [
+   "oracle:oracle",
+   "bronze:bronze",
+   "seal:seal",
+   "clerical:silk"
+  ],
+  "hanzi": [
+   "月"
+  ]
+ }
+]
