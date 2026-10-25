@@ -121,6 +121,8 @@ if (fs.existsSync(RESEARCH)) {
   }
 }
 const tradSet = new Set(s2t.values());
+// Simplified forms that are also standard Taiwan characters in other words (只有, 公里, 皇后, 茶几 …).
+const VALID_IN_HANT = new Set([...'只里后几干台斗谷面松系才向了表借布游周杯准']);
 
 // ── load signs ──────────────────────────────────────────────────────────────
 const sources = []; // { file, text }
@@ -262,7 +264,7 @@ for (const { file, text } of sources) {
     if ((v.en || '').length > 260) warn(at([...k.split('.'), 'en']), `long line (${v.en.length} chars)`);
     const hant = v['zh-Hant'] || '';
     const hansText = v['zh-Hans'] || '';
-    const bad = [...hant].filter((c) => s2t.has(c) && !tradSet.has(c));
+    const bad = [...hant].filter((c) => s2t.has(c) && !tradSet.has(c) && !VALID_IN_HANT.has(c));
     if (bad.length) warn(at([...k.split('.'), 'zh-Hant']), `simplified form(s) in zh-Hant: ${[...new Set(bad)].join('')}`);
     const badT = [...hansText].filter((c) => tradSet.has(c) && !s2t.has(c));
     if (badT.length) warn(at([...k.split('.'), 'zh-Hans']), `traditional form(s) in zh-Hans: ${[...new Set(badT)].join('')}`);

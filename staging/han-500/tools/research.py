@@ -218,7 +218,7 @@ DROP = {"han etym", "han etyl", "han ref", "rfe", "rfv-etym", "rfc", "rfd", "rfv
         "zh-hg", "nb...", "sense", "senseid", "etymid", "zh-pron", "zh-forms", "head", "zh-hanzi", "han char",
         "defdate", "r:yue:hanzi", "zh-cat", "rfdef", "zh-attn-split", "tea room", "rfquotek", "rfclarify",
         "rfex", "rfref", "rftranslit", "zh-x/rest", "slim-wikipedia", "seemorecites", "zh-dial-syn",
-        "sic", "cog", "inh", "der", "bor", "ncog", "unk", "zh-erhua form", "q-lite", "ipachar", "lang-lite", "tcl"}
+        "sic", "cog", "inh", "der", "bor", "ncog", "zh-erhua form", "q-lite", "ipachar", "lang-lite", "tcl"}
 YES = {"y", "yes", "1", "true", "t", "on"}
 
 
@@ -361,6 +361,8 @@ def render(name: str, pos: list[str], named: dict[str, str]) -> str:
         return f"{word} of {_term(P(0))}{_gloss(P(1))}"
     if name in ("unc", "uncertain"):
         return "Uncertain"
+    if name in ("unk", "unknown"):
+        return "Unknown"
     if name == "zh-subst-char":
         return f"substitute character for {_term(P(0))}{_gloss(P(1))}"
     if name == "zh-alt-lb":
@@ -560,7 +562,7 @@ def shuowen(sec: str, origin_flat: str) -> list[str]:
 def page_extract(doc: dict | None) -> dict:
     if not doc or doc.get("missing"):
         return {}
-    sec = chinese_section(doc["content"])
+    sec = re.sub(r"<!--.*?-->", "", chinese_section(doc["content"]), flags=re.S)
     if not sec:
         return {"no_chinese": True}
     origins = [tidy(flatten(strip_markup_noise(b))) for b in subsections(sec, "Glyph origin")]
