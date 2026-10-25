@@ -1,0 +1,10970 @@
+{
+ "人": {
+  "char": "人",
+  "trad": "人",
+  "plan": "default",
+  "count": 4,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "人",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "人",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "人",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "人",
+    "variant": "clerical"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "人"
+  ]
+ },
+ "大": {
+  "char": "大",
+  "trad": "大",
+  "plan": "default",
+  "count": 4,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "大",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "大",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "大",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "大",
+    "variant": "clerical"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "大"
+  ]
+ },
+ "立": {
+  "char": "立",
+  "trad": "立",
+  "plan": "default",
+  "count": 3,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "立",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "立",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "立",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "立"
+  ]
+ },
+ "介": {
+  "char": "介",
+  "trad": "介",
+  "plan": "default",
+  "count": 4,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "介",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "介",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "介",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "介",
+    "variant": "slip"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "介"
+  ]
+ },
+ "儿": {
+  "char": "儿",
+  "trad": "兒",
+  "plan": "default",
+  "count": 4,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "兒",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "兒",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "兒",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "兒",
+    "variant": "slip"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "兒",
+   "儿"
+  ]
+ },
+ "父": {
+  "char": "父",
+  "trad": "父",
+  "plan": "default",
+  "count": 4,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "父",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "父",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "父",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "父",
+    "variant": "silk"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "父"
+  ]
+ },
+ "母": {
+  "char": "母",
+  "trad": "母",
+  "plan": "default",
+  "count": 3,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "母",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "母",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "母",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "母"
+  ]
+ },
+ "口": {
+  "char": "口",
+  "trad": "口",
+  "plan": "default",
+  "count": 4,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "口",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "口",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "口",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "口",
+    "variant": "silk"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "口"
+  ]
+ },
+ "目": {
+  "char": "目",
+  "trad": "目",
+  "plan": "default",
+  "count": 4,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "目",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "目",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "目",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "目",
+    "variant": "slip"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "目"
+  ]
+ },
+ "耳": {
+  "char": "耳",
+  "trad": "耳",
+  "plan": "default",
+  "count": 4,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "耳",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "耳",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "耳",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "耳",
+    "variant": "slip"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "耳"
+  ]
+ },
+ "面": {
+  "char": "面",
+  "trad": "面",
+  "plan": "default",
+  "count": 2,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "面",
+    "variant": "oracle"
+   },
+   {
+    "stage": "seal",
+    "form": "面",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "面"
+  ]
+ },
+ "首": {
+  "char": "首",
+  "trad": "首",
+  "plan": "default",
+  "count": 3,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "首",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "首",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "首",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "首"
+  ]
+ },
+ "页": {
+  "char": "页",
+  "trad": "頁",
+  "plan": "default",
+  "count": 4,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "頁",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "頁",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "頁",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "頁",
+    "variant": "silk"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "頁",
+   "页"
+  ]
+ },
+ "牙": {
+  "char": "牙",
+  "trad": "牙",
+  "plan": "default",
+  "count": 3,
+  "stages": [
+   {
+    "stage": "bronze",
+    "form": "牙",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "牙",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "牙",
+    "variant": "silk"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "牙"
+  ]
+ },
+ "齿": {
+  "char": "齿",
+  "trad": "齒",
+  "plan": "default",
+  "count": 3,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "齒",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "齒",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "齒",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "齒",
+   "齿"
+  ]
+ },
+ "舌": {
+  "char": "舌",
+  "trad": "舌",
+  "plan": "default",
+  "count": 3,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "舌",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "舌",
+    "variant": "bronze-shang"
+   },
+   {
+    "stage": "seal",
+    "form": "舌",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "舌"
+  ]
+ },
+ "眉": {
+  "char": "眉",
+  "trad": "眉",
+  "plan": "default",
+  "count": 3,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "眉",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "眉",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "眉",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "眉"
+  ]
+ },
+ "手": {
+  "char": "手",
+  "trad": "手",
+  "plan": "default",
+  "count": 3,
+  "stages": [
+   {
+    "stage": "bronze",
+    "form": "手",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "手",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "手",
+    "variant": "slip"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "手"
+  ]
+ },
+ "又": {
+  "char": "又",
+  "trad": "又",
+  "plan": "default",
+  "count": 4,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "又",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "又",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "又",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "又",
+    "variant": "silk"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "又"
+  ]
+ },
+ "左": {
+  "char": "左",
+  "trad": "左",
+  "plan": "default",
+  "count": 4,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "左",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "左",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "左",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "左",
+    "variant": "slip"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "左"
+  ]
+ },
+ "右": {
+  "char": "右",
+  "trad": "右",
+  "plan": "default",
+  "count": 4,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "右",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "右",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "右",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "右",
+    "variant": "silk"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "右"
+  ]
+ },
+ "足": {
+  "char": "足",
+  "trad": "足",
+  "plan": "default",
+  "count": 3,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "足",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "足",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "足",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "足"
+  ]
+ },
+ "止": {
+  "char": "止",
+  "trad": "止",
+  "plan": "default",
+  "count": 4,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "止",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "止",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "止",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "止",
+    "variant": "slip"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "止"
+  ]
+ },
+ "爪": {
+  "char": "爪",
+  "trad": "爪",
+  "plan": "default",
+  "count": 3,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "爪",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "爪",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "爪",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "爪"
+  ]
+ },
+ "力": {
+  "char": "力",
+  "trad": "力",
+  "plan": "default",
+  "count": 4,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "力",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "力",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "力",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "力",
+    "variant": "slip"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "力"
+  ]
+ },
+ "身": {
+  "char": "身",
+  "trad": "身",
+  "plan": "default",
+  "count": 4,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "身",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "身",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "身",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "身",
+    "variant": "silk"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "身"
+  ]
+ },
+ "心": {
+  "char": "心",
+  "trad": "心",
+  "plan": "default",
+  "count": 4,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "心",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "心",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "心",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "心",
+    "variant": "slip"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "心"
+  ]
+ },
+ "皮": {
+  "char": "皮",
+  "trad": "皮",
+  "plan": "default",
+  "count": 2,
+  "stages": [
+   {
+    "stage": "bronze",
+    "form": "皮",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "皮",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "皮"
+  ]
+ },
+ "肉": {
+  "char": "肉",
+  "trad": "肉",
+  "plan": "default",
+  "count": 4,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "肉",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "肉",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "肉",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "肉",
+    "variant": "clerical-han"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "肉"
+  ]
+ },
+ "血": {
+  "char": "血",
+  "trad": "血",
+  "plan": "default",
+  "count": 3,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "血",
+    "variant": "oracle"
+   },
+   {
+    "stage": "seal",
+    "form": "血",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "血",
+    "variant": "slip"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "血"
+  ]
+ },
+ "毛": {
+  "char": "毛",
+  "trad": "毛",
+  "plan": "default",
+  "count": 3,
+  "stages": [
+   {
+    "stage": "bronze",
+    "form": "毛",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "毛",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "毛",
+    "variant": "silk"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "毛"
+  ]
+ },
+ "而": {
+  "char": "而",
+  "trad": "而",
+  "plan": "default",
+  "count": 3,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "而",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "而",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "而",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "而"
+  ]
+ },
+ "须": {
+  "char": "须",
+  "trad": "須",
+  "plan": "default",
+  "count": 4,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "須",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "須",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "須",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "須",
+    "variant": "silk"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "須",
+   "须"
+  ]
+ },
+ "长": {
+  "char": "长",
+  "trad": "長",
+  "plan": "default",
+  "count": 3,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "長",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "長",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "長",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "長",
+   "长"
+  ]
+ },
+ "老": {
+  "char": "老",
+  "trad": "老",
+  "plan": "default",
+  "count": 4,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "老",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "老",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "老",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "老",
+    "variant": "clerical"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "老"
+  ]
+ },
+ "天": {
+  "char": "天",
+  "trad": "天",
+  "plan": "default",
+  "count": 4,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "天",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "天",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "天",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "天",
+    "variant": "clerical-han"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "天"
+  ]
+ },
+ "土": {
+  "char": "土",
+  "trad": "土",
+  "plan": "default",
+  "count": 4,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "土",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "土",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "土",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "土",
+    "variant": "slip"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "土"
+  ]
+ },
+ "川": {
+  "char": "川",
+  "trad": "川",
+  "plan": "default",
+  "count": 4,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "川",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "川",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "川",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "川",
+    "variant": "slip"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "川"
+  ]
+ },
+ "风": {
+  "char": "风",
+  "trad": "風",
+  "plan": "default",
+  "count": 4,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "風",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "風",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "風",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "風",
+    "variant": "slip"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "風",
+   "风"
+  ]
+ },
+ "气": {
+  "char": "气",
+  "trad": "氣",
+  "plan": "override",
+  "count": 4,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "气",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "气",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "氣",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "氣",
+    "variant": "slip"
+   }
+  ],
+  "journey": [
+   {
+    "stage": "oracle",
+    "form": "气"
+   },
+   {
+    "stage": "bronze",
+    "form": "气"
+   },
+   {
+    "stage": "seal",
+    "form": "氣"
+   },
+   {
+    "stage": "clerical",
+    "form": "氣"
+   }
+  ],
+  "hanzi": [
+   "氣",
+   "气"
+  ]
+ },
+ "申": {
+  "char": "申",
+  "trad": "申",
+  "plan": "default",
+  "count": 4,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "申",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "申",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "申",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "申",
+    "variant": "slip"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "申"
+  ]
+ },
+ "电": {
+  "char": "电",
+  "trad": "電",
+  "plan": "default",
+  "count": 2,
+  "stages": [
+   {
+    "stage": "bronze",
+    "form": "電",
+    "variant": "bronze"
+   },
+   {
+    "stage": "clerical",
+    "form": "電",
+    "variant": "silk"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "電",
+   "电"
+  ]
+ },
+ "泉": {
+  "char": "泉",
+  "trad": "泉",
+  "plan": "default",
+  "count": 4,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "泉",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "泉",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "泉",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "泉",
+    "variant": "silk"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "泉"
+  ]
+ },
+ "谷": {
+  "char": "谷",
+  "trad": "谷",
+  "plan": "default",
+  "count": 3,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "谷",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "谷",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "谷",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "谷"
+  ]
+ },
+ "丘": {
+  "char": "丘",
+  "trad": "丘",
+  "plan": "default",
+  "count": 3,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "丘",
+    "variant": "oracle"
+   },
+   {
+    "stage": "seal",
+    "form": "丘",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "丘",
+    "variant": "slip"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "丘"
+  ]
+ },
+ "原": {
+  "char": "原",
+  "trad": "原",
+  "plan": "default",
+  "count": 3,
+  "stages": [
+   {
+    "stage": "bronze",
+    "form": "原",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "原",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "原",
+    "variant": "silk"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "原"
+  ]
+ },
+ "禾": {
+  "char": "禾",
+  "trad": "禾",
+  "plan": "default",
+  "count": 3,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "禾",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "禾",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "禾",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "禾"
+  ]
+ },
+ "米": {
+  "char": "米",
+  "trad": "米",
+  "plan": "default",
+  "count": 4,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "米",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "米",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "米",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "米",
+    "variant": "slip"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "米"
+  ]
+ },
+ "瓜": {
+  "char": "瓜",
+  "trad": "瓜",
+  "plan": "default",
+  "count": 1,
+  "stages": [
+   {
+    "stage": "seal",
+    "form": "瓜",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "瓜"
+  ]
+ },
+ "果": {
+  "char": "果",
+  "trad": "果",
+  "plan": "default",
+  "count": 3,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "果",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "果",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "果",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "果"
+  ]
+ },
+ "生": {
+  "char": "生",
+  "trad": "生",
+  "plan": "default",
+  "count": 3,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "生",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "生",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "生",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "生"
+  ]
+ },
+ "牛": {
+  "char": "牛",
+  "trad": "牛",
+  "plan": "default",
+  "count": 4,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "牛",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "牛",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "牛",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "牛",
+    "variant": "silk"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "牛"
+  ]
+ },
+ "角": {
+  "char": "角",
+  "trad": "角",
+  "plan": "default",
+  "count": 3,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "角",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "角",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "角",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "角"
+  ]
+ },
+ "龙": {
+  "char": "龙",
+  "trad": "龍",
+  "plan": "default",
+  "count": 4,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "龍",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "龍",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "龍",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "龍",
+    "variant": "clerical-han"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "龍",
+   "龙"
+  ]
+ },
+ "鼠": {
+  "char": "鼠",
+  "trad": "鼠",
+  "plan": "default",
+  "count": 2,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "鼠",
+    "variant": "oracle"
+   },
+   {
+    "stage": "seal",
+    "form": "鼠",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "鼠"
+  ]
+ },
+ "兔": {
+  "char": "兔",
+  "trad": "兔",
+  "plan": "default",
+  "count": 3,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "兔",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "兔",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "兔",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "兔"
+  ]
+ },
+ "虫": {
+  "char": "虫",
+  "trad": "蟲",
+  "plan": "override",
+  "count": 3,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "虫",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "虫",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "虫",
+    "variant": "seal"
+   }
+  ],
+  "journey": [
+   {
+    "stage": "oracle",
+    "form": "虫"
+   },
+   {
+    "stage": "bronze",
+    "form": "虫"
+   },
+   {
+    "stage": "seal",
+    "form": "虫"
+   }
+  ],
+  "hanzi": [
+   "蟲",
+   "虫"
+  ]
+ },
+ "它": {
+  "char": "它",
+  "trad": "它",
+  "plan": "default",
+  "count": 4,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "它",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "它",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "它",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "它",
+    "variant": "silk"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "它"
+  ]
+ },
+ "蛇": {
+  "char": "蛇",
+  "trad": "蛇",
+  "plan": "default",
+  "count": 2,
+  "stages": [
+   {
+    "stage": "seal",
+    "form": "蛇",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "蛇",
+    "variant": "slip"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "蛇"
+  ]
+ },
+ "贝": {
+  "char": "贝",
+  "trad": "貝",
+  "plan": "default",
+  "count": 4,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "貝",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "貝",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "貝",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "貝",
+    "variant": "slip"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "貝",
+   "贝"
+  ]
+ },
+ "羽": {
+  "char": "羽",
+  "trad": "羽",
+  "plan": "default",
+  "count": 3,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "羽",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "羽",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "羽",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "羽"
+  ]
+ },
+ "飞": {
+  "char": "飞",
+  "trad": "飛",
+  "plan": "default",
+  "count": 3,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "飛",
+    "variant": "oracle"
+   },
+   {
+    "stage": "seal",
+    "form": "飛",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "飛",
+    "variant": "silk"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "飛",
+   "飞"
+  ]
+ },
+ "矢": {
+  "char": "矢",
+  "trad": "矢",
+  "plan": "default",
+  "count": 3,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "矢",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "矢",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "矢",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "矢"
+  ]
+ },
+ "发-發": {
+  "char": "发",
+  "trad": "發",
+  "plan": "default",
+  "count": 3,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "發",
+    "variant": "oracle"
+   },
+   {
+    "stage": "seal",
+    "form": "發",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "發",
+    "variant": "slip"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "發",
+   "发"
+  ]
+ },
+ "戈": {
+  "char": "戈",
+  "trad": "戈",
+  "plan": "default",
+  "count": 4,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "戈",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "戈",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "戈",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "戈",
+    "variant": "silk"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "戈"
+  ]
+ },
+ "斤": {
+  "char": "斤",
+  "trad": "斤",
+  "plan": "default",
+  "count": 4,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "斤",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "斤",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "斤",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "斤",
+    "variant": "silk"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "斤"
+  ]
+ },
+ "工": {
+  "char": "工",
+  "trad": "工",
+  "plan": "default",
+  "count": 4,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "工",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "工",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "工",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "工",
+    "variant": "silk"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "工"
+  ]
+ },
+ "王": {
+  "char": "王",
+  "trad": "王",
+  "plan": "default",
+  "count": 4,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "王",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "王",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "王",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "王",
+    "variant": "slip"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "王"
+  ]
+ },
+ "刃": {
+  "char": "刃",
+  "trad": "刃",
+  "plan": "default",
+  "count": 3,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "刃",
+    "variant": "oracle"
+   },
+   {
+    "stage": "seal",
+    "form": "刃",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "刃",
+    "variant": "silk"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "刃"
+  ]
+ },
+ "车": {
+  "char": "车",
+  "trad": "車",
+  "plan": "default",
+  "count": 4,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "車",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "車",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "車",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "車",
+    "variant": "slip"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "車",
+   "车"
+  ]
+ },
+ "行": {
+  "char": "行",
+  "trad": "行",
+  "plan": "default",
+  "count": 4,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "行",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "行",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "行",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "行",
+    "variant": "clerical"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "行"
+  ]
+ },
+ "走": {
+  "char": "走",
+  "trad": "走",
+  "plan": "default",
+  "count": 4,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "走",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "走",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "走",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "走",
+    "variant": "slip"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "走"
+  ]
+ },
+ "永": {
+  "char": "永",
+  "trad": "永",
+  "plan": "default",
+  "count": 3,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "永",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "永",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "永",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "永"
+  ]
+ },
+ "户": {
+  "char": "户",
+  "trad": "戶",
+  "plan": "default",
+  "count": 4,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "戶",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "戶",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "戶",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "戶",
+    "variant": "silk"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "戶",
+   "户"
+  ]
+ },
+ "开": {
+  "char": "开",
+  "trad": "開",
+  "plan": "default",
+  "count": 2,
+  "stages": [
+   {
+    "stage": "seal",
+    "form": "開",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "開",
+    "variant": "slip"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "開",
+   "开"
+  ]
+ },
+ "关": {
+  "char": "关",
+  "trad": "關",
+  "plan": "default",
+  "count": 0,
+  "stages": [],
+  "journey": [],
+  "hanzi": [
+   "關",
+   "关"
+  ]
+ },
+ "井": {
+  "char": "井",
+  "trad": "井",
+  "plan": "default",
+  "count": 4,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "井",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "井",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "井",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "井",
+    "variant": "silk"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "井"
+  ]
+ },
+ "高": {
+  "char": "高",
+  "trad": "高",
+  "plan": "default",
+  "count": 4,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "高",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "高",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "高",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "高",
+    "variant": "slip"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "高"
+  ]
+ },
+ "京": {
+  "char": "京",
+  "trad": "京",
+  "plan": "default",
+  "count": 3,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "京",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "京",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "京",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "京"
+  ]
+ },
+ "仓": {
+  "char": "仓",
+  "trad": "倉",
+  "plan": "default",
+  "count": 4,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "倉",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "倉",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "倉",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "倉",
+    "variant": "slip"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "倉",
+   "仓"
+  ]
+ },
+ "宫": {
+  "char": "宫",
+  "trad": "宮",
+  "plan": "default",
+  "count": 3,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "宮",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "宮",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "宮",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "宮",
+   "宫"
+  ]
+ },
+ "衣": {
+  "char": "衣",
+  "trad": "衣",
+  "plan": "default",
+  "count": 4,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "衣",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "衣",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "衣",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "衣",
+    "variant": "slip"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "衣"
+  ]
+ },
+ "巾": {
+  "char": "巾",
+  "trad": "巾",
+  "plan": "default",
+  "count": 3,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "巾",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "巾",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "巾",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "巾"
+  ]
+ },
+ "皿": {
+  "char": "皿",
+  "trad": "皿",
+  "plan": "default",
+  "count": 3,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "皿",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "皿",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "皿",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "皿"
+  ]
+ },
+ "豆": {
+  "char": "豆",
+  "trad": "豆",
+  "plan": "default",
+  "count": 3,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "豆",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "豆",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "豆",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "豆"
+  ]
+ },
+ "鼎": {
+  "char": "鼎",
+  "trad": "鼎",
+  "plan": "default",
+  "count": 3,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "鼎",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "鼎",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "鼎",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "鼎"
+  ]
+ },
+ "瓦": {
+  "char": "瓦",
+  "trad": "瓦",
+  "plan": "default",
+  "count": 2,
+  "stages": [
+   {
+    "stage": "seal",
+    "form": "瓦",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "瓦",
+    "variant": "clerical-han"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "瓦"
+  ]
+ },
+ "册": {
+  "char": "册",
+  "trad": "冊",
+  "plan": "default",
+  "count": 3,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "冊",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "冊",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "冊",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "冊",
+   "册"
+  ]
+ },
+ "臼": {
+  "char": "臼",
+  "trad": "臼",
+  "plan": "default",
+  "count": 1,
+  "stages": [
+   {
+    "stage": "seal",
+    "form": "臼",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "臼"
+  ]
+ },
+ "斗": {
+  "char": "斗",
+  "trad": "斗",
+  "plan": "default",
+  "count": 3,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "斗",
+    "variant": "oracle"
+   },
+   {
+    "stage": "seal",
+    "form": "斗",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "斗",
+    "variant": "slip"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "斗"
+  ]
+ },
+ "升": {
+  "char": "升",
+  "trad": "升",
+  "plan": "default",
+  "count": 3,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "升",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "升",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "升",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "升"
+  ]
+ },
+ "尺": {
+  "char": "尺",
+  "trad": "尺",
+  "plan": "default",
+  "count": 2,
+  "stages": [
+   {
+    "stage": "seal",
+    "form": "尺",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "尺",
+    "variant": "slip"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "尺"
+  ]
+ },
+ "寸": {
+  "char": "寸",
+  "trad": "寸",
+  "plan": "default",
+  "count": 3,
+  "stages": [
+   {
+    "stage": "bronze",
+    "form": "寸",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "寸",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "寸",
+    "variant": "slip"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "寸"
+  ]
+ },
+ "片": {
+  "char": "片",
+  "trad": "片",
+  "plan": "default",
+  "count": 1,
+  "stages": [
+   {
+    "stage": "seal",
+    "form": "片",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "片"
+  ]
+ },
+ "丰": {
+  "char": "丰",
+  "trad": "豐",
+  "plan": "default",
+  "count": 4,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "豐",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "豐",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "豐",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "豐",
+    "variant": "silk"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "豐",
+   "丰"
+  ]
+ },
+ "包": {
+  "char": "包",
+  "trad": "包",
+  "plan": "default",
+  "count": 2,
+  "stages": [
+   {
+    "stage": "seal",
+    "form": "包",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "包",
+    "variant": "slip"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "包"
+  ]
+ },
+ "主": {
+  "char": "主",
+  "trad": "主",
+  "plan": "default",
+  "count": 3,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "主",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "主",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "主",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "主"
+  ]
+ },
+ "示": {
+  "char": "示",
+  "trad": "示",
+  "plan": "default",
+  "count": 4,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "示",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "示",
+    "variant": "bronze-shang"
+   },
+   {
+    "stage": "seal",
+    "form": "示",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "示",
+    "variant": "silk"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "示"
+  ]
+ },
+ "玉": {
+  "char": "玉",
+  "trad": "玉",
+  "plan": "default",
+  "count": 4,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "玉",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "玉",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "玉",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "玉",
+    "variant": "clerical"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "玉"
+  ]
+ },
+ "周": {
+  "char": "周",
+  "trad": "周",
+  "plan": "default",
+  "count": 4,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "周",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "周",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "周",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "周",
+    "variant": "slip"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "周"
+  ]
+ },
+ "美": {
+  "char": "美",
+  "trad": "美",
+  "plan": "default",
+  "count": 2,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "美",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "美",
+    "variant": "bronze"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "美"
+  ]
+ },
+ "元": {
+  "char": "元",
+  "trad": "元",
+  "plan": "default",
+  "count": 3,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "元",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "元",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "元",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "元"
+  ]
+ },
+ "同": {
+  "char": "同",
+  "trad": "同",
+  "plan": "default",
+  "count": 4,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "同",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "同",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "同",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "同",
+    "variant": "silk"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "同"
+  ]
+ },
+ "非": {
+  "char": "非",
+  "trad": "非",
+  "plan": "default",
+  "count": 4,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "非",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "非",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "非",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "非",
+    "variant": "clerical-han"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "非"
+  ]
+ },
+ "再": {
+  "char": "再",
+  "trad": "再",
+  "plan": "default",
+  "count": 3,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "再",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "再",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "再",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "再"
+  ]
+ },
+ "次": {
+  "char": "次",
+  "trad": "次",
+  "plan": "default",
+  "count": 3,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "次",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "次",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "次",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "次"
+  ]
+ },
+ "告": {
+  "char": "告",
+  "trad": "告",
+  "plan": "default",
+  "count": 3,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "告",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "告",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "告",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "告"
+  ]
+ },
+ "回": {
+  "char": "回",
+  "trad": "回",
+  "plan": "default",
+  "count": 2,
+  "stages": [
+   {
+    "stage": "bronze",
+    "form": "回",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "回",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "回"
+  ]
+ },
+ "带": {
+  "char": "带",
+  "trad": "帶",
+  "plan": "default",
+  "count": 2,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "帶",
+    "variant": "oracle"
+   },
+   {
+    "stage": "seal",
+    "form": "帶",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "帶",
+   "带"
+  ]
+ },
+ "用": {
+  "char": "用",
+  "trad": "用",
+  "plan": "default",
+  "count": 4,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "用",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "用",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "用",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "用",
+    "variant": "clerical-han"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "用"
+  ]
+ },
+ "必": {
+  "char": "必",
+  "trad": "必",
+  "plan": "default",
+  "count": 2,
+  "stages": [
+   {
+    "stage": "bronze",
+    "form": "必",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "必",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "必"
+  ]
+ },
+ "事": {
+  "char": "事",
+  "trad": "事",
+  "plan": "default",
+  "count": 4,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "事",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "事",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "事",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "事",
+    "variant": "clerical"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "事"
+  ]
+ },
+ "东": {
+  "char": "东",
+  "trad": "東",
+  "plan": "default",
+  "count": 4,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "東",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "東",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "東",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "東",
+    "variant": "silk"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "東",
+   "东"
+  ]
+ },
+ "西": {
+  "char": "西",
+  "trad": "西",
+  "plan": "default",
+  "count": 4,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "西",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "西",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "西",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "西",
+    "variant": "slip"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "西"
+  ]
+ },
+ "南": {
+  "char": "南",
+  "trad": "南",
+  "plan": "default",
+  "count": 4,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "南",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "南",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "南",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "南",
+    "variant": "slip"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "南"
+  ]
+ },
+ "北": {
+  "char": "北",
+  "trad": "北",
+  "plan": "default",
+  "count": 4,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "北",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "北",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "北",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "北",
+    "variant": "slip"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "北"
+  ]
+ },
+ "中": {
+  "char": "中",
+  "trad": "中",
+  "plan": "default",
+  "count": 4,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "中",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "中",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "中",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "中",
+    "variant": "clerical"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "中"
+  ]
+ },
+ "方": {
+  "char": "方",
+  "trad": "方",
+  "plan": "default",
+  "count": 4,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "方",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "方",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "方",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "方",
+    "variant": "silk"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "方"
+  ]
+ },
+ "向": {
+  "char": "向",
+  "trad": "向",
+  "plan": "default",
+  "count": 4,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "向",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "向",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "向",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "向",
+    "variant": "silk"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "向"
+  ]
+ },
+ "我": {
+  "char": "我",
+  "trad": "我",
+  "plan": "default",
+  "count": 4,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "我",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "我",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "我",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "我",
+    "variant": "silk"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "我"
+  ]
+ },
+ "来": {
+  "char": "来",
+  "trad": "來",
+  "plan": "default",
+  "count": 4,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "來",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "來",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "來",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "來",
+    "variant": "silk"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "來",
+   "来"
+  ]
+ },
+ "能": {
+  "char": "能",
+  "trad": "能",
+  "plan": "default",
+  "count": 4,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "能",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "能",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "能",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "能",
+    "variant": "slip"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "能"
+  ]
+ },
+ "自": {
+  "char": "自",
+  "trad": "自",
+  "plan": "default",
+  "count": 4,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "自",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "自",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "自",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "自",
+    "variant": "silk"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "自"
+  ]
+ },
+ "要": {
+  "char": "要",
+  "trad": "要",
+  "plan": "default",
+  "count": 2,
+  "stages": [
+   {
+    "stage": "bronze",
+    "form": "要",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "要",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "要"
+  ]
+ },
+ "求": {
+  "char": "求",
+  "trad": "求",
+  "plan": "default",
+  "count": 3,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "求",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "求",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "求",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "求"
+  ]
+ },
+ "其": {
+  "char": "其",
+  "trad": "其",
+  "plan": "default",
+  "count": 3,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "其",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "其",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "其",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "其"
+  ]
+ },
+ "午": {
+  "char": "午",
+  "trad": "午",
+  "plan": "default",
+  "count": 3,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "午",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "午",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "午",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "午"
+  ]
+ },
+ "不": {
+  "char": "不",
+  "trad": "不",
+  "plan": "default",
+  "count": 4,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "不",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "不",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "不",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "不",
+    "variant": "slip"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "不"
+  ]
+ },
+ "了": {
+  "char": "了",
+  "trad": "了",
+  "plan": "default",
+  "count": 1,
+  "stages": [
+   {
+    "stage": "seal",
+    "form": "了",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "了"
+  ]
+ },
+ "也": {
+  "char": "也",
+  "trad": "也",
+  "plan": "default",
+  "count": 2,
+  "stages": [
+   {
+    "stage": "seal",
+    "form": "也",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "也",
+    "variant": "silk"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "也"
+  ]
+ },
+ "以": {
+  "char": "以",
+  "trad": "以",
+  "plan": "default",
+  "count": 4,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "以",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "以",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "以",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "以",
+    "variant": "clerical-han"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "以"
+  ]
+ },
+ "己": {
+  "char": "己",
+  "trad": "己",
+  "plan": "default",
+  "count": 4,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "己",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "己",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "己",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "己",
+    "variant": "silk"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "己"
+  ]
+ },
+ "已": {
+  "char": "已",
+  "trad": "已",
+  "plan": "default",
+  "count": 2,
+  "stages": [
+   {
+    "stage": "bronze",
+    "form": "已",
+    "variant": "bronze"
+   },
+   {
+    "stage": "clerical",
+    "form": "已",
+    "variant": "silk"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "已"
+  ]
+ },
+ "才": {
+  "char": "才",
+  "trad": "才",
+  "plan": "default",
+  "count": 3,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "才",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "才",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "才",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "才"
+  ]
+ },
+ "者": {
+  "char": "者",
+  "trad": "者",
+  "plan": "default",
+  "count": 3,
+  "stages": [
+   {
+    "stage": "bronze",
+    "form": "者",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "者",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "者",
+    "variant": "clerical"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "者"
+  ]
+ },
+ "且": {
+  "char": "且",
+  "trad": "且",
+  "plan": "default",
+  "count": 3,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "且",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "且",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "且",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "且"
+  ]
+ },
+ "由": {
+  "char": "由",
+  "trad": "由",
+  "plan": "default",
+  "count": 1,
+  "stages": [
+   {
+    "stage": "bronze",
+    "form": "由",
+    "variant": "bronze"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "由"
+  ]
+ },
+ "一": {
+  "char": "一",
+  "trad": "一",
+  "plan": "default",
+  "count": 4,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "一",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "一",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "一",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "一",
+    "variant": "clerical"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "一"
+  ]
+ },
+ "二": {
+  "char": "二",
+  "trad": "二",
+  "plan": "default",
+  "count": 4,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "二",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "二",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "二",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "二",
+    "variant": "clerical"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "二"
+  ]
+ },
+ "三": {
+  "char": "三",
+  "trad": "三",
+  "plan": "default",
+  "count": 4,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "三",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "三",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "三",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "三",
+    "variant": "slip"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "三"
+  ]
+ },
+ "四": {
+  "char": "四",
+  "trad": "四",
+  "plan": "default",
+  "count": 4,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "四",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "四",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "四",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "四",
+    "variant": "clerical"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "四"
+  ]
+ },
+ "五": {
+  "char": "五",
+  "trad": "五",
+  "plan": "default",
+  "count": 4,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "五",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "五",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "五",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "五",
+    "variant": "silk"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "五"
+  ]
+ },
+ "六": {
+  "char": "六",
+  "trad": "六",
+  "plan": "default",
+  "count": 4,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "六",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "六",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "六",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "六",
+    "variant": "slip"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "六"
+  ]
+ },
+ "七": {
+  "char": "七",
+  "trad": "七",
+  "plan": "default",
+  "count": 4,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "七",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "七",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "七",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "七",
+    "variant": "clerical"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "七"
+  ]
+ },
+ "八": {
+  "char": "八",
+  "trad": "八",
+  "plan": "default",
+  "count": 4,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "八",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "八",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "八",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "八",
+    "variant": "clerical"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "八"
+  ]
+ },
+ "九": {
+  "char": "九",
+  "trad": "九",
+  "plan": "default",
+  "count": 4,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "九",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "九",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "九",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "九",
+    "variant": "silk"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "九"
+  ]
+ },
+ "十": {
+  "char": "十",
+  "trad": "十",
+  "plan": "default",
+  "count": 4,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "十",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "十",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "十",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "十",
+    "variant": "slip"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "十"
+  ]
+ },
+ "百": {
+  "char": "百",
+  "trad": "百",
+  "plan": "default",
+  "count": 3,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "百",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "百",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "百",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "百"
+  ]
+ },
+ "千": {
+  "char": "千",
+  "trad": "千",
+  "plan": "default",
+  "count": 4,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "千",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "千",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "千",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "千",
+    "variant": "silk"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "千"
+  ]
+ },
+ "万": {
+  "char": "万",
+  "trad": "萬",
+  "plan": "default",
+  "count": 4,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "萬",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "萬",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "萬",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "萬",
+    "variant": "silk"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "萬",
+   "万"
+  ]
+ },
+ "两": {
+  "char": "两",
+  "trad": "兩",
+  "plan": "override",
+  "count": 2,
+  "stages": [
+   {
+    "stage": "bronze",
+    "form": "两",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "两",
+    "variant": "seal"
+   }
+  ],
+  "journey": [
+   {
+    "stage": "bronze",
+    "form": "两"
+   },
+   {
+    "stage": "seal",
+    "form": "两"
+   }
+  ],
+  "hanzi": [
+   "兩",
+   "两"
+  ]
+ },
+ "半": {
+  "char": "半",
+  "trad": "半",
+  "plan": "default",
+  "count": 1,
+  "stages": [
+   {
+    "stage": "bronze",
+    "form": "半",
+    "variant": "bronze"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "半"
+  ]
+ },
+ "几-幾": {
+  "char": "几",
+  "trad": "幾",
+  "plan": "default",
+  "count": 2,
+  "stages": [
+   {
+    "stage": "bronze",
+    "form": "幾",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "幾",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "幾",
+   "几"
+  ]
+ },
+ "多": {
+  "char": "多",
+  "trad": "多",
+  "plan": "default",
+  "count": 3,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "多",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "多",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "多",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "多"
+  ]
+ },
+ "少": {
+  "char": "少",
+  "trad": "少",
+  "plan": "default",
+  "count": 1,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "少",
+    "variant": "oracle"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "少"
+  ]
+ },
+ "上": {
+  "char": "上",
+  "trad": "上",
+  "plan": "default",
+  "count": 4,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "上",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "上",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "上",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "上",
+    "variant": "clerical"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "上"
+  ]
+ },
+ "下": {
+  "char": "下",
+  "trad": "下",
+  "plan": "default",
+  "count": 4,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "下",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "下",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "下",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "下",
+    "variant": "slip"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "下"
+  ]
+ },
+ "小": {
+  "char": "小",
+  "trad": "小",
+  "plan": "default",
+  "count": 4,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "小",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "小",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "小",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "小",
+    "variant": "slip"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "小"
+  ]
+ },
+ "入": {
+  "char": "入",
+  "trad": "入",
+  "plan": "default",
+  "count": 4,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "入",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "入",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "入",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "入",
+    "variant": "silk"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "入"
+  ]
+ },
+ "至": {
+  "char": "至",
+  "trad": "至",
+  "plan": "default",
+  "count": 3,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "至",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "至",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "至",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "至"
+  ]
+ },
+ "内": {
+  "char": "内",
+  "trad": "內",
+  "plan": "override",
+  "count": 4,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "内",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "内",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "内",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "内",
+    "variant": "silk"
+   }
+  ],
+  "journey": [
+   {
+    "stage": "oracle",
+    "form": "内"
+   },
+   {
+    "stage": "bronze",
+    "form": "内"
+   },
+   {
+    "stage": "seal",
+    "form": "内"
+   },
+   {
+    "stage": "clerical",
+    "form": "内"
+   }
+  ],
+  "hanzi": [
+   "內",
+   "内"
+  ]
+ },
+ "外": {
+  "char": "外",
+  "trad": "外",
+  "plan": "default",
+  "count": 3,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "外",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "外",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "外",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "外"
+  ]
+ },
+ "里-裡": {
+  "char": "里",
+  "trad": "裡",
+  "plan": "default",
+  "count": 0,
+  "stages": [],
+  "journey": [],
+  "hanzi": [
+   "裡",
+   "里"
+  ]
+ },
+ "间": {
+  "char": "间",
+  "trad": "間",
+  "plan": "default",
+  "count": 2,
+  "stages": [
+   {
+    "stage": "bronze",
+    "form": "間",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "間",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "間",
+   "间"
+  ]
+ },
+ "本": {
+  "char": "本",
+  "trad": "本",
+  "plan": "default",
+  "count": 2,
+  "stages": [
+   {
+    "stage": "bronze",
+    "form": "本",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "本",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "本"
+  ]
+ },
+ "末": {
+  "char": "末",
+  "trad": "末",
+  "plan": "default",
+  "count": 2,
+  "stages": [
+   {
+    "stage": "bronze",
+    "form": "末",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "末",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "末"
+  ]
+ },
+ "朱": {
+  "char": "朱",
+  "trad": "朱",
+  "plan": "default",
+  "count": 3,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "朱",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "朱",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "朱",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "朱"
+  ]
+ },
+ "今": {
+  "char": "今",
+  "trad": "今",
+  "plan": "default",
+  "count": 4,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "今",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "今",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "今",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "今",
+    "variant": "slip"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "今"
+  ]
+ },
+ "古": {
+  "char": "古",
+  "trad": "古",
+  "plan": "default",
+  "count": 4,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "古",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "古",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "古",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "古",
+    "variant": "silk"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "古"
+  ]
+ },
+ "文": {
+  "char": "文",
+  "trad": "文",
+  "plan": "default",
+  "count": 4,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "文",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "文",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "文",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "文",
+    "variant": "silk"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "文"
+  ]
+ },
+ "言": {
+  "char": "言",
+  "trad": "言",
+  "plan": "default",
+  "count": 3,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "言",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "言",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "言",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "言"
+  ]
+ },
+ "音": {
+  "char": "音",
+  "trad": "音",
+  "plan": "default",
+  "count": 3,
+  "stages": [
+   {
+    "stage": "bronze",
+    "form": "音",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "音",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "音",
+    "variant": "slip"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "音"
+  ]
+ },
+ "从": {
+  "char": "从",
+  "trad": "從",
+  "plan": "override",
+  "count": 3,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "从",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "從",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "從",
+    "variant": "seal"
+   }
+  ],
+  "journey": [
+   {
+    "stage": "oracle",
+    "form": "从"
+   },
+   {
+    "stage": "bronze",
+    "form": "從"
+   },
+   {
+    "stage": "seal",
+    "form": "從"
+   }
+  ],
+  "hanzi": [
+   "從",
+   "从"
+  ]
+ },
+ "比": {
+  "char": "比",
+  "trad": "比",
+  "plan": "default",
+  "count": 4,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "比",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "比",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "比",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "比",
+    "variant": "silk"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "比"
+  ]
+ },
+ "众": {
+  "char": "众",
+  "trad": "眾",
+  "plan": "default",
+  "count": 2,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "眾",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "眾",
+    "variant": "bronze"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "眾",
+   "众"
+  ]
+ },
+ "森": {
+  "char": "森",
+  "trad": "森",
+  "plan": "default",
+  "count": 2,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "森",
+    "variant": "oracle"
+   },
+   {
+    "stage": "seal",
+    "form": "森",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "森"
+  ]
+ },
+ "炎": {
+  "char": "炎",
+  "trad": "炎",
+  "plan": "default",
+  "count": 2,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "炎",
+    "variant": "oracle"
+   },
+   {
+    "stage": "seal",
+    "form": "炎",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "炎"
+  ]
+ },
+ "双": {
+  "char": "双",
+  "trad": "雙",
+  "plan": "default",
+  "count": 1,
+  "stages": [
+   {
+    "stage": "seal",
+    "form": "雙",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "雙",
+   "双"
+  ]
+ },
+ "品": {
+  "char": "品",
+  "trad": "品",
+  "plan": "default",
+  "count": 3,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "品",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "品",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "品",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "品"
+  ]
+ },
+ "休": {
+  "char": "休",
+  "trad": "休",
+  "plan": "default",
+  "count": 3,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "休",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "休",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "休",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "休"
+  ]
+ },
+ "坐": {
+  "char": "坐",
+  "trad": "坐",
+  "plan": "default",
+  "count": 1,
+  "stages": [
+   {
+    "stage": "seal",
+    "form": "坐",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "坐"
+  ]
+ },
+ "交": {
+  "char": "交",
+  "trad": "交",
+  "plan": "default",
+  "count": 2,
+  "stages": [
+   {
+    "stage": "bronze",
+    "form": "交",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "交",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "交"
+  ]
+ },
+ "听": {
+  "char": "听",
+  "trad": "聽",
+  "plan": "default",
+  "count": 4,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "聽",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "聽",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "聽",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "聽",
+    "variant": "slip"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "聽",
+   "听"
+  ]
+ },
+ "哭": {
+  "char": "哭",
+  "trad": "哭",
+  "plan": "default",
+  "count": 1,
+  "stages": [
+   {
+    "stage": "seal",
+    "form": "哭",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "哭"
+  ]
+ },
+ "吹": {
+  "char": "吹",
+  "trad": "吹",
+  "plan": "default",
+  "count": 4,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "吹",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "吹",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "吹",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "吹",
+    "variant": "clerical-han"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "吹"
+  ]
+ },
+ "笑": {
+  "char": "笑",
+  "trad": "笑",
+  "plan": "default",
+  "count": 2,
+  "stages": [
+   {
+    "stage": "seal",
+    "form": "笑",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "笑",
+    "variant": "silk"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "笑"
+  ]
+ },
+ "看": {
+  "char": "看",
+  "trad": "看",
+  "plan": "default",
+  "count": 1,
+  "stages": [
+   {
+    "stage": "seal",
+    "form": "看",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "看"
+  ]
+ },
+ "见": {
+  "char": "见",
+  "trad": "見",
+  "plan": "default",
+  "count": 4,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "見",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "見",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "見",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "見",
+    "variant": "silk"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "見",
+   "见"
+  ]
+ },
+ "直": {
+  "char": "直",
+  "trad": "直",
+  "plan": "default",
+  "count": 3,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "直",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "直",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "直",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "直"
+  ]
+ },
+ "相": {
+  "char": "相",
+  "trad": "相",
+  "plan": "default",
+  "count": 0,
+  "stages": [],
+  "journey": [],
+  "hanzi": [
+   "相"
+  ]
+ },
+ "视": {
+  "char": "视",
+  "trad": "視",
+  "plan": "default",
+  "count": 4,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "視",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "視",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "視",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "視",
+    "variant": "silk"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "視",
+   "视"
+  ]
+ },
+ "觉": {
+  "char": "觉",
+  "trad": "覺",
+  "plan": "default",
+  "count": 2,
+  "stages": [
+   {
+    "stage": "seal",
+    "form": "覺",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "覺",
+    "variant": "slip"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "覺",
+   "觉"
+  ]
+ },
+ "现": {
+  "char": "现",
+  "trad": "現",
+  "plan": "default",
+  "count": 0,
+  "stages": [],
+  "journey": [],
+  "hanzi": [
+   "現",
+   "现"
+  ]
+ },
+ "安": {
+  "char": "安",
+  "trad": "安",
+  "plan": "default",
+  "count": 3,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "安",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "安",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "安",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "安"
+  ]
+ },
+ "家": {
+  "char": "家",
+  "trad": "家",
+  "plan": "default",
+  "count": 3,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "家",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "家",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "家",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "家"
+  ]
+ },
+ "字": {
+  "char": "字",
+  "trad": "字",
+  "plan": "default",
+  "count": 3,
+  "stages": [
+   {
+    "stage": "bronze",
+    "form": "字",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "字",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "字",
+    "variant": "slip"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "字"
+  ]
+ },
+ "寒": {
+  "char": "寒",
+  "trad": "寒",
+  "plan": "default",
+  "count": 2,
+  "stages": [
+   {
+    "stage": "bronze",
+    "form": "寒",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "寒",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "寒"
+  ]
+ },
+ "床": {
+  "char": "床",
+  "trad": "床",
+  "plan": "default",
+  "count": 0,
+  "stages": [],
+  "journey": [],
+  "hanzi": [
+   "床"
+  ]
+ },
+ "因": {
+  "char": "因",
+  "trad": "因",
+  "plan": "default",
+  "count": 3,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "因",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "因",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "因",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "因"
+  ]
+ },
+ "取": {
+  "char": "取",
+  "trad": "取",
+  "plan": "default",
+  "count": 4,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "取",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "取",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "取",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "取",
+    "variant": "silk"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "取"
+  ]
+ },
+ "受": {
+  "char": "受",
+  "trad": "受",
+  "plan": "default",
+  "count": 3,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "受",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "受",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "受",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "受"
+  ]
+ },
+ "争": {
+  "char": "争",
+  "trad": "爭",
+  "plan": "default",
+  "count": 2,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "爭",
+    "variant": "oracle"
+   },
+   {
+    "stage": "seal",
+    "form": "爭",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "爭",
+   "争"
+  ]
+ },
+ "印": {
+  "char": "印",
+  "trad": "印",
+  "plan": "default",
+  "count": 4,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "印",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "印",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "印",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "印",
+    "variant": "silk"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "印"
+  ]
+ },
+ "为": {
+  "char": "为",
+  "trad": "為",
+  "plan": "default",
+  "count": 4,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "為",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "為",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "為",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "為",
+    "variant": "clerical-han"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "為",
+   "为"
+  ]
+ },
+ "只-隻": {
+  "char": "只",
+  "trad": "隻",
+  "plan": "default",
+  "count": 0,
+  "stages": [],
+  "journey": [],
+  "hanzi": [
+   "隻",
+   "只"
+  ]
+ },
+ "好": {
+  "char": "好",
+  "trad": "好",
+  "plan": "default",
+  "count": 3,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "好",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "好",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "好",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "好"
+  ]
+ },
+ "男": {
+  "char": "男",
+  "trad": "男",
+  "plan": "default",
+  "count": 4,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "男",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "男",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "男",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "男",
+    "variant": "silk"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "男"
+  ]
+ },
+ "朋": {
+  "char": "朋",
+  "trad": "朋",
+  "plan": "default",
+  "count": 3,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "朋",
+    "variant": "oracle"
+   },
+   {
+    "stage": "seal",
+    "form": "朋",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "朋",
+    "variant": "slip"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "朋"
+  ]
+ },
+ "友": {
+  "char": "友",
+  "trad": "友",
+  "plan": "default",
+  "count": 3,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "友",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "友",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "友",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "友"
+  ]
+ },
+ "欢": {
+  "char": "欢",
+  "trad": "歡",
+  "plan": "default",
+  "count": 0,
+  "stages": [],
+  "journey": [],
+  "hanzi": [
+   "歡",
+   "欢"
+  ]
+ },
+ "帮": {
+  "char": "帮",
+  "trad": "幫",
+  "plan": "default",
+  "count": 0,
+  "stages": [],
+  "journey": [],
+  "hanzi": [
+   "幫",
+   "帮"
+  ]
+ },
+ "玩": {
+  "char": "玩",
+  "trad": "玩",
+  "plan": "default",
+  "count": 0,
+  "stages": [],
+  "journey": [],
+  "hanzi": [
+   "玩"
+  ]
+ },
+ "球": {
+  "char": "球",
+  "trad": "球",
+  "plan": "default",
+  "count": 1,
+  "stages": [
+   {
+    "stage": "seal",
+    "form": "球",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "球"
+  ]
+ },
+ "合": {
+  "char": "合",
+  "trad": "合",
+  "plan": "default",
+  "count": 4,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "合",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "合",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "合",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "合",
+    "variant": "silk"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "合"
+  ]
+ },
+ "共": {
+  "char": "共",
+  "trad": "共",
+  "plan": "default",
+  "count": 4,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "共",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "共",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "共",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "共",
+    "variant": "silk"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "共"
+  ]
+ },
+ "全": {
+  "char": "全",
+  "trad": "全",
+  "plan": "default",
+  "count": 1,
+  "stages": [
+   {
+    "stage": "seal",
+    "form": "全",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "全"
+  ]
+ },
+ "公": {
+  "char": "公",
+  "trad": "公",
+  "plan": "default",
+  "count": 4,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "公",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "公",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "公",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "公",
+    "variant": "slip"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "公"
+  ]
+ },
+ "会": {
+  "char": "会",
+  "trad": "會",
+  "plan": "default",
+  "count": 3,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "會",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "會",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "會",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "會",
+   "会"
+  ]
+ },
+ "对": {
+  "char": "对",
+  "trad": "對",
+  "plan": "default",
+  "count": 3,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "對",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "對",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "對",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "對",
+   "对"
+  ]
+ },
+ "就": {
+  "char": "就",
+  "trad": "就",
+  "plan": "default",
+  "count": 4,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "就",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "就",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "就",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "就",
+    "variant": "silk"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "就"
+  ]
+ },
+ "加": {
+  "char": "加",
+  "trad": "加",
+  "plan": "default",
+  "count": 3,
+  "stages": [
+   {
+    "stage": "bronze",
+    "form": "加",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "加",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "加",
+    "variant": "silk"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "加"
+  ]
+ },
+ "分": {
+  "char": "分",
+  "trad": "分",
+  "plan": "default",
+  "count": 4,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "分",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "分",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "分",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "分",
+    "variant": "slip"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "分"
+  ]
+ },
+ "利": {
+  "char": "利",
+  "trad": "利",
+  "plan": "default",
+  "count": 4,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "利",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "利",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "利",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "利",
+    "variant": "silk"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "利"
+  ]
+ },
+ "别": {
+  "char": "别",
+  "trad": "別",
+  "plan": "default",
+  "count": 3,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "別",
+    "variant": "oracle"
+   },
+   {
+    "stage": "seal",
+    "form": "別",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "別",
+    "variant": "slip"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "別",
+   "别"
+  ]
+ },
+ "新": {
+  "char": "新",
+  "trad": "新",
+  "plan": "default",
+  "count": 4,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "新",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "新",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "新",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "新",
+    "variant": "silk"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "新"
+  ]
+ },
+ "解": {
+  "char": "解",
+  "trad": "解",
+  "plan": "default",
+  "count": 3,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "解",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "解",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "解",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "解"
+  ]
+ },
+ "初": {
+  "char": "初",
+  "trad": "初",
+  "plan": "default",
+  "count": 4,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "初",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "初",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "初",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "初",
+    "variant": "silk"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "初"
+  ]
+ },
+ "明": {
+  "char": "明",
+  "trad": "明",
+  "plan": "default",
+  "count": 4,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "明",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "明",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "明",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "明",
+    "variant": "silk"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "明"
+  ]
+ },
+ "早": {
+  "char": "早",
+  "trad": "早",
+  "plan": "default",
+  "count": 2,
+  "stages": [
+   {
+    "stage": "seal",
+    "form": "早",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "早",
+    "variant": "slip"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "早"
+  ]
+ },
+ "朝": {
+  "char": "朝",
+  "trad": "朝",
+  "plan": "default",
+  "count": 3,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "朝",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "朝",
+    "variant": "bronze"
+   },
+   {
+    "stage": "clerical",
+    "form": "朝",
+    "variant": "slip"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "朝"
+  ]
+ },
+ "晨": {
+  "char": "晨",
+  "trad": "晨",
+  "plan": "default",
+  "count": 0,
+  "stages": [],
+  "journey": [],
+  "hanzi": [
+   "晨"
+  ]
+ },
+ "晚": {
+  "char": "晚",
+  "trad": "晚",
+  "plan": "default",
+  "count": 0,
+  "stages": [],
+  "journey": [],
+  "hanzi": [
+   "晚"
+  ]
+ },
+ "夜": {
+  "char": "夜",
+  "trad": "夜",
+  "plan": "default",
+  "count": 3,
+  "stages": [
+   {
+    "stage": "bronze",
+    "form": "夜",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "夜",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "夜",
+    "variant": "clerical-han"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "夜"
+  ]
+ },
+ "星": {
+  "char": "星",
+  "trad": "星",
+  "plan": "default",
+  "count": 1,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "星",
+    "variant": "oracle"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "星"
+  ]
+ },
+ "晴": {
+  "char": "晴",
+  "trad": "晴",
+  "plan": "default",
+  "count": 0,
+  "stages": [],
+  "journey": [],
+  "hanzi": [
+   "晴"
+  ]
+ },
+ "昨": {
+  "char": "昨",
+  "trad": "昨",
+  "plan": "default",
+  "count": 1,
+  "stages": [
+   {
+    "stage": "seal",
+    "form": "昨",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "昨"
+  ]
+ },
+ "春": {
+  "char": "春",
+  "trad": "春",
+  "plan": "default",
+  "count": 3,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "春",
+    "variant": "oracle"
+   },
+   {
+    "stage": "seal",
+    "form": "春",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "春",
+    "variant": "clerical-han"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "春"
+  ]
+ },
+ "夏": {
+  "char": "夏",
+  "trad": "夏",
+  "plan": "default",
+  "count": 4,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "夏",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "夏",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "夏",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "夏",
+    "variant": "clerical-han"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "夏"
+  ]
+ },
+ "秋": {
+  "char": "秋",
+  "trad": "秋",
+  "plan": "default",
+  "count": 4,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "秋",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "秋",
+    "variant": "bronze-shang"
+   },
+   {
+    "stage": "seal",
+    "form": "秋",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "秋",
+    "variant": "clerical-han"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "秋"
+  ]
+ },
+ "冬": {
+  "char": "冬",
+  "trad": "冬",
+  "plan": "default",
+  "count": 4,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "冬",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "冬",
+    "variant": "bronze-shang"
+   },
+   {
+    "stage": "seal",
+    "form": "冬",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "冬",
+    "variant": "clerical-han"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "冬"
+  ]
+ },
+ "年": {
+  "char": "年",
+  "trad": "年",
+  "plan": "default",
+  "count": 4,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "年",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "年",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "年",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "年",
+    "variant": "clerical-han"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "年"
+  ]
+ },
+ "岁": {
+  "char": "岁",
+  "trad": "歲",
+  "plan": "default",
+  "count": 4,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "歲",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "歲",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "歲",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "歲",
+    "variant": "slip"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "歲",
+   "岁"
+  ]
+ },
+ "时": {
+  "char": "时",
+  "trad": "時",
+  "plan": "default",
+  "count": 3,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "時",
+    "variant": "oracle"
+   },
+   {
+    "stage": "seal",
+    "form": "時",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "時",
+    "variant": "silk"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "時",
+   "时"
+  ]
+ },
+ "期": {
+  "char": "期",
+  "trad": "期",
+  "plan": "default",
+  "count": 3,
+  "stages": [
+   {
+    "stage": "bronze",
+    "form": "期",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "期",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "期",
+    "variant": "silk"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "期"
+  ]
+ },
+ "出": {
+  "char": "出",
+  "trad": "出",
+  "plan": "default",
+  "count": 4,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "出",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "出",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "出",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "出",
+    "variant": "silk"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "出"
+  ]
+ },
+ "去": {
+  "char": "去",
+  "trad": "去",
+  "plan": "default",
+  "count": 3,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "去",
+    "variant": "oracle"
+   },
+   {
+    "stage": "seal",
+    "form": "去",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "去",
+    "variant": "slip"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "去"
+  ]
+ },
+ "进": {
+  "char": "进",
+  "trad": "進",
+  "plan": "default",
+  "count": 3,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "進",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "進",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "進",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "進",
+   "进"
+  ]
+ },
+ "先": {
+  "char": "先",
+  "trad": "先",
+  "plan": "default",
+  "count": 3,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "先",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "先",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "先",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "先"
+  ]
+ },
+ "后-後": {
+  "char": "后",
+  "trad": "後",
+  "plan": "default",
+  "count": 4,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "後",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "後",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "後",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "後",
+    "variant": "slip"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "後",
+   "后"
+  ]
+ },
+ "前": {
+  "char": "前",
+  "trad": "前",
+  "plan": "default",
+  "count": 3,
+  "stages": [
+   {
+    "stage": "bronze",
+    "form": "前",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "前",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "前",
+    "variant": "slip"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "前"
+  ]
+ },
+ "步": {
+  "char": "步",
+  "trad": "步",
+  "plan": "default",
+  "count": 1,
+  "stages": [
+   {
+    "stage": "bronze",
+    "form": "步",
+    "variant": "bronze"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "步"
+  ]
+ },
+ "退": {
+  "char": "退",
+  "trad": "退",
+  "plan": "default",
+  "count": 2,
+  "stages": [
+   {
+    "stage": "bronze",
+    "form": "退",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "退",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "退"
+  ]
+ },
+ "正": {
+  "char": "正",
+  "trad": "正",
+  "plan": "default",
+  "count": 4,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "正",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "正",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "正",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "正",
+    "variant": "clerical-han"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "正"
+  ]
+ },
+ "买": {
+  "char": "买",
+  "trad": "買",
+  "plan": "default",
+  "count": 3,
+  "stages": [
+   {
+    "stage": "bronze",
+    "form": "買",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "買",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "買",
+    "variant": "slip"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "買",
+   "买"
+  ]
+ },
+ "卖": {
+  "char": "卖",
+  "trad": "賣",
+  "plan": "default",
+  "count": 1,
+  "stages": [
+   {
+    "stage": "seal",
+    "form": "賣",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "賣",
+   "卖"
+  ]
+ },
+ "得": {
+  "char": "得",
+  "trad": "得",
+  "plan": "default",
+  "count": 4,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "得",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "得",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "得",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "得",
+    "variant": "silk"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "得"
+  ]
+ },
+ "有": {
+  "char": "有",
+  "trad": "有",
+  "plan": "default",
+  "count": 4,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "有",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "有",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "有",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "有",
+    "variant": "silk"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "有"
+  ]
+ },
+ "贵": {
+  "char": "贵",
+  "trad": "貴",
+  "plan": "default",
+  "count": 1,
+  "stages": [
+   {
+    "stage": "seal",
+    "form": "貴",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "貴",
+   "贵"
+  ]
+ },
+ "宝": {
+  "char": "宝",
+  "trad": "寶",
+  "plan": "default",
+  "count": 3,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "寶",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "寶",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "寶",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "寶",
+   "宝"
+  ]
+ },
+ "学": {
+  "char": "学",
+  "trad": "學",
+  "plan": "default",
+  "count": 4,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "學",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "學",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "學",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "學",
+    "variant": "slip"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "學",
+   "学"
+  ]
+ },
+ "习": {
+  "char": "习",
+  "trad": "習",
+  "plan": "default",
+  "count": 2,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "習",
+    "variant": "oracle"
+   },
+   {
+    "stage": "seal",
+    "form": "習",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "習",
+   "习"
+  ]
+ },
+ "师": {
+  "char": "师",
+  "trad": "師",
+  "plan": "default",
+  "count": 2,
+  "stages": [
+   {
+    "stage": "bronze",
+    "form": "師",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "師",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "師",
+   "师"
+  ]
+ },
+ "教": {
+  "char": "教",
+  "trad": "教",
+  "plan": "default",
+  "count": 3,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "教",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "教",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "教",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "教"
+  ]
+ },
+ "书": {
+  "char": "书",
+  "trad": "書",
+  "plan": "default",
+  "count": 3,
+  "stages": [
+   {
+    "stage": "bronze",
+    "form": "書",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "書",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "書",
+    "variant": "clerical-han"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "書",
+   "书"
+  ]
+ },
+ "典": {
+  "char": "典",
+  "trad": "典",
+  "plan": "default",
+  "count": 3,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "典",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "典",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "典",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "典"
+  ]
+ },
+ "班": {
+  "char": "班",
+  "trad": "班",
+  "plan": "default",
+  "count": 2,
+  "stages": [
+   {
+    "stage": "bronze",
+    "form": "班",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "班",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "班"
+  ]
+ },
+ "考": {
+  "char": "考",
+  "trad": "考",
+  "plan": "default",
+  "count": 3,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "考",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "考",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "考",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "考"
+  ]
+ },
+ "喜": {
+  "char": "喜",
+  "trad": "喜",
+  "plan": "default",
+  "count": 4,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "喜",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "喜",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "喜",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "喜",
+    "variant": "slip"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "喜"
+  ]
+ },
+ "乐": {
+  "char": "乐",
+  "trad": "樂",
+  "plan": "default",
+  "count": 4,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "樂",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "樂",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "樂",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "樂",
+    "variant": "slip"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "樂",
+   "乐"
+  ]
+ },
+ "兴": {
+  "char": "兴",
+  "trad": "興",
+  "plan": "default",
+  "count": 3,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "興",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "興",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "興",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "興",
+   "兴"
+  ]
+ },
+ "爱": {
+  "char": "爱",
+  "trad": "愛",
+  "plan": "default",
+  "count": 2,
+  "stages": [
+   {
+    "stage": "seal",
+    "form": "愛",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "愛",
+    "variant": "clerical"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "愛",
+   "爱"
+  ]
+ },
+ "知": {
+  "char": "知",
+  "trad": "知",
+  "plan": "default",
+  "count": 1,
+  "stages": [
+   {
+    "stage": "seal",
+    "form": "知",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "知"
+  ]
+ },
+ "念": {
+  "char": "念",
+  "trad": "念",
+  "plan": "default",
+  "count": 4,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "念",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "念",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "念",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "念",
+    "variant": "silk"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "念"
+  ]
+ },
+ "名": {
+  "char": "名",
+  "trad": "名",
+  "plan": "default",
+  "count": 3,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "名",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "名",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "名",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "名"
+  ]
+ },
+ "息": {
+  "char": "息",
+  "trad": "息",
+  "plan": "default",
+  "count": 0,
+  "stages": [],
+  "journey": [],
+  "hanzi": [
+   "息"
+  ]
+ },
+ "光": {
+  "char": "光",
+  "trad": "光",
+  "plan": "default",
+  "count": 4,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "光",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "光",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "光",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "光",
+    "variant": "silk"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "光"
+  ]
+ },
+ "灰": {
+  "char": "灰",
+  "trad": "灰",
+  "plan": "default",
+  "count": 2,
+  "stages": [
+   {
+    "stage": "seal",
+    "form": "灰",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "灰",
+    "variant": "silk"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "灰"
+  ]
+ },
+ "赤": {
+  "char": "赤",
+  "trad": "赤",
+  "plan": "default",
+  "count": 4,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "赤",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "赤",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "赤",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "赤",
+    "variant": "slip"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "赤"
+  ]
+ },
+ "热": {
+  "char": "热",
+  "trad": "熱",
+  "plan": "default",
+  "count": 1,
+  "stages": [
+   {
+    "stage": "seal",
+    "form": "熱",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "熱",
+   "热"
+  ]
+ },
+ "灯": {
+  "char": "灯",
+  "trad": "燈",
+  "plan": "default",
+  "count": 0,
+  "stages": [],
+  "journey": [],
+  "hanzi": [
+   "燈",
+   "灯"
+  ]
+ },
+ "点": {
+  "char": "点",
+  "trad": "點",
+  "plan": "default",
+  "count": 1,
+  "stages": [
+   {
+    "stage": "seal",
+    "form": "點",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "點",
+   "点"
+  ]
+ },
+ "影": {
+  "char": "影",
+  "trad": "影",
+  "plan": "default",
+  "count": 0,
+  "stages": [],
+  "journey": [],
+  "hanzi": [
+   "影"
+  ]
+ },
+ "你": {
+  "char": "你",
+  "trad": "你",
+  "plan": "default",
+  "count": 0,
+  "stages": [],
+  "journey": [],
+  "hanzi": [
+   "你"
+  ]
+ },
+ "他": {
+  "char": "他",
+  "trad": "他",
+  "plan": "default",
+  "count": 0,
+  "stages": [],
+  "journey": [],
+  "hanzi": [
+   "他"
+  ]
+ },
+ "她": {
+  "char": "她",
+  "trad": "她",
+  "plan": "default",
+  "count": 0,
+  "stages": [],
+  "journey": [],
+  "hanzi": [
+   "她"
+  ]
+ },
+ "们": {
+  "char": "们",
+  "trad": "們",
+  "plan": "default",
+  "count": 0,
+  "stages": [],
+  "journey": [],
+  "hanzi": [
+   "們",
+   "们"
+  ]
+ },
+ "您": {
+  "char": "您",
+  "trad": "您",
+  "plan": "default",
+  "count": 0,
+  "stages": [],
+  "journey": [],
+  "hanzi": [
+   "您"
+  ]
+ },
+ "谁": {
+  "char": "谁",
+  "trad": "誰",
+  "plan": "default",
+  "count": 0,
+  "stages": [],
+  "journey": [],
+  "hanzi": [
+   "誰",
+   "谁"
+  ]
+ },
+ "这": {
+  "char": "这",
+  "trad": "這",
+  "plan": "default",
+  "count": 0,
+  "stages": [],
+  "journey": [],
+  "hanzi": [
+   "這",
+   "这"
+  ]
+ },
+ "那": {
+  "char": "那",
+  "trad": "那",
+  "plan": "default",
+  "count": 1,
+  "stages": [
+   {
+    "stage": "seal",
+    "form": "那",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "那"
+  ]
+ },
+ "爸": {
+  "char": "爸",
+  "trad": "爸",
+  "plan": "default",
+  "count": 0,
+  "stages": [],
+  "journey": [],
+  "hanzi": [
+   "爸"
+  ]
+ },
+ "妈": {
+  "char": "妈",
+  "trad": "媽",
+  "plan": "default",
+  "count": 0,
+  "stages": [],
+  "journey": [],
+  "hanzi": [
+   "媽",
+   "妈"
+  ]
+ },
+ "爷": {
+  "char": "爷",
+  "trad": "爺",
+  "plan": "default",
+  "count": 0,
+  "stages": [],
+  "journey": [],
+  "hanzi": [
+   "爺",
+   "爷"
+  ]
+ },
+ "奶": {
+  "char": "奶",
+  "trad": "奶",
+  "plan": "default",
+  "count": 0,
+  "stages": [],
+  "journey": [],
+  "hanzi": [
+   "奶"
+  ]
+ },
+ "哥": {
+  "char": "哥",
+  "trad": "哥",
+  "plan": "default",
+  "count": 0,
+  "stages": [],
+  "journey": [],
+  "hanzi": [
+   "哥"
+  ]
+ },
+ "姐": {
+  "char": "姐",
+  "trad": "姐",
+  "plan": "default",
+  "count": 1,
+  "stages": [
+   {
+    "stage": "seal",
+    "form": "姐",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "姐"
+  ]
+ },
+ "弟": {
+  "char": "弟",
+  "trad": "弟",
+  "plan": "default",
+  "count": 2,
+  "stages": [
+   {
+    "stage": "bronze",
+    "form": "弟",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "弟",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "弟"
+  ]
+ },
+ "妹": {
+  "char": "妹",
+  "trad": "妹",
+  "plan": "default",
+  "count": 3,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "妹",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "妹",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "妹",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "妹"
+  ]
+ },
+ "孩": {
+  "char": "孩",
+  "trad": "孩",
+  "plan": "default",
+  "count": 0,
+  "stages": [],
+  "journey": [],
+  "hanzi": [
+   "孩"
+  ]
+ },
+ "的": {
+  "char": "的",
+  "trad": "的",
+  "plan": "default",
+  "count": 1,
+  "stages": [
+   {
+    "stage": "seal",
+    "form": "的",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "的"
+  ]
+ },
+ "么": {
+  "char": "么",
+  "trad": "麼",
+  "plan": "default",
+  "count": 0,
+  "stages": [],
+  "journey": [],
+  "hanzi": [
+   "麼",
+   "么"
+  ]
+ },
+ "吗": {
+  "char": "吗",
+  "trad": "嗎",
+  "plan": "default",
+  "count": 0,
+  "stages": [],
+  "journey": [],
+  "hanzi": [
+   "嗎",
+   "吗"
+  ]
+ },
+ "呢": {
+  "char": "呢",
+  "trad": "呢",
+  "plan": "default",
+  "count": 0,
+  "stages": [],
+  "journey": [],
+  "hanzi": [
+   "呢"
+  ]
+ },
+ "吧": {
+  "char": "吧",
+  "trad": "吧",
+  "plan": "default",
+  "count": 0,
+  "stages": [],
+  "journey": [],
+  "hanzi": [
+   "吧"
+  ]
+ },
+ "啊": {
+  "char": "啊",
+  "trad": "啊",
+  "plan": "default",
+  "count": 0,
+  "stages": [],
+  "journey": [],
+  "hanzi": [
+   "啊"
+  ]
+ },
+ "很": {
+  "char": "很",
+  "trad": "很",
+  "plan": "default",
+  "count": 0,
+  "stages": [],
+  "journey": [],
+  "hanzi": [
+   "很"
+  ]
+ },
+ "都": {
+  "char": "都",
+  "trad": "都",
+  "plan": "default",
+  "count": 2,
+  "stages": [
+   {
+    "stage": "bronze",
+    "form": "都",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "都",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "都"
+  ]
+ },
+ "最": {
+  "char": "最",
+  "trad": "最",
+  "plan": "default",
+  "count": 3,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "最",
+    "variant": "oracle"
+   },
+   {
+    "stage": "seal",
+    "form": "最",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "最",
+    "variant": "slip"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "最"
+  ]
+ },
+ "是": {
+  "char": "是",
+  "trad": "是",
+  "plan": "default",
+  "count": 4,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "是",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "是",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "是",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "是",
+    "variant": "slip"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "是"
+  ]
+ },
+ "在": {
+  "char": "在",
+  "trad": "在",
+  "plan": "default",
+  "count": 4,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "在",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "在",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "在",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "在",
+    "variant": "clerical"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "在"
+  ]
+ },
+ "个": {
+  "char": "个",
+  "trad": "個",
+  "plan": "default",
+  "count": 0,
+  "stages": [],
+  "journey": [],
+  "hanzi": [
+   "個",
+   "个"
+  ]
+ },
+ "等": {
+  "char": "等",
+  "trad": "等",
+  "plan": "default",
+  "count": 0,
+  "stages": [],
+  "journey": [],
+  "hanzi": [
+   "等"
+  ]
+ },
+ "样": {
+  "char": "样",
+  "trad": "樣",
+  "plan": "default",
+  "count": 0,
+  "stages": [],
+  "journey": [],
+  "hanzi": [
+   "樣",
+   "样"
+  ]
+ },
+ "怎": {
+  "char": "怎",
+  "trad": "怎",
+  "plan": "default",
+  "count": 0,
+  "stages": [],
+  "journey": [],
+  "hanzi": [
+   "怎"
+  ]
+ },
+ "太": {
+  "char": "太",
+  "trad": "太",
+  "plan": "default",
+  "count": 0,
+  "stages": [],
+  "journey": [],
+  "hanzi": [
+   "太"
+  ]
+ },
+ "常": {
+  "char": "常",
+  "trad": "常",
+  "plan": "default",
+  "count": 2,
+  "stages": [
+   {
+    "stage": "bronze",
+    "form": "常",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "常",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "常"
+  ]
+ },
+ "真": {
+  "char": "真",
+  "trad": "真",
+  "plan": "default",
+  "count": 3,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "真",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "真",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "真",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "真"
+  ]
+ },
+ "难": {
+  "char": "难",
+  "trad": "難",
+  "plan": "default",
+  "count": 0,
+  "stages": [],
+  "journey": [],
+  "hanzi": [
+   "難",
+   "难"
+  ]
+ },
+ "叫": {
+  "char": "叫",
+  "trad": "叫",
+  "plan": "default",
+  "count": 1,
+  "stages": [
+   {
+    "stage": "seal",
+    "form": "叫",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "叫"
+  ]
+ },
+ "唱": {
+  "char": "唱",
+  "trad": "唱",
+  "plan": "default",
+  "count": 1,
+  "stages": [
+   {
+    "stage": "seal",
+    "form": "唱",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "唱"
+  ]
+ },
+ "喊": {
+  "char": "喊",
+  "trad": "喊",
+  "plan": "default",
+  "count": 0,
+  "stages": [],
+  "journey": [],
+  "hanzi": [
+   "喊"
+  ]
+ },
+ "歌": {
+  "char": "歌",
+  "trad": "歌",
+  "plan": "default",
+  "count": 1,
+  "stages": [
+   {
+    "stage": "seal",
+    "form": "歌",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "歌"
+  ]
+ },
+ "问": {
+  "char": "问",
+  "trad": "問",
+  "plan": "default",
+  "count": 1,
+  "stages": [
+   {
+    "stage": "seal",
+    "form": "問",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "問",
+   "问"
+  ]
+ },
+ "和": {
+  "char": "和",
+  "trad": "和",
+  "plan": "default",
+  "count": 3,
+  "stages": [
+   {
+    "stage": "bronze",
+    "form": "和",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "和",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "和",
+    "variant": "slip"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "和"
+  ]
+ },
+ "号": {
+  "char": "号",
+  "trad": "號",
+  "plan": "default",
+  "count": 1,
+  "stages": [
+   {
+    "stage": "seal",
+    "form": "號",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "號",
+   "号"
+  ]
+ },
+ "说": {
+  "char": "说",
+  "trad": "說",
+  "plan": "default",
+  "count": 2,
+  "stages": [
+   {
+    "stage": "seal",
+    "form": "說",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "說",
+    "variant": "silk"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "說",
+   "说"
+  ]
+ },
+ "话": {
+  "char": "话",
+  "trad": "話",
+  "plan": "default",
+  "count": 1,
+  "stages": [
+   {
+    "stage": "seal",
+    "form": "話",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "話",
+   "话"
+  ]
+ },
+ "语": {
+  "char": "语",
+  "trad": "語",
+  "plan": "default",
+  "count": 2,
+  "stages": [
+   {
+    "stage": "seal",
+    "form": "語",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "語",
+    "variant": "slip"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "語",
+   "语"
+  ]
+ },
+ "请": {
+  "char": "请",
+  "trad": "請",
+  "plan": "default",
+  "count": 2,
+  "stages": [
+   {
+    "stage": "seal",
+    "form": "請",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "請",
+    "variant": "silk"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "請",
+   "请"
+  ]
+ },
+ "谢": {
+  "char": "谢",
+  "trad": "謝",
+  "plan": "default",
+  "count": 0,
+  "stages": [],
+  "journey": [],
+  "hanzi": [
+   "謝",
+   "谢"
+  ]
+ },
+ "认": {
+  "char": "认",
+  "trad": "認",
+  "plan": "default",
+  "count": 0,
+  "stages": [],
+  "journey": [],
+  "hanzi": [
+   "認",
+   "认"
+  ]
+ },
+ "识": {
+  "char": "识",
+  "trad": "識",
+  "plan": "default",
+  "count": 2,
+  "stages": [
+   {
+    "stage": "bronze",
+    "form": "識",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "識",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "識",
+   "识"
+  ]
+ },
+ "读": {
+  "char": "读",
+  "trad": "讀",
+  "plan": "default",
+  "count": 1,
+  "stages": [
+   {
+    "stage": "seal",
+    "form": "讀",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "讀",
+   "读"
+  ]
+ },
+ "记": {
+  "char": "记",
+  "trad": "記",
+  "plan": "default",
+  "count": 1,
+  "stages": [
+   {
+    "stage": "seal",
+    "form": "記",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "記",
+   "记"
+  ]
+ },
+ "写": {
+  "char": "写",
+  "trad": "寫",
+  "plan": "default",
+  "count": 0,
+  "stages": [],
+  "journey": [],
+  "hanzi": [
+   "寫",
+   "写"
+  ]
+ },
+ "画": {
+  "char": "画",
+  "trad": "畫",
+  "plan": "default",
+  "count": 3,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "畫",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "畫",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "畫",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "畫",
+   "画"
+  ]
+ },
+ "课": {
+  "char": "课",
+  "trad": "課",
+  "plan": "default",
+  "count": 0,
+  "stages": [],
+  "journey": [],
+  "hanzi": [
+   "課",
+   "课"
+  ]
+ },
+ "汉": {
+  "char": "汉",
+  "trad": "漢",
+  "plan": "default",
+  "count": 3,
+  "stages": [
+   {
+    "stage": "bronze",
+    "form": "漢",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "漢",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "漢",
+    "variant": "clerical-han"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "漢",
+   "汉"
+  ]
+ },
+ "诉": {
+  "char": "诉",
+  "trad": "訴",
+  "plan": "default",
+  "count": 0,
+  "stages": [],
+  "journey": [],
+  "hanzi": [
+   "訴",
+   "诉"
+  ]
+ },
+ "图": {
+  "char": "图",
+  "trad": "圖",
+  "plan": "default",
+  "count": 3,
+  "stages": [
+   {
+    "stage": "bronze",
+    "form": "圖",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "圖",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "圖",
+    "variant": "slip"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "圖",
+   "图"
+  ]
+ },
+ "答": {
+  "char": "答",
+  "trad": "答",
+  "plan": "default",
+  "count": 0,
+  "stages": [],
+  "journey": [],
+  "hanzi": [
+   "答"
+  ]
+ },
+ "第": {
+  "char": "第",
+  "trad": "第",
+  "plan": "default",
+  "count": 0,
+  "stages": [],
+  "journey": [],
+  "hanzi": [
+   "第"
+  ]
+ },
+ "头": {
+  "char": "头",
+  "trad": "頭",
+  "plan": "default",
+  "count": 1,
+  "stages": [
+   {
+    "stage": "seal",
+    "form": "頭",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "頭",
+   "头"
+  ]
+ },
+ "脑": {
+  "char": "脑",
+  "trad": "腦",
+  "plan": "default",
+  "count": 0,
+  "stages": [],
+  "journey": [],
+  "hanzi": [
+   "腦",
+   "脑"
+  ]
+ },
+ "眼": {
+  "char": "眼",
+  "trad": "眼",
+  "plan": "default",
+  "count": 0,
+  "stages": [],
+  "journey": [],
+  "hanzi": [
+   "眼"
+  ]
+ },
+ "睛": {
+  "char": "睛",
+  "trad": "睛",
+  "plan": "default",
+  "count": 0,
+  "stages": [],
+  "journey": [],
+  "hanzi": [
+   "睛"
+  ]
+ },
+ "脸": {
+  "char": "脸",
+  "trad": "臉",
+  "plan": "default",
+  "count": 0,
+  "stages": [],
+  "journey": [],
+  "hanzi": [
+   "臉",
+   "脸"
+  ]
+ },
+ "嘴": {
+  "char": "嘴",
+  "trad": "嘴",
+  "plan": "default",
+  "count": 0,
+  "stages": [],
+  "journey": [],
+  "hanzi": [
+   "嘴"
+  ]
+ },
+ "脚": {
+  "char": "脚",
+  "trad": "腳",
+  "plan": "default",
+  "count": 0,
+  "stages": [],
+  "journey": [],
+  "hanzi": [
+   "腳",
+   "脚"
+  ]
+ },
+ "腿": {
+  "char": "腿",
+  "trad": "腿",
+  "plan": "default",
+  "count": 0,
+  "stages": [],
+  "journey": [],
+  "hanzi": [
+   "腿"
+  ]
+ },
+ "吃": {
+  "char": "吃",
+  "trad": "吃",
+  "plan": "default",
+  "count": 0,
+  "stages": [],
+  "journey": [],
+  "hanzi": [
+   "吃"
+  ]
+ },
+ "喝": {
+  "char": "喝",
+  "trad": "喝",
+  "plan": "default",
+  "count": 1,
+  "stages": [
+   {
+    "stage": "seal",
+    "form": "喝",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "喝"
+  ]
+ },
+ "饭": {
+  "char": "饭",
+  "trad": "飯",
+  "plan": "default",
+  "count": 3,
+  "stages": [
+   {
+    "stage": "bronze",
+    "form": "飯",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "飯",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "飯",
+    "variant": "silk"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "飯",
+   "饭"
+  ]
+ },
+ "饿": {
+  "char": "饿",
+  "trad": "餓",
+  "plan": "default",
+  "count": 1,
+  "stages": [
+   {
+    "stage": "seal",
+    "form": "餓",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "餓",
+   "饿"
+  ]
+ },
+ "饱": {
+  "char": "饱",
+  "trad": "飽",
+  "plan": "default",
+  "count": 1,
+  "stages": [
+   {
+    "stage": "seal",
+    "form": "飽",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "飽",
+   "饱"
+  ]
+ },
+ "渴": {
+  "char": "渴",
+  "trad": "渴",
+  "plan": "default",
+  "count": 1,
+  "stages": [
+   {
+    "stage": "seal",
+    "form": "渴",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "渴"
+  ]
+ },
+ "菜": {
+  "char": "菜",
+  "trad": "菜",
+  "plan": "default",
+  "count": 1,
+  "stages": [
+   {
+    "stage": "seal",
+    "form": "菜",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "菜"
+  ]
+ },
+ "茶": {
+  "char": "茶",
+  "trad": "茶",
+  "plan": "default",
+  "count": 0,
+  "stages": [],
+  "journey": [],
+  "hanzi": [
+   "茶"
+  ]
+ },
+ "蛋": {
+  "char": "蛋",
+  "trad": "蛋",
+  "plan": "default",
+  "count": 0,
+  "stages": [],
+  "journey": [],
+  "hanzi": [
+   "蛋"
+  ]
+ },
+ "食": {
+  "char": "食",
+  "trad": "食",
+  "plan": "default",
+  "count": 4,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "食",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "食",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "食",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "食",
+    "variant": "slip"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "食"
+  ]
+ },
+ "河": {
+  "char": "河",
+  "trad": "河",
+  "plan": "default",
+  "count": 3,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "河",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "河",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "河",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "河"
+  ]
+ },
+ "海": {
+  "char": "海",
+  "trad": "海",
+  "plan": "default",
+  "count": 2,
+  "stages": [
+   {
+    "stage": "bronze",
+    "form": "海",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "海",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "海"
+  ]
+ },
+ "湖": {
+  "char": "湖",
+  "trad": "湖",
+  "plan": "default",
+  "count": 1,
+  "stages": [
+   {
+    "stage": "seal",
+    "form": "湖",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "湖"
+  ]
+ },
+ "洗": {
+  "char": "洗",
+  "trad": "洗",
+  "plan": "default",
+  "count": 0,
+  "stages": [],
+  "journey": [],
+  "hanzi": [
+   "洗"
+  ]
+ },
+ "游": {
+  "char": "游",
+  "trad": "游",
+  "plan": "default",
+  "count": 1,
+  "stages": [
+   {
+    "stage": "seal",
+    "form": "游",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "游"
+  ]
+ },
+ "汽": {
+  "char": "汽",
+  "trad": "汽",
+  "plan": "default",
+  "count": 1,
+  "stages": [
+   {
+    "stage": "seal",
+    "form": "汽",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "汽"
+  ]
+ },
+ "油": {
+  "char": "油",
+  "trad": "油",
+  "plan": "default",
+  "count": 1,
+  "stages": [
+   {
+    "stage": "seal",
+    "form": "油",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "油"
+  ]
+ },
+ "清": {
+  "char": "清",
+  "trad": "清",
+  "plan": "default",
+  "count": 0,
+  "stages": [],
+  "journey": [],
+  "hanzi": [
+   "清"
+  ]
+ },
+ "没": {
+  "char": "没",
+  "trad": "沒",
+  "plan": "default",
+  "count": 1,
+  "stages": [
+   {
+    "stage": "seal",
+    "form": "沒",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "沒",
+   "没"
+  ]
+ },
+ "冰": {
+  "char": "冰",
+  "trad": "冰",
+  "plan": "default",
+  "count": 1,
+  "stages": [
+   {
+    "stage": "seal",
+    "form": "冰",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "冰"
+  ]
+ },
+ "冷": {
+  "char": "冷",
+  "trad": "冷",
+  "plan": "default",
+  "count": 1,
+  "stages": [
+   {
+    "stage": "seal",
+    "form": "冷",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "冷"
+  ]
+ },
+ "凉": {
+  "char": "凉",
+  "trad": "涼",
+  "plan": "default",
+  "count": 1,
+  "stages": [
+   {
+    "stage": "seal",
+    "form": "涼",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "涼",
+   "凉"
+  ]
+ },
+ "雪": {
+  "char": "雪",
+  "trad": "雪",
+  "plan": "default",
+  "count": 2,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "雪",
+    "variant": "oracle"
+   },
+   {
+    "stage": "seal",
+    "form": "雪",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "雪"
+  ]
+ },
+ "雷": {
+  "char": "雷",
+  "trad": "雷",
+  "plan": "default",
+  "count": 0,
+  "stages": [],
+  "journey": [],
+  "hanzi": [
+   "雷"
+  ]
+ },
+ "零": {
+  "char": "零",
+  "trad": "零",
+  "plan": "default",
+  "count": 1,
+  "stages": [
+   {
+    "stage": "seal",
+    "form": "零",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "零"
+  ]
+ },
+ "打": {
+  "char": "打",
+  "trad": "打",
+  "plan": "default",
+  "count": 1,
+  "stages": [
+   {
+    "stage": "seal",
+    "form": "打",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "打"
+  ]
+ },
+ "找": {
+  "char": "找",
+  "trad": "找",
+  "plan": "default",
+  "count": 0,
+  "stages": [],
+  "journey": [],
+  "hanzi": [
+   "找"
+  ]
+ },
+ "拿": {
+  "char": "拿",
+  "trad": "拿",
+  "plan": "default",
+  "count": 1,
+  "stages": [
+   {
+    "stage": "seal",
+    "form": "拿",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "拿"
+  ]
+ },
+ "拉": {
+  "char": "拉",
+  "trad": "拉",
+  "plan": "default",
+  "count": 1,
+  "stages": [
+   {
+    "stage": "seal",
+    "form": "拉",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "拉"
+  ]
+ },
+ "推": {
+  "char": "推",
+  "trad": "推",
+  "plan": "default",
+  "count": 0,
+  "stages": [],
+  "journey": [],
+  "hanzi": [
+   "推"
+  ]
+ },
+ "把": {
+  "char": "把",
+  "trad": "把",
+  "plan": "default",
+  "count": 1,
+  "stages": [
+   {
+    "stage": "seal",
+    "form": "把",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "把"
+  ]
+ },
+ "接": {
+  "char": "接",
+  "trad": "接",
+  "plan": "default",
+  "count": 0,
+  "stages": [],
+  "journey": [],
+  "hanzi": [
+   "接"
+  ]
+ },
+ "放": {
+  "char": "放",
+  "trad": "放",
+  "plan": "default",
+  "count": 1,
+  "stages": [
+   {
+    "stage": "seal",
+    "form": "放",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "放"
+  ]
+ },
+ "住": {
+  "char": "住",
+  "trad": "住",
+  "plan": "default",
+  "count": 0,
+  "stages": [],
+  "journey": [],
+  "hanzi": [
+   "住"
+  ]
+ },
+ "作": {
+  "char": "作",
+  "trad": "作",
+  "plan": "default",
+  "count": 4,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "作",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "作",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "作",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "作",
+    "variant": "silk"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "作"
+  ]
+ },
+ "做": {
+  "char": "做",
+  "trad": "做",
+  "plan": "default",
+  "count": 0,
+  "stages": [],
+  "journey": [],
+  "hanzi": [
+   "做"
+  ]
+ },
+ "体": {
+  "char": "体",
+  "trad": "體",
+  "plan": "default",
+  "count": 2,
+  "stages": [
+   {
+    "stage": "bronze",
+    "form": "體",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "體",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "體",
+   "体"
+  ]
+ },
+ "位": {
+  "char": "位",
+  "trad": "位",
+  "plan": "default",
+  "count": 4,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "位",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "位",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "位",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "位",
+    "variant": "clerical"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "位"
+  ]
+ },
+ "信": {
+  "char": "信",
+  "trad": "信",
+  "plan": "default",
+  "count": 0,
+  "stages": [],
+  "journey": [],
+  "hanzi": [
+   "信"
+  ]
+ },
+ "候": {
+  "char": "候",
+  "trad": "候",
+  "plan": "default",
+  "count": 0,
+  "stages": [],
+  "journey": [],
+  "hanzi": [
+   "候"
+  ]
+ },
+ "假": {
+  "char": "假",
+  "trad": "假",
+  "plan": "default",
+  "count": 1,
+  "stages": [
+   {
+    "stage": "seal",
+    "form": "假",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "假"
+  ]
+ },
+ "想": {
+  "char": "想",
+  "trad": "想",
+  "plan": "default",
+  "count": 0,
+  "stages": [],
+  "journey": [],
+  "hanzi": [
+   "想"
+  ]
+ },
+ "忘": {
+  "char": "忘",
+  "trad": "忘",
+  "plan": "default",
+  "count": 2,
+  "stages": [
+   {
+    "stage": "seal",
+    "form": "忘",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "忘",
+    "variant": "silk"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "忘"
+  ]
+ },
+ "思": {
+  "char": "思",
+  "trad": "思",
+  "plan": "default",
+  "count": 1,
+  "stages": [
+   {
+    "stage": "seal",
+    "form": "思",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "思"
+  ]
+ },
+ "快": {
+  "char": "快",
+  "trad": "快",
+  "plan": "default",
+  "count": 0,
+  "stages": [],
+  "journey": [],
+  "hanzi": [
+   "快"
+  ]
+ },
+ "忙": {
+  "char": "忙",
+  "trad": "忙",
+  "plan": "default",
+  "count": 0,
+  "stages": [],
+  "journey": [],
+  "hanzi": [
+   "忙"
+  ]
+ },
+ "慢": {
+  "char": "慢",
+  "trad": "慢",
+  "plan": "default",
+  "count": 0,
+  "stages": [],
+  "journey": [],
+  "hanzi": [
+   "慢"
+  ]
+ },
+ "怕": {
+  "char": "怕",
+  "trad": "怕",
+  "plan": "default",
+  "count": 0,
+  "stages": [],
+  "journey": [],
+  "hanzi": [
+   "怕"
+  ]
+ },
+ "意": {
+  "char": "意",
+  "trad": "意",
+  "plan": "default",
+  "count": 2,
+  "stages": [
+   {
+    "stage": "bronze",
+    "form": "意",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "意",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "意"
+  ]
+ },
+ "过": {
+  "char": "过",
+  "trad": "過",
+  "plan": "default",
+  "count": 3,
+  "stages": [
+   {
+    "stage": "bronze",
+    "form": "過",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "過",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "過",
+    "variant": "slip"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "過",
+   "过"
+  ]
+ },
+ "还": {
+  "char": "还",
+  "trad": "還",
+  "plan": "default",
+  "count": 3,
+  "stages": [
+   {
+    "stage": "bronze",
+    "form": "還",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "還",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "還",
+    "variant": "silk"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "還",
+   "还"
+  ]
+ },
+ "送": {
+  "char": "送",
+  "trad": "送",
+  "plan": "default",
+  "count": 0,
+  "stages": [],
+  "journey": [],
+  "hanzi": [
+   "送"
+  ]
+ },
+ "远": {
+  "char": "远",
+  "trad": "遠",
+  "plan": "default",
+  "count": 3,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "遠",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "遠",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "遠",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "遠",
+   "远"
+  ]
+ },
+ "近": {
+  "char": "近",
+  "trad": "近",
+  "plan": "default",
+  "count": 1,
+  "stages": [
+   {
+    "stage": "seal",
+    "form": "近",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "近"
+  ]
+ },
+ "边": {
+  "char": "边",
+  "trad": "邊",
+  "plan": "default",
+  "count": 4,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "邊",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "邊",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "邊",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "邊",
+    "variant": "slip"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "邊",
+   "边"
+  ]
+ },
+ "道": {
+  "char": "道",
+  "trad": "道",
+  "plan": "default",
+  "count": 3,
+  "stages": [
+   {
+    "stage": "bronze",
+    "form": "道",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "道",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "道",
+    "variant": "silk"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "道"
+  ]
+ },
+ "跑": {
+  "char": "跑",
+  "trad": "跑",
+  "plan": "default",
+  "count": 0,
+  "stages": [],
+  "journey": [],
+  "hanzi": [
+   "跑"
+  ]
+ },
+ "路": {
+  "char": "路",
+  "trad": "路",
+  "plan": "default",
+  "count": 3,
+  "stages": [
+   {
+    "stage": "bronze",
+    "form": "路",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "路",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "路",
+    "variant": "silk"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "路"
+  ]
+ },
+ "跟": {
+  "char": "跟",
+  "trad": "跟",
+  "plan": "default",
+  "count": 0,
+  "stages": [],
+  "journey": [],
+  "hanzi": [
+   "跟"
+  ]
+ },
+ "起": {
+  "char": "起",
+  "trad": "起",
+  "plan": "default",
+  "count": 1,
+  "stages": [
+   {
+    "stage": "seal",
+    "form": "起",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "起"
+  ]
+ },
+ "站": {
+  "char": "站",
+  "trad": "站",
+  "plan": "default",
+  "count": 0,
+  "stages": [],
+  "journey": [],
+  "hanzi": [
+   "站"
+  ]
+ },
+ "到": {
+  "char": "到",
+  "trad": "到",
+  "plan": "default",
+  "count": 2,
+  "stages": [
+   {
+    "stage": "bronze",
+    "form": "到",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "到",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "到"
+  ]
+ },
+ "动": {
+  "char": "动",
+  "trad": "動",
+  "plan": "default",
+  "count": 4,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "動",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "動",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "動",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "動",
+    "variant": "silk"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "動",
+   "动"
+  ]
+ },
+ "重": {
+  "char": "重",
+  "trad": "重",
+  "plan": "default",
+  "count": 4,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "重",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "重",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "重",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "重",
+    "variant": "silk"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "重"
+  ]
+ },
+ "狗": {
+  "char": "狗",
+  "trad": "狗",
+  "plan": "default",
+  "count": 3,
+  "stages": [
+   {
+    "stage": "bronze",
+    "form": "狗",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "狗",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "狗",
+    "variant": "silk"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "狗"
+  ]
+ },
+ "猫": {
+  "char": "猫",
+  "trad": "貓",
+  "plan": "default",
+  "count": 1,
+  "stages": [
+   {
+    "stage": "seal",
+    "form": "貓",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "貓",
+   "猫"
+  ]
+ },
+ "猪": {
+  "char": "猪",
+  "trad": "豬",
+  "plan": "default",
+  "count": 2,
+  "stages": [
+   {
+    "stage": "seal",
+    "form": "豬",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "豬",
+    "variant": "slip"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "豬",
+   "猪"
+  ]
+ },
+ "狼": {
+  "char": "狼",
+  "trad": "狼",
+  "plan": "default",
+  "count": 1,
+  "stages": [
+   {
+    "stage": "seal",
+    "form": "狼",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "狼"
+  ]
+ },
+ "鸡": {
+  "char": "鸡",
+  "trad": "雞",
+  "plan": "default",
+  "count": 4,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "雞",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "雞",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "雞",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "雞",
+    "variant": "silk"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "雞",
+   "鸡"
+  ]
+ },
+ "鸭": {
+  "char": "鸭",
+  "trad": "鴨",
+  "plan": "default",
+  "count": 0,
+  "stages": [],
+  "journey": [],
+  "hanzi": [
+   "鴨",
+   "鸭"
+  ]
+ },
+ "鹅": {
+  "char": "鹅",
+  "trad": "鵝",
+  "plan": "default",
+  "count": 1,
+  "stages": [
+   {
+    "stage": "seal",
+    "form": "鵝",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "鵝",
+   "鹅"
+  ]
+ },
+ "熊": {
+  "char": "熊",
+  "trad": "熊",
+  "plan": "default",
+  "count": 2,
+  "stages": [
+   {
+    "stage": "seal",
+    "form": "熊",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "熊",
+    "variant": "slip"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "熊"
+  ]
+ },
+ "白": {
+  "char": "白",
+  "trad": "白",
+  "plan": "default",
+  "count": 3,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "白",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "白",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "白",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "白"
+  ]
+ },
+ "黑": {
+  "char": "黑",
+  "trad": "黑",
+  "plan": "default",
+  "count": 4,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "黑",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "黑",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "黑",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "黑",
+    "variant": "slip"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "黑"
+  ]
+ },
+ "黄": {
+  "char": "黄",
+  "trad": "黃",
+  "plan": "default",
+  "count": 3,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "黃",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "黃",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "黃",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "黃",
+   "黄"
+  ]
+ },
+ "青": {
+  "char": "青",
+  "trad": "青",
+  "plan": "default",
+  "count": 3,
+  "stages": [
+   {
+    "stage": "bronze",
+    "form": "青",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "青",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "青",
+    "variant": "silk"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "青"
+  ]
+ },
+ "红": {
+  "char": "红",
+  "trad": "紅",
+  "plan": "default",
+  "count": 1,
+  "stages": [
+   {
+    "stage": "seal",
+    "form": "紅",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "紅",
+   "红"
+  ]
+ },
+ "绿": {
+  "char": "绿",
+  "trad": "綠",
+  "plan": "default",
+  "count": 1,
+  "stages": [
+   {
+    "stage": "seal",
+    "form": "綠",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "綠",
+   "绿"
+  ]
+ },
+ "蓝": {
+  "char": "蓝",
+  "trad": "藍",
+  "plan": "default",
+  "count": 0,
+  "stages": [],
+  "journey": [],
+  "hanzi": [
+   "藍",
+   "蓝"
+  ]
+ },
+ "色": {
+  "char": "色",
+  "trad": "色",
+  "plan": "default",
+  "count": 2,
+  "stages": [
+   {
+    "stage": "seal",
+    "form": "色",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "色",
+    "variant": "slip"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "色"
+  ]
+ },
+ "金": {
+  "char": "金",
+  "trad": "金",
+  "plan": "default",
+  "count": 2,
+  "stages": [
+   {
+    "stage": "bronze",
+    "form": "金",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "金",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "金"
+  ]
+ },
+ "钱": {
+  "char": "钱",
+  "trad": "錢",
+  "plan": "default",
+  "count": 0,
+  "stages": [],
+  "journey": [],
+  "hanzi": [
+   "錢",
+   "钱"
+  ]
+ },
+ "钟-鐘": {
+  "char": "钟",
+  "trad": "鐘",
+  "plan": "default",
+  "count": 3,
+  "stages": [
+   {
+    "stage": "bronze",
+    "form": "鐘",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "鐘",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "鐘",
+    "variant": "silk"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "鐘",
+   "钟"
+  ]
+ },
+ "银": {
+  "char": "银",
+  "trad": "銀",
+  "plan": "default",
+  "count": 1,
+  "stages": [
+   {
+    "stage": "seal",
+    "form": "銀",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "銀",
+   "银"
+  ]
+ },
+ "铁": {
+  "char": "铁",
+  "trad": "鐵",
+  "plan": "default",
+  "count": 0,
+  "stages": [],
+  "journey": [],
+  "hanzi": [
+   "鐵",
+   "铁"
+  ]
+ },
+ "错": {
+  "char": "错",
+  "trad": "錯",
+  "plan": "default",
+  "count": 0,
+  "stages": [],
+  "journey": [],
+  "hanzi": [
+   "錯",
+   "错"
+  ]
+ },
+ "树": {
+  "char": "树",
+  "trad": "樹",
+  "plan": "default",
+  "count": 1,
+  "stages": [
+   {
+    "stage": "seal",
+    "form": "樹",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "樹",
+   "树"
+  ]
+ },
+ "机": {
+  "char": "机",
+  "trad": "機",
+  "plan": "default",
+  "count": 1,
+  "stages": [
+   {
+    "stage": "seal",
+    "form": "機",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "機",
+   "机"
+  ]
+ },
+ "杯": {
+  "char": "杯",
+  "trad": "杯",
+  "plan": "default",
+  "count": 0,
+  "stages": [],
+  "journey": [],
+  "hanzi": [
+   "杯"
+  ]
+ },
+ "桌": {
+  "char": "桌",
+  "trad": "桌",
+  "plan": "default",
+  "count": 0,
+  "stages": [],
+  "journey": [],
+  "hanzi": [
+   "桌"
+  ]
+ },
+ "椅": {
+  "char": "椅",
+  "trad": "椅",
+  "plan": "default",
+  "count": 0,
+  "stages": [],
+  "journey": [],
+  "hanzi": [
+   "椅"
+  ]
+ },
+ "板": {
+  "char": "板",
+  "trad": "板",
+  "plan": "default",
+  "count": 1,
+  "stages": [
+   {
+    "stage": "clerical",
+    "form": "板",
+    "variant": "silk"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "板"
+  ]
+ },
+ "校": {
+  "char": "校",
+  "trad": "校",
+  "plan": "default",
+  "count": 1,
+  "stages": [
+   {
+    "stage": "seal",
+    "form": "校",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "校"
+  ]
+ },
+ "楼": {
+  "char": "楼",
+  "trad": "樓",
+  "plan": "default",
+  "count": 0,
+  "stages": [],
+  "journey": [],
+  "hanzi": [
+   "樓",
+   "楼"
+  ]
+ },
+ "条": {
+  "char": "条",
+  "trad": "條",
+  "plan": "default",
+  "count": 0,
+  "stages": [],
+  "journey": [],
+  "hanzi": [
+   "條",
+   "条"
+  ]
+ },
+ "穿": {
+  "char": "穿",
+  "trad": "穿",
+  "plan": "default",
+  "count": 0,
+  "stages": [],
+  "journey": [],
+  "hanzi": [
+   "穿"
+  ]
+ },
+ "服": {
+  "char": "服",
+  "trad": "服",
+  "plan": "default",
+  "count": 4,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "服",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "服",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "服",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "服",
+    "variant": "silk"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "服"
+  ]
+ },
+ "鞋": {
+  "char": "鞋",
+  "trad": "鞋",
+  "plan": "default",
+  "count": 1,
+  "stages": [
+   {
+    "stage": "seal",
+    "form": "鞋",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "鞋"
+  ]
+ },
+ "丝": {
+  "char": "丝",
+  "trad": "絲",
+  "plan": "default",
+  "count": 3,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "絲",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "絲",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "絲",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "絲",
+   "丝"
+  ]
+ },
+ "线": {
+  "char": "线",
+  "trad": "線",
+  "plan": "default",
+  "count": 1,
+  "stages": [
+   {
+    "stage": "seal",
+    "form": "線",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "線",
+   "线"
+  ]
+ },
+ "纸": {
+  "char": "纸",
+  "trad": "紙",
+  "plan": "default",
+  "count": 1,
+  "stages": [
+   {
+    "stage": "seal",
+    "form": "紙",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "紙",
+   "纸"
+  ]
+ },
+ "给": {
+  "char": "给",
+  "trad": "給",
+  "plan": "default",
+  "count": 1,
+  "stages": [
+   {
+    "stage": "seal",
+    "form": "給",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "給",
+   "给"
+  ]
+ },
+ "地": {
+  "char": "地",
+  "trad": "地",
+  "plan": "default",
+  "count": 3,
+  "stages": [
+   {
+    "stage": "bronze",
+    "form": "地",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "地",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "地",
+    "variant": "silk"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "地"
+  ]
+ },
+ "国": {
+  "char": "国",
+  "trad": "國",
+  "plan": "default",
+  "count": 3,
+  "stages": [
+   {
+    "stage": "bronze",
+    "form": "國",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "國",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "國",
+    "variant": "silk"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "國",
+   "国"
+  ]
+ },
+ "房": {
+  "char": "房",
+  "trad": "房",
+  "plan": "default",
+  "count": 1,
+  "stages": [
+   {
+    "stage": "seal",
+    "form": "房",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "房"
+  ]
+ },
+ "店": {
+  "char": "店",
+  "trad": "店",
+  "plan": "default",
+  "count": 0,
+  "stages": [],
+  "journey": [],
+  "hanzi": [
+   "店"
+  ]
+ },
+ "客": {
+  "char": "客",
+  "trad": "客",
+  "plan": "default",
+  "count": 3,
+  "stages": [
+   {
+    "stage": "bronze",
+    "form": "客",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "客",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "客",
+    "variant": "silk"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "客"
+  ]
+ },
+ "旁": {
+  "char": "旁",
+  "trad": "旁",
+  "plan": "default",
+  "count": 3,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "旁",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "旁",
+    "variant": "bronze"
+   },
+   {
+    "stage": "clerical",
+    "form": "旁",
+    "variant": "slip"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "旁"
+  ]
+ },
+ "坏": {
+  "char": "坏",
+  "trad": "壞",
+  "plan": "default",
+  "count": 1,
+  "stages": [
+   {
+    "stage": "seal",
+    "form": "壞",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "壞",
+   "坏"
+  ]
+ },
+ "块": {
+  "char": "块",
+  "trad": "塊",
+  "plan": "default",
+  "count": 1,
+  "stages": [
+   {
+    "stage": "seal",
+    "form": "塊",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "塊",
+   "块"
+  ]
+ },
+ "病": {
+  "char": "病",
+  "trad": "病",
+  "plan": "default",
+  "count": 0,
+  "stages": [],
+  "journey": [],
+  "hanzi": [
+   "病"
+  ]
+ },
+ "医": {
+  "char": "医",
+  "trad": "醫",
+  "plan": "default",
+  "count": 2,
+  "stages": [
+   {
+    "stage": "seal",
+    "form": "醫",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "醫",
+    "variant": "slip"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "醫",
+   "医"
+  ]
+ },
+ "累": {
+  "char": "累",
+  "trad": "累",
+  "plan": "default",
+  "count": 0,
+  "stages": [],
+  "journey": [],
+  "hanzi": [
+   "累"
+  ]
+ },
+ "睡": {
+  "char": "睡",
+  "trad": "睡",
+  "plan": "default",
+  "count": 1,
+  "stages": [
+   {
+    "stage": "seal",
+    "form": "睡",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "睡"
+  ]
+ },
+ "康": {
+  "char": "康",
+  "trad": "康",
+  "plan": "default",
+  "count": 2,
+  "stages": [
+   {
+    "stage": "bronze",
+    "form": "康",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "康",
+    "variant": "seal"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "康"
+  ]
+ },
+ "备": {
+  "char": "备",
+  "trad": "備",
+  "plan": "default",
+  "count": 4,
+  "stages": [
+   {
+    "stage": "oracle",
+    "form": "備",
+    "variant": "oracle"
+   },
+   {
+    "stage": "bronze",
+    "form": "備",
+    "variant": "bronze"
+   },
+   {
+    "stage": "seal",
+    "form": "備",
+    "variant": "seal"
+   },
+   {
+    "stage": "clerical",
+    "form": "備",
+    "variant": "slip"
+   }
+  ],
+  "journey": "default",
+  "hanzi": [
+   "備",
+   "备"
+  ]
+ }
+}
