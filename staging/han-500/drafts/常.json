@@ -1,0 +1,63 @@
+{
+  "id": "常",
+  "text": {
+    "Hans": "常",
+    "Hant": "常"
+  },
+  "readings": {
+    "pinyin": "cháng"
+  },
+  "meaning": {
+    "en": "often; usual",
+    "zh-Hans": "常常",
+    "zh-Hant": "常常"
+  },
+  "fact": {
+    "en": "常 has 巾 (cloth) at the bottom because it first named a skirt-like garment. Its sound was then borrowed to mean 'often', and the skirt got a new character: 裳.",
+    "zh-Hans": "“常”下面是“巾”（布），因为它本来指一种像裙子的下衣。后来它被借去表示“经常”，裙子就改用新字“裳”来写了。",
+    "zh-Hant": "「常」下面是「巾」（布），因為它本來指一種像裙子的下衣。後來它被借去表示「經常」，裙子就改用新字「裳」來寫了。"
+  },
+  "story": {
+    "topic": {
+      "en": "The Usual, Please!",
+      "zh-Hans": "老样子！",
+      "zh-Hant": "老樣子！"
+    },
+    "hook": {
+      "en": "Every Sunday, Grandma and Mei eat at the same noodle shop. They come so often that the cook starts their order the moment they walk in!",
+      "zh-Hans": "每个星期天，奶奶和小美都去同一家面馆。她们常常来，一进门老板就开始做她们爱吃的面了！",
+      "zh-Hant": "每個星期天，奶奶和小美都去同一家麵館。她們常常來，一進門老闆就開始煮她們愛吃的麵了！"
+    },
+    "closer": {
+      "en": "Again and again, week after week: 常常 means often. That's 常!",
+      "zh-Hans": "一次又一次，一周又一周，这就是常常的“常”！",
+      "zh-Hant": "一次又一次，一週又一週，這就是常常的「常」！"
+    }
+  },
+  "journey": "default",
+  "origin": {
+    "type": "loan",
+    "parts": [
+      {
+        "char": "巾",
+        "role": "meaning",
+        "gloss": {
+          "en": "cloth",
+          "zh-Hans": "布",
+          "zh-Hant": "布"
+        }
+      },
+      {
+        "char": "尚",
+        "role": "sound"
+      }
+    ]
+  },
+  "status": "draft",
+  "sources": [
+    {
+      "title": "Wiktionary: 常",
+      "url": "https://en.wiktionary.org/wiki/%E5%B8%B8"
+    }
+  ]
+}

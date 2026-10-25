@@ -1,0 +1,23 @@
+id: 识
+text: { Hans: 识, Hant: 識 }
+readings: { pinyin: shí }
+meaning: { en: to know, zh-Hans: 认识, zh-Hant: 認識 }
+fact:
+  en: 识 (識) has 言 (to say) for meaning, and traditional 識 uses 戠 for sound.
+  zh-Hans: “识”的“讠”（言）表示意思；它的繁体字用“戠”来表示读音。
+  zh-Hant: 「識」左邊的「言」表示意思，右邊的「戠」表示讀音。
+story:
+  topic: { en: "Hi, I'm Tingting!", zh-Hans: 你好，我叫婷婷！, zh-Hant: 你好，我叫婷婷！ }
+  hook: { en: "At the playground, Ada spots a girl with the very same rainbow backpack. 'Hi, I'm Tingting!' says the girl, and now they know each other.", zh-Hans: 在游乐场，艾达看见一个女孩背着和她一模一样的彩虹书包。“你好，我叫婷婷！”就这样，她们认识了。, zh-Hant: 在遊樂場，艾達看見一個女孩背著和她一模一樣的彩虹書包。「你好，我叫婷婷！」就這樣，她們認識了。 }
+  turn: { en: 'In simplified 识, the busy 戠 became a simple 只.', zh-Hans: 在简体字“识”里，复杂的“戠”变成了简单的“只”。, zh-Hant: 在簡體字「识」裡，複雜的「戠」變成了簡單的「只」。 }
+  closer: { en: 'From strangers to friends, now they 认识 each other! 识 (識) is all about knowing.', zh-Hans: 从不认识到认识，这就是认识的“识”！, zh-Hant: 從不認識到認識，這就是認識的「識」！ }
+journey: default
+origin:
+  type: phono-semantic
+  parts:
+    - { char: 言, role: meaning, gloss: { en: to say, zh-Hans: 说, zh-Hant: 說 } }
+    - { char: 戠, role: sound }
+status: draft
+sources:
+  - { title: 'Wiktionary: 识', url: 'https://en.wiktionary.org/wiki/%E8%AF%86' }
+  - { title: 'Wiktionary: 識', url: 'https://en.wiktionary.org/wiki/%E8%AD%98' }

@@ -1,0 +1,67 @@
+{
+  "id": "脚",
+  "text": {
+    "Hans": "脚",
+    "Hant": "腳"
+  },
+  "readings": {
+    "pinyin": "jiǎo"
+  },
+  "meaning": {
+    "en": "foot",
+    "zh-Hans": "脚印",
+    "zh-Hant": "腳印"
+  },
+  "fact": {
+    "en": "脚 (腳) has ⺼ (body) on the left for meaning and 却 (卻) on the right for sound. It names a part of the body: the foot, or sometimes the leg.",
+    "zh-Hans": "“脚”左边的“月（肉）”表示身体，右边的“却”表示读音。它指身体的一部分：脚，有时也指腿。",
+    "zh-Hant": "「腳」左邊的「月（肉）」表示身體，右邊的「卻」表示讀音。它指身體的一部分：腳，有時也指腿。"
+  },
+  "story": {
+    "topic": {
+      "en": "Ticklish Feet",
+      "zh-Hans": "怕痒的小脚丫",
+      "zh-Hant": "怕癢的小腳丫"
+    },
+    "hook": {
+      "en": "Gotcha! Grandma tickles the bottoms of Xiaoyang's feet, and he squeals and kicks with laughter.",
+      "zh-Hans": "抓到啦！奶奶挠小洋的脚底板，小洋痒得又笑又踢。",
+      "zh-Hant": "抓到囉！奶奶搔小洋的腳底板，小洋癢得又笑又踢。"
+    },
+    "closer": {
+      "en": "Ten toes, two feet: your 脚 (腳) take you everywhere!",
+      "zh-Hans": "十个脚趾，两只脚，“脚”带着你走遍天下！",
+      "zh-Hant": "十個腳趾，兩隻腳，「腳」帶著你走遍天下！"
+    }
+  },
+  "journey": [],
+  "origin": {
+    "type": "phono-semantic",
+    "parts": [
+      {
+        "char": "⺼",
+        "role": "meaning",
+        "gloss": {
+          "en": "meat, body",
+          "zh-Hans": "肉、身体",
+          "zh-Hant": "肉、身體"
+        }
+      },
+      {
+        "char": "卻",
+        "role": "sound"
+      }
+    ]
+  },
+  "status": "draft",
+  "sources": [
+    {
+      "title": "Wiktionary: 脚",
+      "url": "https://en.wiktionary.org/wiki/%E8%84%9A"
+    },
+    {
+      "title": "Wiktionary: 腳",
+      "url": "https://en.wiktionary.org/wiki/%E8%85%B3"
+    }
+  ]
+}

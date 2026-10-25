@@ -1,0 +1,23 @@
+id: 认
+text: { Hans: 认, Hant: 認 }
+readings: { pinyin: rèn }
+meaning: { en: to recognize, zh-Hans: 认字, zh-Hant: 認字 }
+fact:
+  en: 认 (認) has 言 (speech) for meaning, and traditional 認 uses 忍 for sound.
+  zh-Hans: “认”的“讠”（言）表示意思；它的繁体字用“忍”来表示读音。
+  zh-Hant: 「認」左邊的「言」表示意思，右邊的「忍」表示讀音。
+story:
+  topic: { en: Who's in the Bear Suit?, zh-Hans: 熊玩偶里是谁？, zh-Hant: 熊玩偶裡是誰？ }
+  hook: { en: "Who's inside the big bear costume? Even with the furry head on, Guoguo recognizes her dad by his laugh!", zh-Hans: 大熊玩偶装里是谁呀？虽然戴着毛茸茸的熊头，果果一听笑声就认出了爸爸！, zh-Hant: 大熊玩偶裝裡是誰呀？雖然戴著毛茸茸的熊頭，果果一聽笑聲就認出了爸爸！ }
+  turn: { en: 'When 認 was simplified, 忍 became plain 人, and 人 (rén) sounds a lot like 认 (rèn)!', zh-Hans: 简化的时候，“忍”换成了“人”，而“人”（rén）和“认”（rèn）读起来很像！, zh-Hant: 簡化的時候，「忍」換成了「人」，而「人」（rén）和「認」（rèn）讀起來很像！ }
+  closer: { en: 'Spot it, know it: 认 (認) means to recognize, like all the characters you can read now!', zh-Hans: 一眼就认出来！这就是认字的“认”，你又认识好多字啦！, zh-Hant: 一眼就認出來！這就是認字的「認」，你又認識好多字囉！ }
+journey: []
+origin:
+  type: phono-semantic
+  parts:
+    - { char: 言, role: meaning, gloss: { en: speech, zh-Hans: 说话, zh-Hant: 說話 } }
+    - { char: 忍, role: sound }
+status: draft
+sources:
+  - { title: 'Wiktionary: 认', url: 'https://en.wiktionary.org/wiki/%E8%AE%A4' }
+  - { title: 'Wiktionary: 認', url: 'https://en.wiktionary.org/wiki/%E8%AA%8D' }

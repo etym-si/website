@@ -1,0 +1,21 @@
+id: 唱
+text: { Hans: 唱, Hant: 唱 }
+readings: { pinyin: chàng }
+meaning: { en: to sing, zh-Hans: 唱歌, zh-Hant: 唱歌 }
+fact:
+  en: 唱 has 口 (mouth) on the left for meaning and 昌 on the right for sound, and 昌 (chāng) sounds a lot like 唱 (chàng)!
+  zh-Hans: “唱”左边的“口”表示意思，右边的“昌”表示读音。“昌”（chāng）和“唱”（chàng）读起来很像！
+  zh-Hant: 「唱」左邊的「口」表示意思，右邊的「昌」表示讀音。「昌」（chāng）和「唱」（chàng）讀起來很像！
+story:
+  topic: { en: Bathtub Concert, zh-Hans: 浴缸演唱会, zh-Hant: 浴缸演唱會 }
+  hook: { en: 'Splish-splash, la-la-la! Anna sings in the bathtub, using her shampoo bottle as a microphone.', zh-Hans: 哗啦啦，啦啦啦！安娜在浴缸里唱歌，还把洗发水瓶当成了麦克风。, zh-Hant: 嘩啦啦，啦啦啦！安娜在浴缸裡唱歌，還把洗髮精瓶子當成了麥克風。 }
+  closer: { en: 'Open your 口 and let the music out: 唱, to sing!', zh-Hans: 张开“口”，让歌声飞出来，这就是唱歌的“唱”！, zh-Hant: 張開「口」，讓歌聲飛出來，這就是唱歌的「唱」！ }
+journey: default
+origin:
+  type: phono-semantic
+  parts:
+    - { char: 口, role: meaning, gloss: { en: mouth, zh-Hans: 嘴, zh-Hant: 嘴 } }
+    - { char: 昌, role: sound }
+status: draft
+sources:
+  - { title: 'Wiktionary: 唱', url: 'https://en.wiktionary.org/wiki/%E5%94%B1' }

@@ -1,0 +1,23 @@
+id: 样
+text: { Hans: 样, Hant: 樣 }
+readings: { pinyin: yàng }
+meaning: { en: shape; look; kind, zh-Hans: 样子, zh-Hant: 樣子 }
+fact:
+  en: '样 (樣) has 木 (wood) on the left for meaning and a sound part on the right: 羕 in traditional 樣, 羊 in simplified 样.'
+  zh-Hans: “样”的左边是“木”，表示意思；右边是表示读音的部分：繁体“樣”用“羕”，简体“样”用“羊”。
+  zh-Hant: 「樣」的左邊是「木」，表示意思；右邊是表示讀音的部分：繁體「樣」用「羕」，簡體「样」用「羊」。
+story:
+  topic: { en: Two Sheep Cookies, zh-Hans: 两块小羊饼干, zh-Hant: 兩塊小羊餅乾 }
+  hook: { en: 'Ding! The oven opens, and two sheep-shaped cookies sit side by side, looking exactly the same.', zh-Hans: 叮！烤箱打开了，两块小羊饼干并排躺着，长得一模一样。, zh-Hant: 叮！烤箱打開了，兩塊小羊餅乾並排躺著，長得一模一樣。 }
+  turn: { en: 'When 樣 was simplified, the busy 羕 became plain 羊, and 羊 (yáng) sounds a lot like 样 (yàng)!', zh-Hans: 简化的时候，复杂的“羕”变成了简单的“羊”，而“羊”（yáng）和“样”（yàng）读起来很像！, zh-Hant: 簡化的時候，複雜的「羕」變成了簡單的「羊」，而「羊」（yáng）和「樣」（yàng）讀起來很像！ }
+  closer: { en: 'Same shape, same look: 一模一样! 样 (樣) is how something looks.', zh-Hans: 形状一样，样子一样，就是“一模一样”！“样”说的就是东西的样子。, zh-Hant: 形狀一樣，樣子一樣，就是「一模一樣」！「樣」說的就是東西的樣子。 }
+journey: []
+origin:
+  type: phono-semantic
+  parts:
+    - { char: 木, role: meaning, gloss: { en: wood, zh-Hans: 木头, zh-Hant: 木頭 } }
+    - { char: 羕, role: sound }
+status: draft
+sources:
+  - { title: 'Wiktionary: 样', url: 'https://en.wiktionary.org/wiki/%E6%A0%B7' }
+  - { title: 'Wiktionary: 樣', url: 'https://en.wiktionary.org/wiki/%E6%A8%A3' }

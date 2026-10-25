@@ -1,0 +1,63 @@
+{
+  "id": "作",
+  "text": {
+    "Hans": "作",
+    "Hant": "作"
+  },
+  "readings": {
+    "pinyin": "zuò"
+  },
+  "meaning": {
+    "en": "to do; to make; work",
+    "zh-Hans": "作业",
+    "zh-Hant": "作業"
+  },
+  "fact": {
+    "en": "作 has 亻 (person) for meaning and 乍 for sound, the same sound part as in 怎. It could once also mean 'to get up'.",
+    "zh-Hans": "“作”左边的“亻”（人）表示意思，右边的“乍”表示读音，“怎”上面也有它。“作”以前还可以表示“起身”呢。",
+    "zh-Hant": "「作」左邊的「亻」（人）表示意思，右邊的「乍」表示讀音，「怎」上面也有它。「作」以前還可以表示「起身」呢。"
+  },
+  "story": {
+    "topic": {
+      "en": "Homework Time",
+      "zh-Hans": "写作业的时间",
+      "zh-Hant": "寫作業的時間"
+    },
+    "hook": {
+      "en": "Homework time! Xixi sharpens her pencil, opens her notebook, and gets right to work.",
+      "zh-Hans": "写作业啦！希希削好铅笔，翻开本子，马上认真写起作业来。",
+      "zh-Hant": "寫作業囉！希希削好鉛筆，翻開本子，馬上認真寫起作業來。"
+    },
+    "closer": {
+      "en": "Doing your work, making something new: that's 作, as in 作业 (homework)!",
+      "zh-Hans": "动手做事、创作新东西，就是作业的“作”！",
+      "zh-Hant": "動手做事、創作新東西，就是作業的「作」！"
+    }
+  },
+  "journey": "default",
+  "origin": {
+    "type": "phono-semantic",
+    "parts": [
+      {
+        "char": "亻",
+        "role": "meaning",
+        "gloss": {
+          "en": "person",
+          "zh-Hans": "人",
+          "zh-Hant": "人"
+        }
+      },
+      {
+        "char": "乍",
+        "role": "sound"
+      }
+    ]
+  },
+  "status": "draft",
+  "sources": [
+    {
+      "title": "Wiktionary: 作",
+      "url": "https://en.wiktionary.org/wiki/%E4%BD%9C"
+    }
+  ]
+}

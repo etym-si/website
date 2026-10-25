@@ -1,0 +1,62 @@
+{
+  "id": "号",
+  "text": {
+    "Hans": "号",
+    "Hant": "號"
+  },
+  "readings": {
+    "pinyin": "hào"
+  },
+  "meaning": {
+    "en": "number; name",
+    "zh-Hans": "号码",
+    "zh-Hant": "號碼"
+  },
+  "fact": {
+    "en": "号 (號) began as a picture-idea of a roaring tiger, with a line for its breath, meaning 'to roar, to shout'. You can still find the tiger 虎 in traditional 號!",
+    "zh-Hans": "“号”最早画的是一只正在吼叫的老虎，加一条线表示呼出的气，意思是“吼叫、呼喊”。繁体字“號”里还能找到老虎的“虎”呢！",
+    "zh-Hant": "「號」最早畫的是一隻正在吼叫的老虎，加一條線表示呼出的氣，意思是「吼叫、呼喊」。「號」字裡還能找到老虎的「虎」呢！"
+  },
+  "story": {
+    "topic": {
+      "en": "Number 8 at the Fun Run",
+      "zh-Hans": "赛跑场上的8号",
+      "zh-Hant": "賽跑場上的8號"
+    },
+    "hook": {
+      "en": "Before the fun run, Kai pins a big number 8 to his shirt and roars, 'Let's go!'",
+      "zh-Hans": "趣味赛跑开始前，小凯把大大的8号号码布别在衣服上，大吼一声：“冲啊！”",
+      "zh-Hant": "趣味賽跑開始前，小凱把大大的8號號碼布別在衣服上，大吼一聲：「衝啊！」"
+    },
+    "early": {
+      "en": "The very first idea was a tiger roaring, with one extra line for the breath bursting out.",
+      "zh-Hans": "最早的“号”是一只吼叫的老虎，再加一条线，表示冲出来的气。",
+      "zh-Hant": "最早的「號」是一隻吼叫的老虎，再加一條線，表示衝出來的氣。"
+    },
+    "turn": {
+      "en": "Later a 口 (mouth) was added to stress the shouting. Simplified 号 keeps just the 口 and the breath line 丂.",
+      "zh-Hans": "后来又加了“口”，强调大声呼喊。简体字“号”只留下了“口”和表示呼气的“丂”。",
+      "zh-Hant": "後來又加了「口」，強調大聲呼喊。簡體字「号」只留下了「口」和表示呼氣的「丂」。"
+    },
+    "closer": {
+      "en": "From a tiger's roar to the number on your shirt: that's 号 (號)!",
+      "zh-Hans": "从老虎的吼声，到衣服上的号码，这就是“号”！",
+      "zh-Hant": "從老虎的吼聲，到衣服上的號碼，這就是「號」！"
+    }
+  },
+  "journey": "default",
+  "origin": {
+    "type": "ideogram"
+  },
+  "status": "draft",
+  "sources": [
+    {
+      "title": "Wiktionary: 号",
+      "url": "https://en.wiktionary.org/wiki/%E5%8F%B7"
+    },
+    {
+      "title": "Wiktionary: 號",
+      "url": "https://en.wiktionary.org/wiki/%E8%99%9F"
+    }
+  ]
+}

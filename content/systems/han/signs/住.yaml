@@ -1,0 +1,21 @@
+id: 住
+text: { Hans: 住, Hant: 住 }
+readings: { pinyin: zhù }
+meaning: { en: to live (somewhere); to stay, zh-Hans: 住址, zh-Hant: 住址 }
+fact:
+  en: '住 has 亻 (person) for meaning and 主 for sound: 主 (zhǔ) sounds a lot like 住 (zhù).'
+  zh-Hans: “住”左边的“亻”（人）表示意思，右边的“主”表示读音，“主”（zhǔ）和“住”（zhù）读起来很像。
+  zh-Hant: 「住」左邊的「亻」（人）表示意思，右邊的「主」表示讀音，「主」（zhǔ）和「住」（zhù）讀起來很像。
+story:
+  topic: { en: The Hedgehog House, zh-Hans: 刺猬的小房子, zh-Hant: 刺蝟的小房子 }
+  hook: { en: Who lives in the tiny house at the bottom of the garden? A family of hedgehogs!, zh-Hans: 花园尽头的小房子里住着谁呀？原来是一家小刺猬！, zh-Hant: 花園盡頭的小房子裡住著誰呀？原來是一家小刺蝟！ }
+  closer: { en: "Where do you 住? Your home is the place where you live: that's 住!", zh-Hans: 你住在哪里？家就是我们住的地方，这就是“住”！, zh-Hant: 你住在哪裡？家就是我們住的地方，這就是「住」！ }
+journey: []
+origin:
+  type: phono-semantic
+  parts:
+    - { char: 亻, role: meaning, gloss: { en: person, zh-Hans: 人, zh-Hant: 人 } }
+    - { char: 主, role: sound }
+status: draft
+sources:
+  - { title: 'Wiktionary: 住', url: 'https://en.wiktionary.org/wiki/%E4%BD%8F' }

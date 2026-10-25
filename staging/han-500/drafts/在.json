@@ -1,0 +1,68 @@
+{
+  "id": "在",
+  "text": {
+    "Hans": "在",
+    "Hant": "在"
+  },
+  "readings": {
+    "pinyin": "zài"
+  },
+  "meaning": {
+    "en": "at; in; to be (somewhere)",
+    "zh-Hans": "在家",
+    "zh-Hant": "在家"
+  },
+  "fact": {
+    "en": "在 is built from two sound parts, 才 and 士, and the 士 later turned into 土 (earth).",
+    "zh-Hans": "“在”由两个表示读音的部分组成：“才”和“士”，后来“士”变成了“土”。",
+    "zh-Hant": "「在」由兩個表示讀音的部分組成：「才」和「士」，後來「士」變成了「土」。"
+  },
+  "story": {
+    "topic": {
+      "en": "Where Is Everyone?",
+      "zh-Hans": "大家都在哪儿？",
+      "zh-Hant": "大家都在哪裡？"
+    },
+    "hook": {
+      "en": "Where is everyone? Mom is in the kitchen, Dad is in the garden, and the cat is up on the roof!",
+      "zh-Hans": "大家都在哪儿？妈妈在厨房，爸爸在花园，小猫在屋顶上！",
+      "zh-Hant": "大家都在哪裡？媽媽在廚房，爸爸在花園，小貓在屋頂上！"
+    },
+    "early": {
+      "en": "On oracle bones, writers simply borrowed 才 to write 在, just for its sound.",
+      "zh-Hans": "在甲骨文里，人们直接借用“才”来写“在”，借的是它的读音。",
+      "zh-Hant": "在甲骨文裡，人們直接借用「才」來寫「在」，借的是它的讀音。"
+    },
+    "turn": {
+      "en": "Later the sound part 士 was added, and bit by bit it slid into the 土 you see in today's 在.",
+      "zh-Hans": "后来又加上了表示读音的“士”，慢慢地，“士”变成了今天“在”字里的“土”。",
+      "zh-Hant": "後來又加上了表示讀音的「士」，慢慢地，「士」變成了今天「在」字裡的「土」。"
+    },
+    "closer": {
+      "en": "Where are you? 我在家, I'm at home: whenever you tell where something is, use 在!",
+      "zh-Hans": "你在哪儿？我在家！说东西在哪里，就用“在”！",
+      "zh-Hant": "你在哪裡？我在家！說東西在哪裡，就用「在」！"
+    }
+  },
+  "journey": "default",
+  "origin": {
+    "type": "phono-semantic",
+    "parts": [
+      {
+        "char": "才",
+        "role": "sound"
+      },
+      {
+        "char": "士",
+        "role": "sound"
+      }
+    ]
+  },
+  "status": "draft",
+  "sources": [
+    {
+      "title": "Wiktionary: 在",
+      "url": "https://en.wiktionary.org/wiki/%E5%9C%A8"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "id": "河",
+  "text": {
+    "Hans": "河",
+    "Hant": "河"
+  },
+  "readings": {
+    "pinyin": "hé"
+  },
+  "meaning": {
+    "en": "river",
+    "zh-Hans": "小河",
+    "zh-Hant": "小河"
+  },
+  "fact": {
+    "en": "河 has 氵 (water) on the left for meaning and 可 on the right for sound. It means a river, especially a smaller one.",
+    "zh-Hans": "“河”左边的“氵”表示意思，右边的“可”表示读音。它指河流，特别是比较小的河。",
+    "zh-Hant": "「河」左邊的「氵」表示意思，右邊的「可」表示讀音。它指河流，特別是比較小的河。"
+  },
+  "story": {
+    "topic": {
+      "en": "Fishing with Uncle",
+      "zh-Hans": "和舅舅去钓鱼",
+      "zh-Hant": "和舅舅去釣魚"
+    },
+    "hook": {
+      "en": "Plop! Uncle and Wenwen sit on the riverbank, watching their red float bob along the gentle current.",
+      "zh-Hans": "扑通！舅舅和文文坐在河边，看着红色的浮漂在水面上一上一下。",
+      "zh-Hant": "撲通！舅舅和文文坐在河邊，看著紅色的浮標在水面上一上一下。"
+    },
+    "early": {
+      "en": "Oracle-bone writers tried several versions: water with 何, or water with 可, sometimes drawn wavy, like the water itself!",
+      "zh-Hans": "甲骨文里的“河”有好几种写法：水加“何”，或者水加“可”，有时“可”还画得弯弯曲曲，就像水波一样！",
+      "zh-Hant": "甲骨文裡的「河」有好幾種寫法：水加「何」，或者水加「可」，有時「可」還畫得彎彎曲曲，就像水波一樣！"
+    },
+    "closer": {
+      "en": "Water 氵 plus 可 for the sound: 河 is a river, winding along!",
+      "zh-Hans": "三点水加上“可”，弯弯流淌的就是小河的“河”！",
+      "zh-Hant": "三點水加上「可」，彎彎流淌的就是小河的「河」！"
+    }
+  },
+  "journey": "default",
+  "origin": {
+    "type": "phono-semantic",
+    "parts": [
+      {
+        "char": "水",
+        "role": "meaning",
+        "gloss": {
+          "en": "water",
+          "zh-Hans": "水",
+          "zh-Hant": "水"
+        }
+      },
+      {
+        "char": "可",
+        "role": "sound"
+      }
+    ]
+  },
+  "status": "draft",
+  "sources": [
+    {
+      "title": "Wiktionary: 河",
+      "url": "https://en.wiktionary.org/wiki/%E6%B2%B3"
+    }
+  ]
+}

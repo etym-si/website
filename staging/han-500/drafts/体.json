@@ -1,0 +1,67 @@
+{
+  "id": "体",
+  "text": {
+    "Hans": "体",
+    "Hant": "體"
+  },
+  "readings": {
+    "pinyin": "tǐ"
+  },
+  "meaning": {
+    "en": "body",
+    "zh-Hans": "身体",
+    "zh-Hant": "身體"
+  },
+  "fact": {
+    "en": "Traditional 體 has 骨 (bone) for meaning and 豊 for sound. Simplified 体 is 亻 (person) plus 本, which may stand for 'basis' or may just give the sound.",
+    "zh-Hans": "繁体字“體”左边的“骨”（骨头）表示意思，右边的“豊”表示读音。简体字“体”是“亻”（人）加“本”，“本”可能表示“根本”，也可能只是表示读音。",
+    "zh-Hant": "「體」左邊的「骨」（骨頭）表示意思，右邊的「豊」表示讀音。簡體字「体」是「亻」（人）加「本」，「本」可能表示「根本」，也可能只是表示讀音。"
+  },
+  "story": {
+    "topic": {
+      "en": "Tracing My Whole Body",
+      "zh-Hans": "描出我的身体",
+      "zh-Hant": "描出我的身體"
+    },
+    "hook": {
+      "en": "Lie down and hold still! On a giant sheet of paper, Ivy's friend traces all the way around her body.",
+      "zh-Hans": "躺好别动！好朋友在一大张纸上，沿着艾薇的身体描出了一圈轮廓。",
+      "zh-Hant": "躺好別動！好朋友在一大張紙上，沿著艾薇的身體描出了一圈輪廓。"
+    },
+    "closer": {
+      "en": "From your head to your toes, bones and all: that's your 体 (體), your body!",
+      "zh-Hans": "从头到脚，连同里面的骨头，这就是身体的“体”！",
+      "zh-Hant": "從頭到腳，連同裡面的骨頭，這就是身體的「體」！"
+    }
+  },
+  "journey": "default",
+  "origin": {
+    "type": "phono-semantic",
+    "parts": [
+      {
+        "char": "骨",
+        "role": "meaning",
+        "gloss": {
+          "en": "bone",
+          "zh-Hans": "骨头",
+          "zh-Hant": "骨頭"
+        }
+      },
+      {
+        "char": "豊",
+        "role": "sound"
+      }
+    ]
+  },
+  "status": "draft",
+  "sources": [
+    {
+      "title": "Wiktionary: 体",
+      "url": "https://en.wiktionary.org/wiki/%E4%BD%93"
+    },
+    {
+      "title": "Wiktionary: 體",
+      "url": "https://en.wiktionary.org/wiki/%E9%AB%94"
+    }
+  ]
+}

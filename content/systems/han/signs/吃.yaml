@@ -1,0 +1,21 @@
+id: 吃
+text: { Hans: 吃, Hant: 吃 }
+readings: { pinyin: chī }
+meaning: { en: to eat, zh-Hans: 好吃, zh-Hant: 好吃 }
+fact:
+  en: "吃 has 口 (mouth) for meaning and 乞 for sound. Surprise: 吃 first meant 'to stutter', and 'to eat' may once have been written 喫!"
+  zh-Hans: “吃”左边的“口”表示意思，右边的“乞”表示读音。没想到吧：“吃”最早的意思是“说话结巴”，而“吃东西”的意思，以前可能写作“喫”！
+  zh-Hant: 「吃」左邊的「口」表示意思，右邊的「乞」表示讀音。沒想到吧：「吃」最早的意思是「說話結巴」，而「吃東西」的意思，以前可能寫作「喫」！
+story:
+  topic: { en: Corn on the Cob, zh-Hans: 啃玉米, zh-Hant: 啃玉米 }
+  hook: { en: 'Chomp, chomp! Beibei nibbles her corn on the cob row by row, just like a little squirrel.', zh-Hans: 啊呜啊呜！贝贝捧着一根玉米，一排一排地啃，像只小松鼠。, zh-Hant: 啊嗚啊嗚！貝貝捧著一根玉米，一排一排地啃，像隻小松鼠。 }
+  closer: { en: 'Open your 口 and take a big bite: 吃, to eat! Yum!', zh-Hans: 张开“口”，咬一大口，这就是吃东西的“吃”！真好吃！, zh-Hant: 張開「口」，咬一大口，這就是吃東西的「吃」！真好吃！ }
+journey: []
+origin:
+  type: phono-semantic
+  parts:
+    - { char: 口, role: meaning, gloss: { en: mouth, zh-Hans: 嘴, zh-Hant: 嘴 } }
+    - { char: 乞, role: sound }
+status: draft
+sources:
+  - { title: 'Wiktionary: 吃', url: 'https://en.wiktionary.org/wiki/%E5%90%83' }

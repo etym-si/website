@@ -1,0 +1,63 @@
+{
+  "id": "汽",
+  "text": {
+    "Hans": "汽",
+    "Hant": "汽"
+  },
+  "readings": {
+    "pinyin": "qì"
+  },
+  "meaning": {
+    "en": "steam; gas",
+    "zh-Hans": "汽水",
+    "zh-Hant": "汽水"
+  },
+  "fact": {
+    "en": "汽 is 氵 (water) plus 气 (air), which also gives the sound: water turned into air, which is steam!",
+    "zh-Hans": "“汽”是“氵”（水）加“气”，“气”同时表示读音：水变成了气，就是蒸汽！",
+    "zh-Hant": "「汽」是「氵」（水）加「气」，「气」同時表示讀音：水變成了氣，就是蒸汽！"
+  },
+  "story": {
+    "topic": {
+      "en": "The Whistling Kettle",
+      "zh-Hans": "会唱歌的水壶",
+      "zh-Hant": "會唱歌的水壺"
+    },
+    "hook": {
+      "en": "Fweeee! The kettle whistles, and a puffy white cloud of steam rises from its spout.",
+      "zh-Hans": "呜——水壶叫起来了，壶嘴里冒出一团白白的蒸汽。",
+      "zh-Hant": "嗚——水壺叫起來了，壺嘴裡冒出一團白白的蒸汽。"
+    },
+    "closer": {
+      "en": "Water plus air: 汽 is steam, and the fizzy gas in your 汽水 too!",
+      "zh-Hans": "水加上气，就成了蒸汽的“汽”，汽水里的气泡也有它！",
+      "zh-Hant": "水加上氣，就成了蒸汽的「汽」，汽水裡的氣泡也有它！"
+    }
+  },
+  "journey": "default",
+  "origin": {
+    "type": "phono-semantic",
+    "parts": [
+      {
+        "char": "氵",
+        "role": "meaning",
+        "gloss": {
+          "en": "water",
+          "zh-Hans": "水",
+          "zh-Hant": "水"
+        }
+      },
+      {
+        "char": "气",
+        "role": "sound"
+      }
+    ]
+  },
+  "status": "draft",
+  "sources": [
+    {
+      "title": "Wiktionary: 汽",
+      "url": "https://en.wiktionary.org/wiki/%E6%B1%BD"
+    }
+  ]
+}

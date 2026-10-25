@@ -1,0 +1,68 @@
+{
+  "id": "候",
+  "text": {
+    "Hans": "候",
+    "Hant": "候"
+  },
+  "readings": {
+    "pinyin": "hòu"
+  },
+  "meaning": {
+    "en": "time; to wait",
+    "zh-Hans": "时候",
+    "zh-Hant": "時候"
+  },
+  "fact": {
+    "en": "候 has 亻 (person) for meaning and 矦, an old form of 侯, for sound: 侯 (hóu) sounds a lot like 候 (hòu). It can mean to watch and scout, like a lookout!",
+    "zh-Hans": "“候”的“亻”（人）表示意思，“矦”是“侯”的古老写法，表示读音，“侯”（hóu）和“候”（hòu）读起来很像。它还可以表示侦察、观察，就像放哨的人一样！",
+    "zh-Hant": "「候」的「亻」（人）表示意思，「矦」是「侯」的古老寫法，表示讀音，「侯」（hóu）和「候」（hòu）讀起來很像。它還可以表示偵察、觀察，就像放哨的人一樣！"
+  },
+  "story": {
+    "topic": {
+      "en": "The Perfect Moment in Hide-and-Seek",
+      "zh-Hans": "捉迷藏的好时机",
+      "zh-Hant": "捉迷藏的好時機"
+    },
+    "hook": {
+      "en": "Hide-and-seek! Peeking out from behind the curtain, Andy watches and waits for the perfect time to dash home.",
+      "zh-Hans": "捉迷藏！安迪躲在窗帘后面偷偷看，等着冲回大本营的好时候。",
+      "zh-Hant": "捉迷藏！安迪躲在窗簾後面偷偷看，等著衝回大本營的好時候。"
+    },
+    "turn": {
+      "en": "Inside 候, 矦 is reshaped: its slanting left stroke 丿 became the thin upright line 丨 you see in the middle.",
+      "zh-Hans": "在“候”里，“矦”的样子变了一点：左边斜斜的一撇“丿”，变成了中间那条细细的竖“丨”。",
+      "zh-Hant": "在「候」裡，「矦」的樣子變了一點：左邊斜斜的一撇「丿」，變成了中間那條細細的豎「丨」。"
+    },
+    "closer": {
+      "en": "Watching and waiting for just the right moment: that's 候, as in 时候, time!",
+      "zh-Hans": "悄悄观察，等待合适的时机，这就是时候的“候”！",
+      "zh-Hant": "悄悄觀察，等待合適的時機，這就是時候的「候」！"
+    }
+  },
+  "journey": [],
+  "origin": {
+    "type": "phono-semantic",
+    "parts": [
+      {
+        "char": "亻",
+        "role": "meaning",
+        "gloss": {
+          "en": "person",
+          "zh-Hans": "人",
+          "zh-Hant": "人"
+        }
+      },
+      {
+        "char": "矦",
+        "role": "sound"
+      }
+    ]
+  },
+  "status": "draft",
+  "sources": [
+    {
+      "title": "Wiktionary: 候",
+      "url": "https://en.wiktionary.org/wiki/%E5%80%99"
+    }
+  ]
+}

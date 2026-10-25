@@ -1,0 +1,21 @@
+id: 和
+text: { Hans: 和, Hant: 和 }
+readings: { pinyin: hé }
+meaning: { en: and; together; peaceful, zh-Hans: 我和你, zh-Hant: 我和你 }
+fact:
+  en: 和 has 禾 on the left for sound and 口 (mouth) on the right for meaning. An older way to write it, 龢, used the sign for a flute instead, perhaps to show harmony, like music played together.
+  zh-Hans: “和”左边的“禾”表示读音，右边的“口”表示意思。它原来写作“龢”，用的是表示笛子的“龠”，可能是想用音乐的和谐来表示“和”。
+  zh-Hant: 「和」左邊的「禾」表示讀音，右邊的「口」表示意思。它原來寫作「龢」，用的是表示笛子的「龠」，可能是想用音樂的和諧來表示「和」。
+story:
+  topic: { en: Better Together, zh-Hans: 在一起更好, zh-Hant: 在一起更好 }
+  hook: { en: 'Peanut butter and jelly, salt and pepper, you and me: some things are just better together!', zh-Hans: 花生酱和果酱，盐和胡椒，你和我——有些东西就是在一起才最好！, zh-Hant: 花生醬和果醬，鹽和胡椒，你和我——有些東西就是在一起才最好！ }
+  closer: { en: "和 links things together, as in 'you 和 me', and it also means getting along in peace.", zh-Hans: “和”把大家连在一起：你和我，和和气气，和平相处！, zh-Hant: 「和」把大家連在一起：你和我，和和氣氣，和平相處！ }
+journey: default
+origin:
+  type: phono-semantic
+  parts:
+    - { char: 口, role: meaning, gloss: { en: mouth, zh-Hans: 嘴, zh-Hant: 嘴 } }
+    - { char: 禾, role: sound }
+status: draft
+sources:
+  - { title: 'Wiktionary: 和', url: 'https://en.wiktionary.org/wiki/%E5%92%8C' }

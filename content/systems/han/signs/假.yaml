@@ -1,0 +1,21 @@
+id: 假
+text: { Hans: 假, Hant: 假 }
+readings: { pinyin: jià }
+meaning: { en: holiday; time off, zh-Hans: 放假, zh-Hant: 放假 }
+fact:
+  en: 假 has 亻 (person) for meaning and 叚 for sound. Read jiǎ, it once meant 'to borrow'; read jià, it means a holiday!
+  zh-Hans: “假”左边的“亻”（人）表示意思，右边的“叚”表示读音。读jiǎ的时候，以前有“借”的意思；读jià的时候，就是假期！
+  zh-Hant: 「假」左邊的「亻」（人）表示意思，右邊的「叚」表示讀音。讀jiǎ的時候，以前有「借」的意思；讀jià的時候，就是假期！
+story:
+  topic: { en: Summer Vacation Starts!, zh-Hans: 暑假开始啦！, zh-Hant: 暑假開始囉！ }
+  hook: { en: "School's out for summer! Tiantian tosses her backpack in the air: beach, pool and Grandma's house, here I come!", zh-Hans: 放暑假啦！甜甜把书包往空中一抛：海边、游泳池、外婆家，我来啦！, zh-Hant: 放暑假囉！甜甜把書包往空中一拋：海邊、游泳池、外婆家，我來囉！ }
+  closer: { en: "Days off from school or work: that's 假, as in 放假, holiday! Hooray!", zh-Hans: 不用上学、不用上班的日子，就是放假的“假”！好耶！, zh-Hant: 不用上學、不用上班的日子，就是放假的「假」！好耶！ }
+journey: default
+origin:
+  type: phono-semantic
+  parts:
+    - { char: 亻, role: meaning, gloss: { en: person, zh-Hans: 人, zh-Hant: 人 } }
+    - { char: 叚, role: sound }
+status: draft
+sources:
+  - { title: 'Wiktionary: 假', url: 'https://en.wiktionary.org/wiki/%E5%81%87' }

@@ -1,0 +1,77 @@
+{
+  "id": "图",
+  "text": {
+    "Hans": "图",
+    "Hant": "圖"
+  },
+  "readings": {
+    "pinyin": "tú"
+  },
+  "meaning": {
+    "en": "picture; map",
+    "zh-Hans": "地图",
+    "zh-Hant": "地圖"
+  },
+  "fact": {
+    "en": "图 (圖) puts 啚 (faraway lands) inside 囗 (a city wall), so it first meant a territory. Today it means a map or a picture.",
+    "zh-Hans": "“图”的繁体“圖”是城墙“囗”里面围着“啚”（边远的地方），所以最早的意思是领土。现在它表示地图、图画。",
+    "zh-Hant": "「圖」是城牆「囗」裡面圍著「啚」（邊遠的地方），所以最早的意思是領土。現在它表示地圖、圖畫。"
+  },
+  "story": {
+    "topic": {
+      "en": "You Are Here!",
+      "zh-Hans": "你在这里！",
+      "zh-Hant": "你在這裡！"
+    },
+    "hook": {
+      "en": "Which way to the pandas? At the zoo, Pip finds a big map with a red dot that says 'You are here'.",
+      "zh-Hans": "大熊猫在哪边？在动物园里，皮皮找到一张大地图，上面的小红点写着“你在这里”。",
+      "zh-Hant": "貓熊在哪邊？在動物園裡，皮皮找到一張大地圖，上面的小紅點寫著「你在這裡」。"
+    },
+    "turn": {
+      "en": "In simplified 图, the 啚 inside the wall became 冬.",
+      "zh-Hans": "在简体字“图”里，城墙里的“啚”变成了“冬”。",
+      "zh-Hant": "在簡體字「图」裡，城牆裡的「啚」變成了「冬」。"
+    },
+    "closer": {
+      "en": "Lands inside a wall, a zoo map, a picture on paper: that's 图 (圖)!",
+      "zh-Hans": "城墙围着的土地、动物园的地图、纸上的图画，都是“图”！",
+      "zh-Hant": "城牆圍著的土地、動物園的地圖、紙上的圖畫，都是「圖」！"
+    }
+  },
+  "journey": "default",
+  "origin": {
+    "type": "compound-ideogram",
+    "parts": [
+      {
+        "char": "囗",
+        "role": "meaning",
+        "gloss": {
+          "en": "walled city",
+          "zh-Hans": "城墙",
+          "zh-Hant": "城牆"
+        }
+      },
+      {
+        "char": "啚",
+        "role": "meaning",
+        "gloss": {
+          "en": "remote areas",
+          "zh-Hans": "边远的地方",
+          "zh-Hant": "邊遠的地方"
+        }
+      }
+    ]
+  },
+  "status": "draft",
+  "sources": [
+    {
+      "title": "Wiktionary: 图",
+      "url": "https://en.wiktionary.org/wiki/%E5%9B%BE"
+    },
+    {
+      "title": "Wiktionary: 圖",
+      "url": "https://en.wiktionary.org/wiki/%E5%9C%96"
+    }
+  ]
+}

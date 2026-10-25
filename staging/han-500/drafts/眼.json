@@ -1,0 +1,63 @@
+{
+  "id": "眼",
+  "text": {
+    "Hans": "眼",
+    "Hant": "眼"
+  },
+  "readings": {
+    "pinyin": "yǎn"
+  },
+  "meaning": {
+    "en": "eye",
+    "zh-Hans": "眼睛",
+    "zh-Hant": "眼睛"
+  },
+  "fact": {
+    "en": "眼 has 目 (eye) on the left for meaning and 艮 on the right for sound. It could once also mean 'to see'.",
+    "zh-Hans": "“眼”左边的“目”（眼睛）表示意思，右边的“艮”表示读音。它以前还可以表示“看”。",
+    "zh-Hant": "「眼」左邊的「目」（眼睛）表示意思，右邊的「艮」表示讀音。它以前還可以表示「看」。"
+  },
+  "story": {
+    "topic": {
+      "en": "Close One Eye and Aim!",
+      "zh-Hans": "眯起一只眼，瞄准！",
+      "zh-Hant": "瞇起一隻眼，瞄準！"
+    },
+    "hook": {
+      "en": "Close one eye and aim: Ruirui's beanbag sails through the air and lands right in the bucket!",
+      "zh-Hans": "眯起一只眼睛，瞄准——扔！瑞瑞的沙包飞过去，正好落进了小桶里！",
+      "zh-Hant": "瞇起一隻眼睛，瞄準——丟！瑞瑞的沙包飛過去，正好落進了小桶裡！"
+    },
+    "closer": {
+      "en": "目 for the meaning, 艮 for the sound: 眼 is the eye that sees the whole world!",
+      "zh-Hans": "“目”管意思，“艮”管读音，“眼”帮我们看见整个世界！",
+      "zh-Hant": "「目」管意思，「艮」管讀音，「眼」幫我們看見整個世界！"
+    }
+  },
+  "journey": [],
+  "origin": {
+    "type": "phono-semantic",
+    "parts": [
+      {
+        "char": "目",
+        "role": "meaning",
+        "gloss": {
+          "en": "eye",
+          "zh-Hans": "眼睛",
+          "zh-Hant": "眼睛"
+        }
+      },
+      {
+        "char": "艮",
+        "role": "sound"
+      }
+    ]
+  },
+  "status": "draft",
+  "sources": [
+    {
+      "title": "Wiktionary: 眼",
+      "url": "https://en.wiktionary.org/wiki/%E7%9C%BC"
+    }
+  ]
+}

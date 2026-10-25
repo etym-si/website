@@ -1,0 +1,63 @@
+{
+  "id": "接",
+  "text": {
+    "Hans": "接",
+    "Hant": "接"
+  },
+  "readings": {
+    "pinyin": "jiē"
+  },
+  "meaning": {
+    "en": "to catch; to receive",
+    "zh-Hans": "接球",
+    "zh-Hant": "接球"
+  },
+  "fact": {
+    "en": "接 has 扌 (hand) for meaning and 妾 for sound: it means to receive something in your hand.",
+    "zh-Hans": "“接”左边的“扌”表示意思，右边的“妾”表示读音，意思是用手接住东西。",
+    "zh-Hant": "「接」左邊的「扌」表示意思，右邊的「妾」表示讀音，意思是用手接住東西。"
+  },
+  "story": {
+    "topic": {
+      "en": "The High Frisbee",
+      "zh-Hans": "高高的飞盘",
+      "zh-Hant": "高高的飛盤"
+    },
+    "hook": {
+      "en": "Catch! Uncle Wei tosses the frisbee high, and Dongdong leaps up and grabs it out of the air.",
+      "zh-Hans": "接住！伟叔叔把飞盘高高一抛，东东跳起来一把接住了。",
+      "zh-Hant": "接住！偉叔叔把飛盤高高一拋，東東跳起來一把接住了。"
+    },
+    "closer": {
+      "en": "Hands up, catch it! Catching a ball or picking up a friend: that's 接!",
+      "zh-Hans": "伸出手，接住它！接球、接人，都是“接”！",
+      "zh-Hant": "伸出手，接住它！接球、接人，都是「接」！"
+    }
+  },
+  "journey": [],
+  "origin": {
+    "type": "phono-semantic",
+    "parts": [
+      {
+        "char": "扌",
+        "role": "meaning",
+        "gloss": {
+          "en": "hand",
+          "zh-Hans": "手",
+          "zh-Hant": "手"
+        }
+      },
+      {
+        "char": "妾",
+        "role": "sound"
+      }
+    ]
+  },
+  "status": "draft",
+  "sources": [
+    {
+      "title": "Wiktionary: 接",
+      "url": "https://en.wiktionary.org/wiki/%E6%8E%A5"
+    }
+  ]
+}

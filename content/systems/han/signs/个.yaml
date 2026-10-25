@@ -1,0 +1,22 @@
+id: 个
+text: { Hans: 个, Hant: 個 }
+readings: { pinyin: gè }
+meaning: { en: (measure word for people and things), zh-Hans: 一个, zh-Hant: 一個 }
+fact:
+  en: Traditional 個 has 亻 (person) for meaning and 固 for sound. Simplified 个 is a variant of 箇 (a bamboo stalk) and looks like half of 竹 (bamboo)!
+  zh-Hans: 繁体“個”左边的“亻”表示意思，右边的“固”表示读音。简体“个”是“箇”（竹竿）的异体字，看起来就像半个“竹”字！
+  zh-Hant: 「個」左邊的「亻」表示意思，右邊的「固」表示讀音。簡體「个」是「箇」（竹竿）的異體字，看起來就像半個「竹」字！
+story:
+  topic: { en: A Balloon for Everyone, zh-Hans: 每人一个气球, zh-Hant: 每人一個氣球 }
+  hook: { en: 'Five kids and five balloons: Grandma hands one balloon to each child, and nobody is left out.', zh-Hans: 五个小朋友，五个气球：奶奶给每个小朋友发了一个，谁也没落下。, zh-Hant: 五個小朋友，五個氣球：奶奶給每個小朋友發了一個，誰也沒落下。 }
+  closer: { en: 'Counting people, apples or balloons? 个 (個) joins in every time: 一个, 两个, 三个!', zh-Hans: 数人、数苹果、数气球，都少不了“个”：一个、两个、三个！, zh-Hant: 數人、數蘋果、數氣球，都少不了「個」：一個、兩個、三個！ }
+journey: []
+origin:
+  type: phono-semantic
+  parts:
+    - { char: 亻, role: meaning, gloss: { en: person, zh-Hans: 人, zh-Hant: 人 } }
+    - { char: 固, role: sound }
+status: draft
+sources:
+  - { title: 'Wiktionary: 个', url: 'https://en.wiktionary.org/wiki/%E4%B8%AA' }
+  - { title: 'Wiktionary: 個', url: 'https://en.wiktionary.org/wiki/%E5%80%8B' }

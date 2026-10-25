@@ -1,0 +1,67 @@
+{
+  "id": "凉",
+  "text": {
+    "Hans": "凉",
+    "Hant": "涼"
+  },
+  "readings": {
+    "pinyin": "liáng"
+  },
+  "meaning": {
+    "en": "cool",
+    "zh-Hans": "凉快",
+    "zh-Hant": "涼快"
+  },
+  "fact": {
+    "en": "Traditional 涼 has 氵 (water) on the left for meaning and 京 on the right for sound. Simplified 凉 has 冫 on the left instead, the same ice part as in 冷 and 冰.",
+    "zh-Hans": "繁体字“涼”左边的“氵”表示意思，右边的“京”表示读音。简体字“凉”左边是“冫”，就是“冷”和“冰”里的那两点。",
+    "zh-Hant": "「涼」左邊的「氵」表示意思，右邊的「京」表示讀音。簡體字寫成「凉」，左邊是「冷」和「冰」裡的那兩點「冫」。"
+  },
+  "story": {
+    "topic": {
+      "en": "In Front of the Fan",
+      "zh-Hans": "电风扇前",
+      "zh-Hant": "電風扇前"
+    },
+    "hook": {
+      "en": "Whirr! On a sticky summer afternoon, Peipei sits right in front of the fan, and the cool air makes her hair fly.",
+      "zh-Hans": "嗡——闷热的夏日午后，佩佩坐在电风扇正前方，凉风吹得她的头发都飞起来了。",
+      "zh-Hant": "嗡——悶熱的夏日午後，佩佩坐在電風扇正前方，涼風吹得她的頭髮都飛起來了。"
+    },
+    "closer": {
+      "en": "Not hot, not freezing, just nicely cool: that's 凉 (涼)!",
+      "zh-Hans": "不热也不冻，刚刚好，这就是凉快的“凉”！",
+      "zh-Hant": "不熱也不凍，剛剛好，這就是涼快的「涼」！"
+    }
+  },
+  "journey": "default",
+  "origin": {
+    "type": "phono-semantic",
+    "parts": [
+      {
+        "char": "氵",
+        "role": "meaning",
+        "gloss": {
+          "en": "water",
+          "zh-Hans": "水",
+          "zh-Hant": "水"
+        }
+      },
+      {
+        "char": "京",
+        "role": "sound"
+      }
+    ]
+  },
+  "status": "draft",
+  "sources": [
+    {
+      "title": "Wiktionary: 凉",
+      "url": "https://en.wiktionary.org/wiki/%E5%87%89"
+    },
+    {
+      "title": "Wiktionary: 涼",
+      "url": "https://en.wiktionary.org/wiki/%E6%B6%BC"
+    }
+  ]
+}

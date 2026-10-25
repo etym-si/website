@@ -1,0 +1,22 @@
+id: 饿
+text: { Hans: 饿, Hant: 餓 }
+readings: { pinyin: è }
+meaning: { en: hungry, zh-Hans: 肚子饿, zh-Hant: 肚子餓 }
+fact:
+  en: 饿 (餓) has 食 (food) on the left for meaning and 我 on the right for sound.
+  zh-Hans: “饿”左边的“饣”（食物）表示意思，右边的“我”表示读音。
+  zh-Hant: 「餓」左邊的「食」（食物）表示意思，右邊的「我」表示讀音。
+story:
+  topic: { en: The Growling Tummy, zh-Hans: 咕噜叫的肚子, zh-Hant: 咕嚕叫的肚子 }
+  hook: { en: "Grumble, rumble! Dinner isn't ready yet, and Ouou's tummy growls so loudly that the cat looks up.", zh-Hans: 咕噜咕噜！晚饭还没做好，欧欧的肚子就叫了起来，响得连小猫都抬起了头。, zh-Hant: 咕嚕咕嚕！晚餐還沒做好，歐歐的肚子就叫了起來，響得連小貓都抬起了頭。 }
+  closer: { en: "When your tummy rumbles for food, you're 饿 (餓), hungry! Snack time!", zh-Hans: 肚子咕咕叫，想吃东西了，这就是“饿”！快来吃点心吧！, zh-Hant: 肚子咕咕叫，想吃東西了，這就是「餓」！快來吃點心吧！ }
+journey: default
+origin:
+  type: phono-semantic
+  parts:
+    - { char: 食, role: meaning, gloss: { en: food, zh-Hans: 食物, zh-Hant: 食物 } }
+    - { char: 我, role: sound }
+status: draft
+sources:
+  - { title: 'Wiktionary: 饿', url: 'https://en.wiktionary.org/wiki/%E9%A5%BF' }
+  - { title: 'Wiktionary: 餓', url: 'https://en.wiktionary.org/wiki/%E9%A4%93' }

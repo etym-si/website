@@ -1,0 +1,22 @@
+id: 问
+text: { Hans: 问, Hant: 問 }
+readings: { pinyin: wèn }
+meaning: { en: to ask, zh-Hans: 问题, zh-Hant: 問題 }
+fact:
+  en: 问 (問) is a 口 (mouth) inside 门 (門, a door). The mouth gives the meaning; the door is only there for its sound!
+  zh-Hans: “问”是“门”里面一个“口”。“口”表示意思，“门”只是用来表示读音的！
+  zh-Hant: 「問」是「門」裡面一個「口」。「口」表示意思，「門」只是用來表示讀音的！
+story:
+  topic: { en: Ten Questions Before Breakfast, zh-Hans: 早饭前的十个问题, zh-Hant: 早餐前的十個問題 }
+  hook: { en: 'Why is the sky blue, and why do cats purr? Before breakfast is over, Bobo has asked Dad ten questions!', zh-Hans: 天为什么是蓝的？猫为什么会打呼噜？早饭还没吃完，波波已经问了爸爸十个问题！, zh-Hant: 天為什麼是藍的？貓為什麼會發出呼嚕聲？早餐還沒吃完，波波已經問了爸爸十個問題！ }
+  closer: { en: '门 for the sound, 口 for the meaning: together they make 问 (問). Ask away!', zh-Hans: “门”管读音，“口”管意思，合起来就是问问题的“问”！, zh-Hant: 「門」管讀音，「口」管意思，合起來就是問問題的「問」！ }
+journey: default
+origin:
+  type: phono-semantic
+  parts:
+    - { char: 口, role: meaning, gloss: { en: mouth, zh-Hans: 嘴, zh-Hant: 嘴 } }
+    - { char: 門, role: sound }
+status: draft
+sources:
+  - { title: 'Wiktionary: 问', url: 'https://en.wiktionary.org/wiki/%E9%97%AE' }
+  - { title: 'Wiktionary: 問', url: 'https://en.wiktionary.org/wiki/%E5%95%8F' }

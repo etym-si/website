@@ -1,0 +1,22 @@
+id: 诉
+text: { Hans: 诉, Hant: 訴 }
+readings: { pinyin: sù }
+meaning: { en: to tell, zh-Hans: 告诉, zh-Hant: 告訴 }
+fact:
+  en: 诉 (訴) has 言 (to speak) for meaning and 斥 (to blame) for sound. At first it meant to blame someone out loud.
+  zh-Hans: “诉”的“讠”（言）表示意思，“斥”（责备）表示读音。它最早的意思是用话语指责别人。
+  zh-Hant: 「訴」左邊的「言」表示意思，右邊的「斥」（責備）表示讀音。它最早的意思是用話語指責別人。
+story:
+  topic: { en: Big News from the Park, zh-Hans: 公园里的大发现, zh-Hant: 公園裡的大發現 }
+  hook: { en: Guess what? Kiki runs home from the park and tells Grandma she found a four-leaf clover!, zh-Hans: 你猜怎么着？琪琪从公园跑回家，告诉奶奶她找到了一株四叶草！, zh-Hant: 你猜怎麼著？琪琪從公園跑回家，告訴奶奶她找到了一株四葉草！ }
+  closer: { en: "News, stories, secrets: when you tell someone, that's 告诉, with 诉 (訴) inside!", zh-Hans: 说新鲜事、讲故事、说悄悄话，都是“告诉”，里面就有“诉”！, zh-Hant: 說新鮮事、講故事、說悄悄話，都是「告訴」，裡面就有「訴」！ }
+journey: []
+origin:
+  type: phono-semantic
+  parts:
+    - { char: 言, role: meaning, gloss: { en: to speak, zh-Hans: 说话, zh-Hant: 說話 } }
+    - { char: 斥, role: sound }
+status: draft
+sources:
+  - { title: 'Wiktionary: 诉', url: 'https://en.wiktionary.org/wiki/%E8%AF%89' }
+  - { title: 'Wiktionary: 訴', url: 'https://en.wiktionary.org/wiki/%E8%A8%B4' }

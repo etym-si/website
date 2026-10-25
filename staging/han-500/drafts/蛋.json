@@ -1,0 +1,68 @@
+{
+  "id": "蛋",
+  "text": {
+    "Hans": "蛋",
+    "Hant": "蛋"
+  },
+  "readings": {
+    "pinyin": "dàn"
+  },
+  "meaning": {
+    "en": "egg",
+    "zh-Hans": "鸡蛋",
+    "zh-Hant": "雞蛋"
+  },
+  "fact": {
+    "en": "蛋 has 虫 (snakes, insects) at the bottom: it meant 'egg', especially snake eggs! It's a young character that doesn't appear in the oldest writings.",
+    "zh-Hans": "“蛋”下面的“虫”指蛇和虫子：它的意思是“蛋”，特别是蛇蛋！这是一个很年轻的字，最古老的文字里找不到它。",
+    "zh-Hant": "「蛋」下面的「虫」指蛇和蟲子：它的意思是「蛋」，特別是蛇蛋！這是一個很年輕的字，最古老的文字裡找不到它。"
+  },
+  "story": {
+    "topic": {
+      "en": "A Sunny Egg for Breakfast",
+      "zh-Hans": "早餐的荷包蛋",
+      "zh-Hant": "早餐的荷包蛋"
+    },
+    "hook": {
+      "en": "Crack, sizzle! Big sister cracks an egg into the pan, and out slides a sunny yellow yolk.",
+      "zh-Hans": "咔，滋——姐姐把鸡蛋磕进锅里，滑出一个金黄的蛋黄。",
+      "zh-Hant": "喀，滋——姊姊把雞蛋磕進鍋裡，滑出一個金黃的蛋黃。"
+    },
+    "turn": {
+      "en": "Its full form was 蜑. In 蛋, the sound part 延 got shortened to 疋.",
+      "zh-Hans": "它完整的写法是“蜑”。在“蛋”里，表示读音的“延”被缩写成了“疋”。",
+      "zh-Hant": "它完整的寫法是「蜑」。在「蛋」裡，表示讀音的「延」被縮寫成了「疋」。"
+    },
+    "closer": {
+      "en": "Chicken eggs, duck eggs, even snake eggs: they're all 蛋!",
+      "zh-Hans": "鸡蛋、鸭蛋，连蛇蛋也算，都是“蛋”！",
+      "zh-Hant": "雞蛋、鴨蛋，連蛇蛋也算，都是「蛋」！"
+    }
+  },
+  "journey": [],
+  "origin": {
+    "type": "phono-semantic",
+    "parts": [
+      {
+        "char": "虫",
+        "role": "meaning",
+        "gloss": {
+          "en": "snake, insect",
+          "zh-Hans": "蛇、虫",
+          "zh-Hant": "蛇、蟲"
+        }
+      },
+      {
+        "char": "延",
+        "role": "sound"
+      }
+    ]
+  },
+  "status": "draft",
+  "sources": [
+    {
+      "title": "Wiktionary: 蛋",
+      "url": "https://en.wiktionary.org/wiki/%E8%9B%8B"
+    }
+  ]
+}

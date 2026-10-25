@@ -1,0 +1,22 @@
+id: 茶
+text: { Hans: 茶, Hant: 茶 }
+readings: { pinyin: chá }
+meaning: { en: tea, zh-Hans: 奶茶, zh-Hant: 奶茶 }
+fact:
+  en: 茶 has 艹 (plants) on top for meaning. It grew out of an older character, 荼 (a bitter plant), by changing its shape just a little.
+  zh-Hans: “茶”上面的“艹”表示它是植物。它是从一个更古老的字“荼”（一种苦苦的植物）稍稍改了一下字形变来的。
+  zh-Hant: 「茶」上面的「艹」表示它是植物。它是從一個更古老的字「荼」（一種苦苦的植物）稍稍改了一下字形變來的。
+story:
+  topic: { en: Bubble Tea Pearls, zh-Hans: 珍珠奶茶, zh-Hant: 珍珠奶茶 }
+  hook: { en: Pop! Big chewy pearls shoot up the straw as Jenny takes a sip of her bubble milk tea., zh-Hans: 噗！珍妮吸了一口珍珠奶茶，一颗颗大珍珠顺着吸管冲了上来。, zh-Hant: 噗！珍妮吸了一口珍珠奶茶，一顆顆大珍珠順著吸管衝了上來。 }
+  turn: { en: "In old books, tea was written 荼, with 余 for the sound. A small change in shape turned it into today's 茶.", zh-Hans: 古书里，“茶”写作“荼”，下面的“余”表示读音。后来字形稍稍一改，就成了今天的“茶”。, zh-Hant: 古書裡，「茶」寫作「荼」，下面的「余」表示讀音。後來字形稍稍一改，就成了今天的「茶」。 }
+  closer: { en: 'Green tea, black tea, bubble milk tea: every cup starts with 茶!', zh-Hans: 绿茶、红茶、珍珠奶茶，每一杯都离不开“茶”！, zh-Hant: 綠茶、紅茶、珍珠奶茶，每一杯都離不開「茶」！ }
+journey: []
+origin:
+  type: phono-semantic
+  parts:
+    - { char: 艹, role: meaning, gloss: { en: plant, zh-Hans: 植物, zh-Hant: 植物 } }
+    - { char: 余, role: sound }
+status: draft
+sources:
+  - { title: 'Wiktionary: 茶', url: 'https://en.wiktionary.org/wiki/%E8%8C%B6' }

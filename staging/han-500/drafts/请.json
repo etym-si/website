@@ -1,0 +1,67 @@
+{
+  "id": "请",
+  "text": {
+    "Hans": "请",
+    "Hant": "請"
+  },
+  "readings": {
+    "pinyin": "qǐng"
+  },
+  "meaning": {
+    "en": "please; to invite",
+    "zh-Hans": "请进",
+    "zh-Hant": "請進"
+  },
+  "fact": {
+    "en": "请 (請) has 言 (to say) on the left for meaning and 青 on the right for sound: 青 (qīng) sounds a lot like 请 (qǐng)!",
+    "zh-Hans": "“请”左边的“讠”（言）表示意思，右边的“青”表示读音。“青”（qīng）和“请”（qǐng）读起来很像！",
+    "zh-Hant": "「請」左邊的「言」表示意思，右邊的「青」表示讀音。「青」（qīng）和「請」（qǐng）讀起來很像！"
+  },
+  "story": {
+    "topic": {
+      "en": "Please Pass the Ketchup",
+      "zh-Hans": "请把番茄酱递给我",
+      "zh-Hant": "請把番茄醬遞給我"
+    },
+    "hook": {
+      "en": "'Please pass the ketchup,' says Benben politely, and Dad slides the bottle right over.",
+      "zh-Hans": "“请把番茄酱递给我。”本本很有礼貌地说，爸爸马上把瓶子推了过来。",
+      "zh-Hant": "「請把番茄醬遞給我。」本本很有禮貌地說，爸爸馬上把瓶子推了過來。"
+    },
+    "closer": {
+      "en": "Say it before you ask, and everyone smiles: 请 (請), please!",
+      "zh-Hans": "开口之前先说“请”，大家都会笑眯眯！这就是请进的“请”。",
+      "zh-Hant": "開口之前先說「請」，大家都會笑瞇瞇！這就是請進的「請」。"
+    }
+  },
+  "journey": "default",
+  "origin": {
+    "type": "phono-semantic",
+    "parts": [
+      {
+        "char": "言",
+        "role": "meaning",
+        "gloss": {
+          "en": "to say",
+          "zh-Hans": "说",
+          "zh-Hant": "說"
+        }
+      },
+      {
+        "char": "青",
+        "role": "sound"
+      }
+    ]
+  },
+  "status": "draft",
+  "sources": [
+    {
+      "title": "Wiktionary: 请",
+      "url": "https://en.wiktionary.org/wiki/%E8%AF%B7"
+    },
+    {
+      "title": "Wiktionary: 請",
+      "url": "https://en.wiktionary.org/wiki/%E8%AB%8B"
+    }
+  ]
+}

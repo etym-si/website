@@ -1,0 +1,21 @@
+id: 洗
+text: { Hans: 洗, Hant: 洗 }
+readings: { pinyin: xǐ }
+meaning: { en: to wash, zh-Hans: 洗手, zh-Hant: 洗手 }
+fact:
+  en: 洗 has 氵 (water) for meaning and 先 for sound. Read xiǎn, it could once even mean washing your feet!
+  zh-Hans: “洗”左边的“氵”表示意思，右边的“先”表示读音。它读xiǎn的时候，以前还专门指洗脚呢！
+  zh-Hant: 「洗」左邊的「氵」表示意思，右邊的「先」表示讀音。它讀xiǎn的時候，以前還專門指洗腳呢！
+story:
+  topic: { en: 'Muddy Hands, Bubbly Soap', zh-Hans: 泥巴手和肥皂泡, zh-Hant: 泥巴手和肥皂泡 }
+  hook: { en: "Scrub-a-dub! After planting sunflowers, Dada's hands are covered in mud, so he scrubs until they're full of bubbles.", zh-Hans: 搓呀搓！种完向日葵，达达满手都是泥，赶紧把手洗得全是泡泡。, zh-Hant: 搓呀搓！種完向日葵，達達滿手都是泥，趕緊把手洗得全是泡泡。 }
+  closer: { en: 'Water to wash with, 先 for the sound: 洗, time to wash up!', zh-Hans: 有水才能洗干净，“先”来管读音，这就是洗手的“洗”！, zh-Hant: 有水才能洗乾淨，「先」來管讀音，這就是洗手的「洗」！ }
+journey: []
+origin:
+  type: phono-semantic
+  parts:
+    - { char: 水, role: meaning, gloss: { en: water, zh-Hans: 水, zh-Hant: 水 } }
+    - { char: 先, role: sound }
+status: draft
+sources:
+  - { title: 'Wiktionary: 洗', url: 'https://en.wiktionary.org/wiki/%E6%B4%97' }

@@ -1,0 +1,22 @@
+id: 写
+text: { Hans: 写, Hant: 寫 }
+readings: { pinyin: xiě }
+meaning: { en: to write, zh-Hans: 写字, zh-Hant: 寫字 }
+fact:
+  en: Traditional 寫 has 宀 on top for meaning and 舄 below for sound. It could also once mean 'to move something to another place'.
+  zh-Hans: 繁体字“寫”上面的“宀”表示意思，下面的“舄”表示读音。它以前还有“把东西挪到别处”的意思。
+  zh-Hant: 「寫」上面的「宀」表示意思，下面的「舄」表示讀音。它以前還有「把東西挪到別處」的意思。
+story:
+  topic: { en: A Card for Grandma, zh-Hans: 写给奶奶的卡片, zh-Hant: 寫給奶奶的卡片 }
+  hook: { en: "In her very best handwriting, Coco writes 'Happy birthday, Grandma!' on a big pink card.", zh-Hans: 可可在一张粉红色的大卡片上，用最工整的字写下：“奶奶生日快乐！”, zh-Hant: 可可在一張粉紅色的大卡片上，用最工整的字寫下：「奶奶生日快樂！」 }
+  closer: { en: 'Pencil, brush or chalk: whenever you write, you 写 (寫)!', zh-Hans: 铅笔、毛笔还是粉笔，只要动笔写字，就是“写”！, zh-Hant: 鉛筆、毛筆還是粉筆，只要動筆寫字，就是「寫」！ }
+journey: []
+origin:
+  type: phono-semantic
+  parts:
+    - { char: 宀, role: meaning, gloss: { en: roof, zh-Hans: 屋顶, zh-Hant: 屋頂 } }
+    - { char: 舄, role: sound }
+status: draft
+sources:
+  - { title: 'Wiktionary: 写', url: 'https://en.wiktionary.org/wiki/%E5%86%99' }
+  - { title: 'Wiktionary: 寫', url: 'https://en.wiktionary.org/wiki/%E5%AF%AB' }

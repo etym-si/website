@@ -1,0 +1,23 @@
+id: 头
+text: { Hans: 头, Hant: 頭 }
+readings: { pinyin: tóu }
+meaning: { en: head, zh-Hans: 点头, zh-Hant: 點頭 }
+fact:
+  en: Traditional 頭 has 豆 on the left for sound and 頁 (head) on the right for meaning.
+  zh-Hans: 繁体字“頭”左边的“豆”表示读音，右边的“页”（头）表示意思。
+  zh-Hant: 「頭」左邊的「豆」表示讀音，右邊的「頁」（頭）表示意思。
+story:
+  topic: { en: 'Head, Shoulders, Knees and Toes', zh-Hans: 头、肩膀、膝盖、脚趾, zh-Hant: 頭、肩膀、膝蓋、腳趾 }
+  hook: { en: 'Head, shoulders, knees and toes! Little cousin Niuniu giggles and taps her head first, every time.', zh-Hans: 头、肩膀、膝盖、脚趾！小表妹妞妞咯咯笑着，每次都先拍拍自己的头。, zh-Hant: 頭、肩膀、膝蓋、腳趾！小表妹妞妞咯咯笑著，每次都先拍拍自己的頭。 }
+  turn: { en: 'Writing 頭 fast in cursive squished 豆 into two little dots and 頁 into 大, and that became simplified 头.', zh-Hans: 人们用草书快快地写“頭”，“豆”缩成了两个小点，“页”变成了“大”，这就成了简体字“头”。, zh-Hant: 人們用草書快快地寫「頭」，「豆」縮成了兩個小點，「頁」變成了「大」，這就成了簡體字「头」。 }
+  closer: { en: 'Nod yes, shake no: your 头 (頭) sits right on top!', zh-Hans: 点点头，摇摇头，最上面的就是“头”！, zh-Hant: 點點頭，搖搖頭，最上面的就是「頭」！ }
+journey: default
+origin:
+  type: phono-semantic
+  parts:
+    - { char: 頁, role: meaning, gloss: { en: head, zh-Hans: 头, zh-Hant: 頭 } }
+    - { char: 豆, role: sound }
+status: draft
+sources:
+  - { title: 'Wiktionary: 头', url: 'https://en.wiktionary.org/wiki/%E5%A4%B4' }
+  - { title: 'Wiktionary: 頭', url: 'https://en.wiktionary.org/wiki/%E9%A0%AD' }

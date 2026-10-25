@@ -1,0 +1,63 @@
+{
+  "id": "把",
+  "text": {
+    "Hans": "把",
+    "Hant": "把"
+  },
+  "readings": {
+    "pinyin": "bǎ"
+  },
+  "meaning": {
+    "en": "to hold; handle",
+    "zh-Hans": "把手",
+    "zh-Hant": "把手"
+  },
+  "fact": {
+    "en": "把 has 扌 (hand) for meaning and 巴 for sound: 巴 (bā) sounds a lot like 把 (bǎ). It means to hold or grasp.",
+    "zh-Hans": "“把”左边的“扌”表示意思，右边的“巴”表示读音，“巴”（bā）和“把”（bǎ）读起来很像。它的意思是握住、抓住。",
+    "zh-Hant": "「把」左邊的「扌」表示意思，右邊的「巴」表示讀音，「巴」（bā）和「把」（bǎ）讀起來很像。它的意思是握住、抓住。"
+  },
+  "story": {
+    "topic": {
+      "en": "The Bumpy Pony Ride",
+      "zh-Hans": "颠颠的小马",
+      "zh-Hant": "顛顛的小馬"
+    },
+    "hook": {
+      "en": "Hold on tight! On the bumpy pony ride, Feifei grips the saddle handle with both hands.",
+      "zh-Hans": "抓紧啦！小马一颠一颠的，菲菲两只手紧紧握住马鞍上的把手。",
+      "zh-Hant": "抓緊囉！小馬一顛一顛的，菲菲兩隻手緊緊握住馬鞍上的把手。"
+    },
+    "closer": {
+      "en": "A hand holding on, 巴 for the sound: that's 把, and a handle is a 把手!",
+      "zh-Hans": "手“扌”紧紧握住，“巴”来管读音，这就是把手的“把”！",
+      "zh-Hant": "手「扌」緊緊握住，「巴」來管讀音，這就是把手的「把」！"
+    }
+  },
+  "journey": "default",
+  "origin": {
+    "type": "phono-semantic",
+    "parts": [
+      {
+        "char": "扌",
+        "role": "meaning",
+        "gloss": {
+          "en": "hand",
+          "zh-Hans": "手",
+          "zh-Hant": "手"
+        }
+      },
+      {
+        "char": "巴",
+        "role": "sound"
+      }
+    ]
+  },
+  "status": "draft",
+  "sources": [
+    {
+      "title": "Wiktionary: 把",
+      "url": "https://en.wiktionary.org/wiki/%E6%8A%8A"
+    }
+  ]
+}
