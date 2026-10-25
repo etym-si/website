@@ -1,0 +1,32 @@
+{
+ "id": "楼",
+ "s": "楼",
+ "t": "樓",
+ "forms": {
+  "s": "楼",
+  "alt": "𩫰,𣏥-nonstandard"
+ },
+ "pinyin": [
+  "lóu"
+ ],
+ "glyph_origin": "Phono-semantic compound (形聲): semantic 木 (“tree”) + phonetic 婁.",
+ "s_page_origin": "Simplified from 樓 (婁 → 娄).",
+ "shuowen": [],
+ "senses": [
+  "[lóu] building (of two or more stories)",
+  "[lóu] floor; level"
+ ],
+ "sources": [
+  {
+   "title": "Wiktionary: 楼",
+   "url": "https://en.wiktionary.org/wiki/%E6%A5%BC",
+   "rev": 92200821
+  },
+  {
+   "title": "Wiktionary: 樓",
+   "url": "https://en.wiktionary.org/wiki/%E6%A8%93",
+   "rev": 93381128
+  }
+ ],
+ "note": "glyph_origin is from the traditional page 樓; s_page_origin explains the simplified 楼."
+}

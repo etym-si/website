@@ -1,0 +1,30 @@
+{
+ "id": "光",
+ "s": "光",
+ "t": "光",
+ "forms": {
+  "alt": "灮,㶢,炗,炚,…"
+ },
+ "pinyin": [
+  "guāng",
+  "guǎng",
+  "guàng"
+ ],
+ "glyph_origin": "Ideogrammic compound (會意): 火 (“fire”) + 卩 (“kneeling person”) – fire over a person's head, emphasizing the shining of light (Shuowen).",
+ "s_page_origin": "",
+ "shuowen": [
+  "Ideogrammic compound (會意): 火 (“fire”) + 卩 (“kneeling person”) – fire over a person's head, emphasizing the shining of light (Shuowen)."
+ ],
+ "senses": [
+  "[guāng] light; beam; ray",
+  "[guāng] to make bare; to be naked",
+  "[guàng] (hist-dict) to color"
+ ],
+ "sources": [
+  {
+   "title": "Wiktionary: 光",
+   "url": "https://en.wiktionary.org/wiki/%E5%85%89",
+   "rev": 93136216
+  }
+ ]
+}

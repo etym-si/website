@@ -1,0 +1,31 @@
+{
+ "id": "贝",
+ "s": "贝",
+ "t": "貝",
+ "forms": {
+  "s": "贝"
+ },
+ "pinyin": [
+  "bèi"
+ ],
+ "glyph_origin": "Pictogram (象形) – cowrie used as currency in ancient China. Unrelated to the original version of 則. See also the top component of 得. Unrelated to 目.",
+ "s_page_origin": "Simplified form of 貝 in cursive script.",
+ "shuowen": [],
+ "senses": [
+  "[bèi] shellfish; cowrie",
+  "[bèi] (obsolete in standard Chinese) money; currency"
+ ],
+ "sources": [
+  {
+   "title": "Wiktionary: 贝",
+   "url": "https://en.wiktionary.org/wiki/%E8%B4%9D",
+   "rev": 87570567
+  },
+  {
+   "title": "Wiktionary: 貝",
+   "url": "https://en.wiktionary.org/wiki/%E8%B2%9D",
+   "rev": 93472805
+  }
+ ],
+ "note": "glyph_origin is from the traditional page 貝; s_page_origin explains the simplified 贝."
+}

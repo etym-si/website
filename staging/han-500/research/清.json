@@ -1,0 +1,27 @@
+{
+ "id": "清",
+ "s": "清",
+ "t": "清",
+ "forms": {
+  "t2": "淸",
+  "alt": "𠗜,𨓽"
+ },
+ "pinyin": [
+  "qīng"
+ ],
+ "glyph_origin": "Phono-semantic compound (形聲): semantic 氵 (= 水) (“water”) + phonetic 青.",
+ "s_page_origin": "",
+ "shuowen": [],
+ "senses": [
+  "[qīng] clear; limpid",
+  "[qīng] clean; unstained",
+  "(Hong Kong Cantonese, Internet slang, leetspeak) synonym of 師兄"
+ ],
+ "sources": [
+  {
+   "title": "Wiktionary: 清",
+   "url": "https://en.wiktionary.org/wiki/%E6%B8%85",
+   "rev": 93457493
+  }
+ ]
+}

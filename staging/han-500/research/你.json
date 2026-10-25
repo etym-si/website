@@ -1,0 +1,26 @@
+{
+ "id": "你",
+ "s": "你",
+ "t": "你",
+ "forms": {
+  "t2": "妳",
+  "alt": "伱,儞,伲,𤙌,…"
+ },
+ "pinyin": [
+  "nǐ"
+ ],
+ "glyph_origin": "Phono-semantic compound (形聲): semantic 亻 (= 人) (“person”) + phonetic 尔. Alternatively, Ideogrammic compound (會意): 人 (“person”) + 尔 (“you”)",
+ "s_page_origin": "",
+ "shuowen": [],
+ "senses": [
+  "[nǐ] you (the person spoken to or written to)",
+  "your"
+ ],
+ "sources": [
+  {
+   "title": "Wiktionary: 你",
+   "url": "https://en.wiktionary.org/wiki/%E4%BD%A0",
+   "rev": 93174696
+  }
+ ]
+}

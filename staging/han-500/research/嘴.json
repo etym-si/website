@@ -1,0 +1,26 @@
+{
+ "id": "嘴",
+ "s": "嘴",
+ "t": "嘴",
+ "forms": {
+  "alt": "咀,觜,㭰,𭪿"
+ },
+ "pinyin": [
+  "zuǐ"
+ ],
+ "glyph_origin": "Phono-semantic compound (形聲): semantic 口 + phonetic 觜.",
+ "s_page_origin": "",
+ "shuowen": [],
+ "senses": [
+  "[zuǐ] (anatomy) mouth (especially the part of the face associated with the mouth)",
+  "[zuǐ] (figurative) mouth-like object; beak; nozzle; spout (of a teapot, etc.)",
+  "(Min) alternative form of 喙 (“mouth”)"
+ ],
+ "sources": [
+  {
+   "title": "Wiktionary: 嘴",
+   "url": "https://en.wiktionary.org/wiki/%E5%98%B4",
+   "rev": 92636619
+  }
+ ]
+}

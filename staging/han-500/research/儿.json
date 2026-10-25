@@ -1,0 +1,35 @@
+{
+ "id": "儿",
+ "s": "儿",
+ "t": "兒",
+ "forms": {
+  "s": "儿",
+  "alt": "児,𠒇,𫤘"
+ },
+ "pinyin": [
+  "ér",
+  "ní"
+ ],
+ "glyph_origin": "Pictogram (象形): an infant with an imperfect cranium (i.e. fontanelle).",
+ "s_page_origin": "Pictogram (象形) – a standing person. A radical form of 人. Also simplified from 兒 (臼 →). In the character 亮, the standing person 儿 was corrupted into 几. Unrelated to 匹.",
+ "shuowen": [],
+ "senses": [
+  "[ér] (now, in compounds) child",
+  "[ér] one's own child; son",
+  "[ní] a surname",
+  "[ní] alternative form of 齯 (“teeth grown in old age”)"
+ ],
+ "sources": [
+  {
+   "title": "Wiktionary: 儿",
+   "url": "https://en.wiktionary.org/wiki/%E5%84%BF",
+   "rev": 91573996
+  },
+  {
+   "title": "Wiktionary: 兒",
+   "url": "https://en.wiktionary.org/wiki/%E5%85%92",
+   "rev": 93736831
+  }
+ ],
+ "note": "glyph_origin is from the traditional page 兒; s_page_origin explains the simplified 儿."
+}

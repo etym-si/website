@@ -1,0 +1,28 @@
+{
+ "id": "道",
+ "s": "道",
+ "t": "道",
+ "forms": {
+  "alt": "噵,衜,衟,𡬹,…"
+ },
+ "pinyin": [
+  "dào",
+  "dǎo"
+ ],
+ "glyph_origin": "First attested in early Western Zhou bronze inscriptions as a 行 (“road”) + 首 (“head”), later augmented with 又 (寸) or 止 in the middle and late periods. The 亍 on the right eventually disappeared, leading to the semantic components combining into 辵 in the seal script.",
+ "s_page_origin": "",
+ "shuowen": [],
+ "senses": [
+  "[dào] (literary, colloquial, in, northern Mandarin) path; course; way; road",
+  "[dào] (historical) circuit (various administrative divisions of imperial and early Republican China)",
+  "[dǎo] (Classical) alternative form of 導 (“to direct; to guide; to lead”)",
+  "[dǎo] (Classical) to govern; to administer"
+ ],
+ "sources": [
+  {
+   "title": "Wiktionary: 道",
+   "url": "https://en.wiktionary.org/wiki/%E9%81%93",
+   "rev": 93867144
+  }
+ ]
+}

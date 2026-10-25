@@ -1,0 +1,32 @@
+{
+ "id": "丝",
+ "s": "丝",
+ "t": "絲",
+ "forms": {
+  "s": "丝",
+  "alt": "𢇁,𢇃,糸"
+ },
+ "pinyin": [
+  "sī"
+ ],
+ "glyph_origin": "Ideogrammic compound (會意): 糸 + 糸.",
+ "s_page_origin": "Simplified from 絲 via variant 𢇁.",
+ "shuowen": [],
+ "senses": [
+  "[sī] silk (fibre, cloth, fabrics, etc.)",
+  "[sī] thread; thread/silk-like objects; string; thin strip; thin shred"
+ ],
+ "sources": [
+  {
+   "title": "Wiktionary: 丝",
+   "url": "https://en.wiktionary.org/wiki/%E4%B8%9D",
+   "rev": 91502408
+  },
+  {
+   "title": "Wiktionary: 絲",
+   "url": "https://en.wiktionary.org/wiki/%E7%B5%B2",
+   "rev": 93448440
+  }
+ ],
+ "note": "glyph_origin is from the traditional page 絲; s_page_origin explains the simplified 丝."
+}

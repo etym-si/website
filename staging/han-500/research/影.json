@@ -1,0 +1,25 @@
+{
+ "id": "影",
+ "s": "影",
+ "t": "影",
+ "forms": {
+  "alt": "蔭:Hokkien"
+ },
+ "pinyin": [
+  "yǐng"
+ ],
+ "glyph_origin": "Phono-semantic compound (形聲): phonetic 景 + semantic 彡. The original meaning is \"shadow\". The phonetic component also indicates the concept of image.",
+ "s_page_origin": "",
+ "shuowen": [],
+ "senses": [
+  "[yǐng] shadow",
+  "[yǐng] image"
+ ],
+ "sources": [
+  {
+   "title": "Wiktionary: 影",
+   "url": "https://en.wiktionary.org/wiki/%E5%BD%B1",
+   "rev": 93352245
+  }
+ ]
+}

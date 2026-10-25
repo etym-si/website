@@ -1,0 +1,34 @@
+{
+ "id": "和",
+ "s": "和",
+ "t": "和",
+ "forms": {
+  "alt": "咊,龢,訸"
+ },
+ "pinyin": [
+  "hé",
+  "hàn",
+  "hài",
+  "hè",
+  "huó",
+  "huò"
+ ],
+ "glyph_origin": "Phono-semantic compound (形聲): phonetic 禾 + semantic 口 (“mouth”) – harmony. The original version was 龢, with the radical of the flute 𠎤 (> 龠) in its either archaic or contracted version perhaps to indicate the abstract concept of harmony through harmony in music.",
+ "s_page_origin": "",
+ "shuowen": [],
+ "senses": [
+  "[hé] peaceful; harmonious",
+  "[hé] gentle; kind",
+  "[hè] (obsolete in standard Chinese) to make sounds in concert with; to echo",
+  "[huó] to mix with water to make something stick together; to knead",
+  "[huò] to mix (usually substances in powder or grain form)",
+  "[huò] to add water to make something less thick"
+ ],
+ "sources": [
+  {
+   "title": "Wiktionary: 和",
+   "url": "https://en.wiktionary.org/wiki/%E5%92%8C",
+   "rev": 93556160
+  }
+ ]
+}

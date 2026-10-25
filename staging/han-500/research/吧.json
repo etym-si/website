@@ -1,0 +1,32 @@
+{
+ "id": "吧",
+ "s": "吧",
+ "t": "吧",
+ "forms": {
+  "alt": "罷"
+ },
+ "pinyin": [
+  "ba",
+  "bā",
+  "biā",
+  "pā"
+ ],
+ "glyph_origin": "Phono-semantic compound (形聲): semantic 口 + phonetic 巴 (OC *praː).",
+ "s_page_origin": "",
+ "shuowen": [],
+ "senses": [
+  "[ba] Emphatic final particle; used at the end of a sentence to",
+  "[ba] Used at the end of a sentence used to concede a point.",
+  "[bā] (onomatopoeia) sound of crackling; crack",
+  "[biā] (onomatopoeia) pow!; smack!",
+  "[bā] (dialectal) to smoke (a cigarette)",
+  "[pā] only used in 吧呀"
+ ],
+ "sources": [
+  {
+   "title": "Wiktionary: 吧",
+   "url": "https://en.wiktionary.org/wiki/%E5%90%A7",
+   "rev": 92200097
+  }
+ ]
+}

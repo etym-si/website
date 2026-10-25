@@ -1,0 +1,32 @@
+{
+ "id": "卖",
+ "s": "卖",
+ "t": "賣",
+ "forms": {
+  "s": "卖",
+  "alt": "売,⿳士冖天-1935 ROC shortlived simp.,𧷓,𧷵,…"
+ },
+ "pinyin": [
+  "mài"
+ ],
+ "glyph_origin": "Originally 𧷓, an ideogrammic compound (會意) and phono-semantic compound (形聲): semantic 出 (“go out”) + phonetic 買 (“buy”). 出, which indicates exoactive semantics (Sagart, 1999), was eventually reduced to the etymologically unrelated 士. Unrelated to 𧶠, which is used as a phonetic component in a number of characters.",
+ "s_page_origin": "Simplified from 賣 (買 → 买).",
+ "shuowen": [],
+ "senses": [
+  "[mài] to sell",
+  "[mài] to betray; to sell out"
+ ],
+ "sources": [
+  {
+   "title": "Wiktionary: 卖",
+   "url": "https://en.wiktionary.org/wiki/%E5%8D%96",
+   "rev": 88933560
+  },
+  {
+   "title": "Wiktionary: 賣",
+   "url": "https://en.wiktionary.org/wiki/%E8%B3%A3",
+   "rev": 93437273
+  }
+ ],
+ "note": "glyph_origin is from the traditional page 賣; s_page_origin explains the simplified 卖."
+}

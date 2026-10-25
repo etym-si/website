@@ -1,0 +1,33 @@
+{
+ "id": "脑",
+ "s": "脑",
+ "t": "腦",
+ "forms": {
+  "s": "脑",
+  "alt": "匘,𦛁"
+ },
+ "pinyin": [
+  "nǎo",
+  "nào"
+ ],
+ "glyph_origin": "Originally 匘, an ideogrammic compound (會意): 匕 + 巛 (“hair”) + 囟 (“head; fontanel”). 匕 was later replaced with 肉 (“flesh”).",
+ "s_page_origin": "Simplified from 腦 (𡿺 → 㐫)",
+ "shuowen": [],
+ "senses": [
+  "[nǎo] (anatomy) brain",
+  "[nǎo] head"
+ ],
+ "sources": [
+  {
+   "title": "Wiktionary: 脑",
+   "url": "https://en.wiktionary.org/wiki/%E8%84%91",
+   "rev": 87570497
+  },
+  {
+   "title": "Wiktionary: 腦",
+   "url": "https://en.wiktionary.org/wiki/%E8%85%A6",
+   "rev": 92917017
+  }
+ ],
+ "note": "glyph_origin is from the traditional page 腦; s_page_origin explains the simplified 脑."
+}

@@ -1,0 +1,36 @@
+{
+ "id": "错",
+ "s": "错",
+ "t": "錯",
+ "forms": {
+  "s": "错",
+  "alt": "䥘-ancient form,𠪞,逪,䥄,…"
+ },
+ "pinyin": [
+  "cuò",
+  "cù",
+  "xī"
+ ],
+ "glyph_origin": "Phono-semantic compound (形聲): semantic 金 (“metal”) + phonetic 昔 – grindstone.",
+ "s_page_origin": "Simplified from 錯 (釒 → 钅).",
+ "shuowen": [],
+ "senses": [
+  "[cuò] wrong; erroneous; incorrect",
+  "[cuò] (in fixed expressions) bad; poor; inferior; substandard",
+  "[cù] (obsolete in standard Chinese) alternative form of 措 (“to place; to carry out”)",
+  "[xī] (chemical element, obsolete) alternative name for 鈰"
+ ],
+ "sources": [
+  {
+   "title": "Wiktionary: 错",
+   "url": "https://en.wiktionary.org/wiki/%E9%94%99",
+   "rev": 87570576
+  },
+  {
+   "title": "Wiktionary: 錯",
+   "url": "https://en.wiktionary.org/wiki/%E9%8C%AF",
+   "rev": 93450952
+  }
+ ],
+ "note": "glyph_origin is from the traditional page 錯; s_page_origin explains the simplified 错."
+}

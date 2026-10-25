@@ -1,0 +1,37 @@
+{
+ "id": "吗",
+ "s": "吗",
+ "t": "嗎",
+ "forms": {
+  "s": "吗",
+  "alt": "麼"
+ },
+ "pinyin": [
+  "ma",
+  "mǎ",
+  "má"
+ ],
+ "glyph_origin": "Phono-semantic compound (形聲): semantic 口 (“mouth”) + phonetic 馬.",
+ "s_page_origin": "Simplified from 嗎 (馬 → 马)",
+ "shuowen": [],
+ "senses": [
+  "[ma] Final interrogative particle, forming yes/no questions.",
+  "(Cantonese) Final interrogative particle, forming yes/no questions.",
+  "(Philippine Hokkien) Final interrogative particle, forming yes/no questions.",
+  "[mǎ] Used as a phonetic character.",
+  "[má] (Mandarin, colloquial) what"
+ ],
+ "sources": [
+  {
+   "title": "Wiktionary: 吗",
+   "url": "https://en.wiktionary.org/wiki/%E5%90%97",
+   "rev": 87570510
+  },
+  {
+   "title": "Wiktionary: 嗎",
+   "url": "https://en.wiktionary.org/wiki/%E5%97%8E",
+   "rev": 93448303
+  }
+ ],
+ "note": "glyph_origin is from the traditional page 嗎; s_page_origin explains the simplified 吗."
+}

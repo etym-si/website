@@ -1,0 +1,31 @@
+{
+ "id": "共",
+ "s": "共",
+ "t": "共",
+ "forms": {
+  "alt": "𦱹,𠔏,𩇿"
+ },
+ "pinyin": [
+  "gòng",
+  "Gòng",
+  "Gōng",
+  "gōng",
+  "gǒng"
+ ],
+ "glyph_origin": "Ideogrammic compound (會意): 廾 (“two hands”) + 口 (“an object”) – holding up an object with two hands. Eventually 口 (not mouth) came to be written 廿 (not twenty), which later fused with 廾 to form the modern 共. Possibly the original form of 供 (“to provide; to offer”).",
+ "s_page_origin": "",
+ "shuowen": [],
+ "senses": [
+  "[gòng] common",
+  "[gòng] together",
+  "[Gòng] a surname",
+  "[gōng] (literary) alternative form of 供 (“to provide”)"
+ ],
+ "sources": [
+  {
+   "title": "Wiktionary: 共",
+   "url": "https://en.wiktionary.org/wiki/%E5%85%B1",
+   "rev": 92310443
+  }
+ ]
+}

@@ -1,0 +1,33 @@
+{
+ "id": "食",
+ "s": "食",
+ "t": "食",
+ "forms": {
+  "alt": "𠊊,𩚁,𩚀,𩚃,…"
+ },
+ "pinyin": [
+  "shí",
+  "sì",
+  "yì"
+ ],
+ "glyph_origin": "Ideogrammic compound (會意): 亼 (“mouth”) + 皀 (“a bowl of rice on a stand”). In the modern form, the bowl of rice has corrupted into the similar but unrelated 良 or 艮. The variant form 𠊊 preserves the original composition. Shuowen interprets the 亼 as a phonetic component.",
+ "s_page_origin": "",
+ "shuowen": [
+  "Shuowen interprets the 亼 as a phonetic component."
+ ],
+ "senses": [
+  "[shí] (literary, Cantonese, Hakka) to eat; to have a meal; to take in",
+  "[shí] (dialectal Cantonese, Hakka) to drink",
+  "[sì] 飼",
+  "(Coastal Min) to eat; to have a meal; to take in",
+  "(Coastal Min) to drink",
+  "[yì] Used in an ancient personal name."
+ ],
+ "sources": [
+  {
+   "title": "Wiktionary: 食",
+   "url": "https://en.wiktionary.org/wiki/%E9%A3%9F",
+   "rev": 93626765
+  }
+ ]
+}

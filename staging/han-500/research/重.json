@@ -1,0 +1,28 @@
+{
+ "id": "重",
+ "s": "重",
+ "t": "重",
+ "forms": {
+  "alt": "𡍴-ancient,𡍺-ancient,𨤣,𧝎,…"
+ },
+ "pinyin": [
+  "zhòng",
+  "chóng"
+ ],
+ "glyph_origin": "Phono-semantic compound (形聲) and ideogrammic compound (會意): semantic 人 (“man”) + phonetic 東 (“bag”) – a man carrying a bag. A glyph 土 (“earth”) was later added to show that the bag-carrying man is standing on the ground. From this composition (𡍺) is the current form. In the modern form, the man on top can be seen as 亻 (however, the upper part of the character is unrelated to 千). See also 以, in which a person is carrying something, 央, in which a person is carrying a pole, and 年, in which a person is carrying the harvest.",
+ "s_page_origin": "",
+ "shuowen": [],
+ "senses": [
+  "[zhòng] heavy",
+  "[zhòng] weight",
+  "[chóng] to repeat; to duplicate",
+  "[chóng] to stack up; to pile up; to overlay"
+ ],
+ "sources": [
+  {
+   "title": "Wiktionary: 重",
+   "url": "https://en.wiktionary.org/wiki/%E9%87%8D",
+   "rev": 93318762
+  }
+ ]
+}

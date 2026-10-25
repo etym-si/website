@@ -1,0 +1,31 @@
+{
+ "id": "问",
+ "s": "问",
+ "t": "問",
+ "forms": {
+  "s": "问"
+ },
+ "pinyin": [
+  "wèn"
+ ],
+ "glyph_origin": "Phono-semantic compound (形聲): phonetic 門 + semantic 口.",
+ "s_page_origin": "Simplified from 問 (門 → 门).",
+ "shuowen": [],
+ "senses": [
+  "[wèn] to ask",
+  "[wèn] to inquire about; to ask about"
+ ],
+ "sources": [
+  {
+   "title": "Wiktionary: 问",
+   "url": "https://en.wiktionary.org/wiki/%E9%97%AE",
+   "rev": 91780740
+  },
+  {
+   "title": "Wiktionary: 問",
+   "url": "https://en.wiktionary.org/wiki/%E5%95%8F",
+   "rev": 88612613
+  }
+ ],
+ "note": "glyph_origin is from the traditional page 問; s_page_origin explains the simplified 问."
+}

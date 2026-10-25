@@ -1,0 +1,38 @@
+{
+ "id": "从",
+ "s": "从",
+ "t": "從",
+ "forms": {
+  "s": "从",
+  "alt": "从,従,𬽡,徔,…"
+ },
+ "pinyin": [
+  "cóng",
+  "zòng",
+  "cōng",
+  "zōng"
+ ],
+ "glyph_origin": "Originally written as 从. Now phono-semantic compound (形聲): semantic 辵 (“walk”) + phonetic 从 (“follow”).",
+ "s_page_origin": "Ideogrammic compound (會意) – a person (人) walking with another person in the same direction – to follow. Duplication of 人. See the bottom component of 旅 (< 𣃨).",
+ "shuowen": [
+  "「賣：出物貨也。從出從買。」 (“賣: To put something out and sell it. Derived from 出 and 買.”)"
+ ],
+ "senses": [
+  "[cóng] (not used alone) to follow; to come after",
+  "[cóng] to comply with; to submit to",
+  "[zòng] (obsolete in standard Chinese) alternative form of 縱 (“straight; vertical”)"
+ ],
+ "sources": [
+  {
+   "title": "Wiktionary: 从",
+   "url": "https://en.wiktionary.org/wiki/%E4%BB%8E",
+   "rev": 89932378
+  },
+  {
+   "title": "Wiktionary: 從",
+   "url": "https://en.wiktionary.org/wiki/%E5%BE%9E",
+   "rev": 93505297
+  }
+ ],
+ "note": "glyph_origin is from the traditional page 從; s_page_origin explains the simplified 从."
+}

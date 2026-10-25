@@ -1,0 +1,28 @@
+{
+ "id": "吹",
+ "s": "吹",
+ "t": "吹",
+ "forms": {
+  "alt": "𠷕,龡,䶴-\"to play music\""
+ },
+ "pinyin": [
+  "chuī",
+  "chuì"
+ ],
+ "glyph_origin": "Ideogrammic compound (會意): 口 (“mouth”) + 欠 (“blow”) according to oracle bones and bronzes. An archaic variant of this character is 龡.",
+ "s_page_origin": "",
+ "shuowen": [],
+ "senses": [
+  "[chuī] to blow; to puff",
+  "[chuī] (of wind) to blow",
+  "[chuì] (not used alone) wind instruments; music performed with wind instruments",
+  "[chuì] (literary) wind"
+ ],
+ "sources": [
+  {
+   "title": "Wiktionary: 吹",
+   "url": "https://en.wiktionary.org/wiki/%E5%90%B9",
+   "rev": 93384790
+  }
+ ]
+}

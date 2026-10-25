@@ -1,0 +1,25 @@
+{
+ "id": "忙",
+ "s": "忙",
+ "t": "忙",
+ "forms": {
+  "alt": "芒,茫"
+ },
+ "pinyin": [
+  "máng"
+ ],
+ "glyph_origin": "Phono-semantic compound (形聲): semantic 忄 (= 心) + phonetic 亡. doublet of of 忘.",
+ "s_page_origin": "",
+ "shuowen": [],
+ "senses": [
+  "[máng] busy; bustling",
+  "[máng] to be busy (with something)"
+ ],
+ "sources": [
+  {
+   "title": "Wiktionary: 忙",
+   "url": "https://en.wiktionary.org/wiki/%E5%BF%99",
+   "rev": 92200451
+  }
+ ]
+}

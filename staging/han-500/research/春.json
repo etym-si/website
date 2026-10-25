@@ -1,0 +1,27 @@
+{
+ "id": "春",
+ "s": "春",
+ "t": "春",
+ "forms": {
+  "alt": "萅,旾,㫩,𣇸,…"
+ },
+ "pinyin": [
+  "chūn"
+ ],
+ "glyph_origin": "Phono-semantic compound (形聲): semantic 艸 (“grass”) + phonetic 屯 (“swollen sprout”) + semantic 日 (“sun”). Some oracle-bone and bronze forms contain only two components, either 艸/屮/木 with 屯, or 日 with 屯. The character may relate to a semantic cluster of its phonetic series: 蠢 (“to stir”), 純 (“pure, unmixed”), 敦 (“round”), and 芚 (“to sprout”). The form 萅 preserves the older arrangement with 艸. In the regular script, the 艸 and 屯 have merged into 𡗗.",
+ "s_page_origin": "",
+ "shuowen": [],
+ "senses": [
+  "[chūn] spring season",
+  "[chūn] (literary) year; age",
+  "(Cantonese, Hakka, Teochew) egg; roe",
+  "(Cantonese, vulgar) testicle"
+ ],
+ "sources": [
+  {
+   "title": "Wiktionary: 春",
+   "url": "https://en.wiktionary.org/wiki/%E6%98%A5",
+   "rev": 92711640
+  }
+ ]
+}

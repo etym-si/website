@@ -1,0 +1,28 @@
+{
+ "id": "足",
+ "s": "足",
+ "t": "足",
+ "forms": {
+  "alt": "𠯁,𠯣"
+ },
+ "pinyin": [
+  "zú",
+  "jù"
+ ],
+ "glyph_origin": "Pictogram (象形) of a leg; similar to 疋.",
+ "s_page_origin": "",
+ "shuowen": [],
+ "senses": [
+  "[zú] (anatomy) foot",
+  "[zú] (anatomy) leg (of an animal)",
+  "[jù] (literary) overly; excessively",
+  "[jù] (literary) to replenish; to augment"
+ ],
+ "sources": [
+  {
+   "title": "Wiktionary: 足",
+   "url": "https://en.wiktionary.org/wiki/%E8%B6%B3",
+   "rev": 93378193
+  }
+ ]
+}

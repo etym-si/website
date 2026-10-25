@@ -1,0 +1,25 @@
+{
+ "id": "歌",
+ "s": "歌",
+ "t": "歌",
+ "forms": {
+  "alt": "謌/𬤐,哥,𡃭,𣤑,…"
+ },
+ "pinyin": [
+  "gē"
+ ],
+ "glyph_origin": "Phono-semantic compound (形聲): phonetic 哥 + semantic 欠 (“blow”). Specialized form of 哥 (“to sing”).",
+ "s_page_origin": "",
+ "shuowen": [],
+ "senses": [
+  "[gē] song; tune",
+  "[gē] to sing; to chant"
+ ],
+ "sources": [
+  {
+   "title": "Wiktionary: 歌",
+   "url": "https://en.wiktionary.org/wiki/%E6%AD%8C",
+   "rev": 92200867
+  }
+ ]
+}

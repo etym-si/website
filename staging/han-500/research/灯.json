@@ -1,0 +1,33 @@
+{
+ "id": "灯",
+ "s": "灯",
+ "t": "燈",
+ "forms": {
+  "s": "灯",
+  "alt": "𧺄"
+ },
+ "pinyin": [
+  "dēng",
+  "dēn"
+ ],
+ "glyph_origin": "Phono-semantic compound (形聲): semantic 火 (“candlelight”) + phonetic 登.",
+ "s_page_origin": "Phono-semantic compound (形聲): semantic 火 + phonetic 丁.",
+ "shuowen": [],
+ "senses": [
+  "[dēng] lamp; light; lantern (for illumination)",
+  "[dēng] lamp (for heating)"
+ ],
+ "sources": [
+  {
+   "title": "Wiktionary: 灯",
+   "url": "https://en.wiktionary.org/wiki/%E7%81%AF",
+   "rev": 92724033
+  },
+  {
+   "title": "Wiktionary: 燈",
+   "url": "https://en.wiktionary.org/wiki/%E7%87%88",
+   "rev": 93186072
+  }
+ ],
+ "note": "glyph_origin is from the traditional page 燈; s_page_origin explains the simplified 灯."
+}

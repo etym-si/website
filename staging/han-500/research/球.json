@@ -1,0 +1,25 @@
+{
+ "id": "球",
+ "s": "球",
+ "t": "球",
+ "forms": {
+  "alt": "*毬-ball,𤥲,𽂌-seal script"
+ },
+ "pinyin": [
+  "qiú"
+ ],
+ "glyph_origin": "Phono-semantic compound (形聲): semantic 玉 (“jade”) + phonetic 求.",
+ "s_page_origin": "",
+ "shuowen": [],
+ "senses": [
+  "[qiú] (obsolete in standard Chinese) fine jade",
+  "[qiú] ball; globe; orb"
+ ],
+ "sources": [
+  {
+   "title": "Wiktionary: 球",
+   "url": "https://en.wiktionary.org/wiki/%E7%90%83",
+   "rev": 93770846
+  }
+ ]
+}

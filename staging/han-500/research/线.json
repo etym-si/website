@@ -1,0 +1,34 @@
+{
+ "id": "线",
+ "s": "线",
+ "t": "線",
+ "forms": {
+  "s": "线",
+  "s2": "缐",
+  "t2": "綫",
+  "alt": "綖,𦂷"
+ },
+ "pinyin": [
+  "xiàn"
+ ],
+ "glyph_origin": "Phono-semantic compound (形聲): semantic 糹 (= 糸) + phonetic 泉.",
+ "s_page_origin": "Simplified from 綫 (糹 → 纟 and 戔 → 戋)",
+ "shuowen": [],
+ "senses": [
+  "[xiàn] thread",
+  "[xiàn] thread-like object; wire; line; string; ray"
+ ],
+ "sources": [
+  {
+   "title": "Wiktionary: 线",
+   "url": "https://en.wiktionary.org/wiki/%E7%BA%BF",
+   "rev": 87570429
+  },
+  {
+   "title": "Wiktionary: 線",
+   "url": "https://en.wiktionary.org/wiki/%E7%B7%9A",
+   "rev": 92747985
+  }
+ ],
+ "note": "glyph_origin is from the traditional page 線; s_page_origin explains the simplified 线."
+}

@@ -1,0 +1,33 @@
+{
+ "id": "户",
+ "s": "户",
+ "t": "戶",
+ "forms": {
+  "s": "户",
+  "t2": "户",
+  "alt": "戸"
+ },
+ "pinyin": [
+  "hù"
+ ],
+ "glyph_origin": "Pictogram (象形): one-half of 門 (“gate”). The character in its original form is similar to 𠁣.",
+ "s_page_origin": "",
+ "shuowen": [],
+ "senses": [
+  "[hù] (obsolete in standard Chinese) door",
+  "[hù] (not used alone) family; household"
+ ],
+ "sources": [
+  {
+   "title": "Wiktionary: 户",
+   "url": "https://en.wiktionary.org/wiki/%E6%88%B7",
+   "rev": 92543275
+  },
+  {
+   "title": "Wiktionary: 戶",
+   "url": "https://en.wiktionary.org/wiki/%E6%88%B6",
+   "rev": 91933110
+  }
+ ],
+ "note": "glyph_origin is from the traditional page 戶; s_page_origin explains the simplified 户."
+}

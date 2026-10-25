@@ -1,0 +1,30 @@
+{
+ "id": "思",
+ "s": "思",
+ "t": "思",
+ "forms": {
+  "alt": "恖,𢙦,𠃼,𡴓,…"
+ },
+ "pinyin": [
+  "sī",
+  "sì",
+  "sāi"
+ ],
+ "glyph_origin": "Original form was 恖, considered by Shuowen to be a phono-semantic compound (形聲): phonetic 囟 + semantic 心 (“heart”). It may also be a ideogrammic compound (會意): 囟 (“fontanel”) + 心 (“heart”). 囟 started to corrupt into the unrelated 田 as early as the silk script.",
+ "s_page_origin": "",
+ "shuowen": [
+  "Original form was 恖, considered by Shuowen to be a phono-semantic compound (形聲): phonetic 囟 + semantic 心 (“heart”)."
+ ],
+ "senses": [
+  "[sī] (literary, or in compounds) to think; to cogitate",
+  "[sī] (obsolete) to lament; to grieve for",
+  "[sāi] (obsolete in standard Chinese) alternative form of 䰄 (“heavily bearded”)"
+ ],
+ "sources": [
+  {
+   "title": "Wiktionary: 思",
+   "url": "https://en.wiktionary.org/wiki/%E6%80%9D",
+   "rev": 92220359
+  }
+ ]
+}

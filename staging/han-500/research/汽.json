@@ -1,0 +1,25 @@
+{
+ "id": "汽",
+ "s": "汽",
+ "t": "汽",
+ "forms": {},
+ "pinyin": [
+  "qì",
+  "yǐ"
+ ],
+ "glyph_origin": "Phono-semantic compound (形聲): semantic 氵 (= 水) (“water”) + phonetic 气. Also ideogrammic compound 氵 (water) and 气 (air), representing water in air form.",
+ "s_page_origin": "",
+ "shuowen": [],
+ "senses": [
+  "[qì] gas (matter in an intermediate state between liquid and plasma)",
+  "[qì] steam; water vapor",
+  "[yǐ] (hist-dict)"
+ ],
+ "sources": [
+  {
+   "title": "Wiktionary: 汽",
+   "url": "https://en.wiktionary.org/wiki/%E6%B1%BD",
+   "rev": 92302948
+  }
+ ]
+}

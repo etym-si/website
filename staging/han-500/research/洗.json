@@ -1,0 +1,29 @@
+{
+ "id": "洗",
+ "s": "洗",
+ "t": "洗",
+ "forms": {
+  "alt": "洒"
+ },
+ "pinyin": [
+  "xǐ",
+  "xiǎn"
+ ],
+ "glyph_origin": "Phono-semantic compound (形聲): semantic 水 (“water”) + phonetic 先.",
+ "s_page_origin": "",
+ "shuowen": [],
+ "senses": [
+  "[xǐ] to wash; to rinse",
+  "[xǐ] to clean; to purify",
+  "[xiǎn] (obsolete in standard Chinese) to wash one's feet",
+  "[xiǎn] a surname",
+  "(Cantonese) alternative form of 使 (“to need”)"
+ ],
+ "sources": [
+  {
+   "title": "Wiktionary: 洗",
+   "url": "https://en.wiktionary.org/wiki/%E6%B4%97",
+   "rev": 92307054
+  }
+ ]
+}

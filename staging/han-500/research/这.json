@@ -1,0 +1,36 @@
+{
+ "id": "这",
+ "s": "这",
+ "t": "這",
+ "forms": {
+  "s": "这",
+  "alt": "遮-archaic,者-archaic,只-archaic,拓-archaic,…"
+ },
+ "pinyin": [
+  "zhè",
+  "zhèi",
+  "yàn"
+ ],
+ "glyph_origin": "Phono-semantic compound (形聲): semantic 辶 (= 辵) (“walk”) + phonetic 言. The character was originally a verb meaning “to meet”, whose modern pronunciation is yàn. It was later borrowed for the proximal demonstrative “this/here”, by a confusion in medieval handwriting with 遮 (“this”).",
+ "s_page_origin": "",
+ "shuowen": [],
+ "senses": [
+  "[zhè] this; these",
+  "[zhè] synonym of 這樣",
+  "[yàn] (obsolete) to welcome; to greet; to receive",
+  "(Xiamen, &, Taiwanese Hokkien) alternative form of 遮"
+ ],
+ "sources": [
+  {
+   "title": "Wiktionary: 这",
+   "url": "https://en.wiktionary.org/wiki/%E8%BF%99",
+   "rev": 87570407
+  },
+  {
+   "title": "Wiktionary: 這",
+   "url": "https://en.wiktionary.org/wiki/%E9%80%99",
+   "rev": 92201933
+  }
+ ],
+ "note": "glyph_origin is from the traditional page 這; s_page_origin explains the simplified 这."
+}

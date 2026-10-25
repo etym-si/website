@@ -1,0 +1,33 @@
+{
+ "id": "猪",
+ "s": "猪",
+ "t": "豬",
+ "forms": {
+  "s": "猪",
+  "alt": "䐗,𢑳,𧳯,猪"
+ },
+ "pinyin": [
+  "zhū"
+ ],
+ "glyph_origin": "Phono-semantic compound (形聲): semantic 豕 (“pig”) + phonetic 者.",
+ "s_page_origin": "Phono-semantic compound (形聲): semantic 犭 (= 犬) (“dog”) + phonetic 者.",
+ "shuowen": [],
+ "senses": [
+  "[zhū] pig; hog; swine",
+  "[zhū] Pig; Boar (Chinese zodiac sign)",
+  "(Cantonese) virginity"
+ ],
+ "sources": [
+  {
+   "title": "Wiktionary: 猪",
+   "url": "https://en.wiktionary.org/wiki/%E7%8C%AA",
+   "rev": 92719858
+  },
+  {
+   "title": "Wiktionary: 豬",
+   "url": "https://en.wiktionary.org/wiki/%E8%B1%AC",
+   "rev": 93634977
+  }
+ ],
+ "note": "glyph_origin is from the traditional page 豬; s_page_origin explains the simplified 猪."
+}

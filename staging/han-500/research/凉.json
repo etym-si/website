@@ -1,0 +1,36 @@
+{
+ "id": "凉",
+ "s": "凉",
+ "t": "涼",
+ "forms": {
+  "s": "凉",
+  "t2": "凉",
+  "alt": "鿌"
+ },
+ "pinyin": [
+  "liáng",
+  "liàng"
+ ],
+ "glyph_origin": "Phono-semantic compound (形聲): semantic 氵 (= 水) (“water”) + phonetic 京.",
+ "s_page_origin": "",
+ "shuowen": [],
+ "senses": [
+  "[liáng] cool; cold",
+  "[liáng] discouraged; disheartened",
+  "[liàng] to allow (a hot object) to cool by letting it sit for a while",
+  "[liàng] (obsolete in standard Chinese) to assist"
+ ],
+ "sources": [
+  {
+   "title": "Wiktionary: 凉",
+   "url": "https://en.wiktionary.org/wiki/%E5%87%89",
+   "rev": 93443637
+  },
+  {
+   "title": "Wiktionary: 涼",
+   "url": "https://en.wiktionary.org/wiki/%E6%B6%BC",
+   "rev": 92200941
+  }
+ ],
+ "note": "glyph_origin is from the traditional page 涼; s_page_origin explains the simplified 凉."
+}

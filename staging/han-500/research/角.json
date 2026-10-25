@@ -1,0 +1,31 @@
+{
+ "id": "角",
+ "s": "角",
+ "t": "角",
+ "forms": {
+  "alt": "甪,𧢲"
+ },
+ "pinyin": [
+  "jiǎo",
+  "jué<!--",
+  "jió 老國音 -->",
+  "lù",
+  "gǔ"
+ ],
+ "glyph_origin": "Pictogram (象形) – a horn. A conservative version is 𧢲. Similar but unrelated to 甬, 用, and the bottom part of 備.",
+ "s_page_origin": "",
+ "shuowen": [],
+ "senses": [
+  "[jiǎo] horn; antler",
+  "[jiǎo] point",
+  "[lù] (obsolete in standard Chinese) only used in 角里",
+  "[gǔ] only used in 角角"
+ ],
+ "sources": [
+  {
+   "title": "Wiktionary: 角",
+   "url": "https://en.wiktionary.org/wiki/%E8%A7%92",
+   "rev": 93647839
+  }
+ ]
+}

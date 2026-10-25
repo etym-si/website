@@ -1,0 +1,30 @@
+{
+ "id": "主",
+ "s": "主",
+ "t": "主",
+ "forms": {
+  "alt": "丶,宔"
+ },
+ "pinyin": [
+  "zhǔ",
+  "zhù"
+ ],
+ "glyph_origin": "Pictogram (象形). Three distinct forms can be observed in ancient scripts, all of which have merged into the same character in modern script: • A lamp or torch with a flame at the top. Original form of 炷. • Wood (木, now 王) on fire. • A spirit tablet. Same character as 示. Unrelated to the right component of 往 (< 𢓸).",
+ "s_page_origin": "",
+ "shuowen": [],
+ "senses": [
+  "A lamp or torch with a flame at the top. Original form of 炷.",
+  "Wood (木, now 王) on fire.",
+  "[zhǔ] owner; master",
+  "[zhǔ] host",
+  "[zhù] classifier for events",
+  "[zhù] alternative form of 注 (“to pour into”)"
+ ],
+ "sources": [
+  {
+   "title": "Wiktionary: 主",
+   "url": "https://en.wiktionary.org/wiki/%E4%B8%BB",
+   "rev": 93643025
+  }
+ ]
+}

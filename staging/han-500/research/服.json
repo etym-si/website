@@ -1,0 +1,26 @@
+{
+ "id": "服",
+ "s": "服",
+ "t": "服",
+ "forms": {
+  "alt": "𦨈,𠬝,𣍞,𦨕,…"
+ },
+ "pinyin": [
+  "fú",
+  "fù"
+ ],
+ "glyph_origin": "Phono-semantic compound (形聲): semantic 凡 (“tray”) + phonetic 𠬝 (“to subdue”) – to serve. 𠬝 is the original pictogram for this character; 凡 was added later. 凡 here has been corrupted into 舟 and subsequently 月.",
+ "s_page_origin": "",
+ "shuowen": [],
+ "senses": [
+  "[fú] (not used alone) clothes; garment; dress",
+  "[fú] mourning dress; mourning apparel"
+ ],
+ "sources": [
+  {
+   "title": "Wiktionary: 服",
+   "url": "https://en.wiktionary.org/wiki/%E6%9C%8D",
+   "rev": 92759445
+  }
+ ]
+}

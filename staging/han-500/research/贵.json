@@ -1,0 +1,32 @@
+{
+ "id": "贵",
+ "s": "贵",
+ "t": "貴",
+ "forms": {
+  "s": "贵",
+  "alt": "䝿,𧷈,𧸋,𡭙"
+ },
+ "pinyin": [
+  "guì"
+ ],
+ "glyph_origin": "Simplified from 䝿 (臾 → 𠀐). Phono-semantic compound (形聲): phonetic 臾 + semantic 貝 (“money cowrie”).",
+ "s_page_origin": "Simplified from 貴 (貝 → 贝).",
+ "shuowen": [],
+ "senses": [
+  "[guì] expensive; costly",
+  "[guì] precious; valuable"
+ ],
+ "sources": [
+  {
+   "title": "Wiktionary: 贵",
+   "url": "https://en.wiktionary.org/wiki/%E8%B4%B5",
+   "rev": 87570650
+  },
+  {
+   "title": "Wiktionary: 貴",
+   "url": "https://en.wiktionary.org/wiki/%E8%B2%B4",
+   "rev": 93767932
+  }
+ ],
+ "note": "glyph_origin is from the traditional page 貴; s_page_origin explains the simplified 贵."
+}

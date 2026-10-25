@@ -1,0 +1,25 @@
+{
+ "id": "首",
+ "s": "首",
+ "t": "首",
+ "forms": {
+  "alt": "𩠐,𦣻"
+ },
+ "pinyin": [
+  "shǒu"
+ ],
+ "glyph_origin": "Simplified from 𩠐 (巛 → 丷). Originally pictogram (象形) of the head of an animal with a long mouth and horns. In the oracle bone script, it appeared with or without hair (巛), but 𩠐, the form with hair, was the form that was perpetuated.",
+ "s_page_origin": "",
+ "shuowen": [],
+ "senses": [
+  "[shǒu] (archaic, anatomy) head",
+  "[shǒu] chief; leader"
+ ],
+ "sources": [
+  {
+   "title": "Wiktionary: 首",
+   "url": "https://en.wiktionary.org/wiki/%E9%A6%96",
+   "rev": 93606022
+  }
+ ]
+}

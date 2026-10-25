@@ -1,0 +1,25 @@
+{
+ "id": "河",
+ "s": "河",
+ "t": "河",
+ "forms": {
+  "alt": "𢀎"
+ },
+ "pinyin": [
+  "hé"
+ ],
+ "glyph_origin": "Oracle bone script: • Shi group (thick strokes): Phono-semantic compound (形聲): semantic 水 (“water”) + phonetic 何. • Variant: Phono-semantic compound (形聲): semantic 水 + phonetic 可 (phonetic drawn wavy like water; possibly original form of 歌, representing wavy sound). • Corruption: Confused with 何 (水 corrupted to 人; 可 corrupted to a shoulder burden, possibly original form of 柯. • He group: Phono-semantic compound (形聲): 水 + 何. • Huang group: Compound of 欠 / 旡, a shoulder burden, and 水. • Western Zhou bronze: Inherits Huang group structure; adds 口. • Possibly related to 何 (to bear).",
+ "s_page_origin": "",
+ "shuowen": [],
+ "senses": [
+  "[hé] (by extension) river, especially a smaller river. See usage note.",
+  "[hé] (obsolete) streamside; riverside"
+ ],
+ "sources": [
+  {
+   "title": "Wiktionary: 河",
+   "url": "https://en.wiktionary.org/wiki/%E6%B2%B3",
+   "rev": 92774699
+  }
+ ]
+}

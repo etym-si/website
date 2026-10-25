@@ -1,0 +1,34 @@
+{
+ "id": "们",
+ "s": "们",
+ "t": "們",
+ "forms": {
+  "s": "们"
+ },
+ "pinyin": [
+  "men",
+  "mén",
+  "mèn"
+ ],
+ "glyph_origin": "Phono-semantic compound (形聲): semantic 亻 (= 人) (“person”) + phonetic 門.",
+ "s_page_origin": "Simplified from 們 (門 → 门).",
+ "shuowen": [],
+ "senses": [
+  "[men] Suffix indicating plural for pronouns, some animated nouns and personifications.",
+  "[men] Suffix attached to the name of the representative of a group to refer to that whole group.",
+  "[mèn] only used in 們渾"
+ ],
+ "sources": [
+  {
+   "title": "Wiktionary: 们",
+   "url": "https://en.wiktionary.org/wiki/%E4%BB%AC",
+   "rev": 87570749
+  },
+  {
+   "title": "Wiktionary: 們",
+   "url": "https://en.wiktionary.org/wiki/%E5%80%91",
+   "rev": 84381747
+  }
+ ],
+ "note": "glyph_origin is from the traditional page 們; s_page_origin explains the simplified 们."
+}

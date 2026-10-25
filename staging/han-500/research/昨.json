@@ -1,0 +1,24 @@
+{
+ "id": "昨",
+ "s": "昨",
+ "t": "昨",
+ "forms": {},
+ "pinyin": [
+  "zuó"
+ ],
+ "glyph_origin": "Phono-semantic compound (形聲): semantic 日 (“sun”) + phonetic 乍. However, the phonetic component could add part of the meaning since it was borrowed phonetically to mean \"at first\".",
+ "s_page_origin": "",
+ "shuowen": [],
+ "senses": [
+  "[zuó] (not used alone) yesterday",
+  "[zuó] (not used alone) in former times; past",
+  "(Taiwanese Hokkien) contraction of 昨昏"
+ ],
+ "sources": [
+  {
+   "title": "Wiktionary: 昨",
+   "url": "https://en.wiktionary.org/wiki/%E6%98%A8",
+   "rev": 88221463
+  }
+ ]
+}

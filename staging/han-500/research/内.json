@@ -1,0 +1,33 @@
+{
+ "id": "内",
+ "s": "内",
+ "t": "內",
+ "forms": {
+  "s": "内"
+ },
+ "pinyin": [
+  "nèi",
+  "nà"
+ ],
+ "glyph_origin": "Ideogrammic compound (會意): 冂 (“city outskirts”) + 入 (“to enter”) – entering the city through its outskirts - inside, within.",
+ "s_page_origin": "Simplified from 內. Ideogrammic compound (會意): semantic 入 (“to enter”) + semantic 冂 (“house”). It originally conveyed the meaning of \"to bring into the house,\" and by extension, came to mean \"inside\" or \"within.\"",
+ "shuowen": [],
+ "senses": [
+  "[nèi] inside; interior; internal; inner",
+  "[nèi] (obsolete) room; inner room",
+  "[nà] (obsolete in standard Chinese) to enter"
+ ],
+ "sources": [
+  {
+   "title": "Wiktionary: 内",
+   "url": "https://en.wiktionary.org/wiki/%E5%86%85",
+   "rev": 93601853
+  },
+  {
+   "title": "Wiktionary: 內",
+   "url": "https://en.wiktionary.org/wiki/%E5%85%A7",
+   "rev": 92694759
+  }
+ ],
+ "note": "glyph_origin is from the traditional page 內; s_page_origin explains the simplified 内."
+}

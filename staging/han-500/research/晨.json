@@ -1,0 +1,25 @@
+{
+ "id": "晨",
+ "s": "晨",
+ "t": "晨",
+ "forms": {
+  "alt": "䢅,辰,曟,㫳,…"
+ },
+ "pinyin": [
+  "chén"
+ ],
+ "glyph_origin": "Phono-semantic compound (形聲) and ideogrammic compound (會意): semantic 日 (“sun”) + phonetic 辰 (“time”). Originally written as 辰 alone; 辰 now refers primarily to one of the twelve earthly branches.",
+ "s_page_origin": "",
+ "shuowen": [],
+ "senses": [
+  "[chén] dawn; morning; daybreak",
+  "[chén] (obsolete in standard Chinese, of chicken) to herald the break of day"
+ ],
+ "sources": [
+  {
+   "title": "Wiktionary: 晨",
+   "url": "https://en.wiktionary.org/wiki/%E6%99%A8",
+   "rev": 89687406
+  }
+ ]
+}

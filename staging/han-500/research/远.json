@@ -1,0 +1,34 @@
+{
+ "id": "远",
+ "s": "远",
+ "t": "遠",
+ "forms": {
+  "s": "远",
+  "alt": "逺"
+ },
+ "pinyin": [
+  "yuǎn"
+ ],
+ "glyph_origin": "Phono-semantic compound (形聲): semantic 辵 (“walk”) + phonetic 袁.",
+ "s_page_origin": "Phono-semantic compound (形聲): semantic 辶 (= 辵) (“walk”) + phonetic 元. Unorthodox variant simplified from 遠 (袁 → 元) found in various moveable type copies of classical novels. First attested in 《宋元以來俗字譜》, a variant forms dictionary compiled in 1930 that records unorthodox forms (俗字) that have existed since the Song dynasty. Eventually adopted as an official simplified character by the People's Republic of China in the 1956 Chinese Character Simplification Scheme. / Found in the historical Chinese dictionary Longkan Shoujian 《龍龕手鑑》 compiled in 997 AD.",
+ "shuowen": [],
+ "senses": [
+  "[yuǎn] distant; remote; far",
+  "[yuǎn] not intimate; distant",
+  "to distance oneself from; to keep at a distance",
+  "a surname"
+ ],
+ "sources": [
+  {
+   "title": "Wiktionary: 远",
+   "url": "https://en.wiktionary.org/wiki/%E8%BF%9C",
+   "rev": 83873435
+  },
+  {
+   "title": "Wiktionary: 遠",
+   "url": "https://en.wiktionary.org/wiki/%E9%81%A0",
+   "rev": 92736662
+  }
+ ],
+ "note": "glyph_origin is from the traditional page 遠; s_page_origin explains the simplified 远."
+}

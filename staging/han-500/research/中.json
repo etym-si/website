@@ -1,0 +1,30 @@
+{
+ "id": "中",
+ "s": "中",
+ "t": "中",
+ "forms": {
+  "alt": "𠁦,𠁧,𠁩,𠔈,…"
+ },
+ "pinyin": [
+  "zhōng",
+  "zhòng"
+ ],
+ "glyph_origin": "Pictogram (象形) – a flagpole, as depicted in its original form 𠁩. Based on archaeological evidence, the middle box has been interpreted as a drum (建鼓). This flagpole with a drum was placed in the center of a field to gather people and to detect the direction of the wind. In addition, the pronunciation of 中 is reminiscent of the beating of a drum. Shuowen interprets the character as a vertical stroke 丨 passing through the center of 口, indicating the center. It has also been interpreted as an arrow in the center of a target.",
+ "s_page_origin": "",
+ "shuowen": [
+  "Shuowen interprets the character as a vertical stroke 丨 passing through the center of 口, indicating the center."
+ ],
+ "senses": [
+  "[zhōng] middle; center",
+  "[zhōng] medium; intermediary",
+  "[zhòng] to hit the mark; to be correct; to be successful",
+  "[zhòng] to be hit by; to suffer; to be affected by"
+ ],
+ "sources": [
+  {
+   "title": "Wiktionary: 中",
+   "url": "https://en.wiktionary.org/wiki/%E4%B8%AD",
+   "rev": 93381443
+  }
+ ]
+}
