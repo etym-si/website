@@ -1,0 +1,21 @@
+id: 昨
+text: { Hans: 昨, Hant: 昨 }
+readings: { pinyin: zuó }
+meaning: { en: yesterday, zh-Hans: 昨天, zh-Hant: 昨天 }
+fact:
+  en: 昨 has the sun 日 for the meaning and 乍 for the sound. Some think 乍 adds a little meaning too, since it was borrowed to mean “at first”.
+  zh-Hans: “昨”左边的“日”表示意思，右边的“乍”表示读音。有人认为“乍”也带来了一点意思，因为它曾被借来表示“起初”。
+  zh-Hant: 「昨」左邊的「日」表示意思，右邊的「乍」表示讀音。有人認為「乍」也帶來了一點意思，因為它曾被借來表示「起初」。
+story:
+  topic: { en: What Happened Yesterday?, zh-Hans: 昨天发生了什么？, zh-Hant: 昨天發生了什麼？ }
+  hook: { en: Guess what happened yesterday? A little bird built a nest right outside our classroom window!, zh-Hans: 你猜昨天发生了什么？一只小鸟在我们教室的窗外筑了个巢！, zh-Hant: 你猜昨天發生了什麼？一隻小鳥在我們教室的窗外築了個巢！ }
+  closer: { en: "Today is 今天, and the day before is 昨天: that's 昨, yesterday!", zh-Hans: 今天的前一天，就是昨天的“昨”！, zh-Hant: 今天的前一天，就是昨天的「昨」！ }
+journey: default
+origin:
+  type: phono-semantic
+  parts:
+    - { char: 日, role: meaning, gloss: { en: sun, zh-Hans: 太阳, zh-Hant: 太陽 } }
+    - { char: 乍, role: sound }
+status: draft
+sources:
+  - { title: 'Wiktionary: 昨', url: 'https://en.wiktionary.org/wiki/%E6%98%A8' }

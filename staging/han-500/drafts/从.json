@@ -1,0 +1,90 @@
+{
+  "id": "从",
+  "text": {
+    "Hans": "从",
+    "Hant": "從"
+  },
+  "readings": {
+    "pinyin": "cóng"
+  },
+  "meaning": {
+    "en": "to follow; from",
+    "zh-Hans": "从前",
+    "zh-Hant": "從前"
+  },
+  "fact": {
+    "en": "从 is two people 人 walking in the same direction, one following the other. That's the meaning: to follow!",
+    "zh-Hans": "“从”是两个“人”朝同一个方向走，一个跟着另一个。它的意思就是跟从！",
+    "zh-Hant": "「從」最早寫作「从」，是兩個「人」朝同一個方向走，一個跟著另一個。它的意思就是跟從！"
+  },
+  "story": {
+    "topic": {
+      "en": "Follow the Yellow Flag",
+      "zh-Hans": "跟着小黄旗走",
+      "zh-Hant": "跟著小黃旗走"
+    },
+    "hook": {
+      "en": "In the crowded old town, the guide holds up a little yellow flag, and Mei's whole family follows her in a long, wiggly line.",
+      "zh-Hans": "在热闹的老街上，导游举起一面小黄旗，小美一家排成弯弯曲曲的长队，跟在她后面走。",
+      "zh-Hant": "在熱鬧的老街上，導遊舉起一面小黃旗，小美一家排成彎彎曲曲的長隊，跟在她後面走。"
+    },
+    "turn": {
+      "en": "Later, 辵 (walking) was added, with 从 as the sound part, making 從. Simplified Chinese writes the old 从 again!",
+      "zh-Hans": "后来，人们加上表示走路的“辵”，让“从”表示读音，写成了“從”。简体字又用回了古老的“从”！",
+      "zh-Hant": "後來，人們加上表示走路的「辵」，讓「从」表示讀音，寫成了「從」。簡體字又用回了古老的「从」！"
+    },
+    "closer": {
+      "en": "One person walks, another follows: that's 从 (從), to follow!",
+      "zh-Hans": "一个人在前面走，一个人在后面跟——这就是“从”！",
+      "zh-Hant": "一個人在前面走，一個人在後面跟——這就是「從」！"
+    }
+  },
+  "journey": [
+    {
+      "stage": "oracle",
+      "form": "从"
+    },
+    {
+      "stage": "bronze",
+      "form": "從"
+    },
+    {
+      "stage": "seal",
+      "form": "從"
+    }
+  ],
+  "origin": {
+    "type": "compound-ideogram",
+    "parts": [
+      {
+        "char": "人",
+        "role": "meaning",
+        "gloss": {
+          "en": "person",
+          "zh-Hans": "人",
+          "zh-Hant": "人"
+        }
+      },
+      {
+        "char": "人",
+        "role": "meaning",
+        "gloss": {
+          "en": "another person",
+          "zh-Hans": "另一个人",
+          "zh-Hant": "另一個人"
+        }
+      }
+    ]
+  },
+  "status": "draft",
+  "sources": [
+    {
+      "title": "Wiktionary: 从",
+      "url": "https://en.wiktionary.org/wiki/%E4%BB%8E"
+    },
+    {
+      "title": "Wiktionary: 從",
+      "url": "https://en.wiktionary.org/wiki/%E5%BE%9E"
+    }
+  ]
+}

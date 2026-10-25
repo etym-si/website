@@ -1,0 +1,73 @@
+{
+  "id": "吹",
+  "text": {
+    "Hans": "吹",
+    "Hant": "吹"
+  },
+  "readings": {
+    "pinyin": "chuī"
+  },
+  "meaning": {
+    "en": "to blow",
+    "zh-Hans": "吹气",
+    "zh-Hant": "吹氣"
+  },
+  "fact": {
+    "en": "吹 is made of 口, a mouth, and 欠, “to blow”. Put them together and you blow!",
+    "zh-Hans": "“吹”由“口”（嘴巴）和“欠”（吹气）组成，合在一起就是吹！",
+    "zh-Hant": "「吹」由「口」（嘴巴）和「欠」（吹氣）組成，合在一起就是吹！"
+  },
+  "story": {
+    "topic": {
+      "en": "The Dandelion Puff",
+      "zh-Hans": "吹蒲公英",
+      "zh-Hant": "吹蒲公英"
+    },
+    "hook": {
+      "en": "One big breath… and Sophie blows a fluffy dandelion into a hundred tiny parachutes!",
+      "zh-Hans": "深吸一口气……索菲对着毛茸茸的蒲公英一吹，上百把小降落伞飘走了！",
+      "zh-Hant": "深吸一口氣……索菲對著毛茸茸的蒲公英一吹，上百把小降落傘飄走了！"
+    },
+    "early": {
+      "en": "Even on oracle bones and bronze vessels, 吹 was already made of these same two parts.",
+      "zh-Hans": "早在甲骨文和金文里，“吹”就已经是由这两个部分组成的了。",
+      "zh-Hant": "早在甲骨文和金文裡，「吹」就已經是由這兩個部分組成的了。"
+    },
+    "closer": {
+      "en": "A mouth 口 plus 欠 for blowing: that's 吹, to blow!",
+      "zh-Hans": "“口”加上“欠”，就是吹蒲公英的“吹”！",
+      "zh-Hant": "「口」加上「欠」，就是吹蒲公英的「吹」！"
+    }
+  },
+  "journey": "default",
+  "origin": {
+    "type": "compound-ideogram",
+    "parts": [
+      {
+        "char": "口",
+        "role": "meaning",
+        "gloss": {
+          "en": "mouth",
+          "zh-Hans": "嘴巴",
+          "zh-Hant": "嘴巴"
+        }
+      },
+      {
+        "char": "欠",
+        "role": "meaning",
+        "gloss": {
+          "en": "to blow",
+          "zh-Hans": "吹气",
+          "zh-Hant": "吹氣"
+        }
+      }
+    ]
+  },
+  "status": "draft",
+  "sources": [
+    {
+      "title": "Wiktionary: 吹",
+      "url": "https://en.wiktionary.org/wiki/%E5%90%B9"
+    }
+  ]
+}

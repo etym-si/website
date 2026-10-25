@@ -1,0 +1,23 @@
+id: 视
+text: { Hans: 视, Hant: 視 }
+readings: { pinyin: shì }
+meaning: { en: 'to look at, to watch', zh-Hans: 电视, zh-Hant: 電視 }
+fact:
+  en: 视 (視) has 示 on the left (written 礻) for the sound and 见 (見), “to see”, on the right for the meaning.
+  zh-Hans: “视”左边的“礻”就是“示”，表示读音；右边的“见”表示意思：看见。
+  zh-Hant: 「視」左邊的「礻」就是「示」，表示讀音；右邊的「見」表示意思：看見。
+story:
+  topic: { en: Ships in the Harbor, zh-Hans: 看大船出港, zh-Hant: 看大船出港 }
+  hook: { en: 'Toot! From the harbor wall, Leo watches a giant ship piled with colorful boxes glide out to sea.', zh-Hans: 嘟——！乐乐站在港口边，看着一艘装满彩色集装箱的大船慢慢开向大海。, zh-Hant: 嘟——！樂樂站在港口邊，看著一艘裝滿彩色貨櫃的大船慢慢開向大海。 }
+  turn: { en: Simplified 视 keeps the same parts and just writes 見 as 见., zh-Hans: 简体字“视”保留了原来的部件，只是把“見”写成了“见”。, zh-Hant: 簡體字「视」保留了原來的部件，只是把「見」寫成了「见」。 }
+  closer: { en: "示 for the sound, 见 for seeing: that's 视 (視), as in 电视, TV!", zh-Hans: “示”管读音，“见”管意思——这就是电视的“视”！, zh-Hant: 「示」管讀音，「見」管意思——這就是電視的「視」！ }
+journey: default
+origin:
+  type: phono-semantic
+  parts:
+    - { char: 見, role: meaning, gloss: { en: to see, zh-Hans: 看见, zh-Hant: 看見 } }
+    - { char: 示, role: sound }
+status: draft
+sources:
+  - { title: 'Wiktionary: 视', url: 'https://en.wiktionary.org/wiki/%E8%A7%86' }
+  - { title: 'Wiktionary: 視', url: 'https://en.wiktionary.org/wiki/%E8%A6%96' }

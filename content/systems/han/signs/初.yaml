@@ -1,0 +1,21 @@
+id: 初
+text: { Hans: 初, Hant: 初 }
+readings: { pinyin: chū }
+meaning: { en: 'beginning, first', zh-Hans: 最初, zh-Hant: 最初 }
+fact:
+  en: '初 is clothes 衤 and a knife 刀: the very first step in making clothes is cutting the cloth!'
+  zh-Hans: “初”由“衤”（衣服）和“刀”组成：做衣服的第一步，就是把布裁开！
+  zh-Hant: 「初」由「衤」（衣服）和「刀」組成：做衣服的第一步，就是把布裁開！
+story:
+  topic: { en: The First Cut, zh-Hans: 裁下第一刀, zh-Hant: 裁下第一刀 }
+  hook: { en: "Auntie Lan spreads out the blue fabric and makes the very first cut: Mimi's new dress has begun!", zh-Hans: 兰阿姨铺开蓝色的布，裁下了第一刀：米米的新裙子开始做啦！, zh-Hant: 蘭阿姨鋪開藍色的布，裁下了第一刀：米米的新裙子開始做囉！ }
+  closer: { en: "Every new outfit begins with a cut: that's 初, the beginning!", zh-Hans: 每件新衣服，都从裁下第一刀开始——这就是最初的“初”！, zh-Hant: 每件新衣服，都從裁下第一刀開始——這就是最初的「初」！ }
+journey: default
+origin:
+  type: compound-ideogram
+  parts:
+    - { char: 衤, role: meaning, gloss: { en: clothes, zh-Hans: 衣服, zh-Hant: 衣服 } }
+    - { char: 刀, role: meaning, gloss: { en: 'knife, to cut', zh-Hans: 刀、切割, zh-Hant: 刀、切割 } }
+status: draft
+sources:
+  - { title: 'Wiktionary: 初', url: 'https://en.wiktionary.org/wiki/%E5%88%9D' }

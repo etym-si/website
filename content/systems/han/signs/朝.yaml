@@ -1,0 +1,23 @@
+id: 朝
+text: { Hans: 朝, Hant: 朝 }
+readings: { pinyin: zhāo }
+meaning: { en: morning, zh-Hans: 朝阳, zh-Hant: 朝陽 }
+fact:
+  en: 'On oracle bones, 朝 showed the sun 日 rising among plants 屮 while the moon 月 was still in the sky: morning!'
+  zh-Hans: 在甲骨文里，“朝”画的是太阳“日”从草木“屮”中升起，月亮“月”还挂在天上——早晨到了！
+  zh-Hant: 在甲骨文裡，「朝」畫的是太陽「日」從草木「屮」中升起，月亮「月」還掛在天上——早晨到了！
+story:
+  topic: { en: Morning Glories Wake Up, zh-Hans: 朝阳里的牵牛花, zh-Hant: 朝陽裡的牽牛花 }
+  hook: { en: 'As the morning sun rises over the fence, the purple morning glories open one by one.', zh-Hans: 朝阳升到篱笆上头，紫色的牵牛花一朵接一朵地开了。, zh-Hant: 朝陽升到籬笆上頭，紫色的牽牛花一朵接一朵地開了。 }
+  turn: { en: "In bronze writing, a river took the moon's place; that form may have been the first way to write 潮, the tide.", zh-Hans: 到了金文，一条河取代了月亮的位置；这种写法可能是“潮”（潮水）最早的样子。, zh-Hant: 到了金文，一條河取代了月亮的位置；這種寫法可能是「潮」（潮水）最早的樣子。 }
+  closer: { en: "The sun climbing up while the moon lingers: that's 朝, morning, as in 朝阳, the morning sun!", zh-Hans: 太阳升起来，月亮还没走——这就是朝阳的“朝”！, zh-Hant: 太陽升起來，月亮還沒走——這就是朝陽的「朝」！ }
+journey: default
+origin:
+  type: compound-ideogram
+  parts:
+    - { char: 屮, role: meaning, gloss: { en: grass, zh-Hans: 草, zh-Hant: 草 } }
+    - { char: 日, role: meaning, gloss: { en: sun, zh-Hans: 太阳, zh-Hant: 太陽 } }
+    - { char: 月, role: meaning, gloss: { en: moon, zh-Hans: 月亮, zh-Hant: 月亮 } }
+status: draft
+sources:
+  - { title: 'Wiktionary: 朝', url: 'https://en.wiktionary.org/wiki/%E6%9C%9D' }

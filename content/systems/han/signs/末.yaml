@@ -1,0 +1,18 @@
+id: 末
+text: { Hans: 末, Hant: 末 }
+readings: { pinyin: mò }
+meaning: { en: 'tip, end', zh-Hans: 周末, zh-Hant: 週末 }
+fact:
+  en: 末 is a tree 木 with an extra stroke at the very top, pointing to the tip of the tree.
+  zh-Hans: “末”是在“木”的最上面加了一笔，指出树梢的位置。
+  zh-Hant: 「末」是在「木」的最上面加了一筆，指出樹梢的位置。
+story:
+  topic: { en: The Squirrel at the Treetop, zh-Hans: 树梢上的松鼠, zh-Hant: 樹梢上的松鼠 }
+  hook: { en: "Up, up, up goes the squirrel, until it's swaying in the wind at the very tip of the tree.", zh-Hans: 松鼠往上爬呀爬，一直爬到树梢最尖上，在风里晃来晃去。, zh-Hant: 松鼠往上爬呀爬，一直爬到樹梢最尖上，在風裡晃來晃去。 }
+  closer: { en: '本 marks the roots, and 末 marks the top: the tip, the very end!', zh-Hans: “本”标出树根，“末”标出树梢——这就是末尾的“末”！, zh-Hant: 「本」標出樹根，「末」標出樹梢——這就是末尾的「末」！ }
+journey: default
+origin:
+  type: ideogram
+status: draft
+sources:
+  - { title: 'Wiktionary: 末', url: 'https://en.wiktionary.org/wiki/%E6%9C%AB' }

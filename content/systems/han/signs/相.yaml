@@ -1,0 +1,18 @@
+id: 相
+text: { Hans: 相, Hant: 相 }
+readings: { pinyin: xiāng }
+meaning: { en: each other, zh-Hans: 互相, zh-Hant: 互相 }
+fact:
+  en: 相 is an eye 目 looking at a tree 木, and it first meant “to observe”. Later it was borrowed for its sound to mean “each other”.
+  zh-Hans: “相”是一只“目”（眼睛）看着一棵“木”（树），本来的意思是“观察”。后来人们借用它的读音，表示“互相”。
+  zh-Hant: 「相」是一隻「目」（眼睛）看著一棵「木」（樹），本來的意思是「觀察」。後來人們借用它的讀音，表示「互相」。
+story:
+  topic: { en: Teaching Each Other, zh-Hans: 互相学本领, zh-Hant: 互相學本領 }
+  hook: { en: 'Nora teaches Owen to whistle, and Owen teaches Nora to snap her fingers: they learn from each other!', zh-Hans: 诺拉教欧文吹口哨，欧文教诺拉打响指——他们互相学习，一起进步！, zh-Hant: 諾拉教歐文吹口哨，歐文教諾拉彈手指——他們互相學習，一起進步！ }
+  closer: { en: 'An eye on a tree once meant “to observe”; borrowed for its sound, 相 now means each other!', zh-Hans: “目”看“木”，本来是观察；借来读音以后，“相”就成了互相的“相”！, zh-Hant: 「目」看「木」，本來是觀察；借來讀音以後，「相」就成了互相的「相」！ }
+journey: []
+origin:
+  type: loan
+status: draft
+sources:
+  - { title: 'Wiktionary: 相', url: 'https://en.wiktionary.org/wiki/%E7%9B%B8' }

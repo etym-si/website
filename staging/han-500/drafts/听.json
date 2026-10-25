@@ -1,0 +1,42 @@
+{
+  "id": "听",
+  "text": { "Hans": "听", "Hant": "聽" },
+  "readings": { "pinyin": "tīng" },
+  "meaning": { "en": "to listen, to hear", "zh-Hans": "好听", "zh-Hant": "好聽" },
+  "fact": {
+    "en": "The first 聽 was an ear 耳 together with mouths 口: to listen.",
+    "zh-Hans": "最早的“聽”是一只“耳”，再加上“口”，表示听。",
+    "zh-Hant": "最早的「聽」是一隻「耳」，再加上「口」，表示聽。"
+  },
+  "story": {
+    "topic": { "en": "The Seashell Secret", "zh-Hans": "海螺里的声音", "zh-Hant": "海螺裡的聲音" },
+    "hook": {
+      "en": "Listen closely! Ava holds a seashell to her ear and hears a soft whoosh, like faraway waves.",
+      "zh-Hans": "仔细听！艾娃把海螺贴在耳边，听见了轻轻的呼呼声，好像远处的海浪。",
+      "zh-Hant": "仔細聽！艾娃把海螺貼在耳邊，聽見了輕輕的呼呼聲，好像遠處的海浪。"
+    },
+    "turn": {
+      "en": "Later 聽 was rewritten with a sound part and grew complicated. Simplified 听 comes from a totally different character, 口 + 斤, that once meant “smiling”!",
+      "zh-Hans": "后来“聽”加上了表示读音的部分，变得很复杂。简体字“听”却来自一个完全不同的字，由“口”和“斤”组成，原来的意思是“微笑”！",
+      "zh-Hant": "後來「聽」加上了表示讀音的部分，變得很複雜。簡體字「听」卻來自一個完全不同的字，由「口」和「斤」組成，原來的意思是「微笑」！"
+    },
+    "closer": {
+      "en": "An ear 耳 hides in 聽, and a mouth 口 in 听, but both mean to listen!",
+      "zh-Hans": "“聽”里藏着“耳”，“听”里藏着“口”，它们都是听的意思！",
+      "zh-Hant": "「聽」裡藏著「耳」，「听」裡藏著「口」，它們都是聽的意思！"
+    }
+  },
+  "journey": "default",
+  "origin": {
+    "type": "compound-ideogram",
+    "parts": [
+      { "char": "耳", "role": "meaning", "gloss": { "en": "ear", "zh-Hans": "耳朵", "zh-Hant": "耳朵" } },
+      { "char": "口", "role": "meaning", "gloss": { "en": "mouth", "zh-Hans": "嘴巴", "zh-Hant": "嘴巴" } }
+    ]
+  },
+  "status": "draft",
+  "sources": [
+    { "title": "Wiktionary: 听", "url": "https://en.wiktionary.org/wiki/%E5%90%AC" },
+    { "title": "Wiktionary: 聽", "url": "https://en.wiktionary.org/wiki/%E8%81%BD" }
+  ]
+}

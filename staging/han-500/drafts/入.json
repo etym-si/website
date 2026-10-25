@@ -1,0 +1,48 @@
+{
+  "id": "入",
+  "text": {
+    "Hans": "入",
+    "Hant": "入"
+  },
+  "readings": {
+    "pinyin": "rù"
+  },
+  "meaning": {
+    "en": "to enter, to go in",
+    "zh-Hans": "入口",
+    "zh-Hant": "入口"
+  },
+  "fact": {
+    "en": "入 began as an arrowhead, a sign for “going in”. Don't mix it up with 人 (person)!",
+    "zh-Hans": "“入”最早是一个箭头的样子，表示“进去”。可别把它和“人”弄混了！",
+    "zh-Hant": "「入」最早是一個箭頭的樣子，表示「進去」。可別把它和「人」弄混了！"
+  },
+  "story": {
+    "topic": {
+      "en": "Ants Marching Home",
+      "zh-Hans": "蚂蚁回家",
+      "zh-Hant": "螞蟻回家"
+    },
+    "hook": {
+      "en": "Left, right, left! A long line of ants marches one by one into their tiny anthill.",
+      "zh-Hans": "一二一！一长队小蚂蚁排着队，一只接一只钻进了小小的蚁窝。",
+      "zh-Hant": "一二一！一長隊小螞蟻排著隊，一隻接一隻鑽進了小小的蟻窩。"
+    },
+    "closer": {
+      "en": "Follow the arrowhead and in you go: that's 入, to enter!",
+      "zh-Hans": "跟着箭头往里走——这就是进入的“入”！",
+      "zh-Hant": "跟著箭頭往裡走——這就是進入的「入」！"
+    }
+  },
+  "journey": "default",
+  "origin": {
+    "type": "ideogram"
+  },
+  "status": "draft",
+  "sources": [
+    {
+      "title": "Wiktionary: 入",
+      "url": "https://en.wiktionary.org/wiki/%E5%85%A5"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+id: 文
+text: { Hans: 文, Hant: 文 }
+readings: { pinyin: wén }
+meaning: { en: 'writing, language', zh-Hans: 中文, zh-Hant: 中文 }
+fact:
+  en: 文 began as a person with a pattern on the chest, and it was the original way to write 纹 (pattern). Today 文 means writing and language, as in 中文.
+  zh-Hans: “文”最早画的是一个胸前有花纹的人，它是“纹”（花纹）最早的写法。现在“文”表示文字和语言，比如“中文”。
+  zh-Hant: 「文」最早畫的是一個胸前有花紋的人，它是「紋」（花紋）最早的寫法。現在「文」表示文字和語言，比如「中文」。
+story:
+  topic: { en: A Star Painted on the Chest, zh-Hans: 胸口上的星星, zh-Hant: 胸口上的星星 }
+  hook: { en: "At the summer fair, Tom gets a blue star painted right on his chest, and he can't stop grinning.", zh-Hans: 在夏日集市上，小汤的胸口被画上了一颗蓝色的星星，他笑得合不拢嘴。, zh-Hant: 在夏日市集上，小湯的胸口被畫上了一顆藍色的星星，他笑得合不攏嘴。 }
+  early: { en: 'The pattern on the old 文 was painted or tattooed on the chest, often a cross, a V or a little heart.', zh-Hans: 古时候“文”胸前的花纹是画上去或刺上去的，常常是一个叉、一个V字，或者一颗小小的心。, zh-Hant: 古時候「文」胸前的花紋是畫上去或刺上去的，常常是一個叉、一個V字，或者一顆小小的心。 }
+  turn: { en: "In today's 文, the chest pattern has vanished, leaving just the outline of a person: head, outstretched arms and legs.", zh-Hans: 到了今天的“文”，胸前的花纹不见了，只剩下一个人的轮廓：头、张开的手臂和两条腿。, zh-Hant: 到了今天的「文」，胸前的花紋不見了，只剩下一個人的輪廓：頭、張開的手臂和兩條腿。 }
+  closer: { en: 'From a person with a painted chest to 文: today it means writing, as in 中文!', zh-Hans: 从胸前画着花纹的人，变成了今天的“文”——中文的“文”！, zh-Hant: 從胸前畫著花紋的人，變成了今天的「文」——中文的「文」！ }
+journey: default
+origin:
+  type: ideogram
+status: draft
+sources:
+  - { title: 'Wiktionary: 文', url: 'https://en.wiktionary.org/wiki/%E6%96%87' }

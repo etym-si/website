@@ -1,0 +1,33 @@
+{
+  "id": "交",
+  "text": { "Hans": "交", "Hant": "交" },
+  "readings": { "pinyin": "jiāo" },
+  "meaning": { "en": "to cross; to exchange", "zh-Hans": "交换", "zh-Hant": "交換" },
+  "fact": {
+    "en": "交 is a picture of a person with crossed legs. That's why it means to cross!",
+    "zh-Hans": "“交”画的是一个两腿交叉的人，所以它的意思是交叉。",
+    "zh-Hant": "「交」畫的是一個兩腿交叉的人，所以它的意思是交叉。"
+  },
+  "story": {
+    "topic": { "en": "Criss-Cross Story Time", "zh-Hans": "盘腿听故事", "zh-Hant": "盤腿聽故事" },
+    "hook": {
+      "en": "Criss-cross applesauce! The kids sit on the rug with their legs crossed, ready for story time.",
+      "zh-Hans": "盘起腿来！小朋友们交叉着双腿坐在地毯上，等着听故事。",
+      "zh-Hant": "盤起腿來！小朋友們交叉著雙腿坐在地毯上，等著聽故事。"
+    },
+    "turn": {
+      "en": "In today's 交, the top half looks like 立, a person standing, while the crossed legs are still at the bottom.",
+      "zh-Hans": "今天的“交”，上半部分很像“立”（站着的人），交叉的两条腿还留在下面。",
+      "zh-Hant": "今天的「交」，上半部分很像「立」（站著的人），交叉的兩條腿還留在下面。"
+    },
+    "closer": {
+      "en": "A person with crossed legs: that's 交, to cross, and to swap too!",
+      "zh-Hans": "两条腿交叉在一起，就是交叉的“交”，也是交换的“交”！",
+      "zh-Hant": "兩條腿交叉在一起，就是交叉的「交」，也是交換的「交」！"
+    }
+  },
+  "journey": "default",
+  "origin": { "type": "pictogram" },
+  "status": "draft",
+  "sources": [ { "title": "Wiktionary: 交", "url": "https://en.wiktionary.org/wiki/%E4%BA%A4" } ]
+}

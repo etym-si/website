@@ -1,0 +1,73 @@
+{
+  "id": "加",
+  "text": {
+    "Hans": "加",
+    "Hant": "加"
+  },
+  "readings": {
+    "pinyin": "jiā"
+  },
+  "meaning": {
+    "en": "to add, plus",
+    "zh-Hans": "加油",
+    "zh-Hant": "加油"
+  },
+  "fact": {
+    "en": "加 is 力 (strength) plus 口 (mouth). One scholar thinks the mouth stands for the huffing, puffing and shouting you do when you try extra hard!",
+    "zh-Hans": "“加”由“力”（力气）和“口”（嘴巴）组成。有学者认为，这张“口”就是使劲时发出的喊声和喘气声！",
+    "zh-Hant": "「加」由「力」（力氣）和「口」（嘴巴）組成。有學者認為，這張「口」就是使勁時發出的喊聲和喘氣聲！"
+  },
+  "story": {
+    "topic": {
+      "en": "Toppings on Shaved Ice",
+      "zh-Hans": "刨冰加料",
+      "zh-Hant": "剉冰加料"
+    },
+    "hook": {
+      "en": "Scoop by scoop! Mila adds mango, then red beans, then a cherry right on top of her shaved ice.",
+      "zh-Hans": "一勺又一勺！米拉在刨冰上加了芒果，又加了红豆，最上面再加一颗樱桃。",
+      "zh-Hant": "一勺又一勺！米拉在剉冰上加了芒果，又加了紅豆，最上面再加一顆櫻桃。"
+    },
+    "early": {
+      "en": "An old dictionary had another idea: strength plus mouth meant “to exaggerate”, making things sound bigger than they are.",
+      "zh-Hans": "一本古老的字典却有另一种看法：“力”加“口”是“夸大”的意思，就是把事情说得比实际更厉害。",
+      "zh-Hant": "一本古老的字典卻有另一種看法：「力」加「口」是「誇大」的意思，就是把事情說得比實際更厲害。"
+    },
+    "closer": {
+      "en": "力 plus 口: that's 加, to add, as in 加油, keep going!",
+      "zh-Hans": "“力”加上“口”——这就是加油的“加”！",
+      "zh-Hant": "「力」加上「口」——這就是加油的「加」！"
+    }
+  },
+  "journey": "default",
+  "origin": {
+    "type": "compound-ideogram",
+    "parts": [
+      {
+        "char": "力",
+        "role": "meaning",
+        "gloss": {
+          "en": "strength",
+          "zh-Hans": "力气",
+          "zh-Hant": "力氣"
+        }
+      },
+      {
+        "char": "口",
+        "role": "meaning",
+        "gloss": {
+          "en": "mouth",
+          "zh-Hans": "嘴巴",
+          "zh-Hant": "嘴巴"
+        }
+      }
+    ]
+  },
+  "status": "draft",
+  "sources": [
+    {
+      "title": "Wiktionary: 加",
+      "url": "https://en.wiktionary.org/wiki/%E5%8A%A0"
+    }
+  ]
+}

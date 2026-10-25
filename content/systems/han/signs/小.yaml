@@ -1,0 +1,20 @@
+id: 小
+text: { Hans: 小, Hant: 小 }
+readings: { pinyin: xiǎo }
+meaning: { en: 'small, little', zh-Hans: 小朋友, zh-Hant: 小朋友 }
+fact:
+  en: 小 means small. Its oldest form was just three tiny dots, and scholars still have different ideas about what they were.
+  zh-Hans: “小”就是小小的意思。最早的“小”只是三个小点，它们到底是什么，学者们有不同的看法。
+  zh-Hant: 「小」就是小小的意思。最早的「小」只是三個小點，它們到底是什麼，學者們有不同的看法。
+story:
+  topic: { en: The Tiny Hummingbird, zh-Hans: 小小的蜂鸟, zh-Hant: 小小的蜂鳥 }
+  hook: { en: "Look, a hummingbird! It's so small it could perch on your finger, and its tiny wings buzz too fast to see.", zh-Hans: 看，一只蜂鸟！它小得能停在你的手指上，小翅膀扇得飞快，快得都看不清。, zh-Hant: 看，一隻蜂鳥！牠小得能停在你的手指上，小翅膀搧得飛快，快得都看不清。 }
+  early: { en: Some scholars think the three dots were simply a sign for “tiny”; others think they were three grains of sand., zh-Hans: 有学者认为，这三个点只是表示“很小”的记号；也有学者认为，它们是三粒小沙子。, zh-Hant: 有學者認為，這三個點只是表示「很小」的記號；也有學者認為，它們是三粒小沙子。 }
+  turn: { en: 'Starting with some bronze inscriptions, the dots stretched out into longer strokes.', zh-Hans: 从一些金文开始，这几个点被拉长，变成了长一些的笔画。, zh-Hant: 從一些金文開始，這幾個點被拉長，變成了長一些的筆畫。 }
+  closer: { en: "Three little marks for something little: that's 小, small!", zh-Hans: 三个小小的笔画，表示小小的东西——这就是“小”！, zh-Hant: 三個小小的筆畫，表示小小的東西——這就是「小」！ }
+journey: default
+origin:
+  type: uncertain
+status: draft
+sources:
+  - { title: 'Wiktionary: 小', url: 'https://en.wiktionary.org/wiki/%E5%B0%8F' }

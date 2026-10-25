@@ -1,0 +1,33 @@
+{
+  "id": "新",
+  "text": { "Hans": "新", "Hant": "新" },
+  "readings": { "pinyin": "xīn" },
+  "meaning": { "en": "new, fresh", "zh-Hans": "新鲜", "zh-Hant": "新鮮" },
+  "fact": {
+    "en": "新 first meant to chop wood: 斤 (an axe) for the meaning and 辛 for the sound. Later it was borrowed for its sound to mean “new”.",
+    "zh-Hans": "“新”本来的意思是砍柴：“斤”（斧头）表示意思，“辛”表示读音。后来人们借用它的读音，表示“新”。",
+    "zh-Hant": "「新」本來的意思是砍柴：「斤」（斧頭）表示意思，「辛」表示讀音。後來人們借用它的讀音，表示「新」。"
+  },
+  "story": {
+    "topic": { "en": "A Brand-New Box of Crayons", "zh-Hans": "崭新的蜡笔", "zh-Hant": "嶄新的蠟筆" },
+    "hook": {
+      "en": "Ooh! Hugo opens a brand-new box of crayons, and every tip is still perfectly pointy.",
+      "zh-Hans": "真漂亮！雨果打开一盒崭新的蜡笔，每一支的笔尖都还尖尖的。",
+      "zh-Hant": "真漂亮！雨果打開一盒嶄新的蠟筆，每一支的筆尖都還尖尖的。"
+    },
+    "turn": {
+      "en": "In bronze writing, a tree 木 was added, and it merged with the 辛 on the left. The old meaning, firewood, is now written 薪.",
+      "zh-Hans": "到了金文，又加上了一个“木”，它和左边的“辛”合在了一起。原来“柴火”的意思，现在写成“薪”。",
+      "zh-Hant": "到了金文，又加上了一個「木」，它和左邊的「辛」合在了一起。原來「柴火」的意思，現在寫成「薪」。"
+    },
+    "closer": {
+      "en": "An axe chopping wood, borrowed for its sound: that's 新, new!",
+      "zh-Hans": "砍柴的斧头，借来了读音——这就是新鲜的“新”！",
+      "zh-Hant": "砍柴的斧頭，借來了讀音——這就是新鮮的「新」！"
+    }
+  },
+  "journey": "default",
+  "origin": { "type": "loan" },
+  "status": "draft",
+  "sources": [ { "title": "Wiktionary: 新", "url": "https://en.wiktionary.org/wiki/%E6%96%B0" } ]
+}

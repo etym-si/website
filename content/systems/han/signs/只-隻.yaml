@@ -1,0 +1,23 @@
+id: 只-隻
+text: { Hans: 只, Hant: 隻 }
+readings: { pinyin: zhī }
+meaning: { en: measure word for animals, zh-Hans: 一只, zh-Hant: 一隻 }
+fact:
+  en: 隻 is a hand 又 holding one bird 隹. Hold two birds and you get 雙, a pair!
+  zh-Hans: 繁体字“隻”是一只手“又”抓着一只鸟“隹”。抓着两只鸟，就是“雙”（一双）！
+  zh-Hant: 「隻」是一隻手「又」抓著一隻鳥「隹」。抓著兩隻鳥，就是「雙」！
+story:
+  topic: { en: Counting at the Petting Farm, zh-Hans: 数一数小动物, zh-Hant: 數一數小動物 }
+  hook: { en: 'One cat, two goats, three ducks… Bella counts every animal at the petting farm.', zh-Hans: 一只猫、两只羊、三只鸭……贝拉把农场里的小动物一只一只数了个遍。, zh-Hant: 一隻貓、兩隻羊、三隻鴨……貝拉把農場裡的小動物一隻一隻數了個遍。 }
+  turn: { en: 'Simplified Chinese writes it 只, a different character that shows air coming out of a mouth 口.', zh-Hans: 简体字写作“只”，它本来是另一个字，画的是气从嘴巴“口”里出来。, zh-Hant: 簡體字寫作「只」，它本來是另一個字，畫的是氣從嘴巴「口」裡出來。 }
+  closer: { en: "One bird in one hand: that's 隻, the word for counting animals, written 只 in simplified Chinese!", zh-Hans: 一只手抓一只鸟，就是“隻”——简体字写作“只”，用来数小动物！, zh-Hant: 一隻手抓一隻鳥，就是用來數小動物的「隻」！ }
+journey: []
+origin:
+  type: compound-ideogram
+  parts:
+    - { char: 隹, role: meaning, gloss: { en: short-tailed bird, zh-Hans: 短尾巴的鸟, zh-Hant: 短尾巴的鳥 } }
+    - { char: 又, role: meaning, gloss: { en: hand, zh-Hans: 手, zh-Hant: 手 } }
+status: draft
+sources:
+  - { title: 'Wiktionary: 只', url: 'https://en.wiktionary.org/wiki/%E5%8F%AA' }
+  - { title: 'Wiktionary: 隻', url: 'https://en.wiktionary.org/wiki/%E9%9A%BB' }

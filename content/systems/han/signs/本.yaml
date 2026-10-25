@@ -1,0 +1,18 @@
+id: 本
+text: { Hans: 本, Hant: 本 }
+readings: { pinyin: běn }
+meaning: { en: root; measure word for books, zh-Hans: 书本, zh-Hant: 書本 }
+fact:
+  en: '本 is a tree 木 with an extra stroke at the bottom, pointing to its roots. Today we also use it to count books: 一本书, one book!'
+  zh-Hans: “本”是在“木”的下面加了一笔，指出树根的位置。现在我们还用它来数书：一本书！
+  zh-Hant: 「本」是在「木」的下面加了一筆，指出樹根的位置。現在我們還用它來數書：一本書！
+story:
+  topic: { en: Grandpa Pulls Up a Root, zh-Hans: 爷爷拔出一条根, zh-Hant: 爺爺拔出一條根 }
+  hook: { en: 'Heave-ho! Grandpa tugs at a stubborn weed in the garden, and out pops a long, wiggly root.', zh-Hans: 嘿哟！爷爷在菜园里使劲拔一棵顽固的野草，一条长长的、弯弯曲曲的根被拔了出来。, zh-Hant: 嘿喲！爺爺在菜園裡使勁拔一棵頑固的野草，一條長長的、彎彎曲曲的根被拔了出來。 }
+  closer: { en: 'Put a mark at the roots of 木, and you get 本, the root!', zh-Hans: 在“木”的根部加一笔，就是根本的“本”！, zh-Hant: 在「木」的根部加一筆，就是根本的「本」！ }
+journey: default
+origin:
+  type: ideogram
+status: draft
+sources:
+  - { title: 'Wiktionary: 本', url: 'https://en.wiktionary.org/wiki/%E6%9C%AC' }

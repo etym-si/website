@@ -1,0 +1,39 @@
+{
+  "id": "明",
+  "text": { "Hans": "明", "Hant": "明" },
+  "readings": { "pinyin": "míng" },
+  "meaning": { "en": "bright, clear", "zh-Hans": "明亮", "zh-Hant": "明亮" },
+  "fact": {
+    "en": "明 puts the sun 日 next to the moon 月: the sun just rising while the moon hasn't set yet. That's dawn, when the sky turns bright!",
+    "zh-Hans": "“明”是“日”（太阳）和“月”（月亮）放在一起：太阳刚刚升起，月亮还没落下——天亮了！",
+    "zh-Hant": "「明」是「日」（太陽）和「月」（月亮）放在一起：太陽剛剛升起，月亮還沒落下——天亮了！"
+  },
+  "story": {
+    "topic": { "en": "Sun and Moon Together", "zh-Hans": "太阳和月亮同时出现", "zh-Hant": "太陽和月亮同時出現" },
+    "hook": {
+      "en": "Up early, Grace looks out the window: the sun is peeking over the hills, and a pale moon still hangs in the sky.",
+      "zh-Hans": "格蕾丝起了个大早，往窗外一看：太阳正从山后探出头来，淡淡的月亮还挂在天上。",
+      "zh-Hant": "格蕾絲起了個大早，往窗外一看：太陽正從山後探出頭來，淡淡的月亮還掛在天上。"
+    },
+    "early": {
+      "en": "On oracle bones, 明 mostly meant “daybreak”. Some old forms even used a swirly 囧 or an eye 目 in place of the sun!",
+      "zh-Hans": "在甲骨文里，“明”大多表示“天亮”。有些古老的写法，还用旋涡一样的“囧”或者眼睛“目”来代替太阳！",
+      "zh-Hant": "在甲骨文裡，「明」大多表示「天亮」。有些古老的寫法，還用漩渦一樣的「囧」或者眼睛「目」來代替太陽！"
+    },
+    "closer": {
+      "en": "Sun 日 and moon 月 side by side make 明: bright!",
+      "zh-Hans": "“日”和“月”并肩在一起，就是明亮的“明”！",
+      "zh-Hant": "「日」和「月」並肩在一起，就是明亮的「明」！"
+    }
+  },
+  "journey": "default",
+  "origin": {
+    "type": "compound-ideogram",
+    "parts": [
+      { "char": "日", "role": "meaning", "gloss": { "en": "sun", "zh-Hans": "太阳", "zh-Hant": "太陽" } },
+      { "char": "月", "role": "meaning", "gloss": { "en": "moon", "zh-Hans": "月亮", "zh-Hant": "月亮" } }
+    ]
+  },
+  "status": "draft",
+  "sources": [ { "title": "Wiktionary: 明", "url": "https://en.wiktionary.org/wiki/%E6%98%8E" } ]
+}

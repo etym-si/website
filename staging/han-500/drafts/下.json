@@ -1,0 +1,33 @@
+{
+  "id": "下",
+  "text": { "Hans": "下", "Hant": "下" },
+  "readings": { "pinyin": "xià" },
+  "meaning": { "en": "down, below", "zh-Hans": "下面", "zh-Hant": "下面" },
+  "fact": {
+    "en": "下 means down. It is the opposite of 上: this time the short line goes under the long one.",
+    "zh-Hans": "“下”的意思是下面。它和“上”正好相反：这一次，短线跑到了长线的下面。",
+    "zh-Hant": "「下」的意思是下面。它和「上」正好相反：這一次，短線跑到了長線的下面。"
+  },
+  "story": {
+    "topic": { "en": "Zooming Down the Slide", "zh-Hans": "从滑梯上滑下来", "zh-Hant": "從溜滑梯上滑下來" },
+    "hook": {
+      "en": "Wheee! Lily lets go at the top of the slide and zooms all the way down into the sandpit.",
+      "zh-Hans": "咻——！莉莉在滑梯顶上一松手，一路滑进了下面的沙坑。",
+      "zh-Hant": "咻——！莉莉在溜滑梯頂上一鬆手，一路滑進了下面的沙坑。"
+    },
+    "early": {
+      "en": "The oldest 下 was a long curved line with a short line tucked underneath it.",
+      "zh-Hans": "最早的“下”是一条长长的弧线，下面藏着一条短线。",
+      "zh-Hant": "最早的「下」是一條長長的弧線，下面藏著一條短線。"
+    },
+    "closer": {
+      "en": "Short line on top makes 上; short line underneath makes 下, down!",
+      "zh-Hans": "短线在上面是“上”，短线在下面就是“下”！",
+      "zh-Hant": "短線在上面是「上」，短線在下面就是「下」！"
+    }
+  },
+  "journey": "default",
+  "origin": { "type": "ideogram" },
+  "status": "draft",
+  "sources": [ { "title": "Wiktionary: 下", "url": "https://en.wiktionary.org/wiki/%E4%B8%8B" } ]
+}

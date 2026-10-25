@@ -1,0 +1,21 @@
+id: 看
+text: { Hans: 看, Hant: 看 }
+readings: { pinyin: kàn }
+meaning: { en: 'to look, to watch', zh-Hans: 看书, zh-Hant: 看書 }
+fact:
+  en: 看 is a hand 手 held above an eye 目, just like when you shade your eyes to gaze far away.
+  zh-Hans: “看”是一只“手”放在“目”（眼睛）上面，就像我们把手搭在眼睛上往远处望。
+  zh-Hant: 「看」是一隻「手」放在「目」（眼睛）上面，就像我們把手搭在眼睛上往遠處望。
+story:
+  topic: { en: Pirate Lookout, zh-Hans: 小海盗在瞭望, zh-Hant: 小海盜在瞭望 }
+  hook: { en: 'Ahoy! Kai climbs to the top of the jungle gym, puts a hand over his eyes, and spots a “pirate island” far away.', zh-Hans: 啊嗬！小凯爬到攀爬架顶上，把手搭在眼睛上，看见远处有一座“海盗岛”。, zh-Hant: 啊嗬！小凱爬到攀爬架頂上，把手搭在眼睛上，看見遠處有一座「海盜島」。 }
+  closer: { en: "A hand over an eye, peering into the distance: that's 看, to look!", zh-Hans: 手搭在眼睛上往远处望——这就是“看”！, zh-Hant: 手搭在眼睛上往遠處望——這就是「看」！ }
+journey: default
+origin:
+  type: compound-ideogram
+  parts:
+    - { char: 手, role: meaning, gloss: { en: hand, zh-Hans: 手, zh-Hant: 手 } }
+    - { char: 目, role: meaning, gloss: { en: eye, zh-Hans: 眼睛, zh-Hant: 眼睛 } }
+status: draft
+sources:
+  - { title: 'Wiktionary: 看', url: 'https://en.wiktionary.org/wiki/%E7%9C%8B' }

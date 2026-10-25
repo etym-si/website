@@ -1,0 +1,21 @@
+id: 合
+text: { Hans: 合, Hant: 合 }
+readings: { pinyin: hé }
+meaning: { en: 'to join, to close', zh-Hans: 合唱, zh-Hant: 合唱 }
+fact:
+  en: '合 is made of 亼 and 口 (mouth): two mouths speaking together.'
+  zh-Hans: “合”由“亼”和“口”（嘴巴）组成：两张嘴在一起说话。
+  zh-Hant: 「合」由「亼」和「口」（嘴巴）組成：兩張嘴在一起說話。
+story:
+  topic: { en: The Shy Little Clam, zh-Hans: 害羞的小蛤蜊, zh-Hant: 害羞的小蛤蜊 }
+  hook: { en: 'Snap! When Kiki gently touches the little clam in the tide pool, it shuts its two shells tight.', zh-Hans: 啪！琪琪轻轻碰了一下潮水坑里的小蛤蜊，它马上把两片壳紧紧合上了。, zh-Hant: 啪！琪琪輕輕碰了一下潮池裡的小蛤蜊，牠馬上把兩片殼緊緊合上了。 }
+  closer: { en: "Two mouths coming together as one: that's 合, to close and to join!", zh-Hans: 两张嘴合在一起——这就是合上的“合”，也是合作的“合”！, zh-Hant: 兩張嘴合在一起——這就是合上的「合」，也是合作的「合」！ }
+journey: default
+origin:
+  type: compound-ideogram
+  parts:
+    - { char: 亼, role: meaning, gloss: { en: another mouth, zh-Hans: 另一张嘴, zh-Hant: 另一張嘴 } }
+    - { char: 口, role: meaning, gloss: { en: mouth, zh-Hans: 嘴巴, zh-Hant: 嘴巴 } }
+status: draft
+sources:
+  - { title: 'Wiktionary: 合', url: 'https://en.wiktionary.org/wiki/%E5%90%88' }

@@ -1,0 +1,23 @@
+id: 哭
+text: { Hans: 哭, Hant: 哭 }
+readings: { pinyin: kū }
+meaning: { en: 'to cry, to weep', zh-Hans: 大哭, zh-Hant: 大哭 }
+fact:
+  en: 哭 means to cry. Many scholars think the two mouths 口 on top stand for loud wailing.
+  zh-Hans: “哭”的意思是哭泣。很多学者认为，上面的两张“口”表示大声地哭喊。
+  zh-Hant: 「哭」的意思是哭泣。很多學者認為，上面的兩張「口」表示大聲地哭喊。
+story:
+  topic: { en: The Dropped Ice Cream, zh-Hans: 掉在地上的冰淇淋, zh-Hant: 掉在地上的冰淇淋 }
+  hook: { en: "Waaah! Little Lulu's ice-cream cone tumbles onto the sidewalk, and she bursts into tears.", zh-Hans: 哇——！小露露的冰淇淋掉在了人行道上，她一下子大哭起来。, zh-Hant: 哇——！小露露的冰淇淋掉在了人行道上，她一下子大哭起來。 }
+  early: { en: 'The oldest 哭 had a person with long hair under the two mouths, a bit like 老 without its cane.', zh-Hans: 最早的“哭”，两张嘴下面是一个长头发的人，有点像没有拐杖的“老”。, zh-Hant: 最早的「哭」，兩張嘴下面是一個長頭髮的人，有點像沒有拐杖的「老」。 }
+  turn: { en: 'Over time, that long-haired person got mixed up with 犬 (dog), so today a 犬 hides in 哭!', zh-Hans: 后来，这个长头发的人被写错成了“犬”（狗），所以今天的“哭”里藏着一个“犬”！, zh-Hant: 後來，這個長頭髮的人被寫錯成了「犬」（狗），所以今天的「哭」裡藏著一個「犬」！ }
+  closer: { en: "Two mouths wailing loudly: that's 哭, to cry! Don't worry, Lulu, a new cone is on its way.", zh-Hans: 两张嘴哇哇大哭——这就是“哭”！别难过，露露，新的冰淇淋马上就来。, zh-Hant: 兩張嘴哇哇大哭——這就是「哭」！別難過，露露，新的冰淇淋馬上就來。 }
+journey: default
+origin:
+  type: compound-ideogram
+  parts:
+    - { char: 吅, role: meaning, gloss: { en: loudly, zh-Hans: 大声, zh-Hant: 大聲 } }
+    - { char: 犬, role: meaning, gloss: { en: a long-haired person (now written 犬), zh-Hans: 长头发的人（后来写成“犬”）, zh-Hant: 長頭髮的人（後來寫成「犬」） } }
+status: draft
+sources:
+  - { title: 'Wiktionary: 哭', url: 'https://en.wiktionary.org/wiki/%E5%93%AD' }

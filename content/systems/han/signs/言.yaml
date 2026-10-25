@@ -1,0 +1,20 @@
+id: 言
+text: { Hans: 言, Hant: 言 }
+readings: { pinyin: yán }
+meaning: { en: 'speech, words', zh-Hans: 语言, zh-Hant: 語言 }
+fact:
+  en: 言 means speech and words. Its oldest form was built on 口, a mouth.
+  zh-Hans: “言”的意思是说话、言语。最早的“言”是以“口”（嘴巴）为基础造出来的。
+  zh-Hant: 「言」的意思是說話、言語。最早的「言」是以「口」（嘴巴）為基礎造出來的。
+story:
+  topic: { en: Ella's First Speech, zh-Hans: 第一次上台发言, zh-Hant: 第一次上臺發言 }
+  hook: { en: 'Tap, tap on the microphone! Ella takes a deep breath and gives her very first speech to the whole class.', zh-Hans: 叩叩，敲敲麦克风！艾拉深吸一口气，第一次在全班同学面前发言。, zh-Hant: 叩叩，敲敲麥克風！艾拉深吸一口氣，第一次在全班同學面前發言。 }
+  early: { en: Along with the mouth came a small ▽ shape. No one is completely sure what it meant; it may have been a sign for marking a spot., zh-Hans: 除了嘴巴，还有一个小小的▽。没有人能完全确定它是什么意思，它也许是用来标记位置的符号。, zh-Hant: 除了嘴巴，還有一個小小的▽。沒有人能完全確定它是什麼意思，它也許是用來標記位置的符號。 }
+  turn: { en: 'Later, writers swapped the ▽ for shapes like 辛, and the character may have got mixed up with 舌 (tongue).', zh-Hans: 后来，人们把▽换成了像“辛”一样的样子，这个字也可能和“舌”混在了一起。, zh-Hant: 後來，人們把▽換成了像「辛」一樣的樣子，這個字也可能和「舌」混在了一起。 }
+  closer: { en: "Built on 口, the mouth: that's 言, speech and words!", zh-Hans: 下面有一张“口”，这就是语言的“言”！, zh-Hant: 下面有一張「口」，這就是語言的「言」！ }
+journey: default
+origin:
+  type: ideogram
+status: draft
+sources:
+  - { title: 'Wiktionary: 言', url: 'https://en.wiktionary.org/wiki/%E8%A8%80' }

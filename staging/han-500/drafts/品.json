@@ -1,0 +1,77 @@
+{
+  "id": "品",
+  "text": {
+    "Hans": "品",
+    "Hant": "品"
+  },
+  "readings": {
+    "pinyin": "pǐn"
+  },
+  "meaning": {
+    "en": "item, product",
+    "zh-Hans": "礼品",
+    "zh-Hant": "禮品"
+  },
+  "fact": {
+    "en": "品 is three 口 piled up. Here the 口 shapes aren't mouths but all kinds of objects, so 品 means items and goods.",
+    "zh-Hans": "“品”是三个“口”叠在一起。这里的“口”不是嘴巴，而是各种各样的东西，所以“品”表示物品。",
+    "zh-Hant": "「品」是三個「口」疊在一起。這裡的「口」不是嘴巴，而是各式各樣的東西，所以「品」表示物品。"
+  },
+  "story": {
+    "topic": {
+      "en": "The Gift Swap Table",
+      "zh-Hans": "堆满礼品的桌子",
+      "zh-Hant": "堆滿禮品的桌子"
+    },
+    "hook": {
+      "en": "What a pile! At the class gift swap, the table is heaped high with wrapped boxes of every size.",
+      "zh-Hans": "当当当！班上的礼物交换会上，桌子上堆满了大大小小的礼品盒。",
+      "zh-Hant": "噹噹噹！班上交換禮物的時候，桌子上堆滿了大大小小的禮品盒。"
+    },
+    "closer": {
+      "en": "Three boxes, three things, lots of goodies: that's 品!",
+      "zh-Hans": "三个“口”，三样东西——这就是礼品的“品”！",
+      "zh-Hant": "三個「口」，三樣東西——這就是禮品的「品」！"
+    }
+  },
+  "journey": "default",
+  "origin": {
+    "type": "compound-ideogram",
+    "parts": [
+      {
+        "char": "口",
+        "role": "meaning",
+        "gloss": {
+          "en": "an object",
+          "zh-Hans": "物品",
+          "zh-Hant": "物品"
+        }
+      },
+      {
+        "char": "口",
+        "role": "meaning",
+        "gloss": {
+          "en": "an object",
+          "zh-Hans": "物品",
+          "zh-Hant": "物品"
+        }
+      },
+      {
+        "char": "口",
+        "role": "meaning",
+        "gloss": {
+          "en": "an object",
+          "zh-Hans": "物品",
+          "zh-Hant": "物品"
+        }
+      }
+    ]
+  },
+  "status": "draft",
+  "sources": [
+    {
+      "title": "Wiktionary: 品",
+      "url": "https://en.wiktionary.org/wiki/%E5%93%81"
+    }
+  ]
+}

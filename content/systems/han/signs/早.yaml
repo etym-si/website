@@ -1,0 +1,19 @@
+id: 早
+text: { Hans: 早, Hant: 早 }
+readings: { pinyin: zǎo }
+meaning: { en: early; morning, zh-Hans: 早上, zh-Hant: 早上 }
+fact:
+  en: The oldest 早 was a picture of an acorn! It was borrowed for its sound to mean “early morning”.
+  zh-Hans: 最古老的“早”画的是一颗橡子！后来人们借用它的读音，表示“早上”。
+  zh-Hant: 最古老的「早」畫的是一顆橡子！後來人們借用它的讀音，表示「早上」。
+story:
+  topic: { en: Tai Chi at Sunrise, zh-Hans: 清早打太极, zh-Hant: 清早打太極 }
+  hook: { en: 'So early! The sun is barely up, but Grandpa is already doing slow, smooth tai chi in the park.', zh-Hans: 好早啊！太阳才刚刚露脸，爷爷已经在公园里慢慢地打起了太极拳。, zh-Hant: 好早啊！太陽才剛剛露臉，爺爺已經在公園裡慢慢地打起了太極拳。 }
+  turn: { en: "Later forms added the sun 日. An old dictionary explained it as “the sun first rising”, but that idea wasn't based on the oldest writing.", zh-Hans: 后来的写法加上了太阳“日”。一本古老的字典把它解释成“太阳刚刚升起”，不过这个说法并不是根据最古老的字形得出的。, zh-Hant: 後來的寫法加上了太陽「日」。一本古老的字典把它解釋成「太陽剛剛升起」，不過這個說法並不是根據最古老的字形得出的。 }
+  closer: { en: "From an acorn to the morning sun: that's 早, early!", zh-Hans: 从一颗橡子，到早上的太阳——这就是早上的“早”！, zh-Hant: 從一顆橡子，到早上的太陽——這就是早上的「早」！ }
+journey: default
+origin:
+  type: loan
+status: draft
+sources:
+  - { title: 'Wiktionary: 早', url: 'https://en.wiktionary.org/wiki/%E6%97%A9' }

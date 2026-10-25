@@ -1,0 +1,38 @@
+{
+  "id": "朋",
+  "text": { "Hans": "朋", "Hant": "朋" },
+  "readings": { "pinyin": "péng" },
+  "meaning": { "en": "friend", "zh-Hans": "朋友", "zh-Hant": "朋友" },
+  "fact": {
+    "en": "朋 began as a picture of two strings of cowrie shells, and it was once a unit of shell money. Today it means friend.",
+    "zh-Hans": "“朋”最早画的是两串贝壳，从前还是计算贝壳钱的单位。现在它的意思是朋友。",
+    "zh-Hant": "「朋」最早畫的是兩串貝殼，從前還是計算貝殼錢的單位。現在它的意思是朋友。"
+  },
+  "story": {
+    "topic": { "en": "Matching Friendship Bracelets", "zh-Hans": "一模一样的手链", "zh-Hant": "一模一樣的手鍊" },
+    "hook": {
+      "en": "Two best friends hold up their wrists to show off matching friendship bracelets with tiny seashells on them.",
+      "zh-Hans": "两个好朋友举起手腕，给大家看她们一模一样的友谊手链，上面还串着小贝壳。",
+      "zh-Hant": "兩個好朋友舉起手腕，給大家看她們一模一樣的友誼手鍊，上面還串著小貝殼。"
+    },
+    "early": {
+      "en": "On oracle bones, 朋 was two strings with cowrie shells tied on.",
+      "zh-Hans": "在甲骨文里，“朋”是两根绳子，上面串着贝壳。",
+      "zh-Hant": "在甲骨文裡，「朋」是兩根繩子，上面串著貝殼。"
+    },
+    "turn": {
+      "en": "Over time, the shape got mixed up and turned into two 月 (moon) side by side.",
+      "zh-Hans": "后来，这个字形被写走了样，变成了两个并排的“月”。",
+      "zh-Hant": "後來，這個字形被寫走了樣，變成了兩個並排的「月」。"
+    },
+    "closer": {
+      "en": "Two strings of shells turned into two moons, and today 朋 means friend!",
+      "zh-Hans": "两串贝壳变成了两个“月”，今天的“朋”就是朋友的“朋”！",
+      "zh-Hant": "兩串貝殼變成了兩個「月」，今天的「朋」就是朋友的「朋」！"
+    }
+  },
+  "journey": "default",
+  "origin": { "type": "pictogram" },
+  "status": "draft",
+  "sources": [ { "title": "Wiktionary: 朋", "url": "https://en.wiktionary.org/wiki/%E6%9C%8B" } ]
+}
