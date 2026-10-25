@@ -111,6 +111,16 @@ export const STR = {
   resetConfirm: tri('Tap again to reset', '再点一次确认', '再點一次確認'),
   watchEvolution: tri('Watch its journey', '看它的演变', '看它的演變'),
   showMe: tri('👀 Show me', '👀 示范', '👀 示範'),
+  artifactExact: tri('Copied from this very object', '就是从它上面描下来的', '就是從它上面描下來的'),
+  artifactBook: tri('Found in this text', '这部文献里有它', '這部文獻裡有它'),
+  artifactAppears: tri('This character is written here', '这上面写着这个字', '這上面寫著這個字'),
+  artifactExample: tri('A real object from that time', '同一时代的真实文物', '同一時代的真實文物'),
+  lookCloser: tri('Look closer', '仔细看看', '仔細看看'),
+  realArtifacts: tri('Real artifacts on this journey', '这一路上的真实文物', '這一路上的真實文物'),
+  photo: tri('Photo', '图片', '圖片'),
+  catalogue: tri('Catalogue', '著录', '著錄'),
+  viewSource: tri('Wikimedia Commons', '维基共享资源', '維基共享資源'),
+  close: tri('Close', '关闭', '關閉'),
   speechUnavailable: tri('No Chinese voice on this device', '此设备没有中文语音', '此裝置沒有中文語音'),
 } satisfies Record<string, Tri>;
 

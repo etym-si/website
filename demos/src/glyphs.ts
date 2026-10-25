@@ -20,6 +20,8 @@ export interface HistStage {
   src: string;
   box: [number, number, number, number];
   paths: GlyphPath[];
+  /** Provenance from the Commons file: which artifact this glyph was traced from (e.g. "鐵180.2 合5216"). */
+  prov?: { period: string; code: string; note: string };
 }
 export interface GlyphDoc {
   char: string;
@@ -63,7 +65,10 @@ function validateGlyphDoc(v: unknown): GlyphDoc {
       const mode = q.mode === 'stroke' || q.mode === 'knockout' ? q.mode : undefined;
       return { d: q.d, t: q.t as string | undefined, mode, w: isNum(q.w) ? q.w : undefined, rule: q.rule === 'evenodd' ? 'evenodd' : undefined };
     });
-    return { stage: x.stage as HistStageId, form: x.form, variant: x.variant, src: x.src, box: x.box as HistStage['box'], paths };
+    const p = x.prov as Record<string, unknown> | undefined;
+    const short = (v: unknown, n: number) => (isStr(v) ? v.slice(0, n) : '');
+    const prov = p && typeof p === 'object' ? { period: short(p.period, 20), code: short(p.code, 12), note: short(p.note, 120) } : undefined;
+    return { stage: x.stage as HistStageId, form: x.form, variant: x.variant, src: x.src, box: x.box as HistStage['box'], paths, prov };
   });
   return { char: o.char, trad: o.trad, stages, hanzi: o.hanzi.filter(isStr) };
 }

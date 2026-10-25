@@ -96,6 +96,31 @@ def commons_index(titles: list[str]) -> dict[str, str]:
     return found
 
 
+PROV_SAFE = re.compile(r"[^\w\s.,;:()（）\-·'’]", re.UNICODE)
+
+
+def commons_provenance(titles: list[str]) -> dict[str, dict]:
+    """Read each file's {{ACClicense|char|script|period|code|source note|...}} template.
+    The source note names the artifact the glyph was traced from (e.g. 合5216, 大盂鼎, 睡.秦4)."""
+    out: dict[str, dict] = {}
+    for i in range(0, len(titles), 50):
+        params = {"action": "query", "prop": "revisions", "rvprop": "content", "rvslots": "main",
+                  "titles": "|".join(titles[i:i + 50]), "format": "json", "formatversion": "2"}
+        d = json.loads(http_get(API, urllib.parse.urlencode(params).encode()))
+        for p in d["query"]["pages"]:
+            txt = (p.get("revisions") or [{}])[0].get("slots", {}).get("main", {}).get("content", "")
+            m = re.search(r"\{\{ACClicense\|(.*?)\}\}", txt, re.S)
+            pos = [x.strip() for x in m.group(1).split("|") if "=" not in x] if m else []
+            get = lambda k: pos[k] if len(pos) > k else ""
+            note = PROV_SAFE.sub("", get(4))[:120]
+            if "http" in get(4) or "ignore" in note.lower() or note.isdigit():
+                note = ""  # URLs / editor remarks / bare radical numbers aren't provenance
+            code = get(3) if re.fullmatch(r"[A-Za-z]\d{4,5}", get(3)) else ""
+            out[p["title"]] = {"period": PROV_SAFE.sub("", get(2))[:20], "code": code, "note": note}
+        time.sleep(0.5)
+    return out
+
+
 def fetch_svg(title: str, url: str) -> str:
     CACHE.mkdir(parents=True, exist_ok=True)
     fname = CACHE / (title.split(":", 1)[1])
@@ -216,6 +241,8 @@ def main() -> int:
     print(f"querying {len(wanted)} candidate titles on Commons…")
     idx = commons_index(wanted)
     print(f"  {len(idx)} exist")
+    prov = commons_provenance(sorted(idx))
+    print(f"  provenance read for {len(prov)} files")
 
     credits: list[str] = []
     index: list[dict] = []
@@ -234,6 +261,7 @@ def main() -> int:
             variant = title.split("-", 1)[1].rsplit(".", 1)[0]
             stages.append({"stage": stage, "form": form, "variant": variant,
                            "src": "https://commons.wikimedia.org/wiki/" + urllib.parse.quote(title.replace(" ", "_")),
+                           "prov": prov.get(title, {"period": "", "code": "", "note": ""}),
                            **geo})
             credits.append(f"- `{title}` — public domain — https://commons.wikimedia.org/wiki/{urllib.parse.quote(title)}")
         # regular-script stroke data (traditional + simplified)

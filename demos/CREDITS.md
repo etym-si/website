@@ -128,3 +128,19 @@ From the Wikimedia Commons *Ancient Chinese characters project*, released into t
 ## Animation reference
 
 Techniques inspired by 《三十六个字》 (Shanghai Animation Film Studio, 1984, dir. A Da). No frames or drawings from the film are used.
+
+## Artifact photos
+
+- `Shang Inscribed Ox Scapula (for divination).jpg` — Gary Lee Todd — CC0 — https://commons.wikimedia.org/wiki/File%3AShang_Inscribed_Ox_Scapula_%28for_divination%29.jpg
+- `Shang dynasty inscribed scapula.jpg` — BabelStone — CC BY-SA 3.0 — https://commons.wikimedia.org/wiki/File%3AShang_dynasty_inscribed_scapula.jpg
+- `帶卜辭龜腹甲（丙86）.jpg` — 氏子 — CC0 — https://commons.wikimedia.org/wiki/File%3A%E5%B8%B6%E5%8D%9C%E8%BE%AD%E9%BE%9C%E8%85%B9%E7%94%B2%EF%BC%88%E4%B8%9986%EF%BC%89.jpg
+- `Western Zhou bronze ding.jpg` — Gary Todd — CC0 — https://commons.wikimedia.org/wiki/File%3AWestern_Zhou_bronze_ding.jpg
+- `Da Yu ding inscription.jpg` — User:Mountain — Public domain — https://commons.wikimedia.org/wiki/File%3ADa_Yu_ding_inscription.jpg
+- `周曶鼎铭文.jpg` — 潘祖蔭（1830年－1890年） — Public domain — https://commons.wikimedia.org/wiki/File%3A%E5%91%A8%E6%9B%B6%E9%BC%8E%E9%93%AD%E6%96%87.jpg
+- `Shuowen Jiezi, by Xu Xuan.png` — photographic version of the Shuowen jiezi compiled by Xu Xuan and published by Zhonghua shuju in 1963. — Public domain — https://commons.wikimedia.org/wiki/File%3AShuowen_Jiezi%2C_by_Xu_Xuan.png
+- `Eighteen Laws of Qin on Qin Bamboo Slips (10160622885).jpg` — Gary Todd from Xinzheng, China — CC0 — https://commons.wikimedia.org/wiki/File%3AEighteen_Laws_of_Qin_on_Qin_Bamboo_Slips_%2810160622885%29.jpg
+- `Qin Bamboo Slips Dealing with Legal Questions (10160525384).jpg` — Gary Todd from Xinzheng, China — CC0 — https://commons.wikimedia.org/wiki/File%3AQin_Bamboo_Slips_Dealing_with_Legal_Questions_%2810160525384%29.jpg
+- `Qin Rishu Bamboo Slips (10160493624).jpg` — Gary Todd from Xinzheng, China — CC0 — https://commons.wikimedia.org/wiki/File%3AQin_Rishu_Bamboo_Slips_%2810160493624%29.jpg
+- `Qin Bamboo Slips (10160678273).jpg` — Gary Todd from Xinzheng, China — CC0 — https://commons.wikimedia.org/wiki/File%3AQin_Bamboo_Slips_%2810160678273%29.jpg
+- `Mawangdui LaoTsu Ms2.JPG` — Mawangdui Silk Manuscript Volume First, Wen Wu Publishing, Beijing, China, 1980-03 — Public domain — https://commons.wikimedia.org/wiki/File%3AMawangdui_LaoTsu_Ms2.JPG
+- `ZhiYong1000charcter.Color.jpg` — Zhi Yong(7th century, China) — Public domain — https://commons.wikimedia.org/wiki/File%3AZhiYong1000charcter.Color.jpg

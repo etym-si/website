@@ -8,8 +8,11 @@ import { evolutionScript, withoutNarration } from '../engine/scripts';
 import { loadGlyph } from '../glyphs';
 import { PICTURES } from '../pictures';
 import { BY_CHAR, UNITS, displayChar } from '../data/chars';
-import type { StageId } from '../data/stages';
+import { STAGE_BY_ID, type StageId } from '../data/stages';
 import { speak } from '../audio';
+import { artifactFor } from '../data/artifacts';
+import { artifactCard, artifactList } from '../ui/artifact';
+import type { GlyphDoc } from '../glyphs';
 
 let narration = true;
 let speed = 1;
@@ -63,6 +66,10 @@ export function renderTheater(root: HTMLElement, param: string): () => void {
   // --- engine -------------------------------------------------------------
   const stage = new Stage(stageBox, { label: t('theaterTitle') });
   stageBox.insertBefore(stage.svg, startOverlay);
+  const card = artifactCard();
+  stageBox.insertBefore(card.el, startOverlay);
+  let doc: GlyphDoc | null = null;
+  let seen: Record<string, number> = {};
   let tl = timeline([]);
   const player = new Player(stage, {
     onStep: (i) => viewer.highlight(i),
@@ -74,6 +81,11 @@ export function renderTheater(root: HTMLElement, param: string): () => void {
       tl.set(id, variant);
       caption.textContent = '';
       caption.classList.remove('show');
+      // show the real artifact behind this stage of the journey
+      const n = seen[id] ?? 0;
+      seen[id] = n + 1;
+      const hist = doc?.stages.filter((s) => s.stage === id)[n];
+      card.show(doc ? artifactFor(doc.char, id, hist, displayChar(BY_CHAR[doc.char], settings().script)) : null);
     },
   });
   player.setSpeed(speed);
@@ -110,18 +122,28 @@ export function renderTheater(root: HTMLElement, param: string): () => void {
     history.replaceState(null, '', `#/theater/${encodeURIComponent(ch)}`);
     renderInfo(ch);
     player.stop();
-    const doc = await loadGlyph(ch);
+    card.show(null);
+    const loaded = await loadGlyph(ch);
     if (current !== ch) return;
+    doc = loaded;
+    seen = {};
     const stages: StageId[] = [];
     if (PICTURES[ch]) stages.push('picture');
-    for (const st of doc.stages) if (!stages.includes(st.stage)) stages.push(st.stage);
+    for (const st of loaded.stages) if (!stages.includes(st.stage)) stages.push(st.stage);
     stages.push('regular');
-    if (doc.trad !== doc.char) stages.push('simplified');
+    if (loaded.trad !== loaded.char) stages.push('simplified');
+    // every real artifact on this character's journey, listed under the info card
+    const disp = displayChar(BY_CHAR[ch], settings().script);
+    const items = [...loaded.stages.map((st) => ({ id: st.stage as StageId, a: artifactFor(ch, st.stage, st, disp) })),
+      { id: 'regular' as StageId, a: artifactFor(ch, 'regular', undefined, disp) }]
+      .filter((x): x is { id: StageId; a: NonNullable<typeof x.a> } => !!x.a)
+      .map((x) => ({ icon: STAGE_BY_ID[x.id].icon, a: x.a }));
+    if (items.length) infoCard.appendChild(artifactList(items));
     const fresh = timeline(stages);
     tl.el.replaceWith(fresh.el);
     tl = fresh;
     if (!tlHost.contains(tl.el)) tlHost.replaceChildren(tl.el);
-    let steps = evolutionScript(doc);
+    let steps = evolutionScript(loaded);
     if (!narration) steps = withoutNarration(steps);
     viewer.load(steps);
     playBtn.textContent = `⏸ ${t('pause')}`;
