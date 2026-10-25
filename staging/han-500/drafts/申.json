@@ -1,0 +1,33 @@
+{
+  "id": "申",
+  "text": { "Hans": "申", "Hant": "申" },
+  "readings": { "pinyin": "shēn" },
+  "meaning": { "en": "to stretch; to state", "zh-Hans": "申请", "zh-Hant": "申請" },
+  "fact": {
+    "en": "申 began as a picture of a lightning bolt. Today it means 'to stretch' or 'to state', as in 申请 (to apply).",
+    "zh-Hans": "“申”最早画的是一道闪电。今天它表示伸展、说明，比如“申请”。",
+    "zh-Hant": "「申」最早畫的是一道閃電。今天它表示伸展、說明，比如「申請」。"
+  },
+  "story": {
+    "topic": { "en": "Counting After the Flash", "zh-Hans": "闪电过后数一数", "zh-Hant": "閃電過後數一數" },
+    "hook": {
+      "en": "Crack! A flash of lightning stretches across the dark sky — count with me, one, two, three, BOOM!",
+      "zh-Hans": "咔嚓！一道闪电划过黑漆漆的天空——跟我一起数：一、二、三，轰隆！",
+      "zh-Hant": "咔嚓！一道閃電劃過黑漆漆的天空——跟我一起數：一、二、三，轟隆！"
+    },
+    "turn": {
+      "en": "Its lightning meaning moved over to 電 (电), which puts rain, 雨, on top of 申.",
+      "zh-Hans": "后来，“闪电”的意思交给了“电”，它的繁体“電”就是在“申”上面加了“雨”。",
+      "zh-Hant": "後來，「閃電」的意思交給了「電」，就是在「申」上面加了「雨」。"
+    },
+    "closer": {
+      "en": "You can still spot 申 inside 電 (lightning) and 神 (spirit): that is 申, lightning in disguise!",
+      "zh-Hans": "在“神”和繁体的“電”里，还能找到“申”：它就是藏起来的闪电！",
+      "zh-Hant": "在「電」和「神」裡，還能找到「申」：它就是藏起來的閃電！"
+    }
+  },
+  "journey": "default",
+  "origin": { "type": "pictogram" },
+  "status": "draft",
+  "sources": [ { "title": "Wiktionary: 申", "url": "https://en.wiktionary.org/wiki/%E7%94%B3" } ]
+}

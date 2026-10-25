@@ -1,0 +1,23 @@
+id: 关
+text: { Hans: 关, Hant: 關 }
+readings: { pinyin: guān }
+meaning: { en: 'to close, to shut', zh-Hans: 关门, zh-Hant: 關門 }
+fact:
+  en: 关 (關) is a door, 門, locked shut with two wooden bars. The part inside also helps with the sound.
+  zh-Hans: 繁体的“關”外面是“門”，里面是两根把门闩住的木棍，这一部分也帮忙表示读音。
+  zh-Hant: 「關」外面是「門」，裡面是兩根把門閂住的木棍，這一部分也幫忙表示讀音。
+story:
+  topic: { en: Locking Up for the Night, zh-Hans: 睡前锁好门, zh-Hant: 睡前鎖好門 }
+  hook: { en: 'Clunk! Before bed, Dad shuts the front door and slides the heavy bolt across.', zh-Hans: 咚！睡觉前，爸爸关上大门，再把沉沉的门闩插好。, zh-Hant: 咚！睡覺前，爸爸關上大門，再把沉沉的門閂插好。 }
+  turn: { en: 'Simplified 关 comes from 関, a shorter way of writing 關, with the door 門 taken off.', zh-Hans: 简体的“关”来自“関”——“關”的一种简便写法，再去掉外面的“門”。, zh-Hant: 簡體字來自「関」——「關」的一種簡便寫法，再去掉外面的「門」。 }
+  closer: { en: 'A door barred tight with wooden poles: that is 关 (關), to close!', zh-Hans: 用木棍闩得紧紧的门：这就是关门的“关”！, zh-Hant: 用木棍閂得緊緊的門：這就是關門的「關」！ }
+journey: []
+origin:
+  type: phono-semantic
+  parts:
+    - { char: 門, role: meaning, gloss: { en: door, zh-Hans: 门, zh-Hant: 門 } }
+    - { char: 𢇅, role: sound }
+status: draft
+sources:
+  - { title: 'Wiktionary: 关', url: 'https://en.wiktionary.org/wiki/%E5%85%B3' }
+  - { title: 'Wiktionary: 關', url: 'https://en.wiktionary.org/wiki/%E9%97%9C' }

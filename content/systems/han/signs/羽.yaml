@@ -1,0 +1,18 @@
+id: 羽
+text: { Hans: 羽, Hant: 羽 }
+readings: { pinyin: yǔ }
+meaning: { en: feather, zh-Hans: 羽毛, zh-Hant: 羽毛 }
+fact:
+  en: 羽 is a picture of wings or feathers. Look at its two matching halves, side by side!
+  zh-Hans: “羽”画的是翅膀或羽毛。看，它的两半一模一样，并排站在一起！
+  zh-Hant: 「羽」畫的是翅膀或羽毛。看，它的兩半一模一樣，並排站在一起！
+story:
+  topic: { en: A Badminton Smash, zh-Hans: 打羽毛球, zh-Hant: 打羽毛球 }
+  hook: { en: 'Pock! You whack the shuttlecock over the net, and its feathers spin as it flies.', zh-Hans: 啪！你一拍把羽毛球打过网，球上的羽毛转着圈飞了过去。, zh-Hant: 啪！你一拍把羽毛球打過網，球上的羽毛轉著圈飛了過去。 }
+  closer: { en: 'Two feathery wings side by side: that is 羽, as in 羽毛!', zh-Hans: 并排的两片羽翼：这就是羽毛的“羽”！, zh-Hant: 並排的兩片羽翼：這就是羽毛的「羽」！ }
+journey: default
+origin:
+  type: pictogram
+status: draft
+sources:
+  - { title: 'Wiktionary: 羽', url: 'https://en.wiktionary.org/wiki/%E7%BE%BD' }

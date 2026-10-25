@@ -1,0 +1,18 @@
+id: 角
+text: { Hans: 角, Hant: 角 }
+readings: { pinyin: jiǎo }
+meaning: { en: horn, zh-Hans: 牛角, zh-Hant: 牛角 }
+fact:
+  en: 角 is a picture of a horn. It can also mean a point, like the three points of a triangle, 三角形.
+  zh-Hans: “角”画的是一只角。它也可以指尖尖的角，比如三角形的三个角。
+  zh-Hant: 「角」畫的是一隻角。它也可以指尖尖的角，比如三角形的三個角。
+story:
+  topic: { en: Two Goats Butting Heads, zh-Hans: 两只小山羊顶角, zh-Hant: 兩隻小山羊頂角 }
+  hook: { en: 'Clack! Two young goats butt heads in the meadow, horns knocking together.', zh-Hans: 咔！草地上两只小山羊顶起角来，羊角撞得咔咔响。, zh-Hant: 喀！草地上兩隻小山羊頂起角來，羊角撞得喀喀響。 }
+  closer: { en: 'A pointy horn: that is 角 — on goats, on cows, and on every triangle!', zh-Hans: 一只尖尖的角：这就是“角”——山羊有，牛有，每个三角形也有！, zh-Hant: 一隻尖尖的角：這就是「角」——山羊有，牛有，每個三角形也有！ }
+journey: default
+origin:
+  type: pictogram
+status: draft
+sources:
+  - { title: 'Wiktionary: 角', url: 'https://en.wiktionary.org/wiki/%E8%A7%92' }

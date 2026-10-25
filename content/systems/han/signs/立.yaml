@@ -1,0 +1,19 @@
+id: 立
+text: { Hans: 立, Hant: 立 }
+readings: { pinyin: lì }
+meaning: { en: to stand, zh-Hans: 起立, zh-Hant: 起立 }
+fact:
+  en: 立 means to stand. It shows a person standing firmly on the ground.
+  zh-Hans: “立”的意思是站。它画的是一个稳稳站在地面上的人。
+  zh-Hant: 「立」的意思是站。它畫的是一個穩穩站在地面上的人。
+story:
+  topic: { en: 'Stand Up, Class!', zh-Hans: 全班起立！, zh-Hant: 全班起立！ }
+  hook: { en: "'Stand up!' The teacher walks in, and the whole class jumps to its feet, shoes flat on the floor.", zh-Hans: “起立！”老师走进教室，全班同学一下子站了起来，双脚稳稳地踩在地上。, zh-Hant: 「起立！」老師走進教室，全班同學一下子站了起來，雙腳穩穩地踩在地上。 }
+  early: { en: 'The oldest 立 looks a lot like 大, a person facing forward, but with a line under the feet: the ground.', zh-Hans: 最早的“立”很像“大”，是一个面朝前方的人，只是脚下多了一横：那就是地面。, zh-Hant: 最早的「立」很像「大」，是一個面朝前方的人，只是腳下多了一橫：那就是地面。 }
+  closer: { en: 'A person plus the ground beneath their feet: that is 立, to stand!', zh-Hans: 一个人，加上脚下的地面：这就是起立的“立”！, zh-Hant: 一個人，加上腳下的地面：這就是起立的「立」！ }
+journey: default
+origin:
+  type: pictogram
+status: draft
+sources:
+  - { title: 'Wiktionary: 立', url: 'https://en.wiktionary.org/wiki/%E7%AB%8B' }

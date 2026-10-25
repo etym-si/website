@@ -1,0 +1,38 @@
+{
+  "id": "止",
+  "text": { "Hans": "止", "Hant": "止" },
+  "readings": { "pinyin": "zhǐ" },
+  "meaning": { "en": "to stop", "zh-Hans": "停止", "zh-Hant": "停止" },
+  "fact": {
+    "en": "止 began as a footprint pointing up, and at first it meant 'foot'. Today it means 'to stop'.",
+    "zh-Hans": "“止”最早画的是一个脚尖朝上的脚印，原来的意思是“脚”。今天它的意思是“停止”。",
+    "zh-Hant": "「止」最早畫的是一個腳尖朝上的腳印，原本的意思是「腳」。今天它的意思是「停止」。"
+  },
+  "story": {
+    "topic": { "en": "Freeze, Everybody!", "zh-Hans": "大家都不许动！", "zh-Hant": "大家都不准動！" },
+    "hook": {
+      "en": "Freeze! In the game 'one, two, three, wooden man', everyone stops mid-step the moment the caller turns around.",
+      "zh-Hans": "不许动！玩“一二三木头人”的时候，喊口令的人一转身，大家就得立刻停下脚步。",
+      "zh-Hant": "不准動！玩「一二三木頭人」的時候，喊口令的人一轉身，大家就得立刻停下腳步。"
+    },
+    "early": {
+      "en": "On oracle bones, 止 is a footprint with three toes and a sole, pointing up.",
+      "zh-Hans": "在甲骨文里，“止”是一个朝上的脚印，有三个脚趾和一个脚掌。",
+      "zh-Hant": "在甲骨文裡，「止」是一個朝上的腳印，有三個腳趾和一個腳掌。"
+    },
+    "turn": {
+      "en": "The old meaning 'foot' is now written with a newer character made from it: 趾.",
+      "zh-Hans": "原来“脚”的意思，现在写成由“止”变来的“趾”。",
+      "zh-Hant": "原本「腳」的意思，現在寫成由「止」變來的「趾」。"
+    },
+    "closer": {
+      "en": "A three-toed footprint: that is 止 — and today it tells you to stop!",
+      "zh-Hans": "一个三趾脚印：这就是“止”——今天它告诉你：停下来！",
+      "zh-Hant": "一個三趾腳印：這就是「止」——今天它告訴你：停下來！"
+    }
+  },
+  "journey": "default",
+  "origin": { "type": "pictogram" },
+  "status": "draft",
+  "sources": [ { "title": "Wiktionary: 止", "url": "https://en.wiktionary.org/wiki/%E6%AD%A2" } ]
+}

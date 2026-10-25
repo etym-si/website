@@ -1,0 +1,38 @@
+{
+  "id": "母",
+  "text": { "Hans": "母", "Hant": "母" },
+  "readings": { "pinyin": "mǔ" },
+  "meaning": { "en": "mother", "zh-Hans": "母亲", "zh-Hant": "母親" },
+  "fact": {
+    "en": "母 means mother. It grew out of 女 (woman), with dots added so readers could tell the two words apart.",
+    "zh-Hans": "“母”就是母亲。它是从“女”变来的：加上几个点，大家就能把两个字分清楚了。",
+    "zh-Hant": "「母」就是母親。它是從「女」變來的：加上幾個點，大家就能把兩個字分清楚了。"
+  },
+  "story": {
+    "topic": { "en": "A Mother's Day Surprise", "zh-Hans": "母亲节的惊喜", "zh-Hant": "母親節的驚喜" },
+    "hook": {
+      "en": "Mother's Day morning! You tiptoe into the bedroom with a paper heart and breakfast for Mom.",
+      "zh-Hans": "母亲节的早上！你踮着脚尖走进卧室，给妈妈送上纸做的爱心和早餐。",
+      "zh-Hant": "母親節的早上！你踮著腳尖走進臥室，給媽媽送上紙做的愛心和早餐。"
+    },
+    "early": {
+      "en": "On the earliest oracle bones, 'woman' and 'mother' were written with the very same sign: 女.",
+      "zh-Hans": "在最早的甲骨文里，“女人”的“女”和“母亲”的“母”都写成同一个字：“女”。",
+      "zh-Hant": "在最早的甲骨文裡，「女人」的「女」和「母親」的「母」都寫成同一個字：「女」。"
+    },
+    "turn": {
+      "en": "Then writers added dots to 女, making a separate character just for 'mother': 母.",
+      "zh-Hans": "后来，人们在“女”上加了几个点，专门用来表示“母亲”，这就是“母”。",
+      "zh-Hant": "後來，人們在「女」上加了幾個點，專門用來表示「母親」，這就是「母」。"
+    },
+    "closer": {
+      "en": "女 plus two little dots: that is 母, mother!",
+      "zh-Hans": "“女”加上两个小点：这就是母亲的“母”！",
+      "zh-Hant": "「女」加上兩個小點：這就是母親的「母」！"
+    }
+  },
+  "journey": "default",
+  "origin": { "type": "ideogram" },
+  "status": "draft",
+  "sources": [ { "title": "Wiktionary: 母", "url": "https://en.wiktionary.org/wiki/%E6%AF%8D" } ]
+}

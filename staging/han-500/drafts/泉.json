@@ -1,0 +1,28 @@
+{
+  "id": "泉",
+  "text": { "Hans": "泉", "Hant": "泉" },
+  "readings": { "pinyin": "quán" },
+  "meaning": { "en": "spring (of water)", "zh-Hans": "泉水", "zh-Hant": "泉水" },
+  "fact": {
+    "en": "泉 shows water flowing out of a spring. On top, 白 stands for the spring's opening, and below is 水, water.",
+    "zh-Hans": "“泉”画的是从泉眼里流出来的水：上面的“白”是泉眼，下面的“水”就是水。",
+    "zh-Hant": "「泉」畫的是從泉眼裡流出來的水：上面的「白」是泉眼，下面的「水」就是水。"
+  },
+  "story": {
+    "topic": { "en": "Grandma's Hot Spring", "zh-Hans": "奶奶泡温泉", "zh-Hant": "奶奶泡溫泉" },
+    "hook": {
+      "en": "Ahh! Steam curls up as Grandma dips her toes into a warm spring bubbling out of the ground.",
+      "zh-Hans": "啊——真舒服！奶奶把脚伸进从地下冒出来的温泉里，热气一圈圈往上飘。",
+      "zh-Hant": "啊——真舒服！奶奶把腳伸進從地底冒出來的溫泉裡，熱氣一圈圈往上飄。"
+    },
+    "closer": {
+      "en": "A spring's mouth 白 with water 水 pouring out: that is 泉, a spring!",
+      "zh-Hans": "泉眼“白”里涌出“水”：这就是泉水的“泉”！",
+      "zh-Hant": "泉眼「白」裡湧出「水」：這就是泉水的「泉」！"
+    }
+  },
+  "journey": "default",
+  "origin": { "type": "pictogram" },
+  "status": "draft",
+  "sources": [ { "title": "Wiktionary: 泉", "url": "https://en.wiktionary.org/wiki/%E6%B3%89" } ]
+}

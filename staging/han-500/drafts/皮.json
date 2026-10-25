@@ -1,0 +1,38 @@
+{
+  "id": "皮",
+  "text": { "Hans": "皮", "Hant": "皮" },
+  "readings": { "pinyin": "pí" },
+  "meaning": { "en": "skin, peel", "zh-Hans": "皮肤", "zh-Hant": "皮膚" },
+  "fact": {
+    "en": "皮 means skin or peel. The 又 on the lower right is a hand, pulling the skin off.",
+    "zh-Hans": "“皮”就是皮、外皮。右下角的“又”是一只手，正在把皮剥下来。",
+    "zh-Hant": "「皮」就是皮、外皮。右下角的「又」是一隻手，正在把皮剝下來。"
+  },
+  "story": {
+    "topic": { "en": "Peeling a Banana", "zh-Hans": "剥香蕉", "zh-Hant": "剝香蕉" },
+    "hook": {
+      "en": "One strip, two strips, three! You peel a banana and drop the slippery skin in the bin.",
+      "zh-Hans": "一条，两条，三条！你把香蕉皮一条条剥下来，扔进了垃圾桶。",
+      "zh-Hant": "一條，兩條，三條！你把香蕉皮一條條剝下來，丟進了垃圾桶。"
+    },
+    "early": {
+      "en": "The oldest 皮 shows a hand (又) stripping the fur from an animal skin.",
+      "zh-Hans": "最早的“皮”画的是一只手（又），正在剥去兽皮上的毛。",
+      "zh-Hant": "最早的「皮」畫的是一隻手（又），正在剝去獸皮上的毛。"
+    },
+    "turn": {
+      "en": "Later, the animal skin slid up to the top left and turned into a few plain strokes.",
+      "zh-Hans": "后来，兽皮挪到了左上方，变成了几笔简单的笔画。",
+      "zh-Hant": "後來，獸皮挪到了左上方，變成了幾筆簡單的筆畫。"
+    },
+    "closer": {
+      "en": "A hand 又 peeling off a skin: that is 皮 — bananas have it, apples have it, and so do you!",
+      "zh-Hans": "一只手“又”在剥皮：这就是“皮”——香蕉有皮，苹果有皮，你也有皮肤！",
+      "zh-Hant": "一隻手「又」在剝皮：這就是「皮」——香蕉有皮，蘋果有皮，你也有皮膚！"
+    }
+  },
+  "journey": "default",
+  "origin": { "type": "pictogram" },
+  "status": "draft",
+  "sources": [ { "title": "Wiktionary: 皮", "url": "https://en.wiktionary.org/wiki/%E7%9A%AE" } ]
+}

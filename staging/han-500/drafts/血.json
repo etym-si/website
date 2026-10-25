@@ -1,0 +1,39 @@
+{
+  "id": "血",
+  "text": { "Hans": "血", "Hant": "血" },
+  "readings": { "pinyin": "xuè" },
+  "meaning": { "en": "blood", "zh-Hans": "流血", "zh-Hant": "流血" },
+  "fact": {
+    "en": "血 is a drop of blood in a bowl, 皿. The little stroke on top is the drop.",
+    "zh-Hans": "“血”是盛在器皿“皿”里的一滴血，上面那一小笔就是血滴。",
+    "zh-Hant": "「血」是盛在器皿「皿」裡的一滴血，上面那一小筆就是血滴。"
+  },
+  "story": {
+    "topic": { "en": "A Scraped Knee", "zh-Hans": "擦破的膝盖", "zh-Hant": "擦破的膝蓋" },
+    "hook": {
+      "en": "Ouch! You scrape your knee on the playground and a red drop appears — time for a bandage!",
+      "zh-Hans": "哎哟！你在操场上摔了一跤，膝盖擦破了，冒出一滴红红的血。快贴上创可贴！",
+      "zh-Hant": "哎喲！你在操場上摔了一跤，膝蓋擦破了，冒出一滴紅紅的血。快貼上OK繃！"
+    },
+    "early": {
+      "en": "The oldest 血 is a special bowl used in ceremonies, with a drop of blood inside.",
+      "zh-Hans": "最早的“血”是一个祭祀时用的器皿，里面有一滴血。",
+      "zh-Hant": "最早的「血」是一個祭祀時用的器皿，裡面有一滴血。"
+    },
+    "closer": {
+      "en": "One red drop over the bowl 皿: that is 血, blood. Now, where's that bandage?",
+      "zh-Hans": "器皿“皿”上的一滴红：这就是“血”。创可贴在哪儿呢？",
+      "zh-Hant": "器皿「皿」上的一滴紅：這就是「血」。OK繃在哪裡呢？"
+    }
+  },
+  "journey": "default",
+  "origin": {
+    "type": "compound-ideogram",
+    "parts": [
+      { "char": "一", "role": "meaning", "gloss": { "en": "drop of blood", "zh-Hans": "血滴", "zh-Hant": "血滴" } },
+      { "char": "皿", "role": "meaning", "gloss": { "en": "container", "zh-Hans": "器皿", "zh-Hant": "器皿" } }
+    ]
+  },
+  "status": "draft",
+  "sources": [ { "title": "Wiktionary: 血", "url": "https://en.wiktionary.org/wiki/%E8%A1%80" } ]
+}

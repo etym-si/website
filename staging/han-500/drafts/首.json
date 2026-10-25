@@ -1,0 +1,38 @@
+{
+  "id": "首",
+  "text": { "Hans": "首", "Hant": "首" },
+  "readings": { "pinyin": "shǒu" },
+  "meaning": { "en": "head; leader", "zh-Hans": "首领", "zh-Hant": "首領" },
+  "fact": {
+    "en": "首 began as the head of an animal, with a long mouth and horns. Today it means head or leader.",
+    "zh-Hans": "“首”最早画的是一个动物的头，有长长的嘴和角。今天它表示头部，也表示首领。",
+    "zh-Hant": "「首」最早畫的是一個動物的頭，有長長的嘴和角。今天它表示頭部，也表示首領。"
+  },
+  "story": {
+    "topic": { "en": "The Leader of the Herd", "zh-Hans": "牛群的首领", "zh-Hant": "牛群的首領" },
+    "hook": {
+      "en": "At the front of the buffalo herd strides the leader, head held high and horns gleaming in the sun.",
+      "zh-Hans": "水牛群的最前面，走着它们的首领，它高高地昂着头，牛角在阳光下闪闪发亮。",
+      "zh-Hant": "水牛群的最前面，走著牠們的首領，牠高高地昂著頭，牛角在陽光下閃閃發亮。"
+    },
+    "early": {
+      "en": "On oracle bones, 首 is a horned animal head, drawn either with or without a tuft of hair on top.",
+      "zh-Hans": "在甲骨文里，“首”是一个长着角的动物脑袋，有的头顶上有毛，有的没有。",
+      "zh-Hant": "在甲骨文裡，「首」是一個長著角的動物腦袋，有的頭頂上有毛，有的沒有。"
+    },
+    "turn": {
+      "en": "The hairy version is the one that lasted, and its hair, 巛, was later shortened to the two little strokes 丷 on top.",
+      "zh-Hans": "流传下来的是有毛的那种写法，头上的毛“巛”后来简化成了上面的两小笔“丷”。",
+      "zh-Hant": "流傳下來的是有毛的那種寫法，頭上的毛「巛」後來簡化成了上面的兩小筆「丷」。"
+    },
+    "closer": {
+      "en": "A horned head with a little tuft of hair: that is 首, the head — and the leader at the head of the group!",
+      "zh-Hans": "长着角、头顶有毛的脑袋：这就是“首”——是头，也是走在最前面的首领！",
+      "zh-Hant": "長著角、頭頂有毛的腦袋：這就是「首」——是頭，也是走在最前面的首領！"
+    }
+  },
+  "journey": "default",
+  "origin": { "type": "pictogram" },
+  "status": "draft",
+  "sources": [ { "title": "Wiktionary: 首", "url": "https://en.wiktionary.org/wiki/%E9%A6%96" } ]
+}

@@ -1,0 +1,18 @@
+id: 工
+text: { Hans: 工, Hant: 工 }
+readings: { pinyin: gōng }
+meaning: { en: work, zh-Hans: 工作, zh-Hant: 工作 }
+fact:
+  en: 工 is a picture of a tool, but which one? Some say a blade for ploughing and marking borders; others say a carpenter's square.
+  zh-Hans: “工”画的是一件工具，可到底是什么工具呢？有人说是用来犁地、划分边界的带刃工具，也有人说是木匠用的曲尺。
+  zh-Hant: 「工」畫的是一件工具，可是到底是什麼工具呢？有人說是用來犁地、劃分邊界的帶刃工具，也有人說是木匠用的曲尺。
+story:
+  topic: { en: The Building Site, zh-Hans: 热闹的工地, zh-Hant: 熱鬧的工地 }
+  hook: { en: Look at the building site! Diggers rumble while workers in yellow hard hats build a brand-new school., zh-Hans: 快看工地！挖掘机隆隆作响，戴着黄色安全帽的工人们正在盖一所新学校。, zh-Hant: 快看工地！挖土機隆隆作響，戴著黃色安全帽的工人們正在蓋一所新學校。 }
+  closer: { en: "Whatever the tool, it's for getting the job done: that is 工, work — as in 工作!", zh-Hans: 不管是哪种工具，都是用来干活的：这就是工作的“工”！, zh-Hant: 不管是哪種工具，都是用來做事的：這就是工作的「工」！ }
+journey: default
+origin:
+  type: pictogram
+status: draft
+sources:
+  - { title: 'Wiktionary: 工', url: 'https://en.wiktionary.org/wiki/%E5%B7%A5' }

@@ -1,0 +1,43 @@
+{
+  "id": "开",
+  "text": { "Hans": "开", "Hant": "開" },
+  "readings": { "pinyin": "kāi" },
+  "meaning": { "en": "to open", "zh-Hans": "开门", "zh-Hant": "開門" },
+  "fact": {
+    "en": "开 (開) shows two hands unlatching a door, 門. Simplified 开 keeps the hands and the latch but drops the door.",
+    "zh-Hans": "繁体的“開”是两只手拉开门闩，把门打开。简体的“开”留下了手和门闩，去掉了“门”。",
+    "zh-Hant": "「開」是兩隻手拉開門閂，把門打開。簡體字只留下了手和門閂，去掉了「門」。"
+  },
+  "story": {
+    "topic": { "en": "Opening the Garden Gate", "zh-Hans": "打开花园的门", "zh-Hant": "打開花園的門" },
+    "hook": {
+      "en": "Click, creak! You slide back the latch and swing the garden gate wide open for your friends.",
+      "zh-Hans": "咔嗒，吱呀！你拉开门闩，把花园的大门打开，让朋友们进来。",
+      "zh-Hant": "喀噠，咿呀！你拉開門閂，把花園的大門打開，讓朋友們進來。"
+    },
+    "turn": {
+      "en": "Since seal script, the latch and the two hands have been squeezed together into one shape inside the door.",
+      "zh-Hans": "从篆书开始，门闩和两只手就被挤在一起，变成了门里面的“开”。",
+      "zh-Hant": "從篆書開始，門閂和兩隻手就被擠在一起，變成了「門」裡面的那個部分。"
+    },
+    "closer": {
+      "en": "Two hands lifting the latch: that is 开 (開), to open!",
+      "zh-Hans": "两只手拉开门闩：这就是开门的“开”！",
+      "zh-Hant": "兩隻手拉開門閂：這就是開門的「開」！"
+    }
+  },
+  "journey": "default",
+  "origin": {
+    "type": "compound-ideogram",
+    "parts": [
+      { "char": "門", "role": "meaning", "gloss": { "en": "door", "zh-Hans": "门", "zh-Hant": "門" } },
+      { "char": "一", "role": "meaning", "gloss": { "en": "latch", "zh-Hans": "门闩", "zh-Hant": "門閂" } },
+      { "char": "廾", "role": "meaning", "gloss": { "en": "a pair of hands", "zh-Hans": "双手", "zh-Hant": "雙手" } }
+    ]
+  },
+  "status": "draft",
+  "sources": [
+    { "title": "Wiktionary: 开", "url": "https://en.wiktionary.org/wiki/%E5%BC%80" },
+    { "title": "Wiktionary: 開", "url": "https://en.wiktionary.org/wiki/%E9%96%8B" }
+  ]
+}

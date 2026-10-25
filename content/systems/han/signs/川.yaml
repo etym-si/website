@@ -1,0 +1,18 @@
+id: 川
+text: { Hans: 川, Hant: 川 }
+readings: { pinyin: chuān }
+meaning: { en: 'river, stream', zh-Hans: 山川, zh-Hant: 山川 }
+fact:
+  en: 川 is a picture of flowing water. Its three strokes stream along side by side, like a river.
+  zh-Hans: “川”画的是流动的水，三笔并排向前流，就像一条河。
+  zh-Hant: 「川」畫的是流動的水，三筆並排向前流，就像一條河。
+story:
+  topic: { en: The Leaf Boat Race, zh-Hans: 树叶小船比赛, zh-Hant: 樹葉小船比賽 }
+  hook: { en: 'You set a leaf boat on the stream, then race along the bank to see where it floats!', zh-Hans: 你把一片树叶轻轻放进小河，然后沿着河岸一路追着它跑！, zh-Hant: 你把一片樹葉輕輕放進小河，然後沿著河岸一路追著它跑！ }
+  closer: { en: 'Three strokes rushing side by side like water: that is 川, a river! Compare it with 水.', zh-Hans: 三笔像水一样并排奔流：这就是“川”，河流！和“水”比一比吧。, zh-Hant: 三筆像水一樣並排奔流：這就是「川」，河流！和「水」比一比吧。 }
+journey: default
+origin:
+  type: pictogram
+status: draft
+sources:
+  - { title: 'Wiktionary: 川', url: 'https://en.wiktionary.org/wiki/%E5%B7%9D' }

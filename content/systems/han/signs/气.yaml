@@ -1,0 +1,21 @@
+id: 气
+text: { Hans: 气, Hant: 氣 }
+readings: { pinyin: qì }
+meaning: { en: 'air, gas', zh-Hans: 空气, zh-Hant: 空氣 }
+fact:
+  en: "气 began as a picture of clouds drifting across the sky. Traditional 氣 adds 米 (rice): it first meant a gift of food, then borrowed the meaning 'air' from 气."
+  zh-Hans: “气”最早画的是飘过天空的云气。繁体的“氣”多了一个“米”：它原来指送给别人的粮食，后来借用了“气”的意思。
+  zh-Hant: 「气」最早畫的是飄過天空的雲氣。「氣」多了一個「米」：它原本指送給別人的糧食，後來借用了「气」的意思。
+story:
+  topic: { en: Blowing Up a Balloon, zh-Hans: 吹气球, zh-Hant: 吹氣球 }
+  hook: { en: Puff out your cheeks and blow! Your balloon fills with air until it's round and tight., zh-Hans: 鼓起腮帮子，用力吹！气球里装满了空气，变得又圆又鼓。, zh-Hant: 鼓起腮幫子，用力吹！氣球裡裝滿了空氣，變得又圓又鼓。 }
+  early: { en: 'On oracle bones, 气 was just three flat lines, like clouds floating across the sky.', zh-Hans: 在甲骨文里，“气”只是三道横线，就像飘过天空的云。, zh-Hant: 在甲骨文裡，「气」只是三道橫線，就像飄過天空的雲。 }
+  turn: { en: 'But three lines looked too much like 三 (three)! So writers changed it, drawing a small stroke from top to bottom to tell them apart.', zh-Hans: 可是三道横线太像数字“三”了！于是人们改了写法，从上往下画出一小笔，好把它们区分开。, zh-Hant: 可是三道橫線太像數字「三」了！於是人們改了寫法，從上往下畫出一小筆，好把它們區分開。 }
+  closer: { en: 'Three cloud lines that learned not to look like 三: that is 气 (氣), air — as in 空气!', zh-Hans: 三道云气线，改得不再像“三”：这就是空气的“气”！, zh-Hant: 三道雲氣線，改得不再像「三」：這就是空氣的「氣」！ }
+journey: [{ stage: oracle, form: 气 }, { stage: bronze, form: 气 }, { stage: seal, form: 氣 }, { stage: clerical, form: 氣 }]
+origin:
+  type: pictogram
+status: draft
+sources:
+  - { title: 'Wiktionary: 气', url: 'https://en.wiktionary.org/wiki/%E6%B0%94' }
+  - { title: 'Wiktionary: 氣', url: 'https://en.wiktionary.org/wiki/%E6%B0%A3' }

@@ -1,0 +1,38 @@
+{
+  "id": "爪",
+  "text": { "Hans": "爪", "Hant": "爪" },
+  "readings": { "pinyin": "zhuǎ" },
+  "meaning": { "en": "claw, paw", "zh-Hans": "爪子", "zh-Hant": "爪子" },
+  "fact": {
+    "en": "爪 is a hand grabbing down from above. It often means an animal's claw, but the picture is really a human hand.",
+    "zh-Hans": "“爪”是一只从上往下抓的手。它常常指动物的爪子，可图画里其实是人的手。",
+    "zh-Hant": "「爪」是一隻從上往下抓的手。它常常指動物的爪子，可是圖畫裡其實是人的手。"
+  },
+  "story": {
+    "topic": { "en": "The Kitten and the Ribbon", "zh-Hans": "小猫抓丝带", "zh-Hant": "小貓抓絲帶" },
+    "hook": {
+      "en": "Swipe! The kitten stretches out a paw and pounces on the dangling ribbon.",
+      "zh-Hans": "唰！小猫伸出爪子，扑向晃来晃去的丝带。",
+      "zh-Hant": "唰！小貓伸出爪子，撲向晃來晃去的絲帶。"
+    },
+    "early": {
+      "en": "In the earliest forms, the hand reaches in from the side, with three fingers ready to grab.",
+      "zh-Hans": "在最早的字形里，这只手是从侧面伸过来的，三根手指准备抓东西。",
+      "zh-Hant": "在最早的字形裡，這隻手是從側面伸過來的，三根手指準備抓東西。"
+    },
+    "turn": {
+      "en": "Later the hand turned to grab from above, fingers pointing down.",
+      "zh-Hans": "后来，这只手变成从上往下抓，手指朝下。",
+      "zh-Hant": "後來，這隻手變成從上往下抓，手指朝下。"
+    },
+    "closer": {
+      "en": "A hand ready to grab: that is 爪 — and on a kitten, it's a claw!",
+      "zh-Hans": "一只准备抓东西的手：这就是“爪”——长在小猫身上，就是爪子！",
+      "zh-Hant": "一隻準備抓東西的手：這就是「爪」——長在小貓身上，就是爪子！"
+    }
+  },
+  "journey": "default",
+  "origin": { "type": "pictogram" },
+  "status": "draft",
+  "sources": [ { "title": "Wiktionary: 爪", "url": "https://en.wiktionary.org/wiki/%E7%88%AA" } ]
+}

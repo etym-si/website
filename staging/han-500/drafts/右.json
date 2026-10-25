@@ -1,0 +1,44 @@
+{
+  "id": "右",
+  "text": { "Hans": "右", "Hant": "右" },
+  "readings": { "pinyin": "yòu" },
+  "meaning": { "en": "right", "zh-Hans": "右边", "zh-Hant": "右邊" },
+  "fact": {
+    "en": "右 is 又, a right hand, with a little 口 added as a mark.",
+    "zh-Hans": "“右”就是右手“又”，再加上一个当记号的小“口”。",
+    "zh-Hant": "「右」就是右手「又」，再加上一個當記號的小「口」。"
+  },
+  "story": {
+    "topic": { "en": "Hands Up for the Answer", "zh-Hans": "举起右手来回答", "zh-Hant": "舉起右手來回答" },
+    "hook": {
+      "en": "Raise your right hand if you know the answer! All over the classroom, right hands shoot up.",
+      "zh-Hans": "知道答案的请举右手！教室里的右手一下子全举了起来。",
+      "zh-Hant": "知道答案的請舉右手！教室裡的右手一下子全舉了起來。"
+    },
+    "early": {
+      "en": "On oracle bones, 'right' was written with just 又, the right-hand sign, borrowed for its sound.",
+      "zh-Hans": "在甲骨文里，“右”只写成一个“又”，也就是右手，是借它来表示读音的。",
+      "zh-Hant": "在甲骨文裡，「右」只寫成一個「又」，也就是右手，是借它來表示讀音的。"
+    },
+    "turn": {
+      "en": "In bronze inscriptions, a 口 was added — not as a mouth, just as a mark to tell 右 apart from 又.",
+      "zh-Hans": "到了金文，又加了一个“口”——它不是嘴巴，只是一个记号，用来把“右”和“又”区分开。",
+      "zh-Hant": "到了金文，又加了一個「口」——它不是嘴巴，只是一個記號，用來把「右」和「又」區分開。"
+    },
+    "closer": {
+      "en": "A right hand 又 with a little 口 tucked under it: that is 右, right!",
+      "zh-Hans": "右手“又”下面藏着一个小“口”：这就是右边的“右”！",
+      "zh-Hant": "右手「又」下面藏著一個小「口」：這就是右邊的「右」！"
+    }
+  },
+  "journey": "default",
+  "origin": {
+    "type": "phono-semantic",
+    "parts": [
+      { "char": "口", "role": "meaning", "gloss": { "en": "a marker", "zh-Hans": "记号", "zh-Hant": "記號" } },
+      { "char": "又", "role": "sound" }
+    ]
+  },
+  "status": "draft",
+  "sources": [ { "title": "Wiktionary: 右", "url": "https://en.wiktionary.org/wiki/%E5%8F%B3" } ]
+}

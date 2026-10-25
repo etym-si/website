@@ -1,0 +1,21 @@
+id: 风
+text: { Hans: 风, Hant: 風 }
+readings: { pinyin: fēng }
+meaning: { en: wind, zh-Hans: 风筝, zh-Hant: 風箏 }
+fact:
+  en: To write 'wind', people borrowed the sign for the phoenix bird, 凤 (鳳), because the two words sounded alike.
+  zh-Hans: 为了写“风”，古人借用了凤凰的“凤”字，因为两个词的读音相近。
+  zh-Hant: 為了寫「風」，古人借用了鳳凰的「鳳」字，因為兩個詞的讀音相近。
+story:
+  topic: { en: Kite Day, zh-Hans: 放风筝的日子, zh-Hant: 放風箏的日子 }
+  hook: { en: 'Whoosh! A gust of wind tugs your kite string, and the red kite climbs higher and higher.', zh-Hans: 呼呼呼！一阵风扯着风筝线，红色的风筝越飞越高。, zh-Hant: 呼呼呼！一陣風扯著風箏線，紅色的風箏越飛越高。 }
+  early: { en: "The oldest way to write 'wind' is really a phoenix, sometimes with 凡 added to help with the sound.", zh-Hans: 最早的“风”其实是一只凤凰，有时还加上“凡”来帮忙表示读音。, zh-Hant: 最早的「風」其實是一隻鳳凰，有時還加上「凡」來幫忙表示讀音。 }
+  turn: { en: 'Later, a phoenix feather got muddled into 虫 (bug), giving 風 its 凡-over-虫 shape. Simplified 风 swaps the inside for a quick cross.', zh-Hans: 后来，凤凰的羽毛被错写成了“虫”，繁体的“風”就成了“凡”里面加“虫”的样子。简体的“风”把里面换成了一个简单的叉。, zh-Hant: 後來，鳳凰的羽毛被誤寫成了「虫」，「風」就成了「凡」裡面加「虫」的樣子。簡體字把裡面換成了一個簡單的叉。 }
+  closer: { en: 'An old dictionary even linked 風 to insects, but you know the real story: 风 is wind, written with a borrowed phoenix!', zh-Hans: 一部古老的字典还以为“風”和虫子有关，可你知道真正的故事：“风”是借凤凰写出来的风！, zh-Hant: 一部古老的字典還以為「風」和蟲子有關，可是你知道真正的故事：「風」是借鳳凰寫出來的風！ }
+journey: default
+origin:
+  type: loan
+status: draft
+sources:
+  - { title: 'Wiktionary: 风', url: 'https://en.wiktionary.org/wiki/%E9%A3%8E' }
+  - { title: 'Wiktionary: 風', url: 'https://en.wiktionary.org/wiki/%E9%A2%A8' }

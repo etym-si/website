@@ -1,0 +1,22 @@
+id: 电
+text: { Hans: 电, Hant: 電 }
+readings: { pinyin: diàn }
+meaning: { en: electricity; lightning, zh-Hans: 电灯, zh-Hant: 電燈 }
+fact:
+  en: 电 (電) puts rain, 雨, over 申, the old picture of lightning. 申 also helps with the sound.
+  zh-Hans: 繁体的“電”是“雨”在上，“申”在下。“申”原来就是闪电的图画，也帮忙表示读音。
+  zh-Hant: 「電」是「雨」在上，「申」在下。「申」原本就是閃電的圖畫，也幫忙表示讀音。
+story:
+  topic: { en: Charging Up, zh-Hans: 正在充电, zh-Hant: 正在充電 }
+  hook: { en: 'Beep! You plug in the tablet, and a tiny lightning bolt pops up on the screen: charging!', zh-Hans: 嘀！你给平板电脑插上电源，屏幕上跳出一个小闪电：正在充电！, zh-Hant: 嗶！你幫平板電腦插上電源，螢幕上跳出一個小閃電：正在充電！ }
+  closer: { en: Rain 雨 above lightning 申 makes 電 — and simplified 电 is the power that lights your lamp!, zh-Hans: “雨”加上闪电“申”，就是“電”——简体的“电”，就是让电灯亮起来的电！, zh-Hant: 「雨」加上閃電「申」，就是「電」——讓電燈亮起來的，就是它！ }
+journey: default
+origin:
+  type: phono-semantic
+  parts:
+    - { char: 雨, role: meaning, gloss: { en: rain, zh-Hans: 雨水, zh-Hant: 雨水 } }
+    - { char: 申, role: sound }
+status: draft
+sources:
+  - { title: 'Wiktionary: 电', url: 'https://en.wiktionary.org/wiki/%E7%94%B5' }
+  - { title: 'Wiktionary: 電', url: 'https://en.wiktionary.org/wiki/%E9%9B%BB' }

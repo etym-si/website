@@ -1,0 +1,21 @@
+id: 发-發
+text: { Hans: 发, Hant: 發 }
+readings: { pinyin: fā }
+meaning: { en: to send out; to set off, zh-Hans: 出发, zh-Hant: 出發 }
+fact:
+  en: 发 (發) began as a picture of a bow shooting an arrow. Simplified 发 also stands for 髮, hair.
+  zh-Hans: “发”的繁体“發”最早画的是一张正在射箭的弓。简体的“发”还代表头发的“髮”。
+  zh-Hant: 「發」最早畫的是一張正在射箭的弓。簡體字把「發」和頭髮的「髮」寫成了同一個字。
+story:
+  topic: { en: 'Three, Two, One, Liftoff!', zh-Hans: 三、二、一，发射！, zh-Hant: 三、二、一，發射！ }
+  hook: { en: 'Three, two, one, liftoff! The rocket blasts off the launch pad in a cloud of smoke.', zh-Hans: 三、二、一，发射！火箭喷着浓烟，冲上了天空。, zh-Hant: 三、二、一，發射！火箭噴著濃煙，衝上了天空。 }
+  early: { en: The oldest 發 is a bow letting an arrow fly., zh-Hans: 最早的“发”是一张弓，正把箭射出去。, zh-Hant: 最早的「發」是一張弓，正把箭射出去。 }
+  turn: { en: "Later a hand (攴) was added, and over time it turned into 癹, the sound part of today's 發.", zh-Hans: 后来加上了一只手（攴），慢慢地，它又变成了表示读音的“癹”，就成了繁体字“發”。, zh-Hant: 後來加上了一隻手（攴），慢慢地，它又變成了表示讀音的「癹」，就成了今天的「發」。 }
+  closer: { en: 'From a bow letting an arrow fly to a rocket blasting off: that is 发 (發), to send out — as in 出发!', zh-Hans: 从弓把箭射出去，到火箭冲上天空：这就是出发的“发”！, zh-Hant: 從弓把箭射出去，到火箭衝上天空：這就是出發的「發」！ }
+journey: default
+origin:
+  type: pictogram
+status: draft
+sources:
+  - { title: 'Wiktionary: 发', url: 'https://en.wiktionary.org/wiki/%E5%8F%91' }
+  - { title: 'Wiktionary: 發', url: 'https://en.wiktionary.org/wiki/%E7%99%BC' }

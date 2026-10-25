@@ -1,0 +1,31 @@
+{
+  "id": "长",
+  "text": { "Hans": "长", "Hant": "長" },
+  "readings": { "pinyin": "cháng" },
+  "meaning": { "en": "long", "zh-Hans": "长颈鹿", "zh-Hant": "長頸鹿" },
+  "fact": {
+    "en": "长 (長) means long. Its ancient picture is an old man with very long hair.",
+    "zh-Hans": "“长”就是长短的“长”。它古老的图画是一位头发很长的老人。",
+    "zh-Hant": "「長」就是長短的「長」。它古老的圖畫是一位頭髮很長的老人。"
+  },
+  "story": {
+    "topic": { "en": "The Giraffe's Long Neck", "zh-Hans": "长颈鹿的长脖子", "zh-Hant": "長頸鹿的長脖子" },
+    "hook": {
+      "en": "Whoa! At the zoo, a giraffe stretches its long, long neck to nibble leaves at the top of a tree.",
+      "zh-Hans": "哇！动物园里，长颈鹿伸长了长长的脖子，去吃树顶上的叶子。",
+      "zh-Hant": "哇！動物園裡，長頸鹿伸長了長長的脖子，去吃樹頂上的葉子。"
+    },
+    "closer": {
+      "en": "An old man with long, long hair: that is 长 (長), long — just like a giraffe's neck!",
+      "zh-Hans": "头发长长的老人：这就是“长”——就像长颈鹿的脖子一样长！",
+      "zh-Hant": "頭髮長長的老人：這就是「長」——就像長頸鹿的脖子一樣長！"
+    }
+  },
+  "journey": "default",
+  "origin": { "type": "pictogram" },
+  "status": "draft",
+  "sources": [
+    { "title": "Wiktionary: 长", "url": "https://en.wiktionary.org/wiki/%E9%95%BF" },
+    { "title": "Wiktionary: 長", "url": "https://en.wiktionary.org/wiki/%E9%95%B7" }
+  ]
+}

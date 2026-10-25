@@ -1,0 +1,19 @@
+id: 天
+text: { Hans: 天, Hant: 天 }
+readings: { pinyin: tiān }
+meaning: { en: sky, zh-Hans: 天空, zh-Hant: 天空 }
+fact:
+  en: 天 is 大, a person facing you, with something extra on top of the head. Scholars have different ideas about how it works.
+  zh-Hans: “天”是一个正面站着的人“大”，头顶上还多了点什么。至于它是怎么组成的，学者们有不同的看法。
+  zh-Hant: 「天」是一個正面站著的人「大」，頭頂上還多了點什麼。至於它是怎麼組成的，學者們有不同的看法。
+story:
+  topic: { en: Cloud-Watching on the Grass, zh-Hans: 躺在草地上看天空, zh-Hant: 躺在草地上看天空 }
+  hook: { en: 'Lie back on the grass and look up: the sky stretches over your head, wide and blue.', zh-Hans: 躺在草地上往上看：蓝蓝的天空就在你的头顶上，又高又远。, zh-Hant: 躺在草地上往上看：藍藍的天空就在你的頭頂上，又高又遠。 }
+  early: { en: 'On oracle bones, 天 is a person facing forward, 大, with a head drawn as a square or round block — or as two flat lines.', zh-Hans: 在甲骨文里，“天”是一个正面站立的人“大”，他的头有时画成方块或圆块，有时画成两道横线。, zh-Hant: 在甲骨文裡，「天」是一個正面站立的人「大」，他的頭有時畫成方塊或圓塊，有時畫成兩道橫線。 }
+  closer: { en: 'Is it 大 under 上 (up), or 大 with 丁 for the sound? Scholars still wonder, but 天 is the sky above you!', zh-Hans: 是“大”加上“上”，还是“大”加上表示读音的“丁”？学者们还在讨论，不过“天”就是你头顶上的天空！, zh-Hant: 是「大」加上「上」，還是「大」加上表示讀音的「丁」？學者們還在討論，不過「天」就是你頭頂上的天空！ }
+journey: default
+origin:
+  type: uncertain
+status: draft
+sources:
+  - { title: 'Wiktionary: 天', url: 'https://en.wiktionary.org/wiki/%E5%A4%A9' }

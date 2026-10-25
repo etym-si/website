@@ -1,0 +1,18 @@
+id: 而
+text: { Hans: 而, Hant: 而 }
+readings: { pinyin: ér }
+meaning: { en: and; and then, zh-Hans: 而且, zh-Hant: 而且 }
+fact:
+  en: 而 began as a picture of a beard. Today it's a little joining word, a bit like 'and' or 'then'.
+  zh-Hans: “而”最早画的是胡子。今天它是一个连接词，意思有点像“和”或“然后”。
+  zh-Hant: 「而」最早畫的是鬍子。今天它是一個連接詞，意思有點像「和」或「然後」。
+story:
+  topic: { en: Grandpa's Long Beard, zh-Hans: 爷爷的长胡子, zh-Hant: 爺爺的長鬍子 }
+  hook: { en: "Grandpa strokes his long white beard and grins: 'I'm getting older, and my chess is getting better!'", zh-Hans: 爷爷摸着长长的白胡子，笑眯眯地说：“我年纪大了，而且棋下得更好啦！”, zh-Hant: 爺爺摸著長長的白鬍子，笑咪咪地說：「我年紀大了，而且棋下得更好囉！」 }
+  closer: { en: 'From a bushy beard to a handy joining word: that is 而!', zh-Hans: 从浓密的胡子，变成好用的连接词：这就是“而”！, zh-Hant: 從濃密的鬍子，變成好用的連接詞：這就是「而」！ }
+journey: default
+origin:
+  type: pictogram
+status: draft
+sources:
+  - { title: 'Wiktionary: 而', url: 'https://en.wiktionary.org/wiki/%E8%80%8C' }

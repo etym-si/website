@@ -1,0 +1,28 @@
+{
+  "id": "丘",
+  "text": { "Hans": "丘", "Hant": "丘" },
+  "readings": { "pinyin": "qiū" },
+  "meaning": { "en": "hill, mound", "zh-Hans": "山丘", "zh-Hant": "山丘" },
+  "fact": {
+    "en": "丘 is a sign for a hill. Compare it with 山, mountain!",
+    "zh-Hans": "“丘”是表示小山的字。和高山的“山”比一比吧！",
+    "zh-Hant": "「丘」是表示小山的字。和高山的「山」比一比吧！"
+  },
+  "story": {
+    "topic": { "en": "Rolling Down the Hill", "zh-Hans": "从山丘上滚下来", "zh-Hant": "從山丘上滾下來" },
+    "hook": {
+      "en": "Roly-poly! You roll sideways all the way down the grassy hill and land in a giggling heap.",
+      "zh-Hans": "骨碌碌！你从长满青草的小山丘上一路滚下来，笑成了一团。",
+      "zh-Hant": "骨碌碌！你從長滿青草的小山丘上一路滾下來，笑成了一團。"
+    },
+    "closer": {
+      "en": "A gentle bump of land: that is 丘, as in 山丘 — just the right size for rolling down!",
+      "zh-Hans": "一座矮矮的小山包：这就是山丘的“丘”——最适合从上面滚下来啦！",
+      "zh-Hant": "一座矮矮的小山包：這就是山丘的「丘」——最適合從上面滾下來啦！"
+    }
+  },
+  "journey": "default",
+  "origin": { "type": "ideogram" },
+  "status": "draft",
+  "sources": [ { "title": "Wiktionary: 丘", "url": "https://en.wiktionary.org/wiki/%E4%B8%98" } ]
+}

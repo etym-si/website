@@ -1,0 +1,38 @@
+{
+  "id": "目",
+  "text": { "Hans": "目", "Hant": "目" },
+  "readings": { "pinyin": "mù" },
+  "meaning": { "en": "eye", "zh-Hans": "眼睛", "zh-Hant": "眼睛" },
+  "fact": {
+    "en": "目 is a picture of a human eye, standing up on its end.",
+    "zh-Hans": "“目”画的是人的眼睛，只不过是竖着站起来的。",
+    "zh-Hant": "「目」畫的是人的眼睛，只不過是豎著站起來的。"
+  },
+  "story": {
+    "topic": { "en": "The Staring Contest", "zh-Hans": "比赛瞪眼睛", "zh-Hant": "比賽瞪眼睛" },
+    "hook": {
+      "en": "Don't blink! You and your big brother stare at each other, and whoever blinks first loses.",
+      "zh-Hans": "不许眨眼！你和哥哥大眼瞪小眼，谁先眨眼谁就输。",
+      "zh-Hant": "不准眨眼！你和哥哥大眼瞪小眼，誰先眨眼誰就輸。"
+    },
+    "early": {
+      "en": "The oldest 目 lies flat, just like the eyes on your face.",
+      "zh-Hans": "最早的“目”是横着躺的，就像你脸上的眼睛一样。",
+      "zh-Hant": "最早的「目」是橫著躺的，就像你臉上的眼睛一樣。"
+    },
+    "turn": {
+      "en": "Later the eye was turned a quarter turn and stood up on its end, giving us the tall 目 we write today.",
+      "zh-Hans": "后来，这只眼睛被转了九十度，竖了起来，就成了今天高高的“目”。",
+      "zh-Hant": "後來，這隻眼睛被轉了九十度，豎了起來，就成了今天高高的「目」。"
+    },
+    "closer": {
+      "en": "Tilt your head and look at 目 again: it's an eye looking right back at you!",
+      "zh-Hans": "歪着头再看看“目”：它也是一只正在看着你的眼睛！",
+      "zh-Hant": "歪著頭再看看「目」：它也是一隻正在看著你的眼睛！"
+    }
+  },
+  "journey": "default",
+  "origin": { "type": "pictogram" },
+  "status": "draft",
+  "sources": [ { "title": "Wiktionary: 目", "url": "https://en.wiktionary.org/wiki/%E7%9B%AE" } ]
+}
