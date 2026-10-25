@@ -1,21 +1,28 @@
 #!/usr/bin/env python3
-"""Build-time glyph pipeline for the etym.si demos.
+"""Glyph pipeline for the han-500 expansion, adapted from demos/scripts/fetch-glyphs.py.
+
+Differences from the original (everything else, in particular the SVG normalization and the
+{{ACClicense}} provenance parsing, is unchanged):
+  - the character list comes from ../selection.yaml (or --pool / --chars) instead of the
+    hard-coded FILM_ORDER / TRAD / OVERRIDES; a sign may carry an optional "journey" override:
+    [] = no ancient forms, or [{"stage": "seal", "form": "雲"}, …] (variants default per stage);
+  - output goes to ../glyphs/<id>.json (exactly the demos/public/glyphs/<char>.json format)
+    plus ../glyph-coverage.json (stages found per sign); downloads are cached in ../.cache/;
+  - hanzi stroke data is NOT copied: "hanzi" only lists the forms that hanzi-writer-data has;
+  - politeness: <= 1 request/second, User-Agent etym-si-content/0.1;
+  - --index-only only checks which Commons files exist (used while choosing the selection).
 
 1. Downloads historical glyph SVGs (oracle bone, bronze, seal, clerical/slip/silk)
    from the Wikimedia Commons "Ancient Chinese characters project" (public domain).
 2. Normalizes each SVG down to pure geometry: path data + transforms + fill mode.
    Everything else (scripts, metadata, styles, external refs) is discarded, so the
    app never injects third-party markup.
-3. Copies regular-script stroke data (hanzi-writer-data, Arphic PL) for the
-   simplified and traditional forms into public/hanzi/.
-
-Output: public/glyphs/<char>.json, public/glyphs/index.json, CREDITS.md
 """
 from __future__ import annotations
 
+import argparse
 import json
 import re
-import shutil
 import sys
 import time
 import urllib.error
@@ -24,20 +31,19 @@ import urllib.request
 import xml.etree.ElementTree as ET
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parent.parent
-CACHE = ROOT / "scripts" / ".cache" / "commons"
-OUT_GLYPHS = ROOT / "public" / "glyphs"
-OUT_HANZI = ROOT / "public" / "hanzi"
-HANZI_DATA = ROOT / "node_modules" / "hanzi-writer-data"
-UA = "etym-si-demo/0.1 (https://github.com/etym-si/website; research prototype)"
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from selection import ID_RE, selected_signs  # noqa: E402
+
+ROOT = Path(__file__).resolve().parent.parent          # staging/han-500
+CACHE = ROOT / ".cache" / "commons"
+OUT_GLYPHS = ROOT / "glyphs"
+COVERAGE = ROOT / "glyph-coverage.json"
+HANZI_DATA = ROOT / "tools" / "node_modules" / "hanzi-writer-data"
+UA = "etym-si-content/0.1 (https://github.com/etym-si/website)"
 API = "https://commons.wikimedia.org/w/api.php"
+ALLOWED_HOSTS = {"commons.wikimedia.org", "upload.wikimedia.org"}
 SVG_NS = "{http://www.w3.org/2000/svg}"
-
-# simplified -> traditional (only where they differ)
-TRAD = {"鸟": "鳥", "马": "馬", "鱼": "魚", "网": "網", "云": "雲", "伞": "傘", "龟": "龜", "门": "門"}
-
-# The 36 characters of 《三十六个字》 in order of appearance.
-FILM_ORDER = list("日山水林木鸟象草田竹马夫刀舟鱼网燕云雨伞石火龟鹿豕叟虎弓舍羊花门犬子女月")
+MIN_INTERVAL = 1.05  # seconds between any two requests (<= 1 request/second)
 
 # Per-character historical stage plan: list of (stage, lookup form, [variant candidates]).
 # Default plan: oracle, bronze, seal, clerical, each looked up on the traditional form.
@@ -47,26 +53,23 @@ DEFAULT_PLAN = [
     ("seal", None, ["seal"]),
     ("clerical", None, ["clerical-han", "clerical", "slip", "silk"]),
 ]
-OVERRIDES: dict[str, list[tuple[str, str, list[str]]]] = {
-    # 云 cloud: the original pictograph 云 got 雨 (rain) added → 雲; simplification went back to 云.
-    "云": [("oracle", "云", ["oracle"]), ("seal", "雲", ["seal"])],
-    # 网 net: Shuowen head form is 网 itself; 網 (with 糸 + 亡) came later.
-    "网": [("oracle", "网", ["oracle"]), ("bronze", "网", ["bronze", "bronze-shang"]),
-           ("seal", "网", ["seal"]), ("clerical", "网", ["clerical", "slip", "silk"])],
-    # 草 grass: first written as sprouts 艸; 早 was added later as a sound hint.
-    "草": [("seal", "艸", ["seal"]), ("seal", "草", ["seal"])],
-    # 花 flower: originally written 華 (a blooming plant); 花 is a much later character.
-    "花": [("bronze", "華", ["bronze"]), ("seal", "華", ["seal"])],
-    # 伞 umbrella and 叟 old man: no ancient forms available on Commons.
-    "伞": [],
-    "叟": [],
-}
+STAGE_VARIANTS = {s: v for (s, _f, v) in DEFAULT_PLAN}
+
+_last = 0.0
 
 
 def http_get(url: str, data: bytes | None = None, attempts: int = 5) -> bytes:
     """GET/POST politely: on HTTP 429/503 honor Retry-After (or back off exponentially)."""
+    global _last
+    host = urllib.parse.urlparse(url).hostname or ""
+    if host not in ALLOWED_HOSTS:
+        raise ValueError(f"host not allowed: {host}")
     delay = 15.0
     for i in range(attempts):
+        pause = MIN_INTERVAL - (time.monotonic() - _last)
+        if pause > 0:
+            time.sleep(pause)
+        _last = time.monotonic()
         req = urllib.request.Request(url, data=data, headers={"User-Agent": UA})
         try:
             with urllib.request.urlopen(req, timeout=30) as r:
@@ -92,7 +95,8 @@ def commons_index(titles: list[str]) -> dict[str, str]:
         for p in d["query"]["pages"]:
             if not p.get("missing") and p.get("imageinfo"):
                 found[p["title"]] = p["imageinfo"][0]["url"]
-        time.sleep(0.3)
+        if (i // 50) % 10 == 9:
+            print(f"  … {i + 50}/{len(titles)} titles checked", file=sys.stderr)
     return found
 
 
@@ -117,20 +121,20 @@ def commons_provenance(titles: list[str]) -> dict[str, dict]:
                 note = ""  # URLs / editor remarks / bare radical numbers aren't provenance
             code = get(3) if re.fullmatch(r"[A-Za-z]\d{4,5}", get(3)) else ""
             out[p["title"]] = {"period": PROV_SAFE.sub("", get(2))[:20], "code": code, "note": note}
-        time.sleep(0.5)
     return out
 
 
 def fetch_svg(title: str, url: str) -> str:
     CACHE.mkdir(parents=True, exist_ok=True)
     fname = CACHE / (title.split(":", 1)[1])
+    if fname.resolve().parent != CACHE.resolve():
+        raise ValueError(f"unsafe cache name for {title}")
     if not fname.exists():
         # Only accept files hosted on Wikimedia's upload server.
         host = urllib.parse.urlparse(url).hostname or ""
         if host != "upload.wikimedia.org":
             raise ValueError(f"unexpected host for {title}: {host}")
         fname.write_bytes(http_get(url))
-        time.sleep(1.0)  # stay well under Wikimedia's bot rate limits
     return fname.read_text(encoding="utf-8", errors="replace")
 
 
@@ -228,71 +232,107 @@ def normalize_svg(text: str) -> dict:
     return {"box": box, "paths": paths}
 
 
+def plan_for(sign: dict) -> tuple[str, list[tuple[str, str, list[str]]]]:
+    """('default' | 'override', [(stage, form, variants)]) for one selected sign."""
+    trad = sign["t"]
+    if "journey" not in sign:
+        return "default", [(s, trad, v) for (s, _f, v) in DEFAULT_PLAN]
+    plan = []
+    for j in sign["journey"]:
+        stage, form = j["stage"], j["form"]
+        if stage not in STAGE_VARIANTS or not ID_RE.match(form):
+            raise ValueError(f"{sign['id']}: bad journey entry {j}")
+        plan.append((stage, form, list(j.get("variants") or STAGE_VARIANTS[stage])))
+    return "override", plan
+
+
+def load_signs(a: argparse.Namespace) -> list[dict]:
+    if a.chars or a.pool:
+        ids = list(a.chars) if a.chars else a.pool.read_text(encoding="utf-8").split()
+        signs = []
+        for x in ids:
+            x = x.strip()
+            p = x.split("\t")
+            sid = p[0]
+            if not ID_RE.match(sid):
+                raise SystemExit(f"bad id {sid!r}")
+            s, _, t = sid.partition("-")
+            signs.append({"id": sid, "s": s, "t": t or s})
+        return signs
+    return selected_signs(a.selection)
+
+
 def main() -> int:
-    OUT_GLYPHS.mkdir(parents=True, exist_ok=True)
-    OUT_HANZI.mkdir(parents=True, exist_ok=True)
+    ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
+    ap.add_argument("--selection", type=Path, default=ROOT / "selection.yaml")
+    ap.add_argument("--pool", type=Path, help="file with one id per line (s-t for a different traditional form)")
+    ap.add_argument("--chars", default="")
+    ap.add_argument("--index-only", action="store_true", help="only check which Commons files exist")
+    ap.add_argument("--coverage", type=Path, default=COVERAGE)
+    a = ap.parse_args()
 
-    plans: dict[str, list[tuple[str, str, list[str]]]] = {}
-    for ch in FILM_ORDER:
-        trad = TRAD.get(ch, ch)
-        plans[ch] = OVERRIDES.get(ch, [(s, trad, v) for (s, _f, v) in DEFAULT_PLAN])
+    signs = load_signs(a)
+    plans: dict[str, tuple[str, list[tuple[str, str, list[str]]]]] = {s["id"]: plan_for(s) for s in signs}
 
-    wanted = sorted({f"File:{form}-{v}.svg" for plan in plans.values() for (_s, form, vs) in plan for v in vs})
+    wanted = sorted({f"File:{form}-{v}.svg" for (_k, plan) in plans.values() for (_s, form, vs) in plan for v in vs})
     print(f"querying {len(wanted)} candidate titles on Commons…")
     idx = commons_index(wanted)
     print(f"  {len(idx)} exist")
-    prov = commons_provenance(sorted(idx))
-    print(f"  provenance read for {len(prov)} files")
+    prov: dict[str, dict] = {}
+    if not a.index_only:
+        prov = commons_provenance(sorted(idx))
+        print(f"  provenance read for {len(prov)} files")
+        OUT_GLYPHS.mkdir(parents=True, exist_ok=True)
 
-    credits: list[str] = []
-    index: list[dict] = []
-    for ch in FILM_ORDER:
-        trad = TRAD.get(ch, ch)
+    coverage: dict[str, dict] = {}
+    for sign in signs:
+        sid, ch, trad = sign["id"], sign["s"], sign["t"]
+        kind, plan = plans[sid]
         stages: list[dict] = []
-        for stage, form, variants in plans[ch]:
+        for stage, form, variants in plan:
             title = next((f"File:{form}-{v}.svg" for v in variants if f"File:{form}-{v}.svg" in idx), None)
             if not title:
+                continue
+            variant = title.split("-", 1)[1].rsplit(".", 1)[0]
+            if a.index_only:
+                stages.append({"stage": stage, "form": form, "variant": variant})
                 continue
             try:
                 geo = normalize_svg(fetch_svg(title, idx[title]))
             except Exception as e:  # keep going; report
                 print(f"  ! {title}: {e}", file=sys.stderr)
                 continue
-            variant = title.split("-", 1)[1].rsplit(".", 1)[0]
             stages.append({"stage": stage, "form": form, "variant": variant,
                            "src": "https://commons.wikimedia.org/wiki/" + urllib.parse.quote(title.replace(" ", "_")),
                            "prov": prov.get(title, {"period": "", "code": "", "note": ""}),
                            **geo})
-            credits.append(f"- `{title}` — public domain — https://commons.wikimedia.org/wiki/{urllib.parse.quote(title)}")
-        # regular-script stroke data (traditional + simplified)
-        hz = []
-        for c in dict.fromkeys([trad, ch]):
-            src = HANZI_DATA / f"{c}.json"
-            if src.exists():
-                shutil.copyfile(src, OUT_HANZI / f"{c}.json")
-                hz.append(c)
-            else:
-                print(f"  ! no hanzi-writer data for {c}", file=sys.stderr)
-        doc = {"char": ch, "trad": trad, "stages": stages, "hanzi": hz}
-        (OUT_GLYPHS / f"{ch}.json").write_text(json.dumps(doc, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
-        index.append({"char": ch, "trad": trad, "stages": [s["stage"] + ":" + s["variant"] for s in stages], "hanzi": hz})
-        print(f"{ch} ({trad}): {', '.join(s['stage'] + '/' + s['variant'] for s in stages) or '—'} | hanzi: {''.join(hz)}")
+        if a.index_only:
+            hz: list[str] = []
+        else:
+            # regular-script stroke data (traditional + simplified): listed, never copied
+            hz = []
+            for c in dict.fromkeys([trad, ch]):
+                if (HANZI_DATA / f"{c}.json").exists():
+                    hz.append(c)
+                else:
+                    print(f"  ! no hanzi-writer data for {c}", file=sys.stderr)
+            doc = {"char": ch, "trad": trad, "stages": stages, "hanzi": hz}
+            out = (OUT_GLYPHS / f"{sid}.json").resolve()
+            if out.parent != OUT_GLYPHS.resolve():
+                raise SystemExit(f"refusing to write outside {OUT_GLYPHS}: {out}")
+            out.write_text(json.dumps(doc, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
+        found = [{"stage": s["stage"], "form": s["form"], "variant": s["variant"]} for s in stages]
+        if kind == "default":
+            journey: object = "default" if found else []
+        else:
+            journey = [{"stage": f["stage"], "form": f["form"]} for f in found]
+        coverage[sid] = {"char": ch, "trad": trad, "plan": kind, "count": len(found), "stages": found,
+                         "journey": journey, "hanzi": hz}
+        print(f"{sid} ({trad}): {', '.join(s['stage'] + '/' + s['form'] + ':' + s['variant'] for s in found) or '—'}"
+              + ("" if a.index_only else f" | hanzi: {''.join(hz)}"))
 
-    (OUT_GLYPHS / "index.json").write_text(json.dumps(index, ensure_ascii=False, indent=1), encoding="utf-8")
-    license_src = HANZI_DATA / "ARPHICPL.TXT"
-    if license_src.exists():
-        shutil.copyfile(license_src, OUT_HANZI / "ARPHICPL.TXT")
-    (ROOT / "CREDITS.md").write_text(
-        "# Credits\n\n"
-        "## Historical glyphs\n\nFrom the Wikimedia Commons *Ancient Chinese characters project*, "
-        "released into the **public domain** (sources: Sinica database, Chinese Etymology, et al.).\n\n"
-        + "\n".join(credits) +
-        "\n\n## Regular-script stroke data\n\n[hanzi-writer-data](https://github.com/chanind/hanzi-writer-data) "
-        "(derived from Make Me a Hanzi / Arphic fonts) — Arphic Public License, see `public/hanzi/ARPHICPL.TXT`.\n\n"
-        "## Animation reference\n\nTechniques inspired by 《三十六个字》 (Shanghai Animation Film Studio, 1984, dir. A Da). "
-        "No frames or drawings from the film are used.\n",
-        encoding="utf-8")
-    print("done")
+    a.coverage.write_text(json.dumps(coverage, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+    print(f"done: {len(coverage)} signs, coverage → {a.coverage}")
     return 0
 
 
