@@ -1,0 +1,33 @@
+{
+  "id": "告",
+  "text": { "Hans": "告", "Hant": "告" },
+  "readings": { "pinyin": "gào" },
+  "meaning": { "en": "to tell", "zh-Hans": "告诉", "zh-Hant": "告訴" },
+  "fact": {
+    "en": "告 means to tell. No one is completely sure what it first showed: maybe a tongue sticking out of a mouth, or a drum and an open mouth.",
+    "zh-Hans": "“告”是告诉的意思。它最早画的是什么，谁也说不准：也许是从嘴里伸出来的舌头，也许是一面鼓加上一张张开的嘴。",
+    "zh-Hant": "「告」是告訴的意思。它最早畫的是什麼，誰也說不準：也許是從嘴裡伸出來的舌頭，也許是一面鼓加上一張張開的嘴。"
+  },
+  "story": {
+    "topic": { "en": "Whispering Big News", "zh-Hans": "悄悄说个大消息", "zh-Hant": "悄悄說個大消息" },
+    "hook": {
+      "en": "Psst! You cup your hands around your mouth and whisper big news into your sister's ear.",
+      "zh-Hans": "嘘！你用手拢着嘴，在妹妹耳边悄悄说了一个大消息。",
+      "zh-Hant": "噓！你用手攏著嘴，在妹妹耳邊悄悄說了一個大消息。"
+    },
+    "early": {
+      "en": "An old dictionary read 告 as 牛 (ox) over 口 (mouth), but the oracle bones and bronzes show the top part is not an ox at all.",
+      "zh-Hans": "一本古老的字典把“告”看成“牛”加“口”，但甲骨文和金文显示，上面那部分根本不是牛。",
+      "zh-Hant": "一本古老的字典把「告」看成「牛」加「口」，但甲骨文和金文顯示，上面那部分根本不是牛。"
+    },
+    "closer": {
+      "en": "Open your mouth and share the news: that's 告, to tell!",
+      "zh-Hans": "张开嘴，把消息说给别人听，这就是告诉的“告”！",
+      "zh-Hant": "張開嘴，把消息說給別人聽，這就是告訴的「告」！"
+    }
+  },
+  "journey": "default",
+  "origin": { "type": "uncertain" },
+  "status": "draft",
+  "sources": [ { "title": "Wiktionary: 告", "url": "https://en.wiktionary.org/wiki/%E5%91%8A" } ]
+}

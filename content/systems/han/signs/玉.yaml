@@ -1,0 +1,20 @@
+id: 玉
+text: { Hans: 玉, Hant: 玉 }
+readings: { pinyin: yù }
+meaning: { en: jade, zh-Hans: 玉石, zh-Hant: 玉石 }
+fact:
+  en: 玉 means jade, a precious stone. Look for the little dot that keeps it from being 王!
+  zh-Hans: “玉”就是玉石，一种珍贵的石头。找一找那个小点，有了它，“玉”才不会变成“王”！
+  zh-Hant: 「玉」就是玉石，一種珍貴的石頭。找一找那個小點，有了它，「玉」才不會變成「王」！
+story:
+  topic: { en: Auntie's Jade Bracelet, zh-Hans: 阿姨的玉镯子, zh-Hant: 阿姨的玉鐲子 }
+  hook: { en: Ting! Auntie's smooth green jade bracelet taps softly against her teacup., zh-Hans: 叮——！阿姨手腕上光滑的绿玉镯，轻轻碰了一下茶杯。, zh-Hant: 叮——！阿姨手腕上光滑的綠玉鐲，輕輕碰了一下茶杯。 }
+  early: { en: 'Some scholars think the old 玉 shows a cong, a jade object used in ceremonies; others see three pieces of jade strung on a cord.', zh-Hans: 有学者认为，古老的“玉”画的是“琮”，一种用在仪式上的玉器；也有人认为，它是用绳子串起来的三块玉。, zh-Hant: 有學者認為，古老的「玉」畫的是「琮」，一種用在儀式上的玉器；也有人認為，它是用繩子串起來的三塊玉。 }
+  turn: { en: "For a long time it looked almost exactly like 王, so a little dot was added to make today's 玉.", zh-Hans: 它曾经和“王”长得几乎一模一样，所以人们加上一个小点，成了今天的“玉”。, zh-Hant: 它曾經和「王」長得幾乎一模一樣，所以人們加上一個小點，成了今天的「玉」。 }
+  closer: { en: "王 plus one little dot: that's 玉, precious jade!", zh-Hans: “王”加上一个小点，就是玉石的“玉”！, zh-Hant: 「王」加上一個小點，就是玉石的「玉」！ }
+journey: default
+origin:
+  type: pictogram
+status: draft
+sources:
+  - { title: 'Wiktionary: 玉', url: 'https://en.wiktionary.org/wiki/%E7%8E%89' }

@@ -1,0 +1,38 @@
+{
+  "id": "九",
+  "text": { "Hans": "九", "Hant": "九" },
+  "readings": { "pinyin": "jiǔ" },
+  "meaning": { "en": "nine", "zh-Hans": "九月", "zh-Hant": "九月" },
+  "fact": {
+    "en": "九 began as a hand with a bent arm; the hook at the lower right is the bent wrist. Its first meaning was elbow, which is now written 肘.",
+    "zh-Hans": "“九”最早画的是一只弯着手臂的手，右下角的钩就是弯起来的手腕。它最早的意思是手肘，现在写作“肘”。",
+    "zh-Hant": "「九」最早畫的是一隻彎著手臂的手，右下角的鉤就是彎起來的手腕。它最早的意思是手肘，現在寫作「肘」。"
+  },
+  "story": {
+    "topic": { "en": "Nine Squares of Tic-Tac-Toe", "zh-Hans": "井字棋的九个格子", "zh-Hant": "圈圈叉叉的九個格子" },
+    "hook": {
+      "en": "Draw an X, draw an O! You and Dad race to fill the nine squares of a tic-tac-toe grid.",
+      "zh-Hans": "画个叉，画个圈！你和爸爸在井字棋的九个格子里比赛。",
+      "zh-Hant": "畫個叉，畫個圈！你和爸爸在圈圈叉叉的九個格子裡比賽。"
+    },
+    "early": {
+      "en": "The oldest 九 is a stylized hand and arm, looking a bit like 手 (hand) and 寸.",
+      "zh-Hans": "最古老的“九”是一只手和手臂的样子，有点像“手”和“寸”。",
+      "zh-Hant": "最古老的「九」是一隻手和手臂的樣子，有點像「手」和「寸」。"
+    },
+    "turn": {
+      "en": "The bent wrist became the hook at the lower right of today's 九.",
+      "zh-Hans": "弯起来的手腕，变成了今天“九”右下角的那个钩。",
+      "zh-Hant": "彎起來的手腕，變成了今天「九」右下角的那個鉤。"
+    },
+    "closer": {
+      "en": "A hand with a bent wrist, now counting nine: that's 九!",
+      "zh-Hans": "弯着手腕的一只手，现在数到九，这就是“九”！",
+      "zh-Hant": "彎著手腕的一隻手，現在數到九，這就是「九」！"
+    }
+  },
+  "journey": "default",
+  "origin": { "type": "pictogram" },
+  "status": "draft",
+  "sources": [ { "title": "Wiktionary: 九", "url": "https://en.wiktionary.org/wiki/%E4%B9%9D" } ]
+}

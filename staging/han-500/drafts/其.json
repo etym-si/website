@@ -1,0 +1,38 @@
+{
+  "id": "其",
+  "text": { "Hans": "其", "Hant": "其" },
+  "readings": { "pinyin": "qí" },
+  "meaning": { "en": "his, her, its, their; that", "zh-Hans": "其他", "zh-Hant": "其他" },
+  "fact": {
+    "en": "其 began as a picture of a basket. Later it was borrowed for its sound to mean his, her or its, and the basket is now written 箕.",
+    "zh-Hans": "“其”最早画的是一个篮子。后来它被借用读音，表示“他的、她的、它的”，篮子的意思就改写成了“箕”。",
+    "zh-Hant": "「其」最早畫的是一個籃子。後來它被借用讀音，表示「他的、她的、它的」，籃子的意思就改寫成了「箕」。"
+  },
+  "story": {
+    "topic": { "en": "The Missing Puzzle Pieces", "zh-Hans": "不见了的拼图", "zh-Hant": "不見了的拼圖" },
+    "hook": {
+      "en": "You found the red puzzle piece, but where did all the other pieces go?",
+      "zh-Hans": "红色的拼图块找到了，可是其他的拼图块都跑到哪儿去了？",
+      "zh-Hant": "紅色的拼圖片找到了，可是其他的拼圖片都跑到哪裡去了？"
+    },
+    "early": {
+      "en": "On oracle bones, 其 is simply a basket.",
+      "zh-Hans": "在甲骨文里，“其”就是一个篮子。",
+      "zh-Hant": "在甲骨文裡，「其」就是一個籃子。"
+    },
+    "turn": {
+      "en": "In bronze writing, a stand, 丌, was added under the basket, and it may have helped with the sound too.",
+      "zh-Hans": "到了金文，篮子下面加了一个架子“丌”，它可能也帮忙表示读音。",
+      "zh-Hant": "到了金文，籃子下面加了一個架子「丌」，它可能也幫忙表示讀音。"
+    },
+    "closer": {
+      "en": "A basket borrowed to point at others: that's 其, as in 其他 (the others)!",
+      "zh-Hans": "一个篮子被借来指别的人和东西，这就是其他的“其”！",
+      "zh-Hant": "一個籃子被借來指別的人和東西，這就是其他的「其」！"
+    }
+  },
+  "journey": "default",
+  "origin": { "type": "loan" },
+  "status": "draft",
+  "sources": [ { "title": "Wiktionary: 其", "url": "https://en.wiktionary.org/wiki/%E5%85%B6" } ]
+}

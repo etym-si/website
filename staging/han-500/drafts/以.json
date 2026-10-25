@@ -1,0 +1,38 @@
+{
+  "id": "以",
+  "text": { "Hans": "以", "Hant": "以" },
+  "readings": { "pinyin": "yǐ" },
+  "meaning": { "en": "with, by means of", "zh-Hans": "可以", "zh-Hant": "可以" },
+  "fact": {
+    "en": "以 began as a person carrying something. You can still spot part of the person on the right side of today's 以.",
+    "zh-Hans": "“以”最早画的是一个带着东西的人。在今天的“以”右边，还能看到这个人的一部分。",
+    "zh-Hant": "「以」最早畫的是一個帶著東西的人。在今天的「以」右邊，還能看到這個人的一部分。"
+  },
+  "story": {
+    "topic": { "en": "May I Borrow a Pencil?", "zh-Hans": "可以借支铅笔吗？", "zh-Hant": "可以借枝鉛筆嗎？" },
+    "hook": {
+      "en": "Teacher, may I borrow a pencil? Of course you may!",
+      "zh-Hans": "老师，我可以借一支铅笔吗？当然可以！",
+      "zh-Hant": "老師，我可以借一枝鉛筆嗎？當然可以！"
+    },
+    "early": {
+      "en": "The oldest 以 is a person, 人, carrying something along.",
+      "zh-Hans": "最古老的“以”是一个人（人），带着一样东西。",
+      "zh-Hant": "最古老的「以」是一個人（人），帶著一樣東西。"
+    },
+    "turn": {
+      "en": "In early writing it was often shortened to 㠯, and today only part of the person still peeks out on the right.",
+      "zh-Hans": "在早期的文字里，它常常被简写成“㠯”；到了今天，只剩下右边还露出这个人的一部分。",
+      "zh-Hant": "在早期的文字裡，它常常被簡寫成「㠯」；到了今天，只剩下右邊還露出這個人的一部分。"
+    },
+    "closer": {
+      "en": "A person carrying a load, now a little helper word: that's 以, as in 可以!",
+      "zh-Hans": "一个带着东西的人，变成了小小的帮手字，这就是可以的“以”！",
+      "zh-Hant": "一個帶著東西的人，變成了小小的幫手字，這就是可以的「以」！"
+    }
+  },
+  "journey": "default",
+  "origin": { "type": "pictogram" },
+  "status": "draft",
+  "sources": [ { "title": "Wiktionary: 以", "url": "https://en.wiktionary.org/wiki/%E4%BB%A5" } ]
+}

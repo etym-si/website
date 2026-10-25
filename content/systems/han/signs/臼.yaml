@@ -1,0 +1,19 @@
+id: 臼
+text: { Hans: 臼, Hant: 臼 }
+readings: { pinyin: jiù }
+meaning: { en: mortar (for pounding), zh-Hans: 石臼, zh-Hant: 石臼 }
+fact:
+  en: '臼 is a picture of a mortar: a hollow bowl for pounding and crushing food.'
+  zh-Hans: “臼”画的是一种中间凹下去的容器，用来把东西捣碎。
+  zh-Hant: 「臼」畫的是一種中間凹下去的容器，用來把東西搗碎。
+story:
+  topic: { en: Pounding Sesame, zh-Hans: 捣芝麻, zh-Hant: 搗芝麻 }
+  hook: { en: 'Thump, thump! Grandma pounds black sesame in a heavy stone mortar, and a toasty smell fills the kitchen.', zh-Hans: 咚，咚！奶奶在沉甸甸的石臼里捣黑芝麻，香味飘满了厨房。, zh-Hant: 咚，咚！奶奶在沉甸甸的石臼裡搗黑芝麻，香味飄滿了廚房。 }
+  early: { en: 'The old 臼 is a mortar, a hollow bowl ready for pounding.', zh-Hans: 古老的“臼”就是一个凹下去的容器，正等着人来捣东西。, zh-Hant: 古老的「臼」就是一個凹下去的容器，正等著人來搗東西。 }
+  closer: { en: "A hollow bowl for pounding: that's 臼, a mortar!", zh-Hans: 用来捣东西的凹形石碗，就是石臼的“臼”！, zh-Hant: 用來搗東西的凹形石碗，就是石臼的「臼」！ }
+journey: default
+origin:
+  type: pictogram
+status: draft
+sources:
+  - { title: 'Wiktionary: 臼', url: 'https://en.wiktionary.org/wiki/%E8%87%BC' }

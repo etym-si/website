@@ -1,0 +1,20 @@
+id: 皿
+text: { Hans: 皿, Hant: 皿 }
+readings: { pinyin: mǐn }
+meaning: { en: 'dish, vessel', zh-Hans: 器皿, zh-Hant: 器皿 }
+fact:
+  en: 皿 is a picture of an empty container, a bit like a goblet. Look for it at the bottom of 盘 (plate) and 盆 (basin)!
+  zh-Hans: “皿”画的是一个空空的容器，有点像高脚杯。在“盘”和“盆”的底下都能找到它！
+  zh-Hant: 「皿」畫的是一個空空的容器，有點像高腳杯。在「盤」和「盆」的底下都能找到它！
+story:
+  topic: { en: Setting Out the Dishes, zh-Hans: 摆好碗盘, zh-Hant: 擺好碗盤 }
+  hook: { en: 'Clink, clink! You help set the table, putting out bowls and plates for the whole family.', zh-Hans: 叮叮当当！你帮忙摆桌子，给全家人摆好碗和盘子。, zh-Hant: 叮叮噹噹！你幫忙擺桌子，給全家人擺好碗和盤子。 }
+  early: { en: 'The oldest 皿 shows an empty container with handles, something like a goblet.', zh-Hans: 最古老的“皿”画的是一个带把手的空容器，有点像高脚杯。, zh-Hant: 最古老的「皿」畫的是一個帶把手的空容器，有點像高腳杯。 }
+  turn: { en: 'In the modern form, the handles have joined together with the rest of the shape.', zh-Hans: 到了今天的写法，把手和器身连在了一起。, zh-Hant: 到了今天的寫法，把手和器身連在了一起。 }
+  closer: { en: "An empty dish, waiting to be filled with something tasty: that's 皿!", zh-Hans: 空空的器皿，等着装满好吃的，这就是“皿”！, zh-Hant: 空空的器皿，等著裝滿好吃的，這就是「皿」！ }
+journey: default
+origin:
+  type: pictogram
+status: draft
+sources:
+  - { title: 'Wiktionary: 皿', url: 'https://en.wiktionary.org/wiki/%E7%9A%BF' }

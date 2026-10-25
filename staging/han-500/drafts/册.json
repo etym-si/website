@@ -1,0 +1,41 @@
+{
+  "id": "册",
+  "text": { "Hans": "册", "Hant": "冊" },
+  "readings": { "pinyin": "cè" },
+  "meaning": { "en": "book; volume", "zh-Hans": "画册", "zh-Hant": "畫冊" },
+  "fact": {
+    "en": "册 (冊) is a picture of bamboo slips strung together. Today it means a book, as in 画册 (picture book).",
+    "zh-Hans": "“册”画的是用绳子串在一起的竹片。今天它表示书本，比如“画册”。",
+    "zh-Hant": "「冊」畫的是用繩子串在一起的竹片。今天它表示書本，比如「畫冊」。"
+  },
+  "story": {
+    "topic": { "en": "My Sticker Album", "zh-Hans": "我的贴纸册", "zh-Hant": "我的貼紙冊" },
+    "hook": {
+      "en": "Peel and press! You stick a shiny dinosaur into your sticker album, right next to the rocket.",
+      "zh-Hans": "撕下来，按一按！你把一张亮闪闪的恐龙贴纸贴进贴纸册，就贴在火箭旁边。",
+      "zh-Hant": "撕下來，按一按！你把一張亮閃閃的恐龍貼紙貼進貼紙冊，就貼在火箭旁邊。"
+    },
+    "early": {
+      "en": "The oldest 册 shows narrow bamboo slips, strung together side by side.",
+      "zh-Hans": "最古老的“册”画的是一根根窄窄的竹片，并排串在一起。",
+      "zh-Hant": "最古老的「冊」畫的是一根根窄窄的竹片，並排串在一起。"
+    },
+    "turn": {
+      "en": "Over time the slips were stylized into today's 册, which looks a little like 朋 but is not related to it.",
+      "zh-Hans": "后来，竹片慢慢变成了今天的“册”，它看起来有点像“朋”，但两者其实没有关系。",
+      "zh-Hant": "後來，竹片慢慢變成了今天的「冊」，它看起來有點像「朋」，但兩者其實沒有關係。"
+    },
+    "closer": {
+      "en": "Bamboo slips tied into a bundle: that's 册 (冊), a book!",
+      "zh-Hans": "一根根竹片串成一串，就是画册的“册”！",
+      "zh-Hant": "一根根竹片串成一串，就是畫冊的「冊」！"
+    }
+  },
+  "journey": "default",
+  "origin": { "type": "pictogram" },
+  "status": "draft",
+  "sources": [
+    { "title": "Wiktionary: 册", "url": "https://en.wiktionary.org/wiki/%E5%86%8C" },
+    { "title": "Wiktionary: 冊", "url": "https://en.wiktionary.org/wiki/%E5%86%8A" }
+  ]
+}

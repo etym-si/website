@@ -1,0 +1,19 @@
+id: 午
+text: { Hans: 午, Hant: 午 }
+readings: { pinyin: wǔ }
+meaning: { en: noon, zh-Hans: 中午, zh-Hant: 中午 }
+fact:
+  en: 午 began as a picture of a pestle, the pounding stick now written 杵. Today 午 means noon, as in 中午 and 午饭 (lunch).
+  zh-Hans: “午”最早画的是一根杵，就是用来捣东西的棒子，现在写作“杵”。今天“午”表示中午，比如“午饭”。
+  zh-Hant: 「午」最早畫的是一根杵，就是用來搗東西的棒子，現在寫作「杵」。今天「午」表示中午，比如「午飯」。
+story:
+  topic: { en: Lunchtime at Noon, zh-Hans: 中午吃午饭, zh-Hant: 中午吃午飯 }
+  hook: { en: "Bong! The clock strikes twelve, your tummy rumbles, and it's time for lunch.", zh-Hans: 当！时钟敲了十二下，你的肚子咕噜咕噜叫，该吃午饭啦。, zh-Hant: 噹！時鐘敲了十二下，你的肚子咕嚕咕嚕叫，該吃午飯啦。 }
+  early: { en: 'The oldest 午 is a pestle, the stick you pound with in a mortar like 臼.', zh-Hans: 最古老的“午”是一根杵，就是在“臼”这样的石臼里捣东西用的棒子。, zh-Hant: 最古老的「午」是一根杵，就是在「臼」這樣的石臼裡搗東西用的棒子。 }
+  closer: { en: "A pestle picture that now marks the middle of the day: that's 午, noon!", zh-Hans: 一根杵的图画，如今表示一天的正中间，这就是中午的“午”！, zh-Hant: 一根杵的圖畫，如今表示一天的正中間，這就是中午的「午」！ }
+journey: default
+origin:
+  type: pictogram
+status: draft
+sources:
+  - { title: 'Wiktionary: 午', url: 'https://en.wiktionary.org/wiki/%E5%8D%88' }

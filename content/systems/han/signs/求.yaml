@@ -1,0 +1,19 @@
+id: 求
+text: { Hans: 求, Hant: 求 }
+readings: { pinyin: qiú }
+meaning: { en: to ask for; to seek, zh-Hans: 请求, zh-Hant: 請求 }
+fact:
+  en: 求 started out as a picture of a centipede, a bug with lots of legs! Today it means to ask for or look for something.
+  zh-Hans: “求”最早画的是一条蜈蚣，一种有很多条腿的虫子！今天它表示请求、寻找。
+  zh-Hant: 「求」最早畫的是一條蜈蚣，一種有很多條腿的蟲子！今天它表示請求、尋找。
+story:
+  topic: { en: 'Five More Minutes, Please!', zh-Hans: 再玩五分钟嘛！, zh-Hant: 再玩五分鐘嘛！ }
+  hook: { en: Pretty please? You press your palms together and beg Mom for five more minutes at the playground., zh-Hans: 求求你啦！你双手合十，求妈妈让你在游乐场再玩五分钟。, zh-Hant: 求求你啦！你雙手合十，求媽媽讓你在遊樂場再玩五分鐘。 }
+  early: { en: 'The oldest 求 is a wriggly centipede. Today that bug is written 蛷, with 虫 (bug) beside it.', zh-Hans: 最古老的“求”是一条扭来扭去的蜈蚣。今天这种虫子写作“蛷”，旁边多了个“虫”字旁。, zh-Hant: 最古老的「求」是一條扭來扭去的蜈蚣。今天這種蟲子寫作「蛷」，旁邊多了個「虫」字旁。 }
+  closer: { en: "A wiggly centipede picture that now means to ask for: that's 求!", zh-Hans: 一条扭来扭去的蜈蚣，如今表示请求，这就是“求”！, zh-Hant: 一條扭來扭去的蜈蚣，如今表示請求，這就是「求」！ }
+journey: default
+origin:
+  type: pictogram
+status: draft
+sources:
+  - { title: 'Wiktionary: 求', url: 'https://en.wiktionary.org/wiki/%E6%B1%82' }

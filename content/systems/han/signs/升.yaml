@@ -1,0 +1,19 @@
+id: 升
+text: { Hans: 升, Hant: 升 }
+readings: { pinyin: shēng }
+meaning: { en: 'to rise, to go up', zh-Hans: 升旗, zh-Hant: 升旗 }
+fact:
+  en: 升 began as a picture of a dipper, the same kind of scoop as 斗. Today it is also a measuring unit, and it means to rise, as in 升旗 (raising the flag).
+  zh-Hans: “升”最早画的是一把舀东西的量具，和“斗”是同一类东西。今天它也是一种容量单位，还有往上升的意思，比如“升旗”。
+  zh-Hant: 「升」最早畫的是一把舀東西的量具，和「斗」是同一類東西。今天它也是一種容量單位，還有往上升的意思，比如「升旗」。
+story:
+  topic: { en: Raising the Flag at School, zh-Hans: 学校升旗, zh-Hant: 學校升旗 }
+  hook: { en: Monday morning! The whole school stands still as the flag climbs slowly up the pole., zh-Hans: 星期一早晨！全校同学静静站好，看着旗子沿着旗杆慢慢往上升。, zh-Hant: 星期一早晨！全校同學靜靜站好，看著旗子沿著旗桿慢慢往上升。 }
+  early: { en: 'The oldest 升 is a dipper for scooping, much like its neighbor 斗.', zh-Hans: 最古老的“升”是一把舀东西的量具，跟它的邻居“斗”差不多。, zh-Hant: 最古老的「升」是一把舀東西的量具，跟它的鄰居「斗」差不多。 }
+  closer: { en: "Up, up, up goes the flag: that's 升, to rise!", zh-Hans: 旗子一点一点往上升，这就是升旗的“升”！, zh-Hant: 旗子一點一點往上升，這就是升旗的「升」！ }
+journey: default
+origin:
+  type: pictogram
+status: draft
+sources:
+  - { title: 'Wiktionary: 升', url: 'https://en.wiktionary.org/wiki/%E5%8D%87' }

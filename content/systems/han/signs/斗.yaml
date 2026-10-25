@@ -1,0 +1,19 @@
+id: 斗
+text: { Hans: 斗, Hant: 斗 }
+readings: { pinyin: dǒu }
+meaning: { en: 'dipper, ladle', zh-Hans: 北斗星, zh-Hant: 北斗星 }
+fact:
+  en: 斗 is a picture of a ladle-shaped dipper, held in the hand to measure grain. The seven stars of the Big Dipper, 北斗, make the same scoop shape!
+  zh-Hans: “斗”画的是一把用手拿着的勺形量具，用来量粮食。天上的北斗七星，也连成了这样的勺子形状！
+  zh-Hant: 「斗」畫的是一把用手拿著的勺形量具，用來量糧食。天上的北斗七星，也連成了這樣的勺子形狀！
+story:
+  topic: { en: Finding the Big Dipper, zh-Hans: 寻找北斗七星, zh-Hant: 尋找北斗七星 }
+  hook: { en: 'On a clear summer night, Dad points up: seven bright stars make the shape of a giant scoop.', zh-Hans: 晴朗的夏夜，爸爸指着天空：七颗亮晶晶的星星连成了一把大勺子。, zh-Hant: 晴朗的夏夜，爸爸指著天空：七顆亮晶晶的星星連成了一把大勺子。 }
+  early: { en: 'An old dictionary describes 斗 as a picture of a ladle-shaped dipper, held in the hand to scoop and measure grain.', zh-Hans: 一本古老的字典说，“斗”画的是一把勺子形状的量具，用手拿着来舀粮食、量粮食。, zh-Hant: 一本古老的字典說，「斗」畫的是一把勺子形狀的量具，用手拿著來舀糧食、量糧食。 }
+  closer: { en: 'A scoop for grain down here and a scoop of stars up there: both are 斗!', zh-Hans: 地上量粮食的勺子，天上闪亮的北斗星，都是“斗”！, zh-Hant: 地上量糧食的勺子，天上閃亮的北斗星，都是「斗」！ }
+journey: default
+origin:
+  type: pictogram
+status: draft
+sources:
+  - { title: 'Wiktionary: 斗', url: 'https://en.wiktionary.org/wiki/%E6%96%97' }

@@ -1,0 +1,19 @@
+id: 巾
+text: { Hans: 巾, Hant: 巾 }
+readings: { pinyin: jīn }
+meaning: { en: 'towel, cloth', zh-Hans: 毛巾, zh-Hant: 毛巾 }
+fact:
+  en: 巾 is a picture of a piece of cloth hanging down. You'll find it in words like 毛巾 (towel) and 围巾 (scarf).
+  zh-Hans: “巾”画的是一块垂挂着的布。毛巾、围巾里都有它。
+  zh-Hant: 「巾」畫的是一塊垂掛著的布。毛巾、圍巾裡都有它。
+story:
+  topic: { en: The Towel on the Hook, zh-Hans: 挂钩上的毛巾, zh-Hant: 掛鉤上的毛巾 }
+  hook: { en: 'Splash, splash! After washing your face, you reach for the soft towel hanging on its hook.', zh-Hans: 哗啦，哗啦！洗完脸，你伸手去拿挂在钩子上的软毛巾。, zh-Hant: 嘩啦，嘩啦！洗完臉，你伸手去拿掛在鉤子上的軟毛巾。 }
+  early: { en: 'The oldest 巾 is simply a piece of cloth hanging down, just like your towel.', zh-Hans: 最古老的“巾”就是一块垂下来的布，就像你的毛巾一样。, zh-Hant: 最古老的「巾」就是一塊垂下來的布，就像你的毛巾一樣。 }
+  closer: { en: "A hanging piece of cloth for drying, wiping and keeping warm: that's 巾!", zh-Hans: 可以擦脸、擦手、围脖子的一块布，就是毛巾的“巾”！, zh-Hant: 可以擦臉、擦手、圍脖子的一塊布，就是毛巾的「巾」！ }
+journey: default
+origin:
+  type: pictogram
+status: draft
+sources:
+  - { title: 'Wiktionary: 巾', url: 'https://en.wiktionary.org/wiki/%E5%B7%BE' }

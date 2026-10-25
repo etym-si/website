@@ -1,0 +1,33 @@
+{
+  "id": "寸",
+  "text": { "Hans": "寸", "Hant": "寸" },
+  "readings": { "pinyin": "cùn" },
+  "meaning": { "en": "cun (Chinese inch)", "zh-Hans": "尺寸", "zh-Hant": "尺寸" },
+  "fact": {
+    "en": "寸 is a small unit of length, about 3 centimeters. One old explanation links it to the spot near your wrist where you can feel your pulse.",
+    "zh-Hans": "“寸”是一个很短的长度单位，大约3厘米。有一种古老的说法，把它和手腕附近能摸到脉搏的地方联系在一起。",
+    "zh-Hant": "「寸」是一個很短的長度單位，大約3公分。有一種古老的說法，把它和手腕附近能摸到脈搏的地方連在一起。"
+  },
+  "story": {
+    "topic": { "en": "Feeling Your Pulse", "zh-Hans": "摸一摸脉搏", "zh-Hant": "摸一摸脈搏" },
+    "hook": {
+      "en": "The doctor rests two fingertips on your wrist and goes quiet: thump-thump, thump-thump, she can feel your pulse!",
+      "zh-Hans": "医生把两根手指轻轻搭在你的手腕上，静静地感受：咚咚、咚咚，那是你的脉搏！",
+      "zh-Hant": "醫生把兩根手指輕輕搭在你的手腕上，靜靜地感受：咚咚、咚咚，那是你的脈搏！"
+    },
+    "early": {
+      "en": "An old dictionary says 寸 marks a spot on the forearm where the pulse can be felt; the short gap from the wrist to that spot became the unit 寸. Other scholars think the unit was borrowed from another character.",
+      "zh-Hans": "一本古老的字典说，“寸”指的是前臂上能摸到脉搏的地方，从手腕到那里的短短距离就成了长度单位“寸”。也有学者认为，这个单位是从别的字借来的。",
+      "zh-Hant": "一本古老的字典說，「寸」指的是前臂上能摸到脈搏的地方，從手腕到那裡的短短距離就成了長度單位「寸」。也有學者認為，這個單位是從別的字借來的。"
+    },
+    "closer": {
+      "en": "Just a little bit, about three centimeters long: that's 寸, the Chinese inch!",
+      "zh-Hans": "短短的一小段，大约3厘米，这就是尺寸的“寸”！",
+      "zh-Hant": "短短的一小段，大約3公分，這就是尺寸的「寸」！"
+    }
+  },
+  "journey": "default",
+  "origin": { "type": "uncertain" },
+  "status": "draft",
+  "sources": [ { "title": "Wiktionary: 寸", "url": "https://en.wiktionary.org/wiki/%E5%AF%B8" } ]
+}

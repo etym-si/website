@@ -1,0 +1,20 @@
+id: 豆
+text: { Hans: 豆, Hant: 豆 }
+readings: { pinyin: dòu }
+meaning: { en: bean, zh-Hans: 豆子, zh-Hant: 豆子 }
+fact:
+  en: 豆 began as a picture of a kind of container. Later it was borrowed for its sound to write the word for beans.
+  zh-Hans: “豆”最早画的是一种容器。后来，人们借用它的读音来写“豆子”这个词。
+  zh-Hant: 「豆」最早畫的是一種容器。後來，人們借用它的讀音來寫「豆子」這個詞。
+story:
+  topic: { en: Popping Open a Pea Pod, zh-Hans: 剥开豆荚, zh-Hant: 剝開豆莢 }
+  hook: { en: 'Pop! You squeeze a fat green pod, and five round peas roll into your hand.', zh-Hans: 啪！你捏开一个鼓鼓的豆荚，五颗圆圆的豆子滚进了手心。, zh-Hant: 啪！你捏開一個鼓鼓的豆莢，五顆圓圓的豆子滾進了手心。 }
+  early: { en: "The oldest 豆 isn't a bean at all: it's a picture of some kind of container.", zh-Hans: 最古老的“豆”根本不是豆子，而是某种容器的样子。, zh-Hant: 最古老的「豆」根本不是豆子，而是某種容器的樣子。 }
+  turn: { en: 'Because it had the right sound, people borrowed 豆 to write the name of the bean plant.', zh-Hans: 因为读音合适，人们就借“豆”来写豆子这种植物的名字。, zh-Hant: 因為讀音合適，人們就借「豆」來寫豆子這種植物的名字。 }
+  closer: { en: "A container picture that ended up meaning beans: that's 豆!", zh-Hans: 一幅容器的图画，后来变成了豆子，这就是“豆”！, zh-Hant: 一幅容器的圖畫，後來變成了豆子，這就是「豆」！ }
+journey: default
+origin:
+  type: loan
+status: draft
+sources:
+  - { title: 'Wiktionary: 豆', url: 'https://en.wiktionary.org/wiki/%E8%B1%86' }

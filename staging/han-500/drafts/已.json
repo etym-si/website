@@ -1,0 +1,33 @@
+{
+  "id": "已",
+  "text": { "Hans": "已", "Hant": "已" },
+  "readings": { "pinyin": "yǐ" },
+  "meaning": { "en": "already", "zh-Hans": "已经", "zh-Hant": "已經" },
+  "fact": {
+    "en": "已 means already, as in 已经. It may once have been the same character as 巳, a picture of a snake or of a baby before it is born.",
+    "zh-Hans": "“已”表示已经。它也许原本和“巳”是同一个字，画的是一条蛇，或者还没出生的小宝宝。",
+    "zh-Hant": "「已」表示已經。它也許原本和「巳」是同一個字，畫的是一條蛇，或者還沒出生的小寶寶。"
+  },
+  "story": {
+    "topic": { "en": "Teeth Already Brushed", "zh-Hans": "牙已经刷好了", "zh-Hant": "牙已經刷好了" },
+    "hook": {
+      "en": "Mom calls, ‘Time to brush your teeth!’ and you grin: you've already brushed them sparkly clean.",
+      "zh-Hans": "妈妈喊：“该刷牙啦！”你笑着说：“我已经刷得亮晶晶了！”",
+      "zh-Hant": "媽媽喊：「該刷牙囉！」你笑著說：「我已經刷得亮晶晶了！」"
+    },
+    "early": {
+      "en": "已 may first have been the same as 巳, which shows either a snake or an unborn baby. One famous old dictionary doesn't even include it!",
+      "zh-Hans": "“已”最早也许和“巳”是同一个字，画的可能是蛇，也可能是还没出生的宝宝。有一本很有名的古老字典，甚至没有收这个字！",
+      "zh-Hant": "「已」最早也許和「巳」是同一個字，畫的可能是蛇，也可能是還沒出生的寶寶。有一本很有名的古老字典，甚至沒有收這個字！"
+    },
+    "closer": {
+      "en": "Done before anyone asked: that's 已, already! Don't mix it up with 己 and 巳.",
+      "zh-Hans": "还没人提醒就做好了，这就是已经的“已”！别把它和“己”“巳”弄混哦。",
+      "zh-Hant": "還沒人提醒就做好了，這就是已經的「已」！別把它和「己」「巳」弄混喔。"
+    }
+  },
+  "journey": "default",
+  "origin": { "type": "uncertain" },
+  "status": "draft",
+  "sources": [ { "title": "Wiktionary: 已", "url": "https://en.wiktionary.org/wiki/%E5%B7%B2" } ]
+}

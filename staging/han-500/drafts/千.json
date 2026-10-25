@@ -1,0 +1,34 @@
+{
+  "id": "千",
+  "text": { "Hans": "千", "Hant": "千" },
+  "readings": { "pinyin": "qiān" },
+  "meaning": { "en": "thousand", "zh-Hans": "一千", "zh-Hant": "一千" },
+  "fact": {
+    "en": "千 is built from 一 (one), which shows it is a number, and 人, which was chosen for its sound. In very old Chinese, 千 and 人 sounded similar.",
+    "zh-Hans": "“千”由“一”和“人”组成：“一”表示这是一个数目，“人”用来表示读音。在很古老的汉语里，“千”和“人”的读音很接近。",
+    "zh-Hant": "「千」由「一」和「人」組成：「一」表示這是一個數目，「人」用來表示讀音。在很古老的漢語裡，「千」和「人」的讀音很接近。"
+  },
+  "story": {
+    "topic": { "en": "A Thousand Paper Cranes", "zh-Hans": "一千只纸鹤", "zh-Hant": "一千隻紙鶴" },
+    "hook": {
+      "en": "Fold, crease, fold! The whole class is making paper cranes, hoping to reach one thousand.",
+      "zh-Hans": "折一折，压一压！全班一起折纸鹤，希望能折满一千只。",
+      "zh-Hant": "摺一摺，壓一壓！全班一起摺紙鶴，希望能摺滿一千隻。"
+    },
+    "closer": {
+      "en": "一 for the meaning, 人 for the sound: together they make 千, a thousand!",
+      "zh-Hans": "“一”管意思，“人”管读音，合起来就是一千的“千”！",
+      "zh-Hant": "「一」管意思，「人」管讀音，合起來就是一千的「千」！"
+    }
+  },
+  "journey": "default",
+  "origin": {
+    "type": "phono-semantic",
+    "parts": [
+      { "char": "一", "role": "meaning", "gloss": { "en": "one (a number)", "zh-Hans": "一（数目）", "zh-Hant": "一（數目）" } },
+      { "char": "人", "role": "sound" }
+    ]
+  },
+  "status": "draft",
+  "sources": [ { "title": "Wiktionary: 千", "url": "https://en.wiktionary.org/wiki/%E5%8D%83" } ]
+}

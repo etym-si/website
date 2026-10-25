@@ -1,0 +1,38 @@
+{
+  "id": "必",
+  "text": { "Hans": "必", "Hant": "必" },
+  "readings": { "pinyin": "bì" },
+  "meaning": { "en": "must; surely", "zh-Hans": "必须", "zh-Hant": "必須" },
+  "fact": {
+    "en": "必 was most likely a picture of a weapon's handle, drawn on its own. It was later borrowed for its sound to mean must.",
+    "zh-Hans": "“必”很可能画的是兵器的把柄，单独画了出来。后来，人们借用它的读音，表示“必须”。",
+    "zh-Hant": "「必」很可能畫的是兵器的把柄，單獨畫了出來。後來，人們借用它的讀音，表示「必須」。"
+  },
+  "story": {
+    "topic": { "en": "Helmet On Before You Ride", "zh-Hans": "骑车先戴头盔", "zh-Hant": "騎車先戴安全帽" },
+    "hook": {
+      "en": "Click! Before you hop on your bike, you must buckle your helmet.",
+      "zh-Hans": "咔嗒！骑自行车之前，必须先扣好头盔。",
+      "zh-Hant": "喀噠！騎腳踏車之前，必須先扣好安全帽。"
+    },
+    "early": {
+      "en": "The oldest 必 is probably the handle of a weapon like 戈, drawn all by itself; later two little decorative strokes were added at the sides.",
+      "zh-Hans": "最古老的“必”大概是“戈”这类兵器的把柄，单独画了出来；后来两边又加上了两笔装饰。",
+      "zh-Hant": "最古老的「必」大概是「戈」這類兵器的把柄，單獨畫了出來；後來兩邊又加上了兩筆裝飾。"
+    },
+    "turn": {
+      "en": "Today it looks a lot like 心 (heart), but bronze writing shows the two are not related at all.",
+      "zh-Hans": "今天它看起来很像“心”，但金文告诉我们，它们其实一点关系也没有。",
+      "zh-Hant": "今天它看起來很像「心」，但金文告訴我們，它們其實一點關係也沒有。"
+    },
+    "closer": {
+      "en": "A weapon's handle, borrowed for its sound to say must: that's 必!",
+      "zh-Hans": "借用读音来表示“必须”的兵器把柄，就是“必”！",
+      "zh-Hant": "借用讀音來表示「必須」的兵器把柄，就是「必」！"
+    }
+  },
+  "journey": "default",
+  "origin": { "type": "loan" },
+  "status": "draft",
+  "sources": [ { "title": "Wiktionary: 必", "url": "https://en.wiktionary.org/wiki/%E5%BF%85" } ]
+}

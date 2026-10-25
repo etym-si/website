@@ -1,0 +1,21 @@
+id: 丰
+text: { Hans: 丰, Hant: 豐 }
+readings: { pinyin: fēng }
+meaning: { en: 'plentiful, abundant', zh-Hans: 丰收, zh-Hant: 豐收 }
+fact:
+  en: '丰 (豐) means plentiful. The traditional form 豐 shows a pot full of plants sitting on top of another pot: plenty!'
+  zh-Hans: “丰”是丰富、丰收的意思。它的繁体写作“豐”，画的是一个长满植物的容器，下面还有另一个容器，满满当当！
+  zh-Hant: 「豐」是豐富、豐收的意思。它畫的是一個長滿植物的容器，下面還有另一個容器，滿滿當當！
+story:
+  topic: { en: Harvest Day at the Farm, zh-Hans: 农场丰收日, zh-Hant: 農場豐收日 }
+  hook: { en: "Autumn at the farm! Aunt Li's baskets overflow with golden corn and round, fat pumpkins.", zh-Hans: 秋天的农场真热闹！李阿姨的篮子里堆满了金黄的玉米和圆滚滚的南瓜。, zh-Hant: 秋天的農場真熱鬧！李阿姨的籃子裡堆滿了金黃的玉米和圓滾滾的南瓜。 }
+  early: { en: 'On top of 豐 is a pot full of plants, and underneath is another pot, 豆.', zh-Hans: “豐”的上面是一个长满植物的容器，下面是另一个容器“豆”。, zh-Hant: 「豐」的上面是一個長滿植物的容器，下面是另一個容器「豆」。 }
+  turn: { en: 'The simplified form 丰 is an old character too: it was a lush plant growing out of the ground, though the ground stroke has gone missing.', zh-Hans: 简化字“丰”也是一个古老的字：它原本画的是从地上长出来的茂盛植物，只是代表地面的那一笔不见了。, zh-Hant: 簡化字「丰」也是一個古老的字：它原本畫的是從地上長出來的茂盛植物，只是代表地面的那一筆不見了。 }
+  closer: { en: "Baskets full, pots full, plants growing thick: that's 丰 (豐), plenty!", zh-Hans: 篮子满满，盆子满满，庄稼长得密密的，这就是丰收的“丰”！, zh-Hant: 籃子滿滿，盆子滿滿，莊稼長得密密的，這就是豐收的「豐」！ }
+journey: default
+origin:
+  type: ideogram
+status: draft
+sources:
+  - { title: 'Wiktionary: 丰', url: 'https://en.wiktionary.org/wiki/%E4%B8%B0' }
+  - { title: 'Wiktionary: 豐', url: 'https://en.wiktionary.org/wiki/%E8%B1%90' }

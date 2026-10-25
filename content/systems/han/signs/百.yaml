@@ -1,0 +1,21 @@
+id: 百
+text: { Hans: 百, Hant: 百 }
+readings: { pinyin: bǎi }
+meaning: { en: hundred, zh-Hans: 一百, zh-Hant: 一百 }
+fact:
+  en: '百 is made of two parts: 一 (one) on top gives the meaning, and 白 below was chosen for its sound. Say them: 白 bái, 百 bǎi!'
+  zh-Hans: “百”由两部分组成：上面的“一”表示意思，下面的“白”是用来表示读音的。读读看：白 bái，百 bǎi！
+  zh-Hant: 「百」由兩部分組成：上面的「一」表示意思，下面的「白」是用來表示讀音的。讀讀看：白 bái，百 bǎi！
+story:
+  topic: { en: A Perfect 100, zh-Hans: 满分一百, zh-Hant: 滿分一百 }
+  hook: { en: Hooray! Your dictation test comes back with a big red 100 at the top., zh-Hans: 好耶！听写本发下来了，上面写着一个大大的红色“100”！, zh-Hant: 好耶！聽寫考卷發下來了，上面寫著一個大大的紅色「100」！ }
+  closer: { en: '一 for the meaning, 白 for the sound: together they make 百, a hundred!', zh-Hans: 上面的“一”管意思，下面的“白”管读音，合起来就是一百的“百”！, zh-Hant: 上面的「一」管意思，下面的「白」管讀音，合起來就是一百的「百」！ }
+journey: default
+origin:
+  type: phono-semantic
+  parts:
+    - { char: 一, role: meaning, gloss: { en: one, zh-Hans: 一, zh-Hant: 一 } }
+    - { char: 白, role: sound }
+status: draft
+sources:
+  - { title: 'Wiktionary: 百', url: 'https://en.wiktionary.org/wiki/%E7%99%BE' }

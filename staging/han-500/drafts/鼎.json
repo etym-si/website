@@ -1,0 +1,33 @@
+{
+  "id": "鼎",
+  "text": { "Hans": "鼎", "Hant": "鼎" },
+  "readings": { "pinyin": "dǐng" },
+  "meaning": { "en": "ding (three-legged bronze cauldron)", "zh-Hans": "青铜鼎", "zh-Hant": "青銅鼎" },
+  "fact": {
+    "en": "鼎 is a picture of a ding: a big bronze pot with three legs, used for cooking and for special ceremonies. Some were even carved with writing!",
+    "zh-Hans": "“鼎”画的是一种有三条腿的青铜大锅，用来煮东西，也用在祭祀仪式上。有的鼎上还刻着字呢！",
+    "zh-Hant": "「鼎」畫的是一種有三條腿的青銅大鍋，用來煮東西，也用在祭祀儀式上。有的鼎上還刻著字呢！"
+  },
+  "story": {
+    "topic": { "en": "The Three-Legged Pot at the Museum", "zh-Hans": "博物馆里的三脚大锅", "zh-Hant": "博物館裡的三腳大鍋" },
+    "hook": {
+      "en": "At the museum, a huge bronze pot stands on three sturdy legs, and you press close to the glass to look.",
+      "zh-Hans": "博物馆里，一口巨大的青铜锅稳稳地站在三条粗壮的腿上，你凑近玻璃仔细看。",
+      "zh-Hant": "博物館裡，一口巨大的青銅鍋穩穩地站在三條粗壯的腿上，你湊近玻璃仔細看。"
+    },
+    "early": {
+      "en": "The oldest 鼎 is a picture of the pot itself, standing on its three legs.",
+      "zh-Hans": "最古老的“鼎”画的就是这口锅本身，用三条腿站着。",
+      "zh-Hant": "最古老的「鼎」畫的就是這口鍋本身，用三條腿站著。"
+    },
+    "closer": {
+      "en": "Three sturdy legs and a bronze body: that's 鼎, the ancient cooking pot!",
+      "zh-Hans": "三条结实的腿，加上青铜做的身体，这就是“鼎”！",
+      "zh-Hant": "三條結實的腿，加上青銅做的身體，這就是「鼎」！"
+    }
+  },
+  "journey": "default",
+  "origin": { "type": "pictogram" },
+  "status": "draft",
+  "sources": [ { "title": "Wiktionary: 鼎", "url": "https://en.wiktionary.org/wiki/%E9%BC%8E" } ]
+}

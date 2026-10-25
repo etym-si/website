@@ -1,0 +1,38 @@
+{
+  "id": "主",
+  "text": { "Hans": "主", "Hant": "主" },
+  "readings": { "pinyin": "zhǔ" },
+  "meaning": { "en": "host; owner", "zh-Hans": "主人", "zh-Hant": "主人" },
+  "fact": {
+    "en": "In ancient writing, three different pictures merged into 主: a lamp with a flame on top, wood on fire, and a spirit tablet. Today 主 means a host or an owner.",
+    "zh-Hans": "在古文字里，有三种不同的图画后来都变成了“主”：顶上有火苗的灯、燃烧的木头，还有祭祀用的神主牌。今天“主”的意思是主人。",
+    "zh-Hant": "在古文字裡，有三種不同的圖畫後來都變成了「主」：頂上有火苗的燈、燃燒的木頭，還有祭祀用的神主牌。今天「主」的意思是主人。"
+  },
+  "story": {
+    "topic": { "en": "The Little Host", "zh-Hans": "小主人", "zh-Hant": "小主人" },
+    "hook": {
+      "en": "Welcome, welcome! At her birthday party, Mei is the little host, handing every guest a cup of juice.",
+      "zh-Hans": "欢迎欢迎！生日会上，小美当起了小主人，给每位客人递上一杯果汁。",
+      "zh-Hant": "歡迎歡迎！生日會上，小美當起了小主人，給每位客人遞上一杯果汁。"
+    },
+    "early": {
+      "en": "One old shape of 主 is a lamp or torch with a flame at the top. Others show burning wood, or a spirit tablet.",
+      "zh-Hans": "“主”的一种古老写法，是顶上燃着火苗的灯或火把。另外的写法，有的画燃烧的木头，有的画神主牌。",
+      "zh-Hant": "「主」的一種古老寫法，是頂上燃著火苗的燈或火把。另外的寫法，有的畫燃燒的木頭，有的畫神主牌。"
+    },
+    "turn": {
+      "en": "In the burning-wood version, the wood 木 later turned into the 王 shape you see in 主 today.",
+      "zh-Hans": "在“燃烧的木头”这种写法里，“木”后来变成了今天“主”里像“王”的部分。",
+      "zh-Hant": "在「燃燒的木頭」這種寫法裡，「木」後來變成了今天「主」裡像「王」的部分。"
+    },
+    "closer": {
+      "en": "The one who opens the door and welcomes everyone in: that's 主, the host!",
+      "zh-Hans": "打开大门、热情招待大家的人，就是主人的“主”！",
+      "zh-Hant": "打開大門、熱情招待大家的人，就是主人的「主」！"
+    }
+  },
+  "journey": "default",
+  "origin": { "type": "pictogram" },
+  "status": "draft",
+  "sources": [ { "title": "Wiktionary: 主", "url": "https://en.wiktionary.org/wiki/%E4%B8%BB" } ]
+}

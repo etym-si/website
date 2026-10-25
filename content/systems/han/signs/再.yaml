@@ -1,0 +1,19 @@
+id: 再
+text: { Hans: 再, Hant: 再 }
+readings: { pinyin: zài }
+meaning: { en: again, zh-Hans: 再见, zh-Hant: 再見 }
+fact:
+  en: 再 means again, one more time. No one is completely sure what its old shape shows; one idea is catching two fish at once!
+  zh-Hans: “再”是再一次的意思。它古老的样子画的是什么，谁也说不准；有一种说法是一下子抓到两条鱼！
+  zh-Hant: 「再」是再一次的意思。它古老的樣子畫的是什麼，誰也說不準；有一種說法是一下子抓到兩條魚！
+story:
+  topic: { en: One More Splash!, zh-Hans: 再跳一次！, zh-Hant: 再跳一次！ }
+  hook: { en: 'Splash! You cannonball into the pool, climb out dripping and shout, ‘Again!’', zh-Hans: 扑通！你抱着膝盖跳进游泳池，滴着水爬上来，大喊：“再来一次！”, zh-Hant: 撲通！你抱著膝蓋跳進游泳池，滴著水爬上來，大喊：「再來一次！」 }
+  early: { en: 'No one is completely sure what the old 再 shows. Some scholars see a fish, some see tools for weaving rope, and some think it means catching two fish at once.', zh-Hans: 古老的“再”画的是什么，谁也说不准。有学者认为是一条鱼，有的认为是编绳子的工具，还有的认为是一下子抓住两条鱼。, zh-Hant: 古老的「再」畫的是什麼，誰也說不準。有學者認為是一條魚，有的認為是編繩子的工具，還有的認為是一下子抓住兩條魚。 }
+  closer: { en: "One more time, and then one more time again: that's 再!", zh-Hans: 再来一次，再玩一次，这就是再见的“再”！, zh-Hant: 再來一次，再玩一次，這就是再見的「再」！ }
+journey: default
+origin:
+  type: uncertain
+status: draft
+sources:
+  - { title: 'Wiktionary: 再', url: 'https://en.wiktionary.org/wiki/%E5%86%8D' }

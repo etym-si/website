@@ -1,0 +1,20 @@
+id: 示
+text: { Hans: 示, Hant: 示 }
+readings: { pinyin: shì }
+meaning: { en: to show, zh-Hans: 展示, zh-Hant: 展示 }
+fact:
+  en: 示 is a picture of an altar, a special table for offerings. Today it means to show, as in 展示 (to display).
+  zh-Hans: “示”画的是一张供桌，也就是祭祀时摆放供品的桌子。今天它的意思是给人看，比如“展示”。
+  zh-Hant: 「示」畫的是一張供桌，也就是祭拜時擺放供品的桌子。今天它的意思是給人看，比如「展示」。
+story:
+  topic: { en: Show-and-Tell Day, zh-Hans: 展示日, zh-Hant: 展示日 }
+  hook: { en: It's show-and-tell day! You hold up the cardboard robot you built so the whole class can see., zh-Hans: 今天是展示日！你高高举起自己用纸箱做的机器人，让全班同学都看得见。, zh-Hant: 今天是展示日！你高高舉起自己用紙箱做的機器人，讓全班同學都看得見。 }
+  early: { en: 'The oldest 示 is an altar, shaped a lot like 丅.', zh-Hans: 最古老的“示”是一张供桌，样子很像“丅”。, zh-Hant: 最古老的「示」是一張供桌，樣子很像「丅」。 }
+  turn: { en: 'Later, extra strokes were added so no one would mix it up with old forms of 下 and 主.', zh-Hans: 后来，人们给它添上几笔，免得和古时候的“下”“主”弄混。, zh-Hant: 後來，人們給它添上幾筆，免得和古時候的「下」「主」弄混。 }
+  closer: { en: "Set it out where everyone can see: that's 示, to show!", zh-Hans: 摆出来，让大家都看得见，这就是展示的“示”！, zh-Hant: 擺出來，讓大家都看得見，這就是展示的「示」！ }
+journey: default
+origin:
+  type: pictogram
+status: draft
+sources:
+  - { title: 'Wiktionary: 示', url: 'https://en.wiktionary.org/wiki/%E7%A4%BA' }
