@@ -1,0 +1,3 @@
+# Isolated git worktrees and agent scratch space
+.worktrees/
+.superpowers/
