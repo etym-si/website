@@ -139,6 +139,7 @@ def subsections(sec: str, name: str) -> list[str]:
 
 def strip_markup_noise(s: str) -> str:
     s = re.sub(r"<!--.*?-->", "", s, flags=re.S)
+    s = re.sub(r"^\{\|.*?^\|\}", "", s, flags=re.S | re.M)  # wikitables (image galleries)
     s = re.sub(r"<ref[^>/]*/>", "", s)
     s = re.sub(r"<ref[^>]*>.*?</ref>", "", s, flags=re.S)
     s = re.sub(r"<br\s*/?>", " ", s)
