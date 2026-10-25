@@ -1,0 +1,542 @@
+[
+ {
+  "char": "日",
+  "trad": "日",
+  "pinyin": "rì",
+  "meaning": {
+   "en": "sun",
+   "zhs": "太阳",
+   "zht": "太陽"
+  },
+  "fact": {
+   "en": "The first 日 was a circle with a dot: the shining sun. Later the circle became a square, because squares are easier to carve and write.",
+   "zhs": "最早的“日”是一个圆圈，中间有一个点，就像发光的太阳。后来圆圈变成了方框，因为方框更容易刻，也更容易写。",
+   "zht": "最早的「日」是一個圓圈，中間有一個點，就像發光的太陽。後來圓圈變成了方框，因為方框更容易刻，也更容易寫。"
+  }
+ },
+ {
+  "char": "山",
+  "trad": "山",
+  "pinyin": "shān",
+  "meaning": {
+   "en": "mountain",
+   "zhs": "高山",
+   "zht": "高山"
+  },
+  "fact": {
+   "en": "Three peaks side by side make 山. The middle one is the tallest!",
+   "zhs": "三座山峰并排站着，就是“山”。中间那座最高！",
+   "zht": "三座山峰並排站著，就是「山」。中間那座最高！"
+  }
+ },
+ {
+  "char": "水",
+  "trad": "水",
+  "pinyin": "shuǐ",
+  "meaning": {
+   "en": "water",
+   "zhs": "河水",
+   "zht": "河水"
+  },
+  "fact": {
+   "en": "The wavy line in the middle is a flowing river, and the dots on each side are splashes of water.",
+   "zhs": "中间弯弯的线是流动的河水，两边的点是溅起的水花。",
+   "zht": "中間彎彎的線是流動的河水，兩邊的點是濺起的水花。"
+  }
+ },
+ {
+  "char": "林",
+  "trad": "林",
+  "pinyin": "lín",
+  "meaning": {
+   "en": "woods",
+   "zhs": "树林",
+   "zht": "樹林"
+  },
+  "fact": {
+   "en": "One tree is 木. Put two trees together and you get 林, a little wood!",
+   "zhs": "一棵树是“木”，两棵树在一起，就成了树林的“林”！",
+   "zht": "一棵樹是「木」，兩棵樹在一起，就成了樹林的「林」！"
+  }
+ },
+ {
+  "char": "木",
+  "trad": "木",
+  "pinyin": "mù",
+  "meaning": {
+   "en": "tree",
+   "zhs": "树木",
+   "zht": "樹木"
+  },
+  "fact": {
+   "en": "木 is a tree: branches reaching up on top, roots spreading out below.",
+   "zhs": "“木”是一棵树：上面是伸向天空的树枝，下面是向四周伸展的树根。",
+   "zht": "「木」是一棵樹：上面是伸向天空的樹枝，下面是向四周伸展的樹根。"
+  }
+ },
+ {
+  "char": "鸟",
+  "trad": "鳥",
+  "pinyin": "niǎo",
+  "meaning": {
+   "en": "bird",
+   "zhs": "小鸟",
+   "zht": "小鳥"
+  },
+  "fact": {
+   "en": "Find the beak, the eye, the wing and the tail! The ancient 鸟 is a bird standing sideways.",
+   "zhs": "找一找鸟嘴、眼睛、翅膀和尾巴！古代的“鸟”是一只侧身站着的小鸟。",
+   "zht": "找一找鳥嘴、眼睛、翅膀和尾巴！古代的「鳥」是一隻側身站著的小鳥。"
+  }
+ },
+ {
+  "char": "象",
+  "trad": "象",
+  "pinyin": "xiàng",
+  "meaning": {
+   "en": "elephant",
+   "zhs": "大象",
+   "zht": "大象"
+  },
+  "fact": {
+   "en": "See the long trunk at the top? Long ago, wild elephants lived in China, so people knew them well.",
+   "zhs": "看到顶上长长的鼻子了吗？很久以前，中国也有野生大象，所以古人很熟悉它们。",
+   "zht": "看到頂上長長的鼻子了嗎？很久以前，中國也有野生大象，所以古人很熟悉牠們。"
+  }
+ },
+ {
+  "char": "草",
+  "trad": "草",
+  "pinyin": "cǎo",
+  "meaning": {
+   "en": "grass",
+   "zhs": "小草",
+   "zht": "小草"
+  },
+  "fact": {
+   "en": "Grass was first drawn as little sprouts: 艸. Later, 早 was added underneath to hint at the sound.",
+   "zhs": "小草最早画成几棵小芽：艸。后来下面加了一个“早”，提示它的读音。",
+   "zht": "小草最早畫成幾棵小芽：艸。後來下面加了一個「早」，提示它的讀音。"
+  }
+ },
+ {
+  "char": "田",
+  "trad": "田",
+  "pinyin": "tián",
+  "meaning": {
+   "en": "field",
+   "zhs": "田地",
+   "zht": "田地"
+  },
+  "fact": {
+   "en": "田 is a field seen from above, divided by little paths into neat plots.",
+   "zhs": "“田”是从天上往下看的农田，被小路分成一块一块的。",
+   "zht": "「田」是從天上往下看的農田，被小路分成一塊一塊的。"
+  }
+ },
+ {
+  "char": "竹",
+  "trad": "竹",
+  "pinyin": "zhú",
+  "meaning": {
+   "en": "bamboo",
+   "zhs": "竹子",
+   "zht": "竹子"
+  },
+  "fact": {
+   "en": "竹 shows two bamboo twigs with their leaves hanging down.",
+   "zhs": "“竹”画的是两根竹枝，叶子垂了下来。",
+   "zht": "「竹」畫的是兩根竹枝，葉子垂了下來。"
+  }
+ },
+ {
+  "char": "马",
+  "trad": "馬",
+  "pinyin": "mǎ",
+  "meaning": {
+   "en": "horse",
+   "zhs": "骏马",
+   "zht": "駿馬"
+  },
+  "fact": {
+   "en": "The ancient 马 is a horse standing up on its tail! Writers turned animals sideways to fit them into narrow columns. You can still see the mane and legs in 馬.",
+   "zhs": "古代的“马”是一匹竖起来的马！为了写进窄窄的竖行，古人常把动物竖着写。繁体“馬”里还能看到马鬃和马腿。",
+   "zht": "古代的「馬」是一匹豎起來的馬！為了寫進窄窄的豎行，古人常把動物豎著寫。「馬」字裡還能看到馬鬃和馬腿。"
+  }
+ },
+ {
+  "char": "夫",
+  "trad": "夫",
+  "pinyin": "fū",
+  "meaning": {
+   "en": "grown-up man",
+   "zhs": "农夫",
+   "zht": "農夫"
+  },
+  "fact": {
+   "en": "夫 is 大 (a grown-up) with a line through the hair: a hairpin! Grown-up men in ancient China pinned up their hair.",
+   "zhs": "“夫”是“大”（一个大人）头上加一横——那是发簪！古时候，男子长大后要把头发束起来，插上簪子。",
+   "zht": "「夫」是「大」（一個大人）頭上加一橫——那是髮簪！古時候，男子長大後要把頭髮束起來，插上簪子。"
+  }
+ },
+ {
+  "char": "刀",
+  "trad": "刀",
+  "pinyin": "dāo",
+  "meaning": {
+   "en": "knife",
+   "zhs": "小刀",
+   "zht": "小刀"
+  },
+  "fact": {
+   "en": "刀 is a knife: a handle and a curved blade.",
+   "zhs": "“刀”是一把刀：有刀柄，还有弯弯的刀刃。",
+   "zht": "「刀」是一把刀：有刀柄，還有彎彎的刀刃。"
+  }
+ },
+ {
+  "char": "舟",
+  "trad": "舟",
+  "pinyin": "zhōu",
+  "meaning": {
+   "en": "boat",
+   "zhs": "小船",
+   "zht": "小船"
+  },
+  "fact": {
+   "en": "舟 is a small wooden boat. The lines across it are its planks.",
+   "zhs": "“舟”是一条小木船，中间的横线是一块块木板。",
+   "zht": "「舟」是一條小木船，中間的橫線是一塊塊木板。"
+  }
+ },
+ {
+  "char": "鱼",
+  "trad": "魚",
+  "pinyin": "yú",
+  "meaning": {
+   "en": "fish",
+   "zhs": "小鱼",
+   "zht": "小魚"
+  },
+  "fact": {
+   "en": "Head at the top, tail at the bottom: the ancient 鱼 is a fish swimming upward. The four dots at the bottom of 魚 were once its tail!",
+   "zhs": "头在上，尾巴在下：古代的“鱼”是一条往上游的鱼。繁体“魚”下面的四个点，原来是鱼尾巴！",
+   "zht": "頭在上，尾巴在下：古代的「魚」是一條往上游的魚。「魚」下面的四個點，原來是魚尾巴！"
+  }
+ },
+ {
+  "char": "网",
+  "trad": "網",
+  "pinyin": "wǎng",
+  "meaning": {
+   "en": "net",
+   "zhs": "渔网",
+   "zht": "漁網"
+  },
+  "fact": {
+   "en": "网 is a fishing net with crossing strings. Later people wrote 網, and simplified Chinese went back to the ancient 网!",
+   "zhs": "“网”是一张绳子交叉的渔网。后来人们写成“網”，简化字又回到了古老的“网”！",
+   "zht": "「网」是一張繩子交叉的漁網。後來人們寫成「網」，簡化字又回到了古老的「网」！"
+  }
+ },
+ {
+  "char": "燕",
+  "trad": "燕",
+  "pinyin": "yàn",
+  "meaning": {
+   "en": "swallow",
+   "zhs": "燕子",
+   "zht": "燕子"
+  },
+  "fact": {
+   "en": "燕 is a swallow flying with its wings spread wide and its forked tail behind.",
+   "zhs": "“燕”是一只张开翅膀飞翔的燕子，后面还有分叉的尾巴。",
+   "zht": "「燕」是一隻張開翅膀飛翔的燕子，後面還有分叉的尾巴。"
+  }
+ },
+ {
+  "char": "云",
+  "trad": "雲",
+  "pinyin": "yún",
+  "meaning": {
+   "en": "cloud",
+   "zhs": "白云",
+   "zht": "白雲"
+  },
+  "fact": {
+   "en": "云 is a curl of cloud. Later, 雨 (rain) was added on top to make 雲, and simplified Chinese went back to the ancient 云!",
+   "zhs": "“云”像一朵卷卷的云。后来上面加了“雨”，写成“雲”，简化字又回到了古老的“云”！",
+   "zht": "「云」像一朵捲捲的雲。後來上面加了「雨」，寫成「雲」，簡化字又回到了古老的「云」！"
+  }
+ },
+ {
+  "char": "雨",
+  "trad": "雨",
+  "pinyin": "yǔ",
+  "meaning": {
+   "en": "rain",
+   "zhs": "下雨",
+   "zht": "下雨"
+  },
+  "fact": {
+   "en": "The line on top is the sky, and the dots below are raindrops falling down.",
+   "zhs": "上面一横是天空，下面的点点是落下来的雨滴。",
+   "zht": "上面一橫是天空，下面的點點是落下來的雨滴。"
+  }
+ },
+ {
+  "char": "伞",
+  "trad": "傘",
+  "pinyin": "sǎn",
+  "meaning": {
+   "en": "umbrella",
+   "zhs": "雨伞",
+   "zht": "雨傘"
+  },
+  "fact": {
+   "en": "伞 is a “young” character, so there are no oracle-bone or bronze versions. But it still looks like an open umbrella!",
+   "zhs": "“伞”是一个“年轻”的字，没有甲骨文和金文。可它看起来还是像一把撑开的伞！",
+   "zht": "「傘」是一個「年輕」的字，沒有甲骨文和金文。可它看起來還是像一把撐開的傘！"
+  }
+ },
+ {
+  "char": "石",
+  "trad": "石",
+  "pinyin": "shí",
+  "meaning": {
+   "en": "stone",
+   "zhs": "石头",
+   "zht": "石頭"
+  },
+  "fact": {
+   "en": "石 shows a rock (口) at the foot of a cliff (厂).",
+   "zhs": "“石”画的是山崖（厂）下面的一块石头（口）。",
+   "zht": "「石」畫的是山崖（厂）下面的一塊石頭（口）。"
+  }
+ },
+ {
+  "char": "火",
+  "trad": "火",
+  "pinyin": "huǒ",
+  "meaning": {
+   "en": "fire",
+   "zhs": "火焰",
+   "zht": "火焰"
+  },
+  "fact": {
+   "en": "The oldest 火 looks like flames leaping up from a campfire.",
+   "zhs": "最古老的“火”就像篝火上向上跳动的火苗。",
+   "zht": "最古老的「火」就像篝火上向上跳動的火苗。"
+  }
+ },
+ {
+  "char": "龟",
+  "trad": "龜",
+  "pinyin": "guī",
+  "meaning": {
+   "en": "turtle",
+   "zhs": "乌龟",
+   "zht": "烏龜"
+  },
+  "fact": {
+   "en": "龟 has a head, a shell and feet. The oldest Chinese writing we have was carved on turtle shells and bones!",
+   "zhs": "“龟”有头、有壳、有脚。我们发现的最古老的汉字，就刻在龟甲和兽骨上！",
+   "zht": "「龜」有頭、有殼、有腳。我們發現的最古老的漢字，就刻在龜甲和獸骨上！"
+  }
+ },
+ {
+  "char": "鹿",
+  "trad": "鹿",
+  "pinyin": "lù",
+  "meaning": {
+   "en": "deer",
+   "zhs": "小鹿",
+   "zht": "小鹿"
+  },
+  "fact": {
+   "en": "Look at the branching antlers on top: that’s how you know it’s a deer!",
+   "zhs": "看顶上分叉的鹿角，一看就知道是“鹿”！",
+   "zht": "看頂上分叉的鹿角，一看就知道是「鹿」！"
+  }
+ },
+ {
+  "char": "豕",
+  "trad": "豕",
+  "pinyin": "shǐ",
+  "meaning": {
+   "en": "pig",
+   "zhs": "猪",
+   "zht": "豬"
+  },
+  "fact": {
+   "en": "豕 is a pig standing up, with a round belly and a short tail. Find 豕 inside 家 (home): a pig under a roof!",
+   "zhs": "“豕”是一头竖起来的猪，肚子圆圆，尾巴短短。“家”字里面就有“豕”——屋顶下养着猪！",
+   "zht": "「豕」是一頭豎起來的豬，肚子圓圓，尾巴短短。「家」字裡面就有「豕」——屋頂下養著豬！"
+  }
+ },
+ {
+  "char": "叟",
+  "trad": "叟",
+  "pinyin": "sǒu",
+  "meaning": {
+   "en": "old man",
+   "zhs": "老人",
+   "zht": "老人"
+  },
+  "fact": {
+   "en": "The ancient 叟 showed a hand holding a torch inside a house: searching! Later it came to mean “old man”, and 搜 took over the job of “search”.",
+   "zhs": "古代的“叟”是屋子里一只举着火把的手——在找东西！后来它被借来表示“老人”，“找”的意思就交给了“搜”。",
+   "zht": "古代的「叟」是屋子裡一隻舉著火把的手——在找東西！後來它被借來表示「老人」，「找」的意思就交給了「搜」。"
+  }
+ },
+ {
+  "char": "虎",
+  "trad": "虎",
+  "pinyin": "hǔ",
+  "meaning": {
+   "en": "tiger",
+   "zhs": "老虎",
+   "zht": "老虎"
+  },
+  "fact": {
+   "en": "The ancient 虎 is a tiger standing up, with a big open mouth, stripes and claws.",
+   "zhs": "古代的“虎”是一只竖起来的老虎，张着大嘴，身上有花纹，还有尖尖的爪子。",
+   "zht": "古代的「虎」是一隻豎起來的老虎，張著大嘴，身上有花紋，還有尖尖的爪子。"
+  }
+ },
+ {
+  "char": "弓",
+  "trad": "弓",
+  "pinyin": "gōng",
+  "meaning": {
+   "en": "bow",
+   "zhs": "弓箭",
+   "zht": "弓箭"
+  },
+  "fact": {
+   "en": "弓 is a bow for shooting arrows. Some of the oldest versions even show the string.",
+   "zhs": "“弓”是射箭用的弓，有些最古老的写法还画出了弓弦。",
+   "zht": "「弓」是射箭用的弓，有些最古老的寫法還畫出了弓弦。"
+  }
+ },
+ {
+  "char": "舍",
+  "trad": "舍",
+  "pinyin": "shè",
+  "meaning": {
+   "en": "hut",
+   "zhs": "房舍",
+   "zht": "房舍"
+  },
+  "fact": {
+   "en": "舍 is a simple hut: a pointed roof on top, a post in the middle and a base below.",
+   "zhs": "“舍”是一座简单的小屋：上面是尖尖的屋顶，中间是柱子，下面是地基。",
+   "zht": "「舍」是一座簡單的小屋：上面是尖尖的屋頂，中間是柱子，下面是地基。"
+  }
+ },
+ {
+  "char": "羊",
+  "trad": "羊",
+  "pinyin": "yáng",
+  "meaning": {
+   "en": "sheep",
+   "zhs": "山羊",
+   "zht": "山羊"
+  },
+  "fact": {
+   "en": "羊 is a sheep’s face seen from the front, with two curly horns on top.",
+   "zhs": "“羊”是从正面看的羊头，上面有两只弯弯的羊角。",
+   "zht": "「羊」是從正面看的羊頭，上面有兩隻彎彎的羊角。"
+  }
+ },
+ {
+  "char": "花",
+  "trad": "花",
+  "pinyin": "huā",
+  "meaning": {
+   "en": "flower",
+   "zhs": "花朵",
+   "zht": "花朵"
+  },
+  "fact": {
+   "en": "Long ago, flowers were written 華, a plant in full bloom. 花 came much later: 艹 (grass) on top and 化 to hint at the sound.",
+   "zhs": "很久以前，“花”写作“華”，像一株开满花的植物。“花”是后来才造的字：上面是草字头，下面的“化”提示读音。",
+   "zht": "很久以前，「花」寫作「華」，像一株開滿花的植物。「花」是後來才造的字：上面是草字頭，下面的「化」提示讀音。"
+  }
+ },
+ {
+  "char": "门",
+  "trad": "門",
+  "pinyin": "mén",
+  "meaning": {
+   "en": "gate",
+   "zhs": "大门",
+   "zht": "大門"
+  },
+  "fact": {
+   "en": "門 is a picture of a gate with two doors. The simplified 门 comes from a quick, flowing way of writing it.",
+   "zhs": "“門”画的是一扇有两块门板的大门。简化字“门”来自它快速连笔的写法。",
+   "zht": "「門」畫的是一扇有兩塊門板的大門。簡化字「门」來自它快速連筆的寫法。"
+  }
+ },
+ {
+  "char": "犬",
+  "trad": "犬",
+  "pinyin": "quǎn",
+  "meaning": {
+   "en": "dog",
+   "zhs": "小狗",
+   "zht": "小狗"
+  },
+  "fact": {
+   "en": "犬 is a dog standing up, with a thin body and its tail curled up.",
+   "zhs": "“犬”是一只竖起来的狗，身子瘦瘦的，尾巴向上卷着。",
+   "zht": "「犬」是一隻豎起來的狗，身子瘦瘦的，尾巴向上捲著。"
+  }
+ },
+ {
+  "char": "子",
+  "trad": "子",
+  "pinyin": "zǐ",
+  "meaning": {
+   "en": "child",
+   "zhs": "孩子",
+   "zht": "孩子"
+  },
+  "fact": {
+   "en": "子 is a baby with a big head and waving arms, its legs wrapped up in a blanket.",
+   "zhs": "“子”是一个大脑袋、挥着小手的婴儿，腿裹在襁褓里。",
+   "zht": "「子」是一個大腦袋、揮著小手的嬰兒，腿裹在襁褓裡。"
+  }
+ },
+ {
+  "char": "女",
+  "trad": "女",
+  "pinyin": "nǚ",
+  "meaning": {
+   "en": "woman",
+   "zhs": "女子",
+   "zht": "女子"
+  },
+  "fact": {
+   "en": "女 shows a woman kneeling, with her arms crossed in front of her.",
+   "zhs": "“女”画的是一位跪坐着、双手交叉放在身前的女子。",
+   "zht": "「女」畫的是一位跪坐著、雙手交叉放在身前的女子。"
+  }
+ },
+ {
+  "char": "月",
+  "trad": "月",
+  "pinyin": "yuè",
+  "meaning": {
+   "en": "moon",
+   "zhs": "月亮",
+   "zht": "月亮"
+  },
+  "fact": {
+   "en": "月 is a crescent moon. People drew it as a crescent so nobody would mix it up with the round sun, 日.",
+   "zhs": "“月”是一弯月牙。古人把月亮画成弯弯的月牙，这样就不会和圆圆的“日”弄混了。",
+   "zht": "「月」是一彎月牙。古人把月亮畫成彎彎的月牙，這樣就不會和圓圓的「日」弄混了。"
+  }
+ }
+]

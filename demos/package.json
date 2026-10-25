@@ -9,12 +9,17 @@
     "dev": "vite --host 127.0.0.1 --port 3636",
     "build": "tsc --noEmit && vite build",
     "preview:lan": "vite preview --host 172.17.197.51 --port 3636 --strictPort",
-    "shoot": "node scripts/shoot.mjs"
+    "shoot": "node scripts/shoot.mjs",
+    "test": "node --test \"tests/unit/**/*.test.ts\" \"tests/parity/**/*.test.ts\"",
+    "test:e2e": "node --test --test-concurrency=1 \"tests/e2e/**/*.test.ts\"",
+    "typecheck:tools": "tsc --noEmit -p tsconfig.tools.json",
+    "golden": "node tools/golden/capture.ts"
   },
   "dependencies": {
     "hanzi-writer": "3.7.3"
   },
   "devDependencies": {
+    "@types/node": "24.19.2",
     "hanzi-writer-data": "2.0.1",
     "playwright": "1.63.0",
     "typescript": "7.0.2",

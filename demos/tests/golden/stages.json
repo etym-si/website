@@ -1,0 +1,136 @@
+{
+ "stages": [
+  {
+   "id": "picture",
+   "icon": "🖍️",
+   "color": "#f5b82e",
+   "name": {
+    "en": "Picture",
+    "zhs": "图画",
+    "zht": "圖畫"
+   },
+   "era": {
+    "en": "Drawn from life · what ancient eyes saw",
+    "zhs": "照着眼前事物画成",
+    "zht": "照著眼前事物畫成"
+   }
+  },
+  {
+   "id": "oracle",
+   "icon": "🐢",
+   "color": "#c9824a",
+   "name": {
+    "en": "Oracle bone script",
+    "zhs": "甲骨文",
+    "zht": "甲骨文"
+   },
+   "era": {
+    "en": "~3,200 years ago · carved on turtle shells & bones",
+    "zhs": "约3200年前 · 刻在龟甲和兽骨上",
+    "zht": "約3200年前 · 刻在龜甲和獸骨上"
+   }
+  },
+  {
+   "id": "bronze",
+   "icon": "🔔",
+   "color": "#3f9b8f",
+   "name": {
+    "en": "Bronze script",
+    "zhs": "金文",
+    "zht": "金文"
+   },
+   "era": {
+    "en": "~3,000 years ago · cast on bronze pots & bells",
+    "zhs": "约3000年前 · 铸在青铜器上",
+    "zht": "約3000年前 · 鑄在青銅器上"
+   }
+  },
+  {
+   "id": "seal",
+   "icon": "🏯",
+   "color": "#e8453c",
+   "name": {
+    "en": "Seal script",
+    "zhs": "篆书",
+    "zht": "篆書"
+   },
+   "era": {
+    "en": "~2,200 years ago · the First Emperor made one writing for all",
+    "zhs": "约2200年前 · 秦始皇统一文字",
+    "zht": "約2200年前 · 秦始皇統一文字"
+   }
+  },
+  {
+   "id": "clerical",
+   "icon": "🎋",
+   "color": "#7a8b2e",
+   "name": {
+    "en": "Clerical script",
+    "zhs": "隶书",
+    "zht": "隸書"
+   },
+   "era": {
+    "en": "~2,000 years ago · quick brush writing on bamboo & silk",
+    "zhs": "约2000年前 · 写在竹简和帛上的毛笔字",
+    "zht": "約2000年前 · 寫在竹簡和帛上的毛筆字"
+   }
+  },
+  {
+   "id": "regular",
+   "icon": "🖌️",
+   "color": "#3a2e2a",
+   "name": {
+    "en": "Regular script",
+    "zhs": "楷书",
+    "zht": "楷書"
+   },
+   "era": {
+    "en": "~1,800 years ago → today",
+    "zhs": "约1800年前到今天",
+    "zht": "約1800年前到今天"
+   }
+  },
+  {
+   "id": "simplified",
+   "icon": "✨",
+   "color": "#4aa3df",
+   "name": {
+    "en": "Simplified",
+    "zhs": "简体字",
+    "zht": "簡體字"
+   },
+   "era": {
+    "en": "1950s · fewer strokes, easier to write",
+    "zhs": "1950年代 · 笔画更少，更好写",
+    "zht": "1950年代 · 筆畫更少，更好寫"
+   }
+  }
+ ],
+ "variantNotes": {
+  "slip": {
+   "en": "from bamboo slips",
+   "zhs": "出自竹简",
+   "zht": "出自竹簡"
+  },
+  "silk": {
+   "en": "from silk manuscripts",
+   "zhs": "出自帛书",
+   "zht": "出自帛書"
+  },
+  "clerical-han": {
+   "en": "Han dynasty",
+   "zhs": "汉代",
+   "zht": "漢代"
+  },
+  "clerical": {
+   "en": "Han dynasty",
+   "zhs": "汉代",
+   "zht": "漢代"
+  },
+  "bronze-shang": {
+   "en": "Shang dynasty bronze",
+   "zhs": "商代金文",
+   "zht": "商代金文"
+  }
+ }
+}

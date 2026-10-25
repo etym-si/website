@@ -1,0 +1,382 @@
+{
+ "tagline": {
+  "en": "Where Chinese characters come from",
+  "zhs": "汉字从哪里来",
+  "zht": "漢字從哪裡來"
+ },
+ "prototype": {
+  "en": "Prototype",
+  "zhs": "演示版",
+  "zht": "演示版"
+ },
+ "prototypeNote": {
+  "en": "Throwaway demo to show the plan. Art, sound and content are placeholders.",
+  "zhs": "这是展示思路的演示版，图画、声音和内容都还是草稿。",
+  "zht": "這是展示思路的演示版，圖畫、聲音和內容都還是草稿。"
+ },
+ "theaterTitle": {
+  "en": "Evolution Theater",
+  "zhs": "汉字演变剧场",
+  "zht": "漢字演變劇場"
+ },
+ "theaterDesc": {
+  "en": "Watch any of the 36 characters grow from a picture into the character we write today.",
+  "zhs": "看36个汉字从一幅画，一步步变成今天的字。",
+  "zht": "看36個漢字從一幅畫，一步步變成今天的字。"
+ },
+ "storyTitle": {
+  "en": "Story Time",
+  "zhs": "故事时间",
+  "zht": "故事時間"
+ },
+ "storyDesc": {
+  "en": "Characters come alive and act out a story, just like the 1984 film “Thirty-Six Characters”.",
+  "zhs": "汉字活起来演故事，就像1984年的动画片《三十六个字》。",
+  "zht": "漢字活起來演故事，就像1984年的動畫片《三十六個字》。"
+ },
+ "learnTitle": {
+  "en": "Learn",
+  "zhs": "学习",
+  "zht": "學習"
+ },
+ "learnDesc": {
+  "en": "Bite-sized lessons, games, stars and stickers.",
+  "zhs": "小小课程、游戏、星星和贴纸。",
+  "zht": "小小課程、遊戲、星星和貼紙。"
+ },
+ "bookTitle": {
+  "en": "Sticker Book",
+  "zhs": "贴纸册",
+  "zht": "貼紙冊"
+ },
+ "bookDesc": {
+  "en": "Every character you learn becomes a sticker.",
+  "zhs": "每学会一个字，就得到一张贴纸。",
+  "zht": "每學會一個字，就得到一張貼紙。"
+ },
+ "mascotHello": {
+  "en": "Hi, I’m Gugu! Long ago, people carved the first characters on turtle shells like mine.",
+  "zhs": "你好，我是龟龟！很久以前，人们把最早的汉字刻在像我这样的龟壳上。",
+  "zht": "你好，我是龜龜！很久以前，人們把最早的漢字刻在像我這樣的龜殼上。"
+ },
+ "home": {
+  "en": "Home",
+  "zhs": "首页",
+  "zht": "首頁"
+ },
+ "soundOn": {
+  "en": "Sound on",
+  "zhs": "声音开",
+  "zht": "聲音開"
+ },
+ "soundOff": {
+  "en": "Sound off",
+  "zhs": "声音关",
+  "zht": "聲音關"
+ },
+ "langToggle": {
+  "en": "Switch language",
+  "zhs": "切换语言",
+  "zht": "切換語言"
+ },
+ "scriptToggle": {
+  "en": "Simplified / Traditional",
+  "zhs": "简体 / 繁体",
+  "zht": "簡體 / 繁體"
+ },
+ "play": {
+  "en": "Play",
+  "zhs": "播放",
+  "zht": "播放"
+ },
+ "pause": {
+  "en": "Pause",
+  "zhs": "暂停",
+  "zht": "暫停"
+ },
+ "replay": {
+  "en": "Replay",
+  "zhs": "重播",
+  "zht": "重播"
+ },
+ "speed": {
+  "en": "Speed",
+  "zhs": "速度",
+  "zht": "速度"
+ },
+ "script": {
+  "en": "Script",
+  "zhs": "脚本",
+  "zht": "腳本"
+ },
+ "scriptNote": {
+  "en": "Every animation is generated live from a script like this. There are no video files. Steps light up as they play.",
+  "zhs": "每段动画都是由这样的脚本实时生成的，没有视频文件。正在播放的步骤会亮起来。",
+  "zht": "每段動畫都是由這樣的腳本即時生成的，沒有影片檔案。正在播放的步驟會亮起來。"
+ },
+ "pickChar": {
+  "en": "Pick a character",
+  "zhs": "选一个字",
+  "zht": "選一個字"
+ },
+ "youngChar": {
+  "en": "No ancient forms are known. This is a “young” character!",
+  "zhs": "没有古老的写法——这是一个“年轻”的字！",
+  "zht": "沒有古老的寫法——這是一個「年輕」的字！"
+ },
+ "chapter": {
+  "en": "Chapter",
+  "zhs": "第",
+  "zht": "第"
+ },
+ "narration": {
+  "en": "Narration",
+  "zhs": "旁白",
+  "zht": "旁白"
+ },
+ "unit": {
+  "en": "Unit",
+  "zhs": "单元",
+  "zht": "單元"
+ },
+ "start": {
+  "en": "Start",
+  "zhs": "开始",
+  "zht": "開始"
+ },
+ "review": {
+  "en": "Review",
+  "zhs": "复习",
+  "zht": "複習"
+ },
+ "storyNode": {
+  "en": "Story",
+  "zhs": "故事",
+  "zht": "故事"
+ },
+ "lockedUnit": {
+  "en": "Unlocks after the demo (v1.x)",
+  "zhs": "演示版之后开放 (v1.x)",
+  "zht": "演示版之後開放 (v1.x)"
+ },
+ "tryInTheater": {
+  "en": "Preview these in the Evolution Theater",
+  "zhs": "可以先在演变剧场里看看",
+  "zht": "可以先在演變劇場裡看看"
+ },
+ "streak": {
+  "en": "day streak",
+  "zhs": "天连续学习",
+  "zht": "天連續學習"
+ },
+ "continue": {
+  "en": "Continue",
+  "zhs": "继续",
+  "zht": "繼續"
+ },
+ "check": {
+  "en": "Check",
+  "zhs": "检查",
+  "zht": "檢查"
+ },
+ "correct": {
+  "en": "Great job!",
+  "zhs": "太棒了！",
+  "zht": "太棒了！"
+ },
+ "wrong": {
+  "en": "Not quite!",
+  "zhs": "差一点！",
+  "zht": "差一點！"
+ },
+ "answerIs": {
+  "en": "Answer:",
+  "zhs": "答案：",
+  "zht": "答案："
+ },
+ "quit": {
+  "en": "Quit lesson",
+  "zhs": "退出课程",
+  "zht": "退出課程"
+ },
+ "newChar": {
+  "en": "New character!",
+  "zhs": "新字！",
+  "zht": "新字！"
+ },
+ "qPicture": {
+  "en": "Which character is this picture?",
+  "zhs": "这幅画是哪个字？",
+  "zht": "這幅畫是哪個字？"
+ },
+ "qAncient": {
+  "en": "This is how it was written long, long ago. Which character is it today?",
+  "zhs": "这是很久很久以前的写法。它今天是哪个字？",
+  "zht": "這是很久很久以前的寫法。它今天是哪個字？"
+ },
+ "qListen": {
+  "en": "Listen, then tap the character you hear.",
+  "zhs": "听一听，点出你听到的字。",
+  "zht": "聽一聽，點出你聽到的字。"
+ },
+ "qOrder": {
+  "en": "Put its journey in order: oldest first!",
+  "zhs": "按时间排一排：最古老的在前！",
+  "zht": "按時間排一排：最古老的在前！"
+ },
+ "qTrace": {
+  "en": "Trace it! Follow the strokes in order.",
+  "zhs": "描一描！按笔顺写。",
+  "zht": "描一描！按筆順寫。"
+ },
+ "qMatch": {
+  "en": "Match each old character with today’s.",
+  "zhs": "把古文字和今天的字配对。",
+  "zht": "把古文字和今天的字配對。"
+ },
+ "tapToHear": {
+  "en": "Tap to hear",
+  "zhs": "点我听",
+  "zht": "點我聽"
+ },
+ "oldest": {
+  "en": "Oldest",
+  "zhs": "最古老",
+  "zht": "最古老"
+ },
+ "today": {
+  "en": "Today",
+  "zhs": "今天",
+  "zht": "今天"
+ },
+ "traceDone": {
+  "en": "Beautiful writing!",
+  "zhs": "写得真漂亮！",
+  "zht": "寫得真漂亮！"
+ },
+ "lessonDone": {
+  "en": "Lesson complete!",
+  "zhs": "课程完成！",
+  "zht": "課程完成！"
+ },
+ "storyDone": {
+  "en": "Story complete!",
+  "zhs": "故事看完了！",
+  "zht": "故事看完了！"
+ },
+ "newStickers": {
+  "en": "New stickers for your book",
+  "zhs": "新贴纸",
+  "zht": "新貼紙"
+ },
+ "mistakes": {
+  "en": "mistakes",
+  "zhs": "个错误",
+  "zht": "個錯誤"
+ },
+ "collected": {
+  "en": "collected",
+  "zhs": "已收集",
+  "zht": "已收集"
+ },
+ "bookEmpty": {
+  "en": "Finish lessons to collect stickers!",
+  "zhs": "完成课程来收集贴纸吧！",
+  "zht": "完成課程來收集貼紙吧！"
+ },
+ "resetProgress": {
+  "en": "Reset progress",
+  "zhs": "重置进度",
+  "zht": "重置進度"
+ },
+ "resetConfirm": {
+  "en": "Tap again to reset",
+  "zhs": "再点一次确认",
+  "zht": "再點一次確認"
+ },
+ "watchEvolution": {
+  "en": "Watch its journey",
+  "zhs": "看它的演变",
+  "zht": "看它的演變"
+ },
+ "showMe": {
+  "en": "👀 Show me",
+  "zhs": "👀 示范",
+  "zht": "👀 示範"
+ },
+ "artifactExact": {
+  "en": "Copied from this very object",
+  "zhs": "就是从它上面描下来的",
+  "zht": "就是從它上面描下來的"
+ },
+ "artifactBook": {
+  "en": "Found in this text",
+  "zhs": "这部文献里有它",
+  "zht": "這部文獻裡有它"
+ },
+ "artifactAppears": {
+  "en": "This character is written here",
+  "zhs": "这上面写着这个字",
+  "zht": "這上面寫著這個字"
+ },
+ "artifactExample": {
+  "en": "A real object from that time",
+  "zhs": "同一时代的真实文物",
+  "zht": "同一時代的真實文物"
+ },
+ "lookCloser": {
+  "en": "Look closer",
+  "zhs": "仔细看看",
+  "zht": "仔細看看"
+ },
+ "realArtifacts": {
+  "en": "Real artifacts on this journey",
+  "zhs": "这一路上的真实文物",
+  "zht": "這一路上的真實文物"
+ },
+ "photo": {
+  "en": "Photo",
+  "zhs": "图片",
+  "zht": "圖片"
+ },
+ "catalogue": {
+  "en": "Catalogue",
+  "zhs": "著录",
+  "zht": "著錄"
+ },
+ "viewSource": {
+  "en": "Wikimedia Commons",
+  "zhs": "维基共享资源",
+  "zht": "維基共享資源"
+ },
+ "close": {
+  "en": "Close",
+  "zhs": "关闭",
+  "zht": "關閉"
+ },
+ "circledHere": {
+  "en": "Circled in red on this artifact",
+  "zhs": "文物上红圈标出的字",
+  "zht": "文物上紅圈標出的字"
+ },
+ "hideCircle": {
+  "en": "Hide red circle",
+  "zhs": "隐藏红圈",
+  "zht": "隱藏紅圈"
+ },
+ "showCircle": {
+  "en": "Show red circle",
+  "zhs": "显示红圈",
+  "zht": "顯示紅圈"
+ },
+ "compareGlyph": {
+  "en": "On the artifact vs. our glyph",
+  "zhs": "文物原字 vs. 描摹字形",
+  "zht": "文物原字 vs. 描摹字形"
+ },
+ "speechUnavailable": {
+  "en": "No Chinese voice on this device",
+  "zhs": "此设备没有中文语音",
+  "zht": "此裝置沒有中文語音"
+ }
+}

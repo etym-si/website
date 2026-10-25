@@ -1,0 +1,432 @@
+{
+ "units": [
+  {
+   "n": 1,
+   "title": {
+    "en": "Sunrise in the Valley",
+    "zhs": "山谷的日出",
+    "zht": "山谷的日出"
+   },
+   "chars": [
+    "日",
+    "山",
+    "水",
+    "林",
+    "木",
+    "鸟"
+   ],
+   "color": "#2fb67c",
+   "playable": true
+  },
+  {
+   "n": 2,
+   "title": {
+    "en": "Galloping Across the Meadow",
+    "zhs": "田野上的奔跑",
+    "zht": "田野上的奔跑"
+   },
+   "chars": [
+    "象",
+    "草",
+    "田",
+    "竹",
+    "马",
+    "夫"
+   ],
+   "color": "#f08a24",
+   "playable": true
+  },
+  {
+   "n": 3,
+   "title": {
+    "en": "Casting the Net",
+    "zhs": "小船去捕鱼",
+    "zht": "小船去捕魚"
+   },
+   "chars": [
+    "刀",
+    "舟",
+    "鱼",
+    "网",
+    "燕",
+    "云"
+   ],
+   "color": "#3d8fe0",
+   "playable": false
+  },
+  {
+   "n": 4,
+   "title": {
+    "en": "Shelter Under the Cliff",
+    "zhs": "山崖下避雨",
+    "zht": "山崖下避雨"
+   },
+   "chars": [
+    "雨",
+    "伞",
+    "石",
+    "火",
+    "龟",
+    "鹿"
+   ],
+   "color": "#8b5cf6",
+   "playable": false
+  },
+  {
+   "n": 5,
+   "title": {
+    "en": "Grandpa Chases the Tiger",
+    "zhs": "爷爷吓跑大老虎",
+    "zht": "爺爺嚇跑大老虎"
+   },
+   "chars": [
+    "豕",
+    "叟",
+    "虎",
+    "弓",
+    "舍",
+    "羊"
+   ],
+   "color": "#e8453c",
+   "playable": false
+  },
+  {
+   "n": 6,
+   "title": {
+    "en": "Home Under the Crescent Moon",
+    "zhs": "月光下回家",
+    "zht": "月光下回家"
+   },
+   "chars": [
+    "花",
+    "门",
+    "犬",
+    "子",
+    "女",
+    "月"
+   ],
+   "color": "#d99a00",
+   "playable": false
+  }
+ ],
+ "lessons": [
+  {
+   "id": "u1-l1",
+   "unit": 1,
+   "kind": "learn",
+   "chars": [
+    "日",
+    "山"
+   ]
+  },
+  {
+   "id": "u1-l2",
+   "unit": 1,
+   "kind": "learn",
+   "chars": [
+    "水",
+    "林"
+   ]
+  },
+  {
+   "id": "u1-l3",
+   "unit": 1,
+   "kind": "learn",
+   "chars": [
+    "木",
+    "鸟"
+   ]
+  },
+  {
+   "id": "u1-review",
+   "unit": 1,
+   "kind": "review",
+   "chars": [
+    "日",
+    "山",
+    "水",
+    "林",
+    "木",
+    "鸟"
+   ]
+  },
+  {
+   "id": "u1-story",
+   "unit": 1,
+   "kind": "story",
+   "chars": [
+    "日",
+    "山",
+    "水",
+    "林",
+    "木",
+    "鸟"
+   ]
+  },
+  {
+   "id": "u2-l1",
+   "unit": 2,
+   "kind": "learn",
+   "chars": [
+    "象",
+    "草"
+   ]
+  },
+  {
+   "id": "u2-l2",
+   "unit": 2,
+   "kind": "learn",
+   "chars": [
+    "田",
+    "竹"
+   ]
+  },
+  {
+   "id": "u2-l3",
+   "unit": 2,
+   "kind": "learn",
+   "chars": [
+    "马",
+    "夫"
+   ]
+  },
+  {
+   "id": "u2-review",
+   "unit": 2,
+   "kind": "review",
+   "chars": [
+    "象",
+    "草",
+    "田",
+    "竹",
+    "马",
+    "夫"
+   ]
+  },
+  {
+   "id": "u2-story",
+   "unit": 2,
+   "kind": "story",
+   "chars": [
+    "象",
+    "草",
+    "田",
+    "竹",
+    "马",
+    "夫"
+   ]
+  },
+  {
+   "id": "u3-l1",
+   "unit": 3,
+   "kind": "learn",
+   "chars": [
+    "刀",
+    "舟"
+   ]
+  },
+  {
+   "id": "u3-l2",
+   "unit": 3,
+   "kind": "learn",
+   "chars": [
+    "鱼",
+    "网"
+   ]
+  },
+  {
+   "id": "u3-l3",
+   "unit": 3,
+   "kind": "learn",
+   "chars": [
+    "燕",
+    "云"
+   ]
+  },
+  {
+   "id": "u3-review",
+   "unit": 3,
+   "kind": "review",
+   "chars": [
+    "刀",
+    "舟",
+    "鱼",
+    "网",
+    "燕",
+    "云"
+   ]
+  },
+  {
+   "id": "u3-story",
+   "unit": 3,
+   "kind": "story",
+   "chars": [
+    "刀",
+    "舟",
+    "鱼",
+    "网",
+    "燕",
+    "云"
+   ]
+  },
+  {
+   "id": "u4-l1",
+   "unit": 4,
+   "kind": "learn",
+   "chars": [
+    "雨",
+    "伞"
+   ]
+  },
+  {
+   "id": "u4-l2",
+   "unit": 4,
+   "kind": "learn",
+   "chars": [
+    "石",
+    "火"
+   ]
+  },
+  {
+   "id": "u4-l3",
+   "unit": 4,
+   "kind": "learn",
+   "chars": [
+    "龟",
+    "鹿"
+   ]
+  },
+  {
+   "id": "u4-review",
+   "unit": 4,
+   "kind": "review",
+   "chars": [
+    "雨",
+    "伞",
+    "石",
+    "火",
+    "龟",
+    "鹿"
+   ]
+  },
+  {
+   "id": "u4-story",
+   "unit": 4,
+   "kind": "story",
+   "chars": [
+    "雨",
+    "伞",
+    "石",
+    "火",
+    "龟",
+    "鹿"
+   ]
+  },
+  {
+   "id": "u5-l1",
+   "unit": 5,
+   "kind": "learn",
+   "chars": [
+    "豕",
+    "叟"
+   ]
+  },
+  {
+   "id": "u5-l2",
+   "unit": 5,
+   "kind": "learn",
+   "chars": [
+    "虎",
+    "弓"
+   ]
+  },
+  {
+   "id": "u5-l3",
+   "unit": 5,
+   "kind": "learn",
+   "chars": [
+    "舍",
+    "羊"
+   ]
+  },
+  {
+   "id": "u5-review",
+   "unit": 5,
+   "kind": "review",
+   "chars": [
+    "豕",
+    "叟",
+    "虎",
+    "弓",
+    "舍",
+    "羊"
+   ]
+  },
+  {
+   "id": "u5-story",
+   "unit": 5,
+   "kind": "story",
+   "chars": [
+    "豕",
+    "叟",
+    "虎",
+    "弓",
+    "舍",
+    "羊"
+   ]
+  },
+  {
+   "id": "u6-l1",
+   "unit": 6,
+   "kind": "learn",
+   "chars": [
+    "花",
+    "门"
+   ]
+  },
+  {
+   "id": "u6-l2",
+   "unit": 6,
+   "kind": "learn",
+   "chars": [
+    "犬",
+    "子"
+   ]
+  },
+  {
+   "id": "u6-l3",
+   "unit": 6,
+   "kind": "learn",
+   "chars": [
+    "女",
+    "月"
+   ]
+  },
+  {
+   "id": "u6-review",
+   "unit": 6,
+   "kind": "review",
+   "chars": [
+    "花",
+    "门",
+    "犬",
+    "子",
+    "女",
+    "月"
+   ]
+  },
+  {
+   "id": "u6-story",
+   "unit": 6,
+   "kind": "story",
+   "chars": [
+    "花",
+    "门",
+    "犬",
+    "子",
+    "女",
+    "月"
+   ]
+  }
+ ]
+}
