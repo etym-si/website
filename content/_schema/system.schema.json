@@ -1,0 +1,448 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9][a-z0-9-]{0,63}$"
+    },
+    "name": {
+      "type": "object",
+      "properties": {
+        "en": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 60
+        },
+        "zh-Hans": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 60
+        },
+        "zh-Hant": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 60
+        }
+      },
+      "required": [
+        "en"
+      ],
+      "additionalProperties": false
+    },
+    "signNoun": {
+      "type": "object",
+      "properties": {
+        "en": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 30
+        },
+        "zh-Hans": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 30
+        },
+        "zh-Hant": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 30
+        }
+      },
+      "required": [
+        "en"
+      ],
+      "additionalProperties": false
+    },
+    "signId": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 300
+    },
+    "textScripts": {
+      "minItems": 1,
+      "maxItems": 4,
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[A-Z][a-z]{3}$"
+      }
+    },
+    "readings": {
+      "type": "object",
+      "propertyNames": {
+        "type": "string",
+        "pattern": "^[a-z][a-z0-9]{0,15}$"
+      },
+      "additionalProperties": {
+        "type": "object",
+        "properties": {
+          "primary": {
+            "type": "boolean"
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "pronounce": {
+      "type": "object",
+      "properties": {
+        "voice": {
+          "type": "string",
+          "pattern": "^[a-z0-9][a-z0-9-]{0,63}$"
+        },
+        "from": {
+          "type": "string",
+          "pattern": "^text\\.[A-Z][a-z]{3}$"
+        }
+      },
+      "required": [
+        "voice",
+        "from"
+      ],
+      "additionalProperties": false
+    },
+    "ingest": {
+      "type": "object",
+      "properties": {
+        "glyphs": {
+          "type": "string",
+          "enum": [
+            "commons-acc"
+          ]
+        },
+        "strokes": {
+          "type": "string",
+          "enum": [
+            "hanzi-writer-data"
+          ]
+        }
+      },
+      "additionalProperties": false
+    },
+    "journeyForm": {
+      "type": "string",
+      "pattern": "^[A-Z][a-z]{3}$"
+    },
+    "defaultJourney": {
+      "minItems": 1,
+      "maxItems": 12,
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z][a-z0-9-]{0,31}$"
+      }
+    },
+    "variantNotes": {
+      "type": "object",
+      "propertyNames": {
+        "type": "string",
+        "pattern": "^[a-z][a-z0-9-]{0,31}$"
+      },
+      "additionalProperties": {
+        "type": "object",
+        "properties": {
+          "en": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 60
+          },
+          "zh-Hans": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 60
+          },
+          "zh-Hant": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 60
+          }
+        },
+        "required": [
+          "en"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "noteFragments": {
+      "type": "object",
+      "propertyNames": {
+        "type": "string",
+        "pattern": "^[a-z][A-Za-z0-9]{0,31}$"
+      },
+      "additionalProperties": {
+        "type": "object",
+        "properties": {
+          "match": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 300
+          },
+          "text": {
+            "type": "object",
+            "properties": {
+              "en": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 300
+              },
+              "zh-Hans": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 300
+              },
+              "zh-Hant": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 300
+              }
+            },
+            "required": [
+              "en"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "match",
+          "text"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "stages": {
+      "minItems": 1,
+      "maxItems": 16,
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9-]{0,31}$"
+          },
+          "kind": {
+            "type": "string",
+            "enum": [
+              "picture",
+              "paths",
+              "strokes"
+            ]
+          },
+          "icon": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 8
+          },
+          "color": {
+            "type": "string",
+            "pattern": "^#[0-9a-fA-F]{6}$"
+          },
+          "name": {
+            "type": "object",
+            "properties": {
+              "en": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 60
+              },
+              "zh-Hans": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 60
+              },
+              "zh-Hant": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 60
+              }
+            },
+            "required": [
+              "en"
+            ],
+            "additionalProperties": false
+          },
+          "era": {
+            "type": "object",
+            "properties": {
+              "en": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 160
+              },
+              "zh-Hans": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 160
+              },
+              "zh-Hant": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 160
+              }
+            },
+            "required": [
+              "en"
+            ],
+            "additionalProperties": false
+          },
+          "commonsVariants": {
+            "minItems": 1,
+            "maxItems": 8,
+            "type": "array",
+            "items": {
+              "type": "string",
+              "pattern": "^[a-z][a-z0-9-]{0,31}$"
+            }
+          },
+          "turn": {
+            "type": "boolean"
+          },
+          "quiz": {
+            "type": "boolean"
+          },
+          "script": {
+            "type": "string",
+            "pattern": "^[A-Z][a-z]{3}$"
+          },
+          "derivedFrom": {
+            "type": "string",
+            "pattern": "^[A-Z][a-z]{3}$"
+          },
+          "intro": {
+            "type": "object",
+            "properties": {
+              "en": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 300
+              },
+              "zh-Hans": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 300
+              },
+              "zh-Hant": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 300
+              }
+            },
+            "required": [
+              "en"
+            ],
+            "additionalProperties": false
+          },
+          "examples": {
+            "maxItems": 10,
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "when": {
+                  "type": "object",
+                  "properties": {
+                    "variant": {
+                      "type": "string",
+                      "pattern": "^[a-z][a-z0-9-]{0,31}$"
+                    },
+                    "note": {
+                      "type": "boolean",
+                      "const": true
+                    }
+                  },
+                  "additionalProperties": false
+                },
+                "kind": {
+                  "type": "string",
+                  "enum": [
+                    "book",
+                    "example"
+                  ]
+                },
+                "artifact": {
+                  "type": "string",
+                  "pattern": "^[a-z0-9][a-z0-9-]{0,63}$"
+                },
+                "title": {
+                  "type": "object",
+                  "properties": {
+                    "en": {
+                      "type": "string",
+                      "minLength": 1,
+                      "maxLength": 160
+                    },
+                    "zh-Hans": {
+                      "type": "string",
+                      "minLength": 1,
+                      "maxLength": 160
+                    },
+                    "zh-Hant": {
+                      "type": "string",
+                      "minLength": 1,
+                      "maxLength": 160
+                    }
+                  },
+                  "required": [
+                    "en"
+                  ],
+                  "additionalProperties": false
+                },
+                "text": {
+                  "type": "object",
+                  "properties": {
+                    "en": {
+                      "type": "string",
+                      "minLength": 1,
+                      "maxLength": 800
+                    },
+                    "zh-Hans": {
+                      "type": "string",
+                      "minLength": 1,
+                      "maxLength": 800
+                    },
+                    "zh-Hant": {
+                      "type": "string",
+                      "minLength": 1,
+                      "maxLength": 800
+                    }
+                  },
+                  "required": [
+                    "en"
+                  ],
+                  "additionalProperties": false
+                }
+              },
+              "required": [
+                "artifact",
+                "title",
+                "text"
+              ],
+              "additionalProperties": false
+            }
+          }
+        },
+        "required": [
+          "id",
+          "kind",
+          "icon",
+          "color",
+          "name",
+          "era"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "id",
+    "name",
+    "signNoun",
+    "signId",
+    "textScripts",
+    "readings",
+    "ingest",
+    "stages"
+  ],
+  "additionalProperties": false
+}

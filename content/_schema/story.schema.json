@@ -1,0 +1,916 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9][a-z0-9-]{0,63}$"
+    },
+    "title": {
+      "type": "object",
+      "properties": {
+        "en": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 120
+        },
+        "zh-Hans": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 120
+        },
+        "zh-Hant": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 120
+        }
+      },
+      "required": [
+        "en"
+      ],
+      "additionalProperties": false
+    },
+    "topic": {
+      "type": "object",
+      "properties": {
+        "en": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 160
+        },
+        "zh-Hans": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 160
+        },
+        "zh-Hant": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 160
+        }
+      },
+      "required": [
+        "en"
+      ],
+      "additionalProperties": false
+    },
+    "cast": {
+      "minItems": 1,
+      "maxItems": 60,
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^([a-z][a-z0-9-]{0,31}\\/)?[^/\\s]{1,32}$"
+      }
+    },
+    "script": {
+      "minItems": 1,
+      "maxItems": 600,
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/__schema0"
+      }
+    }
+  },
+  "required": [
+    "id",
+    "title",
+    "topic",
+    "cast",
+    "script"
+  ],
+  "additionalProperties": false,
+  "$defs": {
+    "__schema0": {
+      "anyOf": [
+        {
+          "oneOf": [
+            {
+              "type": "object",
+              "properties": {
+                "do": {
+                  "type": "string",
+                  "const": "place"
+                },
+                "actor": {
+                  "type": "string",
+                  "pattern": "^[a-z][a-z0-9]{0,23}$"
+                },
+                "at": {
+                  "type": "array",
+                  "prefixItems": [
+                    {
+                      "type": "number",
+                      "minimum": -2000,
+                      "maximum": 3000
+                    },
+                    {
+                      "type": "number",
+                      "minimum": -2000,
+                      "maximum": 3000
+                    }
+                  ],
+                  "items": false,
+                  "minItems": 2,
+                  "maxItems": 2
+                },
+                "size": {
+                  "type": "number",
+                  "minimum": 1,
+                  "maximum": 3000
+                },
+                "back": {
+                  "type": "boolean"
+                }
+              },
+              "required": [
+                "do",
+                "actor",
+                "at",
+                "size"
+              ],
+              "additionalProperties": false
+            },
+            {
+              "type": "object",
+              "properties": {
+                "do": {
+                  "type": "string",
+                  "const": "picture"
+                },
+                "actor": {
+                  "type": "string",
+                  "pattern": "^[a-z][a-z0-9]{0,23}$"
+                },
+                "pic": {
+                  "type": "string",
+                  "pattern": "^([a-z][a-z0-9-]{0,31}\\/)?[^/\\s]{1,32}$"
+                },
+                "ms": {
+                  "type": "number",
+                  "minimum": 0,
+                  "maximum": 600000
+                }
+              },
+              "required": [
+                "do",
+                "actor",
+                "pic"
+              ],
+              "additionalProperties": false
+            },
+            {
+              "type": "object",
+              "properties": {
+                "do": {
+                  "type": "string",
+                  "const": "rotate"
+                },
+                "actor": {
+                  "type": "string",
+                  "pattern": "^[a-z][a-z0-9]{0,23}$"
+                },
+                "deg": {
+                  "type": "number",
+                  "minimum": -720,
+                  "maximum": 720
+                },
+                "target": {
+                  "type": "string",
+                  "enum": [
+                    "picture",
+                    "all"
+                  ]
+                },
+                "ms": {
+                  "type": "number",
+                  "minimum": 0,
+                  "maximum": 600000
+                }
+              },
+              "required": [
+                "do",
+                "actor",
+                "deg"
+              ],
+              "additionalProperties": false
+            },
+            {
+              "type": "object",
+              "properties": {
+                "do": {
+                  "type": "string",
+                  "const": "draw"
+                },
+                "actor": {
+                  "type": "string",
+                  "pattern": "^[a-z][a-z0-9]{0,23}$"
+                },
+                "glyph": {
+                  "type": "object",
+                  "properties": {
+                    "sign": {
+                      "type": "string",
+                      "pattern": "^([a-z][a-z0-9-]{0,31}\\/)?[^/\\s]{1,32}$"
+                    },
+                    "stage": {
+                      "type": "string",
+                      "pattern": "^[a-z][a-z0-9-]{0,31}$"
+                    },
+                    "index": {
+                      "type": "integer",
+                      "minimum": 0,
+                      "maximum": 23
+                    }
+                  },
+                  "required": [
+                    "sign",
+                    "stage"
+                  ],
+                  "additionalProperties": false
+                },
+                "ms": {
+                  "type": "number",
+                  "minimum": 0,
+                  "maximum": 600000
+                },
+                "color": {
+                  "type": "string",
+                  "pattern": "^#[0-9a-fA-F]{6}$"
+                }
+              },
+              "required": [
+                "do",
+                "actor",
+                "glyph"
+              ],
+              "additionalProperties": false
+            },
+            {
+              "type": "object",
+              "properties": {
+                "do": {
+                  "type": "string",
+                  "const": "show"
+                },
+                "actor": {
+                  "type": "string",
+                  "pattern": "^[a-z][a-z0-9]{0,23}$"
+                },
+                "glyph": {
+                  "type": "object",
+                  "properties": {
+                    "sign": {
+                      "type": "string",
+                      "pattern": "^([a-z][a-z0-9-]{0,31}\\/)?[^/\\s]{1,32}$"
+                    },
+                    "stage": {
+                      "type": "string",
+                      "pattern": "^[a-z][a-z0-9-]{0,31}$"
+                    },
+                    "index": {
+                      "type": "integer",
+                      "minimum": 0,
+                      "maximum": 23
+                    }
+                  },
+                  "required": [
+                    "sign",
+                    "stage"
+                  ],
+                  "additionalProperties": false
+                },
+                "color": {
+                  "type": "string",
+                  "pattern": "^#[0-9a-fA-F]{6}$"
+                }
+              },
+              "required": [
+                "do",
+                "actor",
+                "glyph"
+              ],
+              "additionalProperties": false
+            },
+            {
+              "type": "object",
+              "properties": {
+                "do": {
+                  "type": "string",
+                  "const": "swap"
+                },
+                "actor": {
+                  "type": "string",
+                  "pattern": "^[a-z][a-z0-9]{0,23}$"
+                },
+                "glyph": {
+                  "type": "object",
+                  "properties": {
+                    "sign": {
+                      "type": "string",
+                      "pattern": "^([a-z][a-z0-9-]{0,31}\\/)?[^/\\s]{1,32}$"
+                    },
+                    "stage": {
+                      "type": "string",
+                      "pattern": "^[a-z][a-z0-9-]{0,31}$"
+                    },
+                    "index": {
+                      "type": "integer",
+                      "minimum": 0,
+                      "maximum": 23
+                    }
+                  },
+                  "required": [
+                    "sign",
+                    "stage"
+                  ],
+                  "additionalProperties": false
+                },
+                "ms": {
+                  "type": "number",
+                  "minimum": 0,
+                  "maximum": 600000
+                },
+                "color": {
+                  "type": "string",
+                  "pattern": "^#[0-9a-fA-F]{6}$"
+                }
+              },
+              "required": [
+                "do",
+                "actor",
+                "glyph"
+              ],
+              "additionalProperties": false
+            },
+            {
+              "type": "object",
+              "properties": {
+                "do": {
+                  "type": "string",
+                  "const": "clearPicture"
+                },
+                "actor": {
+                  "type": "string",
+                  "pattern": "^[a-z][a-z0-9]{0,23}$"
+                },
+                "ms": {
+                  "type": "number",
+                  "minimum": 0,
+                  "maximum": 600000
+                }
+              },
+              "required": [
+                "do",
+                "actor"
+              ],
+              "additionalProperties": false
+            },
+            {
+              "type": "object",
+              "properties": {
+                "do": {
+                  "type": "string",
+                  "const": "wash"
+                },
+                "actor": {
+                  "type": "string",
+                  "pattern": "^[a-z][a-z0-9]{0,23}$"
+                },
+                "color": {
+                  "type": "string",
+                  "pattern": "^#[0-9a-fA-F]{6}$"
+                },
+                "size": {
+                  "type": "number",
+                  "minimum": 1,
+                  "maximum": 3000
+                },
+                "w": {
+                  "type": "number",
+                  "minimum": 1,
+                  "maximum": 3000
+                },
+                "h": {
+                  "type": "number",
+                  "minimum": 1,
+                  "maximum": 3000
+                },
+                "opacity": {
+                  "type": "number",
+                  "minimum": 0,
+                  "maximum": 1
+                },
+                "ms": {
+                  "type": "number",
+                  "minimum": 0,
+                  "maximum": 600000
+                },
+                "dx": {
+                  "type": "number",
+                  "minimum": -2000,
+                  "maximum": 2000
+                },
+                "dy": {
+                  "type": "number",
+                  "minimum": -2000,
+                  "maximum": 2000
+                }
+              },
+              "required": [
+                "do",
+                "actor",
+                "color"
+              ],
+              "additionalProperties": false
+            },
+            {
+              "type": "object",
+              "properties": {
+                "do": {
+                  "type": "string",
+                  "const": "move"
+                },
+                "actor": {
+                  "type": "string",
+                  "pattern": "^[a-z][a-z0-9]{0,23}$"
+                },
+                "to": {
+                  "type": "array",
+                  "prefixItems": [
+                    {
+                      "type": "number",
+                      "minimum": -2000,
+                      "maximum": 3000
+                    },
+                    {
+                      "type": "number",
+                      "minimum": -2000,
+                      "maximum": 3000
+                    }
+                  ],
+                  "items": false,
+                  "minItems": 2,
+                  "maxItems": 2
+                },
+                "ms": {
+                  "type": "number",
+                  "minimum": 0,
+                  "maximum": 600000
+                },
+                "gait": {
+                  "type": "string",
+                  "enum": [
+                    "walk",
+                    "hop",
+                    "fly",
+                    "swim",
+                    "gallop"
+                  ]
+                },
+                "ease": {
+                  "type": "string",
+                  "pattern": "^(linear|ease|ease-in|ease-out|ease-in-out|cubic-bezier\\(\\s*-?[\\d.]+\\s*,\\s*-?[\\d.]+\\s*,\\s*-?[\\d.]+\\s*,\\s*-?[\\d.]+\\s*\\))$"
+                }
+              },
+              "required": [
+                "do",
+                "actor",
+                "to",
+                "ms"
+              ],
+              "additionalProperties": false
+            },
+            {
+              "type": "object",
+              "properties": {
+                "do": {
+                  "type": "string",
+                  "const": "ambient"
+                },
+                "actor": {
+                  "type": "string",
+                  "pattern": "^[a-z][a-z0-9]{0,23}$"
+                },
+                "motion": {
+                  "type": "string",
+                  "enum": [
+                    "bob",
+                    "sway",
+                    "pulse",
+                    "flicker",
+                    "flow",
+                    "float",
+                    "none"
+                  ]
+                }
+              },
+              "required": [
+                "do",
+                "actor",
+                "motion"
+              ],
+              "additionalProperties": false
+            },
+            {
+              "type": "object",
+              "properties": {
+                "do": {
+                  "type": "string",
+                  "const": "fade"
+                },
+                "actor": {
+                  "type": "string",
+                  "pattern": "^[a-z][a-z0-9]{0,23}$"
+                },
+                "to": {
+                  "type": "number",
+                  "minimum": 0,
+                  "maximum": 1
+                },
+                "ms": {
+                  "type": "number",
+                  "minimum": 0,
+                  "maximum": 600000
+                }
+              },
+              "required": [
+                "do",
+                "actor",
+                "to"
+              ],
+              "additionalProperties": false
+            },
+            {
+              "type": "object",
+              "properties": {
+                "do": {
+                  "type": "string",
+                  "const": "scale"
+                },
+                "actor": {
+                  "type": "string",
+                  "pattern": "^[a-z][a-z0-9]{0,23}$"
+                },
+                "to": {
+                  "type": "number",
+                  "minimum": 0.01,
+                  "maximum": 20
+                },
+                "ms": {
+                  "type": "number",
+                  "minimum": 0,
+                  "maximum": 600000
+                }
+              },
+              "required": [
+                "do",
+                "actor",
+                "to"
+              ],
+              "additionalProperties": false
+            },
+            {
+              "type": "object",
+              "properties": {
+                "do": {
+                  "type": "string",
+                  "const": "remove"
+                },
+                "actor": {
+                  "type": "string",
+                  "pattern": "^[a-z][a-z0-9]{0,23}$"
+                },
+                "ms": {
+                  "type": "number",
+                  "minimum": 0,
+                  "maximum": 600000
+                }
+              },
+              "required": [
+                "do",
+                "actor"
+              ],
+              "additionalProperties": false
+            },
+            {
+              "type": "object",
+              "properties": {
+                "do": {
+                  "type": "string",
+                  "const": "bg"
+                },
+                "tone": {
+                  "type": "string",
+                  "enum": [
+                    "paper",
+                    "dawn",
+                    "dusk",
+                    "night"
+                  ]
+                },
+                "ms": {
+                  "type": "number",
+                  "minimum": 0,
+                  "maximum": 600000
+                }
+              },
+              "required": [
+                "do",
+                "tone"
+              ],
+              "additionalProperties": false
+            },
+            {
+              "type": "object",
+              "properties": {
+                "do": {
+                  "type": "string",
+                  "const": "stage"
+                },
+                "stage": {
+                  "type": "string",
+                  "pattern": "^[a-z][a-z0-9-]{0,31}$"
+                },
+                "variant": {
+                  "type": "string",
+                  "pattern": "^[a-z][a-z0-9-]{0,31}$"
+                }
+              },
+              "required": [
+                "do",
+                "stage"
+              ],
+              "additionalProperties": false
+            },
+            {
+              "type": "object",
+              "properties": {
+                "do": {
+                  "type": "string",
+                  "const": "caption"
+                },
+                "text": {
+                  "anyOf": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "en": {
+                          "type": "string",
+                          "minLength": 1,
+                          "maxLength": 600
+                        },
+                        "zh-Hans": {
+                          "type": "string",
+                          "minLength": 1,
+                          "maxLength": 600
+                        },
+                        "zh-Hant": {
+                          "type": "string",
+                          "minLength": 1,
+                          "maxLength": 600
+                        }
+                      },
+                      "required": [
+                        "en"
+                      ],
+                      "additionalProperties": false
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "do",
+                "text"
+              ],
+              "additionalProperties": false
+            },
+            {
+              "type": "object",
+              "properties": {
+                "do": {
+                  "type": "string",
+                  "const": "tag"
+                },
+                "actor": {
+                  "type": "string",
+                  "pattern": "^[a-z][a-z0-9]{0,23}$"
+                },
+                "sign": {
+                  "type": "string",
+                  "pattern": "^([a-z][a-z0-9-]{0,31}\\/)?[^/\\s]{1,32}$"
+                },
+                "hold": {
+                  "type": "number",
+                  "minimum": 0,
+                  "maximum": 600000
+                },
+                "dx": {
+                  "type": "number",
+                  "minimum": -2000,
+                  "maximum": 2000
+                },
+                "dy": {
+                  "type": "number",
+                  "minimum": -2000,
+                  "maximum": 2000
+                }
+              },
+              "required": [
+                "do",
+                "actor",
+                "sign"
+              ],
+              "additionalProperties": false
+            },
+            {
+              "type": "object",
+              "properties": {
+                "do": {
+                  "type": "string",
+                  "const": "say"
+                },
+                "text": {
+                  "anyOf": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "en": {
+                          "type": "string",
+                          "minLength": 1,
+                          "maxLength": 600
+                        },
+                        "zh-Hans": {
+                          "type": "string",
+                          "minLength": 1,
+                          "maxLength": 600
+                        },
+                        "zh-Hant": {
+                          "type": "string",
+                          "minLength": 1,
+                          "maxLength": 600
+                        }
+                      },
+                      "required": [
+                        "en"
+                      ],
+                      "additionalProperties": false
+                    },
+                    {
+                      "type": "string",
+                      "minLength": 1,
+                      "maxLength": 600
+                    }
+                  ]
+                },
+                "lang": {
+                  "type": "string",
+                  "enum": [
+                    "zh",
+                    "ui"
+                  ]
+                },
+                "wait": {
+                  "type": "boolean"
+                },
+                "silent": {
+                  "type": "boolean"
+                },
+                "clip": {
+                  "type": "object",
+                  "propertyNames": {
+                    "type": "string"
+                  },
+                  "additionalProperties": {
+                    "type": "string",
+                    "pattern": "^[0-9a-f]{64}$"
+                  }
+                }
+              },
+              "required": [
+                "do",
+                "text",
+                "lang"
+              ],
+              "additionalProperties": false
+            },
+            {
+              "type": "object",
+              "properties": {
+                "do": {
+                  "type": "string",
+                  "const": "wait"
+                },
+                "ms": {
+                  "type": "number",
+                  "minimum": 0,
+                  "maximum": 600000
+                }
+              },
+              "required": [
+                "do",
+                "ms"
+              ],
+              "additionalProperties": false
+            },
+            {
+              "type": "object",
+              "properties": {
+                "do": {
+                  "type": "string",
+                  "const": "together"
+                },
+                "steps": {
+                  "minItems": 1,
+                  "maxItems": 40,
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/__schema0"
+                  }
+                }
+              },
+              "required": [
+                "do",
+                "steps"
+              ],
+              "additionalProperties": false
+            }
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "narrate": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 600
+                },
+                "zh-Hans": {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 600
+                },
+                "zh-Hant": {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 600
+                }
+              },
+              "required": [
+                "en"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "required": [
+            "narrate"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "tagSay": {
+              "type": "object",
+              "properties": {
+                "actor": {
+                  "type": "string",
+                  "pattern": "^[a-z][a-z0-9]{0,23}$"
+                },
+                "sign": {
+                  "type": "string",
+                  "pattern": "^([a-z][a-z0-9-]{0,31}\\/)?[^/\\s]{1,32}$"
+                },
+                "dx": {
+                  "type": "number",
+                  "minimum": -2000,
+                  "maximum": 2000
+                },
+                "dy": {
+                  "type": "number",
+                  "minimum": -2000,
+                  "maximum": 2000
+                }
+              },
+              "required": [
+                "actor",
+                "sign"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "required": [
+            "tagSay"
+          ],
+          "additionalProperties": false
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,44 @@
+# yaml-language-server: $schema=_schema/config.schema.json
+# Site-wide settings: locales, narration voices, published collections and the Cloudflare Pages file budget.
+locales:
+  - { id: en, lang: en, section: en }
+  - { id: zh-Hans, lang: zh-Hans, section: zh, fallback: en }
+  - { id: zh-Hant, lang: zh-Hant, section: zh, fallback: zh-Hans, audioFrom: zh-Hans }
+narration: # audio section → voice that reads narration lines in it
+  en: narr-en
+  zh: narr-zh
+voices:
+  narr-en:
+    provider: edge-tts
+    voice: en-US-AvaMultilingualNeural
+    rate: '-4%'
+    normalize: # spoken-text rules, in order: JS regex with flags "gu", or a plain replacement when literal; the result is trimmed
+      - { find: '\s*艹(?![\p{L}\p{N}_])', replace: '' }
+      - { find: '\s*氵(?![\p{L}\p{N}_])', replace: '' }
+      - { find: '\s*虍(?![\p{L}\p{N}_])', replace: '' }
+      - { find: '\s*宀(?![\p{L}\p{N}_])', replace: '' }
+      - { find: '\s*犭(?![\p{L}\p{N}_])', replace: '' }
+      - { find: '\s*厂(?![\p{L}\p{N}_])', replace: '' }
+      - { find: '\s*口(?![\p{L}\p{N}_])', replace: '' }
+      - { find: '—', replace: ', ', literal: true }
+      - { find: '…', replace: '... ', literal: true }
+      - { find: '\s+', replace: ' ' }
+  narr-zh:
+    provider: edge-tts
+    voice: zh-CN-XiaoxiaoNeural
+    rate: '-6%'
+    normalize:
+      - { find: '草字头“艹”', replace: '草字头', literal: true }
+      - { find: '“艹”', replace: '草字头', literal: true }
+      - { find: '”虍', replace: '”', literal: true }
+      - { find: '屋顶“宀”', replace: '宝盖头', literal: true }
+      - { find: '反犬旁“犭”', replace: '反犬旁', literal: true }
+      - { find: '山崖“厂”', replace: '山崖厂字头', literal: true }
+      - { find: '“厂”', replace: '厂字头', literal: true }
+  pron-zh:
+    provider: edge-tts
+    voice: zh-CN-XiaoxiaoNeural
+    rate: '-15%'
+collections: [film-36] # published, in display order; the first is the default
+audio: { gapMs: 240 }
+budget: { maxFiles: 18000, maxFileMiB: 24 }

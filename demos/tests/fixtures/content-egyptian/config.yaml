@@ -1,0 +1,14 @@
+locales:
+  - { id: en, lang: en, section: en }
+  - { id: zh-Hans, lang: zh-Hans, section: zh, fallback: en }
+  - { id: zh-Hant, lang: zh-Hant, section: zh, fallback: zh-Hans, audioFrom: zh-Hans }
+narration:
+  en: narr-en
+  zh: narr-zh
+voices:
+  narr-en: { provider: edge-tts, voice: en-US-AvaMultilingualNeural, rate: '-4%' }
+  narr-zh: { provider: edge-tts, voice: zh-CN-XiaoxiaoNeural, rate: '-6%' }
+  pron-zh: { provider: edge-tts, voice: zh-CN-XiaoxiaoNeural, rate: '-15%' }
+collections: [egypt-demo]
+audio: { gapMs: 240 }
+budget: { maxFiles: 18000, maxFileMiB: 24 }

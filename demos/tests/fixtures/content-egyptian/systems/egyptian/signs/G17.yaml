@@ -1,0 +1,40 @@
+id: G17 # Gardiner code
+status: draft
+text: { Egyp: 𓅓 }
+readings: { translit: m }
+meaning: { en: owl, zh-Hans: 猫头鹰, zh-Hant: 貓頭鷹 }
+fact:
+  en: The owl hieroglyph stands for the sound m.
+  zh-Hans: 猫头鹰这个象形符号代表读音 m。
+  zh-Hant: 貓頭鷹這個象形符號代表讀音 m。
+origin: { type: pictogram }
+egyptian: { kind: uniliteral, sound: m }
+journey:
+  - { stage: hieroglyph }
+  - { stage: hieratic }
+  - { stage: demotic }
+forms:
+  - stage: hieroglyph
+    form: 𓅓
+    variant: hieroglyph
+    box: [0, 0, 100, 100]
+    paths:
+      - d: M50 12 C68 12 78 26 78 44 L78 80 C78 88 70 92 62 92 L38 92 C30 92 22 88 22 80 L22 44 C22 26 32 12 50 12 Z
+      - d: M32 38 A6 6 0 1 0 44 38 A6 6 0 1 0 32 38 Z M56 38 A6 6 0 1 0 68 38 A6 6 0 1 0 56 38 Z
+        mode: knockout
+  - stage: hieratic
+    form: 𓅓
+    variant: hieratic
+    box: [0, 0, 100, 100]
+    paths:
+      - d: M30 85 C30 50 35 25 50 20 C65 25 70 50 70 85
+        mode: stroke
+        w: 8
+  - stage: demotic
+    form: 𓅓
+    variant: demotic
+    box: [0, 0, 100, 100]
+    paths:
+      - d: M25 70 C40 40 60 40 75 70
+        mode: stroke
+        w: 8

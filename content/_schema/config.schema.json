@@ -1,0 +1,163 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "locales": {
+      "minItems": 1,
+      "maxItems": 20,
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z]{2,3}(-[A-Z][a-z]{3})?$"
+          },
+          "lang": {
+            "type": "string",
+            "pattern": "^[a-z]{2,3}(-[A-Z][a-z]{3})?$"
+          },
+          "section": {
+            "type": "string",
+            "pattern": "^[a-z]{2,8}$"
+          },
+          "fallback": {
+            "type": "string",
+            "pattern": "^[a-z]{2,3}(-[A-Z][a-z]{3})?$"
+          },
+          "audioFrom": {
+            "type": "string",
+            "pattern": "^[a-z]{2,3}(-[A-Z][a-z]{3})?$"
+          }
+        },
+        "required": [
+          "id",
+          "lang",
+          "section"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "narration": {
+      "type": "object",
+      "propertyNames": {
+        "type": "string",
+        "pattern": "^[a-z]{2,8}$"
+      },
+      "additionalProperties": {
+        "type": "string",
+        "pattern": "^[a-z0-9][a-z0-9-]{0,63}$"
+      }
+    },
+    "voices": {
+      "type": "object",
+      "propertyNames": {
+        "type": "string",
+        "pattern": "^[a-z0-9][a-z0-9-]{0,63}$"
+      },
+      "additionalProperties": {
+        "type": "object",
+        "properties": {
+          "provider": {
+            "type": "string",
+            "enum": [
+              "edge-tts"
+            ]
+          },
+          "voice": {
+            "type": "string",
+            "pattern": "^[a-z]{2,3}-[A-Z]{2}-[A-Za-z]+Neural$"
+          },
+          "rate": {
+            "type": "string",
+            "pattern": "^[+-]\\d{1,2}%$"
+          },
+          "normalize": {
+            "maxItems": 50,
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "find": {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 200
+                },
+                "replace": {
+                  "type": "string",
+                  "maxLength": 200
+                },
+                "literal": {
+                  "type": "boolean"
+                }
+              },
+              "required": [
+                "find",
+                "replace"
+              ],
+              "additionalProperties": false
+            }
+          }
+        },
+        "required": [
+          "provider",
+          "voice",
+          "rate"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "collections": {
+      "minItems": 1,
+      "maxItems": 50,
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z0-9][a-z0-9-]{0,63}$"
+      }
+    },
+    "audio": {
+      "type": "object",
+      "properties": {
+        "gapMs": {
+          "type": "integer",
+          "minimum": 24,
+          "maximum": 2400
+        }
+      },
+      "required": [
+        "gapMs"
+      ],
+      "additionalProperties": false
+    },
+    "budget": {
+      "type": "object",
+      "properties": {
+        "maxFiles": {
+          "type": "integer",
+          "minimum": 100,
+          "maximum": 20000
+        },
+        "maxFileMiB": {
+          "type": "number",
+          "minimum": 1,
+          "maximum": 25
+        }
+      },
+      "required": [
+        "maxFiles",
+        "maxFileMiB"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "locales",
+    "narration",
+    "voices",
+    "collections",
+    "audio",
+    "budget"
+  ],
+  "additionalProperties": false
+}

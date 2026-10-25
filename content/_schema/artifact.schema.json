@@ -1,0 +1,376 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9][a-z0-9-]{0,63}$"
+    },
+    "kind": {
+      "type": "string",
+      "enum": [
+        "bone",
+        "shell",
+        "vessel",
+        "rubbing",
+        "slips",
+        "manuscript",
+        "book",
+        "photo"
+      ]
+    },
+    "stage": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9-]{0,31}\\.[a-z][a-z0-9-]{0,31}$"
+    },
+    "title": {
+      "type": "object",
+      "properties": {
+        "en": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 160
+        },
+        "zh-Hans": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 160
+        },
+        "zh-Hant": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 160
+        }
+      },
+      "required": [
+        "en"
+      ],
+      "additionalProperties": false
+    },
+    "aliases": {
+      "maxItems": 10,
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 40
+      }
+    },
+    "image": {
+      "type": "object",
+      "properties": {
+        "file": {
+          "type": "string",
+          "pattern": "^[a-z0-9][a-z0-9-]{0,63}\\.(jpg|png)$"
+        },
+        "commons": {
+          "type": "string",
+          "pattern": "^File:[^\\n|#<>[\\]{}]{1,200}$"
+        }
+      },
+      "required": [
+        "file",
+        "commons"
+      ],
+      "additionalProperties": false
+    },
+    "related": {
+      "maxItems": 4,
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z0-9][a-z0-9-]{0,63}$"
+      }
+    },
+    "occurrences": {
+      "maxItems": 500,
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "sign": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9-]{0,31}\\/[^/\\s]{1,32}$"
+          },
+          "phrase": {
+            "type": "object",
+            "properties": {
+              "en": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 300
+              },
+              "zh-Hans": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 300
+              },
+              "zh-Hant": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 300
+              }
+            },
+            "required": [
+              "en"
+            ],
+            "additionalProperties": false
+          },
+          "text": {
+            "type": "object",
+            "properties": {
+              "en": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 800
+              },
+              "zh-Hans": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 800
+              },
+              "zh-Hant": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 800
+              }
+            },
+            "required": [
+              "en"
+            ],
+            "additionalProperties": false
+          },
+          "marks": {
+            "maxItems": 10,
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "box": {
+                  "type": "array",
+                  "prefixItems": [
+                    {
+                      "type": "number",
+                      "minimum": 0,
+                      "maximum": 1
+                    },
+                    {
+                      "type": "number",
+                      "minimum": 0,
+                      "maximum": 1
+                    },
+                    {
+                      "type": "number",
+                      "minimum": 0,
+                      "maximum": 1
+                    },
+                    {
+                      "type": "number",
+                      "minimum": 0,
+                      "maximum": 1
+                    }
+                  ],
+                  "items": false,
+                  "minItems": 4,
+                  "maxItems": 4
+                },
+                "label": {
+                  "type": "object",
+                  "properties": {
+                    "en": {
+                      "type": "string",
+                      "minLength": 1,
+                      "maxLength": 200
+                    },
+                    "zh-Hans": {
+                      "type": "string",
+                      "minLength": 1,
+                      "maxLength": 200
+                    },
+                    "zh-Hant": {
+                      "type": "string",
+                      "minLength": 1,
+                      "maxLength": 200
+                    }
+                  },
+                  "required": [
+                    "en"
+                  ],
+                  "additionalProperties": false
+                }
+              },
+              "required": [
+                "box"
+              ],
+              "additionalProperties": false
+            }
+          }
+        },
+        "required": [
+          "sign"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "templates": {
+      "type": "object",
+      "properties": {
+        "exact": {
+          "type": "object",
+          "properties": {
+            "title": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 160
+                },
+                "zh-Hans": {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 160
+                },
+                "zh-Hant": {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 160
+                }
+              },
+              "required": [
+                "en"
+              ],
+              "additionalProperties": false
+            },
+            "text": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 800
+                },
+                "zh-Hans": {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 800
+                },
+                "zh-Hant": {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 800
+                }
+              },
+              "required": [
+                "en"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "required": [
+            "text"
+          ],
+          "additionalProperties": false
+        },
+        "appears": {
+          "type": "object",
+          "properties": {
+            "title": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 160
+                },
+                "zh-Hans": {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 160
+                },
+                "zh-Hant": {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 160
+                }
+              },
+              "required": [
+                "en"
+              ],
+              "additionalProperties": false
+            },
+            "text": {
+              "type": "object",
+              "properties": {
+                "en": {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 800
+                },
+                "zh-Hans": {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 800
+                },
+                "zh-Hant": {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 800
+                }
+              },
+              "required": [
+                "en"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "additionalProperties": false
+        }
+      },
+      "additionalProperties": false
+    },
+    "credit": {
+      "type": "object",
+      "properties": {
+        "author": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 160
+        },
+        "license": {
+          "type": "string",
+          "pattern": "^(Public domain|CC0|CC BY-SA [34]\\.0|CC BY [34]\\.0)$"
+        },
+        "page": {
+          "type": "string",
+          "pattern": "^https:\\/\\/commons\\.wikimedia\\.org\\/wiki\\/\\S+$"
+        },
+        "width": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 4000
+        },
+        "height": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 4000
+        }
+      },
+      "required": [
+        "author",
+        "license",
+        "page",
+        "width",
+        "height"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "id",
+    "stage",
+    "title",
+    "image"
+  ],
+  "additionalProperties": false
+}

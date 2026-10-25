@@ -1,0 +1,7 @@
+id: egypt-demo
+system: egyptian
+title: { en: Hieroglyph test, zh-Hans: 象形文字测试, zh-Hant: 象形文字測試 }
+units:
+  - title: { en: Birds, zh-Hans: 鸟, zh-Hant: 鳥 }
+    color: '#c9824a'
+    signs: [G17]

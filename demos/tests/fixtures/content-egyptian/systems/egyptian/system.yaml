@@ -1,0 +1,27 @@
+# Test fixture only: proves the pipeline is not tied to Chinese. Not shipped.
+id: egyptian
+name: { en: Egyptian hieroglyphs, zh-Hans: 埃及象形文字, zh-Hant: 埃及象形文字 }
+signNoun: { en: hieroglyph, zh-Hans: 象形符号, zh-Hant: 象形符號 }
+signId: '^[A-Z]{1,2}[0-9]{1,3}[a-z]?$'
+textScripts: [Egyp]
+readings: { translit: { primary: true } }
+ingest: {}
+stages:
+  - id: hieroglyph
+    kind: paths
+    icon: 𓂀
+    color: '#c9824a'
+    name: { en: Hieroglyphs, zh-Hans: 圣书体, zh-Hant: 聖書體 }
+    era: { en: '~5,000 years ago · carved on temple walls', zh-Hans: 约5000年前 · 刻在神庙墙上, zh-Hant: 約5000年前 · 刻在神廟牆上 }
+  - id: hieratic
+    kind: paths
+    icon: 📜
+    color: '#3f9b8f'
+    name: { en: Hieratic, zh-Hans: 僧侣体, zh-Hant: 僧侶體 }
+    era: { en: 'Quick brush writing on papyrus', zh-Hans: 写在纸莎草上的快写体, zh-Hant: 寫在紙莎草上的快寫體 }
+  - id: demotic
+    kind: paths
+    icon: ✒️
+    color: '#7a8b2e'
+    name: { en: Demotic, zh-Hans: 世俗体, zh-Hant: 世俗體 }
+    era: { en: '~2,600 years ago · everyday writing', zh-Hans: 约2600年前 · 日常书写, zh-Hant: 約2600年前 · 日常書寫 }
