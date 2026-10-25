@@ -1,0 +1,970 @@
+s	t	pinyin	hsk	ckip_rank	film	liushu	stages	stage_list
+一	一	yī	I-1	1		ideogram	4	oracle,bronze,seal,clerical
+在	在	zài	I-1	2		phono-semantic	4	oracle,bronze,seal,clerical
+有	有	yǒu	I-1	3		phono-semantic	4	oracle,bronze,seal,clerical
+个	個	gè	I-1	4		phono-semantic	0	
+我	我	wǒ	I-1	5		pictogram	4	oracle,bronze,seal,clerical
+不	不	bù	I-1	6		pictogram	4	oracle,bronze,seal,clerical
+这	這	zhè	I-1	7		phono-semantic	0	
+他	他	tā	I-1	8		phono-semantic	0	
+也	也	yě	I-1	9		pictogram	2	seal,clerical
+就	就	jiù	I-1	10		compound-ideogram	4	oracle,bronze,seal,clerical
+人	人	rén	I-1	11		pictogram	4	oracle,bronze,seal,clerical
+都	都	dōu/dū	I-1	12		phono-semantic	2	bronze,seal
+说	說	shuō	I-1	13		phono-semantic	2	seal,clerical
+们	們	men	I-1	15		phono-semantic	0	
+你	你	nǐ	I-1	16		phono-semantic	0	
+了	了、瞭	le/liǎo	I-1	17		pictogram	1	seal
+要	要	yào/yāo	I-1	18		pictogram	2	bronze,seal
+会	會	huì/kuài	I-1	19		phono-semantic	3	oracle,bronze,seal
+对	對	duì	I-1	20		compound-ideogram	3	oracle,bronze,seal
+和	和	hé/huó/hè	I-1	22		phono-semantic	3	bronze,seal,clerical
+很	很	hěn	I-1	25		phono-semantic	0	
+的	的	de/dì/dí	I-1	27		phono-semantic	1	seal
+大	大	dà/dài	I-1	28		pictogram	4	oracle,bronze,seal,clerical
+能	能	néng	I-1	29		pictogram	4	oracle,bronze,seal,clerical
+着	着、著	zhe/zháo/zhuó	I-1	30		phono-semantic	0	
+她	她	tā	I-1	31		phono-semantic	0	
+那	那	nà	I-1	32		phono-semantic	1	seal
+上	上	shàng	I-1	33		ideogram	4	oracle,bronze,seal,clerical
+年	年	nián	I-1	35		phono-semantic	4	oracle,bronze,seal,clerical
+还	還	huán/hái	I-1	36		phono-semantic	3	bronze,seal,clerical
+最	最	zuì	I-1	38		phono-semantic	3	oracle,seal,clerical
+来	來	lái	I-1	41		pictogram	4	oracle,bronze,seal,clerical
+两	兩	liǎng	I-1	44		compound-ideogram	0	
+好	好	hào/hǎo	I-1	49		compound-ideogram	3	oracle,bronze,seal
+等	等	děng	I-1	50		phono-semantic	0	
+从	從	cóng	I-1	56		phono-semantic	2	bronze,seal
+次	次	cì	I-1	63		pictogram	3	oracle,bronze,seal
+三	三	sān	I-1	65		ideogram	4	oracle,bronze,seal,clerical
+什	什	shén	I-1	66		?	2	seal,clerical
+么	麼	me	I-1	66		phono-semantic	0	
+问	問	wèn	I-1	67		phono-semantic	1	seal
+做	做	zuò	I-1	71		?	0	
+再	再	zài	I-1	72		pictogram	3	oracle,bronze,seal
+想	想	xiǎng	I-1	80		phono-semantic	0	
+去	去	qù	I-1	81		compound-ideogram	3	oracle,seal,clerical
+呢	呢	ne	I-1	82		phono-semantic	0	
+学	學	xué	I-1	83		phono-semantic	4	oracle,bronze,seal,clerical
+生	生	shēng	I-1	83		compound-ideogram	3	oracle,bronze,seal
+到	到	dào	I-1	85		phono-semantic	2	bronze,seal
+果	果	guǒ	I-1	88		pictogram	3	oracle,bronze,seal
+看	看	kàn/kān	I-1	90		compound-ideogram	1	seal
+小	小	xiǎo	I-1	91		ideogram	4	oracle,bronze,seal,clerical
+天	天	tiān	I-1	92		compound-ideogram	4	oracle,bronze,seal,clerical
+新	新	xīn	I-1	94		phono-semantic	4	oracle,bronze,seal,clerical
+是	是	shì	I-1	95		?	4	oracle,bronze,seal,clerical
+中	中	zhōng/zhòng	I-1	97		pictogram	4	oracle,bronze,seal,clerical
+作	作	zuò	I-1	99		phono-semantic	4	oracle,bronze,seal,clerical
+工	工	gōng	I-1	99		pictogram	4	oracle,bronze,seal,clerical
+得	得	dé/de/děi	I-1	101		compound-ideogram	4	oracle,bronze,seal,clerical
+觉	覺	jiào/jué	I-1	101		phono-semantic	2	seal,clerical
+用	用	yòng	I-1	102		phono-semantic	4	oracle,bronze,seal,clerical
+些	些	xiē	I-1	103		?	1	seal
+里	裡、裏、里	lǐ	I-1	104		phono-semantic	0	
+候	候	hòu	I-1	107		phono-semantic	0	
+时	時	shí	I-1	107		phono-semantic	3	oracle,seal,clerical
+知	知	zhī	I-1	108		compound-ideogram	1	seal
+道	道	dào	I-1	108		?	3	bronze,seal,clerical
+样	樣	yàng	I-1	109		phono-semantic	0	
+认	認	rèn	I-1	111		phono-semantic	0	
+间	間	jiān/jiàn	I-1	112		?	2	bronze,seal
+事	事	shì	I-1	113		compound-ideogram	4	oracle,bronze,seal,clerical
+过	過	guò/guo	I-1	114		phono-semantic	3	bronze,seal,clerical
+国	國	guó	I-1	117		phono-semantic	3	bronze,seal,clerical
+几	幾、几	jǐ/jī	I-1	121		compound-ideogram	2	bronze,seal
+系	系、係、繫	xì/jì	I-1	122		phono-semantic	3	oracle,bronze,seal
+家	家	jiā	I-1	124		phono-semantic	3	oracle,bronze,seal
+多	多	duō	I-1	126		compound-ideogram	3	oracle,bronze,seal
+跟	跟	gēn	I-1	128		phono-semantic	0	
+本	本	běn	I-1	133		ideogram	2	bronze,seal
+二	二	èr	I-1	134		ideogram	4	oracle,bronze,seal,clerical
+动	動	dòng	I-1	135		phono-semantic	4	oracle,bronze,seal,clerical
+四	四	sì	I-1	139		pictogram	4	oracle,bronze,seal,clerical
+方	方	fāng	I-1	141		?	4	oracle,bronze,seal,clerical
+下	下	xià	I-1	145		ideogram	4	oracle,bronze,seal,clerical
+文	文	wén	I-1	149		ideogram	4	oracle,bronze,seal,clerical
+高	高	gāo	I-1	150		pictogram	4	oracle,bronze,seal,clerical
+子	子	zǐ	I-1	151	film			
+孩	孩	hái	I-1	151		phono-semantic	0	
+没	沒	méi/mò	I-1	152		phono-semantic	1	seal
+开	開	kāi	I-1	155		compound-ideogram	2	seal,clerical
+元	元	yuán	I-1	156		pictogram	3	oracle,bronze,seal
+同	同	tóng	I-1	157		pictogram	4	oracle,bronze,seal,clerical
+网	網	wǎng	I-1	159	film			
+路	路	lù	I-1	159		phono-semantic	3	bronze,seal,clerical
+日	日	rì	I-1	160	film			
+重	重	zhòng/chóng	I-1	166		phono-semantic	4	oracle,bronze,seal,clerical
+地	地	de/dì	I-1	167		phono-semantic	3	bronze,seal,clerical
+行	行	xíng/háng	I-1	168		pictogram	4	oracle,bronze,seal,clerical
+进	進	jìn	I-1	168		compound-ideogram	3	oracle,bronze,seal
+关	關	guān	I-1	169		phono-semantic	0	
+场	場	chǎng	I-1	170		phono-semantic	0	
+太	太	tài	I-1	171		phono-semantic	0	
+师	師	shī	I-1	172		compound-ideogram	2	bronze,seal
+老	老	lǎo	I-1	172		compound-ideogram	4	oracle,bronze,seal,clerical
+校	校	xiào	I-1	174		phono-semantic	1	seal
+出	出	chū	I-1	176		compound-ideogram	4	oracle,bronze,seal,clerical
+教	教	jiào/jiāo	I-1	181		phono-semantic	3	oracle,bronze,seal
+常	常	cháng	I-1	184		phono-semantic	2	bronze,seal
+非	非	fēi	I-1	184		pictogram	4	oracle,bronze,seal,clerical
+面	面、麪	miàn	I-1	186		pictogram	2	oracle,seal
+吃	吃	chī	I-1	188		phono-semantic	0	
+后	後、后	hòu	I-1	189		compound-ideogram	4	oracle,bronze,seal,clerical
+现	現	xiàn	I-1	191		phono-semantic	0	
+脑	腦	nǎo	I-1	192		compound-ideogram	0	
+电	電	diàn	I-1	192		phono-semantic	2	bronze,clerical
+正	正	zhèng	I-1	199		phono-semantic	4	oracle,bronze,seal,clerical
+服	服	fú	I-1	200		phono-semantic	4	oracle,bronze,seal,clerical
+吗	嗎	ma	I-1	205		phono-semantic	0	
+五	五	wǔ	I-1	208		pictogram	4	oracle,bronze,seal,clerical
+比	比	bǐ	I-1	219		phono-semantic	4	oracle,bronze,seal,clerical
+先	先	xiān	I-1	220		compound-ideogram	3	oracle,bronze,seal
+给	給	gěi/jǐ	I-1	232		phono-semantic	1	seal
+岁	歲	suì	I-1	233		phono-semantic	4	oracle,bronze,seal,clerical
+请	請	qǐng	I-1	234		phono-semantic	2	seal,clerical
+月	月	yuè	I-1	235	film			
+名	名	míng	I-1	237		compound-ideogram	3	oracle,bronze,seal
+别	別、彆	bié/biè	I-1	244		compound-ideogram	3	oracle,seal,clerical
+北	北	běi	I-1	253		compound-ideogram	4	oracle,bronze,seal,clerical
+包	包	bāo	I-1	254		pictogram	2	seal,clerical
+喜	喜	xǐ	I-1	261		compound-ideogram	4	oracle,bronze,seal,clerical
+欢	歡	huān	I-1	261		phono-semantic	0	
+话	話	huà	I-1	266		phono-semantic	1	seal
+走	走	zǒu	I-1	267		pictogram	4	oracle,bronze,seal,clerical
+吧	吧	ba/bā	I-1	270		phono-semantic	0	
+怎	怎	zěn	I-1	278		phono-semantic	0	
+机	機	jī	I-1	279		phono-semantic	1	seal
+听	聽	tīng	I-1	281		compound-ideogram	4	oracle,bronze,seal,clerical
+友	友	yǒu	I-1	284		phono-semantic	3	oracle,bronze,seal
+朋	朋	péng	I-1	284		pictogram	4	oracle,bronze,seal,clerical
+真	真	zhēn	I-1	288		phono-semantic	3	oracle,bronze,seal
+六	六	liù	I-1	289		pictogram	4	oracle,bronze,seal,clerical
+钱	錢	qián	I-1	293		phono-semantic	0	
+点	點	diǎn	I-1	295		phono-semantic	1	seal
+十	十	shí	I-1	300		ideogram	4	oracle,bronze,seal,clerical
+妈	媽	mā	I-1	302		phono-semantic	0	
+您	您	nín	I-1	307		compound-ideogram	0	
+东	東	dōng	I-1	311		pictogram	4	oracle,bronze,seal,clerical
+西	西	xī	I-1	311		?	4	oracle,bronze,seal,clerical
+条	條	tiáo	I-1	313		phono-semantic	0	
+找	找	zhǎo	I-1	315		phono-semantic	0	
+习	習	xí	I-1	320		compound-ideogram	2	oracle,seal
+谁	誰	shuí/shéi	I-1	321		phono-semantic	0	
+见	見	jiàn	I-1	322		compound-ideogram	4	oracle,bronze,seal,clerical
+半	半	bàn	I-1	323		compound-ideogram	1	bronze
+书	書	shū	I-1	341		phono-semantic	3	bronze,seal,clerical
+爱	愛	ài	I-1	348		phono-semantic	2	seal,clerical
+手	手	shǒu	I-1	366		pictogram	3	bronze,seal,clerical
+打	打	dǎ/dá	I-1	367		phono-semantic	1	seal
+水	水	shuǐ	I-1	368	film			
+难	難	nán/nàn	I-1	372		phono-semantic	0	
+告	告	gào	I-1	374		pictogram	3	oracle,bronze,seal
+诉	訴	sù	I-1	374		phono-semantic	0	
+写	寫	xiě	I-1	384		phono-semantic	0	
+买	買	mǎi	I-1	387		compound-ideogram	3	bronze,seal,clerical
+体	體	tǐ	I-1	404		phono-semantic	2	bronze,seal
+影	影	yǐng	I-1	410		phono-semantic	0	
+分	分	fēn/fèn	I-1	418		compound-ideogram	4	oracle,bronze,seal,clerical
+外	外	wài	I-1	419		phono-semantic	3	oracle,bronze,seal
+起	起	qǐ	I-1	434		phono-semantic	1	seal
+考	考	kǎo	I-1	435		compound-ideogram	3	oracle,bronze,seal
+商	商	shāng	I-1	442		?	4	oracle,bronze,seal,clerical
+女	女	nǚ	I-1	449	film			
+快	快	kuài	I-1	456		phono-semantic	0	
+前	前	qián	I-1	481		compound-ideogram	3	bronze,seal,clerical
+课	課	kè	I-1	487		phono-semantic	0	
+爸	爸	bà	I-1	495		phono-semantic	0	
+七	七	qī	I-1	513		pictogram	4	oracle,bronze,seal,clerical
+身	身	shēn	I-1	516		pictogram	4	oracle,bronze,seal,clerical
+准	準、准	zhǔn	I-1	517		phono-semantic	0	
+字	字	zì	I-1	529		phono-semantic	3	bronze,seal,clerical
+坐	坐	zuò	I-1	530		compound-ideogram	1	seal
+块	塊	kuài	I-1	536		phono-semantic	1	seal
+少	少	shǎo/shào	I-1	541		pictogram	1	oracle
+放	放	fàng	I-1	542		phono-semantic	1	seal
+边	邊	biān	I-1	547		phono-semantic	4	oracle,bronze,seal,clerical
+语	語	yǔ	I-1	566		phono-semantic	2	seal,clerical
+备	備	bèi	I-1	571		phono-semantic	4	oracle,bronze,seal,clerical
+车	車	chē	I-1	573		pictogram	4	oracle,bronze,seal,clerical
+住	住	zhù	I-1	582		phono-semantic	0	
+拿	拿	ná	I-1	585		?	1	seal
+医	醫	yī	I-1	589		phono-semantic	2	seal,clerical
+院	院	yuàn	I-1	589		phono-semantic	1	seal
+八	八	bā	I-1	594		pictogram	4	oracle,bronze,seal,clerical
+视	視	shì	I-1	603		phono-semantic	4	oracle,bronze,seal,clerical
+记	記	jì	I-1	607		phono-semantic	1	seal
+喝	喝	hē/hè	I-1	610		phono-semantic	1	seal
+识	識	shí	I-1	623		phono-semantic	2	bronze,seal
+玩	玩	wán	I-1	635		phono-semantic	0	
+男	男	nán	I-1	659		compound-ideogram	4	oracle,bronze,seal,clerical
+兴	興	xìng/xīng	I-1	669		compound-ideogram	3	oracle,bronze,seal
+山	山	shān	I-1	670	film			
+回	回	huí	I-1	673		pictogram	2	bronze,seal
+谢	謝	xiè	I-1	683		phono-semantic	0	
+明	明	míng	I-1	700		compound-ideogram	4	oracle,bronze,seal,clerical
+远	遠	yuǎn	I-1	754		phono-semantic	3	oracle,bronze,seal
+站	站	zhàn	I-1	775		phono-semantic	0	
+口	口	kǒu	I-1	779		pictogram	4	oracle,bronze,seal,clerical
+儿	兒	ér	I-1	804		pictogram	4	oracle,bronze,seal,clerical
+京	京	jīng	I-1	810		pictogram	3	oracle,bronze,seal
+球	球	qiú	I-1	818		phono-semantic	1	seal
+期	期	qī	I-1	826		phono-semantic	3	bronze,seal,clerical
+姐	姐	jiě	I-1	828		phono-semantic	1	seal
+叫	叫	jiào	I-1	832		phono-semantic	1	seal
+早	早	zǎo	I-1	839		pictogram	2	seal,clerical
+错	錯	cuò	I-1	847		phono-semantic	0	
+旁	旁	páng	I-1	849		phono-semantic	3	oracle,bronze,clerical
+笑	笑	xiào	I-1	850		phono-semantic	2	seal,clerical
+哪	哪	nǎ/na	I-1	879		?	0	
+树	樹	shù	I-1	880		phono-semantic	1	seal
+茶	茶	chá	I-1	882		phono-semantic	0	
+介	介	jiè	I-1	928		compound-ideogram	4	oracle,bronze,seal,clerical
+绍	紹	shào	I-1	928		phono-semantic	0	
+客	客	kè	I-1	931		phono-semantic	3	bronze,seal,clerical
+花	花	huā	I-1	934	film			
+帮	幫	bāng	I-1	942		phono-semantic	0	
+图	圖	tú	I-1	948		compound-ideogram	3	bronze,seal,clerical
+馆	館	guǎn	I-1	948		phono-semantic	1	seal
+读	讀	dú	I-1	951		phono-semantic	1	seal
+病	病	bìng	I-1	955		phono-semantic	0	
+门	門	mén	I-1	959	film			
+送	送	sòng	I-1	962		phono-semantic	0	
+九	九	jiǔ	I-1	977		pictogram	4	oracle,bronze,seal,clerical
+白	白	bái	I-1	990		pictogram	3	oracle,bronze,seal
+慢	慢	màn	I-1	1014		phono-semantic	0	
+风	風	fēng	I-1	1121		loan	4	oracle,bronze,seal,clerical
+马	馬	mǎ	I-1	1133	film			
+息	息	xī	I-1	1138		compound-ideogram	0	
+房	房	fáng	I-1	1141		phono-semantic	1	seal
+差	差	chà/chā/chāi	I-1	1146		compound-ideogram	2	bronze,seal
+坏	壞	huài	I-1	1155		phono-semantic	1	seal
+答	答	dá/dā	I-1	1214		phono-semantic	0	
+气	氣	qì	I-1	1226		phono-semantic	2	seal,clerical
+跑	跑	pǎo	I-1	1258		phono-semantic	0	
+汽	汽	qì	I-1	1270		phono-semantic	1	seal
+楼	樓	lóu	I-1	1287		phono-semantic	0	
+唱	唱	chàng	I-1	1324		phono-semantic	1	seal
+试	試	shì	I-1	1329		phono-semantic	0	
+弟	弟	dì	I-1	1360		pictogram	2	bronze,seal
+衣	衣	yī	I-1	1368		pictogram	4	oracle,bronze,seal,clerical
+飞	飛	fēi	I-1	1381		pictogram	3	oracle,seal,clerical
+今	今	jīn	I-1	1388		ideogram	4	oracle,bronze,seal,clerical
+忙	忙	máng	I-1	1425		phono-semantic	0	
+百	百	bǎi	I-1	1455		phono-semantic	3	oracle,bronze,seal
+歌	歌	gē	I-1	1461		phono-semantic	1	seal
+哥	哥	gē	I-1	1477		?	0	
+休	休	xiū	I-1	1485		compound-ideogram	3	oracle,bronze,seal
+菜	菜	cài	I-1	1634		phono-semantic	1	seal
+睡	睡	shuì	I-1	1655		phono-semantic	1	seal
+假	假	jià/jiǎ	I-1	1715		phono-semantic	1	seal
+干	乾、干、幹	gān/gàn	I-1	1718		phono-semantic	1	seal
+饭	飯	fàn	I-1	1722		phono-semantic	3	bronze,seal,clerical
+票	票	piào	I-1	1751		compound-ideogram	1	seal
+热	熱	rè	I-1	1769		phono-semantic	1	seal
+忘	忘	wàng	I-1	1772		phono-semantic	2	seal,clerical
+星	星	xīng	I-1	1800		phono-semantic	1	oracle
+妹	妹	mèi	I-1	1828		phono-semantic	3	oracle,bronze,seal
+店	店	diàn	I-1	1835		phono-semantic	0	
+南	南	nán	I-1	1859		loan	4	oracle,bronze,seal,clerical
+累	累	lèi/lěi	I-1	1888		?	0	
+毛	毛	máo	I-1	1920		pictogram	3	bronze,seal,clerical
+雨	雨	yǔ	I-1	1923	film			
+号	號	hào	I-1	2030		ideogram	1	seal
+牛	牛	niú	I-1	2079		pictogram	4	oracle,bronze,seal,clerical
+右	右	yòu	I-1	2080		phono-semantic	4	oracle,bronze,seal,clerical
+爷	爺	yé	I-1	2109		phono-semantic	0	
+冷	冷	lěng	I-1	2126		phono-semantic	1	seal
+左	左	zuǒ	I-1	2182		pictogram	4	oracle,bronze,seal,clerical
+洗	洗	xǐ	I-1	2192		phono-semantic	0	
+床	床	chuáng	I-1	2202		compound-ideogram	0	
+汉	漢	hàn	I-1	2248		?	3	bronze,seal,clerical
+火	火	huǒ	I-1	2266	film			
+班	班	bān	I-1	2358		compound-ideogram	2	bronze,seal
+页	頁	yè	I-1	2377		pictogram	4	oracle,bronze,seal,clerical
+杯	杯、盃	bēi	I-1	2408		phono-semantic	0	
+贵	貴	guì	I-1	2452		phono-semantic	1	seal
+肉	肉	ròu	I-1	2553		pictogram	4	oracle,bronze,seal,clerical
+净	淨	jìng	I-1	2667		?	0	
+零	零	líng	I-1	2731		phono-semantic	1	seal
+鸡	雞	jī	I-1	2874		phono-semantic	4	oracle,bronze,seal,clerical
+晚	晚	wǎn	I-1	2981		phono-semantic	0	
+饿	餓	è	I-1	3286		phono-semantic	1	seal
+奶	奶	nǎi	I-1	3605		phono-semantic	0	
+蛋	蛋	dàn	I-1	4238		phono-semantic	0	
+米	米	mǐ	I-1	4594		pictogram	4	oracle,bronze,seal,clerical
+午	午	wǔ	I-1	5008		pictogram	3	oracle,bronze,seal
+桌	桌	zhuō	I-1	5192		compound-ideogram	0	
+第	第	dì	I-1	5402		phono-semantic	0	
+穿	穿	chuān	I-1	5597		compound-ideogram	0	
+渴	渴	kě	I-1	7622		phono-semantic	1	seal
+昨	昨	zuó	I-1			phono-semantic	1	seal
+而	而	ér	I-2	14		pictogram	3	oracle,bronze,seal
+以	以	yǐ	I-2	24		pictogram	4	oracle,bronze,seal,clerical
+但	但	dàn	I-2	34		phono-semantic	0	
+可	可	kě	I-2	37		phono-semantic	4	oracle,bronze,seal,clerical
+己	己	jǐ	I-2	39		pictogram	4	oracle,bronze,seal,clerical
+自	自	zì	I-2	39		pictogram	4	oracle,bronze,seal,clerical
+为	為	wèi/wéi	I-2	40		compound-ideogram	4	oracle,bronze,seal,clerical
+所	所	suǒ	I-2	42		phono-semantic	2	bronze,seal
+或	或	huò	I-2	48		phono-semantic	4	oracle,bronze,seal,clerical
+又	又	yòu	I-2	51		pictogram	4	oracle,bronze,seal,clerical
+因	因	yīn	I-2	53		compound-ideogram	3	oracle,bronze,seal
+于	於	yú	I-2	54		?	2	bronze,clerical
+由	由	yóu	I-2	55		pictogram	1	bronze
+更	更	gèng/gēng	I-2	57		compound-ideogram	3	oracle,bronze,seal
+才	才、纔	cái	I-2	59		pictogram	3	oracle,bronze,seal
+已	已	yǐ	I-2	60		pictogram	2	bronze,clerical
+者	者	zhě	I-2	61		pictogram	3	bronze,seal,clerical
+题	題	tí	I-2	67		phono-semantic	1	seal
+其	其	qí	I-2	68		pictogram	3	oracle,bronze,seal
+让	讓	ràng	I-2	69		phono-semantic	0	
+只	只、衹、隻	zhǐ/zhī	I-2	74		compound-ideogram	0	
+位	位	wèi	I-2	79		phono-semantic	4	oracle,bronze,seal,clerical
+示	示	shì	I-2	84		pictogram	4	oracle,bronze,seal,clerical
+表	表、錶	biǎo	I-2	84		compound-ideogram	0	
+公	公	gōng	I-2	86		pictogram	4	oracle,bronze,seal,clerical
+司	司	sī	I-2	86		compound-ideogram	3	oracle,bronze,seal
+如	如	rú	I-2	88		phono-semantic	3	oracle,bronze,seal
+它	它	tā	I-2	96		pictogram	4	oracle,bronze,seal,clerical
+使	使	shǐ	I-2	98		phono-semantic	0	
+全	全	quán	I-2	100		compound-ideogram	1	seal
+向	向、嚮	xiàng	I-2	115		compound-ideogram	4	oracle,bronze,seal,clerical
+许	許	xǔ	I-2	126		phono-semantic	0	
+活	活	huó	I-2	127		phono-semantic	1	seal
+经	經	jīng	I-2	129		phono-semantic	0	
+该	該	gāi	I-2	136		phono-semantic	0	
+应	應	yìng/yīng	I-2	138		phono-semantic	0	
+啊	啊	a/ā	I-2	144		phono-semantic	0	
+必	必	bì	I-2	148		pictogram	2	bronze,seal
+须	須	xū	I-2	148		pictogram	4	oracle,bronze,seal,clerical
+心	心	xīn	I-2	162		pictogram	4	oracle,bronze,seal,clerical
+然	然	rán	I-2	165		phono-semantic	1	seal
+虽	雖	suī	I-2	165		phono-semantic	2	seal,clerical
+市	市	shì	I-2	170		phono-semantic	2	bronze,seal
+提	提	tí/dī	I-2	173		phono-semantic	0	
+发	發、髮	fā/fà	I-2	180		pictogram	3	oracle,seal,clerical
+育	育	yù	I-2	181		?	3	oracle,bronze,seal
+成	成	chéng	I-2	182		phono-semantic	4	oracle,bronze,seal,clerical
+便	便	biàn/pián	I-2	185		compound-ideogram	2	bronze,seal
+且	且	qiě	I-2	194		pictogram	3	oracle,bronze,seal
+法	法	fǎ	I-2	197		phono-semantic	2	bronze,seal
+业	業	yè	I-2	198		pictogram	2	bronze,seal
+务	務	wù	I-2	200		phono-semantic	2	bronze,seal
+空	空	kòng/kōng	I-2	206		phono-semantic	1	seal
+当	當	dāng/dàng	I-2	217		phono-semantic	2	seal,clerical
+像	像	xiàng	I-2	230		phono-semantic	1	clerical
+特	特	tè	I-2	244		phono-semantic	0	
+实	實	shí	I-2	245		compound-ideogram	2	bronze,seal
+际	際	jì	I-2	246		phono-semantic	0	
+加	加	jiā	I-2	249		compound-ideogram	3	bronze,seal,clerical
+参	參	cān	I-2	249		compound-ideogram	2	bronze,seal
+定	定	dìng	I-2	250		phono-semantic	1	seal
+讲	講	jiǎng	I-2	255		phono-semantic	0	
+单	單	dān	I-2	268		pictogram	3	oracle,bronze,seal
+直	直	zhí	I-2	269		compound-ideogram	3	oracle,bronze,seal
+理	理	lǐ	I-2	274		phono-semantic	0	
+处	處	chù/chǔ	I-2	274		phono-semantic	2	bronze,clerical
+情	情	qíng	I-2	291		phono-semantic	0	
+主	主	zhǔ	I-2	301		pictogram	3	oracle,bronze,seal
+画	畫	huà	I-2	308		phono-semantic	3	oracle,bronze,seal
+计	計	jì	I-2	308		compound-ideogram	1	seal
+利	利	lì	I-2	310		compound-ideogram	4	oracle,bronze,seal,clerical
+长	長	cháng/zhǎng	I-2	317		pictogram	3	oracle,bronze,seal
+够	夠	gòu	I-2	318		phono-semantic	0	
+完	完	wán	I-2	325		phono-semantic	0	
+带	帶	dài	I-2	326		pictogram	2	oracle,seal
+相	相	xiàng/xiāng	I-2	327		compound-ideogram	0	
+件	件	jiàn	I-2	329		compound-ideogram	1	seal
+力	力	lì	I-2	330		pictogram	4	oracle,bronze,seal,clerical
+组	組	zǔ	I-2	345		phono-semantic	2	bronze,seal
+言	言	yán	I-2	346		ideogram	3	oracle,bronze,seal
+受	受	shòu	I-2	358		compound-ideogram	3	oracle,bronze,seal
+接	接	jiē	I-2	358		phono-semantic	0	
+般	般	bān	I-2	361		?	4	oracle,bronze,seal,clerical
+推	推	tuī	I-2	362		phono-semantic	0	
+求	求	qiú	I-2	369		pictogram	3	oracle,bronze,seal
+结	結	jié/jiē	I-2	376		phono-semantic	0	
+查	查	chá	I-2	377		phono-semantic	0	
+庭	庭	tíng	I-2	378		phono-semantic	2	bronze,seal
+选	選	xuǎn	I-2	380		phono-semantic	1	seal
+合	合	hé	I-2	389		compound-ideogram	4	oracle,bronze,seal,clerical
+入	入	rù	I-2	390		ideogram	4	oracle,bronze,seal,clerical
+例	例	lì	I-2	391		phono-semantic	1	seal
+讨	討	tǎo	I-2	393		phono-semantic	0	
+论	論	lùn	I-2	393		phono-semantic	2	bronze,seal
+原	原	yuán	I-2	398		compound-ideogram	3	bronze,seal,clerical
+运	運	yùn	I-2	401		phono-semantic	1	seal
+观	觀	guān	I-2	402		phono-semantic	1	seal
+响	響	xiǎng	I-2	410		phono-semantic	1	seal
+部	部	bù	I-2	418		phono-semantic	0	
+园	園	yuán	I-2	420		phono-semantic	1	seal
+练	練	liàn	I-2	422		phono-semantic	1	seal
+努	努	nǔ	I-2	423		phono-semantic	0	
+共	共	gòng	I-2	426		compound-ideogram	4	oracle,bronze,seal,clerical
+目	目	mù	I-2	433		pictogram	4	oracle,bronze,seal,clerical
+意	意	yì	I-2	437		?	2	bronze,seal
+办	辦	bàn	I-2	438		phono-semantic	0	
+乐	樂	lè/yuè	I-2	439		compound-ideogram	4	oracle,bronze,seal,clerical
+音	音	yīn	I-2	439		ideogram	3	bronze,seal,clerical
+份	份	fèn	I-2	458		phono-semantic	2	seal,clerical
+举	舉	jǔ	I-2	461		phono-semantic	2	bronze,seal
+句	句	jù	I-2	462		phono-semantic	4	oracle,bronze,seal,clerical
+段	段	duàn	I-2	464		phono-semantic	2	bronze,seal
+闻	聞	wén	I-2	472		phono-semantic	0	
+信	信	xìn	I-2	474		phono-semantic	0	
+变	變	biàn	I-2	476		phono-semantic	2	bronze,seal
+划	劃、划	huà/huá	I-2	477		phono-semantic	0	
+度	度	dù	I-2	484		phono-semantic	1	seal
+科	科	kē	I-2	510		phono-semantic	1	seal
+往	往	wǎng	I-2	515		phono-semantic	4	oracle,bronze,seal,clerical
+物	物	wù	I-2	521		phono-semantic	3	oracle,seal,clerical
+态	態	tài	I-2	523		phono-semantic	1	seal
+通	通	tōng	I-2	549		phono-semantic	0	
+安	安	ān	I-2	558		phono-semantic	3	oracle,bronze,seal
+故	故	gù	I-2	568		phono-semantic	3	bronze,seal,clerical
+片	片	piàn/piān	I-2	570		pictogram	1	seal
+久	久	jiǔ	I-2	576		pictogram	2	seal,clerical
+套	套	tào	I-2	577		compound-ideogram	0	
+改	改	gǎi	I-2	579		phono-semantic	1	seal
+座	座	zuò	I-2	588		phono-semantic	0	
+交	交	jiāo	I-2	595		pictogram	2	bronze,seal
+感	感	gǎn	I-2	602		phono-semantic	1	seal
+怕	怕	pà	I-2	617		phono-semantic	0	
+色	色	sè	I-2	628		compound-ideogram	2	seal,clerical
+角	角	jiǎo/jué	I-2	628		pictogram	3	oracle,bronze,seal
+楚	楚	chǔ	I-2	632		phono-semantic	2	oracle,bronze
+清	清	qīng	I-2	632		phono-semantic	0	
+越	越	yuè	I-2	637		phono-semantic	0	
+护	護	hù	I-2	638		phono-semantic	1	seal
+近	近	jìn	I-2	641		phono-semantic	1	seal
+愿	願	yuàn	I-2	648		phono-semantic	1	seal
+迎	迎	yíng	I-2	652		phono-semantic	1	seal
+声	聲	shēng	I-2	663		phono-semantic	3	oracle,seal,clerical
+思	思	sī	I-2	680		phono-semantic	1	seal
+头	頭	tóu	I-2	681		phono-semantic	1	seal
+助	助	zhù	I-2	684		phono-semantic	1	seal
+低	低	dī	I-2	689		phono-semantic	0	
+量	量	liàng/liáng	I-2	702		compound-ideogram	4	oracle,bronze,seal,clerical
+报	報	bào	I-2	717		compound-ideogram	3	bronze,seal,clerical
+银	銀	yín	I-2	730		phono-semantic	1	seal
+超	超	chāo	I-2	741		phono-semantic	0	
+脸	臉	liǎn	I-2	762		phono-semantic	0	
+节	節	jié	I-2	768		phono-semantic	1	seal
+健	健	jiàn	I-2	777		phono-semantic	1	seal
+康	康	kāng	I-2	777		compound-ideogram	2	bronze,seal
+刚	剛	gāng	I-2	781		phono-semantic	0	
+取	取	qǔ	I-2	799		compound-ideogram	4	oracle,bronze,seal,clerical
+排	排	pái	I-2	803		phono-semantic	0	
+轻	輕	qīng	I-2	811		phono-semantic	1	seal
+满	滿	mǎn	I-2	836		phono-semantic	0	
+随	隨	suí	I-2	838		phono-semantic	2	seal,clerical
+确	確	què	I-2	867		phono-semantic	0	
+适	適	shì	I-2	881		phono-semantic	1	seal
+绩	績	jì	I-2	887		phono-semantic	0	
+克	克	kè	I-2	897		?	3	oracle,bronze,seal
+拉	拉	lā	I-2	897		phono-semantic	1	seal
+永	永	yǒng	I-2	901		pictogram	3	oracle,bronze,seal
+英	英	yīng	I-2	909		phono-semantic	0	
+钟	鐘、鍾	zhōng	I-2	914		phono-semantic	3	bronze,seal,clerical
+眼	眼	yǎn	I-2	919		phono-semantic	0	
+睛	睛	jīng	I-2	919		phono-semantic	0	
+离	離	lí	I-2	922		phono-semantic	1	seal
+印	印	yìn	I-2	933		compound-ideogram	4	oracle,bronze,seal,clerical
+海	海	hǎi	I-2	935		phono-semantic	2	bronze,seal
+层	層	céng	I-2	939		phono-semantic	1	seal
+广	廣	guǎng	I-2	961		phono-semantic	4	oracle,bronze,seal,clerical
+平	平	píng	I-2	991		phono-semantic	2	bronze,seal
+靠	靠	kào	I-2	993		phono-semantic	0	
+词	詞	cí	I-2	1005		phono-semantic	0	
+检	檢	jiǎn	I-2	1028		phono-semantic	1	seal
+刻	刻	kè	I-2	1031		phono-semantic	0	
+数	數	shù/shǔ	I-2	1033		phono-semantic	0	
+复	復、複	fù	I-2	1052		phono-semantic	4	oracle,bronze,seal,clerical
+占	占、佔	zhàn	I-2	1056		compound-ideogram	3	oracle,seal,clerical
+卖	賣	mài	I-2	1064		compound-ideogram	1	seal
+旅	旅	lǚ	I-2	1076		compound-ideogram	4	oracle,bronze,seal,clerical
+惯	慣	guàn	I-2	1101		phono-semantic	0	
+流	流	liú	I-2	1104		phono-semantic	0	
+照	照	zhào	I-2	1112		phono-semantic	2	bronze,seal
+顾	顧	gù	I-2	1112		phono-semantic	2	bronze,seal
+养	養	yǎng	I-2	1115		compound-ideogram	1	seal
+篇	篇	piān	I-2	1119		phono-semantic	1	seal
+食	食	shí	I-2	1137		compound-ideogram	4	oracle,bronze,seal,clerical
+普	普	pǔ	I-2	1144		compound-ideogram	1	seal
+遍	遍	biàn	I-2	1144		phono-semantic	0	
+青	青	qīng	I-2	1150		phono-semantic	3	bronze,seal,clerical
+换	換	huàn	I-2	1157		phono-semantic	0	
+河	河	hé	I-2	1163		phono-semantic	3	oracle,bronze,seal
+顺	順	shùn	I-2	1179		phono-semantic	4	oracle,bronze,seal,clerical
+称	稱	chèn/chēng	I-2	1186		phono-semantic	2	seal,clerical
+算	算	suàn	I-2	1192		?	1	seal
+借	借、藉	jiè	I-2	1206		phono-semantic	1	seal
+红	紅	hóng	I-2	1242		phono-semantic	1	seal
+室	室	shì	I-2	1250		phono-semantic	3	oracle,bronze,seal
+级	級	jí	I-2	1253		phono-semantic	1	seal
+酒	酒	jiǔ	I-2	1256		phono-semantic	1	seal
+墙	牆	qiáng	I-2	1277		phono-semantic	3	oracle,bronze,seal
+船	船	chuán	I-2	1278		phono-semantic	2	bronze,seal
+留	留	liú	I-2	1300		phono-semantic	1	seal
+脚	腳	jiǎo	I-2	1319		phono-semantic	0	
+背	背	bèi/bēi	I-2	1322		phono-semantic	1	seal
+阳	陽	yáng	I-2	1374		phono-semantic	1	bronze
+王	王	wáng	I-2	1383		pictogram	4	oracle,bronze,seal,clerical
+鱼	魚	yú	I-2	1413	film			
+懂	懂	dǒng	I-2	1421		phono-semantic	0	
+黑	黑	hēi	I-2	1428		pictogram	4	oracle,bronze,seal,clerical
+纸	紙	zhǐ	I-2	1503		phono-semantic	1	seal
+狗	狗	gǒu	I-2	1504		phono-semantic	3	bronze,seal,clerical
+碰	碰	pèng	I-2	1508		phono-semantic	0	
+短	短	duǎn	I-2	1519		phono-semantic	0	
+鸟	鳥	niǎo	I-2	1527	film			
+笔	筆	bǐ	I-2	1545		phono-semantic	0	
+忽	忽	hū	I-2	1549		phono-semantic	1	seal
+倒	倒	dào/dǎo	I-2	1566		phono-semantic	1	seal
+亮	亮	liàng	I-2	1633		phono-semantic	0	
+漂	漂	piào/piāo	I-2	1633		phono-semantic	1	seal
+收	收	shōu	I-2	1640		phono-semantic	2	seal,clerical
+板	板	bǎn	I-2	1678		phono-semantic	1	clerical
+熟	熟	shóu/shú	I-2	1679		compound-ideogram	0	
+斤	斤	jīn	I-2	1729		pictogram	4	oracle,bronze,seal,clerical
+哭	哭	kū	I-2	1780		compound-ideogram	1	seal
+典	典	diǎn	I-2	1847		compound-ideogram	3	oracle,bronze,seal
+辆	輛	liàng	I-2	1906		phono-semantic	0	
+餐	餐	cān	I-2	1932		phono-semantic	1	seal
+颜	顏	yán	I-2	1936		phono-semantic	0	
+街	街	jiē	I-2	1954		phono-semantic	0	
+嘴	嘴	zuǐ	I-2	1961		phono-semantic	0	
+停	停	tíng	I-2	1964		phono-semantic	1	seal
+队	隊	duì	I-2	1995		phono-semantic	0	
+药	藥	yào	I-2	2010		phono-semantic	2	bronze,seal
+宜	宜	yí	I-2	2034		pictogram	4	oracle,bronze,seal,clerical
+草	草	cǎo	I-2	2144	film			
+省	省	shěng/xǐng	I-2	2163		phono-semantic	3	oracle,bronze,seal
+骑	騎	qí	I-2	2246		phono-semantic	0	
+千	千	qiān	I-2	2289		phono-semantic	4	oracle,bronze,seal,clerical
+猫	貓	māo	I-2	2295		phono-semantic	1	seal
+万	萬	wàn	I-2	2297		pictogram	4	oracle,bronze,seal,clerical
+游	游、遊	yóu	I-2	2331		phono-semantic	1	seal
+急	急	jí	I-2	2363		phono-semantic	1	seal
+味	味	wèi	I-2	2387		phono-semantic	0	
+吹	吹	chuī	I-2	2455		compound-ideogram	4	oracle,bronze,seal,clerical
+周	周、週	zhōu	I-2	2545		pictogram	4	oracle,bronze,seal,clerical
+舒	舒	shū	I-2	2604		phono-semantic	3	bronze,seal,clerical
+腿	腿	tuǐ	I-2	2616		phono-semantic	0	
+装	裝	zhuāng	I-2	2657		phono-semantic	0	
+喊	喊	hǎn	I-2	2680		phono-semantic	0	
+温	溫	wēn	I-2	2686		phono-semantic	2	oracle,seal
+堂	堂	táng	I-2	2737		phono-semantic	3	bronze,seal,clerical
+油	油	yóu	I-2	2802		phono-semantic	1	seal
+黄	黃	huáng	I-2	2810		?	3	oracle,bronze,seal
+封	封	fēng	I-2	2920		phono-semantic	3	oracle,bronze,seal
+绿	綠	lǜ	I-2	2925		phono-semantic	1	seal
+铁	鐵	tiě	I-2	2927		phono-semantic	0	
+礼	禮	lǐ	I-2	3056		phono-semantic	4	oracle,bronze,seal,clerical
+湖	湖	hú	I-2	3073		phono-semantic	1	seal
+租	租	zū	I-2	3151		phono-semantic	1	seal
+篮	籃	lán	I-2	3154		phono-semantic	0	
+弄	弄	nòng	I-2	3165		compound-ideogram	2	bronze,seal
+脏	髒、臟	zāng/zàng	I-2	3174		phono-semantic	0	
+姓	姓	xìng	I-2	3324		phono-semantic	0	
+咱	咱	zán	I-2	3332		?	1	seal
+灯	燈	dēng	I-2	3405		phono-semantic	0	
+静	靜	jìng	I-2	3504		phono-semantic	0	
+雪	雪	xuě	I-2	3514		phono-semantic	2	oracle,seal
+爬	爬	pá	I-2	3687		phono-semantic	0	
+云	雲	yún	I-2	3771	film			
+瓶	瓶	píng	I-2	3795		phono-semantic	0	
+澡	澡	zǎo	I-2	3970		phono-semantic	1	seal
+阴	陰	yīn	I-2	3982		phono-semantic	1	seal
+蓝	藍	lán	I-2	3990		phono-semantic	0	
+卡	卡	kǎ/qiǎ	I-2	4063		compound-ideogram	0	
+春	春	chūn	I-2	4133		phono-semantic	3	oracle,seal,clerical
+夜	夜	yè	I-2	4184		phono-semantic	3	bronze,seal,clerical
+挺	挺	tǐng	I-2	4497		phono-semantic	0	
+椅	椅	yǐ	I-2	4605		phono-semantic	0	
+碗	碗	wǎn	I-2	4784		phono-semantic	0	
+掉	掉	diào	I-2	4938		phono-semantic	0	
+末	末	mò	I-2	4952		ideogram	2	bronze,seal
+鞋	鞋	xié	I-2	5080		phono-semantic	1	seal
+夏	夏	xià	I-2	5646		compound-ideogram	4	oracle,bronze,seal,clerical
+疼	疼	téng	I-2	6108		phono-semantic	0	
+凉	涼	liáng	I-2	7167		phono-semantic	1	seal
+喂	喂、餵	wèi	I-2	7432		phono-semantic	0	
+饱	飽	bǎo	I-2	8198		phono-semantic	1	seal
+筷	筷	kuài	I-2	8335		?	0	
+亿	億	yì	I-2	9056		phono-semantic	1	seal
+冬	冬	dōng	I-2			?	4	oracle,bronze,seal,clerical
+晨	晨	chén	I-2			phono-semantic	0	
+晴	晴	qíng	I-2			phono-semantic	0	
+秋	秋	qiū	I-2			pictogram	4	oracle,bronze,seal,clerical
+饺	餃	jiǎo	I-2			phono-semantic	0	
+及	及	jí	I-3	21		compound-ideogram	3	oracle,bronze,seal
+种	種	zhǒng/zhòng	I-3	26		phono-semantic	1	seal
+各	各	gè	I-3	45		compound-ideogram	4	oracle,bronze,seal,clerical
+将	將	jiāng/jiàng	I-3	52		phono-semantic	1	seal
+被	被	bèi	I-3	58		phono-semantic	0	
+每	每	měi	I-3	62		compound-ideogram	3	oracle,bronze,seal
+把	把	bǎ	I-3	64		phono-semantic	1	seal
+此	此	cǐ	I-3	70		compound-ideogram	4	oracle,bronze,seal,clerical
+台	臺、台、檯	tái	I-3	76		compound-ideogram	4	oracle,bronze,seal,clerical
+并	並、併	bìng	I-3	78		?	4	oracle,bronze,seal,clerical
+社	社	shè	I-3	89		compound-ideogram	2	seal,clerical
+美	美	měi	I-3	118		pictogram	2	oracle,bronze
+世	世	shì	I-3	137		loan	2	bronze,seal
+界	界	jiè	I-3	137		phono-semantic	1	seal
+希	希	xī	I-3	140		compound-ideogram	0	
+望	望	wàng	I-3	140		compound-ideogram	3	oracle,bronze,seal
+式	式	shì	I-3	141		phono-semantic	0	
+内	內	nèi	I-3	142		compound-ideogram	0	
+境	境	jìng	I-3	146		phono-semantic	1	seal
+环	環	huán	I-3	146		phono-semantic	3	bronze,seal,clerical
+化	化	huà	I-3	149		compound-ideogram	4	oracle,bronze,seal,clerical
+始	始	shǐ	I-3	155		phono-semantic	0	
+仍	仍	réng	I-3	158		phono-semantic	1	seal
+指	指	zhǐ	I-3	176		phono-semantic	2	bronze,seal
+济	濟	jì	I-3	177		phono-semantic	0	
+展	展	zhǎn	I-3	180		phono-semantic	1	seal
+较	較	jiào	I-3	201		phono-semantic	0	
+曾	曾	céng	I-3	204		pictogram	3	oracle,bronze,seal
+何	何	hé	I-3	209		pictogram	4	oracle,bronze,seal,clerical
+员	員	yuán	I-3	218		phono-semantic	3	oracle,bronze,seal
+品	品	pǐn	I-3	221		compound-ideogram	3	oracle,bronze,seal
+产	產	chǎn	I-3	221		phono-semantic	2	bronze,seal
+资	資	zī	I-3	222		phono-semantic	1	seal
+除	除	chú	I-3	227		phono-semantic	1	seal
+需	需	xū	I-3	229		compound-ideogram	2	bronze,seal
+另	另	lìng	I-3	238		?	0	
+区	區	qū	I-3	241		compound-ideogram	3	oracle,seal,clerical
+技	技	jì	I-3	242		phono-semantic	1	seal
+术	術、朮	shù	I-3	242		phono-semantic	0	
+至	至	zhì	I-3	243		ideogram	3	oracle,bronze,seal
+造	造	zào	I-3	256		phono-semantic	1	seal
+否	否	fǒu	I-3	271		phono-semantic	1	seal
+整	整	zhěng	I-3	273		phono-semantic	0	
+历	歷、曆	lì	I-3	275		phono-semantic	1	seal
+解	解	jiě	I-3	276		compound-ideogram	3	oracle,bronze,seal
+况	況	kuàng	I-3	291		phono-semantic	2	oracle,seal
+任	任	rèn	I-3	296		phono-semantic	4	oracle,bronze,seal,clerical
+验	驗	yàn	I-3	297		phono-semantic	1	seal
+艺	藝	yì	I-3	298		?	0	
+增	增	zēng	I-3	303		phono-semantic	4	oracle,bronze,seal,clerical
+设	設	shè	I-3	314		phono-semantic	1	seal
+决	決	jué	I-3	319		phono-semantic	2	seal,clerical
+代	代	dài	I-3	324		phono-semantic	1	seal
+命	命	mìng	I-3	332		phono-semantic	4	oracle,bronze,seal,clerical
+议	議	yì	I-3	336		phono-semantic	1	seal
+容	容	róng	I-3	337		phono-semantic	2	bronze,seal
+易	易	yì	I-3	337		pictogram	4	oracle,bronze,seal,clerical
+民	民	mín	I-3	339		pictogram	3	oracle,bronze,seal
+众	眾	zhòng	I-3	339		pictogram	2	oracle,bronze
+建	建	jiàn	I-3	349		compound-ideogram	3	oracle,bronze,seal
+立	立	lì	I-3	349		pictogram	3	oracle,bronze,seal
+约	約	yuē	I-3	360		phono-semantic	2	seal,clerical
+程	程	chéng	I-3	363		phono-semantic	0	
+管	管	guǎn	I-3	364		phono-semantic	0	
+功	功	gōng	I-3	365		phono-semantic	0	
+调	調	diào/tiáo	I-3	377		phono-semantic	0	
+营	營	yíng	I-3	381		phono-semantic	0	
+母	母	mǔ	I-3	383		?	3	oracle,bronze,seal
+父	父	fù	I-3	383		pictogram	4	oracle,bronze,seal,clerical
+类	類	lèi	I-3	385		phono-semantic	1	seal
+配	配	pèi	I-3	389		compound-ideogram	1	bronze
+形	形	xíng	I-3	396		phono-semantic	1	seal
+念	念	niàn	I-3	402		compound-ideogram	4	oracle,bronze,seal,clerical
+神	神	shén	I-3	409		phono-semantic	3	bronze,seal,clerical
+精	精	jīng	I-3	409		phono-semantic	1	seal
+训	訓	xùn	I-3	422		phono-semantic	0	
+具	具	jù	I-3	425		compound-ideogram	3	oracle,bronze,seal
+标	標	biāo	I-3	433		phono-semantic	1	seal
+连	連	lián	I-3	440		compound-ideogram	0	
+厂	廠	chǎng	I-3	442		phono-semantic	0	
+切	切	qiè/qiē	I-3	445		phono-semantic	2	seal,clerical
+某	某	mǒu	I-3	448		compound-ideogram	2	bronze,seal
+性	性	xìng	I-3	449		phono-semantic	0	
+极	極	jí	I-3	451		phono-semantic	1	seal
+据	據	jù	I-3	465		phono-semantic	0	
+根	根	gēn	I-3	465		phono-semantic	1	seal
+象	象	xiàng	I-3	466	film			
+土	土	tǔ	I-3	468		pictogram	4	oracle,bronze,seal,clerical
+注	注、註	zhù	I-3	470		phono-semantic	0	
+继	繼	jì	I-3	473		phono-semantic	2	seal,clerical
+续	續	xù	I-3	473		phono-semantic	2	oracle,seal
+强	強	qiáng/qiǎng/jiàng	I-3	478		phono-semantic	1	seal
+存	存	cún	I-3	483		phono-semantic	0	
+制	制、製	zhì	I-3	484		compound-ideogram	2	bronze,seal
+义	義	yì	I-3	485		phono-semantic	3	oracle,bronze,seal
+负	負	fù	I-3	497		compound-ideogram	0	
+责	責	zé	I-3	497		phono-semantic	1	seal
+团	團	tuán	I-3	505		phono-semantic	0	
+值	值	zhí	I-3	506		phono-semantic	1	seal
+价	價	jià	I-3	506		phono-semantic	0	
+似	似	sì/shì	I-3	518		phono-semantic	0	
+张	張	zhāng	I-3	552		phono-semantic	0	
+总	總	zǒng	I-3	559		phono-semantic	2	seal,clerical
+基	基	jī	I-3	574		phono-semantic	4	oracle,bronze,seal,clerical
+达	達	dá	I-3	578		phono-semantic	0	
+善	善	shàn	I-3	579		compound-ideogram	3	bronze,seal,clerical
+死	死	sǐ	I-3	580		phono-semantic	4	oracle,bronze,seal,clerical
+持	持	chí	I-3	587		phono-semantic	0	
+支	支	zhī	I-3	587		compound-ideogram	2	seal,clerical
+仅	僅	jǐn	I-3	591		phono-semantic	0	
+亲	親	qīn	I-3	604		phono-semantic	3	bronze,seal,clerical
+香	香	xiāng	I-3	606		compound-ideogram	3	oracle,bronze,seal
+压	壓	yā	I-3	608		phono-semantic	0	
+敢	敢	gǎn	I-3	611		compound-ideogram	4	oracle,bronze,seal,clerical
+谈	談	tán	I-3	615		phono-semantic	0	
+规	規	guī	I-3	620		pictogram	1	seal
+积	積	jī	I-3	622		phono-semantic	0	
+状	狀	zhuàng	I-3	629		phono-semantic	0	
+专	專	zhuān	I-3	630		compound-ideogram	2	oracle,seal
+赛	賽	sài	I-3	634		phono-semantic	2	seal,clerical
+效	效	xiào	I-3	636		phono-semantic	0	
+保	保	bǎo	I-3	638		compound-ideogram	4	oracle,bronze,seal,clerical
+费	費	fèi	I-3	645		phono-semantic	0	
+显	顯	xiǎn	I-3	656		compound-ideogram	2	bronze,seal
+属	屬	shǔ	I-3	661		phono-semantic	1	seal
+终	終	zhōng	I-3	682		pictogram	4	oracle,bronze,seal,clerical
+格	格	gé	I-3	695		phono-semantic	4	oracle,bronze,seal,clerical
+简	簡	jiǎn	I-3	709		phono-semantic	1	seal
+察	察	chá	I-3	711		phono-semantic	3	bronze,seal,clerical
+导	導	dǎo	I-3	717		phono-semantic	1	seal
+领	領	lǐng	I-3	721		phono-semantic	1	seal
+反	反	fǎn	I-3	728		phono-semantic	4	oracle,bronze,seal,clerical
+媒	媒	méi	I-3	732		phono-semantic	1	seal
+缺	缺	quē	I-3	747		phono-semantic	1	seal
+传	傳	chuán/zhuàn	I-3	786		phono-semantic	4	oracle,bronze,seal,clerical
+断	斷	duàn	I-3	791		compound-ideogram	3	bronze,seal,clerical
+追	追	zhuī	I-3	793		phono-semantic	2	bronze,seal
+围	圍	wéi	I-3	806		phono-semantic	2	bronze,seal
+范	範	fàn	I-3	806		phono-semantic	0	
+双	雙	shuāng	I-3	808		compound-ideogram	1	seal
+束	束	shù	I-3	812		ideogram	4	oracle,bronze,seal,clerical
+采	採	cǎi	I-3	830		phono-semantic	0	
+充	充	chōng	I-3	836		compound-ideogram	0	
+足	足	zú	I-3	842		pictogram	3	oracle,bronze,seal
+深	深	shēn	I-3	845		phono-semantic	0	
+消	消	xiāo	I-3	852		phono-semantic	1	seal
+族	族	zú	I-3	855		compound-ideogram	4	oracle,bronze,seal,clerical
+底	底	dǐ	I-3	858		phono-semantic	0	
+概	概	gài	I-3	861		phono-semantic	0	
+步	步	bù	I-3	865		compound-ideogram	1	bronze
+富	富	fù	I-3	868		phono-semantic	2	bronze,seal
+丰	豐	fēng	I-3	868		ideogram	4	oracle,bronze,seal,clerical
+争	爭	zhēng	I-3	870		pictogram	2	oracle,seal
+联	聯	lián	I-3	886		compound-ideogram	4	oracle,bronze,seal,clerical
+创	創	chuàng/chuāng	I-3	890		phono-semantic	1	seal
+丽	麗	lì	I-3	896		pictogram	3	oracle,bronze,seal
+突	突	tū	I-3	930		compound-ideogram	2	oracle,seal
+础	礎	chǔ	I-3	943		phono-semantic	0	
+李	李	lǐ	I-3	946		phono-semantic	3	bronze,seal,clerical
+握	握	wò	I-3	967		phono-semantic	0	
+互	互	hù	I-3	994		ideogram	0	
+华	華	huá	I-3	1007		pictogram	2	bronze,seal
+群	群	qún	I-3	1013		phono-semantic	0	
+速	速	sù	I-3	1020		phono-semantic	3	oracle,bronze,seal
+评	評	píng	I-3	1023		phono-semantic	0	
+失	失	shī	I-3	1050		pictogram	2	oracle,seal
+杂	雜	zá	I-3	1052		phono-semantic	2	seal,clerical
+旧	舊	jiù	I-3	1072		phono-semantic	3	oracle,bronze,seal
+危	危	wēi	I-3	1096		compound-ideogram	2	oracle,seal
+困	困	kùn	I-3	1105		compound-ideogram	2	oracle,seal
+批	批	pī	I-3	1114		phono-semantic	0	
+绝	絕	jué	I-3	1129		compound-ideogram	4	oracle,bronze,seal,clerical
+势	勢	shì	I-3	1140		phono-semantic	1	seal
+破	破	pò	I-3	1155		phono-semantic	0	
+首	首	shǒu	I-3	1162		pictogram	3	oracle,bronze,seal
+婚	婚	hūn	I-3	1171		phono-semantic	0	
+预	預	yù	I-3	1192		phono-semantic	0	
+访	訪	fǎng	I-3	1196		phono-semantic	0	
+光	光	guāng	I-3	1207		compound-ideogram	4	oracle,bronze,seal,clerical
+金	金	jīn	I-3	1234		phono-semantic	2	bronze,seal
+农	農	nóng	I-3	1237		compound-ideogram	3	oracle,bronze,seal
+戏	戲	xì	I-3	1254		phono-semantic	1	seal
+志	志、誌	zhì	I-3	1281		phono-semantic	0	
+坚	堅	jiān	I-3	1296		phono-semantic	0	
+烈	烈	liè	I-3	1309		phono-semantic	1	seal
+尽	儘、盡	jǐn/jìn	I-3	1312		compound-ideogram	3	oracle,bronze,seal
+演	演	yǎn	I-3	1315		phono-semantic	0	
+章	章	zhāng	I-3	1316		compound-ideogram	3	bronze,seal,clerical
+险	險	xiǎn	I-3	1321		phono-semantic	1	seal
+景	景	jǐng	I-3	1322		phono-semantic	1	seal
+升	升	shēng	I-3	1340		pictogram	3	oracle,bronze,seal
+巧	巧	qiǎo	I-3	1349		phono-semantic	0	
+判	判	pàn	I-3	1394		phono-semantic	0	
+材	材	cái	I-3	1406		phono-semantic	0	
+集	集	jí	I-3	1432		compound-ideogram	3	oracle,bronze,seal
+输	輸	shū	I-3	1454		phono-semantic	1	seal
+彩	彩	cǎi	I-3	1460		phono-semantic	1	seal
+架	架	jià	I-3	1466		phono-semantic	0	
+恐	恐	kǒng	I-3	1475		phono-semantic	0	
+职	職	zhí	I-3	1487		phono-semantic	2	seal,clerical
+紧	緊	jǐn	I-3	1490		phono-semantic	1	seal
+苦	苦	kǔ	I-3	1574		phono-semantic	1	seal
+痛	痛	tòng	I-3	1590		phono-semantic	0	
+夫	夫	fū	I-3	1601	film			
+纪	紀	jì	I-3	1602		phono-semantic	0	
+录	錄	lù	I-3	1602		phono-semantic	0	
+线	線	xiàn	I-3	1608		phono-semantic	1	seal
+修	修	xiū	I-3	1615		phono-semantic	1	seal
+奇	奇	qí	I-3	1628		phono-semantic	0	
+怪	怪	guài	I-3	1628		phono-semantic	0	
+证	證	zhèng	I-3	1681		phono-semantic	0	
+拍	拍	pāi	I-3	1707		phono-semantic	0	
+幸	幸、倖	xìng	I-3	1732		?	1	seal
+福	福	fú	I-3	1732		phono-semantic	4	oracle,bronze,seal,clerical
+卫	衛	wèi	I-3	1756		phono-semantic	3	oracle,bronze,seal
+城	城	chéng	I-3	1781		phono-semantic	3	bronze,seal,clerical
+器	器	qì	I-3	1786		compound-ideogram	3	bronze,seal,clerical
+桥	橋	qiáo	I-3	1788		phono-semantic	1	seal
+警	警	jǐng	I-3	1813		phono-semantic	1	seal
+退	退	tuì	I-3	1831		compound-ideogram	2	bronze,seal
+乱	亂	luàn	I-3	1860		phono-semantic	0	
+按	按	àn	I-3	1864		phono-semantic	0	
+付	付	fù	I-3	1870		compound-ideogram	3	bronze,seal,clerical
+落	落	luò/là	I-3	1877		phono-semantic	0	
+跳	跳	tiào	I-3	1911		phono-semantic	1	seal
+抓	抓	zhuā	I-3	1931		phono-semantic	0	
+哈	哈	hā	I-3	1940		phono-semantic	0	
+待	待	dài/dāi	I-3	1941		phono-semantic	0	
+派	派	pài	I-3	1996		phono-semantic	1	seal
+止	止	zhǐ	I-3	2006		pictogram	4	oracle,bronze,seal,clerical
+胜	勝	shèng	I-3	2065		phono-semantic	1	seal
+屋	屋	wū	I-3	2069		phono-semantic	1	seal
+优	優	yōu	I-3	2085		phono-semantic	0	
+误	誤	wù	I-3	2108		phono-semantic	0	
+伤	傷	shāng	I-3	2112		phono-semantic	0	
+害	害	hài	I-3	2112		ideogram	2	bronze,seal
+赶	趕	gǎn	I-3	2116		phono-semantic	0	
+古	古	gǔ	I-3	2130		ideogram	4	oracle,bronze,seal,clerical
+伟	偉	wěi	I-3	2155		phono-semantic	1	seal
+防	防	fáng	I-3	2174		phono-semantic	0	
+村	村	cūn	I-3	2193		phono-semantic	1	seal
+订	訂	dìng	I-3	2207		phono-semantic	1	seal
+播	播	bō	I-3	2250		phono-semantic	1	seal
+牌	牌	pái	I-3	2301		phono-semantic	0	
+泳	泳	yǒng	I-3	2331		phono-semantic	3	oracle,bronze,seal
+挂	掛	guà	I-3	2348		phono-semantic	0	
+石	石	shí	I-3	2349	film			
+转	轉	zhuǎn/zhuàn	I-3	2356		phono-semantic	2	seal,clerical
+庆	慶	qìng	I-3	2368		compound-ideogram	2	bronze,seal
+祝	祝	zhù	I-3	2368		ideogram	4	oracle,bronze,seal,clerical
+舞	舞	wǔ	I-3	2386		phono-semantic	3	oracle,bronze,seal
+浪	浪	làng	I-3	2410		phono-semantic	1	seal
+血	血	xiě/xuè	I-3	2416		compound-ideogram	3	oracle,seal,clerical
+补	補	bǔ	I-3	2424		phono-semantic	0	
+皮	皮	pí	I-3	2428		pictogram	2	bronze,seal
+武	武	wǔ	I-3	2430		compound-ideogram	4	oracle,bronze,seal,clerical
+救	救	jiù	I-3	2446		phono-semantic	1	seal
+宣	宣	xuān	I-3	2562		phono-semantic	4	oracle,bronze,seal,clerical
+布	布、佈	bù	I-3	2562		phono-semantic	3	bronze,seal,clerical
+乡	鄉	xiāng	I-3	2574		compound-ideogram	4	oracle,bronze,seal,clerical
+币	幣	bì	I-3	2679		phono-semantic	0	
+暖	暖	nuǎn	I-3	2686		phono-semantic	0	
+赢	贏	yíng	I-3	2747		phono-semantic	2	bronze,seal
+猪	豬	zhū	I-3	2808		phono-semantic	2	seal,clerical
+羊	羊	yáng	I-3	2940	film			
+咖	咖	kā	I-3	2963		phono-semantic	0	
+啡	啡	fēi	I-3	2963		phono-semantic	0	
+刀	刀	dāo	I-3	2991	film			
+姑	姑	gū	I-3	3035		phono-semantic	3	bronze,seal,clerical
+娘	娘、孃	niáng	I-3	3035		phono-semantic	0	
+初	初	chū	I-3	3084		compound-ideogram	4	oracle,bronze,seal,clerical
+烦	煩	fán	I-3	3224		compound-ideogram	2	seal,clerical
+麻	麻	má	I-3	3224		compound-ideogram	2	bronze,seal
+吵	吵	chǎo	I-3	3262		phono-semantic	0	
+烟	煙、菸	yān	I-3	3306		phono-semantic	1	seal
+顿	頓	dùn	I-3	3621		phono-semantic	1	seal
+散	散	sàn/sǎn	I-3	3657		compound-ideogram	4	oracle,bronze,seal,clerical
+剧	劇	jù	I-3	3673		phono-semantic	0	
+龙	龍	lóng	I-3	3699		pictogram	4	oracle,bronze,seal,clerical
+邮	郵	yóu	I-3	3772		compound-ideogram	1	seal
+沙	沙	shā	I-3	3901		compound-ideogram	2	bronze,seal
+迷	迷	mí	I-3	4007		phono-semantic	1	seal
+胖	胖	pàng	I-3	4188		phono-semantic	1	seal
+啤	啤	pí	I-3	4306		phono-semantic	0	
+木	木	mù	I-3	4537	film			
+齐	齊	qí	I-3	4618		pictogram	4	oracle,bronze,seal,clerical
+苹	蘋	píng	I-3	4914		?	0	
+糖	糖	táng	I-3	5157		phono-semantic	1	seal
+甜	甜	tián	I-3	5360		compound-ideogram	1	seal
+汤	湯	tāng	I-3	5369		phono-semantic	0	
+冒	冒	mào	I-3	5477		phono-semantic	3	bronze,seal,clerical
+搬	搬	bān	I-3	6114		phono-semantic	0	
+箱	箱	xiāng	I-3	6207		phono-semantic	1	seal
+朝	朝	cháo/zhāo	I-3	6725		compound-ideogram	3	oracle,bronze,clerical
+蕉	蕉	jiāo	I-3	6926		phono-semantic	1	seal
+裤	褲	kù	I-3	9516		phono-semantic	0	
+汁	汁	zhī	I-3			phono-semantic	1	seal
+衫	衫	shān	I-3			phono-semantic	1	seal
+裙	裙	qún	I-3			phono-semantic	0	
+衬	襯	chèn	I-3			?	0	
+申	申	shēn	II-4	598		pictogram	4	oracle,bronze,seal,clerical
+妇	婦	fù	II-4	815		phono-semantic	3	oracle,bronze,seal
+尺	尺	chǐ	II-4	854		pictogram	2	seal,clerical
+户	戶	hù	II-4	931		pictogram	4	oracle,bronze,seal,clerical
+林	林	lín	II-4	1301	film			
+森	森	sēn	II-4	1301		compound-ideogram	2	oracle,seal
+丈	丈	zhàng	II-4	1601		compound-ideogram	3	bronze,seal,clerical
+斗	鬥、斗	dòu	II-4	3359		pictogram	3	oracle,seal,clerical
+宝	寶	bǎo	II-4	3597		compound-ideogram	3	oracle,bronze,seal
+牙	牙	yá	II-4	3608		pictogram	3	bronze,seal,clerical
+虫	蟲	chóng	II-4	3767		compound-ideogram	0	
+叶	葉	yè	II-4	3865		phono-semantic	0	
+兵	兵	bīng	II-4	4304		compound-ideogram	3	oracle,bronze,seal
+耳	耳	ěr	II-4	4565		pictogram	4	oracle,bronze,seal,clerical
+雷	雷	léi	II-4	5246		phono-semantic	0	
+寸	寸	cùn	II-4	5277		loan	3	bronze,seal,clerical
+贝	貝	bèi	II-4	5775		pictogram	4	oracle,bronze,seal,clerical
+冰	冰	bīng	II-4	5881		phono-semantic	1	seal
+瓜	瓜	guā	II-4	6155		pictogram	1	seal
+玉	玉	yù	II-4	6945		pictogram	4	oracle,bronze,seal,clerical
+寒	寒	hán	II-4	7058		compound-ideogram	2	bronze,seal
+泉	泉	quán	II-4	8641		pictogram	4	oracle,bronze,seal,clerical
+巾	巾	jīn	II-4	8781		pictogram	3	oracle,bronze,seal
+豆	豆	dòu	II-4			pictogram	3	oracle,bronze,seal
+宿	宿	sù	II-5	1645		compound-ideogram	3	oracle,bronze,seal
+蛇	蛇	shé	II-5	2022		phono-semantic	2	seal,clerical
+熊	熊	xióng	II-5	2295		phono-semantic	2	seal,clerical
+册	冊	cè	II-5	3404		pictogram	3	oracle,bronze,seal
+鼠	鼠	shǔ	II-5	3972		pictogram	2	oracle,seal
+鸭	鴨	yā	II-5	4730		phono-semantic	0	
+射	射	shè	II-5	4895		compound-ideogram	3	oracle,bronze,clerical
+甲	甲	jiǎ	II-5	5050		pictogram	4	oracle,bronze,seal,clerical
+戒	戒	jiè	II-5	6459		compound-ideogram	4	oracle,bronze,seal,clerical
+羽	羽	yǔ	II-5	6826		pictogram	3	oracle,bronze,seal
+灰	灰	huī	II-5	7269		compound-ideogram	2	seal,clerical
+扇	扇	shàn/shān	II-5	9308		compound-ideogram	0	
+兔	兔	tù	II-5			pictogram	3	oracle,bronze,seal
+岛	島	dǎo	II-6	1753		phono-semantic	1	seal
+宫	宮	gōng	II-6	2491		compound-ideogram	3	oracle,bronze,seal
+炎	炎	yán	II-6	2668		compound-ideogram	2	oracle,seal
+谷	谷、穀	gǔ	II-6	5164		pictogram	3	oracle,bronze,seal
+井	井	jǐng	II-6	7468		pictogram	4	oracle,bronze,seal,clerical
+麦	麥	mài	II-6	7623		phono-semantic	3	oracle,bronze,seal
+壶	壺	hú	II-6	8206		?	3	oracle,bronze,seal
+仓	倉	cāng	II-6	8271		pictogram	4	oracle,bronze,seal,clerical
+舌	舌	shé	II-6	8964		pictogram	3	oracle,bronze,seal
+川	川	chuān	III	1163		pictogram	4	oracle,bronze,seal,clerical
+齿	齒	chǐ	III	3608		pictogram	3	oracle,bronze,seal
+狼	狼	láng	III	4190		phono-semantic	1	seal
+丝	絲	sī	III	4339		compound-ideogram	3	oracle,bronze,seal
+瓦	瓦	wǎ	III	5220		pictogram	2	seal,clerical
+朱	朱、硃	zhū	III	6297		ideogram	3	oracle,bronze,seal
+眉	眉	méi	III	8113		pictogram	3	oracle,bronze,seal
+丘	丘	qiū	III	8227		ideogram	3	oracle,seal,clerical
+赤	赤	chì	III	8303		compound-ideogram	4	oracle,bronze,seal,clerical
+伐	伐	fá	III	8323		compound-ideogram	3	oracle,bronze,seal
+禾	禾	hé	III			pictogram	3	oracle,bronze,seal
+矢	矢	shǐ	III			pictogram	3	oracle,bronze,seal
+戈	戈	gē	III			pictogram	4	oracle,bronze,seal,clerical
+爪	爪	zhuǎ	III			pictogram	3	oracle,bronze,seal
+鼎	鼎	dǐng	III			pictogram	3	oracle,bronze,seal
+鹅	鵝	é	III			phono-semantic	1	seal
+桑	桑	sāng	III			pictogram	2	oracle,seal
+亭	亭	tíng	III			?	1	seal
+皿			-			pictogram	3	oracle,bronze,seal
+臼			-			pictogram	1	seal
+蚕			-			?	1	seal
+刃			-			ideogram	3	oracle,seal,clerical
+孚			-			compound-ideogram	4	oracle,bronze,seal,clerical
