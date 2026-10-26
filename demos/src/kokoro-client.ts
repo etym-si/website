@@ -8,12 +8,21 @@ import { pinyin } from 'pinyin-pro';
 import { normalizeSpokenText } from '../shared/edge-tts-live.ts';
 
 const MODEL_ID = 'Kokoro-82M-v1.0-ONNX';
-const IDB_NAME = 'etymsi-kokoro-cache-v1';
+const IDB_NAME = 'etymsi-kokoro-cache-fp32-v1';
 const IDB_STORE = 'responses';
 const SAMPLE_RATE = 24000;
 
+const IDB_CHUNK_BYTES = 16 * 1024 * 1024; // 16 MiB per IndexedDB entry (well below Chromium's 128 MiB IPC limit)
+
 interface StoredEntry {
   body: ArrayBuffer;
+  contentType: string;
+}
+
+interface StoredChunkMeta {
+  chunked: true;
+  chunkCount: number;
+  totalByteLength: number;
   contentType: string;
 }
 
@@ -36,14 +45,12 @@ function openIdb(): Promise<IDBDatabase | null> {
   });
 }
 
-async function idbGet(key: string): Promise<StoredEntry | null> {
-  const db = await openIdb();
-  if (!db) return null;
+function idbReadRaw(db: IDBDatabase, key: string): Promise<unknown> {
   return new Promise((resolve) => {
     try {
       const tx = db.transaction(IDB_STORE, 'readonly');
       const req = tx.objectStore(IDB_STORE).get(key);
-      req.onsuccess = () => resolve((req.result as StoredEntry | undefined) ?? null);
+      req.onsuccess = () => resolve(req.result ?? null);
       req.onerror = () => resolve(null);
     } catch {
       resolve(null);
@@ -51,19 +58,64 @@ async function idbGet(key: string): Promise<StoredEntry | null> {
   });
 }
 
-async function idbPut(key: string, entry: StoredEntry): Promise<void> {
-  const db = await openIdb();
-  if (!db) return;
+function idbWriteRaw(db: IDBDatabase, key: string, value: unknown): Promise<boolean> {
   return new Promise((resolve) => {
     try {
       const tx = db.transaction(IDB_STORE, 'readwrite');
-      tx.objectStore(IDB_STORE).put(entry, key);
-      tx.oncomplete = () => resolve();
-      tx.onerror = () => resolve();
+      tx.objectStore(IDB_STORE).put(value, key);
+      tx.oncomplete = () => resolve(true);
+      tx.onerror = () => resolve(false);
     } catch {
-      resolve();
+      resolve(false);
     }
   });
+}
+
+async function idbGet(key: string): Promise<StoredEntry | null> {
+  const db = await openIdb();
+  if (!db) return null;
+  const raw = await idbReadRaw(db, key);
+  if (!raw || typeof raw !== 'object') return null;
+  if ('chunked' in raw && (raw as StoredChunkMeta).chunked === true) {
+    const meta = raw as StoredChunkMeta;
+    const merged = new Uint8Array(meta.totalByteLength);
+    let offset = 0;
+    for (let i = 0; i < meta.chunkCount; i++) {
+      const part = (await idbReadRaw(db, `${key}#part:${i}`)) as ArrayBuffer | Uint8Array | null;
+      if (!part) return null;
+      const view = part instanceof Uint8Array ? part : new Uint8Array(part);
+      merged.set(view, offset);
+      offset += view.byteLength;
+    }
+    return { body: merged.buffer, contentType: meta.contentType };
+  }
+  return raw as StoredEntry;
+}
+
+async function idbPut(key: string, entry: StoredEntry): Promise<void> {
+  const db = await openIdb();
+  if (!db) return;
+  const total = entry.body.byteLength;
+  if (total <= IDB_CHUNK_BYTES) {
+    await idbWriteRaw(db, key, entry);
+    return;
+  }
+  const src = new Uint8Array(entry.body);
+  const chunkCount = Math.ceil(total / IDB_CHUNK_BYTES);
+  for (let i = 0; i < chunkCount; i++) {
+    const start = i * IDB_CHUNK_BYTES;
+    const end = Math.min(start + IDB_CHUNK_BYTES, total);
+    const slice = src.slice(start, end).buffer;
+    const ok = await idbWriteRaw(db, `${key}#part:${i}`, slice);
+    if (!ok) return;
+  }
+  const meta: StoredChunkMeta = {
+    chunked: true,
+    chunkCount,
+    totalByteLength: total,
+    contentType: entry.contentType,
+  };
+  await idbWriteRaw(db, key, meta);
 }
 
 /** IndexedDB-backed CustomCache for @huggingface/transformers (works on HTTP LAN IPs and HTTPS, 100% offline). */
@@ -72,7 +124,7 @@ const idbCustomCache = {
     const key = typeof request === 'string' ? request : request.url;
     const hit = await idbGet(key);
     if (!hit) return undefined;
-    return new Response(hit.body.slice(0), {
+    return new Response(hit.body, {
       status: 200,
       headers: { 'Content-Type': hit.contentType, 'Content-Length': String(hit.body.byteLength) },
     });
@@ -260,7 +312,7 @@ export function ensureKokoroEngine(): Promise<KokoroEngine> {
     try {
       const uniqueVoices = [...new Set(Object.values(KOKORO_VOICE_MAP))];
       const [model, tokenizer] = await Promise.all([
-        StyleTextToSpeech2Model.from_pretrained(MODEL_ID, { dtype: 'q8', device: 'wasm' }),
+        StyleTextToSpeech2Model.from_pretrained(MODEL_ID, { dtype: 'fp32', device: 'wasm' }),
         AutoTokenizer.from_pretrained(MODEL_ID),
         ...uniqueVoices.map((v) => loadVoiceVector(v)),
       ]);

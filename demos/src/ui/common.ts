@@ -13,7 +13,7 @@ function ttsModePicker(current: TtsMode, onSelect: (m: TtsMode) => void): HTMLSe
   const modes: { id: TtsMode; label: string }[] = [
     { id: 'pack', label: '📦 Mode: Pack Audio (.pack.gz)' },
     { id: 'live', label: '⚡ Mode: Live Edge-TTS (/api/tts)' },
-    { id: 'kokoro', label: '🧠 Mode: Kokoro Offline (82M WASM)' },
+    { id: 'kokoro', label: '🧠 Mode: Kokoro Offline (82M fp32)' },
   ];
   const sel = h(
     'select',
