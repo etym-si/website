@@ -12,7 +12,9 @@
     "noEmit": true,
     "skipLibCheck": true,
     "isolatedModules": true,
-    "resolveJsonModule": true
+    "resolveJsonModule": true,
+    "allowImportingTsExtensions": true,
+    "paths": { "@generated/*": ["./src/generated/*"] }
   },
-  "include": ["src"]
+  "include": ["src", "shared"]
 }

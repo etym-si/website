@@ -1,19 +1,11 @@
+import { fileURLToPath } from 'node:url';
 import { defineConfig, type Plugin } from 'vite';
+import { CSP, SECURITY_HEADERS } from './shared/csp.ts';
 
 // Strict CSP: everything is first-party; no inline scripts/styles, no eval, no third-party origins.
-// (Styles are applied via CSSOM / Web Animations API only, which CSP allows.)
-const CSP = [
-  "default-src 'self'",
-  "script-src 'self'",
-  "style-src 'self'",
-  "img-src 'self' data:",
-  "font-src 'self'",
-  "connect-src 'self'",
-  "media-src 'self'",
-  "object-src 'none'",
-  "base-uri 'none'",
-  "form-action 'none'",
-].join('; ');
+// (Styles are applied via CSSOM / Web Animations API only, which CSP allows.) blob: only for range-fetched audio.
+// The Egyptian e2e build points these at a temporary content build via ETYM_* variables.
+const GENERATED = process.env.ETYM_GENERATED_DIR ?? fileURLToPath(new URL('./src/generated', import.meta.url));
 
 /** Inject the CSP <meta> into the production build only (Vite's dev server needs inline styles for HMR). */
 function cspMeta(): Plugin {
@@ -27,17 +19,13 @@ function cspMeta(): Plugin {
 }
 
 export default defineConfig({
-  base: './', // relative asset URLs: works on a LAN IP, a GitHub Pages sub-path, or a custom domain
+  base: './', // relative asset URLs: works on a LAN IP, a sub-path, or a custom domain
+  publicDir: process.env.ETYM_PUBLIC_DIR ?? 'public',
+  resolve: { alias: { '@generated': GENERATED } },
   plugins: [cspMeta()],
-  build: { target: 'es2022', chunkSizeWarningLimit: 900 },
+  build: { target: 'es2022', chunkSizeWarningLimit: 900, outDir: process.env.ETYM_OUT_DIR ?? 'dist', emptyOutDir: true },
   preview: {
-    // Real headers for the LAN preview (GitHub Pages can't set these; noted as TODO(security) in the spec).
-    headers: {
-      'Content-Security-Policy': `${CSP}; frame-ancestors 'none'`,
-      'X-Content-Type-Options': 'nosniff',
-      'X-Frame-Options': 'DENY',
-      'Referrer-Policy': 'no-referrer',
-      'Permissions-Policy': 'camera=(), microphone=(), geolocation=(), payment=(), usb=()',
-    },
+    // Same headers as Cloudflare's generated _headers.
+    headers: { 'Content-Security-Policy': `${CSP}; frame-ancestors 'none'`, ...SECURITY_HEADERS },
   },
 });

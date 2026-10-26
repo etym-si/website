@@ -6,8 +6,11 @@
   "type": "module",
   "scripts": {
     "glyphs": "python3 scripts/fetch-glyphs.py",
+    "content": "node tools/build-content.ts",
+    "predev": "node tools/build-content.ts",
     "dev": "vite --host 127.0.0.1 --port 3636",
-    "build": "tsc --noEmit && vite build",
+    "build": "node tools/build-content.ts --strict && tsc --noEmit -p . && tsc --noEmit -p tsconfig.tools.json && vite build && node tools/check-dist.ts",
+    "typecheck": "node tools/build-content.ts && tsc --noEmit -p . && tsc --noEmit -p tsconfig.tools.json",
     "preview:lan": "vite preview --host 172.17.197.51 --port 3636 --strictPort",
     "shoot": "node scripts/shoot.mjs",
     "check": "node tools/check.ts",

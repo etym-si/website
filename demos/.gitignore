@@ -3,3 +3,8 @@ dist/
 scripts/.cache/
 shots/
 tests/.tmp/
+public/data/
+public/_headers
+public/CREDITS.md
+public/licenses/
+src/generated/
