@@ -18,7 +18,7 @@ import { creditsMarkdown } from './credits.ts';
 import { evolutionScript } from './evolution.ts';
 import { formB, HANZI_WRITER_DATA, strokesFor } from './glyph-data.ts';
 import { asciiId, hashedName } from './output.ts';
-import { checkStory, expandStory, storyGlyphs, storyLabels } from './stories.ts';
+import { checkStory, expandStory, storyGlyphs, storyLabels, storyPictures } from './stories.ts';
 import { signTimeline } from './timeline.ts';
 
 export interface SiteStats { signs: number; stories: number; collections: number; photos: number; clips: number; bytes: number }
@@ -125,9 +125,11 @@ export function compileSite(content: ContentSet, opts: { mediaDir: string; stric
       const before = clips.missing.size;
       const script = clips.attach(expandStory(content, coll, story));
       const dir = `data/stories/${id}`;
+      const pictures = storyPictures(content, script);
       const bundle: StoryBundle = {
         v: 1, collection: id, id: story.data.id, unit: n, title: L(story.data.title), topic: L(story.data.topic),
         script, glyphs: storyGlyphs(content, script), labels: storyLabels(content, script),
+        ...(Object.keys(pictures).length ? { pictures } : {}),
         audio: audioOf(clips.pack(clips.sectionKeys(script)), dir, story.data.id),
       };
       storyFiles.set(story.data.id, { id: story.data.id, unit: n, title: bundle.title, topic: bundle.topic, file: put(dir, story.data.id, 'json', enc.encode(JSON.stringify(bundle))) });

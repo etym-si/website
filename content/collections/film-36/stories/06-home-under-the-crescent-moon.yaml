@@ -32,7 +32,13 @@ script:
       zh-Hans: 前面就是自家院子那扇对称的两扇木大门：“门”！
       zh-Hant: 前面就是自家院子那扇對稱的兩扇木大門：「門」！
   - { do: place, actor: gate, at: [ 480, 370 ], size: 240 }
+  - { do: picture, actor: gate, pic: 门, ms: 700 }
+  - do: together
+    steps:
+      - { do: pose, actor: gate, part: leaf-l, origin: left, scaleX: 0.32, dy: -6, ms: 900 }
+      - { do: pose, actor: gate, part: leaf-r, origin: right, scaleX: 0.32, dy: -6, ms: 900 }
   - { do: draw, actor: gate, glyph: { sign: 门, stage: bronze }, ms: 1600, color: "#6b4a1e" }
+  - { do: clearPicture, actor: gate, ms: 600 }
   - tagSay: { actor: gate, sign: 门, dx: -150, dy: -100 }
   - narrate:
       en: Woof, woof! Our loyal puppy — 犬 — trots out to the gate with its tail curled high!

@@ -30,6 +30,7 @@ export interface Actor {
   rot: number;
   picRot: number;
   scale: number;
+  partPoses: Map<string, string>;
   current?: GlyphInstance;
   picDef?: PictureB;
   ambientAnim?: Animation;
@@ -93,7 +94,7 @@ export class Stage {
     this.remove(id);
     const g = (cls: string) => s('g', { class: cls });
     const a: Actor = {
-      id, x, y, size, ox: 0, oy: 0, rot: 0, picRot: 0, scale: 1,
+      id, x, y, size, ox: 0, oy: 0, rot: 0, picRot: 0, scale: 1, partPoses: new Map(),
       root: s('g', { class: 'actor', transform: `translate(${x},${y})`, 'data-actor': id }),
       motion: g('a-motion'), ambient: g('a-ambient'), gait: g('a-gait'), zoom: g('a-zoom'), spin: g('a-spin'),
       wash: g('a-wash'), pic: g('a-pic'), picSpin: g('a-picspin'), glyph: g('a-glyph'),

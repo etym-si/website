@@ -207,6 +207,19 @@ export class Player {
         if (pic) a.picRot = st.deg; else a.rot = st.deg;
         return;
       }
+      case 'pose': {
+        const a = S.actor(st.actor);
+        if (!/^[a-z][a-z0-9-]{0,31}$/.test(st.part)) return;
+        const el = a.pic.querySelector(`[data-part="${st.part}"]`) as SVGElement | null;
+        if (!el) return;
+        el.style.transformBox = 'fill-box';
+        el.style.transformOrigin = st.origin ?? 'center';
+        const from = a.partPoses.get(st.part) ?? 'translate(0px, 0px) scale(1, 1) rotate(0deg)';
+        const to = `translate(${st.dx ?? 0}px, ${st.dy ?? 0}px) scale(${st.scaleX ?? 1}, ${st.scaleY ?? 1}) rotate(${st.deg ?? 0}deg)`;
+        await this.anim(el, [{ transform: from }, { transform: to }], st.ms ?? 800, gen, { easing: 'cubic-bezier(.34,1.26,.64,1)' });
+        a.partPoses.set(st.part, to);
+        return;
+      }
       case 'draw': {
         const a = S.actor(st.actor);
         const g = this.glyph(st.glyph, a.size, st.color ?? INK);
@@ -346,6 +359,7 @@ export class Player {
     const def = this.source?.picture(key);
     if (!def) return;
     a.picDef = def;
+    a.partPoses.clear();
     a.picSpin.replaceChildren(s('g', { transform: `scale(${a.size / 300}) translate(-150,-150)` }, buildPicture(def.tree)));
     a.pic.classList.add('ambient-on');
     await this.anim(a.pic, [

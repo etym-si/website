@@ -47,6 +47,7 @@ export interface StoryBundle {
   script: Step[];
   glyphs: Record<string, GlyphData>; // selKey(glyph selector) → data, for every selector in the script
   labels: Record<string, SignLabel>; // sign key → name-tag label
+  pictures?: Record<string, PictureB>; // sign key → picture tree for any { do: 'picture' } step in the story
   audio: AudioIndex | null;
 }
 export interface SignSummary { key: string; id: string; text: Record<string, string>; reading: string; meaning: L10n; file: string; clip?: string }

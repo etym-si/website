@@ -93,6 +93,9 @@ export function checkStoryBundle(v: unknown): StoryBundle {
     else fail(`glyphs.${k}.kind`);
   }
   obj(o.labels, 'labels');
+  if (o.pictures !== undefined) {
+    for (const p of Object.values(obj(o.pictures, 'pictures'))) checkPicture(p);
+  }
   checkAudio(o.audio, 'audio');
   return o as unknown as StoryBundle;
 }

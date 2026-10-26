@@ -1,7 +1,7 @@
 // Stories: author macros expand to the step vocabulary (narrate → caption + spoken line; tagSay → name tag +
 // pronunciation), sign refs are qualified (`云` → `han/云`), texts are completed for every locale, and the
 // script is checked: actors placed before use, glyph selectors pointing at real forms, signs in the cast.
-import type { GlyphData, SignLabel } from '../../shared/bundle-types.ts';
+import type { GlyphData, PictureB, SignLabel } from '../../shared/bundle-types.ts';
 import type { L10n } from '../../shared/l10n.ts';
 import { selKey } from '../../shared/sel.ts';
 import type { GlyphSel, Step, StoryStep } from '../../shared/steps.ts';
@@ -9,6 +9,7 @@ import type { Diags, PathSeg } from '../content/diagnostics.ts';
 import { complete } from '../content/l10n.ts';
 import type { CollectionDoc, ContentSet, StoryDoc } from '../content/load.ts';
 import { pronounceText, qualify, signByKey } from '../content/lookup.ts';
+import { sanitizePicture } from '../content/svg.ts';
 import { glyphFor, signLabel } from './glyph-data.ts';
 
 export function expandStory(content: ContentSet, coll: CollectionDoc, story: StoryDoc): Step[] {
@@ -101,6 +102,18 @@ export function storyLabels(content: ContentSet, steps: Step[]): Record<string, 
     if (s.do !== 'tag') return;
     const label = signLabel(content, s.sign);
     if (label) out[s.sign] = label;
+  });
+  return out;
+}
+
+export function storyPictures(content: ContentSet, steps: Step[]): Record<string, PictureB> {
+  const out: Record<string, PictureB> = {};
+  walkSteps(steps, (s) => {
+    if (s.do !== 'picture') return;
+    const p = signByKey(content, s.pic)?.data.picture;
+    if (!p) return;
+    const r = sanitizePicture(p.svg);
+    if (r.ok) out[s.pic] = { rotate: p.rotate, ...(p.ambient ? { ambient: p.ambient } : {}), tree: r.tree };
   });
   return out;
 }

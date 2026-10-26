@@ -23,6 +23,18 @@ export function evolutionScript(content: ContentSet, sys: SystemDoc, sign: SignD
 
   if (pic && pictureStage) {
     steps.push({ do: 'stage', stage: pictureStage.id }, ...(opts.compact || !story ? [] : narr(story.hook)), { do: 'picture', actor: A, pic: key }, { do: 'wait', ms: 1000 * k });
+    if (pic.svg.includes('data-part="leaf-l"') && pic.svg.includes('data-part="leaf-r"')) {
+      steps.push(
+        {
+          do: 'together',
+          steps: [
+            { do: 'pose', actor: A, part: 'leaf-l', origin: 'left', scaleX: 0.32, dy: -6, ms: Math.round(900 * k) },
+            { do: 'pose', actor: A, part: 'leaf-r', origin: 'right', scaleX: 0.32, dy: -6, ms: Math.round(900 * k) },
+          ],
+        },
+        { do: 'wait', ms: 500 * k },
+      );
+    }
     if (pic.rotate) steps.push(...(story?.rotate ? narr(story.rotate) : []), { do: 'rotate', actor: A, deg: pic.rotate, ms: 1100 }, { do: 'wait', ms: 600 * k });
   }
 

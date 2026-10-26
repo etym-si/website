@@ -43,7 +43,7 @@ export function storySource(b: StoryBundle): PlaySource {
   return {
     glyph: (sel) => b.glyphs[selKey(sel)],
     label: (key) => b.labels[key],
-    picture: () => undefined,
+    picture: (key) => b.pictures?.[key],
     audio: b.audio,
   };
 }
