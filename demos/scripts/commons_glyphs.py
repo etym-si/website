@@ -1,21 +1,24 @@
 #!/usr/bin/env python3
-"""Build-time glyph pipeline for the etym.si demos.
+"""Commons glyph adapter for `npm run ingest:glyphs` (demos/tools/ingest/glyphs.ts).
 
-1. Downloads historical glyph SVGs (oracle bone, bronze, seal, clerical/slip/silk)
-   from the Wikimedia Commons "Ancient Chinese characters project" (public domain).
-2. Normalizes each SVG down to pure geometry: path data + transforms + fill mode.
-   Everything else (scripts, metadata, styles, external refs) is discarded, so the
-   app never injects third-party markup.
-3. Copies regular-script stroke data (hanzi-writer-data, Arphic PL) for the
-   simplified and traditional forms into public/hanzi/.
+Downloads historical glyph SVGs (oracle bone, bronze, seal, clerical/slip/silk) from the Wikimedia Commons
+"Ancient Chinese characters project" (public domain) and normalizes each SVG down to pure geometry: path data +
+transforms + fill mode. Everything else (scripts, metadata, styles, external refs) is discarded, so no third-party
+markup ever reaches content/. Node builds the job list from content and validates the results again.
 
-Output: public/glyphs/<char>.json, public/glyphs/index.json, CREDITS.md
+  python3 scripts/commons_glyphs.py <jobs.json> <results.json>
+  python3 scripts/commons_glyphs.py --selftest        (no network)
+
+jobs.json:    {"jobs": [{"id": "han/马#0", "candidates": [{"variant": "oracle", "title": "File:馬-oracle.svg"}]}]}
+results.json: {"results": [{"id", "variant", "title", "provenance": {"period", "code", "note"}, "box", "paths"}
+                           or {"id", "error"}]}
+
+Only commons.wikimedia.org (API) and upload.wikimedia.org (files) are contacted.
 """
 from __future__ import annotations
 
 import json
 import re
-import shutil
 import sys
 import time
 import urllib.error
@@ -26,45 +29,18 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 CACHE = ROOT / "scripts" / ".cache" / "commons"
-OUT_GLYPHS = ROOT / "public" / "glyphs"
-OUT_HANZI = ROOT / "public" / "hanzi"
-HANZI_DATA = ROOT / "node_modules" / "hanzi-writer-data"
 UA = "etym-si-demo/0.1 (https://github.com/etym-si/website; research prototype)"
 API = "https://commons.wikimedia.org/w/api.php"
+ALLOWED_HOSTS = {"commons.wikimedia.org", "upload.wikimedia.org"}
 SVG_NS = "{http://www.w3.org/2000/svg}"
-
-# simplified -> traditional (only where they differ)
-TRAD = {"鸟": "鳥", "马": "馬", "鱼": "魚", "网": "網", "云": "雲", "伞": "傘", "龟": "龜", "门": "門"}
-
-# The 36 characters of 《三十六个字》 in order of appearance.
-FILM_ORDER = list("日山水林木鸟象草田竹马夫刀舟鱼网燕云雨伞石火龟鹿豕叟虎弓舍羊花门犬子女月")
-
-# Per-character historical stage plan: list of (stage, lookup form, [variant candidates]).
-# Default plan: oracle, bronze, seal, clerical, each looked up on the traditional form.
-DEFAULT_PLAN = [
-    ("oracle", None, ["oracle"]),
-    ("bronze", None, ["bronze", "bronze-shang"]),
-    ("seal", None, ["seal"]),
-    ("clerical", None, ["clerical-han", "clerical", "slip", "silk"]),
-]
-OVERRIDES: dict[str, list[tuple[str, str, list[str]]]] = {
-    # 云 cloud: the original pictograph 云 got 雨 (rain) added → 雲; simplification went back to 云.
-    "云": [("oracle", "云", ["oracle"]), ("seal", "雲", ["seal"])],
-    # 网 net: Shuowen head form is 网 itself; 網 (with 糸 + 亡) came later.
-    "网": [("oracle", "网", ["oracle"]), ("bronze", "网", ["bronze", "bronze-shang"]),
-           ("seal", "网", ["seal"]), ("clerical", "网", ["clerical", "slip", "silk"])],
-    # 草 grass: first written as sprouts 艸; 早 was added later as a sound hint.
-    "草": [("seal", "艸", ["seal"]), ("seal", "草", ["seal"])],
-    # 花 flower: originally written 華 (a blooming plant); 花 is a much later character.
-    "花": [("bronze", "華", ["bronze"]), ("seal", "華", ["seal"])],
-    # 伞 umbrella and 叟 old man: no ancient forms available on Commons.
-    "伞": [],
-    "叟": [],
-}
+TITLE = re.compile(r"^File:[^|#<>\[\]{}\n/\\]{1,200}\.svg$")  # no path separators: titles become cache file names
 
 
 def http_get(url: str, data: bytes | None = None, attempts: int = 5) -> bytes:
     """GET/POST politely: on HTTP 429/503 honor Retry-After (or back off exponentially)."""
+    parts = urllib.parse.urlparse(url)
+    if parts.scheme != "https" or parts.hostname not in ALLOWED_HOSTS:
+        raise ValueError(f"refusing to fetch {url}: host is not allowlisted")
     delay = 15.0
     for i in range(attempts):
         req = urllib.request.Request(url, data=data, headers={"User-Agent": UA})
@@ -228,73 +204,82 @@ def normalize_svg(text: str) -> dict:
     return {"box": box, "paths": paths}
 
 
-def main() -> int:
-    OUT_GLYPHS.mkdir(parents=True, exist_ok=True)
-    OUT_HANZI.mkdir(parents=True, exist_ok=True)
-
-    plans: dict[str, list[tuple[str, str, list[str]]]] = {}
-    for ch in FILM_ORDER:
-        trad = TRAD.get(ch, ch)
-        plans[ch] = OVERRIDES.get(ch, [(s, trad, v) for (s, _f, v) in DEFAULT_PLAN])
-
-    wanted = sorted({f"File:{form}-{v}.svg" for plan in plans.values() for (_s, form, vs) in plan for v in vs})
+def run(jobs: list[dict]) -> list[dict]:
+    for job in jobs:
+        for c in job["candidates"]:
+            if not TITLE.match(c["title"]):
+                raise ValueError(f"bad Commons title in job {job['id']}: {c['title']!r}")
+    wanted = sorted({c["title"] for job in jobs for c in job["candidates"]})
     print(f"querying {len(wanted)} candidate titles on Commons…")
-    idx = commons_index(wanted)
+    idx = commons_index(wanted) if wanted else {}
     print(f"  {len(idx)} exist")
-    prov = commons_provenance(sorted(idx))
-    print(f"  provenance read for {len(prov)} files")
+    prov = commons_provenance(sorted(idx)) if idx else {}
+    results: list[dict] = []
+    for job in jobs:
+        hit = next((c for c in job["candidates"] if c["title"] in idx), None)
+        if not hit:
+            results.append({"id": job["id"], "error": "no Commons file"})
+            continue
+        try:
+            geo = normalize_svg(fetch_svg(hit["title"], idx[hit["title"]]))
+        except Exception as e:  # keep going; report
+            results.append({"id": job["id"], "error": f"{hit['title']}: {e}"})
+            continue
+        results.append({"id": job["id"], "variant": hit["variant"], "title": hit["title"],
+                        "provenance": prov.get(hit["title"], {"period": "", "code": "", "note": ""}), **geo})
+    return results
 
-    credits: list[str] = []
-    index: list[dict] = []
-    for ch in FILM_ORDER:
-        trad = TRAD.get(ch, ch)
-        stages: list[dict] = []
-        for stage, form, variants in plans[ch]:
-            title = next((f"File:{form}-{v}.svg" for v in variants if f"File:{form}-{v}.svg" in idx), None)
-            if not title:
-                continue
-            try:
-                geo = normalize_svg(fetch_svg(title, idx[title]))
-            except Exception as e:  # keep going; report
-                print(f"  ! {title}: {e}", file=sys.stderr)
-                continue
-            variant = title.split("-", 1)[1].rsplit(".", 1)[0]
-            stages.append({"stage": stage, "form": form, "variant": variant,
-                           "src": "https://commons.wikimedia.org/wiki/" + urllib.parse.quote(title.replace(" ", "_")),
-                           "prov": prov.get(title, {"period": "", "code": "", "note": ""}),
-                           **geo})
-            credits.append(f"- `{title}` — public domain — https://commons.wikimedia.org/wiki/{urllib.parse.quote(title)}")
-        # regular-script stroke data (traditional + simplified)
-        hz = []
-        for c in dict.fromkeys([trad, ch]):
-            src = HANZI_DATA / f"{c}.json"
-            if src.exists():
-                shutil.copyfile(src, OUT_HANZI / f"{c}.json")
-                hz.append(c)
-            else:
-                print(f"  ! no hanzi-writer data for {c}", file=sys.stderr)
-        doc = {"char": ch, "trad": trad, "stages": stages, "hanzi": hz}
-        (OUT_GLYPHS / f"{ch}.json").write_text(json.dumps(doc, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
-        index.append({"char": ch, "trad": trad, "stages": [s["stage"] + ":" + s["variant"] for s in stages], "hanzi": hz})
-        print(f"{ch} ({trad}): {', '.join(s['stage'] + '/' + s['variant'] for s in stages) or '—'} | hanzi: {''.join(hz)}")
 
-    (OUT_GLYPHS / "index.json").write_text(json.dumps(index, ensure_ascii=False, indent=1), encoding="utf-8")
-    license_src = HANZI_DATA / "ARPHICPL.TXT"
-    if license_src.exists():
-        shutil.copyfile(license_src, OUT_HANZI / "ARPHICPL.TXT")
-    (ROOT / "CREDITS.md").write_text(
-        "# Credits\n\n"
-        "## Historical glyphs\n\nFrom the Wikimedia Commons *Ancient Chinese characters project*, "
-        "released into the **public domain** (sources: Sinica database, Chinese Etymology, et al.).\n\n"
-        + "\n".join(credits) +
-        "\n\n## Regular-script stroke data\n\n[hanzi-writer-data](https://github.com/chanind/hanzi-writer-data) "
-        "(derived from Make Me a Hanzi / Arphic fonts) — Arphic Public License, see `public/hanzi/ARPHICPL.TXT`.\n\n"
-        "## Animation reference\n\nTechniques inspired by 《三十六个字》 (Shanghai Animation Film Studio, 1984, dir. A Da). "
-        "No frames or drawings from the film are used.\n",
-        encoding="utf-8")
-    print("done")
+SELFTEST_SVG = """<?xml version="1.0"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 300 300">
+  <metadata><x>ignored</x></metadata>
+  <script>alert(1)</script>
+  <g transform="translate(10,20)" style="fill:#000">
+    <path d="M0 0   L10 0 L10 10 Z"/>
+    <rect x="1" y="2" width="3" height="4" fill="#fff"/>
+    <polyline points="0,0 5,5 10,0" fill="none" stroke="#000" stroke-width="2"/>
+    <image xlink:href="https://example.org/x.png" width="10" height="10"/>
+  </g>
+</svg>"""
+
+
+def selftest() -> int:
+    got = normalize_svg(SELFTEST_SVG)
+    want = {"box": [0.0, 0.0, 300.0, 300.0], "paths": [
+        {"d": "M0 0 L10 0 L10 10 Z", "t": "translate(10,20)"},
+        {"d": "M1.0,2.0 h3.0 v4.0 h-3.0 Z", "t": "translate(10,20)", "mode": "knockout"},
+        {"d": "M0,0 L5,5 L10,0", "t": "translate(10,20)", "mode": "stroke", "w": 2.0},
+    ]}
+    assert got == want, got
+    for bad in ('<svg xmlns="http://www.w3.org/2000/svg"><path d="M0 0 L1 1 url(#x)"/></svg>',
+                '<svg xmlns="http://www.w3.org/2000/svg"><g/></svg>'):
+        try:
+            normalize_svg(bad)
+        except ValueError:
+            continue
+        raise AssertionError(f"accepted {bad}")
+    for url in ("http://upload.wikimedia.org/x.svg", "https://example.org/x.svg"):
+        try:
+            http_get(url)
+        except ValueError:
+            continue
+        raise AssertionError(f"fetched {url}")
+    assert TITLE.match("File:馬-oracle.svg") and not TITLE.match("File:../x.svg") and not TITLE.match("File:a|b.svg")
+    print("commons_glyphs selftest: ok")
+    return 0
+
+
+def main(argv: list[str]) -> int:
+    if argv[1:] == ["--selftest"]:
+        return selftest()
+    if len(argv) != 3:
+        print(__doc__, file=sys.stderr)
+        return 2
+    jobs = json.loads(Path(argv[1]).read_text(encoding="utf-8"))["jobs"]
+    results = run(jobs)
+    Path(argv[2]).write_text(json.dumps({"results": results}, ensure_ascii=False), encoding="utf-8")
     return 0
 
 
 if __name__ == "__main__":
-    sys.exit(main())
+    sys.exit(main(sys.argv))

@@ -4,7 +4,7 @@ import { existsSync, readFileSync } from 'node:fs';
 import path from 'node:path';
 import type { Catalog, CollectionBundle, L10n, LessonB, PictureB, SignBundle, SignSummary, StoryBundle, StoryRefB, StrokesB, UnitB } from '../../shared/bundle-types.ts';
 import { headersFile } from '../../shared/csp.ts';
-import { ClipResolver } from '../audio/clips.ts';
+import { ClipResolver, type MissingClip } from '../audio/clips.ts';
 import { readMediaManifest } from '../audio/media.ts';
 import type { PackedAudio } from '../audio/pack.ts';
 import type { Diags } from '../content/diagnostics.ts';
@@ -22,7 +22,12 @@ import { checkStory, expandStory, storyGlyphs, storyLabels } from './stories.ts'
 import { signTimeline } from './timeline.ts';
 
 export interface SiteStats { signs: number; stories: number; collections: number; photos: number; clips: number; bytes: number }
-export interface CompiledSite { files: Map<string, Uint8Array>; catalog: Catalog; stats: SiteStats }
+export interface CompiledSite {
+  files: Map<string, Uint8Array>;
+  catalog: Catalog;
+  stats: SiteStats;
+  missing: Map<string, MissingClip>; // clip key → line without a master yet (what `npm run tts` records)
+}
 export const PALETTE = ['#2fb67c', '#f08a24', '#3d8fe0', '#8b5cf6', '#e8453c', '#d99a00'];
 
 /** Explicit lessons, or the default rule: chunks of two new signs, a review, and a story node if the unit has a story. */
@@ -144,7 +149,7 @@ export function compileSite(content: ContentSet, opts: { mediaDir: string; stric
   files.set('CREDITS.md', enc.encode(creditsMarkdown(content, [...reachable.values()], usesHanziWriter)));
   if (usesHanziWriter) files.set('licenses/ARPHICPL.TXT', readFileSync(path.join(HANZI_WRITER_DATA, 'ARPHICPL.TXT')));
   stats.bytes = [...files.values()].reduce((n, b) => n + b.length, 0);
-  return { files, catalog, stats };
+  return { files, catalog, stats, missing: clips.missing };
 }
 
 function buildSignBundle(content: ContentSet, sys: SystemDoc, sign: SignDoc, photoUrl: PhotoUrl, clips: ClipResolver): { bundle: Omit<SignBundle, 'audio'>; sections: { id: string; keys: string[] }[] } {

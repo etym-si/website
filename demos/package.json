@@ -5,7 +5,10 @@
   "description": "Throwaway prototypes for etym.si: evolution theater, story scene, lesson loop",
   "type": "module",
   "scripts": {
-    "glyphs": "python3 scripts/fetch-glyphs.py",
+    "ingest:glyphs": "node tools/ingest/glyphs.ts",
+    "ingest:photos": "node tools/ingest/photos.ts",
+    "tts": "node tools/tts.ts",
+    "new": "node tools/new-sign.ts",
     "content": "node tools/build-content.ts",
     "predev": "node tools/build-content.ts",
     "dev": "vite --host 127.0.0.1 --port 3636",
