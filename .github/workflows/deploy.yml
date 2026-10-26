@@ -1,0 +1,74 @@
+# Build, test and deploy etym.si to Cloudflare Pages (spec §7). Pages' own Git builds can't be relied on to fetch
+# Git LFS objects, so the site is built and tested here and uploaded with `wrangler pages deploy`.
+# Repository secrets (Settings → Secrets and variables → Actions): CLOUDFLARE_API_TOKEN (permission: Cloudflare Pages:
+# Edit) and CLOUDFLARE_ACCOUNT_ID. The build itself needs no secrets and makes no network calls.
+name: deploy
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: deploy-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    defaults:
+      run:
+        working-directory: demos
+    steps:
+      # LFS objects are not fetched by checkout: they come from the cache first, and `git lfs pull` downloads only
+      # what the cache lacks (GitHub's LFS bandwidth quota is small).
+      - name: Check out
+        uses: actions/checkout@v4
+
+      - name: List the LFS objects this commit needs
+        working-directory: .
+        run: git lfs ls-files --long | cut -d ' ' -f1 | sort > .lfs-assets-id
+
+      - name: Restore cached LFS objects
+        uses: actions/cache@v4
+        with:
+          path: .git/lfs
+          key: lfs-${{ hashFiles('.lfs-assets-id') }}
+          restore-keys: lfs-
+
+      - name: Fetch missing LFS objects
+        working-directory: .
+        run: git lfs pull
+
+      - name: Set up Node (version from .node-version)
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: .node-version
+          cache: npm
+          cache-dependency-path: demos/package-lock.json
+
+      - run: npm ci
+
+      - name: Unit and parity tests
+        run: npm test
+
+      - name: Build (content compiler, type checks, Vite, file budget, LFS-pointer guard)
+        run: npm run build
+
+      - name: Install Chromium for the end-to-end tests
+        run: npx playwright install --with-deps chromium
+
+      - name: End-to-end tests
+        run: npm run test:e2e
+
+      - name: Deploy to Cloudflare Pages
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          workingDirectory: demos
+          command: pages deploy dist --project-name=etym-si --branch=${{ github.ref_name }}

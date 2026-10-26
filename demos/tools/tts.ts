@@ -65,7 +65,7 @@ function main(): void {
   const jobs = ttsJobs(content, mediaDir, diags);
   if (diags.errors.length) return stop();
   if (!jobs.length) {
-    console.log(values['dry-run'] ? 'tts: 0 missing clip(s) (--dry-run)' : 'tts: every line already has a clip');
+    console.log('tts: every line already has a clip');
     return;
   }
   const chars = jobs.reduce((n, j) => n + j.text.length, 0);
