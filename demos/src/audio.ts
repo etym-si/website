@@ -91,8 +91,15 @@ export interface Section {
 }
 
 const sections = new Map<string, Promise<Section | null>>();
+const sectionPromises = new WeakMap<Section, Promise<Section | null>>();
 const MAX_SECTIONS = 6;
 let activeSection: Section | null = null;
+
+function disposeSection(s: Section): void {
+  URL.revokeObjectURL(s.url);
+  s.audio.removeAttribute('src');
+  s.audio.load();
+}
 
 /** The audio section that voices a UI locale (zh-Hans and zh-Hant share `zh`). */
 export function sectionFor(localeId: string): string {
@@ -127,13 +134,13 @@ export function prepareSection(index: AudioIndex | null, localeId: string = loca
     p = fetchSection(index, sectionFor(localeId)).catch(() => null);
   }
   sections.set(key, p);
+  void p.then((s) => { if (s) sectionPromises.set(s, p!); });
   while (sections.size > MAX_SECTIONS) {
     const [oldKey, old] = sections.entries().next().value!;
     sections.delete(oldKey);
     void old.then((s) => {
       if (!s || s === activeSection) return;
-      s.audio.removeAttribute('src');
-      URL.revokeObjectURL(s.url);
+      disposeSection(s);
     });
   }
   return p;
@@ -159,7 +166,12 @@ function playClip(section: Section, key: string): Promise<void> {
       if (!a.paused) a.pause();
       if (activeAudio === a) activeAudio = null;
       if (activeFinish === finish) activeFinish = null;
-      if (activeSection === section) activeSection = null;
+      if (activeSection === section) {
+        activeSection = null;
+        if (sections.get(section.key) !== sectionPromises.get(section)) {
+          disposeSection(section);
+        }
+      }
       resolve();
     };
     const tick = () => {
