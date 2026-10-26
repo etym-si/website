@@ -1,38 +1,18 @@
 // Learner progress: stored only on this device (no accounts, no personal data — kid-privacy by design).
-import { LESSONS, LESSON_BY_ID, type Lesson } from './data/chars';
+import type { LessonB } from '../shared/bundle-types.ts';
+import { defaultCollectionId, defaultSystemId } from './content';
+import { freshProgress, parseProgress, type ProgressV2 } from './progress-migrate';
 
-export interface Progress {
-  v: 1;
-  xp: number;
-  streak: number;
-  lastDay: string | null; // YYYY-MM-DD (local)
-  done: Record<string, number>; // lessonId -> best stars (1..3)
-  stickers: string[]; // learned characters (simplified)
-}
+export type Progress = ProgressV2;
 
-const KEY = 'etymsi.progress.v1';
-const fresh = (): Progress => ({ v: 1, xp: 0, streak: 0, lastDay: null, done: {}, stickers: [] });
+const KEY = 'etymsi.progress.v2';
+const LEGACY_KEY = 'etymsi.progress.v1'; // read once when v2 is absent
 
-/** Treat stored data as untrusted: validate every field, drop anything unexpected. */
 function load(): Progress {
   try {
-    const raw = localStorage.getItem(KEY);
-    if (!raw) return fresh();
-    const o = JSON.parse(raw) as Record<string, unknown>;
-    if (!o || o.v !== 1) return fresh();
-    const p = fresh();
-    p.xp = Number.isInteger(o.xp) && (o.xp as number) >= 0 ? Math.min(o.xp as number, 1e7) : 0;
-    p.streak = Number.isInteger(o.streak) && (o.streak as number) >= 0 ? Math.min(o.streak as number, 1e5) : 0;
-    p.lastDay = typeof o.lastDay === 'string' && /^\d{4}-\d{2}-\d{2}$/.test(o.lastDay) ? o.lastDay : null;
-    if (o.done && typeof o.done === 'object') {
-      for (const [k, v] of Object.entries(o.done as Record<string, unknown>)) {
-        if (LESSON_BY_ID[k] && Number.isInteger(v) && (v as number) >= 1 && (v as number) <= 3) p.done[k] = v as number;
-      }
-    }
-    if (Array.isArray(o.stickers)) p.stickers = o.stickers.filter((x): x is string => typeof x === 'string' && x.length === 1).slice(0, 64);
-    return p;
+    return parseProgress(localStorage.getItem(KEY), localStorage.getItem(LEGACY_KEY), { system: defaultSystemId(), collection: defaultCollectionId() });
   } catch {
-    return fresh();
+    return freshProgress(); // storage blocked
   }
 }
 
@@ -59,7 +39,7 @@ export interface Award {
   streak: number;
 }
 
-export function completeLesson(lesson: Lesson, mistakes: number): Award {
+export function completeLesson(lesson: LessonB, mistakes: number): Award {
   const stars = mistakes === 0 ? 3 : mistakes <= 2 ? 2 : 1;
   const xp = lesson.kind === 'story' ? 15 : 10 + (stars === 3 ? 5 : 0);
   const today = dayStr(new Date());
@@ -68,21 +48,20 @@ export function completeLesson(lesson: Lesson, mistakes: number): Award {
   state.lastDay = today;
   state.xp += xp;
   state.done[lesson.id] = Math.max(state.done[lesson.id] ?? 0, stars);
-  const newStickers = lesson.kind === 'learn' ? lesson.chars.filter((c) => !state.stickers.includes(c)) : [];
+  const newStickers = lesson.kind === 'learn' ? lesson.signs.filter((k) => !state.stickers.includes(k)) : [];
   state.stickers.push(...newStickers);
   save();
   return { xp, stars, newStickers, streak: state.streak };
 }
 
-/** A lesson is open when it's the very first one or the previous lesson in its unit is done. */
-export function isUnlocked(lesson: Lesson): boolean {
-  const i = LESSONS.indexOf(lesson);
+/** A lesson is open when it's the first of its collection or the previous lesson is done. */
+export function isUnlocked(lesson: LessonB, lessons: LessonB[]): boolean {
+  const i = lessons.findIndex((l) => l.id === lesson.id);
   if (i <= 0) return true;
-  const prev = LESSONS[i - 1];
-  return !!state.done[prev.id];
+  return !!state.done[lessons[i - 1].id];
 }
 
 export function resetProgress(): void {
-  state = fresh();
+  state = freshProgress();
   save();
 }

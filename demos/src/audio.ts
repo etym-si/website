@@ -1,13 +1,11 @@
-// Sound: synthesized UI chimes (Web Audio) and natural neural storytelling speech
-// (pre-generated edge-tts MP3s in public/tts/, with Web Speech API fallback).
+// Sound: synthesized UI chimes (Web Audio) and neural storytelling speech: compiled clips packed into one MP3
+// per bundle (one byte section per voice, range-fetched into a Blob URL), with Web Speech API fallback.
 import type { AudioIndex } from '../shared/bundle-types.ts';
 import { CATALOG } from './content';
 import { locale } from './i18n';
 import { settings } from './settings';
-import ttsManifest from './data/tts-manifest.json';
 
 const base = import.meta.env.BASE_URL;
-const MANIFEST = ttsManifest as Record<'en' | 'zh', Record<string, string>>;
 
 let ctx: AudioContext | null = null;
 
@@ -78,7 +76,6 @@ if (synth) {
 let activeAudio: HTMLAudioElement | null = null;
 let activeFinish: (() => void) | null = null;
 let speechSpeed = 1;
-const audioCache = new Map<string, HTMLAudioElement>();
 
 // ---- compiled audio: one byte section per voice, range-fetched into a Blob URL --------------------------
 
@@ -207,7 +204,7 @@ function playClip(section: Section, key: string): Promise<void> {
 export function speakLine(section: Section | null, key: string | undefined, text: string, lang: 'zh' | 'en'): Promise<void> {
   if (!settings().sound || !text) return Promise.resolve();
   if (section && key && section.clips[key]) return playClip(section, key);
-  return speak(text, lang);
+  return speakDevice(text, lang);
 }
 
 function pickVoice(lang: 'zh' | 'en'): SpeechSynthesisVoice | undefined {
@@ -224,9 +221,9 @@ function pickVoice(lang: 'zh' | 'en'): SpeechSynthesisVoice | undefined {
   return undefined;
 }
 
-export function hasVoice(lang: 'zh' | 'en'): boolean {
-  if (Object.keys(MANIFEST[lang] ?? {}).length > 0) return true;
-  return !!synth && !!pickVoice(lang);
+/** Can we pronounce signs? Compiled pronunciation clips, or a Chinese device voice. */
+export function hasPronunciations(index: AudioIndex | null): boolean {
+  return !!index || (!!synth && !!pickVoice('zh'));
 }
 
 export function setSpeechSpeed(rate: number): void {
@@ -258,44 +255,10 @@ export function cancelSpeech(): void {
   synth?.cancel();
 }
 
-/** Speak text using pre-generated neural storytelling audio (or Web Speech fallback). */
-export function speak(text: string, lang: 'zh' | 'en'): Promise<void> {
-  if (!settings().sound || !text) return Promise.resolve();
+/** Device speech (Web Speech API): the fallback when a line has no compiled clip. */
+function speakDevice(text: string, lang: 'zh' | 'en'): Promise<void> {
+  if (!settings().sound || !text || !synth) return Promise.resolve();
   cancelSpeech();
-
-  const file = MANIFEST[lang]?.[text];
-  if (file) {
-    return new Promise((resolve) => {
-      let audio = audioCache.get(file);
-      if (!audio) {
-        audio = new Audio(`${base}tts/${file}`);
-        audio.preload = 'auto';
-        audioCache.set(file, audio);
-      } else {
-        audio.currentTime = 0;
-      }
-      audio.playbackRate = speechSpeed;
-      let done = false;
-      const finish = () => {
-        if (done) return;
-        done = true;
-        audio.removeEventListener('ended', finish);
-        audio.removeEventListener('error', finish);
-        clearTimeout(timer);
-        if (activeAudio === audio) activeAudio = null;
-        if (activeFinish === finish) activeFinish = null;
-        resolve();
-      };
-      activeAudio = audio;
-      activeFinish = finish;
-      const timer = setTimeout(finish, Math.max(6000, text.length * 320));
-      audio.addEventListener('ended', finish, { once: true });
-      audio.addEventListener('error', finish, { once: true });
-      void audio.play().catch(finish);
-    });
-  }
-
-  if (!synth) return Promise.resolve();
   return new Promise((resolve) => {
     const u = new SpeechSynthesisUtterance(text);
     const v = pickVoice(lang);

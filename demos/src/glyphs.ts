@@ -1,127 +1,12 @@
-// Glyph data: loading (validated) and SVG construction.
-// - Historical stages (oracle/bronze/seal/clerical): filled outlines from Wikimedia Commons (public domain).
+// Glyph rendering from compiled data (no fetching here; bundles are loaded by src/content.ts).
+// - Historical stages: filled outlines from Wikimedia Commons (public domain).
 // - Regular script (traditional + simplified): stroke outlines + medians from hanzi-writer-data (Arphic PL),
 //   which lets us animate real stroke order.
 import { s, nextId } from './dom';
-import type { GlyphData } from '../shared/bundle-types.ts';
-import type { StageId } from './data/stages';
-
-export type HistStageId = 'oracle' | 'bronze' | 'seal' | 'clerical';
-export interface GlyphPath {
-  d: string;
-  t?: string;
-  mode?: 'stroke' | 'knockout';
-  w?: number;
-  rule?: 'evenodd';
-}
-export interface HistStage {
-  stage: HistStageId;
-  form: string;
-  variant: string;
-  src: string;
-  box: [number, number, number, number];
-  paths: GlyphPath[];
-  /** Provenance from the Commons file: which artifact this glyph was traced from (e.g. "鐵180.2 合5216"). */
-  prov?: { period: string; code: string; note: string };
-}
-export interface GlyphDoc {
-  char: string;
-  trad: string;
-  stages: HistStage[];
-  hanzi: string[];
-}
-export interface HanziData {
-  strokes: string[];
-  medians: [number, number][][];
-}
-/** A reference to one form of a character, as used in animation scripts. */
-export interface GlyphSel {
-  char: string;
-  stage: Exclude<StageId, 'picture'>;
-  index?: number; // nth occurrence of that stage (e.g. 草 has two seal forms)
-}
+import type { FormB, GlyphData, StrokesB } from '../shared/bundle-types.ts';
 
 export const INK = '#2b2522';
 export const PAPER = '#f7f0e1';
-
-const SAFE_D = /^[MmLlHhVvCcSsQqTtAaZz0-9eE\s,.+-]*$/;
-const SAFE_T = /^[a-zA-Z0-9\s,.()+-]*$/;
-const HIST: ReadonlySet<string> = new Set(['oracle', 'bronze', 'seal', 'clerical']);
-
-const isNum = (v: unknown): v is number => typeof v === 'number' && Number.isFinite(v);
-const isStr = (v: unknown): v is string => typeof v === 'string';
-
-function validateGlyphDoc(v: unknown): GlyphDoc {
-  const o = v as Record<string, unknown>;
-  if (!o || !isStr(o.char) || !isStr(o.trad) || !Array.isArray(o.stages) || !Array.isArray(o.hanzi)) throw new Error('bad glyph doc');
-  const stages = o.stages.map((st): HistStage => {
-    const x = st as Record<string, unknown>;
-    if (!isStr(x.stage) || !HIST.has(x.stage) || !isStr(x.form) || !isStr(x.variant) || !isStr(x.src)) throw new Error('bad stage');
-    if (!Array.isArray(x.box) || x.box.length !== 4 || !x.box.every(isNum)) throw new Error('bad box');
-    if (!Array.isArray(x.paths) || x.paths.length === 0) throw new Error('bad paths');
-    const paths = x.paths.map((p): GlyphPath => {
-      const q = p as Record<string, unknown>;
-      if (!isStr(q.d) || !SAFE_D.test(q.d)) throw new Error('bad d');
-      if (q.t !== undefined && (!isStr(q.t) || !SAFE_T.test(q.t))) throw new Error('bad transform');
-      const mode = q.mode === 'stroke' || q.mode === 'knockout' ? q.mode : undefined;
-      return { d: q.d, t: q.t as string | undefined, mode, w: isNum(q.w) ? q.w : undefined, rule: q.rule === 'evenodd' ? 'evenodd' : undefined };
-    });
-    const p = x.prov as Record<string, unknown> | undefined;
-    const short = (v: unknown, n: number) => (isStr(v) ? v.slice(0, n) : '');
-    const prov = p && typeof p === 'object' ? { period: short(p.period, 20), code: short(p.code, 12), note: short(p.note, 120) } : undefined;
-    return { stage: x.stage as HistStageId, form: x.form, variant: x.variant, src: x.src, box: x.box as HistStage['box'], paths, prov };
-  });
-  return { char: o.char, trad: o.trad, stages, hanzi: o.hanzi.filter(isStr) };
-}
-
-function validateHanzi(v: unknown): HanziData {
-  const o = v as Record<string, unknown>;
-  if (!o || !Array.isArray(o.strokes) || !Array.isArray(o.medians) || o.strokes.length !== o.medians.length) throw new Error('bad hanzi');
-  const strokes = o.strokes.map((d) => {
-    if (!isStr(d) || !SAFE_D.test(d)) throw new Error('bad stroke');
-    return d;
-  });
-  const medians = o.medians.map((pts) => {
-    if (!Array.isArray(pts)) throw new Error('bad median');
-    return pts.map((pt) => {
-      if (!Array.isArray(pt) || pt.length !== 2 || !isNum(pt[0]) || !isNum(pt[1])) throw new Error('bad point');
-      return [pt[0], pt[1]] as [number, number];
-    });
-  });
-  return { strokes, medians };
-}
-
-const base = import.meta.env.BASE_URL;
-const glyphCache = new Map<string, Promise<GlyphDoc>>();
-const hanziCache = new Map<string, Promise<HanziData>>();
-
-async function fetchJson(path: string): Promise<unknown> {
-  const res = await fetch(base + path, { credentials: 'same-origin' });
-  if (!res.ok) throw new Error(`HTTP ${res.status}`);
-  return res.json();
-}
-
-export function loadGlyph(ch: string): Promise<GlyphDoc> {
-  let p = glyphCache.get(ch);
-  if (!p) {
-    p = fetchJson(`glyphs/${encodeURIComponent(ch)}.json`).then(validateGlyphDoc);
-    glyphCache.set(ch, p);
-  }
-  return p;
-}
-
-export function loadHanzi(ch: string): Promise<HanziData> {
-  let p = hanziCache.get(ch);
-  if (!p) {
-    p = fetchJson(`hanzi/${encodeURIComponent(ch)}.json`).then(validateHanzi);
-    hanziCache.set(ch, p);
-  }
-  return p;
-}
-
-export function findHist(doc: GlyphDoc, stage: string, index = 0): HistStage | undefined {
-  return doc.stages.filter((x) => x.stage === stage)[index];
-}
 
 /** Built glyph, ready to animate. `wrap` is safe to animate with CSS transforms (it has no transform attribute). */
 export interface GlyphInstance {
@@ -132,8 +17,8 @@ export interface GlyphInstance {
   strokes: { median: SVGPathElement; fill: SVGPathElement; len: number }[]; // hanzi: per-stroke parts
 }
 
-/** Historical glyph, normalized so its 300-unit box maps to a size×size square centered on (0,0). */
-export function buildHist(st: Pick<HistStage, 'box' | 'paths'>, size: number, ink = INK): GlyphInstance {
+/** Historical glyph, normalized so its box maps to a size×size square centered on (0,0). */
+export function buildHist(st: Pick<FormB, 'box' | 'paths'>, size: number, ink = INK): GlyphInstance {
   const [bx, by, bw, bh] = st.box;
   const k = size / Math.max(bw, bh);
   const inner = s('g', { transform: `scale(${k}) translate(${-(bx + bw / 2)},${-(by + bh / 2)})` });
@@ -168,7 +53,7 @@ function polylineLength(pts: [number, number][]): number {
 }
 
 /** Regular-script glyph from hanzi-writer data: each stroke = clipPath(outline) + wide median line. */
-export function buildHanzi(data: HanziData, size: number, ink = INK): GlyphInstance {
+export function buildHanzi(data: StrokesB, size: number, ink = INK): GlyphInstance {
   const k = size / 1024;
   const inner = s('g', { transform: `scale(${k}) translate(-512,-512) translate(0,900) scale(1,-1)` });
   const defs = s('defs');
@@ -194,18 +79,6 @@ export function buildHanzi(data: HanziData, size: number, ink = INK): GlyphInsta
   return { kind: 'hanzi', wrap, fills, outlines: [], strokes };
 }
 
-/** Resolve a script reference to a built (not yet animated) glyph instance. */
-export async function buildSel(sel: GlyphSel, size: number, ink = INK): Promise<GlyphInstance> {
-  const doc = await loadGlyph(sel.char);
-  if (sel.stage === 'regular' || sel.stage === 'simplified') {
-    const ch = sel.stage === 'regular' ? doc.trad : doc.char;
-    return buildHanzi(await loadHanzi(ch), size, ink);
-  }
-  const st = findHist(doc, sel.stage, sel.index ?? 0);
-  if (!st) throw new Error(`no ${sel.stage} form for ${sel.char}`);
-  return buildHist(st, size, ink);
-}
-
 /** Make a built glyph fully visible with no animation (for quizzes, stickers, instant scene setup). */
 export function showInstant(g: GlyphInstance): GlyphInstance {
   g.outlines.forEach((o) => {
@@ -226,11 +99,5 @@ export function glyphFromData(data: GlyphData, size: number, ink = INK): GlyphIn
 /** A standalone static SVG of a compiled glyph (quiz cards, sticker book). */
 export function staticGlyph(data: GlyphData, px: number, ink = INK): SVGSVGElement {
   const g = showInstant(glyphFromData(data, 100, ink));
-  return s('svg', { viewBox: '-55 -55 110 110', width: px, height: px, class: 'glyph-svg', role: 'img', 'aria-hidden': 'true' }, g.wrap);
-}
-
-/** A standalone static SVG of one glyph form (quiz cards, sticker book). */
-export async function staticGlyphSvg(sel: GlyphSel, px: number, ink = INK): Promise<SVGSVGElement> {
-  const g = showInstant(await buildSel(sel, 100, ink));
   return s('svg', { viewBox: '-55 -55 110 110', width: px, height: px, class: 'glyph-svg', role: 'img', 'aria-hidden': 'true' }, g.wrap);
 }

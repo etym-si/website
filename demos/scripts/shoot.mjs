@@ -110,7 +110,7 @@ async function lesson() {
     } else if (await page.locator('.trace-box').count()) {
       await sleep(800);
       const box = await page.locator('.trace-box svg').boundingBox();
-      const data = JSON.parse(readFileSync(join(root, 'public', 'hanzi', '日.json'), 'utf8'));
+      const data = JSON.parse(readFileSync(join(root, 'node_modules', 'hanzi-writer-data', '日.json'), 'utf8'));
       const scale = (260 - 28) / 1024;
       const toScreen = ([x, y]) => [box.x + 14 + x * scale, box.y + 260 - (124 * scale + 14) - y * scale];
       for (const med of data.medians) {

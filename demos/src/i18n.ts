@@ -8,13 +8,6 @@ import { settings } from './settings';
 export type { L10n };
 export type StrKey = UiKey;
 
-/** Legacy three-way text used by src/data/* until Task 11 removes them. */
-export interface Tri {
-  en: string;
-  zhs: string;
-  zht: string;
-}
-
 /** The UI locale for the current settings. */
 export function locale(): string {
   const s = settings();
@@ -27,11 +20,7 @@ export function textScript(): 'Hans' | 'Hant' {
 }
 
 /** Pick the right variant for the current UI language + script. */
-export function tx(t: L10n | Tri): string {
-  if ('zhs' in t) {
-    const s = settings();
-    return s.lang === 'en' ? t.en : s.script === 'trad' ? t.zht : t.zhs;
-  }
+export function tx(t: L10n): string {
   return t[locale()] ?? t.en ?? '';
 }
 

@@ -5,7 +5,7 @@ import { settings, updateSettings } from '../settings';
 import { chime } from '../audio';
 import { progress } from '../progress';
 import type { Step, SystemB } from '../../shared/bundle-types.ts';
-import { buildMascot } from '../pictures';
+import { buildMascot } from './mascot';
 
 export function button(label: string, onClick: () => void, variant: 'primary' | 'secondary' | 'ghost' | 'danger' = 'primary', extra: Record<string, string> = {}): HTMLButtonElement {
   return h('button', {

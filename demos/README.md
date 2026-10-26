@@ -52,7 +52,7 @@ Provenance comes from each Commons glyph file's `{{ACClicense}}` source field (e
 ## Data & licensing
 
 - Historical glyphs: Wikimedia Commons *Ancient Chinese characters project* — **public domain** (see `CREDITS.md`).
-- Regular-script strokes: `hanzi-writer-data` — Arphic Public License (`public/hanzi/ARPHICPL.TXT`).
+- Regular-script strokes: `hanzi-writer-data` — Arphic Public License (shipped as `licenses/ARPHICPL.TXT`; credits in the generated `CREDITS.md`).
 - Inspired by 《三十六个字》 (Shanghai Animation Film Studio, 1984); no frames or drawings from the film are used.
 
 ## Security / privacy notes

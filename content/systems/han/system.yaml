@@ -104,6 +104,7 @@ stages:
       zh-Hant: 約2000年前 · 寫在竹簡和帛上的毛筆字
     commonsVariants: [ clerical-han, clerical, slip, silk ]
     turn: true
+    quiz: false # too close to regular script for the put-in-order quiz
     examples:
       - when: { variant: slip }
         artifact: qin-slips

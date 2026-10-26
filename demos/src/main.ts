@@ -27,9 +27,9 @@ function route(): void {
   switch (r.name) {
     case 'theater': cleanup = renderTheater(root, r.sign); break;
     case 'story': cleanup = renderStory(root, r); break;
-    case 'learn': cleanup = renderPath(root); break;
-    case 'lesson': cleanup = renderLesson(root, r.lesson); break;
-    case 'book': cleanup = renderBook(root); break;
+    case 'learn': cleanup = renderPath(root, r.collection); break;
+    case 'lesson': cleanup = renderLesson(root, r.collection, r.lesson); break;
+    case 'book': cleanup = renderBook(root, r.collection); break;
     default: cleanup = renderHome(root);
   }
 }

@@ -2,7 +2,7 @@
 // Requires `npm run build` first. Zero console/CSP errors; every audio section request answered with 206.
 import { after, before, test } from 'node:test';
 import assert from 'node:assert/strict';
-import { existsSync } from 'node:fs';
+import { existsSync, readFileSync } from 'node:fs';
 import path from 'node:path';
 import type { Browser, Page } from 'playwright';
 import { DEMOS } from '../../tools/paths.ts';
@@ -83,4 +83,70 @@ test('stories 1–6 start from their legacy numeric routes and fetch their audio
     });
     assert.ok(w.mp3.length >= 1, `story ${n} audio`);
   }
+});
+
+/** Answer every exercise correctly (the same moves as scripts/shoot.mjs), tracing 日 with the mouse. */
+async function playLesson(p: Page): Promise<void> {
+  const cont = () => p.locator('.lesson-footer button:not([disabled])').click({ timeout: 45000 });
+  for (let step = 0; step < 20; step++) {
+    await p.waitForTimeout(600);
+    if (await p.locator('.results').count()) return;
+    if (await p.locator('.meet-card').count()) {
+      await p.locator('.meet-card.show').waitFor({ timeout: 60000 });
+    } else if (await p.locator('.order').count()) {
+      await p.locator('.order-card').first().waitFor();
+      for (let k = 0; k < 4; k++) {
+        const card = p.locator(`.order-pool .order-card[data-i="${k}"]`);
+        if (await card.count()) await card.click();
+      }
+    } else if (await p.locator('.match').count()) {
+      await p.waitForTimeout(500);
+      const keys = await p.locator('.match-card.modern').evaluateAll((els) => els.map((e) => (e as HTMLElement).dataset.c ?? ''));
+      for (const k of keys) {
+        await p.locator(`.match-card.ancient[data-c="${k}"]`).click();
+        await p.locator(`.match-card.modern[data-c="${k}"]`).click();
+      }
+    } else if (await p.locator('.trace-box').count()) {
+      await p.waitForTimeout(800);
+      const box = (await p.locator('.trace-box svg').boundingBox())!;
+      const data = JSON.parse(readFileSync(path.join(DEMOS, 'node_modules', 'hanzi-writer-data', '日.json'), 'utf8')) as { medians: [number, number][][] };
+      const scale = (260 - 28) / 1024;
+      const toScreen = ([x, y]: [number, number]) => [box.x + 14 + x * scale, box.y + 260 - (124 * scale + 14) - y * scale];
+      for (const median of data.medians) {
+        const pts = median.map(toScreen);
+        await p.mouse.move(pts[0][0], pts[0][1]);
+        await p.mouse.down();
+        for (const q of pts.slice(1)) await p.mouse.move(q[0], q[1], { steps: 6 });
+        await p.mouse.up();
+        await p.waitForTimeout(350);
+      }
+    } else {
+      const answer = await p.locator('.choices').getAttribute('data-answer');
+      await p.locator('.choice', { hasText: answer ?? '' }).first().click();
+    }
+    await cont();
+  }
+  throw new Error('the lesson did not reach the results screen');
+}
+
+test('a lesson plays through on its legacy route, and its stickers land in the book', async () => {
+  const page = await browser.newPage({ viewport: { width: 1180, height: 860 } });
+  const w = await watchPage(page);
+  await page.goto(`${server.url}#/lesson/u1-l1`);
+  await playLesson(page);
+  assert.match(await page.locator('.new-stickers').textContent() ?? '', /日.*山|山.*日/);
+  await page.goto(`${server.url}#/book`);
+  await page.locator('.sticker.got').nth(1).waitFor({ timeout: 10000 });
+  assert.equal(await page.locator('.sticker.got').count(), 2);
+  await page.close();
+  assert.deepEqual(w.problems, []);
+  assert.ok(w.mp3.length >= 1 && w.mp3.every((r) => r.status === 206), JSON.stringify(w.mp3));
+});
+
+test('the learning path lists the units of the default collection', async () => {
+  await visit('#/learn', async (p) => {
+    await p.locator('.unit').first().waitFor();
+    assert.equal(await p.locator('.unit').count(), 6);
+    assert.equal(await p.locator('.node.current').count(), 1);
+  });
 });
