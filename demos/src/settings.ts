@@ -1,14 +1,17 @@
-// User settings (UI language, character script, sound). Persisted locally; validated on load.
+// User settings (UI language, character script, sound, and narrator voices). Persisted locally; validated on load.
 export type Lang = 'en' | 'zh';
 export type Script = 'simp' | 'trad';
 export interface Settings {
   lang: Lang;
   script: Script;
   sound: boolean;
+  voiceEn: string;
+  voiceZh: string;
 }
 
 const KEY = 'etymsi.settings.v1';
-const DEFAULTS: Settings = { lang: 'en', script: 'simp', sound: true };
+const VALID_VOICE = /^[a-z][a-z0-9-]{1,31}$/;
+const DEFAULTS: Settings = { lang: 'en', script: 'simp', sound: true, voiceEn: 'narr-en-ava', voiceZh: 'zh' };
 
 function load(): Settings {
   try {
@@ -21,6 +24,8 @@ function load(): Settings {
       lang: o.lang === 'zh' ? 'zh' : 'en',
       script: o.script === 'trad' ? 'trad' : 'simp',
       sound: typeof o.sound === 'boolean' ? o.sound : true,
+      voiceEn: typeof o.voiceEn === 'string' && VALID_VOICE.test(o.voiceEn) ? o.voiceEn : DEFAULTS.voiceEn,
+      voiceZh: typeof o.voiceZh === 'string' && VALID_VOICE.test(o.voiceZh) ? o.voiceZh : DEFAULTS.voiceZh,
     };
   } catch {
     return { ...DEFAULTS }; // corrupted/blocked storage: fall back safely

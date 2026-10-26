@@ -61,16 +61,22 @@
           "provider": {
             "type": "string",
             "enum": [
-              "edge-tts"
+              "edge-tts",
+              "cloudflare"
             ]
           },
           "voice": {
             "type": "string",
-            "pattern": "^[a-z]{2,3}-[A-Z]{2}-[A-Za-z]+Neural$"
+            "pattern": "^([a-z]{2,3}-[A-Z]{2,8}(-[A-Za-z]+)?-[A-Za-z]+Neural|@cf\\/[a-z0-9-]+\\/[a-z0-9-]+(:[a-z0-9-]+)?)$"
           },
           "rate": {
             "type": "string",
             "pattern": "^[+-]\\d{1,2}%$"
+          },
+          "label": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 60
           },
           "normalize": {
             "maxItems": 50,
@@ -105,6 +111,21 @@
           "rate"
         ],
         "additionalProperties": false
+      }
+    },
+    "alternateVoices": {
+      "type": "object",
+      "propertyNames": {
+        "type": "string",
+        "pattern": "^[a-z]{2,8}$"
+      },
+      "additionalProperties": {
+        "maxItems": 16,
+        "type": "array",
+        "items": {
+          "type": "string",
+          "pattern": "^[a-z0-9][a-z0-9-]{0,63}$"
+        }
       }
     },
     "collections": {

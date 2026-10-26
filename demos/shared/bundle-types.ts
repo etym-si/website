@@ -66,9 +66,11 @@ export interface CollectionBundle {
 export interface StageMetaB { id: string; kind: 'picture' | 'paths' | 'strokes'; icon: string; color: string; name: L10n; era: L10n; script?: string; quiz?: boolean }
 export interface SystemB { id: string; name: L10n; signNoun: L10n; textScripts: string[]; stages: StageMetaB[]; variantNotes: Record<string, L10n> }
 export interface LocaleB { id: string; lang: string; section: string }
+export interface VoiceOptionB { id: string; section: string; label: string }
 export interface Catalog {
   v: 1;
   locales: LocaleB[];
+  voices?: Record<string, VoiceOptionB[]>;
   ui: Record<string, L10n>;
   systems: SystemB[];
   collections: { id: string; system: string; title: L10n; file: string; range?: ByteRange }[]; // config.yaml order; the first is the default

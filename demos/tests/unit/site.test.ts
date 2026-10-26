@@ -17,7 +17,7 @@ const find = (re: RegExp) => [...site.files.keys()].filter((k) => re.test(k));
 test('the full corpus compiles cleanly in strict mode into <=20 MiB multi-member .pack.gz shards (~22 files total)', () => {
   assert.deepEqual(diags.lines(), []);
   const packs = find(/^data\/packs\/pack-\d{2}\.[0-9a-f]{10}\.pack\.gz$/);
-  assert.ok(packs.length >= 5 && packs.length <= 8, `expected 5..8 .pack.gz shards, got ${packs.length}`);
+  assert.ok(packs.length >= 5 && packs.length <= 12, `expected 5..12 .pack.gz shards, got ${packs.length}`);
   assert.equal(site.catalog.packs?.length, packs.length);
   for (const p of packs) {
     const bytes = site.files.get(p)!;
@@ -41,7 +41,8 @@ test('a sign bundle is lazy-decoded from its .pack.gz byte range, and its audio 
   assert.deepEqual(Object.keys(马.strokes).sort(), ['马', '馬'].sort());
   assert.equal(马.picture?.rotate, 90);
   assert.equal(马.cards.bronze[0]?.kind, 'appears');
-  assert.deepEqual(Object.keys(马.audio!.sections), ['en', 'zh']);
+  const secIds = Object.keys(马.audio!.sections);
+  assert.ok(secIds.includes('en') && secIds.includes('zh') && secIds.includes('narr-en-ava') && secIds.includes('narr-zh-xiaoyi'));
   const packBytes = site.files.get(马.audio!.mp3)!;
   for (const range of Object.values(马.audio!.sections)) {
     const mp3 = gunzipSlice(packBytes, range);

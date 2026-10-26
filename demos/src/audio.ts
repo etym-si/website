@@ -97,9 +97,22 @@ function disposeSection(s: Section): void {
   s.audio.load();
 }
 
-/** The audio section that voices a UI locale (zh-Hans and zh-Hant share `zh`). */
-export function sectionFor(localeId: string): string {
+/** The base audio section ('en' or 'zh') for a UI locale. */
+export function baseSectionFor(localeId: string): string {
   return CATALOG.locales.find((l) => l.id === localeId)?.section ?? CATALOG.locales[0]?.section ?? 'en';
+}
+
+/** The audio section that voices a UI locale, respecting the user's selected EN/ZH narrator voice. */
+export function sectionFor(localeId: string): string {
+  const baseSec = baseSectionFor(localeId);
+  const st = settings();
+  return baseSec === 'zh' ? (st.voiceZh || 'zh') : (st.voiceEn || 'en');
+}
+
+function resolveSectionId(index: AudioIndex, localeId: string): string {
+  const preferred = sectionFor(localeId);
+  if (index.sections[preferred]) return preferred;
+  return baseSectionFor(localeId);
 }
 
 function sectionCacheKey(index: AudioIndex, id: string): string {
@@ -125,7 +138,7 @@ async function fetchSection(index: AudioIndex, id: string): Promise<Section | nu
 /** Fetch (once, LRU-cached) the section of a bundle's MP3 for the current locale. Null when there is no audio. */
 export function prepareSection(index: AudioIndex | null, localeId: string = locale()): Promise<Section | null> {
   if (!index || !settings().sound) return Promise.resolve(null);
-  const secId = sectionFor(localeId);
+  const secId = resolveSectionId(index, localeId);
   const key = sectionCacheKey(index, secId);
   let p = sections.get(key);
   if (p) {

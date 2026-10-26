@@ -1,12 +1,30 @@
 // Shared UI building blocks.
 import { h, s } from '../dom';
+import { CATALOG } from '../content';
 import { t, tx } from '../i18n';
 import { settings, updateSettings } from '../settings';
 import { chime } from '../audio';
 import { progress } from '../progress';
-import type { Step, SystemB } from '../../shared/bundle-types.ts';
+import type { Step, SystemB, VoiceOptionB } from '../../shared/bundle-types.ts';
 import { buildMascot } from './mascot';
 import { packPill } from './pack-inspector';
+
+function voicePicker(prefix: string, aria: string, options: VoiceOptionB[] | undefined, currentId: string, onSelect: (id: string) => void): HTMLSelectElement | null {
+  if (!options || options.length <= 1) return null;
+  const sel = h('select', {
+    class: 'chip voice-select',
+    'aria-label': aria,
+    title: aria,
+    onchange: (ev: Event) => {
+      chime('tap');
+      onSelect((ev.target as HTMLSelectElement).value);
+    },
+  },
+    ...options.map((o) => h('option', { value: o.id, selected: o.id === currentId ? 'selected' : undefined }, `${prefix}: ${o.label}`)),
+  );
+  sel.value = options.some((o) => o.id === currentId) ? currentId : options[0].id;
+  return sel;
+}
 
 export function button(label: string, onClick: () => void, variant: 'primary' | 'secondary' | 'ghost' | 'danger' = 'primary', extra: Record<string, string> = {}): HTMLButtonElement {
   return h('button', {
@@ -29,6 +47,8 @@ export function header(opts: { showStats?: boolean } = {}): HTMLElement {
       opts.showStats ? h('span', { class: 'stat streak', title: t('streak') }, `🔥 ${p.streak}`) : null,
       opts.showStats ? h('span', { class: 'stat xp' }, `⭐ ${p.xp} XP`) : null,
       packPill(),
+      voicePicker('🎙️ EN', 'English narrator voice', CATALOG.voices?.en, st.voiceEn, (voiceEn) => updateSettings({ voiceEn })),
+      voicePicker('🎙️ 中文', 'Chinese narrator voice', CATALOG.voices?.zh, st.voiceZh, (voiceZh) => updateSettings({ voiceZh })),
       h('div', { class: 'seg', role: 'group', 'aria-label': t('langToggle') },
         toggle('EN', 'English', st.lang === 'en', () => updateSettings({ lang: 'en' })),
         toggle('中文', '中文', st.lang === 'zh', () => updateSettings({ lang: 'zh' }))),

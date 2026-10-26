@@ -4,15 +4,19 @@ locales:
   - { id: en, lang: en, section: en }
   - { id: zh-Hans, lang: zh-Hans, section: zh, fallback: en }
   - { id: zh-Hant, lang: zh-Hant, section: zh, fallback: zh-Hans, audioFrom: zh-Hans }
-narration: # audio section → voice that reads narration lines in it
+narration: # audio section → default voice that reads narration lines in it
   en: narr-en
   zh: narr-zh
+alternateVoices: # selectable voices per audio section in UI display order
+  en: [narr-en-ava, narr-en-aria, narr-en-emma, narr-en-ana, narr-cf-thalia, narr-cf-luna]
+  zh: [narr-zh-xiaoyi, narr-zh-yunxia, narr-zh-yunxi, narr-zh-yunyang, narr-zh-tw]
 voices:
   narr-en:
     provider: edge-tts
     voice: en-US-AvaMultilingualNeural
     rate: '-4%'
-    normalize: # spoken-text rules, in order: JS regex with flags "gu", or a plain replacement when literal; the result is trimmed
+    label: 'Ava Multilingual (Original)'
+    normalize:
       - { find: '\s*艹(?![\p{L}\p{N}_])', replace: '' }
       - { find: '\s*氵(?![\p{L}\p{N}_])', replace: '' }
       - { find: '\s*虍(?![\p{L}\p{N}_])', replace: '' }
@@ -23,10 +27,184 @@ voices:
       - { find: '—', replace: ', ', literal: true }
       - { find: '…', replace: '... ', literal: true }
       - { find: '\s+', replace: ' ' }
+  narr-en-ava:
+    provider: edge-tts
+    voice: en-US-AvaNeural
+    rate: '-5%'
+    label: 'Ava (Pure EN · Warm)'
+    normalize:
+      - { find: '\s*:\s*[\u4e00-\u9fff]+([.!?])', replace: '$1' }
+      - { find: '\s*—\s*[\u4e00-\u9fff]+\s*—\s*', replace: ' ' }
+      - { find: '\s*艹(?![\p{L}\p{N}_])', replace: '' }
+      - { find: '\s*氵(?![\p{L}\p{N}_])', replace: '' }
+      - { find: '\s*虍(?![\p{L}\p{N}_])', replace: '' }
+      - { find: '\s*宀(?![\p{L}\p{N}_])', replace: '' }
+      - { find: '\s*犭(?![\p{L}\p{N}_])', replace: '' }
+      - { find: '\s*厂(?![\p{L}\p{N}_])', replace: '' }
+      - { find: '\s*口(?![\p{L}\p{N}_])', replace: '' }
+      - { find: '—', replace: ', ', literal: true }
+      - { find: '…', replace: '...', literal: true }
+      - { find: '\s+', replace: ' ' }
+  narr-en-aria:
+    provider: edge-tts
+    voice: en-US-AriaNeural
+    rate: '-5%'
+    label: 'Aria (Storybook)'
+    normalize:
+      - { find: '\s*:\s*[\u4e00-\u9fff]+([.!?])', replace: '$1' }
+      - { find: '\s*—\s*[\u4e00-\u9fff]+\s*—\s*', replace: ' ' }
+      - { find: '\s*艹(?![\p{L}\p{N}_])', replace: '' }
+      - { find: '\s*氵(?![\p{L}\p{N}_])', replace: '' }
+      - { find: '\s*虍(?![\p{L}\p{N}_])', replace: '' }
+      - { find: '\s*宀(?![\p{L}\p{N}_])', replace: '' }
+      - { find: '\s*犭(?![\p{L}\p{N}_])', replace: '' }
+      - { find: '\s*厂(?![\p{L}\p{N}_])', replace: '' }
+      - { find: '\s*口(?![\p{L}\p{N}_])', replace: '' }
+      - { find: '—', replace: ', ', literal: true }
+      - { find: '…', replace: '...', literal: true }
+      - { find: '\s+', replace: ' ' }
+  narr-en-emma:
+    provider: edge-tts
+    voice: en-US-EmmaNeural
+    rate: '-5%'
+    label: 'Emma (Cheerful)'
+    normalize:
+      - { find: '\s*:\s*[\u4e00-\u9fff]+([.!?])', replace: '$1' }
+      - { find: '\s*—\s*[\u4e00-\u9fff]+\s*—\s*', replace: ' ' }
+      - { find: '\s*艹(?![\p{L}\p{N}_])', replace: '' }
+      - { find: '\s*氵(?![\p{L}\p{N}_])', replace: '' }
+      - { find: '\s*虍(?![\p{L}\p{N}_])', replace: '' }
+      - { find: '\s*宀(?![\p{L}\p{N}_])', replace: '' }
+      - { find: '\s*犭(?![\p{L}\p{N}_])', replace: '' }
+      - { find: '\s*厂(?![\p{L}\p{N}_])', replace: '' }
+      - { find: '\s*口(?![\p{L}\p{N}_])', replace: '' }
+      - { find: '—', replace: ', ', literal: true }
+      - { find: '…', replace: '...', literal: true }
+      - { find: '\s+', replace: ' ' }
+  narr-en-ana:
+    provider: edge-tts
+    voice: en-US-AnaNeural
+    rate: '+0%'
+    label: 'Ana (Kids / Cartoon)'
+    normalize:
+      - { find: '\s*:\s*[\u4e00-\u9fff]+([.!?])', replace: '$1' }
+      - { find: '\s*—\s*[\u4e00-\u9fff]+\s*—\s*', replace: ' ' }
+      - { find: '\s*艹(?![\p{L}\p{N}_])', replace: '' }
+      - { find: '\s*氵(?![\p{L}\p{N}_])', replace: '' }
+      - { find: '\s*虍(?![\p{L}\p{N}_])', replace: '' }
+      - { find: '\s*宀(?![\p{L}\p{N}_])', replace: '' }
+      - { find: '\s*犭(?![\p{L}\p{N}_])', replace: '' }
+      - { find: '\s*厂(?![\p{L}\p{N}_])', replace: '' }
+      - { find: '\s*口(?![\p{L}\p{N}_])', replace: '' }
+      - { find: '—', replace: ', ', literal: true }
+      - { find: '…', replace: '...', literal: true }
+      - { find: '\s+', replace: ' ' }
+  narr-cf-thalia:
+    provider: cloudflare
+    voice: '@cf/deepgram/aura-2-en:thalia'
+    rate: '+0%'
+    label: 'Deepgram Aura-2 (Thalia)'
+    normalize:
+      - { find: '\s*:\s*[\u4e00-\u9fff]+([.!?])', replace: '$1' }
+      - { find: '\s*—\s*[\u4e00-\u9fff]+\s*—\s*', replace: ' ' }
+      - { find: '\s*艹(?![\p{L}\p{N}_])', replace: '' }
+      - { find: '\s*氵(?![\p{L}\p{N}_])', replace: '' }
+      - { find: '\s*虍(?![\p{L}\p{N}_])', replace: '' }
+      - { find: '\s*宀(?![\p{L}\p{N}_])', replace: '' }
+      - { find: '\s*犭(?![\p{L}\p{N}_])', replace: '' }
+      - { find: '\s*厂(?![\p{L}\p{N}_])', replace: '' }
+      - { find: '\s*口(?![\p{L}\p{N}_])', replace: '' }
+      - { find: '—', replace: ', ', literal: true }
+      - { find: '…', replace: '...', literal: true }
+      - { find: '\s+', replace: ' ' }
+  narr-cf-luna:
+    provider: cloudflare
+    voice: '@cf/deepgram/aura-2-en:luna'
+    rate: '+0%'
+    label: 'Deepgram Aura-2 (Luna)'
+    normalize:
+      - { find: '\s*:\s*[\u4e00-\u9fff]+([.!?])', replace: '$1' }
+      - { find: '\s*—\s*[\u4e00-\u9fff]+\s*—\s*', replace: ' ' }
+      - { find: '\s*艹(?![\p{L}\p{N}_])', replace: '' }
+      - { find: '\s*氵(?![\p{L}\p{N}_])', replace: '' }
+      - { find: '\s*虍(?![\p{L}\p{N}_])', replace: '' }
+      - { find: '\s*宀(?![\p{L}\p{N}_])', replace: '' }
+      - { find: '\s*犭(?![\p{L}\p{N}_])', replace: '' }
+      - { find: '\s*厂(?![\p{L}\p{N}_])', replace: '' }
+      - { find: '\s*口(?![\p{L}\p{N}_])', replace: '' }
+      - { find: '—', replace: ', ', literal: true }
+      - { find: '…', replace: '...', literal: true }
+      - { find: '\s+', replace: ' ' }
   narr-zh:
     provider: edge-tts
     voice: zh-CN-XiaoxiaoNeural
     rate: '-6%'
+    label: '晓晓 Xiaoxiao (Warm)'
+    normalize:
+      - { find: '草字头“艹”', replace: '草字头', literal: true }
+      - { find: '“艹”', replace: '草字头', literal: true }
+      - { find: '”虍', replace: '”', literal: true }
+      - { find: '屋顶“宀”', replace: '宝盖头', literal: true }
+      - { find: '反犬旁“犭”', replace: '反犬旁', literal: true }
+      - { find: '山崖“厂”', replace: '山崖厂字头', literal: true }
+      - { find: '“厂”', replace: '厂字头', literal: true }
+  narr-zh-xiaoyi:
+    provider: edge-tts
+    voice: zh-CN-XiaoyiNeural
+    rate: '-10%'
+    label: '晓伊 Xiaoyi (Cartoon)'
+    normalize:
+      - { find: '草字头“艹”', replace: '草字头', literal: true }
+      - { find: '“艹”', replace: '草字头', literal: true }
+      - { find: '”虍', replace: '”', literal: true }
+      - { find: '屋顶“宀”', replace: '宝盖头', literal: true }
+      - { find: '反犬旁“犭”', replace: '反犬旁', literal: true }
+      - { find: '山崖“厂”', replace: '山崖厂字头', literal: true }
+      - { find: '“厂”', replace: '厂字头', literal: true }
+  narr-zh-yunxia:
+    provider: edge-tts
+    voice: zh-CN-YunxiaNeural
+    rate: '-5%'
+    label: '云夏 Yunxia (Cute Kid)'
+    normalize:
+      - { find: '草字头“艹”', replace: '草字头', literal: true }
+      - { find: '“艹”', replace: '草字头', literal: true }
+      - { find: '”虍', replace: '”', literal: true }
+      - { find: '屋顶“宀”', replace: '宝盖头', literal: true }
+      - { find: '反犬旁“犭”', replace: '反犬旁', literal: true }
+      - { find: '山崖“厂”', replace: '山崖厂字头', literal: true }
+      - { find: '“厂”', replace: '厂字头', literal: true }
+  narr-zh-yunxi:
+    provider: edge-tts
+    voice: zh-CN-YunxiNeural
+    rate: '-8%'
+    label: '云希 Yunxi (Sunny)'
+    normalize:
+      - { find: '草字头“艹”', replace: '草字头', literal: true }
+      - { find: '“艹”', replace: '草字头', literal: true }
+      - { find: '”虍', replace: '”', literal: true }
+      - { find: '屋顶“宀”', replace: '宝盖头', literal: true }
+      - { find: '反犬旁“犭”', replace: '反犬旁', literal: true }
+      - { find: '山崖“厂”', replace: '山崖厂字头', literal: true }
+      - { find: '“厂”', replace: '厂字头', literal: true }
+  narr-zh-yunyang:
+    provider: edge-tts
+    voice: zh-CN-YunyangNeural
+    rate: '-8%'
+    label: '云扬 Yunyang (Documentary)'
+    normalize:
+      - { find: '草字头“艹”', replace: '草字头', literal: true }
+      - { find: '“艹”', replace: '草字头', literal: true }
+      - { find: '”虍', replace: '”', literal: true }
+      - { find: '屋顶“宀”', replace: '宝盖头', literal: true }
+      - { find: '反犬旁“犭”', replace: '反犬旁', literal: true }
+      - { find: '山崖“厂”', replace: '山崖厂字头', literal: true }
+      - { find: '“厂”', replace: '厂字头', literal: true }
+  narr-zh-tw:
+    provider: edge-tts
+    voice: zh-TW-HsiaoChenNeural
+    rate: '-5%'
+    label: '曉臻 HsiaoChen (Taiwan)'
     normalize:
       - { find: '草字头“艹”', replace: '草字头', literal: true }
       - { find: '“艹”', replace: '草字头', literal: true }

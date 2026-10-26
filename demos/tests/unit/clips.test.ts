@@ -21,7 +21,8 @@ test('narration gets one clip per locale; zh-Hant reuses the zh-Hans audio; pron
   const pron = says.find((s) => s.lang === 'zh')!;
   assert.deepEqual(new Set(Object.values(pron.clip!)), new Set([r.pronunciation('马')]));
   const sections = r.sectionKeys(steps, [r.pronunciation('马')!]);
-  assert.deepEqual(sections.map((s) => s.id), ['en', 'zh']);
+  assert.ok(sections.some((s) => s.id === 'en') && sections.some((s) => s.id === 'zh'));
+  assert.ok(sections.some((s) => s.id === 'narr-en-ava') && sections.some((s) => s.id === 'narr-zh-xiaoyi'));
   assert.equal(sections[0].keys[0], r.pronunciation('马'));
   assert.ok(sections[1].keys.includes(r.pronunciation('马')!));
   assert.equal(r.missing.size, 0);

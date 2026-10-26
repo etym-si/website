@@ -218,94 +218,39 @@ export function packStoriesAndCollections(
 ): { storyLocs: Map<string, SliceLoc>; collectionLocs: Map<string, SliceLoc> } {
   const storyLocs = new Map<string, SliceLoc>();
   const collectionLocs = new Map<string, SliceLoc>();
+  const limit = MAX_PACK_BYTES - SHARD_HEADROOM;
 
-  const preparedStories = stories.map((st) => prepareItem<StoryBundle>(st.key, st.bundle, st.packed, encodeStoryBundle));
-  // Compute a deterministic shard hash over the stories and collection ids
-  const shardIdx = packs.length;
-  const h = createHash('sha256');
-  for (const st of preparedStories) h.update(st.key).update(st.digest);
-
-  // First pass: assign story offsets starting at 0 using a placeholder pack filename to build collections
-  const placeholderPack = `data/packs/pack-${String(shardIdx).padStart(2, '0')}.0000000000.pack.gz`;
-  const tempStoryLocs = new Map<string, SliceLoc>();
-  let tempOffset = 0;
-  for (const item of preparedStories) {
-    for (const sec of item.secs) tempOffset += sec.gz.length;
-    const tempAudio: AudioIndex | null =
-      item.audioClips && item.secs.length
-        ? { mp3: placeholderPack, sections: Object.fromEntries(item.secs.map((s) => [s.id, [0, s.gz.length]])), clips: item.audioClips }
-        : null;
-    const pbGz = gzipMember(item.encode({ ...(item.bundle as object), audio: tempAudio } as StoryBundle), 6);
-    tempStoryLocs.set(item.key, { file: placeholderPack, range: [tempOffset, pbGz.length] });
-    tempOffset += pbGz.length;
-  }
-
-  const rawColls = buildCollections(tempStoryLocs);
-  const preparedColls = rawColls.map((c) => prepareItem<CollectionBundle>(c.key, c.bundle, c.packed, encodeCollectionBundle));
-  for (const c of preparedColls) h.update(c.key).update(c.digest);
-  const hash = h.digest('hex').slice(0, 10);
-  const packFile = `data/packs/pack-${String(shardIdx).padStart(2, '0')}.${hash}.pack.gz`;
-
-  const members: Uint8Array[] = [];
-  let offset = 0;
-  let rawBytes = 0;
-
-  for (const item of preparedStories) {
-    let audio: AudioIndex | null = null;
-    if (item.audioClips && item.secs.length) {
-      const sections: Record<string, [number, number]> = {};
-      for (const sec of item.secs) {
-        sections[sec.id] = [offset, sec.gz.length];
-        members.push(sec.gz);
-        offset += sec.gz.length;
-        rawBytes += sec.rawLen;
-      }
-      audio = { mp3: packFile, sections, clips: item.audioClips };
+  let storyBatch: PreparedItem<StoryBundle>[] = [];
+  let storyEst = 0;
+  for (const st of stories) {
+    const item = prepareItem<StoryBundle>(st.key, st.bundle, st.packed, encodeStoryBundle);
+    if (storyBatch.length > 0 && storyEst + item.estBytes > limit) {
+      finalizeBatch(packs.length, 'collections', storyBatch, files, packs, storyLocs);
+      storyBatch = [];
+      storyEst = 0;
     }
-    const pbRaw = item.encode({ ...(item.bundle as object), audio } as StoryBundle);
-    const pbGz = gzipMember(pbRaw, 6);
-    storyLocs.set(item.key, { file: packFile, range: [offset, pbGz.length] });
-    members.push(pbGz);
-    offset += pbGz.length;
-    rawBytes += pbRaw.length;
+    storyBatch.push(item);
+    storyEst += item.estBytes;
+  }
+  if (storyBatch.length > 0) {
+    finalizeBatch(packs.length, 'collections', storyBatch, files, packs, storyLocs);
   }
 
-  const finalColls = buildCollections(storyLocs).map((c) => prepareItem<CollectionBundle>(c.key, c.bundle, c.packed, encodeCollectionBundle));
-  for (const item of finalColls) {
-    let audio: AudioIndex | null = null;
-    if (item.audioClips && item.secs.length) {
-      const sections: Record<string, [number, number]> = {};
-      for (const sec of item.secs) {
-        sections[sec.id] = [offset, sec.gz.length];
-        members.push(sec.gz);
-        offset += sec.gz.length;
-        rawBytes += sec.rawLen;
-      }
-      audio = { mp3: packFile, sections, clips: item.audioClips };
+  let collBatch: PreparedItem<CollectionBundle>[] = [];
+  let collEst = 0;
+  for (const c of buildCollections(storyLocs)) {
+    const item = prepareItem<CollectionBundle>(c.key, c.bundle, c.packed, encodeCollectionBundle);
+    if (collBatch.length > 0 && collEst + item.estBytes > limit) {
+      finalizeBatch(packs.length, 'collections', collBatch, files, packs, collectionLocs);
+      collBatch = [];
+      collEst = 0;
     }
-    const pbRaw = item.encode({ ...(item.bundle as object), audio } as CollectionBundle);
-    const pbGz = gzipMember(pbRaw, 6);
-    collectionLocs.set(item.key, { file: packFile, range: [offset, pbGz.length] });
-    members.push(pbGz);
-    offset += pbGz.length;
-    rawBytes += pbRaw.length;
+    collBatch.push(item);
+    collEst += item.estBytes;
+  }
+  if (collBatch.length > 0) {
+    finalizeBatch(packs.length, 'collections', collBatch, files, packs, collectionLocs);
   }
 
-  if (members.length > 0) {
-    const out = new Uint8Array(offset);
-    let at = 0;
-    for (const m of members) {
-      out.set(m, at);
-      at += m.length;
-    }
-    files.set(packFile, out);
-    packs.push({
-      file: packFile,
-      bytes: out.length,
-      rawBytes,
-      items: preparedStories.length + finalColls.length,
-      kind: 'collections',
-    });
-  }
   return { storyLocs, collectionLocs };
 }

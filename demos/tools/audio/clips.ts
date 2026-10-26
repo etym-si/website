@@ -74,7 +74,7 @@ export class ClipResolver {
   }
 
   /** Clip keys per audio section, in first-use order; `extra` (e.g. the pronunciation) goes first in every section. */
-  sectionKeys(steps: Step[], extra: string[] = []): { id: string; keys: string[] }[] {
+  sectionKeys(steps: Step[], extra: string[] = []): { id: string; keys: string[]; aliases?: [string, string][] }[] {
     const per = new Map<string, Set<string>>(this.sections.map((id) => [id, new Set(extra)]));
     const sectionOf = new Map(this.content.config.data.locales.map((l) => [l.id, l.section]));
     const visit = (list: Step[]) => {
@@ -88,11 +88,61 @@ export class ClipResolver {
       }
     };
     visit(steps);
-    return [...per].map(([id, keys]) => ({ id, keys: [...keys] }));
+    const out: { id: string; keys: string[]; aliases?: [string, string][] }[] = [...per].map(([id, keys]) => ({ id, keys: [...keys] }));
+
+    const altMap = this.content.config.data.alternateVoices ?? {};
+    for (const [baseSec, altVoiceIds] of Object.entries(altMap)) {
+      const loc = this.content.config.data.locales.find((l) => l.section === baseSec);
+      if (!loc) continue;
+      const spokenLocale = loc.audioFrom ?? loc.id;
+      for (const altVoiceId of altVoiceIds) {
+        const altVoice = this.content.config.data.voices[altVoiceId];
+        if (!altVoice) continue;
+        const altSet = new Set<string>(extra);
+        const aliases: [string, string][] = [];
+        let complete = true;
+        let hasNarration = false;
+        const visitAlt = (list: Step[]) => {
+          for (const s of list) {
+            if (!complete) return;
+            if (s.do === 'together') { visitAlt(s.steps); continue; }
+            if (s.do !== 'say' || !s.clip) continue;
+            if (s.lang === 'zh') {
+              const pKey = s.clip[loc.id];
+              if (pKey) altSet.add(pKey);
+              continue;
+            }
+            const primaryKey = s.clip[loc.id];
+            if (!primaryKey) continue;
+            hasNarration = true;
+            const raw = typeof s.text === 'string' ? s.text : pick(this.content, s.text, spokenLocale);
+            const { key: altKey } = voiceClip(altVoice, raw);
+            if (!this.media.clips[altKey]) { complete = false; return; }
+            altSet.add(altKey);
+            aliases.push([primaryKey, altKey]);
+          }
+        };
+        visitAlt(steps);
+        if (complete && hasNarration) out.push({ id: altVoiceId, keys: [...altSet], aliases });
+      }
+    }
+    return out;
   }
 
-  pack(sections: { id: string; keys: string[] }[]): PackedAudio | null {
+  pack(sections: { id: string; keys: string[]; aliases?: [string, string][] }[]): PackedAudio | null {
     if (!sections.some((s) => s.keys.length)) return null;
-    return packSections(sections, (key) => readFileSync(clipPath(this.mediaDir, key)), this.gapFrames);
+    const packed = packSections(sections, (key) => readFileSync(clipPath(this.mediaDir, key)), this.gapFrames);
+    const primaryKeys = new Set<string>();
+    for (const s of sections) {
+      if (!s.aliases) for (const k of s.keys) primaryKeys.add(k);
+    }
+    for (const s of sections) {
+      for (const [primaryKey, altKey] of s.aliases ?? []) {
+        const pos = packed.clips[altKey]?.[s.id];
+        if (pos) (packed.clips[primaryKey] ??= {})[s.id] = pos;
+        if (altKey !== primaryKey && !primaryKeys.has(altKey)) delete packed.clips[altKey];
+      }
+    }
+    return packed;
   }
 }
