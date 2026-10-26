@@ -2,12 +2,37 @@
 import { h, s } from '../dom';
 import { CATALOG } from '../content';
 import { t, tx } from '../i18n';
-import { settings, updateSettings } from '../settings';
-import { chime } from '../audio';
+import { settings, updateSettings, type TtsMode } from '../settings';
+import { chime, warmupKokoro } from '../audio';
 import { progress } from '../progress';
 import type { Step, SystemB, VoiceOptionB } from '../../shared/bundle-types.ts';
 import { buildMascot } from './mascot';
 import { packPill } from './pack-inspector';
+
+function ttsModePicker(current: TtsMode, onSelect: (m: TtsMode) => void): HTMLSelectElement {
+  const modes: { id: TtsMode; label: string }[] = [
+    { id: 'pack', label: '📦 Mode: Pack Audio (.pack.gz)' },
+    { id: 'live', label: '⚡ Mode: Live Edge-TTS (/api/tts)' },
+    { id: 'kokoro', label: '🧠 Mode: Kokoro Offline (82M WASM)' },
+  ];
+  const sel = h(
+    'select',
+    {
+      class: 'chip voice-select tts-mode-select',
+      'aria-label': 'TTS synthesis mode',
+      title: 'Choose between pre-packed audio, live Edge-TTS WebSocket, or 100% offline in-browser Kokoro-82M WASM',
+      onchange: (ev: Event) => {
+        chime('tap');
+        const val = (ev.target as HTMLSelectElement).value as TtsMode;
+        if (val === 'kokoro') warmupKokoro();
+        onSelect(val);
+      },
+    },
+    ...modes.map((m) => h('option', { value: m.id, selected: m.id === current ? 'selected' : undefined }, m.label)),
+  );
+  sel.value = current;
+  return sel;
+}
 
 function voicePicker(prefix: string, aria: string, options: VoiceOptionB[] | undefined, currentId: string, onSelect: (id: string) => void): HTMLSelectElement | null {
   if (!options || options.length <= 1) return null;
@@ -47,12 +72,7 @@ export function header(opts: { showStats?: boolean } = {}): HTMLElement {
       opts.showStats ? h('span', { class: 'stat streak', title: t('streak') }, `🔥 ${p.streak}`) : null,
       opts.showStats ? h('span', { class: 'stat xp' }, `⭐ ${p.xp} XP`) : null,
       packPill(),
-      toggle(
-        st.liveTts ? '⚡ Live TTS' : '📦 Pack TTS',
-        'Toggle dynamic web voice generation (/api/tts) vs pre-packed audio',
-        st.liveTts,
-        () => updateSettings({ liveTts: !st.liveTts }),
-      ),
+      ttsModePicker(st.ttsMode, (ttsMode) => updateSettings({ ttsMode })),
       voicePicker('🎙️ EN', 'English narrator voice', CATALOG.voices?.en, st.voiceEn, (voiceEn) => updateSettings({ voiceEn })),
       voicePicker('🎙️ 中文', 'Chinese narrator voice', CATALOG.voices?.zh, st.voiceZh, (voiceZh) => updateSettings({ voiceZh })),
       h('div', { class: 'seg', role: 'group', 'aria-label': t('langToggle') },

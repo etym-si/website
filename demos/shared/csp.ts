@@ -2,11 +2,11 @@
 // blob: is allowed for media only: audio sections the app range-fetched from its own origin.
 export const CSP = [
   "default-src 'self'",
-  "script-src 'self'",
+  "script-src 'self' 'wasm-unsafe-eval'",
   "style-src 'self'",
   "img-src 'self' data:",
   "font-src 'self'",
-  "connect-src 'self'",
+  "connect-src 'self' data: blob:",
   "media-src 'self' blob:",
   "object-src 'none'",
   "base-uri 'none'",

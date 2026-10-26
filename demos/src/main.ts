@@ -42,7 +42,8 @@ onSettingsChange((s) => {
     s.sound !== last.sound ||
     s.voiceEn !== last.voiceEn ||
     s.voiceZh !== last.voiceZh ||
-    s.liveTts !== last.liveTts;
+    s.liveTts !== last.liveTts ||
+    s.ttsMode !== last.ttsMode;
   last = { ...s };
   if (!s.sound) cancelSpeech();
   if (relayout) route();

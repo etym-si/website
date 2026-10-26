@@ -1,4 +1,6 @@
+import { createReadStream, existsSync, statSync } from 'node:fs';
 import type { IncomingMessage, ServerResponse } from 'node:http';
+import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { defineConfig, type Plugin } from 'vite';
 import { CSP, SECURITY_HEADERS } from './shared/csp.ts';
@@ -8,6 +10,51 @@ import { synthesizeEdgeTts, validateTtsParams } from './shared/edge-tts-live.ts'
 // (Styles are applied via CSSOM / Web Animations API only, which CSP allows.) blob: only for range-fetched audio.
 // The Egyptian e2e build points these at a temporary content build via ETYM_* variables.
 const GENERATED = process.env.ETYM_GENERATED_DIR ?? fileURLToPath(new URL('./src/generated', import.meta.url));
+const KOKORO_CACHE_ROOT = path.resolve(fileURLToPath(new URL('./scripts/.cache/kokoro', import.meta.url)));
+
+function serveKokoroAsset(req: IncomingMessage, res: ServerResponse): boolean {
+  if (!req.url?.startsWith('/kokoro/')) return false;
+  if (req.method !== 'GET' && req.method !== 'HEAD') {
+    res.statusCode = 405;
+    res.end('Method Not Allowed');
+    return true;
+  }
+  const u = new URL(req.url, 'http://localhost');
+  const relPath = decodeURIComponent(u.pathname.slice('/kokoro/'.length));
+  const resolved = path.resolve(KOKORO_CACHE_ROOT, relPath);
+  // Strict directory boundary check against path traversal
+  if (!resolved.startsWith(KOKORO_CACHE_ROOT + path.sep) || !existsSync(resolved)) {
+    res.statusCode = 404;
+    res.end('Not Found');
+    return true;
+  }
+  const st = statSync(resolved);
+  if (!st.isFile()) {
+    res.statusCode = 404;
+    res.end('Not Found');
+    return true;
+  }
+  const ext = path.extname(resolved).toLowerCase();
+  const mime =
+    ext === '.wasm'
+      ? 'application/wasm'
+      : ext === '.mjs' || ext === '.js'
+        ? 'text/javascript; charset=utf-8'
+        : ext === '.json'
+          ? 'application/json; charset=utf-8'
+          : 'application/octet-stream';
+  res.statusCode = 200;
+  res.setHeader('Content-Type', mime);
+  res.setHeader('Content-Length', String(st.size));
+  res.setHeader('Cache-Control', 'public, max-age=31536000, immutable');
+  res.setHeader('X-Content-Type-Options', 'nosniff');
+  if (req.method === 'HEAD') {
+    res.end();
+    return true;
+  }
+  createReadStream(resolved).pipe(res);
+  return true;
+}
 
 /** Inject the CSP <meta> into the production build only (Vite's dev server needs inline styles for HMR). */
 function cspMeta(): Plugin {
@@ -81,6 +128,7 @@ async function handleApiTts(req: IncomingMessage, res: ServerResponse): Promise<
 function rawPacks(): Plugin {
   const hook = (middlewares: { use: (fn: (req: IncomingMessage, res: ServerResponse, next: () => void) => void) => void }) => {
     middlewares.use((req, res, next) => {
+      if (serveKokoroAsset(req, res)) return;
       if (req.url?.startsWith('/api/tts')) {
         void handleApiTts(req, res);
         return;

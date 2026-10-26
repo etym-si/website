@@ -37,3 +37,13 @@ test('escapeXml and normalizeSpokenText sanitize XML entities and CJK radical na
   assert.equal(escapeXml('a < b & "c" \'d\'\x0b'), 'a &lt; b &amp; &quot;c&quot; &apos;d&apos; ');
   assert.equal(normalizeSpokenText('zh-CN-XiaoxiaoNeural', '加上草字头“艹”'), '加上草字头');
 });
+
+test('zhToKokoroIpa and encodeWav24k produce valid Misaki IPA tokens and RIFF WAVE headers', async () => {
+  const { zhToKokoroIpa, encodeWav24k } = await import('../../src/kokoro-client.ts');
+  const ipa = zhToKokoroIpa('山谷还在熟睡。');
+  assert.ok(ipa.includes('ʂa→n') && ipa.includes('ku↓') && ipa.includes('xai↗'), `unexpected IPA: ${ipa}`);
+  const wav = encodeWav24k(new Float32Array([0, 0.5, -0.5, 0]));
+  assert.equal(new TextDecoder().decode(wav.subarray(0, 4)), 'RIFF');
+  assert.equal(new TextDecoder().decode(wav.subarray(8, 12)), 'WAVE');
+  assert.equal(wav.byteLength, 44 + 8);
+});

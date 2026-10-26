@@ -23,7 +23,9 @@
     "typecheck:tools": "tsc --noEmit -p tsconfig.tools.json"
   },
   "dependencies": {
-    "hanzi-writer": "3.7.3"
+    "hanzi-writer": "3.7.3",
+    "kokoro-js": "^1.2.1",
+    "pinyin-pro": "^3.29.5"
   },
   "devDependencies": {
     "@types/node": "24.19.2",

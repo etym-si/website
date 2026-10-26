@@ -135,9 +135,9 @@ async function fetchSection(index: AudioIndex, id: string): Promise<Section | nu
   return { key, audio, url, clips };
 }
 
-/** Fetch (once, LRU-cached) the section of a bundle's MP3 for the current locale. Null when there is no audio or liveTts is on. */
+/** Fetch (once, LRU-cached) the section of a bundle's MP3 for the current locale. Null when there is no audio or non-pack TTS mode is on. */
 export function prepareSection(index: AudioIndex | null, localeId: string = locale()): Promise<Section | null> {
-  if (!index || !settings().sound || settings().liveTts) return Promise.resolve(null);
+  if (!index || !settings().sound || settings().ttsMode !== 'pack') return Promise.resolve(null);
   const secId = resolveSectionId(index, localeId);
   const key = sectionCacheKey(index, secId);
   let p = sections.get(key);
@@ -279,12 +279,7 @@ async function fetchLiveTtsUrl(voice: string, rate: string, text: string): Promi
   return p;
 }
 
-/** Synthesize and play a line on-demand via /api/tts, falling back to Web Speech API if offline. */
-export async function speakLiveTts(text: string, lang: 'zh' | 'en', isSingleCharPron = false): Promise<void> {
-  if (!settings().sound || !text) return;
-  const { voice, rate } = resolveVoiceSpec(lang, isSingleCharPron);
-  const blobUrl = await fetchLiveTtsUrl(voice, rate, text);
-  if (!blobUrl) return speakDevice(text, lang);
+function playBlobUrl(blobUrl: string, textLen: number): Promise<void> {
   cancelSpeech();
   return new Promise((resolve) => {
     const a = new Audio(blobUrl);
@@ -300,7 +295,7 @@ export async function speakLiveTts(text: string, lang: 'zh' | 'en', isSingleChar
       if (activeFinish === finish) activeFinish = null;
       resolve();
     };
-    const timer = setTimeout(finish, Math.max(4000, text.length * 260));
+    const timer = setTimeout(finish, Math.max(4000, textLen * 260));
     activeAudio = a;
     activeFinish = finish;
     a.playbackRate = speechSpeed;
@@ -310,11 +305,77 @@ export async function speakLiveTts(text: string, lang: 'zh' | 'en', isSingleChar
   });
 }
 
-/** Speak a line: live /api/tts when enabled or when the selected alternate voice is not in the pack; else compiled clip or device speech. */
+/** Synthesize and play a line on-demand via /api/tts, falling back to Web Speech API if offline. */
+export async function speakLiveTts(text: string, lang: 'zh' | 'en', isSingleCharPron = false): Promise<void> {
+  if (!settings().sound || !text) return;
+  const { voice, rate } = resolveVoiceSpec(lang, isSingleCharPron);
+  const blobUrl = await fetchLiveTtsUrl(voice, rate, text);
+  if (!blobUrl) return speakDevice(text, lang);
+  return playBlobUrl(blobUrl, text.length);
+}
+
+/** Pre-warm the in-browser Kokoro-82M ONNX engine in the background when selected. */
+export function warmupKokoro(): void {
+  void import('./kokoro-client').then((m) => m.ensureKokoroEngine()).catch(() => {});
+}
+
+async function fetchKokoroUrl(text: string, lang: 'zh' | 'en', uiVoiceId: string): Promise<string | null> {
+  const cacheKey = `kokoro|${lang}|${uiVoiceId}|${text}`;
+  const existing = liveClipUrls.get(cacheKey);
+  if (existing) {
+    liveClipUrls.delete(cacheKey);
+    liveClipUrls.set(cacheKey, existing);
+    return existing;
+  }
+  const p = (async () => {
+    const t0 = performance.now();
+    const { synthesizeKokoroBrowser } = await import('./kokoro-client');
+    const { wavBytes, kokoroVoice } = await synthesizeKokoroBrowser({ text, lang, uiVoiceId });
+    const ms = Math.max(1, Math.round(performance.now() - t0));
+    const shortText = text.length > 22 ? `${text.slice(0, 20)}…` : text;
+    packTelemetry.record({
+      label: `🧠 kokoro:${kokoroVoice} "${shortText}"`,
+      kind: 'audio',
+      file: 'kokoro-wasm',
+      range: [0, wavBytes.byteLength],
+      gzBytes: wavBytes.byteLength,
+      rawBytes: wavBytes.byteLength,
+      status: 200,
+      ms,
+    });
+    const copy = new Uint8Array(wavBytes.byteLength);
+    copy.set(wavBytes);
+    return URL.createObjectURL(new Blob([copy], { type: 'audio/wav' }));
+  })().catch(() => null);
+
+  liveClipUrls.set(cacheKey, p);
+  while (liveClipUrls.size > MAX_LIVE_CLIPS) {
+    const [oldKey, oldP] = liveClipUrls.entries().next().value!;
+    liveClipUrls.delete(oldKey);
+    void oldP.then((u) => { if (u) URL.revokeObjectURL(u); });
+  }
+  return p;
+}
+
+/** Synthesize and play a line 100% locally in-browser via Kokoro-82M WASM (offline-capable). */
+export async function speakKokoroTts(text: string, lang: 'zh' | 'en'): Promise<void> {
+  if (!settings().sound || !text) return;
+  const st = settings();
+  const uiVoiceId = lang === 'zh' ? st.voiceZh : st.voiceEn;
+  const blobUrl = await fetchKokoroUrl(text, lang, uiVoiceId);
+  if (!blobUrl) return speakDevice(text, lang);
+  return playBlobUrl(blobUrl, text.length);
+}
+
+/** Speak a line: Kokoro offline WASM, live /api/tts, or compiled .pack.gz clip with fallback. */
 export function speakLine(section: Section | null, key: string | undefined, text: string, lang: 'zh' | 'en'): Promise<void> {
   if (!settings().sound || !text) return Promise.resolve();
+  const mode = settings().ttsMode;
+  if (mode === 'kokoro') {
+    return speakKokoroTts(text, lang);
+  }
   const isPron = lang === 'zh' && text.length <= 4;
-  if (settings().liveTts) {
+  if (mode === 'live') {
     return speakLiveTts(text, lang, isPron);
   }
   if (section && key && section.clips[key]) {
