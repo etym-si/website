@@ -43,7 +43,13 @@ test('cards carry the vessel name into the traced-from sentence and keep {shown}
 test('no placeholder is ever left in a compiled card', () => {
   for (const s of han.signs.values()) {
     for (const list of Object.values(resolveSignCards(content, han, s, url, signTimeline(han, s)))) {
-      for (const c of list) if (c) for (const t of [...Object.values(c.title), ...Object.values(c.text)]) assert.deepEqual(leftovers(t), [], `${s.key}: ${t}`);
+      for (const c of list) {
+        if (!c) continue;
+        const markTexts = c.marks?.flatMap((m) => (m.label ? Object.values(m.label) : [])) ?? [];
+        for (const t of [...Object.values(c.title), ...Object.values(c.text), ...markTexts]) {
+          assert.deepEqual(leftovers(t), [], `${s.key}: ${t}`);
+        }
+      }
     }
   }
 });
