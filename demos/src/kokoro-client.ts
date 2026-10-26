@@ -118,11 +118,50 @@ async function idbPut(key: string, entry: StoredEntry): Promise<void> {
   await idbWriteRaw(db, key, meta);
 }
 
+async function fetchAndCacheChunkedOnnx(key: string): Promise<StoredEntry | null> {
+  try {
+    const metaRes = await fetch(`${key}.meta.json`, { credentials: 'same-origin' });
+    if (!metaRes.ok) return null;
+    const meta = (await metaRes.json()) as StoredChunkMeta;
+    if (!meta?.chunked || !meta.chunkCount || !meta.totalByteLength) return null;
+    const db = await openIdb();
+    const merged = new Uint8Array(meta.totalByteLength);
+    let offset = 0;
+    const batchSize = 4;
+    for (let base = 0; base < meta.chunkCount; base += batchSize) {
+      const indices: number[] = [];
+      for (let j = base; j < Math.min(base + batchSize, meta.chunkCount); j++) indices.push(j);
+      const buffers = await Promise.all(
+        indices.map(async (idx) => {
+          const r = await fetch(`${key}.part${idx}`, { credentials: 'same-origin' });
+          if (!r.ok) throw new Error(`Failed to fetch ${key}.part${idx}: ${r.status}`);
+          return r.arrayBuffer();
+        }),
+      );
+      for (let k = 0; k < indices.length; k++) {
+        const idx = indices[k]!;
+        const buf = buffers[k]!;
+        const view = new Uint8Array(buf);
+        merged.set(view, offset);
+        offset += view.byteLength;
+        if (db) await idbWriteRaw(db, `${key}#part:${idx}`, buf);
+      }
+    }
+    if (db) await idbWriteRaw(db, key, meta);
+    return { body: merged.buffer, contentType: meta.contentType || 'application/octet-stream' };
+  } catch {
+    return null;
+  }
+}
+
 /** IndexedDB-backed CustomCache for @huggingface/transformers (works on HTTP LAN IPs and HTTPS, 100% offline). */
 const idbCustomCache = {
   async match(request: Request | string): Promise<Response | undefined> {
     const key = typeof request === 'string' ? request : request.url;
-    const hit = await idbGet(key);
+    let hit = await idbGet(key);
+    if (!hit && key.endsWith('.onnx')) {
+      hit = await fetchAndCacheChunkedOnnx(key);
+    }
     if (!hit) return undefined;
     return new Response(hit.body, {
       status: 200,
