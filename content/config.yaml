@@ -8,7 +8,7 @@ narration: # audio section → default voice that reads narration lines in it
   en: narr-en
   zh: narr-zh
 alternateVoices: # selectable voices per audio section in UI display order
-  en: [narr-en-ava, narr-en-aria, narr-en-emma, narr-en-ana, narr-cf-thalia, narr-cf-luna]
+  en: [narr-en-ava, narr-en-aria, narr-en-emma, narr-en-ana]
   zh: [narr-zh-xiaoyi, narr-zh-yunxia, narr-zh-yunxi, narr-zh-yunyang, narr-zh-tw]
 voices:
   narr-en:
