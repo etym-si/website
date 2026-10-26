@@ -4,7 +4,7 @@ import type { CollectionBundle, SignBundle, StoryBundle } from './bundle-types.t
 import { checkSvgTree, PATH_D, TRANSFORM, type SvgNode } from './svg-tree.ts';
 
 /** Every compiled asset path: data/<dirs>/<name>.<10-hex hash>.<ext>. */
-export const DATA_FILE = /^data\/[a-z0-9/-]+\/[A-Za-z0-9-]+\.[0-9a-f]{10}\.(json|mp3|jpg|png)$/;
+export const DATA_FILE = /^data\/[a-z0-9/-]+\/[A-Za-z0-9-]+\.[0-9a-f]{10}\.(json|mp3|jpg|png|pack\.gz)$/;
 const COMMONS_PAGE = /^https:\/\/commons\.wikimedia\.org\/wiki\/\S+$/;
 
 const fail = (what: string): never => { throw new Error(`bad bundle: ${what}`); };
@@ -104,8 +104,16 @@ export function checkCollectionBundle(v: unknown): CollectionBundle {
   const o = obj(v, 'collection');
   if (o.v !== 1) fail('version');
   arr(o.units, 'units'); arr(o.lessons, 'lessons');
-  for (const [k, s] of Object.entries(obj(o.signs, 'signs'))) file(obj(s, `signs.${k}`).file, `signs.${k}`);
-  arr(o.stories, 'stories').forEach((s, i) => file(obj(s, `stories[${i}]`).file, `stories[${i}]`));
+  for (const [k, s] of Object.entries(obj(o.signs, 'signs'))) {
+    const sg = obj(s, `signs.${k}`);
+    file(sg.file, `signs.${k}`);
+    if (sg.range !== undefined) { const r = arr(sg.range, `signs.${k}.range`); num(r[0], `signs.${k}.range[0]`); num(r[1], `signs.${k}.range[1]`); }
+  }
+  arr(o.stories, 'stories').forEach((s, i) => {
+    const st = obj(s, `stories[${i}]`);
+    file(st.file, `stories[${i}]`);
+    if (st.range !== undefined) { const r = arr(st.range, `stories[${i}].range`); num(r[0], `stories[${i}].range[0]`); num(r[1], `stories[${i}].range[1]`); }
+  });
   checkAudio(o.audio, 'audio');
   return o as unknown as CollectionBundle;
 }

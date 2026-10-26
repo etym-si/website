@@ -6,6 +6,8 @@ import type { SvgNode } from './svg-tree.ts';
 
 export type { L10n, Step, SvgNode };
 export type Box = [number, number, number, number];
+export type ByteRange = [start: number, length: number];
+export interface PackMetaB { file: string; bytes: number; rawBytes: number; items: number; kind: 'signs' | 'collections' }
 export interface GlyphPath { d: string; t?: string; mode?: 'stroke' | 'knockout'; w?: number; rule?: 'evenodd' }
 export interface FormB { stage: string; form: string; variant: string; box: Box; paths: GlyphPath[] }
 export interface StrokesB { strokes: string[]; medians: [number, number][][] }
@@ -50,10 +52,10 @@ export interface StoryBundle {
   pictures?: Record<string, PictureB>; // sign key → picture tree for any { do: 'picture' } step in the story
   audio: AudioIndex | null;
 }
-export interface SignSummary { key: string; id: string; text: Record<string, string>; reading: string; meaning: L10n; file: string; clip?: string }
+export interface SignSummary { key: string; id: string; text: Record<string, string>; reading: string; meaning: L10n; file: string; range?: ByteRange; clip?: string }
 export interface UnitB { n: number; title: L10n; color: string; playable: boolean; signs: string[]; story?: string }
 export interface LessonB { id: string; unit: number; kind: 'learn' | 'review' | 'story'; signs: string[] }
-export interface StoryRefB { id: string; unit: number; title: L10n; topic: L10n; file: string }
+export interface StoryRefB { id: string; unit: number; title: L10n; topic: L10n; file: string; range?: ByteRange }
 export interface CollectionBundle {
   v: 1; id: string; system: string; title: L10n; featured: string[];
   units: UnitB[]; lessons: LessonB[];
@@ -69,5 +71,6 @@ export interface Catalog {
   locales: LocaleB[];
   ui: Record<string, L10n>;
   systems: SystemB[];
-  collections: { id: string; system: string; title: L10n; file: string }[]; // config.yaml order; the first is the default
+  collections: { id: string; system: string; title: L10n; file: string; range?: ByteRange }[]; // config.yaml order; the first is the default
+  packs?: PackMetaB[];
 }

@@ -1,0 +1,277 @@
+// Canonical Protocol Buffers (proto3) schema for compiled etym.si bundles stored in .pack.gz shards.
+// Encoded and decoded by demos/shared/bundle-proto.ts using demos/shared/proto-wire.ts.
+syntax = "proto3";
+package etym.bundle.v1;
+
+message SvgNodeProto {
+  string tag = 1;
+  map<string, string> attrs = 2;
+  repeated SvgNodeProto children = 3;
+}
+
+message PictureProto {
+  double rotate = 1;
+  string ambient = 2;
+  repeated SvgNodeProto tree = 3;
+}
+
+message GlyphPathProto {
+  string d = 1;
+  string t = 2;
+  string mode = 3;
+  double w = 4;
+  string rule = 5;
+  bool has_w = 6;
+}
+
+message FormProto {
+  string stage = 1;
+  string form = 2;
+  string variant = 3;
+  repeated double box = 4;
+  repeated GlyphPathProto paths = 5;
+}
+
+message PointListProto {
+  repeated double coords = 1; // pairs [x0, y0, x1, y1, ...]
+}
+
+message StrokesProto {
+  repeated string strokes = 1;
+  repeated PointListProto medians = 2;
+}
+
+message PhotoProto {
+  string file = 1;
+  uint32 w = 2;
+  uint32 h = 3;
+  string title = 4;
+  string license = 5;
+  string author = 6;
+  string page = 7;
+}
+
+message MarkProto {
+  double x = 1;
+  double y = 2;
+  double w = 3;
+  double h = 4;
+  map<string, string> label = 5;
+}
+
+message CardProto {
+  bool present = 1;
+  string kind = 2;
+  PhotoProto img = 3;
+  PhotoProto img2 = 4;
+  repeated MarkProto marks = 5;
+  string form_stage = 6;
+  uint32 form_index = 7;
+  bool has_form = 8;
+  map<string, string> title = 9;
+  map<string, string> text = 10;
+  string source = 11;
+}
+
+message CardListProto {
+  repeated CardProto items = 1;
+}
+
+message GlyphSelProto {
+  string sign = 1;
+  string stage = 2;
+  uint32 index = 3;
+  bool has_index = 4;
+}
+
+message StepProto {
+  string do_kind = 1;
+  string actor = 2;
+  repeated double xy = 3;
+  double size = 4;
+  bool back = 5;
+  bool has_back = 6;
+  string pic = 7;
+  double ms = 8;
+  bool has_ms = 9;
+  double deg = 10;
+  bool has_deg = 11;
+  string target = 12;
+  string part = 13;
+  double dx = 14;
+  bool has_dx = 15;
+  double dy = 16;
+  bool has_dy = 17;
+  double scale_x = 18;
+  bool has_scale_x = 19;
+  double scale_y = 20;
+  bool has_scale_y = 21;
+  string origin = 22;
+  GlyphSelProto glyph = 23;
+  string color = 24;
+  double w = 25;
+  bool has_w = 26;
+  double h = 27;
+  bool has_h = 28;
+  double opacity = 29;
+  bool has_opacity = 30;
+  string gait = 31;
+  string ease = 32;
+  string motion = 33;
+  double to_num = 34;
+  string tone = 35;
+  string stage = 36;
+  string variant = 37;
+  map<string, string> text_l10n = 38;
+  bool caption_null = 39;
+  string sign = 40;
+  double hold = 41;
+  bool has_hold = 42;
+  string text_str = 43;
+  string lang = 44;
+  bool wait = 45;
+  bool has_wait = 46;
+  bool silent = 47;
+  bool has_silent = 48;
+  map<string, string> clip = 49;
+  repeated StepProto steps = 50;
+}
+
+message ByteRangeProto {
+  uint32 start = 1;
+  uint32 length = 2;
+}
+
+message ClipSectionsProto {
+  map<string, ByteRangeProto> per_section = 1;
+}
+
+message AudioIndexProto {
+  string mp3 = 1;
+  map<string, ByteRangeProto> sections = 2;
+  map<string, ClipSectionsProto> clips = 3;
+}
+
+message OriginPartProto {
+  string char = 1;
+  string role = 2;
+  map<string, string> gloss = 3;
+}
+
+message OriginProto {
+  string type = 1;
+  repeated OriginPartProto parts = 2;
+}
+
+message SourceLinkProto {
+  string title = 1;
+  string url = 2;
+}
+
+message ExtValProto {
+  oneof val {
+    string s = 1;
+    double n = 2;
+    bool b = 3;
+  }
+}
+
+message SignBundle {
+  uint32 v = 1;
+  string key = 2;
+  string system = 3;
+  string id = 4;
+  string status = 5;
+  map<string, string> text = 6;
+  map<string, string> readings = 7;
+  string reading = 8;
+  map<string, string> meaning = 9;
+  map<string, string> fact = 10;
+  map<string, string> topic = 11;
+  OriginProto origin = 12;
+  repeated SourceLinkProto sources = 13;
+  map<string, ExtValProto> ext = 14;
+  PictureProto picture = 15;
+  repeated FormProto forms = 16;
+  map<string, StrokesProto> strokes = 17;
+  repeated string stages = 18;
+  map<string, CardListProto> cards = 19;
+  repeated StepProto full_script = 20;
+  repeated StepProto compact_script = 21;
+  string clip = 22;
+  AudioIndexProto audio = 23;
+}
+
+message GlyphDataProto {
+  string kind = 1;
+  FormProto form = 2;
+  StrokesProto strokes = 3;
+}
+
+message SignLabelProto {
+  map<string, string> text = 1;
+  string reading = 2;
+}
+
+message StoryBundle {
+  uint32 v = 1;
+  string collection = 2;
+  string id = 3;
+  uint32 unit = 4;
+  map<string, string> title = 5;
+  map<string, string> topic = 6;
+  repeated StepProto script = 7;
+  map<string, GlyphDataProto> glyphs = 8;
+  map<string, SignLabelProto> labels = 9;
+  map<string, PictureProto> pictures = 10;
+  AudioIndexProto audio = 11;
+}
+
+message SignSummaryProto {
+  string key = 1;
+  string id = 2;
+  map<string, string> text = 3;
+  string reading = 4;
+  map<string, string> meaning = 5;
+  string file = 6;
+  ByteRangeProto range = 7;
+  string clip = 8;
+}
+
+message UnitProto {
+  uint32 n = 1;
+  map<string, string> title = 2;
+  string color = 3;
+  bool playable = 4;
+  repeated string signs = 5;
+  string story = 6;
+}
+
+message LessonProto {
+  string id = 1;
+  uint32 unit = 2;
+  string kind = 3;
+  repeated string signs = 4;
+}
+
+message StoryRefProto {
+  string id = 1;
+  uint32 unit = 2;
+  map<string, string> title = 3;
+  map<string, string> topic = 4;
+  string file = 5;
+  ByteRangeProto range = 6;
+}
+
+message CollectionBundle {
+  uint32 v = 1;
+  string id = 2;
+  string system = 3;
+  map<string, string> title = 4;
+  repeated string featured = 5;
+  repeated UnitProto units = 6;
+  repeated LessonProto lessons = 7;
+  map<string, SignSummaryProto> signs = 8;
+  repeated StoryRefProto stories = 9;
+  AudioIndexProto audio = 10;
+}
