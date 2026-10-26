@@ -40,7 +40,7 @@ export async function watchPage(page: Page): Promise<{ problems: string[]; mp3: 
   const w = { problems: [] as string[], mp3: [] as { url: string; status: number }[] };
   page.on('console', (m) => { if (m.type() === 'error' || /Content Security Policy|Refused to/.test(m.text())) w.problems.push(`[console:${m.type()}] ${m.text()}`); });
   page.on('pageerror', (e) => w.problems.push(`[pageerror] ${e.message}`));
-  page.on('response', (r) => { if (r.url().endsWith('.mp3')) w.mp3.push({ url: r.url(), status: r.status() }); });
+  page.on('response', (r) => { if (r.url().endsWith('.mp3') || r.url().endsWith('.pack.gz')) w.mp3.push({ url: r.url(), status: r.status() }); });
   await page.addInitScript(() => {
     document.addEventListener('securitypolicyviolation', (e) => console.error(`CSP violation: ${e.violatedDirective} ${e.blockedURI}`));
   });

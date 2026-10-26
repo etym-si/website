@@ -42,7 +42,7 @@ test('proto-wire encodes and decodes varints, sint32, float64, strings, bytes an
   let f2 = 0;
   let f3 = 0;
   let f4 = '';
-  let f5 = new Uint8Array(0);
+  let f5: Uint8Array = new Uint8Array(0);
   let f6 = false;
   while (r.next()) {
     switch (r.field) {

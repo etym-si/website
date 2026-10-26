@@ -1,11 +1,14 @@
 // Section playback: Range requests answered with 206, Blob URLs, clip seek/stop, fallback when Range is ignored.
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
+import { existsSync } from 'node:fs';
+import path from 'node:path';
+import { DEMOS } from '../../tools/paths.ts';
 import { launchChromium } from '../helpers/browser.ts';
 import { runNode, startDev, watchPage } from '../helpers/server.ts';
 
 test('a sign section is range-fetched and its pronunciation clip plays and stops on time', async () => {
-  runNode(['tools/build-content.ts']);
+  if (!existsSync(path.join(DEMOS, 'public', 'data', 'packs'))) runNode(['tools/build-content.ts']);
   const dev = await startDev();
   const browser = await launchChromium(['--autoplay-policy=no-user-gesture-required']);
   try {
@@ -40,9 +43,9 @@ test('when the server ignores Range, the full response is sliced; missing clips 
   const browser = await launchChromium(['--autoplay-policy=no-user-gesture-required']);
   try {
     const page = await browser.newPage();
-    await page.route('**/*.mp3', async (route) => {
+    await page.route('**/data/packs/**', async (route) => {
       const res = await route.fetch({ headers: {} }); // drop the Range header: 200 with the whole file
-      await route.fulfill({ status: 200, body: await res.body(), headers: { 'content-type': 'audio/mpeg' } });
+      await route.fulfill({ status: 200, body: await res.body(), headers: { 'content-type': 'application/octet-stream' } });
     });
     await page.goto(`${dev.url}tests/e2e/harness/audio.html`);
     const r = await page.evaluate(async () => {

@@ -33,6 +33,7 @@ export function headersFile(): string {
     immutable,
     '/data/packs/*',
     '  Content-Type: application/octet-stream',
+    '  Content-Encoding: identity',
     '',
   ].join('\n');
 }

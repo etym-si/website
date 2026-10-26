@@ -3,9 +3,8 @@
 import type { AudioIndex } from '../shared/bundle-types.ts';
 import { CATALOG } from './content';
 import { locale } from './i18n';
+import { fetchPackRange } from './pack-loader';
 import { settings } from './settings';
-
-const base = import.meta.env.BASE_URL;
 
 let ctx: AudioContext | null = null;
 
@@ -103,32 +102,36 @@ export function sectionFor(localeId: string): string {
   return CATALOG.locales.find((l) => l.id === localeId)?.section ?? CATALOG.locales[0]?.section ?? 'en';
 }
 
+function sectionCacheKey(index: AudioIndex, id: string): string {
+  const r = index.sections[id];
+  return r ? `${index.mp3}#${id}:${r[0]}-${r[1]}` : `${index.mp3}#${id}`;
+}
+
 async function fetchSection(index: AudioIndex, id: string): Promise<Section | null> {
   const range = index.sections[id];
   if (!range) return null;
-  const [start, length] = range;
-  const res = await fetch(base + index.mp3, { headers: { Range: `bytes=${start}-${start + length - 1}` }, credentials: 'same-origin' });
-  if (!res.ok) throw new Error(`HTTP ${res.status} for ${index.mp3}`);
-  let bytes = new Uint8Array(await res.arrayBuffer());
-  if (res.status !== 206) bytes = bytes.slice(start, start + length); // the server ignored Range
-  if (bytes.length !== length) throw new Error(`truncated audio section in ${index.mp3}`);
-  const url = URL.createObjectURL(new Blob([bytes], { type: 'audio/mpeg' }));
+  const key = sectionCacheKey(index, id);
+  const bytes = await fetchPackRange({ file: index.mp3, range, label: `audio:${id}@${range[0]}`, kind: 'audio' });
+  const copy = new Uint8Array(bytes.byteLength);
+  copy.set(bytes);
+  const url = URL.createObjectURL(new Blob([copy], { type: 'audio/mpeg' }));
   const audio = new Audio(url);
   audio.preload = 'auto';
   const clips: Record<string, [number, number]> = {};
-  for (const [key, per] of Object.entries(index.clips)) if (per[id]) clips[key] = per[id];
-  return { key: `${index.mp3}#${id}`, audio, url, clips };
+  for (const [clipKey, per] of Object.entries(index.clips)) if (per[id]) clips[clipKey] = per[id];
+  return { key, audio, url, clips };
 }
 
 /** Fetch (once, LRU-cached) the section of a bundle's MP3 for the current locale. Null when there is no audio. */
 export function prepareSection(index: AudioIndex | null, localeId: string = locale()): Promise<Section | null> {
   if (!index || !settings().sound) return Promise.resolve(null);
-  const key = `${index.mp3}#${sectionFor(localeId)}`;
+  const secId = sectionFor(localeId);
+  const key = sectionCacheKey(index, secId);
   let p = sections.get(key);
   if (p) {
     sections.delete(key); // refresh its LRU position
   } else {
-    p = fetchSection(index, sectionFor(localeId)).catch(() => null);
+    p = fetchSection(index, secId).catch(() => null);
   }
   sections.set(key, p);
   void p.then((s) => { if (s) sectionPromises.set(s, p!); });

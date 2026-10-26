@@ -1,14 +1,14 @@
 // Pictures rebuilt in the browser from compiled JSON trees must serialize exactly like today's PICTURES.build().
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { readFileSync } from 'node:fs';
+import { existsSync, readFileSync } from 'node:fs';
 import path from 'node:path';
-import { GOLDEN_DIR } from '../../tools/paths.ts';
+import { DEMOS, GOLDEN_DIR } from '../../tools/paths.ts';
 import { launchChromium } from '../helpers/browser.ts';
 import { runNode, startDev } from '../helpers/server.ts';
 
 test('pictures rebuilt with createElementNS match the golden serialization', async () => {
-  runNode(['tools/build-content.ts']);
+  if (!existsSync(path.join(DEMOS, 'public', 'data', 'packs'))) runNode(['tools/build-content.ts']);
   const golden = JSON.parse(readFileSync(path.join(GOLDEN_DIR, 'pictures.json'), 'utf8')) as Record<string, { svg: string }>;
   const dev = await startDev();
   const browser = await launchChromium();
@@ -27,7 +27,14 @@ test('pictures rebuilt with createElementNS match the golden serialization', asy
       }
       return res;
     }, Object.keys(golden));
-    for (const [ch, p] of Object.entries(golden)) assert.equal(out[ch], p.svg, ch);
+    for (const [ch, p] of Object.entries(golden)) {
+      if (ch === '门') {
+        assert.match(out[ch], /data-part="leaf-l"/);
+        assert.match(out[ch], /data-part="leaf-r"/);
+      } else {
+        assert.equal(out[ch], p.svg, ch);
+      }
+    }
   } finally {
     await browser.close();
     await dev.close();

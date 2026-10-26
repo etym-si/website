@@ -66,7 +66,7 @@ test('a tap on the theater overlay while the collection is still loading is neve
       release();
       await p.locator('.tl-station[data-stage="picture"].current').waitFor({ timeout: 15000 }); // and the theater plays
     }, async (p) => {
-      await p.route('**/data/collections/**', async (route) => {
+      await p.route('**/data/packs/**', async (route) => {
         await held;
         await route.continue();
       });
@@ -168,4 +168,18 @@ test('the first-500 collection: its path lists every unit, and a new sign plays 
     await p.locator('.tl-station[data-stage="oracle"].current').waitFor({ timeout: 30000 });
   });
   assert.ok(w.mp3.length >= 1, `${id}: the sign's audio section was fetched`);
+});
+
+test('门 swings both door leaves open in the theater, and the Pack Inspector displays lazy-loaded .pack.gz slices', async () => {
+  const w = await visit('#/theater/han/%E9%97%A8', async (p) => {
+    await startTheater(p);
+    await p.locator('.stage-box [data-part="leaf-l"]').waitFor({ timeout: 15000 });
+    await p.locator('.stage-box [data-part="leaf-r"]').waitFor({ timeout: 15000 });
+    await p.locator('.tl-station[data-stage="oracle"].current').waitFor({ timeout: 30000 });
+    await p.locator('.pack-pill').click();
+    await p.locator('.pack-dialog').waitFor({ timeout: 5000 });
+    assert.ok((await p.locator('.pack-shard-row').count()) >= 6, 'pack inspector lists the .pack.gz shards');
+    assert.ok((await p.locator('.pack-log-row').count()) >= 2, 'pack inspector logs the lazy-loaded protobuf and audio slices');
+  });
+  assert.ok(w.mp3.length >= 2 && w.mp3.every((r) => r.status === 206), 'all .pack.gz range requests returned 206 Partial Content');
 });

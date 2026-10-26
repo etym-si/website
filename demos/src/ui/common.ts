@@ -6,6 +6,7 @@ import { chime } from '../audio';
 import { progress } from '../progress';
 import type { Step, SystemB } from '../../shared/bundle-types.ts';
 import { buildMascot } from './mascot';
+import { packPill } from './pack-inspector';
 
 export function button(label: string, onClick: () => void, variant: 'primary' | 'secondary' | 'ghost' | 'danger' = 'primary', extra: Record<string, string> = {}): HTMLButtonElement {
   return h('button', {
@@ -27,6 +28,7 @@ export function header(opts: { showStats?: boolean } = {}): HTMLElement {
     h('div', { class: 'topbar-right' },
       opts.showStats ? h('span', { class: 'stat streak', title: t('streak') }, `🔥 ${p.streak}`) : null,
       opts.showStats ? h('span', { class: 'stat xp' }, `⭐ ${p.xp} XP`) : null,
+      packPill(),
       h('div', { class: 'seg', role: 'group', 'aria-label': t('langToggle') },
         toggle('EN', 'English', st.lang === 'en', () => updateSettings({ lang: 'en' })),
         toggle('中文', '中文', st.lang === 'zh', () => updateSettings({ lang: 'zh' }))),

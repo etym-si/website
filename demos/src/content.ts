@@ -1,17 +1,12 @@
-// The app's view of the static API: the catalog is inlined at build time; bundles are fetched from our own
-// origin, re-checked, and cached for the session.
+// The app's view of the static API: the catalog is inlined at build time; bundles are range-fetched from
+// multi-member .pack.gz shards, gunzipped via DecompressionStream, decoded from Protobuf, re-checked, and cached.
 import catalogJson from '@generated/catalog.json';
 import type { Catalog, CollectionBundle, SignBundle, SignSummary, StageMetaB, StoryBundle, StoryRefB, SystemB } from '../shared/bundle-types.ts';
 import { checkCollectionBundle, checkSignBundle, checkStoryBundle } from '../shared/bundle-check.ts';
+import { decodeCollectionBundle, decodeSignBundle, decodeStoryBundle } from '../shared/bundle-proto.ts';
+import { fetchPackRange } from './pack-loader';
 
 export const CATALOG = catalogJson as unknown as Catalog;
-const base = import.meta.env.BASE_URL;
-
-async function getJson(file: string): Promise<unknown> {
-  const res = await fetch(base + file, { credentials: 'same-origin' });
-  if (!res.ok) throw new Error(`HTTP ${res.status} for ${file}`);
-  return res.json();
-}
 
 function cached<T>(map: Map<string, Promise<T>>, key: string, load: () => Promise<T>): Promise<T> {
   let p = map.get(key);
@@ -43,7 +38,10 @@ export function stageMeta(systemId: string, stageId: string): StageMetaB | undef
 export function loadCollection(id: string): Promise<CollectionBundle> {
   const ref = CATALOG.collections.find((c) => c.id === id);
   if (!ref) return Promise.reject(new Error(`unknown collection ${id}`));
-  return cached(collections, id, () => getJson(ref.file).then(checkCollectionBundle));
+  return cached(collections, id, async () => {
+    const bytes = await fetchPackRange({ file: ref.file, range: ref.range, label: `collection:${id}`, kind: 'proto' });
+    return checkCollectionBundle(decodeCollectionBundle(bytes));
+  });
 }
 
 /** The first published collection (catalog order) that contains the sign. */
@@ -57,9 +55,16 @@ export async function findSign(key: string): Promise<{ collection: CollectionBun
 }
 
 export function loadSign(summary: SignSummary): Promise<SignBundle> {
-  return cached(signs, summary.key, () => getJson(summary.file).then(checkSignBundle));
+  return cached(signs, summary.key, async () => {
+    const bytes = await fetchPackRange({ file: summary.file, range: summary.range, label: summary.key, kind: 'proto' });
+    return checkSignBundle(decodeSignBundle(bytes));
+  });
 }
 
 export function loadStory(ref: StoryRefB): Promise<StoryBundle> {
-  return cached(stories, ref.file, () => getJson(ref.file).then(checkStoryBundle));
+  const cacheKey = `${ref.file}#${ref.range ? `${ref.range[0]}-${ref.range[1]}` : ref.id}`;
+  return cached(stories, cacheKey, async () => {
+    const bytes = await fetchPackRange({ file: ref.file, range: ref.range, label: `story:${ref.id}`, kind: 'proto' });
+    return checkStoryBundle(decodeStoryBundle(bytes));
+  });
 }

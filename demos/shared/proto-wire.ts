@@ -70,7 +70,7 @@ export class ProtoWriter {
   }
 
   stringMap(field: number, map: Record<string, string>): void {
-    for (const k of Object.keys(map).sort()) {
+    for (const k of Object.keys(map)) {
       this.sub(field, (w) => {
         w.string(1, k);
         w.string(2, map[k]);
