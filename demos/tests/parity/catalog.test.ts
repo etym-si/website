@@ -1,7 +1,7 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import type { CollectionBundle, SignBundle } from '../../shared/bundle-types.ts';
 import { parseSvg } from '../../tools/content/svg.ts';
+import { readCollectionSlice, readSignSlice } from '../../tools/compile/pack-shards.ts';
 import { compileSite } from '../../tools/compile/site.ts';
 import { Diags } from '../../tools/content/diagnostics.ts';
 import { MEDIA_DIR } from '../../tools/paths.ts';
@@ -9,8 +9,7 @@ import { realContent } from '../helpers/content.ts';
 import { golden, tri, type Tri } from './normalize.ts';
 
 const site = compileSite(realContent(), { mediaDir: MEDIA_DIR, strict: true }, new Diags());
-const json = <T>(rel: string): T => JSON.parse(new TextDecoder().decode(site.files.get(rel)!)) as T;
-const coll = json<CollectionBundle>(site.catalog.collections[0].file);
+const coll = readCollectionSlice(site.files, site.catalog.collections[0]);
 
 test('UI strings match today', () => {
   const legacy = golden<Record<string, Tri>>('strings');
@@ -33,7 +32,7 @@ test('units and lessons match today (film-36/ ids, han/ sign keys)', () => {
 
 test('pictures compile to the same element trees as today', () => {
   for (const [ch, p] of Object.entries(golden<Record<string, { rotate: number; ambient: string | null; svg: string }>>('pictures'))) {
-    const b = json<SignBundle>(coll.signs[`han/${ch}`].file);
+    const b = readSignSlice(site.files, coll.signs[`han/${ch}`]);
     const g = parseSvg(p.svg);
     delete g[1].xmlns;
     assert.deepEqual(b.picture, { rotate: p.rotate, ...(p.ambient ? { ambient: p.ambient } : {}), tree: [g] }, ch);

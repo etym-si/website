@@ -20,9 +20,19 @@ export const SECURITY_HEADERS: Record<string, string> = {
   'Permissions-Policy': 'camera=(), microphone=(), geolocation=(), payment=(), usb=()',
 };
 
-/** Cloudflare Pages `_headers`: security headers everywhere, immutable caching for hashed assets and data. */
+/** Cloudflare Pages `_headers`: security headers everywhere, immutable caching for hashed assets and data, octet-stream for .pack.gz shards. */
 export function headersFile(): string {
   const all = { 'Content-Security-Policy': `${CSP}; frame-ancestors 'none'`, ...SECURITY_HEADERS };
   const immutable = '  Cache-Control: public, max-age=31536000, immutable';
-  return ['/*', ...Object.entries(all).map(([k, v]) => `  ${k}: ${v}`), '/assets/*', immutable, '/data/*', immutable, ''].join('\n');
+  return [
+    '/*',
+    ...Object.entries(all).map(([k, v]) => `  ${k}: ${v}`),
+    '/assets/*',
+    immutable,
+    '/data/*',
+    immutable,
+    '/data/packs/*',
+    '  Content-Type: application/octet-stream',
+    '',
+  ].join('\n');
 }

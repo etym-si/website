@@ -1,8 +1,21 @@
-// The static API (spec §4): photos, one JSON + one MP3 per sign and story, one per collection, the catalog,
-// _headers, CREDITS.md and the Arphic licence. Pure: returns files in memory; writeSite() puts them on disk.
+// The static API: photos, <=20 MiB multi-member .pack.gz shards (Protobuf bundles + MP3 voice sections),
+// the catalog, _headers, CREDITS.md and the Arphic licence. Pure: returns files in memory; writeSite() puts them on disk.
 import { existsSync, readFileSync } from 'node:fs';
 import path from 'node:path';
-import type { Catalog, CollectionBundle, L10n, LessonB, PictureB, SignBundle, SignSummary, StoryBundle, StoryRefB, StrokesB, UnitB } from '../../shared/bundle-types.ts';
+import type {
+  Catalog,
+  CollectionBundle,
+  L10n,
+  LessonB,
+  PackMetaB,
+  PictureB,
+  SignBundle,
+  SignSummary,
+  StoryBundle,
+  StoryRefB,
+  StrokesB,
+  UnitB,
+} from '../../shared/bundle-types.ts';
 import { headersFile } from '../../shared/csp.ts';
 import { ClipResolver, type MissingClip } from '../audio/clips.ts';
 import { readMediaManifest } from '../audio/media.ts';
@@ -18,6 +31,7 @@ import { creditsMarkdown } from './credits.ts';
 import { evolutionScript } from './evolution.ts';
 import { formB, HANZI_WRITER_DATA, strokesFor } from './glyph-data.ts';
 import { asciiId, hashedName } from './output.ts';
+import { packSignShards, packStoriesAndCollections, type SliceLoc } from './pack-shards.ts';
 import { checkStory, expandStory, storyGlyphs, storyLabels, storyPictures } from './stories.ts';
 import { signTimeline } from './timeline.ts';
 
@@ -52,10 +66,9 @@ export function compileSite(content: ContentSet, opts: { mediaDir: string; stric
     files.set(rel, bytes);
     return rel;
   };
-  const audioOf = (packed: PackedAudio | null, dir: string, base: string) => {
-    if (!packed) return null;
-    stats.clips += Object.keys(packed.clips).length;
-    return { mp3: put(dir, base, 'mp3', packed.bytes), sections: packed.sections, clips: packed.clips };
+  const countClips = (packed: PackedAudio | null): PackedAudio | null => {
+    if (packed) stats.clips += Object.keys(packed.clips).length;
+    return packed;
   };
   /** Report clips that have no master yet, against the file that needs them. */
   const coverage = (where: { y: SignDoc['y'] }, before: number) => {
@@ -77,7 +90,7 @@ export function compileSite(content: ContentSet, opts: { mediaDir: string; stric
     return u;
   };
 
-  // signs reachable from published collections
+  // signs reachable from published collections (in collection → unit → sign order)
   const published = content.config.data.collections.map((id) => content.collections.get(id)).filter((c): c is CollectionDoc => !!c);
   const reachable = new Map<string, SignDoc>();
   for (const c of published) {
@@ -89,8 +102,8 @@ export function compileSite(content: ContentSet, opts: { mediaDir: string; stric
     }
   }
 
-  const signFiles = new Map<string, string>();
   const names = new Map<string, string>();
+  const compiledSigns: { key: string; bundle: Omit<SignBundle, 'audio'>; packed: PackedAudio | null }[] = [];
   for (const [key, sign] of reachable) {
     const sys = content.systems.get(sign.system)!;
     const name = asciiId(sign.data.id);
@@ -100,9 +113,7 @@ export function compileSite(content: ContentSet, opts: { mediaDir: string; stric
     const before = clips.missing.size;
     try {
       const { bundle, sections } = buildSignBundle(content, sys, sign, photoUrl, clips);
-      const dir = `data/signs/${sign.system}`;
-      const full: SignBundle = { ...bundle, audio: audioOf(clips.pack(sections), dir, name) };
-      signFiles.set(key, put(dir, name, 'json', enc.encode(JSON.stringify(full))));
+      compiledSigns.push({ key, bundle, packed: countClips(clips.pack(sections)) });
       stats.signs++;
     } catch (e) {
       diags.error(sign.y, [], (e as Error).message);
@@ -110,11 +121,15 @@ export function compileSite(content: ContentSet, opts: { mediaDir: string; stric
     coverage(sign, before);
   }
 
+  const packs: PackMetaB[] = [];
+  const signLocs = packSignShards(compiledSigns, files, packs);
+
   // stories and collections
-  const collectionFiles = new Map<string, string>();
+  const compiledStories: { key: string; collId: string; bundle: Omit<StoryBundle, 'audio'>; packed: PackedAudio | null }[] = [];
+  const collAudioByColl = new Map<string, PackedAudio | null>();
+
   for (const coll of published) {
     const id = coll.data.id;
-    const storyFiles = new Map<string, StoryRefB>();
     for (const story of [...coll.stories.values()].sort((a, b) => a.order - b.order)) {
       const unitIndex = coll.data.units.findIndex((u) => u.story === story.data.id);
       if (unitIndex < 0) continue; // unlinked stories are not published (the validator warns)
@@ -124,28 +139,54 @@ export function compileSite(content: ContentSet, opts: { mediaDir: string; stric
       if (diags.errors.length > errors) continue;
       const before = clips.missing.size;
       const script = clips.attach(expandStory(content, coll, story));
-      const dir = `data/stories/${id}`;
       const pictures = storyPictures(content, script);
-      const bundle: StoryBundle = {
+      const bundle: Omit<StoryBundle, 'audio'> = {
         v: 1, collection: id, id: story.data.id, unit: n, title: L(story.data.title), topic: L(story.data.topic),
         script, glyphs: storyGlyphs(content, script), labels: storyLabels(content, script),
         ...(Object.keys(pictures).length ? { pictures } : {}),
-        audio: audioOf(clips.pack(clips.sectionKeys(script)), dir, story.data.id),
       };
-      storyFiles.set(story.data.id, { id: story.data.id, unit: n, title: bundle.title, topic: bundle.topic, file: put(dir, story.data.id, 'json', enc.encode(JSON.stringify(bundle))) });
+      compiledStories.push({
+        key: `${id}/${story.data.id}`,
+        collId: id,
+        bundle,
+        packed: countClips(clips.pack(clips.sectionKeys(script))),
+      });
       stats.stories++;
       coverage(story, before);
     }
     const before = clips.missing.size;
-    const { bundle, prons } = buildCollection(content, coll, signFiles, storyFiles, clips);
+    const { prons } = buildCollection(content, coll, signLocs, new Map(), clips);
     const sections = clips.sectionKeys([], prons);
-    const full: CollectionBundle = { ...bundle, audio: audioOf(clips.pack(sections), 'data/collections', id) };
-    collectionFiles.set(id, put('data/collections', id, 'json', enc.encode(JSON.stringify(full))));
+    collAudioByColl.set(id, countClips(clips.pack(sections)));
     stats.collections++;
     coverage(coll, before);
   }
 
-  const catalog = buildCatalog(content, published, collectionFiles);
+  const { collectionLocs } = packStoriesAndCollections(
+    compiledStories,
+    (storyLocs) =>
+      published.map((coll) => {
+        const id = coll.data.id;
+        const storyRefs = new Map<string, StoryRefB>();
+        for (const st of compiledStories.filter((s) => s.collId === id)) {
+          const loc = storyLocs.get(st.key)!;
+          storyRefs.set(st.bundle.id, {
+            id: st.bundle.id,
+            unit: st.bundle.unit,
+            title: st.bundle.title,
+            topic: st.bundle.topic,
+            file: loc.file,
+            range: loc.range,
+          });
+        }
+        const { bundle } = buildCollection(content, coll, signLocs, storyRefs, clips);
+        return { key: id, bundle, packed: collAudioByColl.get(id) ?? null };
+      }),
+    files,
+    packs,
+  );
+
+  const catalog = buildCatalog(content, published, collectionLocs, packs);
   const usesHanziWriter = [...content.systems.values()].some((s) => s.data.ingest.strokes === 'hanzi-writer-data');
   files.set('_headers', enc.encode(headersFile()));
   files.set('CREDITS.md', enc.encode(creditsMarkdown(content, [...reachable.values()], usesHanziWriter)));
@@ -195,7 +236,7 @@ function buildSignBundle(content: ContentSet, sys: SystemDoc, sign: SignDoc, pho
   return { bundle, sections: clips.sectionKeys([...full, ...compact], pron ? [pron] : []) };
 }
 
-function buildCollection(content: ContentSet, coll: CollectionDoc, signFiles: Map<string, string>, storyFiles: Map<string, StoryRefB>, clips: ClipResolver): { bundle: Omit<CollectionBundle, 'audio'>; prons: string[] } {
+function buildCollection(content: ContentSet, coll: CollectionDoc, signLocs: Map<string, SliceLoc>, storyFiles: Map<string, StoryRefB>, clips: ClipResolver): { bundle: Omit<CollectionBundle, 'audio'>; prons: string[] } {
   const L = (t: L10n) => complete(content, t);
   const system = coll.data.system;
   const sys = content.systems.get(system)!;
@@ -205,7 +246,7 @@ function buildCollection(content: ContentSet, coll: CollectionDoc, signFiles: Ma
   const prons: string[] = [];
   coll.data.units.forEach((u, i) => {
     const n = u.n ?? i + 1;
-    const keys = u.signs.map((r) => qualify(r, system)).filter((k) => signFiles.has(k));
+    const keys = u.signs.map((r) => qualify(r, system)).filter((k) => signLocs.has(k));
     units.push({ n, title: L(u.title), color: u.color ?? PALETTE[i % PALETTE.length], playable: u.playable ?? true, signs: keys, ...(u.story && storyFiles.has(u.story) ? { story: u.story } : {}) });
     lessons.push(...unitLessons(coll.data.id, n, { ...u, story: u.story && storyFiles.has(u.story) ? u.story : undefined }, keys, system));
     for (const key of keys) {
@@ -213,14 +254,15 @@ function buildCollection(content: ContentSet, coll: CollectionDoc, signFiles: Ma
       const spoken = pronounceText(sys, s);
       const clip = spoken ? clips.pronunciation(spoken, sys.data.pronounce?.voice) : undefined;
       if (clip && !prons.includes(clip)) prons.push(clip);
-      signs[key] = { key, id: s.data.id, text: s.data.text, reading: primaryReading(sys, s), meaning: L(s.data.meaning), file: signFiles.get(key)!, ...(clip ? { clip } : {}) };
+      const loc = signLocs.get(key)!;
+      signs[key] = { key, id: s.data.id, text: s.data.text, reading: primaryReading(sys, s), meaning: L(s.data.meaning), file: loc.file, range: loc.range, ...(clip ? { clip } : {}) };
     }
   });
-  const featured = (coll.data.featured ?? []).map((r) => qualify(r, system)).filter((k) => signFiles.has(k));
+  const featured = (coll.data.featured ?? []).map((r) => qualify(r, system)).filter((k) => signLocs.has(k));
   return { bundle: { v: 1, id: coll.data.id, system, title: L(coll.data.title), featured, units, lessons, signs, stories: [...storyFiles.values()] }, prons };
 }
 
-function buildCatalog(content: ContentSet, published: CollectionDoc[], collectionFiles: Map<string, string>): Catalog {
+function buildCatalog(content: ContentSet, published: CollectionDoc[], collectionLocs: Map<string, SliceLoc>, packs: PackMetaB[]): Catalog {
   const L = (t: L10n) => complete(content, t);
   const systemIds = [...new Set(published.map((c) => c.data.system))];
   return {
@@ -235,6 +277,10 @@ function buildCatalog(content: ContentSet, published: CollectionDoc[], collectio
       })),
       variantNotes: Object.fromEntries(Object.entries(s.data.variantNotes ?? {}).map(([k, v]) => [k, L(v)])),
     })),
-    collections: published.filter((c) => collectionFiles.has(c.data.id)).map((c) => ({ id: c.data.id, system: c.data.system, title: L(c.data.title), file: collectionFiles.get(c.data.id)! })),
+    collections: published.filter((c) => collectionLocs.has(c.data.id)).map((c) => {
+      const loc = collectionLocs.get(c.data.id)!;
+      return { id: c.data.id, system: c.data.system, title: L(c.data.title), file: loc.file, range: loc.range };
+    }),
+    packs,
   };
 }
