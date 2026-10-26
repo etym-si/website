@@ -1,5 +1,8 @@
 // Sound: synthesized UI chimes (Web Audio) and natural neural storytelling speech
 // (pre-generated edge-tts MP3s in public/tts/, with Web Speech API fallback).
+import type { AudioIndex } from '../shared/bundle-types.ts';
+import { CATALOG } from './content';
+import { locale } from './i18n';
 import { settings } from './settings';
 import ttsManifest from './data/tts-manifest.json';
 
@@ -76,6 +79,114 @@ let activeAudio: HTMLAudioElement | null = null;
 let activeFinish: (() => void) | null = null;
 let speechSpeed = 1;
 const audioCache = new Map<string, HTMLAudioElement>();
+
+// ---- compiled audio: one byte section per voice, range-fetched into a Blob URL --------------------------
+
+/** One voice's section of a bundle MP3, decoded by one <audio> element; clips are [ms, dur] inside it. */
+export interface Section {
+  key: string;
+  audio: HTMLAudioElement;
+  url: string;
+  clips: Record<string, [number, number]>;
+}
+
+const sections = new Map<string, Promise<Section | null>>();
+const MAX_SECTIONS = 6;
+let activeSection: Section | null = null;
+
+/** The audio section that voices a UI locale (zh-Hans and zh-Hant share `zh`). */
+export function sectionFor(localeId: string): string {
+  return CATALOG.locales.find((l) => l.id === localeId)?.section ?? CATALOG.locales[0]?.section ?? 'en';
+}
+
+async function fetchSection(index: AudioIndex, id: string): Promise<Section | null> {
+  const range = index.sections[id];
+  if (!range) return null;
+  const [start, length] = range;
+  const res = await fetch(base + index.mp3, { headers: { Range: `bytes=${start}-${start + length - 1}` }, credentials: 'same-origin' });
+  if (!res.ok) throw new Error(`HTTP ${res.status} for ${index.mp3}`);
+  let bytes = new Uint8Array(await res.arrayBuffer());
+  if (res.status !== 206) bytes = bytes.slice(start, start + length); // the server ignored Range
+  if (bytes.length !== length) throw new Error(`truncated audio section in ${index.mp3}`);
+  const url = URL.createObjectURL(new Blob([bytes], { type: 'audio/mpeg' }));
+  const audio = new Audio(url);
+  audio.preload = 'auto';
+  const clips: Record<string, [number, number]> = {};
+  for (const [key, per] of Object.entries(index.clips)) if (per[id]) clips[key] = per[id];
+  return { key: `${index.mp3}#${id}`, audio, url, clips };
+}
+
+/** Fetch (once, LRU-cached) the section of a bundle's MP3 for the current locale. Null when there is no audio. */
+export function prepareSection(index: AudioIndex | null, localeId: string = locale()): Promise<Section | null> {
+  if (!index || !settings().sound) return Promise.resolve(null);
+  const key = `${index.mp3}#${sectionFor(localeId)}`;
+  let p = sections.get(key);
+  if (p) {
+    sections.delete(key); // refresh its LRU position
+  } else {
+    p = fetchSection(index, sectionFor(localeId)).catch(() => null);
+  }
+  sections.set(key, p);
+  while (sections.size > MAX_SECTIONS) {
+    const [oldKey, old] = sections.entries().next().value!;
+    sections.delete(oldKey);
+    void old.then((s) => {
+      if (!s || s === activeSection) return;
+      s.audio.removeAttribute('src');
+      URL.revokeObjectURL(s.url);
+    });
+  }
+  return p;
+}
+
+/** Seek to a clip, play it, and stop at its end (inside the 240 ms silent gap that follows every clip). */
+function playClip(section: Section, key: string): Promise<void> {
+  const [ms, dur] = section.clips[key];
+  cancelSpeech();
+  return new Promise((resolve) => {
+    const a = section.audio;
+    const end = (ms + dur) / 1000;
+    let done = false;
+    let raf = 0;
+    let lastTime = -1;
+    let stuckSince = performance.now();
+    const finish = () => {
+      if (done) return;
+      done = true;
+      cancelAnimationFrame(raf);
+      a.removeEventListener('ended', finish);
+      a.removeEventListener('error', finish);
+      if (!a.paused) a.pause();
+      if (activeAudio === a) activeAudio = null;
+      if (activeFinish === finish) activeFinish = null;
+      if (activeSection === section) activeSection = null;
+      resolve();
+    };
+    const tick = () => {
+      if (done) return;
+      if (a.currentTime >= end) { finish(); return; }
+      const now = performance.now();
+      if (a.paused || a.currentTime !== lastTime) { lastTime = a.currentTime; stuckSince = now; }
+      else if (now - stuckSince > 3000) { finish(); return; } // stalled while playing
+      raf = requestAnimationFrame(tick);
+    };
+    activeAudio = a;
+    activeFinish = finish;
+    activeSection = section;
+    a.playbackRate = speechSpeed;
+    a.addEventListener('ended', finish, { once: true });
+    a.addEventListener('error', finish, { once: true });
+    a.currentTime = ms / 1000;
+    void a.play().then(() => { raf = requestAnimationFrame(tick); }, finish);
+  });
+}
+
+/** Speak a line: its compiled clip when the section has it, else device speech. */
+export function speakLine(section: Section | null, key: string | undefined, text: string, lang: 'zh' | 'en'): Promise<void> {
+  if (!settings().sound || !text) return Promise.resolve();
+  if (section && key && section.clips[key]) return playClip(section, key);
+  return speak(text, lang);
+}
 
 function pickVoice(lang: 'zh' | 'en'): SpeechSynthesisVoice | undefined {
   const prefs = lang === 'zh'
