@@ -15,14 +15,15 @@ const find = (re: RegExp) => [...site.files.keys()].filter((k) => re.test(k));
 
 test('the film corpus compiles cleanly in strict mode into ~100 files', () => {
   assert.deepEqual(diags.lines(), []);
-  assert.equal(find(/^data\/signs\/han\/[^/]+\.json$/).length, 36);
-  assert.equal(find(/^data\/signs\/han\/[^/]+\.mp3$/).length, 36);
+  assert.equal(find(/^data\/signs\/han\/[^/]+\.json$/).length, 502);
+  assert.equal(find(/^data\/signs\/han\/[^/]+\.mp3$/).length, 502);
   assert.equal(find(/^data\/stories\/film-36\/[^/]+\.json$/).length, 6);
   assert.equal(find(/^data\/stories\/film-36\/[^/]+\.mp3$/).length, 6);
   assert.equal(find(/^data\/collections\/film-36\.[0-9a-f]{10}\.(json|mp3)$/).length, 2);
+  assert.equal(find(/^data\/collections\/first-500\.[0-9a-f]{10}\.(json|mp3)$/).length, 2);
   assert.equal(find(/^data\/photos\//).length, 13);
   for (const f of ['_headers', 'CREDITS.md', 'licenses/ARPHICPL.TXT']) assert.ok(site.files.has(f), f);
-  assert.equal(site.files.size, 102);
+  assert.equal(site.files.size, 1036);
 });
 
 test('a sign bundle carries everything for one sign, and its MP3 holds one section per voice', () => {

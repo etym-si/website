@@ -5,7 +5,8 @@ import assert from 'node:assert/strict';
 import { existsSync, readFileSync } from 'node:fs';
 import path from 'node:path';
 import type { Browser, Page } from 'playwright';
-import { DEMOS } from '../../tools/paths.ts';
+import { parse } from 'yaml';
+import { DEMOS, REPO } from '../../tools/paths.ts';
 import { launchChromium } from '../helpers/browser.ts';
 import { startTheater } from '../helpers/player.ts';
 import { startPreview, watchPage } from '../helpers/server.ts';
@@ -149,4 +150,22 @@ test('the learning path lists the units of the default collection', async () => 
     assert.equal(await p.locator('.unit').count(), 6);
     assert.equal(await p.locator('.node.current').count(), 1);
   });
+});
+
+test('the first-500 collection: its path lists every unit, and a new sign plays in the theater', async () => {
+  const read = (rel: string) => parse(readFileSync(path.join(REPO, 'content', rel), 'utf8')) as Record<string, unknown>;
+  const units = read('collections/first-500/collection.yaml').units as { signs: string[] }[];
+  const film = new Set((read('collections/film-36/collection.yaml').units as { signs: string[] }[]).flatMap((u) => u.signs));
+  const id = units.flatMap((u) => u.signs).find((s) => !film.has(s) && (read(`systems/han/signs/${s}.yaml`).forms as { stage: string }[] | undefined)?.[0]?.stage === 'oracle');
+  assert.ok(id, 'first-500 has a new sign with an oracle-bone form');
+  await visit('#/learn/first-500', async (p) => {
+    await p.locator('.unit').first().waitFor();
+    assert.equal(await p.locator('.unit').count(), units.length);
+    assert.equal(await p.locator('.tab').count(), 2);
+  });
+  const w = await visit(`#/theater/han/${encodeURIComponent(id)}`, async (p) => {
+    await startTheater(p);
+    await p.locator('.tl-station[data-stage="oracle"].current').waitFor({ timeout: 30000 });
+  });
+  assert.ok(w.mp3.length >= 1, `${id}: the sign's audio section was fetched`);
 });

@@ -39,6 +39,6 @@ voices:
     provider: edge-tts
     voice: zh-CN-XiaoxiaoNeural
     rate: '-15%'
-collections: [film-36] # published, in display order; the first is the default
+collections: [film-36, first-500] # published, in display order; the first is the default
 audio: { gapMs: 240 }
 budget: { maxFiles: 18000, maxFileMiB: 24 }

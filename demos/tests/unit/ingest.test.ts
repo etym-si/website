@@ -32,8 +32,10 @@ test('glyph jobs come from journeys: default stages, per-sign forms and variants
 
 test('re-running glyph ingest on the film corpus asks for exactly the committed forms', () => {
   const content = realContent();
-  assert.equal(selectSigns(content, [], false).length, 0); // every film sign has a forms section
-  const plans = glyphPlan(content, selectSigns(content, [], true));
+  assert.equal(selectSigns(content, [], false).length, 0); // every sign has a forms section
+  assert.equal(selectSigns(content, [], true).length, 502);
+  const filmKeys = content.collections.get('film-36')!.data.units.flatMap((u) => u.signs.map((s) => `han/${s}`));
+  const plans = glyphPlan(content, selectSigns(content, filmKeys, true));
   assert.equal(plans.length, 36);
   for (const p of plans) {
     const forms = p.sign.data.forms ?? [];
