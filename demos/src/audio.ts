@@ -3,7 +3,7 @@
 import type { AudioIndex } from '../shared/bundle-types.ts';
 import { CATALOG } from './content';
 import { locale } from './i18n';
-import { fetchPackRange } from './pack-loader';
+import { fetchPackRange, packTelemetry } from './pack-loader';
 import { settings } from './settings';
 
 let ctx: AudioContext | null = null;
@@ -135,9 +135,9 @@ async function fetchSection(index: AudioIndex, id: string): Promise<Section | nu
   return { key, audio, url, clips };
 }
 
-/** Fetch (once, LRU-cached) the section of a bundle's MP3 for the current locale. Null when there is no audio. */
+/** Fetch (once, LRU-cached) the section of a bundle's MP3 for the current locale. Null when there is no audio or liveTts is on. */
 export function prepareSection(index: AudioIndex | null, localeId: string = locale()): Promise<Section | null> {
-  if (!index || !settings().sound) return Promise.resolve(null);
+  if (!index || !settings().sound || settings().liveTts) return Promise.resolve(null);
   const secId = resolveSectionId(index, localeId);
   const key = sectionCacheKey(index, secId);
   let p = sections.get(key);
@@ -216,10 +216,116 @@ function playClip(section: Section, key: string): Promise<void> {
   });
 }
 
-/** Speak a line: its compiled clip when the section has it, else device speech. */
+// ---- dynamic on-demand web TTS (/api/tts -> Edge-TTS WebSocket) -----------------
+
+const liveClipUrls = new Map<string, Promise<string | null>>();
+const MAX_LIVE_CLIPS = 80;
+
+export function resolveVoiceSpec(lang: 'zh' | 'en', isSingleCharPron = false): { voice: string; rate: string } {
+  if (isSingleCharPron) {
+    return { voice: 'zh-CN-XiaoxiaoNeural', rate: '-15%' };
+  }
+  const st = settings();
+  const sec = lang === 'zh' ? 'zh' : 'en';
+  const chosenId = lang === 'zh' ? st.voiceZh : st.voiceEn;
+  const list = CATALOG.voices?.[sec] ?? [];
+  const found = list.find((v) => v.id === chosenId) ?? list[0];
+  if (found?.voice && found?.rate) {
+    return { voice: found.voice, rate: found.rate };
+  }
+  return lang === 'zh'
+    ? { voice: 'zh-CN-XiaoxiaoNeural', rate: '-6%' }
+    : { voice: 'en-US-AvaNeural', rate: '-5%' };
+}
+
+async function fetchLiveTtsUrl(voice: string, rate: string, text: string): Promise<string | null> {
+  const cacheKey = `${voice}|${rate}|${text}`;
+  const existing = liveClipUrls.get(cacheKey);
+  if (existing) {
+    liveClipUrls.delete(cacheKey);
+    liveClipUrls.set(cacheKey, existing);
+    return existing;
+  }
+  const p = (async () => {
+    const t0 = performance.now();
+    const qs = new URLSearchParams({ voice, rate, text });
+    const res = await fetch(`${import.meta.env.BASE_URL}api/tts?${qs.toString()}`, { credentials: 'same-origin' });
+    if (!res.ok) return null;
+    const bytes = new Uint8Array(await res.arrayBuffer());
+    if (bytes.byteLength < 144) return null;
+    const ms = Math.max(1, Math.round(performance.now() - t0));
+    const shortText = text.length > 22 ? `${text.slice(0, 20)}…` : text;
+    packTelemetry.record({
+      label: `⚡ tts:${voice.replace(/Neural$/, '')} "${shortText}"`,
+      kind: 'audio',
+      file: '/api/tts',
+      range: [0, bytes.byteLength],
+      gzBytes: bytes.byteLength,
+      rawBytes: bytes.byteLength,
+      status: res.status,
+      ms,
+    });
+    const copy = new Uint8Array(bytes.byteLength);
+    copy.set(bytes);
+    return URL.createObjectURL(new Blob([copy], { type: 'audio/mpeg' }));
+  })().catch(() => null);
+
+  liveClipUrls.set(cacheKey, p);
+  while (liveClipUrls.size > MAX_LIVE_CLIPS) {
+    const [oldKey, oldP] = liveClipUrls.entries().next().value!;
+    liveClipUrls.delete(oldKey);
+    void oldP.then((u) => { if (u) URL.revokeObjectURL(u); });
+  }
+  return p;
+}
+
+/** Synthesize and play a line on-demand via /api/tts, falling back to Web Speech API if offline. */
+export async function speakLiveTts(text: string, lang: 'zh' | 'en', isSingleCharPron = false): Promise<void> {
+  if (!settings().sound || !text) return;
+  const { voice, rate } = resolveVoiceSpec(lang, isSingleCharPron);
+  const blobUrl = await fetchLiveTtsUrl(voice, rate, text);
+  if (!blobUrl) return speakDevice(text, lang);
+  cancelSpeech();
+  return new Promise((resolve) => {
+    const a = new Audio(blobUrl);
+    let done = false;
+    const finish = () => {
+      if (done) return;
+      done = true;
+      clearTimeout(timer);
+      a.removeEventListener('ended', finish);
+      a.removeEventListener('error', finish);
+      if (!a.paused) a.pause();
+      if (activeAudio === a) activeAudio = null;
+      if (activeFinish === finish) activeFinish = null;
+      resolve();
+    };
+    const timer = setTimeout(finish, Math.max(4000, text.length * 260));
+    activeAudio = a;
+    activeFinish = finish;
+    a.playbackRate = speechSpeed;
+    a.addEventListener('ended', finish, { once: true });
+    a.addEventListener('error', finish, { once: true });
+    void a.play().catch(finish);
+  });
+}
+
+/** Speak a line: live /api/tts when enabled or when the selected alternate voice is not in the pack; else compiled clip or device speech. */
 export function speakLine(section: Section | null, key: string | undefined, text: string, lang: 'zh' | 'en'): Promise<void> {
   if (!settings().sound || !text) return Promise.resolve();
-  if (section && key && section.clips[key]) return playClip(section, key);
+  const isPron = lang === 'zh' && text.length <= 4;
+  if (settings().liveTts) {
+    return speakLiveTts(text, lang, isPron);
+  }
+  if (section && key && section.clips[key]) {
+    const preferredSec = sectionFor(locale());
+    const loadedSec = section.key.split('#')[1]?.split(':')[0];
+    // If user selected an alternate voice that wasn't pre-packed in this sign's bundle, synthesize it live!
+    if (!isPron && loadedSec && preferredSec !== loadedSec) {
+      return speakLiveTts(text, lang, false);
+    }
+    return playClip(section, key);
+  }
   return speakDevice(text, lang);
 }
 

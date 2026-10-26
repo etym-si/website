@@ -1,6 +1,8 @@
+import type { IncomingMessage, ServerResponse } from 'node:http';
 import { fileURLToPath } from 'node:url';
 import { defineConfig, type Plugin } from 'vite';
 import { CSP, SECURITY_HEADERS } from './shared/csp.ts';
+import { synthesizeEdgeTts, validateTtsParams } from './shared/edge-tts-live.ts';
 
 // Strict CSP: everything is first-party; no inline scripts/styles, no eval, no third-party origins.
 // (Styles are applied via CSSOM / Web Animations API only, which CSP allows.) blob: only for range-fetched audio.
@@ -18,17 +20,77 @@ function cspMeta(): Plugin {
   };
 }
 
+const ttsMemoryCache = new Map<string, Uint8Array>();
+const MAX_TTS_CACHE = 500;
+
+async function handleApiTts(req: IncomingMessage, res: ServerResponse): Promise<void> {
+  if (req.method !== 'GET' && req.method !== 'HEAD') {
+    res.statusCode = 405;
+    res.setHeader('Allow', 'GET, HEAD');
+    res.setHeader('X-Content-Type-Options', 'nosniff');
+    res.end('Method Not Allowed');
+    return;
+  }
+  const u = new URL(req.url ?? '/api/tts', 'http://localhost');
+  const check = validateTtsParams(u.searchParams);
+  if (!check.ok) {
+    res.statusCode = check.status;
+    res.setHeader('Content-Type', 'application/json; charset=utf-8');
+    res.setHeader('X-Content-Type-Options', 'nosniff');
+    res.end(JSON.stringify({ error: check.error }));
+    return;
+  }
+  const cacheKey = `${check.voice}|${check.rate}|${check.text}`;
+  const cached = ttsMemoryCache.get(cacheKey);
+  if (cached) {
+    ttsMemoryCache.delete(cacheKey);
+    ttsMemoryCache.set(cacheKey, cached);
+    res.statusCode = 200;
+    res.setHeader('Content-Type', 'audio/mpeg');
+    res.setHeader('Content-Length', String(cached.byteLength));
+    res.setHeader('Cache-Control', 'public, max-age=31536000, immutable');
+    res.setHeader('X-Content-Type-Options', 'nosniff');
+    res.setHeader('X-TTS-Cache', 'HIT');
+    res.end(req.method === 'HEAD' ? undefined : cached);
+    return;
+  }
+  try {
+    const mp3 = await synthesizeEdgeTts({ voice: check.voice, rate: check.rate, text: check.text });
+    ttsMemoryCache.set(cacheKey, mp3);
+    if (ttsMemoryCache.size > MAX_TTS_CACHE) {
+      const oldest = ttsMemoryCache.keys().next().value;
+      if (oldest) ttsMemoryCache.delete(oldest);
+    }
+    res.statusCode = 200;
+    res.setHeader('Content-Type', 'audio/mpeg');
+    res.setHeader('Content-Length', String(mp3.byteLength));
+    res.setHeader('Cache-Control', 'public, max-age=31536000, immutable');
+    res.setHeader('X-Content-Type-Options', 'nosniff');
+    res.setHeader('X-TTS-Cache', 'MISS');
+    res.end(req.method === 'HEAD' ? undefined : mp3);
+  } catch {
+    res.statusCode = 502;
+    res.setHeader('Content-Type', 'application/json; charset=utf-8');
+    res.setHeader('X-Content-Type-Options', 'nosniff');
+    res.end(JSON.stringify({ error: 'Upstream TTS synthesis failed' }));
+  }
+}
+
 /** Serve multi-member .pack.gz shards as raw application/octet-stream so HTTP 206 byte ranges can be
- *  decompressed per-member via DecompressionStream('gzip') in the browser. */
+ *  decompressed per-member via DecompressionStream('gzip') in the browser, and serve /api/tts dynamically. */
 function rawPacks(): Plugin {
-  const hook = (middlewares: { use: (fn: (req: { url?: string }, res: { setHeader: (k: string, v: string) => void; removeHeader: (k: string) => void }, next: () => void) => void) => void }) => {
+  const hook = (middlewares: { use: (fn: (req: IncomingMessage, res: ServerResponse, next: () => void) => void) => void }) => {
     middlewares.use((req, res, next) => {
+      if (req.url?.startsWith('/api/tts')) {
+        void handleApiTts(req, res);
+        return;
+      }
       if (req.url?.includes('/data/packs/') && req.url.endsWith('.pack.gz')) {
         const origSet = res.setHeader.bind(res);
-        res.setHeader = (name: string, value: string) => {
+        res.setHeader = ((name: string, value: number | string | readonly string[]) => {
           if (name.toLowerCase() === 'content-encoding') return res;
           return origSet(name, value);
-        };
+        }) as typeof res.setHeader;
         res.removeHeader('Content-Encoding');
         origSet('Content-Type', 'application/octet-stream');
       }

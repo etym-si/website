@@ -7,11 +7,12 @@ export interface Settings {
   sound: boolean;
   voiceEn: string;
   voiceZh: string;
+  liveTts: boolean;
 }
 
 const KEY = 'etymsi.settings.v1';
 const VALID_VOICE = /^[a-z][a-z0-9-]{1,31}$/;
-const DEFAULTS: Settings = { lang: 'en', script: 'simp', sound: true, voiceEn: 'narr-en-ava', voiceZh: 'zh' };
+const DEFAULTS: Settings = { lang: 'en', script: 'simp', sound: true, voiceEn: 'narr-en-ava', voiceZh: 'zh', liveTts: false };
 
 function load(): Settings {
   try {
@@ -26,6 +27,7 @@ function load(): Settings {
       sound: typeof o.sound === 'boolean' ? o.sound : true,
       voiceEn: typeof o.voiceEn === 'string' && VALID_VOICE.test(o.voiceEn) ? o.voiceEn : DEFAULTS.voiceEn,
       voiceZh: typeof o.voiceZh === 'string' && VALID_VOICE.test(o.voiceZh) ? o.voiceZh : DEFAULTS.voiceZh,
+      liveTts: typeof o.liveTts === 'boolean' ? o.liveTts : DEFAULTS.liveTts,
     };
   } catch {
     return { ...DEFAULTS }; // corrupted/blocked storage: fall back safely

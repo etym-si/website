@@ -265,17 +265,17 @@ function buildCollection(content: ContentSet, coll: CollectionDoc, signLocs: Map
 function buildCatalog(content: ContentSet, published: CollectionDoc[], collectionLocs: Map<string, SliceLoc>, packs: PackMetaB[]): Catalog {
   const L = (t: L10n) => complete(content, t);
   const systemIds = [...new Set(published.map((c) => c.data.system))];
-  const voices: Record<string, { id: string; section: string; label: string }[]> = {};
+  const voices: Record<string, { id: string; section: string; label: string; voice: string; rate: string }[]> = {};
   for (const [sec, defId] of Object.entries(content.config.data.narration)) {
     const defVoice = content.config.data.voices[defId];
-    const list: { id: string; section: string; label: string }[] = [];
+    const list: { id: string; section: string; label: string; voice: string; rate: string }[] = [];
     const altIds = content.config.data.alternateVoices?.[sec] ?? [];
     for (const id of [defId, ...altIds]) {
       const v = content.config.data.voices[id];
       if (!v) continue;
       // section key in AudioIndex: primary voice uses `sec` ('en' / 'zh'), alternate voices use their voice id
       const secKey = id === defId ? sec : id;
-      list.push({ id: secKey, section: sec, label: v.label ?? defVoice?.label ?? id });
+      list.push({ id: secKey, section: sec, label: v.label ?? defVoice?.label ?? id, voice: v.voice, rate: v.rate });
     }
     voices[sec] = list;
   }

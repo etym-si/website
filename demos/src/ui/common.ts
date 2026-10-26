@@ -47,6 +47,12 @@ export function header(opts: { showStats?: boolean } = {}): HTMLElement {
       opts.showStats ? h('span', { class: 'stat streak', title: t('streak') }, `🔥 ${p.streak}`) : null,
       opts.showStats ? h('span', { class: 'stat xp' }, `⭐ ${p.xp} XP`) : null,
       packPill(),
+      toggle(
+        st.liveTts ? '⚡ Live TTS' : '📦 Pack TTS',
+        'Toggle dynamic web voice generation (/api/tts) vs pre-packed audio',
+        st.liveTts,
+        () => updateSettings({ liveTts: !st.liveTts }),
+      ),
       voicePicker('🎙️ EN', 'English narrator voice', CATALOG.voices?.en, st.voiceEn, (voiceEn) => updateSettings({ voiceEn })),
       voicePicker('🎙️ 中文', 'Chinese narrator voice', CATALOG.voices?.zh, st.voiceZh, (voiceZh) => updateSettings({ voiceZh })),
       h('div', { class: 'seg', role: 'group', 'aria-label': t('langToggle') },
