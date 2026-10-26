@@ -3,11 +3,9 @@ import { t } from '../i18n';
 import { header, mascot } from '../ui/common';
 import { Stage } from '../engine/stage';
 import { Player } from '../engine/player';
-import { evolutionScript } from '../engine/scripts';
-import { loadGlyph } from '../glyphs';
-import type { Step } from '../engine/script';
-
-const TEASER = ['日', '马', '山', '鸟', '象', '木'];
+import { defaultCollectionId, loadCollection, loadSign, system } from '../content';
+import { signSource } from '../play-source';
+import type { Step } from '../../shared/bundle-types.ts';
 
 function card(href: string, icon: string, title: string, desc: string, cls: string): HTMLElement {
   return h('a', { href, class: `card ${cls}` },
@@ -36,16 +34,18 @@ export function renderHome(root: HTMLElement): () => void {
         'Glyphs: Wikimedia Commons Ancient Chinese Characters Project (public domain) · Stroke data: hanzi-writer-data (Arphic PL) · Inspired by 《三十六个字》 (1984)')),
   );
 
-  // Teaser: silently loop quick evolutions on the home page.
+  // Teaser: silently loop quick evolutions of the default collection's featured signs.
   const stage = new Stage(stageBox, { label: 'teaser' });
   const player = new Player(stage);
   let alive = true;
   (async () => {
-    for (let i = 0; alive; i = (i + 1) % TEASER.length) {
-      const doc = await loadGlyph(TEASER[i]);
-      const script: Step[] = evolutionScript(doc, { compact: true }).filter((st) => st.do !== 'say' && st.do !== 'caption' && st.do !== 'tag');
+    const coll = await loadCollection(defaultCollectionId());
+    const keys = (coll.featured.length ? coll.featured : coll.units[0]?.signs ?? []).filter((k) => coll.signs[k]);
+    for (let i = 0; alive && keys.length; i = (i + 1) % keys.length) {
+      const b = await loadSign(coll.signs[keys[i]]);
+      const script: Step[] = b.scripts.compact.filter((st) => st.do !== 'say' && st.do !== 'caption' && st.do !== 'tag');
       script.push({ do: 'wait', ms: 1500 });
-      if (!(await player.play(script))) break;
+      if (!(await player.play(script, signSource(b, system(b.system), { audio: false })))) break;
     }
   })().catch(() => { /* teaser is decorative */ });
 

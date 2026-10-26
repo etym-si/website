@@ -5,7 +5,7 @@
 //   root(attr translate x,y) > motion > ambient > gait > zoom > spin > { wash, pic > picSpin > picInner(attr), glyph }
 import { s, nextId } from '../dom';
 import type { GlyphInstance } from '../glyphs';
-import type { PictureDef } from '../pictures';
+import type { PictureB } from '../../shared/bundle-types.ts';
 
 export const W = 1000;
 export const H = 625;
@@ -31,7 +31,7 @@ export interface Actor {
   picRot: number;
   scale: number;
   current?: GlyphInstance;
-  picDef?: PictureDef;
+  picDef?: PictureB;
   ambientAnim?: Animation;
 }
 

@@ -1,20 +1,23 @@
 // Player: executes animation scripts on a Stage using the Web Animations API.
 // Every animation (including waits) is a WAAPI Animation, so pause / resume / speed / stop are uniform.
+import type { GlyphSel, Step, StepOf } from '../../shared/steps.ts';
 import { s, prefersReducedMotion } from '../dom';
-import { buildSel, showInstant, INK, type GlyphInstance } from '../glyphs';
-import { PICTURES } from '../pictures';
-import { tx } from '../i18n';
-import { BY_CHAR, displayChar } from '../data/chars';
+import { glyphFromData, showInstant, INK, type GlyphInstance } from '../glyphs';
+import { buildPicture } from '../picture';
+import { locale, signText, tx } from '../i18n';
 import { settings } from '../settings';
-import { speak, cancelSpeech, pauseSpeech, resumeSpeech, setSpeechSpeed } from '../audio';
-import type { StageId } from '../data/stages';
-import type { Ambient, Gait, Step, Tone } from './script';
+import { cancelSpeech, pauseSpeech, prepareSection, resumeSpeech, setSpeechSpeed, speakLine, type Section } from '../audio';
+import type { PlaySource } from '../play-source';
 import type { Actor, Stage } from './stage';
+
+type Gait = NonNullable<StepOf<'move'>['gait']>;
+type Ambient = StepOf<'ambient'>['motion'];
+type Tone = StepOf<'bg'>['tone'];
 
 export interface PlayerHooks {
   onStep?: (index: number) => void; // top-level step index; -1 when finished
   onCaption?: (text: string | null) => void;
-  onStage?: (stage: StageId, variant?: string) => void;
+  onStage?: (stage: string, variant?: string) => void;
 }
 
 class Stopped extends Error {}
@@ -50,6 +53,8 @@ export class Player {
   private running = new Set<Animation>();
   private loops = new Set<Animation>();
   private pendingSpeech: Promise<void> | null = null;
+  private source: PlaySource | null = null;
+  private section: Section | null = null;
   private speakingNarration = false;
   private gen = 0;
   private _speed = 1;
@@ -104,13 +109,17 @@ export class Player {
     this.check(gen);
   }
 
-  /** Play a script from the start. Resolves true when it ran to completion, false if stopped. */
-  async play(script: Step[]): Promise<boolean> {
+  /** Play a script from the start, taking glyphs, labels, pictures and audio from `source`.
+   *  Resolves true when it ran to completion, false if stopped. */
+  async play(script: Step[], source: PlaySource): Promise<boolean> {
     this.stop();
     const gen = this.gen;
+    this.source = source;
     this.stage.reset();
     this.stage.front.appendChild(this.clock);
     this.hooks.onCaption?.(null);
+    this.section = await prepareSection(source.audio);
+    if (gen !== this.gen) return false;
     try {
       for (let i = 0; i < script.length; i++) {
         if (gen !== this.gen) return false;
@@ -200,13 +209,13 @@ export class Player {
       }
       case 'draw': {
         const a = S.actor(st.actor);
-        const g = await buildSel(st.glyph, a.size, st.color ?? INK);
+        const g = this.glyph(st.glyph, a.size, st.color ?? INK);
         a.current?.wrap.remove();
         return this.drawGlyph(a, g, st.ms ?? 1600, gen);
       }
       case 'show': {
         const a = S.actor(st.actor);
-        const g = showInstant(await buildSel(st.glyph, a.size, st.color ?? INK));
+        const g = showInstant(this.glyph(st.glyph, a.size, st.color ?? INK));
         this.check(gen);
         a.current?.wrap.remove();
         a.glyph.appendChild(g.wrap);
@@ -215,7 +224,7 @@ export class Player {
       }
       case 'swap': {
         const a = S.actor(st.actor);
-        const next = await buildSel(st.glyph, a.size, st.color ?? INK);
+        const next = this.glyph(st.glyph, a.size, st.color ?? INK);
         return this.swap(a, next, st.ms ?? 1500, gen);
       }
       case 'clearPicture': {
@@ -288,18 +297,19 @@ export class Player {
         this.hooks.onCaption?.(st.text ? tx(st.text) : null);
         return;
       case 'tag':
-        return this.tag(S.actor(st.actor), st.char, st.hold ?? 2600, st.dx ?? 0, st.dy ?? 0, gen);
+        return this.tag(S.actor(st.actor), st.sign, st.hold ?? 2600, st.dx ?? 0, st.dy ?? 0, gen);
       case 'say': {
         const text = typeof st.text === 'string' ? st.text : tx(st.text);
         const lang = st.lang === 'zh' ? 'zh' : settings().lang;
+        const clip = st.clip?.[locale()];
         if (!st.wait) {
           // Character tag callout inside a story beat: speak when narration is off/silent
-          if (!st.silent && !this.speakingNarration) void speak(text, lang);
+          if (!st.silent && !this.speakingNarration) void speakLine(this.section, clip, text, lang);
           return;
         }
         await this.finishSpeech(gen);
         this.speakingNarration = !st.silent && st.lang === 'ui';
-        const p = st.silent ? Promise.resolve() : speak(text, lang);
+        const p = st.silent ? Promise.resolve() : speakLine(this.section, clip, text, lang);
         const readMs = Math.max(1700, text.length * (lang === 'zh' ? 170 : 55));
         const task = Promise.all([p, this.wait(readMs, gen)])
           .then(() => {
@@ -326,11 +336,17 @@ export class Player {
     }
   }
 
-  private async picture(a: Actor, id: string, ms: number, gen: number): Promise<void> {
-    const def = PICTURES[id];
+  private glyph(sel: GlyphSel, size: number, ink: string): GlyphInstance {
+    const data = this.source?.glyph(sel);
+    if (!data) throw new Error(`no glyph for ${sel.sign} ${sel.stage}#${sel.index ?? 0}`);
+    return glyphFromData(data, size, ink);
+  }
+
+  private async picture(a: Actor, key: string, ms: number, gen: number): Promise<void> {
+    const def = this.source?.picture(key);
     if (!def) return;
     a.picDef = def;
-    a.picSpin.replaceChildren(s('g', { transform: `scale(${a.size / 300}) translate(-150,-150)` }, def.build()));
+    a.picSpin.replaceChildren(s('g', { transform: `scale(${a.size / 300}) translate(-150,-150)` }, buildPicture(def.tree)));
     a.pic.classList.add('ambient-on');
     await this.anim(a.pic, [
       { opacity: 0, transform: 'scale(0.4)' },
@@ -377,15 +393,15 @@ export class Player {
     await Promise.all([out, this.drawGlyph(a, next, ms, gen)]);
   }
 
-  private async tag(a: Actor, ch: string, hold: number, dx: number, dy: number, gen: number): Promise<void> {
-    const info = BY_CHAR[ch];
+  private async tag(a: Actor, key: string, hold: number, dx: number, dy: number, gen: number): Promise<void> {
+    const info = this.source?.label(key);
     const [x, y] = this.stage.where(a);
-    const label = info ? displayChar(info, settings().script) : ch;
+    const label = info ? signText(info.text) : key.slice(key.indexOf('/') + 1);
     const g = s('g', { class: 'name-tag', transform: `translate(${x + dx},${y - a.size / 2 - 52 + dy})` });
     const inner = s('g', {},
       s('rect', { x: -40, y: -40, width: 80, height: 92, rx: 16, class: 'tag-box' }),
       s('text', { x: 0, y: 14, 'text-anchor': 'middle', class: 'tag-char' }, label),
-      s('text', { x: 0, y: 42, 'text-anchor': 'middle', class: 'tag-pinyin' }, info?.pinyin ?? ''),
+      s('text', { x: 0, y: 42, 'text-anchor': 'middle', class: 'tag-pinyin' }, info?.reading ?? ''),
     );
     g.appendChild(inner);
     this.stage.front.appendChild(g);

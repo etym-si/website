@@ -1,60 +1,42 @@
 import { h } from '../dom';
-import { t, tx } from '../i18n';
-import { settings } from '../settings';
+import { signText, t, tx } from '../i18n';
 import { header, scriptViewer, timeline, button, speakerButton } from '../ui/common';
 import { Stage } from '../engine/stage';
 import { Player } from '../engine/player';
-import { evolutionScript, withoutNarration } from '../engine/scripts';
-import { loadGlyph } from '../glyphs';
-import { PICTURES } from '../pictures';
-import { BY_CHAR, UNITS, displayChar } from '../data/chars';
-import { CHAR_STORIES } from '../data/char-stories';
-import { STAGE_BY_ID, type StageId } from '../data/stages';
-import { speak } from '../audio';
-import { artifactFor } from '../data/artifacts';
-import { artifactCard, artifactList } from '../ui/artifact';
-import type { GlyphDoc } from '../glyphs';
+import { withoutNarration } from '../engine/narration';
+import { defaultCollectionId, findSign, loadCollection, loadSign, stageMeta, system } from '../content';
+import { prepareSection, speakLine } from '../audio';
+import { artifactCard, artifactList, cardItems } from '../ui/artifact';
+import { signSource } from '../play-source';
+import type { CollectionBundle, SignBundle } from '../../shared/bundle-types.ts';
 
 let narration = true;
 let speed = 1;
 
-export function renderTheater(root: HTMLElement, param: string): () => void {
-  let current = BY_CHAR[param] ? param : '日';
-  const script = settings().script;
+/** The Evolution Theater for one sign key (`han/马`); null shows the first sign of the default collection. */
+export function renderTheater(root: HTMLElement, param: string | null): () => void {
+  let alive = true;
+  let current = '';
 
   // --- layout -------------------------------------------------------------
   const picker = h('aside', { class: 'picker', 'aria-label': t('pickChar') }, h('h2', {}, t('pickChar')));
   const pickBtns = new Map<string, HTMLButtonElement>();
-  for (const u of UNITS) {
-    const row = h('div', { class: 'pick-row' });
-    for (const ch of u.chars) {
-      const b = h('button', { type: 'button', class: 'pick', style: { '--u': u.color }, 'aria-label': `${ch} ${BY_CHAR[ch].pinyin}`, onclick: () => select(ch) },
-        displayChar(BY_CHAR[ch], script));
-      pickBtns.set(ch, b);
-      row.appendChild(b);
-    }
-    picker.append(h('div', { class: 'pick-unit' }, h('span', { class: 'pick-unit-n', style: { background: u.color } }, String(u.n)), row));
-  }
-
   const stageBox = h('div', { class: 'stage-box' });
   const caption = h('div', { class: 'caption', 'aria-live': 'polite' });
   const startOverlay = h('button', { type: 'button', class: 'start-overlay', 'aria-label': t('play') }, h('span', {}, '▶'));
   stageBox.append(startOverlay);
   const tlHost = h('div', { class: 'tl-host' });
   const viewer = scriptViewer(true);
-
   const playBtn = button(`⏸ ${t('pause')}`, () => togglePause(), 'secondary');
   const speedBtns = [0.5, 1, 2].map((x) => h('button', { type: 'button', class: `chip ${x === speed ? 'on' : ''}`, onclick: () => setSpeed(x) }, `${x}×`));
-  const narrBtn = h('button', { type: 'button', class: `chip ${narration ? 'on' : ''}`, 'aria-pressed': String(narration), onclick: () => { narration = !narration; load(current); } }, `🗣️ ${t('narration')}`);
+  const narrBtn = h('button', { type: 'button', class: `chip ${narration ? 'on' : ''}`, 'aria-pressed': String(narration), onclick: () => { narration = !narration; void load(current); } }, `🗣️ ${t('narration')}`);
   const controls = h('div', { class: 'controls' },
     playBtn,
-    button(`⟲ ${t('replay')}`, () => load(current), 'secondary'),
+    button(`⟲ ${t('replay')}`, () => void load(current), 'secondary'),
     h('div', { class: 'seg', role: 'group', 'aria-label': t('speed') }, ...speedBtns),
     narrBtn);
-
   const infoCard = h('div', { class: 'info-card' });
   const topicBar = h('div', { class: 'story-topic' });
-
   root.replaceChildren(
     header(),
     h('main', { class: 'theater' },
@@ -69,9 +51,9 @@ export function renderTheater(root: HTMLElement, param: string): () => void {
   const stage = new Stage(stageBox, { label: t('theaterTitle') });
   stageBox.insertBefore(stage.svg, startOverlay);
   let pausedByModal = false;
-  let doc: GlyphDoc | null = null;
+  let bundle: SignBundle | null = null;
   let seen: Record<string, number> = {};
-  let tl = timeline([]);
+  let tl: ReturnType<typeof timeline> | null = null;
   const onModal = (open: boolean) => {
     if (open && !player.paused) { player.pause(); pausedByModal = true; }
     else if (!open && pausedByModal) { pausedByModal = false; player.resume(); }
@@ -85,14 +67,13 @@ export function renderTheater(root: HTMLElement, param: string): () => void {
       caption.classList.toggle('show', !!text);
     },
     onStage: (id, variant) => {
-      tl.set(id, variant);
+      tl?.set(id, variant);
       caption.textContent = '';
       caption.classList.remove('show');
       // show the real artifact behind this stage of the journey
       const n = seen[id] ?? 0;
       seen[id] = n + 1;
-      const hist = doc?.stages.filter((s) => s.stage === id)[n];
-      card.show(doc ? artifactFor(doc.char, id, hist, displayChar(BY_CHAR[doc.char], settings().script)) : null);
+      card.show(bundle?.cards[id]?.[n] ?? null, bundle);
     },
   });
   player.setSpeed(speed);
@@ -109,66 +90,84 @@ export function renderTheater(root: HTMLElement, param: string): () => void {
     playBtn.textContent = player.paused ? `▶ ${t('play')}` : `⏸ ${t('pause')}`;
   }
 
-  function renderInfo(ch: string) {
-    const info = BY_CHAR[ch];
-    const story = CHAR_STORIES[ch];
-    const disp = displayChar(info, settings().script);
-    topicBar.textContent = story ? `📖 ${disp} · ${tx(story.topic)}` : '';
+  function renderPicker(coll: CollectionBundle) {
+    for (const u of coll.units) {
+      const row = h('div', { class: 'pick-row' });
+      for (const key of u.signs) {
+        const sum = coll.signs[key];
+        if (!sum) continue;
+        const b = h('button', { type: 'button', class: 'pick', style: { '--u': u.color }, 'aria-label': `${signText(sum.text)} ${sum.reading}`, onclick: () => select(key) },
+          signText(sum.text));
+        pickBtns.set(key, b);
+        row.appendChild(b);
+      }
+      picker.append(h('div', { class: 'pick-unit' }, h('span', { class: 'pick-unit-n', style: { background: u.color } }, String(u.n)), row));
+    }
+  }
+
+  function renderInfo(b: SignBundle) {
+    const disp = signText(b.text);
+    topicBar.textContent = b.topic ? `📖 ${disp} · ${tx(b.topic)}` : '';
     infoCard.replaceChildren(
       h('div', { class: 'info-char', lang: 'zh' }, disp),
       h('div', { class: 'info-body' },
         h('div', { class: 'info-head' },
-          h('span', { class: 'info-pinyin' }, info.pinyin),
-          h('span', { class: 'info-meaning' }, tx(info.meaning)),
-          speakerButton(() => void speak(disp, 'zh'))),
-        h('p', { class: 'info-fact' }, tx(info.fact))),
+          h('span', { class: 'info-pinyin' }, b.reading),
+          h('span', { class: 'info-meaning' }, tx(b.meaning)),
+          speakerButton(() => void prepareSection(b.audio).then((sec) => speakLine(sec, b.clip, disp, 'zh')))),
+        h('p', { class: 'info-fact' }, tx(b.fact))),
     );
   }
 
-  async function load(ch: string) {
-    current = ch;
-    pickBtns.forEach((b, k) => b.classList.toggle('on', k === ch));
-    history.replaceState(null, '', `#/theater/${encodeURIComponent(ch)}`);
-    renderInfo(ch);
+  async function load(key: string) {
+    current = key;
+    pickBtns.forEach((b, k) => b.classList.toggle('on', k === key));
+    const slash = key.indexOf('/');
+    history.replaceState(null, '', `#/theater/${key.slice(0, slash)}/${encodeURIComponent(key.slice(slash + 1))}`);
     player.stop();
-    card.show(null);
-    const loaded = await loadGlyph(ch);
-    if (current !== ch) return;
-    doc = loaded;
+    card.show(null, null);
+    const found = await findSign(key);
+    if (!found) return;
+    const b = await loadSign(found.summary);
+    if (!alive || current !== key) return;
+    bundle = b;
     seen = {};
-    const stages: StageId[] = [];
-    if (PICTURES[ch]) stages.push('picture');
-    for (const st of loaded.stages) if (!stages.includes(st.stage)) stages.push(st.stage);
-    stages.push('regular');
-    if (loaded.trad !== loaded.char) stages.push('simplified');
-    // every real artifact on this character's journey, listed under the info card
-    const disp = displayChar(BY_CHAR[ch], settings().script);
-    const items = [...loaded.stages.map((st) => ({ id: st.stage as StageId, a: artifactFor(ch, st.stage, st, disp) })),
-      { id: 'regular' as StageId, a: artifactFor(ch, 'regular', undefined, disp) }]
-      .filter((x): x is { id: StageId; a: NonNullable<typeof x.a> } => !!x.a)
-      .map((x) => ({ icon: STAGE_BY_ID[x.id].icon, a: x.a }));
-    if (items.length) infoCard.appendChild(artifactList(items, onModal));
-    const fresh = timeline(stages);
-    tl.el.replaceWith(fresh.el);
-    tl = fresh;
-    if (!tlHost.contains(tl.el)) tlHost.replaceChildren(tl.el);
-    let steps = evolutionScript(loaded);
+    const sys = system(b.system);
+    renderInfo(b);
+    // every real artifact on this sign's journey, listed under the info card
+    const items = cardItems(b, (st) => stageMeta(b.system, st)?.icon ?? '');
+    if (items.length) infoCard.appendChild(artifactList(items, b, onModal));
+    tl = timeline(b.stages, sys);
+    tlHost.replaceChildren(tl.el);
+    let steps = b.scripts.full;
     if (!narration) steps = withoutNarration(steps);
     viewer.load(steps);
     playBtn.textContent = `⏸ ${t('pause')}`;
-    await player.play(steps);
+    await player.play(steps, signSource(b, sys));
   }
 
-  function select(ch: string) {
+  function select(key: string) {
     startOverlay.remove();
-    void load(ch);
+    void load(key);
   }
 
-  // Browsers only allow speech after a user gesture: ask for one tap if needed.
-  const activated = (navigator as Navigator & { userActivation?: { hasBeenActive: boolean } }).userActivation?.hasBeenActive ?? true;
-  startOverlay.addEventListener('click', () => select(current));
-  if (activated) select(current);
-  else pickBtns.forEach((b, k) => b.classList.toggle('on', k === current));
+  // The picker shows the collection that contains the requested sign (else the default collection).
+  void (async () => {
+    const found = param ? await findSign(param) : null;
+    const coll = found?.collection ?? (await loadCollection(defaultCollectionId()));
+    if (!alive) return;
+    renderPicker(coll);
+    current = found ? found.summary.key : coll.units[0]?.signs[0] ?? '';
+    if (!current) return;
+    // Browsers only allow speech after a user gesture: ask for one tap if needed.
+    const activated = (navigator as Navigator & { userActivation?: { hasBeenActive: boolean } }).userActivation?.hasBeenActive ?? true;
+    startOverlay.addEventListener('click', () => select(current));
+    if (activated) select(current);
+    else pickBtns.forEach((b, k) => b.classList.toggle('on', k === current));
+  })();
 
-  return () => player.stop();
+  return () => {
+    alive = false;
+    player.stop();
+  };
 }

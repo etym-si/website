@@ -11,13 +11,12 @@ import { loadGlyph, loadHanzi, staticGlyphSvg, type GlyphSel } from '../glyphs';
 import { PICTURES } from '../pictures';
 import { Stage } from '../engine/stage';
 import { Player } from '../engine/player';
-import { evolutionScript, CHAPTERS } from '../engine/scripts';
 import { chime, speak, hasVoice } from '../audio';
 import { storyPlayer } from './story';
-import { artifactFor } from '../data/artifacts';
-import { artifactCard, artifactList } from '../ui/artifact';
-import { STAGE_BY_ID, type StageId } from '../data/stages';
-import type { GlyphDoc } from '../glyphs';
+import { artifactCard, artifactList, cardItems } from '../ui/artifact';
+import { defaultCollectionId, defaultSystemId, findSign, loadCollection, loadSign, loadStory, stageMeta, system } from '../content';
+import { signSource } from '../play-source';
+import type { SignBundle } from '../../shared/bundle-types.ts';
 
 type ExKind = 'meet' | 'picture' | 'ancient' | 'listen' | 'order' | 'match' | 'trace';
 interface Ex {
@@ -145,9 +144,9 @@ function meet(ch: string, host: HTMLElement, api: ExApi): () => void {
   host.append(prompt(`✨ ${t('newChar')}`), stageBox, cap, tlHost, card);
   const stage = new Stage(stageBox, { label: info.pinyin });
   let pausedByModal = false;
-  let doc: GlyphDoc | null = null;
+  let bundle: SignBundle | null = null;
   const seen: Record<string, number> = {};
-  let tl = timeline([]);
+  let tl = timeline([], system(defaultSystemId()));
   const onModal = (open: boolean) => {
     if (open && !player.paused) { player.pause(); pausedByModal = true; }
     else if (!open && pausedByModal) { pausedByModal = false; player.resume(); }
@@ -162,8 +161,7 @@ function meet(ch: string, host: HTMLElement, api: ExApi): () => void {
       cap.classList.remove('show');
       const n = seen[id] ?? 0;
       seen[id] = n + 1;
-      const hist = doc?.stages.filter((s) => s.stage === id)[n];
-      artCard.show(doc ? artifactFor(ch, id, hist, disp(ch)) : null);
+      artCard.show(bundle?.cards[id]?.[n] ?? null, bundle);
     },
   });
   const cont = button(t('continue'), () => api.done(true));
@@ -171,20 +169,16 @@ function meet(ch: string, host: HTMLElement, api: ExApi): () => void {
   api.setFooter(cont);
   const unlock = setTimeout(() => { cont.disabled = false; }, 4000); // let fast kids skip
   (async () => {
-    doc = await loadGlyph(ch);
-    const stages: StageId[] = [];
-    if (PICTURES[ch]) stages.push('picture');
-    for (const st of doc.stages) if (!stages.includes(st.stage)) stages.push(st.stage);
-    stages.push('regular');
-    if (doc.trad !== doc.char) stages.push('simplified');
-    const items = [...doc.stages.map((st) => ({ id: st.stage as StageId, a: artifactFor(ch, st.stage, st, disp(ch)) })),
-      { id: 'regular' as StageId, a: artifactFor(ch, 'regular', undefined, disp(ch)) }]
-      .filter((x): x is { id: StageId; a: NonNullable<typeof x.a> } => !!x.a)
-      .map((x) => ({ icon: STAGE_BY_ID[x.id].icon, a: x.a }));
-    if (items.length) card.appendChild(artifactList(items, onModal));
-    tl = timeline(stages);
+    const found = await findSign(`${defaultSystemId()}/${ch}`);
+    if (!found) throw new Error(`unknown sign ${ch}`);
+    const b = await loadSign(found.summary);
+    bundle = b;
+    const sys = system(b.system);
+    const items = cardItems(b, (st) => stageMeta(b.system, st)?.icon ?? '');
+    if (items.length) card.appendChild(artifactList(items, b, onModal));
+    tl = timeline(b.stages, sys);
     tlHost.replaceChildren(tl.el);
-    await player.play(evolutionScript(doc, { compact: true }));
+    await player.play(b.scripts.compact, signSource(b, sys));
     card.classList.add('show');
     cont.disabled = false;
     cont.focus();
@@ -375,8 +369,6 @@ export function renderLesson(root: HTMLElement, id: string): () => void {
   }
 
   if (lesson.kind === 'story') {
-    const chapter = CHAPTERS.find((c) => c.unit === lesson.unit);
-    if (!chapter) { location.hash = '#/learn'; return cleanupAll; }
     const sp = storyPlayer(body, {
       withScript: false,
       onDone: () => {
@@ -384,8 +376,12 @@ export function renderLesson(root: HTMLElement, id: string): () => void {
         footer.replaceChildren(button(t('continue'), () => results(completeLesson(lesson, 0))));
       },
     });
-    void sp.run(chapter.script);
     exCleanup = () => sp.stop();
+    void loadCollection(defaultCollectionId()).then(async (coll) => {
+      const ref = coll.stories.find((s) => s.unit === lesson.unit);
+      if (!ref) { location.hash = '#/learn'; return; }
+      await sp.run(await loadStory(ref));
+    });
     return cleanupAll;
   }
 

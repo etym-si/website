@@ -4,8 +4,7 @@ import { t, tx } from '../i18n';
 import { settings, updateSettings } from '../settings';
 import { chime } from '../audio';
 import { progress } from '../progress';
-import { STAGE_BY_ID, VARIANT_NOTE, type StageId } from '../data/stages';
-import type { Step } from '../engine/script';
+import type { Step, SystemB } from '../../shared/bundle-types.ts';
 import { buildMascot } from '../pictures';
 
 export function button(label: string, onClick: () => void, variant: 'primary' | 'secondary' | 'ghost' | 'danger' = 'primary', extra: Record<string, string> = {}): HTMLButtonElement {
@@ -62,15 +61,16 @@ export function scriptViewer(open = false): { el: HTMLElement; load: (steps: Ste
 }
 
 function compact(st: Step): string {
-  // one readable line per step; drop translations from Tri objects to keep it short
-  return JSON.stringify(st, (k, v) => (k === 'zhs' || k === 'zht' ? undefined : v));
+  // one readable line per step; keep only the English text and drop clip keys to keep it short
+  return JSON.stringify(st, (k, v) => (k === 'zh-Hans' || k === 'zh-Hant' || k === 'clip' ? undefined : v));
 }
 
 /** The journey ribbon: one station per stage this character actually has. */
-export function timeline(stages: StageId[]): { el: HTMLElement; set: (id: StageId, variant?: string) => void } {
+export function timeline(stages: string[], sys: SystemB): { el: HTMLElement; set: (id: string, variant?: string) => void } {
   const label = h('div', { class: 'tl-label' });
+  const metaOf = (id: string) => sys.stages.find((s) => s.id === id) ?? { id, icon: '•', color: '#888888', name: { en: id }, era: { en: '' } };
   const stations = stages.map((id) => {
-    const meta = STAGE_BY_ID[id];
+    const meta = metaOf(id);
     return h('li', { class: 'tl-station', 'data-stage': id, style: { '--c': meta.color } as Partial<CSSStyleDeclaration> },
       h('span', { class: 'tl-dot' }, meta.icon),
       h('span', { class: 'tl-name' }, tx(meta.name)));
@@ -86,8 +86,8 @@ export function timeline(stages: StageId[]): { el: HTMLElement; set: (id: StageI
         li.classList.toggle('past', reached && !isCur);
         if (isCur) reached = false;
       }
-      const meta = STAGE_BY_ID[id];
-      const note = variant && VARIANT_NOTE[variant] ? ` · ${tx(VARIANT_NOTE[variant])}` : '';
+      const meta = metaOf(id);
+      const note = variant && sys.variantNotes[variant] ? ` · ${tx(sys.variantNotes[variant])}` : '';
       label.replaceChildren(h('strong', {}, `${meta.icon} ${tx(meta.name)}`), h('span', {}, ` ${tx(meta.era)}${note}`));
     },
   };

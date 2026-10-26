@@ -1,6 +1,8 @@
 import './styles.css';
 import './pictures.css';
 import { cancelSpeech } from './audio';
+import { defaultCollectionId, defaultSystemId } from './content';
+import { parseRoute } from './route';
 import { onSettingsChange, settings, updateSettings } from './settings';
 import { renderHome } from './screens/home';
 import { renderTheater } from './screens/theater';
@@ -15,20 +17,18 @@ const root: HTMLElement = app;
 
 let cleanup: (() => void) | null = null;
 
-/** Hash router. Route params come from the URL, so every screen validates them against allow-lists. */
+/** Hash router. Params are pattern-checked in route.ts and validated by each screen against loaded content. */
 function route(): void {
   cleanup?.();
   cleanup = null;
   cancelSpeech();
-  const [name = '', arg = ''] = location.hash.replace(/^#\/?/, '').split('/');
-  let param = '';
-  try { param = decodeURIComponent(arg); } catch { param = ''; }
   window.scrollTo(0, 0);
-  switch (name) {
-    case 'theater': cleanup = renderTheater(root, param); break;
-    case 'story': cleanup = renderStory(root, param); break;
+  const r = parseRoute(location.hash, { system: defaultSystemId(), collection: defaultCollectionId() });
+  switch (r.name) {
+    case 'theater': cleanup = renderTheater(root, r.sign); break;
+    case 'story': cleanup = renderStory(root, r); break;
     case 'learn': cleanup = renderPath(root); break;
-    case 'lesson': cleanup = renderLesson(root, param); break;
+    case 'lesson': cleanup = renderLesson(root, r.lesson); break;
     case 'book': cleanup = renderBook(root); break;
     default: cleanup = renderHome(root);
   }
