@@ -13,7 +13,7 @@ const site = compileSite(realContent(), { mediaDir: MEDIA_DIR, strict: true }, d
 const json = <T>(rel: string): T => JSON.parse(new TextDecoder().decode(site.files.get(rel)!)) as T;
 const find = (re: RegExp) => [...site.files.keys()].filter((k) => re.test(k));
 
-test('the film corpus compiles cleanly in strict mode into ~100 files', () => {
+test('the full corpus compiles cleanly in strict mode into ~1,040 files', () => {
   assert.deepEqual(diags.lines(), []);
   assert.equal(find(/^data\/signs\/han\/[^/]+\.json$/).length, 502);
   assert.equal(find(/^data\/signs\/han\/[^/]+\.mp3$/).length, 502);

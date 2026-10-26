@@ -16,7 +16,7 @@ export function readMediaManifest(mediaDir: string): MediaManifest {
   const p = manifestPath(mediaDir);
   if (!existsSync(p)) return { v: 1, clips: {} };
   const m = JSON.parse(readFileSync(p, 'utf8')) as MediaManifest;
-  if (m.v !== 1 || !m.clips || typeof m.clips !== 'object') throw new Error(`${p}: unsupported manifest format`);
+  if (m.v !== 1 || !m.clips || typeof m.clips !== 'object' || Array.isArray(m.clips)) throw new Error(`${p}: unsupported manifest format`);
   return m;
 }
 
