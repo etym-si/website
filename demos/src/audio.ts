@@ -146,7 +146,11 @@ export function prepareSection(index: AudioIndex | null, localeId: string = loca
   return p;
 }
 
-/** Seek to a clip, play it, and stop at its end (inside the 240 ms silent gap that follows every clip). */
+/** How much longer than its length (in media time) a clip may take before we stop waiting for it. */
+const CLIP_SLACK_MS = 1500;
+
+/** Seek to a clip, play it, and stop at its end (inside the 240 ms silent gap that follows every clip).
+ *  A stalled or crawling audio clock can't hold the caller up: playing time is capped at the clip's length plus slack. */
 function playClip(section: Section, key: string): Promise<void> {
   const [ms, dur] = section.clips[key];
   cancelSpeech();
@@ -157,6 +161,8 @@ function playClip(section: Section, key: string): Promise<void> {
     let raf = 0;
     let lastTime = -1;
     let stuckSince = performance.now();
+    let prev = stuckSince;
+    let budget = dur + CLIP_SLACK_MS; // media ms left to wait for; spent at the playback rate while not paused
     const finish = () => {
       if (done) return;
       done = true;
@@ -178,6 +184,9 @@ function playClip(section: Section, key: string): Promise<void> {
       if (done) return;
       if (a.currentTime >= end) { finish(); return; }
       const now = performance.now();
+      if (!a.paused) budget -= (now - prev) * a.playbackRate;
+      prev = now;
+      if (budget <= 0) { finish(); return; } // the audio clock crawls
       if (a.paused || a.currentTime !== lastTime) { lastTime = a.currentTime; stuckSince = now; }
       else if (now - stuckSince > 3000) { finish(); return; } // stalled while playing
       raf = requestAnimationFrame(tick);
@@ -189,7 +198,8 @@ function playClip(section: Section, key: string): Promise<void> {
     a.addEventListener('ended', finish, { once: true });
     a.addEventListener('error', finish, { once: true });
     a.currentTime = ms / 1000;
-    void a.play().then(() => { raf = requestAnimationFrame(tick); }, finish);
+    void a.play().catch(finish);
+    raf = requestAnimationFrame(tick); // watch from the start: a seek or play() that never settles is a stall too
   });
 }
 

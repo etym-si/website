@@ -131,3 +131,66 @@ test('a section evicted while playing has its URL revoked after the clip finishe
   }
 });
 
+test('a clip whose audio clock stalls or crawls is cut at its length plus slack; paused time does not count', async () => {
+  const dev = await startDev();
+  const browser = await launchChromium(['--autoplay-policy=no-user-gesture-required']);
+  try {
+    const page = await browser.newPage();
+    const w = await watchPage(page);
+    await page.goto(`${dev.url}tests/e2e/harness/audio.html`);
+    const r = await page.evaluate(async () => {
+      const load = (u: string) => import(/* @vite-ignore */ u);
+      const [{ findSign, loadSign }, audio] = await Promise.all([load('/src/content.ts'), load('/src/audio.ts')]);
+      const b = await loadSign((await findSign('han/马')).summary);
+      const section = await audio.prepareSection(b.audio, 'en');
+      const [ms, dur] = section.clips[b.clip] as [number, number];
+      const el = section.audio as HTMLAudioElement;
+      const sleep = (n: number) => new Promise((res) => setTimeout(res, n));
+      // Media time comes from the host's audio output, which can stall or crawl (seen with WSLg's sound server).
+      // Stand in for the element's transport and clock: media time runs at `rate` × real time while playing.
+      const fake = (rate: number, starts = true) => {
+        let t = 0;
+        let paused = true;
+        let last = performance.now();
+        const now = () => {
+          const n = performance.now();
+          if (!paused) t += ((n - last) / 1000) * rate;
+          last = n;
+          return t;
+        };
+        Object.defineProperties(el, {
+          paused: { configurable: true, get: () => paused },
+          currentTime: { configurable: true, get: now, set: (v: number) => { now(); t = v; } },
+          play: { configurable: true, value: () => { now(); paused = false; return starts ? Promise.resolve() : new Promise(() => {}); } },
+          pause: { configurable: true, value: () => { now(); paused = true; } },
+        });
+      };
+      const run = async (during?: () => Promise<void>) => {
+        const t0 = performance.now();
+        const p = audio.speakLine(section, b.clip, '马', 'zh').then(() => false);
+        await during?.();
+        const hung = await Promise.race([p, sleep(20000).then(() => true)]);
+        return { hung, took: Math.round(performance.now() - t0), at: el.currentTime * 1000 };
+      };
+      fake(0.1); // a tenth of real time: uncapped, the clip would take ten times its length
+      const crawl = await run();
+      fake(0, false); // play() never settles and the clock never moves
+      const stuck = await run();
+      fake(1); // a healthy clock, paused for 3 s halfway through
+      const paused = await run(async () => {
+        await sleep(dur / 2);
+        audio.pauseSpeech();
+        await sleep(3000);
+        audio.resumeSpeech();
+      });
+      return { dur, clipEnd: ms + dur, crawl, stuck, paused };
+    });
+    assert.ok(!r.crawl.hung && r.crawl.took >= r.dur && r.crawl.took <= r.dur + 2500, `crawling clock: ${JSON.stringify(r)}`);
+    assert.ok(!r.stuck.hung && r.stuck.took <= r.dur + 2500, `stuck clock: ${JSON.stringify(r)}`);
+    assert.ok(!r.paused.hung && r.paused.took >= r.dur + 2900 && r.paused.at >= r.clipEnd, `played to its end after the pause: ${JSON.stringify(r)}`);
+    assert.deepEqual(w.problems, []);
+  } finally {
+    await browser.close();
+    await dev.close();
+  }
+});
