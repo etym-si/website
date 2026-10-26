@@ -17,8 +17,7 @@
     "schema": "node tools/write-json-schema.ts",
     "test": "node --test \"tests/unit/**/*.test.ts\" \"tests/parity/**/*.test.ts\"",
     "test:e2e": "node --test --test-concurrency=1 \"tests/e2e/**/*.test.ts\"",
-    "typecheck:tools": "tsc --noEmit -p tsconfig.tools.json",
-    "golden": "node tools/golden/capture.ts"
+    "typecheck:tools": "tsc --noEmit -p tsconfig.tools.json"
   },
   "dependencies": {
     "hanzi-writer": "3.7.3"

@@ -3,6 +3,7 @@
 // - Regular script (traditional + simplified): stroke outlines + medians from hanzi-writer-data (Arphic PL),
 //   which lets us animate real stroke order.
 import { s, nextId } from './dom';
+import type { GlyphData } from '../shared/bundle-types.ts';
 import type { StageId } from './data/stages';
 
 export type HistStageId = 'oracle' | 'bronze' | 'seal' | 'clerical';
@@ -132,7 +133,7 @@ export interface GlyphInstance {
 }
 
 /** Historical glyph, normalized so its 300-unit box maps to a size×size square centered on (0,0). */
-export function buildHist(st: HistStage, size: number, ink = INK): GlyphInstance {
+export function buildHist(st: Pick<HistStage, 'box' | 'paths'>, size: number, ink = INK): GlyphInstance {
   const [bx, by, bw, bh] = st.box;
   const k = size / Math.max(bw, bh);
   const inner = s('g', { transform: `scale(${k}) translate(${-(bx + bw / 2)},${-(by + bh / 2)})` });
@@ -215,6 +216,17 @@ export function showInstant(g: GlyphInstance): GlyphInstance {
   g.fills.forEach((f) => { f.style.opacity = '1'; });
   g.wrap.classList.add('shown');
   return g;
+}
+
+/** Build a compiled glyph: a Commons form (sketch-then-ink) or regular-script stroke data (stroke order). */
+export function glyphFromData(data: GlyphData, size: number, ink = INK): GlyphInstance {
+  return data.kind === 'paths' ? buildHist(data.form, size, ink) : buildHanzi(data.strokes, size, ink);
+}
+
+/** A standalone static SVG of a compiled glyph (quiz cards, sticker book). */
+export function staticGlyph(data: GlyphData, px: number, ink = INK): SVGSVGElement {
+  const g = showInstant(glyphFromData(data, 100, ink));
+  return s('svg', { viewBox: '-55 -55 110 110', width: px, height: px, class: 'glyph-svg', role: 'img', 'aria-hidden': 'true' }, g.wrap);
 }
 
 /** A standalone static SVG of one glyph form (quiz cards, sticker book). */
