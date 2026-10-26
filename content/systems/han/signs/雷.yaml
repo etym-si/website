@@ -1,0 +1,21 @@
+id: 雷
+text: { Hans: 雷, Hant: 雷 }
+readings: { pinyin: léi }
+meaning: { en: thunder, zh-Hans: 打雷, zh-Hant: 打雷 }
+fact:
+  en: 雷 is an old shortcut for 靁, which has 雨 (rain) on top for meaning and 畾, three 田 shapes, for sound. The shortcut keeps just one 田!
+  zh-Hans: “雷”是“靁”的古代简写。“靁”上面的“雨”表示意思，下面三个“田”组成的“畾”表示读音；简写以后只剩下一个“田”！
+  zh-Hant: 「雷」是「靁」的古代簡寫。「靁」上面的「雨」表示意思，下面三個「田」組成的「畾」表示讀音；簡寫以後只剩下一個「田」！
+story:
+  topic: { en: Thunder over the Playground, zh-Hans: 操场上的雷声, zh-Hant: 操場上的雷聲 }
+  hook: { en: 'Rumble, BOOM! Thunder rolls over the playground, and all the kids dash inside, squealing.', zh-Hans: 轰隆隆——轰！雷声滚过操场，小朋友们尖叫着跑回了教室。, zh-Hant: 轟隆隆——轟！雷聲滾過操場，小朋友們尖叫著跑回了教室。 }
+  closer: { en: 'Rain above, one 田 shape below: rumbling 雷 is thunder!', zh-Hans: 上面是“雨”，下面一个“田”，轰隆隆的就是打雷的“雷”！, zh-Hant: 上面是「雨」，下面一個「田」，轟隆隆的就是打雷的「雷」！ }
+journey: []
+origin:
+  type: phono-semantic
+  parts:
+    - { char: 雨, role: meaning, gloss: { en: rain, zh-Hans: 雨, zh-Hant: 雨 } }
+    - { char: 畾, role: sound }
+status: draft
+sources:
+  - { title: 'Wiktionary: 雷', url: 'https://en.wiktionary.org/wiki/%E9%9B%B7' }

@@ -1,0 +1,20 @@
+id: 眉
+text: { Hans: 眉, Hant: 眉 }
+readings: { pinyin: méi }
+meaning: { en: eyebrow, zh-Hans: 眉毛, zh-Hant: 眉毛 }
+fact:
+  en: 眉 is hair above an eye. Find the eye, 目, at the bottom!
+  zh-Hans: “眉”就是眼睛上面的毛。找一找，下面就是眼睛“目”！
+  zh-Hant: 「眉」就是眼睛上面的毛。找一找，下面就是眼睛「目」！
+story:
+  topic: { en: Dad's Eyebrows Shoot Up, zh-Hans: 爸爸的眉毛挑起来了, zh-Hant: 爸爸的眉毛挑起來了 }
+  hook: { en: 'Uh-oh! When Dad sees the muddy footprints on the carpet, his eyebrows shoot way up.', zh-Hans: 哎呀！爸爸看见地毯上的泥脚印，眉毛一下子挑得老高。, zh-Hant: 哎呀！爸爸看見地毯上的泥腳印，眉毛一下子挑得老高。 }
+  early: { en: 'The oldest 眉 is an eye with hair drawn above it: an eyebrow!', zh-Hans: 最早的“眉”是一只眼睛，上面画着毛——就是眉毛！, zh-Hant: 最早的「眉」是一隻眼睛，上面畫著毛——就是眉毛！ }
+  turn: { en: 'Later, the hair part was tidied into a few neat strokes sitting right on top of 目.', zh-Hans: 后来，上面的毛被整理成了几笔整齐的笔画，稳稳地盖在“目”的上面。, zh-Hant: 後來，上面的毛被整理成了幾筆整齊的筆畫，穩穩地蓋在「目」的上面。 }
+  closer: { en: 'Hair on top, an eye 目 below: that is 眉, as in 眉毛, eyebrow!', zh-Hans: 上面是毛，下面是眼睛“目”：这就是眉毛的“眉”！, zh-Hant: 上面是毛，下面是眼睛「目」：這就是眉毛的「眉」！ }
+journey: default
+origin:
+  type: pictogram
+status: draft
+sources:
+  - { title: 'Wiktionary: 眉', url: 'https://en.wiktionary.org/wiki/%E7%9C%89' }

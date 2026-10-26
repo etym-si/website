@@ -1,0 +1,24 @@
+id: 对
+text: { Hans: 对, Hant: 對 }
+readings: { pinyin: duì }
+meaning: { en: 'correct, right', zh-Hans: 答对, zh-Hant: 答對 }
+fact:
+  en: On oracle bones and bronzes, 對 was a digging tool 丵, earth 土 and a hand 又. Its first meaning is unclear (maybe “to work the land”), and it was later borrowed to mean “to reply”.
+  zh-Hans: 在甲骨文和金文里，“对”由挖土的工具“丵”、泥土“土”和手“又”组成。它最早的意思还不清楚，可能是“开垦土地”；后来被借去表示“回答”。
+  zh-Hant: 在甲骨文和金文裡，「對」由挖土的工具「丵」、泥土「土」和手「又」組成。它最早的意思還不清楚，可能是「開墾土地」；後來被借去表示「回答」。
+story:
+  topic: { en: The Memory Card Game, zh-Hans: 翻牌配对游戏, zh-Hant: 翻牌配對遊戲 }
+  hook: { en: 'Flip, flip… a match! Pip turns over two cards, and both show a smiling panda: he got it right!', zh-Hans: 翻，翻……配对成功！皮皮翻开两张卡片，上面都是笑眯眯的熊猫——他猜对了！, zh-Hant: 翻，翻……配對成功！皮皮翻開兩張卡片，上面都是笑瞇瞇的貓熊——他猜對了！ }
+  turn: { en: 'In seal script, the hand 又 became 寸, which you can still see on the right of 對 and 对.', zh-Hans: 到了篆书，那只手“又”变成了“寸”，今天在“对”的右边还能看到它。, zh-Hant: 到了篆書，那隻手「又」變成了「寸」，今天在「對」的右邊還能看到它。 }
+  closer: { en: "From a hand with a digging tool to “That's right!”: that's 对 (對)!", zh-Hans: 从拿着挖土工具的手，到“答对了！”——这就是“对”！, zh-Hant: 從拿著挖土工具的手，到「答對了！」——這就是「對」！ }
+journey: default
+origin:
+  type: compound-ideogram
+  parts:
+    - { char: 丵, role: meaning, gloss: { en: digging tool, zh-Hans: 挖土的工具, zh-Hant: 挖土的工具 } }
+    - { char: 土, role: meaning, gloss: { en: earth, zh-Hans: 泥土, zh-Hant: 泥土 } }
+    - { char: 又, role: meaning, gloss: { en: hand, zh-Hans: 手, zh-Hant: 手 } }
+status: draft
+sources:
+  - { title: 'Wiktionary: 对', url: 'https://en.wiktionary.org/wiki/%E5%AF%B9' }
+  - { title: 'Wiktionary: 對', url: 'https://en.wiktionary.org/wiki/%E5%B0%8D' }

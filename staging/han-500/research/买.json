@@ -1,0 +1,32 @@
+{
+ "id": "买",
+ "s": "买",
+ "t": "買",
+ "forms": {
+  "s": "买",
+  "alt": "𧵽"
+ },
+ "pinyin": [
+  "mǎi"
+ ],
+ "glyph_origin": "Ideogrammic compound (會意): 网 (“net”) + 貝 (“money cowrie”). The original version is 𧵽. Baxter and Sagart (2014) consider it to be a phono-semantic compound (形聲): abbreviated phonetic 羅 + semantic 貝 (“money cowrie”).",
+ "s_page_origin": "",
+ "shuowen": [],
+ "senses": [
+  "[mǎi] to buy; to purchase",
+  "[mǎi] to bribe"
+ ],
+ "sources": [
+  {
+   "title": "Wiktionary: 买",
+   "url": "https://en.wiktionary.org/wiki/%E4%B9%B0",
+   "rev": 71779520
+  },
+  {
+   "title": "Wiktionary: 買",
+   "url": "https://en.wiktionary.org/wiki/%E8%B2%B7",
+   "rev": 93527583
+  }
+ ],
+ "note": "glyph_origin is from the traditional page 買; s_page_origin explains the simplified 买."
+}

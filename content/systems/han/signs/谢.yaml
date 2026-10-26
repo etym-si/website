@@ -1,0 +1,22 @@
+id: 谢
+text: { Hans: 谢, Hant: 謝 }
+readings: { pinyin: xiè }
+meaning: { en: to thank, zh-Hans: 谢谢, zh-Hant: 謝謝 }
+fact:
+  en: 谢 (謝) has 言 (words) for meaning and 射 for sound. Besides 'thank you', it can also mean saying sorry, or politely saying 'no, thanks'.
+  zh-Hans: “谢”的“讠”（言）表示意思，“射”表示读音。除了感谢，它还可以表示道歉，或者客气地推辞。
+  zh-Hant: 「謝」左邊的「言」表示意思，右邊的「射」表示讀音。除了感謝，它還可以表示道歉，或者客氣地推辭。
+story:
+  topic: { en: A Hug for Grandpa, zh-Hans: 给爷爷的拥抱, zh-Hant: 給爺爺的擁抱 }
+  hook: { en: "Grandpa fixes the chain on Mia's bike. 'Thank you, Grandpa!' she cheers, and gives him a giant hug.", zh-Hans: 爷爷帮米娅修好了自行车的链条。“谢谢爷爷！”她开心地给了爷爷一个大大的拥抱。, zh-Hant: 爺爺幫米婭修好了腳踏車的鏈條。「謝謝爺爺！」她開心地給了爺爺一個大大的擁抱。 }
+  closer: { en: 'Say it twice for extra kindness: 谢谢 (謝謝), thank you!', zh-Hans: 说两遍，暖暖的：“谢谢”！这就是感谢的“谢”。, zh-Hant: 說兩遍，暖暖的：「謝謝」！這就是感謝的「謝」。 }
+journey: []
+origin:
+  type: phono-semantic
+  parts:
+    - { char: 言, role: meaning, gloss: { en: word; speech, zh-Hans: 话语, zh-Hant: 話語 } }
+    - { char: 射, role: sound }
+status: draft
+sources:
+  - { title: 'Wiktionary: 谢', url: 'https://en.wiktionary.org/wiki/%E8%B0%A2' }
+  - { title: 'Wiktionary: 謝', url: 'https://en.wiktionary.org/wiki/%E8%AC%9D' }

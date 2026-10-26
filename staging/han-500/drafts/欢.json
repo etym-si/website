@@ -1,0 +1,67 @@
+{
+  "id": "欢",
+  "text": {
+    "Hans": "欢",
+    "Hant": "歡"
+  },
+  "readings": {
+    "pinyin": "huān"
+  },
+  "meaning": {
+    "en": "happy, joyful",
+    "zh-Hans": "喜欢",
+    "zh-Hant": "喜歡"
+  },
+  "fact": {
+    "en": "歡 joins 欠 on the right, the meaning part, with 雚 on the left, the sound part. Simplified 欢 swaps the busy 雚 for a simple 又.",
+    "zh-Hans": "繁体字“歡”右边的“欠”表示意思，左边的“雚”表示读音。简体字“欢”把复杂的“雚”换成了简单的“又”。",
+    "zh-Hant": "「歡」右邊的「欠」表示意思，左邊的「雚」表示讀音。簡體字「欢」把複雜的「雚」換成了簡單的「又」。"
+  },
+  "story": {
+    "topic": {
+      "en": "Fun in the Fountain",
+      "zh-Hans": "喷泉里的欢笑",
+      "zh-Hant": "噴泉裡的歡笑"
+    },
+    "hook": {
+      "en": "Squeals of joy! On a hot day, the kids dash in and out of the dancing fountain in the square.",
+      "zh-Hans": "一片欢笑声！大热天里，小朋友们在广场的喷泉里跑进跑出，玩得好开心。",
+      "zh-Hant": "一片歡笑聲！大熱天裡，小朋友們在廣場的噴泉裡跑進跑出，玩得好開心。"
+    },
+    "closer": {
+      "en": "Cheers, giggles and happy hops: that's 欢 (歡), joy!",
+      "zh-Hans": "欢呼、欢笑、欢蹦乱跳——这就是欢乐的“欢”！",
+      "zh-Hant": "歡呼、歡笑、歡蹦亂跳——這就是歡樂的「歡」！"
+    }
+  },
+  "journey": [],
+  "origin": {
+    "type": "phono-semantic",
+    "parts": [
+      {
+        "char": "欠",
+        "role": "meaning",
+        "gloss": {
+          "en": "breath",
+          "zh-Hans": "吹气",
+          "zh-Hant": "吹氣"
+        }
+      },
+      {
+        "char": "雚",
+        "role": "sound"
+      }
+    ]
+  },
+  "status": "draft",
+  "sources": [
+    {
+      "title": "Wiktionary: 欢",
+      "url": "https://en.wiktionary.org/wiki/%E6%AC%A2"
+    },
+    {
+      "title": "Wiktionary: 歡",
+      "url": "https://en.wiktionary.org/wiki/%E6%AD%A1"
+    }
+  ]
+}

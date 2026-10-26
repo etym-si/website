@@ -1,0 +1,42 @@
+{
+  "id": "师",
+  "text": { "Hans": "师", "Hant": "師" },
+  "readings": { "pinyin": "shī" },
+  "meaning": { "en": "teacher", "zh-Hans": "老师", "zh-Hant": "老師" },
+  "fact": {
+    "en": "师 (師) is made of two old parts, 𠂤 and 帀. The word may be related to other words about crowds and lots of people.",
+    "zh-Hans": "“师”的繁体字“師”由两个古老的部件“𠂤”和“帀”组成。这个词可能和一些表示“人多、众多”的词有关系。",
+    "zh-Hant": "「師」由兩個古老的部件「𠂤」和「帀」組成。這個詞可能和一些表示「人多、眾多」的詞有關係。"
+  },
+  "story": {
+    "topic": { "en": "Miss Lin Counts Heads", "zh-Hans": "林老师点人数", "zh-Hant": "林老師點人數" },
+    "hook": {
+      "en": "Twenty-one, twenty-two, everyone's here! On the class trip, Miss Lin counts every head before the group sets off.",
+      "zh-Hans": "二十一，二十二，全都到齐啦！春游这天，林老师把每个小朋友都数了一遍，才带着大家出发。",
+      "zh-Hant": "二十一，二十二，全都到齊囉！校外教學這天，林老師把每個小朋友都數了一遍，才帶著大家出發。"
+    },
+    "turn": {
+      "en": "Simplified 师 swaps the left part 𠂤 for 刂, just as 帥 became 帅.",
+      "zh-Hans": "简化字“师”把左边的“𠂤”换成了“刂”，就像“帥”简化成“帅”一样。",
+      "zh-Hant": "簡化字把左邊的「𠂤」換成了「刂」，就像「帥」簡化成「帅」一樣。"
+    },
+    "closer": {
+      "en": "The one who guides the whole class: that's 师 (師), as in 老师, teacher!",
+      "zh-Hans": "带着全班一起学习的人，就是老师的“师”！",
+      "zh-Hant": "帶著全班一起學習的人，就是老師的「師」！"
+    }
+  },
+  "journey": "default",
+  "origin": {
+    "type": "compound-ideogram",
+    "parts": [
+      { "char": "𠂤", "role": "meaning" },
+      { "char": "帀", "role": "meaning" }
+    ]
+  },
+  "status": "draft",
+  "sources": [
+    { "title": "Wiktionary: 师", "url": "https://en.wiktionary.org/wiki/%E5%B8%88" },
+    { "title": "Wiktionary: 師", "url": "https://en.wiktionary.org/wiki/%E5%B8%AB" }
+  ]
+}

@@ -1,0 +1,22 @@
+id: 原
+text: { Hans: 原, Hant: 原 }
+readings: { pinyin: yuán }
+meaning: { en: original; source, zh-Hans: 原来, zh-Hant: 原來 }
+fact:
+  en: 原 means original or source. It's a cliff, 厂, with a spring, 泉, underneath.
+  zh-Hans: “原”有起源、原来的意思。它是山崖“厂”，下面有泉水“泉”。
+  zh-Hant: 「原」有起源、原來的意思。它是山崖「厂」，下面有泉水「泉」。
+story:
+  topic: { en: Finding Where the River Starts, zh-Hans: 寻找小河的源头, zh-Hant: 尋找小河的源頭 }
+  hook: { en: 'Follow the stream uphill and — there it is! Water gushes out of the rocky cliff: the very start of the river.', zh-Hans: 沿着小溪往上走——找到啦！清水从石崖里涌出来，这里就是小河的源头。, zh-Hant: 沿著小溪往上走——找到啦！清水從石崖裡湧出來，這裡就是小河的源頭。 }
+  early: { en: 'The oldest 原 shows a spring bursting out from the side of a cliff: the place where the water begins.', zh-Hans: 最早的“原”画的是从山崖边涌出来的泉水，也就是水开始的地方。, zh-Hant: 最早的「原」畫的是從山崖邊湧出來的泉水，也就是水開始的地方。 }
+  closer: { en: 'A cliff 厂 with a spring 泉 pouring out: that is 原, the origin of the river — as in 原来!', zh-Hans: 山崖“厂”里涌出泉水“泉”：这就是小河的源头，原来的“原”！, zh-Hant: 山崖「厂」裡湧出泉水「泉」：這就是小河的源頭，原來的「原」！ }
+journey: default
+origin:
+  type: compound-ideogram
+  parts:
+    - { char: 泉, role: meaning, gloss: { en: spring, zh-Hans: 泉水, zh-Hant: 泉水 } }
+    - { char: 厂, role: meaning, gloss: { en: cliff, zh-Hans: 山崖, zh-Hant: 山崖 } }
+status: draft
+sources:
+  - { title: 'Wiktionary: 原', url: 'https://en.wiktionary.org/wiki/%E5%8E%9F' }

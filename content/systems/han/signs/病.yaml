@@ -1,0 +1,21 @@
+id: 病
+text: { Hans: 病, Hant: 病 }
+readings: { pinyin: bìng }
+meaning: { en: illness; sick, zh-Hans: 生病, zh-Hant: 生病 }
+fact:
+  en: 病 has 疒, the sickness part, for the meaning and 丙 (bǐng) for the sound, close to bìng. 丙 can also mean 'fire', which makes some people think of a hot fever in bed.
+  zh-Hans: “病”外面的“疒”表示生病，是意思部分；里面的“丙”（bǐng）表示读音，和“病”（bìng）读起来很像。“丙”还有“火”的意思，让人联想到发烧躺在床上。
+  zh-Hant: 「病」外面的「疒」表示生病，是意思部分；裡面的「丙」（bǐng）表示讀音，和「病」（bìng）讀起來很像。「丙」還有「火」的意思，讓人聯想到發燒躺在床上。
+story:
+  topic: { en: A Day in Bed With a Cold, zh-Hans: 感冒躺在床上的一天, zh-Hant: 感冒躺在床上的一天 }
+  hook: { en: "Achoo! Danny's nose is red, his head is hot, and Mom tucks him into bed with a bowl of warm soup.", zh-Hans: 阿嚏！丹尼鼻子红红的，额头烫烫的，妈妈让他躺在床上，还端来一碗热汤。, zh-Hant: 哈啾！丹尼鼻子紅紅的，額頭燙燙的，媽媽讓他躺在床上，還端來一碗熱湯。 }
+  closer: { en: 'The sickness part 疒 plus 丙: 病 means sick. Get well soon!', zh-Hans: “疒”加上“丙”，就是生病的“病”。祝你早日康复！, zh-Hant: 「疒」加上「丙」，就是生病的「病」。祝你早日康復！ }
+journey: []
+origin:
+  type: phono-semantic
+  parts:
+    - { char: 疒, role: meaning, gloss: { en: sickness, zh-Hans: 生病, zh-Hant: 生病 } }
+    - { char: 丙, role: sound }
+status: draft
+sources:
+  - { title: 'Wiktionary: 病', url: 'https://en.wiktionary.org/wiki/%E7%97%85' }

@@ -1,0 +1,32 @@
+{
+ "id": "国",
+ "s": "国",
+ "t": "國",
+ "forms": {
+  "s": "国",
+  "alt": "囯,圀,囶,𡆿,…"
+ },
+ "pinyin": [
+  "guó"
+ ],
+ "glyph_origin": "Phono-semantic compound (形聲): semantic 囗 (“closure”) + phonetic 或.",
+ "s_page_origin": "Simplified from 國 (或 → 玉). Also compare 囯, an unorthodox variant of 國 that contains 王* (“king”) instead of 玉* (“jade”).",
+ "shuowen": [],
+ "senses": [
+  "[guó] country; nation; nation-state; kingdom",
+  "[guó] (obsolete) capital"
+ ],
+ "sources": [
+  {
+   "title": "Wiktionary: 国",
+   "url": "https://en.wiktionary.org/wiki/%E5%9B%BD",
+   "rev": 91764514
+  },
+  {
+   "title": "Wiktionary: 國",
+   "url": "https://en.wiktionary.org/wiki/%E5%9C%8B",
+   "rev": 93629901
+  }
+ ],
+ "note": "glyph_origin is from the traditional page 國; s_page_origin explains the simplified 国."
+}

@@ -1,0 +1,33 @@
+{
+  "id": "心",
+  "text": { "Hans": "心", "Hant": "心" },
+  "readings": { "pinyin": "xīn" },
+  "meaning": { "en": "heart", "zh-Hans": "爱心", "zh-Hant": "愛心" },
+  "fact": {
+    "en": "心 began as a picture of a heart. Today's shape has changed so much that the picture is hard to spot.",
+    "zh-Hans": "“心”最早画的是一颗心脏。今天的字形变化很大，已经很难看出原来的样子了。",
+    "zh-Hant": "「心」最早畫的是一顆心臟。今天的字形變化很大，已經很難看出原來的樣子了。"
+  },
+  "story": {
+    "topic": { "en": "A Racing Heart", "zh-Hans": "怦怦跳的心", "zh-Hant": "怦怦跳的心" },
+    "hook": {
+      "en": "Thump-thump, thump-thump! After a game of tag, you put a hand on your chest and feel your heart racing.",
+      "zh-Hans": "扑通，扑通！玩完捉人游戏，你把手放在胸口，感觉心跳得飞快。",
+      "zh-Hant": "撲通，撲通！玩完鬼抓人，你把手放在胸口，感覺心跳得飛快。"
+    },
+    "turn": {
+      "en": "Bit by bit, the heart drawing turned into a handful of quick strokes, until it became today's 心.",
+      "zh-Hans": "这颗心的图画一点一点地变成了几笔简单的笔画，最后成了今天的“心”。",
+      "zh-Hant": "這顆心的圖畫一點一點地變成了幾筆簡單的筆畫，最後成了今天的「心」。"
+    },
+    "closer": {
+      "en": "Four little strokes for the thing that goes thump-thump: that is 心, heart!",
+      "zh-Hans": "四笔写出怦怦跳的心：这就是“心”！",
+      "zh-Hant": "四筆寫出怦怦跳的心：這就是「心」！"
+    }
+  },
+  "journey": "default",
+  "origin": { "type": "pictogram" },
+  "status": "draft",
+  "sources": [ { "title": "Wiktionary: 心", "url": "https://en.wiktionary.org/wiki/%E5%BF%83" } ]
+}

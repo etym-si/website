@@ -1,0 +1,20 @@
+id: 能
+text: { Hans: 能, Hant: 能 }
+readings: { pinyin: néng }
+meaning: { en: 'can, to be able to', zh-Hans: 能力, zh-Hant: 能力 }
+fact:
+  en: 能 started out as a picture of a bear! Its two paws became the pair of 匕 on the right, and its face with an open mouth became 月.
+  zh-Hans: “能”最早画的是一头熊！熊的两只爪子变成了右边的两个“匕”，张着嘴的脸变成了“月”。
+  zh-Hant: 「能」最早畫的是一頭熊！熊的兩隻爪子變成了右邊的兩個「匕」，張著嘴的臉變成了「月」。
+story:
+  topic: { en: I Can Do a Cartwheel!, zh-Hans: 我能翻侧手翻！, zh-Hant: 我能翻側翻！ }
+  hook: { en: 'Hands down, feet up, hup! After lots of tries, you can finally do a cartwheel.', zh-Hans: 双手撑地，双脚一甩，嘿！练了好多次，你终于能翻侧手翻了！, zh-Hant: 雙手撐地，雙腳一甩，嘿！練了好多次，你終於能翻側翻了！ }
+  early: { en: 'The oldest 能 is a picture of a bear. Look at 熊 (bear) today: 能 is sitting right on top!', zh-Hans: 最古老的“能”画的是一头熊。看看今天的“熊”字，上面就是“能”！, zh-Hant: 最古老的「能」畫的是一頭熊。看看今天的「熊」字，上面就是「能」！ }
+  turn: { en: 'Over time, the two paws turned into the two 匕, and the face with its open mouth became 月.', zh-Hans: 慢慢地，两只爪子变成了两个“匕”，张着嘴的脸变成了“月”。, zh-Hant: 慢慢地，兩隻爪子變成了兩個「匕」，張著嘴的臉變成了「月」。 }
+  closer: { en: "A bear picture that now means can: that's 能!", zh-Hans: 一幅大熊的图画，如今表示“能够”，这就是能力的“能”！, zh-Hant: 一幅大熊的圖畫，如今表示「能夠」，這就是能力的「能」！ }
+journey: default
+origin:
+  type: pictogram
+status: draft
+sources:
+  - { title: 'Wiktionary: 能', url: 'https://en.wiktionary.org/wiki/%E8%83%BD' }

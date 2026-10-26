@@ -1,0 +1,63 @@
+{
+  "id": "清",
+  "text": {
+    "Hans": "清",
+    "Hant": "清"
+  },
+  "readings": {
+    "pinyin": "qīng"
+  },
+  "meaning": {
+    "en": "clear; clean",
+    "zh-Hans": "清水",
+    "zh-Hant": "清水"
+  },
+  "fact": {
+    "en": "清 has 氵 (water) for meaning and 青 for sound: 青 (qīng) sounds exactly like 清 (qīng)!",
+    "zh-Hans": "“清”左边的“氵”表示意思，右边的“青”表示读音，“青”（qīng）和“清”（qīng）读音一模一样！",
+    "zh-Hant": "「清」左邊的「氵」表示意思，右邊的「青」表示讀音，「青」（qīng）和「清」（qīng）讀音一模一樣！"
+  },
+  "story": {
+    "topic": {
+      "en": "Counting Pebbles in the Stream",
+      "zh-Hans": "数溪里的小石子",
+      "zh-Hant": "數溪裡的小石子"
+    },
+    "hook": {
+      "en": "So clear! Peering into the mountain stream, Ming can count every pebble and every tiny fish.",
+      "zh-Hans": "好清啊！小明往山间的小溪里一看，每颗小石子、每条小鱼都看得清清楚楚。",
+      "zh-Hant": "好清啊！小明往山間的小溪裡一看，每顆小石子、每條小魚都看得清清楚楚。"
+    },
+    "closer": {
+      "en": "Water so clear you can see the bottom: that's 清! 青 gives the sound in 请 and 睛, too.",
+      "zh-Hans": "清得能看见水底，这就是清水的“清”！“青”在“请”和“睛”里也管读音呢。",
+      "zh-Hant": "清得能看見水底，這就是清水的「清」！「青」在「請」和「睛」裡也管讀音呢。"
+    }
+  },
+  "journey": [],
+  "origin": {
+    "type": "phono-semantic",
+    "parts": [
+      {
+        "char": "氵",
+        "role": "meaning",
+        "gloss": {
+          "en": "water",
+          "zh-Hans": "水",
+          "zh-Hant": "水"
+        }
+      },
+      {
+        "char": "青",
+        "role": "sound"
+      }
+    ]
+  },
+  "status": "draft",
+  "sources": [
+    {
+      "title": "Wiktionary: 清",
+      "url": "https://en.wiktionary.org/wiki/%E6%B8%85"
+    }
+  ]
+}

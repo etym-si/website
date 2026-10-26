@@ -1,0 +1,33 @@
+{
+ "id": "啊",
+ "s": "啊",
+ "t": "啊",
+ "forms": {
+  "alt": "阿"
+ },
+ "pinyin": [
+  "ā",
+  "á",
+  "ǎ",
+  "à",
+  "a"
+ ],
+ "glyph_origin": "Phono-semantic compound (形聲): semantic 口 (“mouth”) + phonetic 阿.",
+ "s_page_origin": "",
+ "shuowen": [],
+ "senses": [
+  "[ā] Used as an initial interjection particle to express surprise. ah, oh, ha",
+  "[ā] (Taiwanese Hokkien) Used as an initial interjection particle to raise a topic or change the mood …",
+  "[á] Used to indicate doubt or questioning. what?, huh?, eh",
+  "[ǎ] Used to indicate puzzled surprise. what? oh? huh?",
+  "[à] Used to indicate agreement/approval. ah",
+  "[a] Sentence-final particle expressing surprise."
+ ],
+ "sources": [
+  {
+   "title": "Wiktionary: 啊",
+   "url": "https://en.wiktionary.org/wiki/%E5%95%8A",
+   "rev": 93447530
+  }
+ ]
+}

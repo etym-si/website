@@ -1,0 +1,20 @@
+id: 用
+text: { Hans: 用, Hant: 用 }
+readings: { pinyin: yòng }
+meaning: { en: to use, zh-Hans: 有用, zh-Hant: 有用 }
+fact:
+  en: 用 means to use. It was made by adding a handle to 同, and 同 was chosen for its sound.
+  zh-Hans: “用”是使用的意思。它是在“同”上加了一个把手造出来的，“同”用来表示读音。
+  zh-Hant: 「用」是使用的意思。它是在「同」上加了一個把手造出來的，「同」用來表示讀音。
+story:
+  topic: { en: 'Snip, Snip, Paper Star', zh-Hans: 剪一颗纸星星, zh-Hant: 剪一顆紙星星 }
+  hook: { en: 'Snip, snip! You use your safety scissors to cut a shiny star out of gold paper.', zh-Hans: 剪呀剪！你用安全剪刀，从金色的纸上剪下一颗亮闪闪的星星。, zh-Hant: 剪呀剪！你用安全剪刀，從金色的紙上剪下一顆亮閃閃的星星。 }
+  closer: { en: "A handle to hold and a job to do: that's 用, to use!", zh-Hans: 握住把手，动手做事，这就是有用的“用”！, zh-Hant: 握住把手，動手做事，這就是有用的「用」！ }
+journey: default
+origin:
+  type: phono-semantic
+  parts:
+    - { char: 同, role: sound }
+status: draft
+sources:
+  - { title: 'Wiktionary: 用', url: 'https://en.wiktionary.org/wiki/%E7%94%A8' }

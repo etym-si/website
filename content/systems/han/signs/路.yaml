@@ -1,0 +1,21 @@
+id: 路
+text: { Hans: 路, Hant: 路 }
+readings: { pinyin: lù }
+meaning: { en: road; street, zh-Hans: 马路, zh-Hant: 馬路 }
+fact:
+  en: 路 has 足 (foot) on the left for the meaning and 各 on the right for the sound. The same sound part 各 shows up in 客 (guest)!
+  zh-Hans: “路”左边的足字旁表示脚，是意思部分；右边的“各”表示读音。客人的“客”里也有这个“各”！
+  zh-Hant: 「路」左邊的足字旁表示腳，是意思部分；右邊的「各」表示讀音。客人的「客」裡也有這個「各」！
+story:
+  topic: { en: Streetlights on the Way Home, zh-Hans: 回家路上的路灯, zh-Hant: 回家路上的路燈 }
+  hook: { en: 'One lamp, two lamps, three! Along the road home, the streetlights blink on one by one.', zh-Hans: 一盏，两盏，三盏！回家的路上，路灯一盏接一盏地亮了起来。, zh-Hant: 一盞，兩盞，三盞！回家的路上，路燈一盞接一盞地亮了起來。 }
+  closer: { en: "Feet walk it, cars drive it, lights shine on it: that's 路, the road!", zh-Hans: 人在上面走，车在上面开，路灯照着它，这就是马路的“路”！, zh-Hant: 人在上面走，車在上面開，路燈照著它，這就是馬路的「路」！ }
+journey: default
+origin:
+  type: phono-semantic
+  parts:
+    - { char: 足, role: meaning, gloss: { en: foot, zh-Hans: 脚, zh-Hant: 腳 } }
+    - { char: 各, role: sound }
+status: draft
+sources:
+  - { title: 'Wiktionary: 路', url: 'https://en.wiktionary.org/wiki/%E8%B7%AF' }

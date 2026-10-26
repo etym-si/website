@@ -1,0 +1,63 @@
+{
+  "id": "玩",
+  "text": {
+    "Hans": "玩",
+    "Hant": "玩"
+  },
+  "readings": {
+    "pinyin": "wán"
+  },
+  "meaning": {
+    "en": "to play",
+    "zh-Hans": "玩具",
+    "zh-Hant": "玩具"
+  },
+  "fact": {
+    "en": "The part of 玩 that looks like 王 is really 玉 (jade), for the meaning, and 元 gives the sound. It points to toys made of jade long ago.",
+    "zh-Hans": "“玩”左边像“王”的部分其实是“玉”，表示意思；右边的“元”表示读音。它说的是古时候用玉做的玩具。",
+    "zh-Hant": "「玩」左邊像「王」的部分其實是「玉」，表示意思；右邊的「元」表示讀音。它說的是古時候用玉做的玩具。"
+  },
+  "story": {
+    "topic": {
+      "en": "The Spinning Top",
+      "zh-Hans": "会跳舞的陀螺",
+      "zh-Hant": "會跳舞的陀螺"
+    },
+    "hook": {
+      "en": "Whirr! Iris gives her wooden top a quick twist, and it twirls across the floor like a tiny dancer.",
+      "zh-Hans": "呼呼呼！艾瑞丝用力一拧，木头陀螺就在地板上飞快地旋转，像个小小的舞蹈家。",
+      "zh-Hant": "呼呼呼！艾瑞絲用力一扭，木頭陀螺就在地板上飛快地旋轉，像個小小的舞蹈家。"
+    },
+    "closer": {
+      "en": "Jade toys long ago, spinning tops today: that's 玩, to play!",
+      "zh-Hans": "古时候玩玉，今天玩陀螺——这就是玩耍的“玩”！",
+      "zh-Hant": "古時候玩玉，今天玩陀螺——這就是玩耍的「玩」！"
+    }
+  },
+  "journey": [],
+  "origin": {
+    "type": "phono-semantic",
+    "parts": [
+      {
+        "char": "玉",
+        "role": "meaning",
+        "gloss": {
+          "en": "jade",
+          "zh-Hans": "玉石",
+          "zh-Hant": "玉石"
+        }
+      },
+      {
+        "char": "元",
+        "role": "sound"
+      }
+    ]
+  },
+  "status": "draft",
+  "sources": [
+    {
+      "title": "Wiktionary: 玩",
+      "url": "https://en.wiktionary.org/wiki/%E7%8E%A9"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "id": "啊",
+  "text": { "Hans": "啊", "Hant": "啊" },
+  "readings": { "pinyin": "a" },
+  "meaning": { "en": "ah! oh! (exclamation)", "zh-Hans": "好啊", "zh-Hant": "好啊" },
+  "fact": {
+    "en": "啊 has a mouth 口 for the meaning and 阿 for the sound: 阿 ā and 啊 a sound alike! It's the 'ah!' or 'oh!' that pops out when something surprises you.",
+    "zh-Hans": "“啊”由表示意思的“口”和表示读音的“阿”组成，“阿”ā和“啊”a读起来很像！很惊讶的时候，我们就会说“啊！”",
+    "zh-Hant": "「啊」由表示意思的「口」和表示讀音的「阿」組成，「阿」ā和「啊」a讀起來很像！很驚訝的時候，我們就會說「啊！」"
+  },
+  "story": {
+    "topic": { "en": "Frog on Dad's Shoe!", "zh-Hans": "跳到鞋上的青蛙", "zh-Hant": "跳到鞋上的青蛙" },
+    "hook": {
+      "en": "Ahh! A little green frog leaps out of the bushes and lands right on Dad's shoe.",
+      "zh-Hans": "啊！一只小青蛙从草丛里跳出来，正好落在爸爸的鞋子上。",
+      "zh-Hant": "啊！一隻小青蛙從草叢裡跳出來，正好落在爸爸的鞋子上。"
+    },
+    "closer": {
+      "en": "Open your mouth 口 wide and add 阿: that's 啊, ah!",
+      "zh-Hans": "张大嘴巴，再加上“阿”，这就是“啊”！",
+      "zh-Hant": "張大嘴巴，再加上「阿」，這就是「啊」！"
+    }
+  },
+  "journey": [],
+  "origin": {
+    "type": "phono-semantic",
+    "parts": [
+      { "char": "口", "role": "meaning", "gloss": { "en": "mouth", "zh-Hans": "嘴巴", "zh-Hant": "嘴巴" } },
+      { "char": "阿", "role": "sound" }
+    ]
+  },
+  "status": "draft",
+  "sources": [ { "title": "Wiktionary: 啊", "url": "https://en.wiktionary.org/wiki/%E5%95%8A" } ]
+}

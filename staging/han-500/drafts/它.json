@@ -1,0 +1,38 @@
+{
+  "id": "它",
+  "text": { "Hans": "它", "Hant": "它" },
+  "readings": { "pinyin": "tā" },
+  "meaning": { "en": "it", "zh-Hans": "它们", "zh-Hant": "它們" },
+  "fact": {
+    "en": "它 started out as a snake! It was borrowed to write 'it' because the two words sounded the same back then.",
+    "zh-Hans": "“它”最早是一条蛇！后来它被借来表示“它”这个代词，因为当时两个词的读音一样。",
+    "zh-Hant": "「它」最早是一條蛇！後來它被借來表示「它」這個代名詞，因為當時兩個詞的讀音一樣。"
+  },
+  "story": {
+    "topic": { "en": "Where Did It Go?", "zh-Hans": "它跑哪儿去了？", "zh-Hant": "它跑到哪裡去了？" },
+    "hook": {
+      "en": "Where did it go? The TV remote has vanished again — is it hiding under the sofa cushions?",
+      "zh-Hans": "它跑哪儿去了？电视遥控器又不见了——是不是藏在沙发垫底下？",
+      "zh-Hant": "它跑到哪裡去了？電視遙控器又不見了——是不是藏在沙發墊底下？"
+    },
+    "early": {
+      "en": "The oldest 它 is a picture of a snake, a meaning that is now written 蛇.",
+      "zh-Hans": "最早的“它”画的是一条蛇，这个意思现在要写成“蛇”字了。",
+      "zh-Hant": "最早的「它」畫的是一條蛇，這個意思現在要寫成「蛇」字了。"
+    },
+    "turn": {
+      "en": "Today 他 is 'he', 她 is 'she', and 它 is 'it'.",
+      "zh-Hans": "今天，“他”指男生，“她”指女生，“它”就用来指东西和动物。",
+      "zh-Hant": "今天，「他」指男生，「她」指女生，「它」就用來指東西。"
+    },
+    "closer": {
+      "en": "A snake that slid into a brand-new job: that is 它, it!",
+      "zh-Hans": "一条换了新工作的小蛇：这就是“它”！",
+      "zh-Hant": "一條換了新工作的小蛇：這就是「它」！"
+    }
+  },
+  "journey": "default",
+  "origin": { "type": "loan" },
+  "status": "draft",
+  "sources": [ { "title": "Wiktionary: 它", "url": "https://en.wiktionary.org/wiki/%E5%AE%83" } ]
+}

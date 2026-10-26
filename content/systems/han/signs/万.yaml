@@ -1,0 +1,21 @@
+id: 万
+text: { Hans: 万, Hant: 萬 }
+readings: { pinyin: wàn }
+meaning: { en: ten thousand, zh-Hans: 一万, zh-Hant: 一萬 }
+fact:
+  en: 万 (萬) began as a picture of a scorpion! Later it was borrowed for its sound to mean ten thousand.
+  zh-Hans: “万”的繁体“萬”，最早画的是一只蝎子！后来它被借用读音，表示一万。
+  zh-Hant: 「萬」最早畫的是一隻蠍子！後來它被借用讀音，表示一萬。
+story:
+  topic: { en: Ten Thousand Steps, zh-Hans: 一万步, zh-Hant: 一萬步 }
+  hook: { en: "Beep! Dad's watch buzzes: he has walked ten thousand steps today!", zh-Hans: 嘀！爸爸的手表响了：他今天走满一万步啦！, zh-Hant: 嗶！爸爸的手錶響了：他今天走滿一萬步囉！ }
+  early: { en: The oldest 萬 is a picture of a scorpion; today the scorpion word is written 虿 (蠆)., zh-Hans: 最古老的“萬”画的是一只蝎子；现在表示这种蝎子的字写作“虿”。, zh-Hant: 最古老的「萬」畫的是一隻蠍子；現在表示這種蠍子的字寫作「蠆」。 }
+  turn: { en: 'The simplified 万 is a different old character that was also used for the number, and scholars still debate what it first meant.', zh-Hans: 简化字“万”本来是另一个古老的字，也被用来表示这个数目；它最早是什么意思，学者们还在讨论。, zh-Hant: 簡化字「万」本來是另一個古老的字，也被用來表示這個數目；它最早是什麼意思，學者們還在討論。 }
+  closer: { en: "A scorpion borrowed to count to ten thousand: that's 万 (萬)!", zh-Hans: 一只蝎子被借来数到一万，这就是“万”！, zh-Hant: 一隻蠍子被借來數到一萬，這就是「萬」！ }
+journey: default
+origin:
+  type: loan
+status: draft
+sources:
+  - { title: 'Wiktionary: 万', url: 'https://en.wiktionary.org/wiki/%E4%B8%87' }
+  - { title: 'Wiktionary: 萬', url: 'https://en.wiktionary.org/wiki/%E8%90%AC' }

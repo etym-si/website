@@ -1,0 +1,19 @@
+id: 人
+text: { Hans: 人, Hant: 人 }
+readings: { pinyin: rén }
+meaning: { en: 'person, people', zh-Hans: 人们, zh-Hant: 人們 }
+fact:
+  en: 人 is a person seen from the side. On the left of many characters, it slims down to 亻.
+  zh-Hans: “人”是从侧面看到的一个人。在很多字的左边，它会变瘦，写成“亻”。
+  zh-Hant: 「人」是從側面看到的一個人。在很多字的左邊，它會變瘦，寫成「亻」。
+story:
+  topic: { en: Someone Strolling By, zh-Hans: 从窗前走过的人, zh-Hant: 從窗前走過的人 }
+  hook: { en: 'Look out the window! Someone is strolling down the street, and from the side you can see one swinging arm and one striding leg.', zh-Hans: 往窗外看！有人正沿着街道散步，从侧面看过去，能看到一只摆动的手臂和一条迈开的腿。, zh-Hant: 往窗外看！有人正沿著街道散步，從側面看過去，能看到一隻擺動的手臂和一條邁開的腿。 }
+  early: { en: The oldest 人 is a person standing sideways. One arm and one leg were enough to show a whole human!, zh-Hans: 最早的“人”是一个侧身站着的人。只画一只手臂、一条腿，就能表示一个完整的人！, zh-Hant: 最早的「人」是一個側身站著的人。只畫一隻手臂、一條腿，就能表示一個完整的人！ }
+  closer: { en: 'One arm, one leg, standing tall: that is 人, a person — just like you!', zh-Hans: 一只手臂，一条腿，稳稳地站着：这就是“人”——就像你一样！, zh-Hant: 一隻手臂，一條腿，穩穩地站著：這就是「人」——就像你一樣！ }
+journey: default
+origin:
+  type: pictogram
+status: draft
+sources:
+  - { title: 'Wiktionary: 人', url: 'https://en.wiktionary.org/wiki/%E4%BA%BA' }

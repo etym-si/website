@@ -1,0 +1,40 @@
+{
+ "id": "过",
+ "s": "过",
+ "t": "過",
+ "forms": {
+  "s": "过",
+  "alt": "𬨨"
+ },
+ "pinyin": [
+  "guò",
+  "guō",
+  "gè",
+  "Guō",
+  "huò"
+ ],
+ "glyph_origin": "Phono-semantic compound (形聲): semantic 辵 (“walk”) + phonetic 咼.",
+ "s_page_origin": "",
+ "shuowen": [],
+ "senses": [
+  "[guò] to cross; to pass; to go across; to pass through",
+  "[guò] (of time) to pass by; to pass",
+  "[Guō] name of a creek",
+  "[Guō] name of an ancient state in modern Shandong",
+  "[huò] alternative form of 輠",
+  "[huò] alternative form of 禍"
+ ],
+ "sources": [
+  {
+   "title": "Wiktionary: 过",
+   "url": "https://en.wiktionary.org/wiki/%E8%BF%87",
+   "rev": 87570416
+  },
+  {
+   "title": "Wiktionary: 過",
+   "url": "https://en.wiktionary.org/wiki/%E9%81%8E",
+   "rev": 92769052
+  }
+ ],
+ "note": "glyph_origin is from the traditional page 過; s_page_origin explains the simplified 过."
+}

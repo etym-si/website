@@ -1,0 +1,23 @@
+id: 老
+text: { Hans: 老, Hant: 老 }
+readings: { pinyin: lǎo }
+meaning: { en: old, zh-Hans: 老人, zh-Hant: 老人 }
+fact:
+  en: 老 means old. It's put together from 人 (person), 毛 (hair) and 匕, a cane!
+  zh-Hans: “老”就是年纪大。它是由“人”、“毛”（头发）和“匕”（拐杖）组合起来的！
+  zh-Hant: 「老」就是年紀大。它是由「人」、「毛」（頭髮）和「匕」（拐杖）組合起來的！
+story:
+  topic: { en: A Slow Walk in the Park, zh-Hans: 公园里慢慢散步, zh-Hant: 公園裡慢慢散步 }
+  hook: { en: 'Tap, tap, tap. An old man walks slowly through the park with his cane, stopping to smile at every dog.', zh-Hans: 嗒，嗒，嗒。一位老爷爷拄着拐杖，在公园里慢慢散步，看见每只小狗都要停下来笑一笑。, zh-Hant: 嗒，嗒，嗒。一位老爺爺拄著拐杖，在公園裡慢慢散步，看見每隻小狗都要停下來笑一笑。 }
+  early: { en: 'The oldest 老 is a person with long hair, leaning on a walking stick.', zh-Hans: 最早的“老”是一个长头发的人，拄着一根拐杖。, zh-Hant: 最早的「老」是一個長頭髮的人，拄著一根拐杖。 }
+  closer: { en: 'Long hair plus a trusty cane: that is 老, old — as in 老人!', zh-Hans: 长长的头发，加上一根拐杖：这就是老人的“老”！, zh-Hant: 長長的頭髮，加上一根拐杖：這就是老人的「老」！ }
+journey: default
+origin:
+  type: compound-ideogram
+  parts:
+    - { char: 人, role: meaning, gloss: { en: person, zh-Hans: 人, zh-Hant: 人 } }
+    - { char: 毛, role: meaning, gloss: { en: hair, zh-Hans: 头发, zh-Hant: 頭髮 } }
+    - { char: 匕, role: meaning, gloss: { en: cane, zh-Hans: 拐杖, zh-Hant: 拐杖 } }
+status: draft
+sources:
+  - { title: 'Wiktionary: 老', url: 'https://en.wiktionary.org/wiki/%E8%80%81' }

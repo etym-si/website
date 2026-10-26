@@ -1,0 +1,33 @@
+{
+  "id": "元",
+  "text": { "Hans": "元", "Hant": "元" },
+  "readings": { "pinyin": "yuán" },
+  "meaning": { "en": "first; beginning", "zh-Hans": "元旦", "zh-Hant": "元旦" },
+  "fact": {
+    "en": "元 is a person with the head marked by two lines on top. Today it means first or beginning, as in 元旦 (New Year's Day).",
+    "zh-Hans": "“元”画的是一个人，上面用两横突出了头部。今天它表示第一、开始，比如“元旦”。",
+    "zh-Hant": "「元」畫的是一個人，上面用兩橫突出了頭部。今天它表示第一、開始，比如「元旦」。"
+  },
+  "story": {
+    "topic": { "en": "A Brand-New Calendar", "zh-Hans": "崭新的日历", "zh-Hant": "嶄新的日曆" },
+    "hook": {
+      "en": "On New Year's Day morning, you open a brand-new calendar and draw a circle around the very first box.",
+      "zh-Hans": "元旦的早晨，你翻开一本崭新的日历，在第一个格子上画了个圈。",
+      "zh-Hant": "元旦的早晨，你翻開一本嶄新的日曆，在第一個格子上畫了個圈。"
+    },
+    "early": {
+      "en": "The oldest 元 shows a figure whose head is marked with two lines: one joined to the body and one just above it.",
+      "zh-Hans": "最古老的“元”画的是一个人，头部用两横来表示：一横连着身体，一横在它上面。",
+      "zh-Hant": "最古老的「元」畫的是一個人，頭部用兩橫來表示：一橫連著身體，一橫在它上面。"
+    },
+    "closer": {
+      "en": "Two lines for the head, a body below: that's 元, the very first!",
+      "zh-Hans": "上面两横是头，下面是身体，这就是元旦的“元”！",
+      "zh-Hant": "上面兩橫是頭，下面是身體，這就是元旦的「元」！"
+    }
+  },
+  "journey": "default",
+  "origin": { "type": "pictogram" },
+  "status": "draft",
+  "sources": [ { "title": "Wiktionary: 元", "url": "https://en.wiktionary.org/wiki/%E5%85%83" } ]
+}

@@ -1,0 +1,22 @@
+id: 吗
+text: { Hans: 吗, Hant: 嗎 }
+readings: { pinyin: ma }
+meaning: { en: question particle (yes/no questions), zh-Hans: 好吗, zh-Hant: 好嗎 }
+fact:
+  en: '吗 (嗎) has a mouth 口 for the meaning and 马 (馬) for the sound: 马 mǎ, 吗 ma! Put it at the end of a sentence and it becomes a yes-or-no question.'
+  zh-Hans: “吗”由表示意思的“口”和表示读音的“马”组成：“马”mǎ，“吗”ma！把它放在句子最后，就变成了一个问题。
+  zh-Hant: 「嗎」由表示意思的「口」和表示讀音的「馬」組成：「馬」mǎ，「嗎」ma！把它放在句子最後，就變成了一個問題。
+story:
+  topic: { en: Is It Raining?, zh-Hans: 下雨了吗？, zh-Hant: 下雨了嗎？ }
+  hook: { en: Is it raining? A girl sticks her hand out the window and waits to feel a drop., zh-Hans: 下雨了吗？小女孩把手伸出窗外，等着看有没有雨点落下来。, zh-Hant: 下雨了嗎？小女孩把手伸出窗外，等著看有沒有雨點落下來。 }
+  closer: { en: "A mouth 口 that asks, with 马 for the sound: that's 吗 (嗎), the question word!", zh-Hans: 张口发问，“马”来配音，这就是“好吗”的“吗”！, zh-Hant: 張口發問，「馬」來配音，這就是「好嗎」的「嗎」！ }
+journey: []
+origin:
+  type: phono-semantic
+  parts:
+    - { char: 口, role: meaning, gloss: { en: mouth, zh-Hans: 嘴巴, zh-Hant: 嘴巴 } }
+    - { char: 馬, role: sound }
+status: draft
+sources:
+  - { title: 'Wiktionary: 吗', url: 'https://en.wiktionary.org/wiki/%E5%90%97' }
+  - { title: 'Wiktionary: 嗎', url: 'https://en.wiktionary.org/wiki/%E5%97%8E' }

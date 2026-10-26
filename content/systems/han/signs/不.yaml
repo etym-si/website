@@ -1,0 +1,20 @@
+id: 不
+text: { Hans: 不, Hant: 不 }
+readings: { pinyin: bù }
+meaning: { en: 'not, no', zh-Hans: 不要, zh-Hant: 不要 }
+fact:
+  en: 不 began as a picture of a flower's calyx, the little green cup that holds the petals. Adding 口 made 否 (no), and that meaning spread back to 不.
+  zh-Hans: “不”最早画的是花萼，就是托住花瓣的小绿托。加上“口”就成了表示否定的“否”，后来这个意思又回到了“不”身上。
+  zh-Hant: 「不」最早畫的是花萼，就是托住花瓣的小綠托。加上「口」就成了表示否定的「否」，後來這個意思又回到了「不」身上。
+story:
+  topic: { en: No Bath Tonight!, zh-Hans: 今晚不洗澡！, zh-Hant: 今晚不洗澡！ }
+  hook: { en: 'Nuh-uh! Little Bao shakes his head hard: he does not want a bath tonight.', zh-Hans: 嗯嗯——！小宝使劲摇头：他今晚不要洗澡！, zh-Hant: 嗯嗯——！小寶使勁搖頭：他今晚不要洗澡！ }
+  early: { en: 'The oldest 不 is the calyx of a flower: the little green cup underneath that holds the petals.', zh-Hans: 最古老的“不”画的是花萼，就是花朵下面托住花瓣的小绿托。, zh-Hant: 最古老的「不」畫的是花萼，就是花朵下面托住花瓣的小綠托。 }
+  turn: { en: 'Put 口 under it and you get 否, meaning no; that meaning then spread back to 不, and the calyx got a new character, 柎.', zh-Hans: 在它下面加上“口”，就成了表示“不”的“否”；后来这个意思又传回“不”，花萼就另外造了一个字“柎”。, zh-Hant: 在它下面加上「口」，就成了表示「不」的「否」；後來這個意思又傳回「不」，花萼就另外造了一個字「柎」。 }
+  closer: { en: "A flower's calyx that ended up saying no: that's 不, not!", zh-Hans: 托着花瓣的花萼，后来学会了说“不”，这就是不要的“不”！, zh-Hant: 托著花瓣的花萼，後來學會了說「不」，這就是不要的「不」！ }
+journey: default
+origin:
+  type: pictogram
+status: draft
+sources:
+  - { title: 'Wiktionary: 不', url: 'https://en.wiktionary.org/wiki/%E4%B8%8D' }

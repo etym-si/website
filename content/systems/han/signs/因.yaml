@@ -1,0 +1,22 @@
+id: 因
+text: { Hans: 因, Hant: 因 }
+readings: { pinyin: yīn }
+meaning: { en: because; cause, zh-Hans: 因为, zh-Hant: 因為 }
+fact:
+  en: Many scholars think 因 shows a person 大 lying on a mat 囗. It was the original way to write a word for a mat or cushion.
+  zh-Hans: 很多学者认为，“因”画的是一个人“大”躺在席子“囗”上。它是“茵”（垫子）最早的写法。
+  zh-Hant: 很多學者認為，「因」畫的是一個人「大」躺在蓆子「囗」上。它是「茵」（墊子）最早的寫法。
+story:
+  topic: { en: The Pepper Sneeze, zh-Hans: 胡椒粉惹的祸, zh-Hant: 胡椒粉惹的禍 }
+  hook: { en: 'Ah… ah… CHOO! Because of a pinch of pepper, Dani sneezes so hard that her hat flies off!', zh-Hans: 哈……哈……啾！因为一小撮胡椒粉，丹丹打了个大喷嚏，连帽子都飞走了！, zh-Hant: 哈……哈……啾！因為一小撮胡椒粉，丹丹打了個大噴嚏，連帽子都飛走了！ }
+  early: { en: Other scholars think it might show a person wearing clothes., zh-Hans: 也有学者认为，它画的可能是一个穿着衣服的人。, zh-Hant: 也有學者認為，它畫的可能是一個穿著衣服的人。 }
+  closer: { en: 'Once a person on a mat, today 因 helps us explain why: 因为, because!', zh-Hans: 从躺在席子上的人，到今天帮我们说明原因的“因为”——这就是“因”！, zh-Hant: 從躺在蓆子上的人，到今天幫我們說明原因的「因為」——這就是「因」！ }
+journey: default
+origin:
+  type: compound-ideogram
+  parts:
+    - { char: 囗, role: meaning, gloss: { en: 'mat, sheet', zh-Hans: 席子, zh-Hant: 蓆子 } }
+    - { char: 大, role: meaning, gloss: { en: person, zh-Hans: 人, zh-Hant: 人 } }
+status: draft
+sources:
+  - { title: 'Wiktionary: 因', url: 'https://en.wiktionary.org/wiki/%E5%9B%A0' }

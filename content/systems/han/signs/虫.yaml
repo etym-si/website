@@ -1,0 +1,21 @@
+id: 虫
+text: { Hans: 虫, Hant: 蟲 }
+readings: { pinyin: chóng }
+meaning: { en: 'bug, insect', zh-Hans: 虫子, zh-Hant: 蟲子 }
+fact:
+  en: 虫 began as a picture of a snake. Traditional 蟲 stacks three 虫 together to mean all kinds of bugs and creepy-crawlies.
+  zh-Hans: “虫”最早画的是一条蛇。繁体的“蟲”把三个“虫”叠在一起，表示各种各样的虫子。
+  zh-Hant: 「虫」最早畫的是一條蛇。「蟲」把三個「虫」疊在一起，表示各式各樣的蟲子。
+story:
+  topic: { en: What's Under the Rock?, zh-Hans: 石头下面有什么？, zh-Hant: 石頭下面有什麼？ }
+  hook: { en: 'Lift the rock and look! Beetles scurry, a worm wriggles, and a ladybug climbs onto your finger.', zh-Hans: 掀开石头看看！甲虫跑来跑去，蚯蚓扭来扭去，还有一只瓢虫爬上了你的手指。, zh-Hant: 掀開石頭看看！甲蟲跑來跑去，蚯蚓扭來扭去，還有一隻瓢蟲爬上了你的手指。 }
+  early: { en: 'The oldest 虫 is a picture of a snake, a kind with a poisonous bite.', zh-Hans: 最早的“虫”画的是一条蛇，而且是一种有毒的蛇。, zh-Hant: 最早的「虫」畫的是一條蛇，而且是一種有毒的蛇。 }
+  turn: { en: 'Later the simple 虫 was borrowed to write 蟲, maybe as a shortcut, and a new character, 虺, took over the snake meaning.', zh-Hans: 后来，简单的“虫”被借来代替“蟲”，也许是为了省事；原来“毒蛇”的意思，就交给了新造的“虺”字。, zh-Hant: 後來，簡單的「虫」被借來代替「蟲」，也許是為了省事；原本「毒蛇」的意思，就交給了新造的「虺」字。 }
+  closer: { en: "One 虫 or three, it's a bug! That is 虫 (蟲), as in 虫子.", zh-Hans: 一个“虫”也好，三个“虫”也好，都是虫子！这就是“虫”。, zh-Hant: 一個「虫」也好，三個「虫」疊成的「蟲」也好，都是蟲子！ }
+journey: [{ stage: oracle, form: 虫 }, { stage: bronze, form: 虫 }, { stage: seal, form: 虫 }]
+origin:
+  type: pictogram
+status: draft
+sources:
+  - { title: 'Wiktionary: 虫', url: 'https://en.wiktionary.org/wiki/%E8%99%AB' }
+  - { title: 'Wiktionary: 蟲', url: 'https://en.wiktionary.org/wiki/%E8%9F%B2' }

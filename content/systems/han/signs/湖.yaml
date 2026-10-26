@@ -1,0 +1,21 @@
+id: 湖
+text: { Hans: 湖, Hant: 湖 }
+readings: { pinyin: hú }
+meaning: { en: lake, zh-Hans: 湖水, zh-Hant: 湖水 }
+fact:
+  en: 湖 has 氵 (water) for meaning and 胡 for sound, and 胡 (hú) sounds exactly like 湖 (hú)!
+  zh-Hans: “湖”左边的“氵”表示意思，右边的“胡”表示读音，“胡”（hú）和“湖”（hú）读音完全一样！
+  zh-Hant: 「湖」左邊的「氵」表示意思，右邊的「胡」表示讀音，「胡」（hú）和「湖」（hú）讀音完全一樣！
+story:
+  topic: { en: Skipping Stones, zh-Hans: 打水漂, zh-Hant: 打水漂 }
+  hook: { en: "One, two, three, four skips! Bella's flat stone hops across the calm lake.", zh-Hans: 一下、两下、三下、四下！贝拉扔出的扁石头在平静的湖面上连跳了四下。, zh-Hant: 一下、兩下、三下、四下！貝拉扔出的扁石頭在平靜的湖面上連跳了四下。 }
+  closer: { en: "Calm water with land all around: that's 湖, a lake!", zh-Hans: 四周是陆地，中间一大片平静的水，这就是湖水的“湖”！, zh-Hant: 四周是陸地，中間一大片平靜的水，這就是湖水的「湖」！ }
+journey: default
+origin:
+  type: phono-semantic
+  parts:
+    - { char: 水, role: meaning, gloss: { en: water, zh-Hans: 水, zh-Hant: 水 } }
+    - { char: 胡, role: sound }
+status: draft
+sources:
+  - { title: 'Wiktionary: 湖', url: 'https://en.wiktionary.org/wiki/%E6%B9%96' }

@@ -1,0 +1,21 @@
+id: 晴
+text: { Hans: 晴, Hant: 晴 }
+readings: { pinyin: qíng }
+meaning: { en: 'sunny, clear', zh-Hans: 晴天, zh-Hant: 晴天 }
+fact:
+  en: 晴 has the sun 日 on the left for the meaning and 青 on the right for the sound. An old book of poems even wrote this word as 星!
+  zh-Hans: “晴”左边的“日”（太阳）表示意思，右边的“青”表示读音。一本古老的诗集里，还把它写成“星”呢！
+  zh-Hant: 「晴」左邊的「日」（太陽）表示意思，右邊的「青」表示讀音。一本古老的詩集裡，還把它寫成「星」呢！
+story:
+  topic: { en: Quilts in the Sunshine, zh-Hans: 晴天晒被子, zh-Hant: 晴天曬被子 }
+  hook: { en: Not a single cloud in the sky! Grandma hangs all the quilts outside to soak up the warm sunshine., zh-Hans: 天上一朵云也没有！奶奶把被子都拿到外面，晒晒暖暖的太阳。, zh-Hant: 天上一朵雲也沒有！奶奶把被子都拿到外面，曬曬暖暖的太陽。 }
+  closer: { en: "Sun 日 for the meaning, 青 for the sound (青 qīng, 晴 qíng): that's 晴, a bright, sunny day!", zh-Hans: “日”管意思，“青”管读音，“青”和“晴”念起来多像呀——这就是晴天的“晴”！, zh-Hant: 「日」管意思，「青」管讀音，「青」和「晴」唸起來多像呀——這就是晴天的「晴」！ }
+journey: []
+origin:
+  type: phono-semantic
+  parts:
+    - { char: 日, role: meaning, gloss: { en: sun, zh-Hans: 太阳, zh-Hant: 太陽 } }
+    - { char: 青, role: sound }
+status: draft
+sources:
+  - { title: 'Wiktionary: 晴', url: 'https://en.wiktionary.org/wiki/%E6%99%B4' }

@@ -1,0 +1,21 @@
+id: 全
+text: { Hans: 全, Hant: 全 }
+readings: { pinyin: quán }
+meaning: { en: 'whole, complete, all', zh-Hans: 全部, zh-Hant: 全部 }
+fact:
+  en: '全 is made of 入 and 玉 (jade, which looks like 王 here): a whole, perfect piece of jade. Now it means whole and complete.'
+  zh-Hans: “全”由“入”和“玉”组成（这里的“玉”看起来像“王”），意思是一整块完美的玉。现在它表示全部、完整。
+  zh-Hant: 「全」由「入」和「玉」組成（這裡的「玉」看起來像「王」），意思是一整塊完美的玉。現在它表示全部、完整。
+story:
+  topic: { en: The Whole Family of Nesting Dolls, zh-Hans: 全部的套娃, zh-Hant: 全部的俄羅斯娃娃 }
+  hook: { en: 'Open, open, open! Clara opens every nesting doll until the whole family of seven stands in a row.', zh-Hans: 打开，打开，再打开！克拉拉把套娃一个接一个打开，全部七个娃娃排成了一排。, zh-Hant: 打開，打開，再打開！克拉拉把俄羅斯娃娃一個接一個打開，全部七個娃娃排成了一排。 }
+  closer: { en: "A whole, perfect piece of jade: that's 全, whole and complete!", zh-Hans: 一整块完美的玉——这就是全部的“全”！, zh-Hant: 一整塊完美的玉——這就是全部的「全」！ }
+journey: default
+origin:
+  type: compound-ideogram
+  parts:
+    - { char: 入, role: meaning, gloss: { en: to enter, zh-Hans: 进入, zh-Hant: 進入 } }
+    - { char: 玉, role: meaning, gloss: { en: jade, zh-Hans: 玉石, zh-Hant: 玉石 } }
+status: draft
+sources:
+  - { title: 'Wiktionary: 全', url: 'https://en.wiktionary.org/wiki/%E5%85%A8' }

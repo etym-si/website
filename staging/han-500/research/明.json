@@ -1,0 +1,27 @@
+{
+ "id": "明",
+ "s": "明",
+ "t": "明",
+ "forms": {
+  "alt": "朙,眀,几,𤰾,…"
+ },
+ "pinyin": [
+  "míng"
+ ],
+ "glyph_origin": "Ideogrammic compound (會意): 日 (“sun”) + 月 (“moon”) – the sun just rising and the moon not yet set – dawn (天明). In the oracle bone script it is mostly \"daybreak\"; a few instances mean \"sight\" or are a place name. Three other forms were found in the oracle bone script: • 朙 < 囧 (“whorl”) + 月. The whorl is a spiral motif on Shang bronzes, often drawn with dragons and also on turtles and boars, and may be linked to sun worship. This form was also prevalent in the ancient scripts and was considered to be the standard form in Shuowen. See this form's entry for its historical forms. • 眀 < 目 (“eye”) + 月 – attested only in Heji 19411. • 𤰾 < 田 + 月 – attested only in the Dianbin (典賓) group; probably a corruption of the above forms.",
+ "s_page_origin": "",
+ "shuowen": [
+  "This form was also prevalent in the ancient scripts and was considered to be the standard form in Shuowen."
+ ],
+ "senses": [
+  "[míng] bright; light; brilliant",
+  "[míng] clear; limpid (transparent; light-conducting; not obscured)"
+ ],
+ "sources": [
+  {
+   "title": "Wiktionary: 明",
+   "url": "https://en.wiktionary.org/wiki/%E6%98%8E",
+   "rev": 93411198
+  }
+ ]
+}

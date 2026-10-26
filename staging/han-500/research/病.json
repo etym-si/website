@@ -1,0 +1,23 @@
+{
+ "id": "病",
+ "s": "病",
+ "t": "病",
+ "forms": {},
+ "pinyin": [
+  "bìng"
+ ],
+ "glyph_origin": "Phono-semantic compound (形聲): semantic 疒 (“sickness”) + phonetic 丙 – illness. Note that 丙 also means “fire”, hence connotations of “lying feverishly in bed”.",
+ "s_page_origin": "",
+ "shuowen": [],
+ "senses": [
+  "[bìng] illness; sickness; disease",
+  "[bìng] evil; ill; malady"
+ ],
+ "sources": [
+  {
+   "title": "Wiktionary: 病",
+   "url": "https://en.wiktionary.org/wiki/%E7%97%85",
+   "rev": 92680944
+  }
+ ]
+}

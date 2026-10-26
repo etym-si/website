@@ -1,0 +1,33 @@
+{
+ "id": "饱",
+ "s": "饱",
+ "t": "飽",
+ "forms": {
+  "s": "饱"
+ },
+ "pinyin": [
+  "bǎo",
+  "bāo"
+ ],
+ "glyph_origin": "Phono-semantic compound (形聲): semantic 食 (“food”) + phonetic 包. For etymology 2, the 食 radical specifies its dietary use (instead of just being a generic wrap).",
+ "s_page_origin": "Simplified from 飽 (食 → 饣)",
+ "shuowen": [],
+ "senses": [
+  "[bǎo] full (after meal)",
+  "[bǎo] full; replete; abounding (in)",
+  "[bāo] alternative form of 包 (“bun; bread”)"
+ ],
+ "sources": [
+  {
+   "title": "Wiktionary: 饱",
+   "url": "https://en.wiktionary.org/wiki/%E9%A5%B1",
+   "rev": 87570883
+  },
+  {
+   "title": "Wiktionary: 飽",
+   "url": "https://en.wiktionary.org/wiki/%E9%A3%BD",
+   "rev": 91978666
+  }
+ ],
+ "note": "glyph_origin is from the traditional page 飽; s_page_origin explains the simplified 饱."
+}

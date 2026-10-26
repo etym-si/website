@@ -1,0 +1,22 @@
+id: 绿
+text: { Hans: 绿, Hant: 綠 }
+readings: { pinyin: lǜ }
+meaning: { en: green, zh-Hans: 绿色, zh-Hant: 綠色 }
+fact:
+  en: 绿 (綠) has the silk part 糸 on the left for the meaning and 彔 on the right for the sound.
+  zh-Hans: “绿”左边的绞丝旁表示意思；右边的部分表示读音，在繁体字里写作“彔”。
+  zh-Hant: 「綠」左邊的「糸」表示意思，右邊的「彔」表示讀音。
+story:
+  topic: { en: Green Means Go!, zh-Hans: 绿灯行, zh-Hant: 綠燈行 }
+  hook: { en: Green light! All the bikes and cars at the crossing start rolling forward., zh-Hans: 绿灯亮了！路口的自行车和汽车都开始往前走了。, zh-Hant: 綠燈亮了！路口的腳踏車和汽車都開始往前走了。 }
+  closer: { en: 'Silk on the left, 彔 for the sound: 绿 (綠) is green, the color that says go!', zh-Hans: 左边绞丝旁，右边管读音，这就是绿灯的“绿”！, zh-Hant: 左邊是「糸」，右邊的「彔」管讀音，這就是綠燈的「綠」！ }
+journey: default
+origin:
+  type: phono-semantic
+  parts:
+    - { char: 糸, role: meaning, gloss: { en: silk, zh-Hans: 丝, zh-Hant: 絲 } }
+    - { char: 彔, role: sound }
+status: draft
+sources:
+  - { title: 'Wiktionary: 绿', url: 'https://en.wiktionary.org/wiki/%E7%BB%BF' }
+  - { title: 'Wiktionary: 綠', url: 'https://en.wiktionary.org/wiki/%E7%B6%A0' }

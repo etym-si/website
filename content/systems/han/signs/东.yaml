@@ -1,0 +1,21 @@
+id: 东
+text: { Hans: 东, Hant: 東 }
+readings: { pinyin: dōng }
+meaning: { en: east, zh-Hans: 东边, zh-Hant: 東邊 }
+fact:
+  en: 东 (東) began as a picture of a full bag tied at both ends. Today it means east.
+  zh-Hans: “东”最早画的是一个装得满满、两头扎紧的袋子。今天它表示东边。
+  zh-Hant: 「東」最早畫的是一個裝得滿滿、兩頭紮緊的袋子。今天它表示東邊。
+story:
+  topic: { en: Waiting for Sunrise, zh-Hans: 等待日出, zh-Hant: 等待日出 }
+  hook: { en: Early bird! You and Dad climb the hill and watch the eastern sky turn pink as the sun gets ready to peek out., zh-Hans: 早起的小鸟！你和爸爸爬上小山，看着东边的天空慢慢变成粉红色，太阳就要探出头来了。, zh-Hant: 早起的小鳥！你和爸爸爬上小山，看著東邊的天空慢慢變成粉紅色，太陽就要探出頭來了。 }
+  early: { en: The oldest form of 东 is a bag stuffed full and tied at both ends., zh-Hans: 最古老的“东”是一个塞得鼓鼓的袋子，两头都扎紧了。, zh-Hant: 最古老的「東」是一個塞得鼓鼓的袋子，兩頭都紮緊了。 }
+  turn: { en: 'The simplified 东 comes from a quick cursive way of writing 東, just as 車 became 车.', zh-Hans: 简化字“东”来自“東”的草书写法，就像“車”变成“车”一样。, zh-Hant: 簡化字「东」來自「東」的草書寫法，就像「車」變成「车」一樣。 }
+  closer: { en: "A bag tied at both ends that came to mean east: that's 东 (東)!", zh-Hans: 两头扎紧的袋子，后来表示东边，这就是“东”！, zh-Hant: 兩頭紮緊的袋子，後來表示東邊，這就是「東」！ }
+journey: default
+origin:
+  type: pictogram
+status: draft
+sources:
+  - { title: 'Wiktionary: 东', url: 'https://en.wiktionary.org/wiki/%E4%B8%9C' }
+  - { title: 'Wiktionary: 東', url: 'https://en.wiktionary.org/wiki/%E6%9D%B1' }

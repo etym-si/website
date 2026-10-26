@@ -1,0 +1,30 @@
+{
+ "id": "土",
+ "s": "土",
+ "t": "土",
+ "forms": {
+  "alt": "士,圡,𡈽"
+ },
+ "pinyin": [
+  "tǔ",
+  "dù",
+  "chǎ",
+  "tú"
+ ],
+ "glyph_origin": "Pictogram 象形: a mound of earth. In oracle-bone inscriptions, it could also refer to the soil deity, serving as the original graph of 社. The mound later became narrowed or pointed at both ends, with the broad middle part developing into the horizontal stroke. Unrelated to the top component of 夌, 走, and 周; also unrelated to the central component of 金 and the overall character 圭.",
+ "s_page_origin": "",
+ "shuowen": [],
+ "senses": [
+  "[tǔ] earth; soil",
+  "[tǔ] (dialectal) dust",
+  "[dù] (obsolete in standard Chinese) alternative form of 杜 (“root”)",
+  "[tú] only used in 土門"
+ ],
+ "sources": [
+  {
+   "title": "Wiktionary: 土",
+   "url": "https://en.wiktionary.org/wiki/%E5%9C%9F",
+   "rev": 92200194
+  }
+ ]
+}

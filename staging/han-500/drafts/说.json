@@ -1,0 +1,67 @@
+{
+  "id": "说",
+  "text": {
+    "Hans": "说",
+    "Hant": "說"
+  },
+  "readings": {
+    "pinyin": "shuō"
+  },
+  "meaning": {
+    "en": "to speak; to say",
+    "zh-Hans": "说话",
+    "zh-Hant": "說話"
+  },
+  "fact": {
+    "en": "说 (說) has 言 (words) for meaning and 兑 (兌) on the right for sound. In simplified writing, the 言 on the left shrinks to 讠.",
+    "zh-Hans": "“说”表示意思的是“言”（话语），在简体字里写成了左边的“讠”；右边的“兑”表示读音。",
+    "zh-Hant": "「說」左邊的「言」（話語）表示意思，右邊的「兌」表示讀音。在簡體字裡，「言」旁簡化成了「讠」。"
+  },
+  "story": {
+    "topic": {
+      "en": "The Talking Parrot",
+      "zh-Hans": "会说话的鹦鹉",
+      "zh-Hant": "會說話的鸚鵡"
+    },
+    "hook": {
+      "en": "'Hello! Hello!' says the parrot at the pet shop, and Dudu laughs so hard she can't say a word back.",
+      "zh-Hans": "“你好！你好！”宠物店里的鹦鹉开口说话了，嘟嘟笑得一句话也说不出来。",
+      "zh-Hant": "「你好！你好！」寵物店裡的鸚鵡開口說話了，嘟嘟笑得一句話也說不出來。"
+    },
+    "closer": {
+      "en": "Words on the left, sound on the right: 说 (說) means to speak. What will you say today?",
+      "zh-Hans": "左边管意思，右边管读音，这就是说话的“说”。今天你想说什么？",
+      "zh-Hant": "左邊管意思，右邊管讀音，這就是說話的「說」。今天你想說什麼？"
+    }
+  },
+  "journey": "default",
+  "origin": {
+    "type": "phono-semantic",
+    "parts": [
+      {
+        "char": "言",
+        "role": "meaning",
+        "gloss": {
+          "en": "words",
+          "zh-Hans": "话语",
+          "zh-Hant": "話語"
+        }
+      },
+      {
+        "char": "兌",
+        "role": "sound"
+      }
+    ]
+  },
+  "status": "draft",
+  "sources": [
+    {
+      "title": "Wiktionary: 说",
+      "url": "https://en.wiktionary.org/wiki/%E8%AF%B4"
+    },
+    {
+      "title": "Wiktionary: 說",
+      "url": "https://en.wiktionary.org/wiki/%E8%AA%AA"
+    }
+  ]
+}

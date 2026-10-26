@@ -1,0 +1,20 @@
+id: 由
+text: { Hans: 由, Hant: 由 }
+readings: { pinyin: yóu }
+meaning: { en: from; reason, zh-Hans: 理由, zh-Hant: 理由 }
+fact:
+  en: 由 may be a picture of new shoots growing from a tree. Another idea says it shows a pomelo, the big citrus fruit written 柚.
+  zh-Hans: “由”可能画的是树上长出的新芽。另一种说法认为，它画的是柚子这种大大的水果。
+  zh-Hant: 「由」可能畫的是樹上長出的新芽。另一種說法認為，它畫的是柚子這種大大的水果。
+story:
+  topic: { en: Every Why Has a Reason, zh-Hans: 每个为什么都有理由, zh-Hant: 每個為什麼都有理由 }
+  hook: { en: Why is the kitten hiding under the bed? Because thunder is rumbling outside!, zh-Hans: 小猫为什么躲到床底下？原来是外面在打雷！, zh-Hant: 小貓為什麼躲到床底下？原來是外面在打雷！ }
+  early: { en: 'One idea: 由 shows fresh shoots or leaves sprouting from a tree, 木. Another: it is a round pomelo, 柚.', zh-Hans: 一种说法是：“由”画的是从树（木）上冒出来的新芽或叶子。另一种说法是：它是一个圆圆的柚子（柚）。, zh-Hant: 一種說法是：「由」畫的是從樹（木）上冒出來的新芽或葉子。另一種說法是：它是一個圓圓的柚子（柚）。 }
+  turn: { en: 'If the shoots idea is right, the top part of a bigger character was later pulled out on its own to become 由.', zh-Hans: 如果“新芽”的说法是对的，那么后来是从一个更大的字里取出上半部分，单独变成了“由”。, zh-Hant: 如果「新芽」的說法是對的，那麼後來是從一個更大的字裡取出上半部分，單獨變成了「由」。 }
+  closer: { en: 'Where did it come from, and why? Ask 由!', zh-Hans: 从哪里来？为什么？问问理由的“由”！, zh-Hant: 從哪裡來？為什麼？問問理由的「由」！ }
+journey: default
+origin:
+  type: pictogram
+status: draft
+sources:
+  - { title: 'Wiktionary: 由', url: 'https://en.wiktionary.org/wiki/%E7%94%B1' }

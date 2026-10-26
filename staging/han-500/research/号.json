@@ -1,0 +1,35 @@
+{
+ "id": "号",
+ "s": "号",
+ "t": "號",
+ "forms": {
+  "s": "号",
+  "alt": "𠳯,虠,𭈹,号-ancient,…"
+ },
+ "pinyin": [
+  "hào",
+  "háo"
+ ],
+ "glyph_origin": "Originally an ideogram (指事) of a tiger with a line representing exhaled air while roaring, thus meaning \"to roar; to shout\". Later forms added 口 (“mouth”) or 言 (“speech”) to emphasize the act of crying or calling. 号 derives from 口 and the line 丂. In the current form, an ideogrammic compound (會意) and phono-semantic compound (形聲): phonetic 号 (“to wail”) + semantic 虎 (“tiger”).",
+ "s_page_origin": "Ideogrammic compound (會意): 口 (“mouth”) + 丂 (“exhaled air; a tiger's cry”). See 號 for more details.",
+ "shuowen": [],
+ "senses": [
+  "[hào] name; alias",
+  "[hào] (specifically) art name",
+  "[háo] to shout; to bawl; to cry loudly",
+  "[háo] (of animal) to roar"
+ ],
+ "sources": [
+  {
+   "title": "Wiktionary: 号",
+   "url": "https://en.wiktionary.org/wiki/%E5%8F%B7",
+   "rev": 92759638
+  },
+  {
+   "title": "Wiktionary: 號",
+   "url": "https://en.wiktionary.org/wiki/%E8%99%9F",
+   "rev": 92201606
+  }
+ ],
+ "note": "glyph_origin is from the traditional page 號; s_page_origin explains the simplified 号."
+}

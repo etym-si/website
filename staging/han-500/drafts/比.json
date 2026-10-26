@@ -1,0 +1,28 @@
+{
+  "id": "比",
+  "text": { "Hans": "比", "Hant": "比" },
+  "readings": { "pinyin": "bǐ" },
+  "meaning": { "en": "to compare, to compete", "zh-Hans": "比赛", "zh-Hant": "比賽" },
+  "fact": {
+    "en": "比 is two 匕 side by side. An old dictionary says the pair means “to put side by side”, while another scholar thinks both 匕 were there for the sound.",
+    "zh-Hans": "“比”是两个“匕”并排站着。一本古老的字典说，它的意思是“并排放在一起”；也有学者认为，两个“匕”都是用来表示读音的。",
+    "zh-Hant": "「比」是兩個「匕」並排站著。一本古老的字典說，它的意思是「並排放在一起」；也有學者認為，兩個「匕」都是用來表示讀音的。"
+  },
+  "story": {
+    "topic": { "en": "Who Is Taller?", "zh-Hans": "比一比谁高", "zh-Hant": "比一比誰高" },
+    "hook": {
+      "en": "Back to back! Nina and her cousin press against the wall while Dad checks who is taller.",
+      "zh-Hans": "背靠背！妮妮和表哥贴着墙站好，爸爸来比一比谁更高。",
+      "zh-Hant": "背靠背！妮妮和表哥貼著牆站好，爸爸來比一比誰比較高。"
+    },
+    "closer": {
+      "en": "Two shapes standing side by side, ready to be compared: that's 比!",
+      "zh-Hans": "两个“匕”并排站，比一比——这就是比赛的“比”！",
+      "zh-Hant": "兩個「匕」並排站，比一比——這就是比賽的「比」！"
+    }
+  },
+  "journey": "default",
+  "origin": { "type": "uncertain" },
+  "status": "draft",
+  "sources": [ { "title": "Wiktionary: 比", "url": "https://en.wiktionary.org/wiki/%E6%AF%94" } ]
+}

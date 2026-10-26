@@ -1,0 +1,25 @@
+{
+ "id": "狗",
+ "s": "狗",
+ "t": "狗",
+ "forms": {
+  "alt": "豿-“cub”,㺃"
+ },
+ "pinyin": [
+  "gǒu"
+ ],
+ "glyph_origin": "Phono-semantic compound (形聲): semantic 犬 (“dog”) + phonetic 句.",
+ "s_page_origin": "",
+ "shuowen": [],
+ "senses": [
+  "[gǒu] dog",
+  "[gǒu] Dog (Chinese zodiac sign)"
+ ],
+ "sources": [
+  {
+   "title": "Wiktionary: 狗",
+   "url": "https://en.wiktionary.org/wiki/%E7%8B%97",
+   "rev": 92718051
+  }
+ ]
+}

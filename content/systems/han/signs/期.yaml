@@ -1,0 +1,22 @@
+id: 期
+text: { Hans: 期, Hant: 期 }
+readings: { pinyin: qī }
+meaning: { en: 'set time, period; week (in 星期)', zh-Hans: 星期, zh-Hant: 星期 }
+fact:
+  en: 期 has 其 for the sound. Its meaning part started out as the sun 日 and later changed to the moon 月.
+  zh-Hans: “期”里的“其”表示读音。表示意思的部分最早是太阳“日”，后来换成了月亮“月”。
+  zh-Hant: 「期」裡的「其」表示讀音。表示意思的部分最早是太陽「日」，後來換成了月亮「月」。
+story:
+  topic: { en: My Busy Week, zh-Hans: 忙碌的一星期, zh-Hant: 忙碌的一星期 }
+  hook: { en: "Ballet on Monday, art on Tuesday, soccer on Wednesday! A busy girl checks the week's plan taped by the door.", zh-Hans: 星期一跳芭蕾，星期二画画，星期三踢足球！忙碌的小女孩看了看贴在门边的一周计划。, zh-Hant: 星期一跳芭蕾，星期二畫畫，星期三踢足球！忙碌的小女孩看了看貼在門邊的一週計畫。 }
+  turn: { en: "The sun 日 was later swapped for the moon 月, making 朞, and from 朞 came today's 期.", zh-Hans: 后来，太阳“日”换成了月亮“月”，写成“朞”，再慢慢变成了今天的“期”。, zh-Hant: 後來，太陽「日」換成了月亮「月」，寫成「朞」，再慢慢變成了今天的「期」。 }
+  closer: { en: "其 for the sound, the moon 月 for the meaning: that's 期, as in 星期, a week!", zh-Hans: “其”管读音，“月”管意思，这就是星期的“期”！, zh-Hant: 「其」管讀音，「月」管意思，這就是星期的「期」！ }
+journey: default
+origin:
+  type: phono-semantic
+  parts:
+    - { char: 日, role: meaning, gloss: { en: sun, zh-Hans: 太阳, zh-Hant: 太陽 } }
+    - { char: 其, role: sound }
+status: draft
+sources:
+  - { title: 'Wiktionary: 期', url: 'https://en.wiktionary.org/wiki/%E6%9C%9F' }

@@ -1,0 +1,18 @@
+id: 米
+text: { Hans: 米, Hant: 米 }
+readings: { pinyin: mǐ }
+meaning: { en: rice, zh-Hans: 米饭, zh-Hant: 米飯 }
+fact:
+  en: 米 is a picture of rice grains with their husks taken off. One scholar thinks the flat stroke is a bamboo sieve.
+  zh-Hans: “米”画的是去了壳的米粒。有一位学者认为，中间那一横是竹子做的筛子。
+  zh-Hant: 「米」畫的是去了殼的米粒。有一位學者認為，中間那一橫是竹子做的篩子。
+story:
+  topic: { en: Pouring the Rice, zh-Hans: 倒米下锅, zh-Hant: 倒米下鍋 }
+  hook: { en: 'Rattle, rattle! You pour rice into the pot, and the tiny white grains bounce and scatter.', zh-Hans: 哗啦啦！你把米倒进锅里，一粒粒小白米蹦蹦跳跳地散开了。, zh-Hant: 嘩啦啦！你把米倒進鍋裡，一粒粒小白米蹦蹦跳跳地散開了。 }
+  closer: { en: "Tiny husked grains: that is 米, rice — and once it's cooked, it becomes 米饭!", zh-Hans: 一粒粒去了壳的米：这就是“米”——煮熟了就是热乎乎的米饭！, zh-Hant: 一粒粒去了殼的米：這就是「米」——煮熟了就是熱呼呼的米飯！ }
+journey: default
+origin:
+  type: pictogram
+status: draft
+sources:
+  - { title: 'Wiktionary: 米', url: 'https://en.wiktionary.org/wiki/%E7%B1%B3' }

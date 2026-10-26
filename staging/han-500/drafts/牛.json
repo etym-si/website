@@ -1,0 +1,33 @@
+{
+  "id": "牛",
+  "text": { "Hans": "牛", "Hant": "牛" },
+  "readings": { "pinyin": "niú" },
+  "meaning": { "en": "cow, ox", "zh-Hans": "奶牛", "zh-Hant": "乳牛" },
+  "fact": {
+    "en": "牛 is a picture of a bull's head, with two horns and two ears.",
+    "zh-Hans": "“牛”画的是一个牛头，有两只角和两只耳朵。",
+    "zh-Hant": "「牛」畫的是一個牛頭，有兩隻角和兩隻耳朵。"
+  },
+  "story": {
+    "topic": { "en": "The Cow and the Fly", "zh-Hans": "奶牛和苍蝇", "zh-Hant": "乳牛和蒼蠅" },
+    "hook": {
+      "en": "Moo! The cow lifts her head from the grass and flicks her ears at a pesky fly.",
+      "zh-Hans": "哞——！奶牛从草地上抬起头，抖抖耳朵，赶走烦人的苍蝇。",
+      "zh-Hant": "哞——！乳牛從草地上抬起頭，抖抖耳朵，趕走煩人的蒼蠅。"
+    },
+    "early": {
+      "en": "The oldest 牛 doesn't bother with a body: just the head, with its horns and ears.",
+      "zh-Hans": "最早的“牛”连身体都不画，只画一个牛头，有角也有耳朵。",
+      "zh-Hant": "最早的「牛」連身體都不畫，只畫一個牛頭，有角也有耳朵。"
+    },
+    "closer": {
+      "en": "Two horns and two ears: that is 牛, the cow!",
+      "zh-Hans": "两只角，两只耳朵：这就是奶牛的“牛”！",
+      "zh-Hant": "兩隻角，兩隻耳朵：這就是乳牛的「牛」！"
+    }
+  },
+  "journey": "default",
+  "origin": { "type": "pictogram" },
+  "status": "draft",
+  "sources": [ { "title": "Wiktionary: 牛", "url": "https://en.wiktionary.org/wiki/%E7%89%9B" } ]
+}

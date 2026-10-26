@@ -1,0 +1,34 @@
+{
+  "id": "名",
+  "text": { "Hans": "名", "Hant": "名" },
+  "readings": { "pinyin": "míng" },
+  "meaning": { "en": "name", "zh-Hans": "名字", "zh-Hant": "名字" },
+  "fact": {
+    "en": "名 is a crescent moon 夕 and a mouth 口: in the dark, you call out your name so others know who you are! Some scholars think 夕 was added for its sound instead.",
+    "zh-Hans": "“名”由月牙“夕”和嘴巴“口”组成：天黑了看不清，就大声说出自己的名字！也有学者认为，“夕”是后来加上去表示读音的。",
+    "zh-Hant": "「名」由月牙「夕」和嘴巴「口」組成：天黑了看不清，就大聲說出自己的名字！也有學者認為，「夕」是後來加上去表示讀音的。"
+  },
+  "story": {
+    "topic": { "en": "Morning Roll Call", "zh-Hans": "早上点名", "zh-Hant": "早上點名" },
+    "hook": {
+      "en": "'Lily?' 'Here!' At morning roll call, a girl waves her hand the moment the teacher reads her name.",
+      "zh-Hans": "“莉莉？”“到！”早上点名的时候，老师刚念到她的名字，小女孩就挥了挥手。",
+      "zh-Hant": "「莉莉？」「到！」早上點名的時候，老師剛唸到她的名字，小女孩就揮了揮手。"
+    },
+    "closer": {
+      "en": "Moon 夕 on top, mouth 口 below: say it loud, it's your 名, your name!",
+      "zh-Hans": "上面月牙“夕”，下面嘴巴“口”，大声说出来，这就是名字的“名”！",
+      "zh-Hant": "上面月牙「夕」，下面嘴巴「口」，大聲說出來，這就是名字的「名」！"
+    }
+  },
+  "journey": "default",
+  "origin": {
+    "type": "compound-ideogram",
+    "parts": [
+      { "char": "夕", "role": "meaning", "gloss": { "en": "crescent moon", "zh-Hans": "月牙", "zh-Hant": "月牙" } },
+      { "char": "口", "role": "meaning", "gloss": { "en": "mouth", "zh-Hans": "嘴巴", "zh-Hant": "嘴巴" } }
+    ]
+  },
+  "status": "draft",
+  "sources": [ { "title": "Wiktionary: 名", "url": "https://en.wiktionary.org/wiki/%E5%90%8D" } ]
+}

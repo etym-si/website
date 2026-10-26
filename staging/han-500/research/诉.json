@@ -1,0 +1,32 @@
+{
+ "id": "诉",
+ "s": "诉",
+ "t": "訴",
+ "forms": {
+  "s": "诉",
+  "alt": "愬,𧩯,𧦡,𧪜,…"
+ },
+ "pinyin": [
+  "sù"
+ ],
+ "glyph_origin": "Phono-semantic compound (形聲): semantic 言 (“word, speak”) + phonetic 斥 (“accuse, blame”) – to accuse verbally.",
+ "s_page_origin": "Simplified from 訴 (訁 → 讠).",
+ "shuowen": [],
+ "senses": [
+  "[sù] to tell; to relate; to inform",
+  "[sù] to vent; to pour out"
+ ],
+ "sources": [
+  {
+   "title": "Wiktionary: 诉",
+   "url": "https://en.wiktionary.org/wiki/%E8%AF%89",
+   "rev": 87572899
+  },
+  {
+   "title": "Wiktionary: 訴",
+   "url": "https://en.wiktionary.org/wiki/%E8%A8%B4",
+   "rev": 93443935
+  }
+ ],
+ "note": "glyph_origin is from the traditional page 訴; s_page_origin explains the simplified 诉."
+}

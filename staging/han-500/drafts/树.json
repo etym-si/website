@@ -1,0 +1,47 @@
+{
+  "id": "树",
+  "text": { "Hans": "树", "Hant": "樹" },
+  "readings": { "pinyin": "shù" },
+  "meaning": { "en": "tree", "zh-Hans": "大树", "zh-Hant": "大樹" },
+  "fact": {
+    "en": "樹 (树) has 木 (tree) for the meaning and 尌 for the sound, and 尌 itself means 'to plant a tree'.",
+    "zh-Hans": "繁体字里，左边的“木”表示树，是意思部分；右边的“尌”表示读音，它本身就是“种树”的意思。",
+    "zh-Hant": "「樹」左邊的「木」表示樹，是意思部分；右邊的「尌」表示讀音，它本身就是「種樹」的意思。"
+  },
+  "story": {
+    "topic": { "en": "Planting a Little Tree", "zh-Hans": "种下一棵小树", "zh-Hant": "種下一棵小樹" },
+    "hook": {
+      "en": "Dig, dig, pat, pat! Mom and Emma plant a tiny sapling in the yard and give it a big drink of water.",
+      "zh-Hans": "挖一挖，拍一拍！妈妈和艾玛在院子里种下一棵小树苗，再给它浇上满满一壶水。",
+      "zh-Hant": "挖一挖，拍一拍！媽媽和艾瑪在院子裡種下一棵小樹苗，再給它澆上滿滿一壺水。"
+    },
+    "early": {
+      "en": "At first, the word was written with 尌 alone.",
+      "zh-Hans": "最早，这个字只写作“尌”。",
+      "zh-Hant": "最早，這個字只寫作「尌」。"
+    },
+    "turn": {
+      "en": "Later, an extra 木 was added to tell it apart. In simplified 树, the 壴 in the middle became 又.",
+      "zh-Hans": "后来又加上了一个“木”，好把它区分开。简化字“树”又把中间的“壴”换成了“又”。",
+      "zh-Hant": "後來又加上了一個「木」，好把它區分開。簡化字又把中間的「壴」換成了「又」。"
+    },
+    "closer": {
+      "en": "Plant it, wait and watch it grow: 木 plus 尌 makes 树 (樹), a tree!",
+      "zh-Hans": "种下去，等一等，看它长高：“木”加上“尌”，就是大树的“树”！",
+      "zh-Hant": "種下去，等一等，看它長高：「木」加上「尌」，就是大樹的「樹」！"
+    }
+  },
+  "journey": "default",
+  "origin": {
+    "type": "phono-semantic",
+    "parts": [
+      { "char": "木", "role": "meaning", "gloss": { "en": "tree", "zh-Hans": "树木", "zh-Hant": "樹木" } },
+      { "char": "尌", "role": "sound" }
+    ]
+  },
+  "status": "draft",
+  "sources": [
+    { "title": "Wiktionary: 树", "url": "https://en.wiktionary.org/wiki/%E6%A0%91" },
+    { "title": "Wiktionary: 樹", "url": "https://en.wiktionary.org/wiki/%E6%A8%B9" }
+  ]
+}

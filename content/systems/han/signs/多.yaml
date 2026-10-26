@@ -1,0 +1,23 @@
+id: 多
+text: { Hans: 多, Hant: 多 }
+readings: { pinyin: duō }
+meaning: { en: 'many, much', zh-Hans: 很多, zh-Hant: 很多 }
+fact:
+  en: 多 began as two pieces of meat (肉). Later the meat got mixed up with the look-alike 夕, so today 多 is two 夕 stacked up.
+  zh-Hans: “多”最早画的是两块肉（肉）。后来，肉的样子和长得很像的“夕”弄混了，所以今天的“多”是两个“夕”叠在一起。
+  zh-Hant: 「多」最早畫的是兩塊肉（肉）。後來，肉的樣子和長得很像的「夕」弄混了，所以今天的「多」是兩個「夕」疊在一起。
+story:
+  topic: { en: So Many Bubbles!, zh-Hans: 好多泡泡！, zh-Hant: 好多泡泡！ }
+  hook: { en: Blow gently... and dozens of shiny bubbles float over the garden!, zh-Hans: 轻轻一吹……好多亮晶晶的泡泡飘过花园！, zh-Hant: 輕輕一吹……好多亮晶晶的泡泡飄過花園！ }
+  early: { en: 'The oldest 多 shows two pieces of meat. One scholar thinks two pieces of meat was already a lot, while another says doubling a shape means many, just as two trees make 林.', zh-Hans: 最古老的“多”画的是两块肉。有学者认为，两块肉就已经很多了；也有学者认为，把东西画两遍就表示多，就像两棵树组成“林”。, zh-Hant: 最古老的「多」畫的是兩塊肉。有學者認為，兩塊肉就已經很多了；也有學者認為，把東西畫兩遍就表示多，就像兩棵樹組成「林」。 }
+  turn: { en: 'In bronze writing, the meat shape got confused with the look-alike 夕, and that is the form we still write.', zh-Hans: 到了金文，肉的样子和长得很像的“夕”弄混了，我们今天写的就是这个样子。, zh-Hant: 到了金文，肉的樣子和長得很像的「夕」弄混了，我們今天寫的就是這個樣子。 }
+  closer: { en: "One piece, two pieces, lots and lots: that's 多, many!", zh-Hans: 一块又一块，越来越多，这就是很多的“多”！, zh-Hant: 一塊又一塊，越來越多，這就是很多的「多」！ }
+journey: default
+origin:
+  type: compound-ideogram
+  parts:
+    - { char: 肉, role: meaning, gloss: { en: meat, zh-Hans: 肉, zh-Hant: 肉 } }
+    - { char: 肉, role: meaning, gloss: { en: meat, zh-Hans: 肉, zh-Hant: 肉 } }
+status: draft
+sources:
+  - { title: 'Wiktionary: 多', url: 'https://en.wiktionary.org/wiki/%E5%A4%9A' }

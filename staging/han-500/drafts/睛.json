@@ -1,0 +1,63 @@
+{
+  "id": "睛",
+  "text": {
+    "Hans": "睛",
+    "Hant": "睛"
+  },
+  "readings": {
+    "pinyin": "jīng"
+  },
+  "meaning": {
+    "en": "eyeball",
+    "zh-Hans": "眼睛",
+    "zh-Hant": "眼睛"
+  },
+  "fact": {
+    "en": "睛 has 目 (eye) for meaning and 青 for sound. It means the eyeball, and you'll usually find it right after 眼, in 眼睛.",
+    "zh-Hans": "“睛”左边的“目”表示意思，右边的“青”表示读音。它指眼珠，常常跟在“眼”后面，组成“眼睛”。",
+    "zh-Hant": "「睛」左邊的「目」表示意思，右邊的「青」表示讀音。它指眼珠，常常跟在「眼」後面，組成「眼睛」。"
+  },
+  "story": {
+    "topic": {
+      "en": "The Shrinking Dot",
+      "zh-Hans": "会变小的黑点",
+      "zh-Hant": "會變小的黑點"
+    },
+    "hook": {
+      "en": "Look closely into your friend's eyes: each has a dark round dot in the middle, and it shrinks in bright sunlight!",
+      "zh-Hans": "仔细看看好朋友的眼睛：中间都有一个黑黑的小圆点，一到大太阳底下，它就缩得小小的！",
+      "zh-Hant": "仔細看看好朋友的眼睛：中間都有一個黑黑的小圓點，一到大太陽底下，它就縮得小小的！"
+    },
+    "closer": {
+      "en": "Eye part 目, sound part 青: 睛 joins hands with 眼 to make 眼睛, your bright eyes!",
+      "zh-Hans": "“目”管意思，“青”管读音，“睛”和“眼”手拉手，就成了亮晶晶的“眼睛”！",
+      "zh-Hant": "「目」管意思，「青」管讀音，「睛」和「眼」手拉手，就成了亮晶晶的「眼睛」！"
+    }
+  },
+  "journey": [],
+  "origin": {
+    "type": "phono-semantic",
+    "parts": [
+      {
+        "char": "目",
+        "role": "meaning",
+        "gloss": {
+          "en": "eye",
+          "zh-Hans": "眼睛",
+          "zh-Hant": "眼睛"
+        }
+      },
+      {
+        "char": "青",
+        "role": "sound"
+      }
+    ]
+  },
+  "status": "draft",
+  "sources": [
+    {
+      "title": "Wiktionary: 睛",
+      "url": "https://en.wiktionary.org/wiki/%E7%9D%9B"
+    }
+  ]
+}

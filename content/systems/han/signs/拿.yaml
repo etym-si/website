@@ -1,0 +1,18 @@
+id: 拿
+text: { Hans: 拿, Hant: 拿 }
+readings: { pinyin: ná }
+meaning: { en: to take; to hold, zh-Hans: 拿起, zh-Hant: 拿起 }
+fact:
+  en: 拿 is 合 sitting on top of 手 (hand). It's a later way of writing older characters, 拏 and 挐, that meant 'to take with your hand'.
+  zh-Hans: “拿”是“合”坐在“手”上面。它是“拏”和“挐”这两个老字后来的写法，意思是用手拿取。
+  zh-Hant: 「拿」是「合」坐在「手」上面。它是「拏」和「挐」這兩個老字後來的寫法，意思是用手拿取。
+story:
+  topic: { en: The Biggest Paintbrush, zh-Hans: 最大的那支刷子, zh-Hant: 最大的那支刷子 }
+  hook: { en: Paint day! Taotao takes the biggest brush in the box and holds it up like a magic wand., zh-Hans: 画画日到啦！桃桃拿起盒子里最大的那支刷子，像举着魔法棒一样。, zh-Hant: 畫畫日到囉！桃桃拿起盒子裡最大的那支刷子，像舉著魔法棒一樣。 }
+  closer: { en: "Old dictionaries once called 拿 'not proper', but today everyone uses it to take and hold things!", zh-Hans: 以前有的字典还说“拿”不规范呢，可现在大家拿东西都用它！, zh-Hant: 以前有的字典還說「拿」不規範呢，可是現在大家拿東西都用它！ }
+journey: default
+origin:
+  type: uncertain
+status: draft
+sources:
+  - { title: 'Wiktionary: 拿', url: 'https://en.wiktionary.org/wiki/%E6%8B%BF' }

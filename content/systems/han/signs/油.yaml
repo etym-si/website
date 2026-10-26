@@ -1,0 +1,21 @@
+id: 油
+text: { Hans: 油, Hant: 油 }
+readings: { pinyin: yóu }
+meaning: { en: oil, zh-Hans: 加油, zh-Hant: 加油 }
+fact:
+  en: '油 has 氵 (water) for meaning and 由 for sound: 由 (yóu) sounds exactly like 油 (yóu)! It was also the name of an ancient river.'
+  zh-Hans: “油”左边的“氵”表示意思，右边的“由”表示读音，“由”（yóu）和“油”（yóu）读音一模一样！它还曾经是古代一条河的名字。
+  zh-Hant: 「油」左邊的「氵」表示意思，右邊的「由」表示讀音，「由」（yóu）和「油」（yóu）讀音一模一樣！它還曾經是古代一條河的名字。
+story:
+  topic: { en: Oil Floats Up!, zh-Hans: 油浮上来了！, zh-Hant: 油浮上來了！ }
+  hook: { en: 'Drip, drop! In science class, Anan pours oil into a glass of water, and the oil floats right up to the top.', zh-Hans: 滴答滴答！科学课上，安安把油倒进一杯水里，油一下子浮到了最上面。, zh-Hant: 滴答滴答！自然課上，安安把油倒進一杯水裡，油一下子浮到了最上面。 }
+  closer: { en: "Oil floats on water, but it still wears 氵! That's 油, and 加油 means 'go for it!'", zh-Hans: 油浮在水上，可它也戴着三点水！这就是“油”，加油！, zh-Hant: 油浮在水上，可是它也戴著三點水！這就是「油」，加油！ }
+journey: default
+origin:
+  type: phono-semantic
+  parts:
+    - { char: 氵, role: meaning, gloss: { en: water, zh-Hans: 水, zh-Hant: 水 } }
+    - { char: 由, role: sound }
+status: draft
+sources:
+  - { title: 'Wiktionary: 油', url: 'https://en.wiktionary.org/wiki/%E6%B2%B9' }

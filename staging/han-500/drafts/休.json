@@ -1,0 +1,73 @@
+{
+  "id": "休",
+  "text": {
+    "Hans": "休",
+    "Hant": "休"
+  },
+  "readings": {
+    "pinyin": "xiū"
+  },
+  "meaning": {
+    "en": "to rest",
+    "zh-Hans": "休息",
+    "zh-Hant": "休息"
+  },
+  "fact": {
+    "en": "休 means to rest. It has a person 亻 on the left and a tree 木 on the right.",
+    "zh-Hans": "“休”的意思是休息。它左边是一个人“亻”，右边是一棵树“木”。",
+    "zh-Hant": "「休」的意思是休息。它左邊是一個人「亻」，右邊是一棵樹「木」。"
+  },
+  "story": {
+    "topic": {
+      "en": "A Rest Under the Oak",
+      "zh-Hans": "老橡树下歇一歇",
+      "zh-Hant": "老橡樹下歇一歇"
+    },
+    "hook": {
+      "en": "Whew! The gardener sets down her rake and leans against the old oak tree for a little rest.",
+      "zh-Hans": "呼！园丁阿姨放下耙子，靠在老橡树下歇一会儿。",
+      "zh-Hant": "呼！園丁阿姨放下耙子，靠在老橡樹下歇一會兒。"
+    },
+    "early": {
+      "en": "The oldest 休 shows just that: a man leaning against a tree, taking a rest.",
+      "zh-Hans": "最早的“休”画的正是这样：一个人靠着一棵树，正在休息。",
+      "zh-Hant": "最早的「休」畫的正是這樣：一個人靠著一棵樹，正在休息。"
+    },
+    "closer": {
+      "en": "A person 亻 beside a tree 木: that's 休, time for a rest!",
+      "zh-Hans": "人靠着树，就是休息的“休”！",
+      "zh-Hant": "人靠著樹，就是休息的「休」！"
+    }
+  },
+  "journey": "default",
+  "origin": {
+    "type": "compound-ideogram",
+    "parts": [
+      {
+        "char": "人",
+        "role": "meaning",
+        "gloss": {
+          "en": "person",
+          "zh-Hans": "人",
+          "zh-Hant": "人"
+        }
+      },
+      {
+        "char": "木",
+        "role": "meaning",
+        "gloss": {
+          "en": "tree",
+          "zh-Hans": "树",
+          "zh-Hant": "樹"
+        }
+      }
+    ]
+  },
+  "status": "draft",
+  "sources": [
+    {
+      "title": "Wiktionary: 休",
+      "url": "https://en.wiktionary.org/wiki/%E4%BC%91"
+    }
+  ]
+}

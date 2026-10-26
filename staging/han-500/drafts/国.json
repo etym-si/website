@@ -1,0 +1,42 @@
+{
+  "id": "国",
+  "text": { "Hans": "国", "Hant": "國" },
+  "readings": { "pinyin": "guó" },
+  "meaning": { "en": "country", "zh-Hans": "国家", "zh-Hant": "國家" },
+  "fact": {
+    "en": "國 (国) has an enclosure, 囗, around the outside for the meaning, and 或 inside for the sound.",
+    "zh-Hans": "繁体字里，外面的“囗”是一个围起来的框，表示意思；里面的“或”表示读音。",
+    "zh-Hant": "「國」外面的「囗」是一個圍起來的框，表示意思；裡面的「或」表示讀音。"
+  },
+  "story": {
+    "topic": { "en": "Spinning the Globe", "zh-Hans": "转动地球仪", "zh-Hant": "轉動地球儀" },
+    "hook": {
+      "en": "Spin, spin, stop! Bao's finger lands on the globe, right on a country he has never heard of.",
+      "zh-Hans": "转啊转，停！小宝的手指按在地球仪上，正好落在一个他从没听说过的国家。",
+      "zh-Hant": "轉啊轉，停！小寶的手指按在地球儀上，正好落在一個他從沒聽說過的國家。"
+    },
+    "turn": {
+      "en": "Simplified 国 swaps 或 for 玉 (jade). Another unofficial form, 囯, puts 王 (king) inside instead.",
+      "zh-Hans": "简化字“国”把里面的“或”换成了“玉”。还有一个不太正规的写法“囯”，里面放的是“王”。",
+      "zh-Hant": "簡化字把裡面的「或」換成了「玉」。還有一個不太正規的寫法「囯」，裡面放的是「王」。"
+    },
+    "closer": {
+      "en": "A border all around and a sound part inside: 国 (國) is a country!",
+      "zh-Hans": "四周围起边框，里面放着读音部分，这就是国家的“国”！",
+      "zh-Hant": "四周圍起邊框，裡面放著讀音部分，這就是國家的「國」！"
+    }
+  },
+  "journey": "default",
+  "origin": {
+    "type": "phono-semantic",
+    "parts": [
+      { "char": "囗", "role": "meaning", "gloss": { "en": "enclosure", "zh-Hans": "围起来的框", "zh-Hant": "圍起來的框" } },
+      { "char": "或", "role": "sound" }
+    ]
+  },
+  "status": "draft",
+  "sources": [
+    { "title": "Wiktionary: 国", "url": "https://en.wiktionary.org/wiki/%E5%9B%BD" },
+    { "title": "Wiktionary: 國", "url": "https://en.wiktionary.org/wiki/%E5%9C%8B" }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "六",
+  "text": { "Hans": "六", "Hant": "六" },
+  "readings": { "pinyin": "liù" },
+  "meaning": { "en": "six", "zh-Hans": "六月", "zh-Hant": "六月" },
+  "fact": {
+    "en": "六 means six. It may be a picture of a little shed, borrowed because the word for shed sounded similar; or it may be an old counting sign.",
+    "zh-Hans": "“六”表示数字六。它也许画的是一间小棚屋，因为“棚屋”这个词的读音相近而被借来；也可能是古老的计数符号。",
+    "zh-Hant": "「六」表示數字六。它也許畫的是一間小棚屋，因為「棚屋」這個詞的讀音相近而被借來；也可能是古老的計數符號。"
+  },
+  "story": {
+    "topic": { "en": "Six Tiny Legs", "zh-Hans": "六条小细腿", "zh-Hant": "六條小細腿" },
+    "hook": {
+      "en": "Tickle, tickle! A ladybug crawls across your finger on six tiny legs.",
+      "zh-Hans": "痒痒的！一只小瓢虫用六条细细的腿，爬过你的手指。",
+      "zh-Hant": "癢癢的！一隻小瓢蟲用六條細細的腿，爬過你的手指。"
+    },
+    "early": {
+      "en": "Some scholars think the old 六 is a little shed or cabin. Others think it is simply an ancient counting sign.",
+      "zh-Hans": "有学者认为，古老的“六”是一间小棚屋。也有人认为，它只是一个古老的计数符号。",
+      "zh-Hant": "有學者認為，古老的「六」是一間小棚屋。也有人認為，它只是一個古老的計數符號。"
+    },
+    "closer": {
+      "en": "Maybe a little shed, maybe a counting mark: either way, it's 六, six!",
+      "zh-Hans": "也许是小棚屋，也许是计数符号，不管怎样，它都是“六”！",
+      "zh-Hant": "也許是小棚屋，也許是計數符號，不管怎樣，它都是「六」！"
+    }
+  },
+  "journey": "default",
+  "origin": { "type": "uncertain" },
+  "status": "draft",
+  "sources": [ { "title": "Wiktionary: 六", "url": "https://en.wiktionary.org/wiki/%E5%85%AD" } ]
+}

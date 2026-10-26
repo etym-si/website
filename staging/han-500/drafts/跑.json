@@ -1,0 +1,34 @@
+{
+  "id": "跑",
+  "text": { "Hans": "跑", "Hant": "跑" },
+  "readings": { "pinyin": "pǎo" },
+  "meaning": { "en": "to run", "zh-Hans": "跑步", "zh-Hant": "跑步" },
+  "fact": {
+    "en": "跑 has 足 (foot), squeezed onto the left side, for the meaning and 包 on the right for the sound.",
+    "zh-Hans": "“跑”左边是足字旁，表示脚，是意思部分；右边的“包”表示读音。",
+    "zh-Hant": "「跑」左邊是足字旁，表示腳，是意思部分；右邊的「包」表示讀音。"
+  },
+  "story": {
+    "topic": { "en": "The Relay Race", "zh-Hans": "接力赛跑", "zh-Hant": "接力賽跑" },
+    "hook": {
+      "en": "Grab the baton! Duoduo snatches it from her teammate and sprints down the track as fast as her legs can go.",
+      "zh-Hans": "接棒！朵朵从队友手里接过接力棒，拼命往前冲。",
+      "zh-Hant": "接棒！朵朵從隊友手裡接過接力棒，拚命往前衝。"
+    },
+    "closer": {
+      "en": "Feet flying, wind whooshing past your ears: that's 跑, to run!",
+      "zh-Hans": "双脚飞快，耳边呼呼生风，这就是跑步的“跑”！",
+      "zh-Hant": "雙腳飛快，耳邊呼呼生風，這就是跑步的「跑」！"
+    }
+  },
+  "journey": [],
+  "origin": {
+    "type": "phono-semantic",
+    "parts": [
+      { "char": "足", "role": "meaning", "gloss": { "en": "foot", "zh-Hans": "脚", "zh-Hant": "腳" } },
+      { "char": "包", "role": "sound" }
+    ]
+  },
+  "status": "draft",
+  "sources": [ { "title": "Wiktionary: 跑", "url": "https://en.wiktionary.org/wiki/%E8%B7%91" } ]
+}

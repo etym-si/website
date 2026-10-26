@@ -1,0 +1,63 @@
+{
+  "id": "嘴",
+  "text": {
+    "Hans": "嘴",
+    "Hant": "嘴"
+  },
+  "readings": {
+    "pinyin": "zuǐ"
+  },
+  "meaning": {
+    "en": "mouth",
+    "zh-Hans": "嘴巴",
+    "zh-Hant": "嘴巴"
+  },
+  "fact": {
+    "en": "嘴 has 口 (mouth) on the left for meaning and 觜 on the right for sound. It can also mean a bird's beak or a teapot's spout!",
+    "zh-Hans": "“嘴”左边的“口”表示意思，右边的“觜”表示读音。小鸟的尖嘴、茶壶的壶嘴，也都叫“嘴”！",
+    "zh-Hant": "「嘴」左邊的「口」表示意思，右邊的「觜」表示讀音。小鳥的尖嘴、茶壺的壺嘴，也都叫「嘴」！"
+  },
+  "story": {
+    "topic": {
+      "en": "Open Wide at the Dentist",
+      "zh-Hans": "看牙医，张大嘴",
+      "zh-Hant": "看牙醫，張大嘴"
+    },
+    "hook": {
+      "en": "Open wide! At the dentist, Hugo opens his mouth as big as a hippo's, and counts his teeth in the little mirror.",
+      "zh-Hans": "张大嘴巴！看牙医的时候，雨果把嘴张得像河马一样大，还对着小镜子数牙齿。",
+      "zh-Hant": "張大嘴巴！看牙醫的時候，雨果把嘴張得像河馬一樣大，還對著小鏡子數牙齒。"
+    },
+    "closer": {
+      "en": "Smile, chew, chatter: your 嘴 is always busy!",
+      "zh-Hans": "笑一笑、嚼一嚼、说一说，“嘴”一刻也不闲着！",
+      "zh-Hant": "笑一笑、嚼一嚼、說一說，「嘴」一刻也不閒著！"
+    }
+  },
+  "journey": [],
+  "origin": {
+    "type": "phono-semantic",
+    "parts": [
+      {
+        "char": "口",
+        "role": "meaning",
+        "gloss": {
+          "en": "mouth",
+          "zh-Hans": "嘴",
+          "zh-Hant": "嘴"
+        }
+      },
+      {
+        "char": "觜",
+        "role": "sound"
+      }
+    ]
+  },
+  "status": "draft",
+  "sources": [
+    {
+      "title": "Wiktionary: 嘴",
+      "url": "https://en.wiktionary.org/wiki/%E5%98%B4"
+    }
+  ]
+}

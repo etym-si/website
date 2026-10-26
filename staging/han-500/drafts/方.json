@@ -1,0 +1,33 @@
+{
+  "id": "方",
+  "text": { "Hans": "方", "Hant": "方" },
+  "readings": { "pinyin": "fāng" },
+  "meaning": { "en": "direction; side; square", "zh-Hans": "方向", "zh-Hant": "方向" },
+  "fact": {
+    "en": "方 means a side or a direction, as in 四方 (the four directions). Some scholars think it was first the character for 旁, side.",
+    "zh-Hans": "“方”表示一边、方向，比如“四方”。有学者认为，它最早可能就是表示旁边的“旁”。",
+    "zh-Hant": "「方」表示一邊、方向，比如「四方」。有學者認為，它最早可能就是表示旁邊的「旁」。"
+  },
+  "story": {
+    "topic": { "en": "Which Way at the Crossroads?", "zh-Hans": "十字路口往哪走？", "zh-Hant": "十字路口往哪走？" },
+    "hook": {
+      "en": "At the park crossroads, a wooden signpost points every which way: lake, playground, picnic tables!",
+      "zh-Hans": "公园的十字路口，木头路牌指向四面八方：湖边、游乐场、野餐桌！",
+      "zh-Hant": "公園的十字路口，木頭路牌指向四面八方：湖邊、遊樂場、野餐桌！"
+    },
+    "early": {
+      "en": "Some scholars compare 方 with 巫, which has four ends, each with a little mark. In 方, one end has no mark and stretches out long, pointing to the side.",
+      "zh-Hans": "有学者拿“方”和“巫”比较：“巫”有四个末端，每端都有小记号。“方”的一端没有记号，而且拉得长长的，用来表示“旁边”。",
+      "zh-Hant": "有學者拿「方」和「巫」比較：「巫」有四個末端，每端都有小記號。「方」的一端沒有記號，而且拉得長長的，用來表示「旁邊」。"
+    },
+    "closer": {
+      "en": "North, south, east or west, every side is a 方! Which way will you go?",
+      "zh-Hans": "东南西北，每一边都是一个“方”！你想往哪个方向走？",
+      "zh-Hant": "東南西北，每一邊都是一個「方」！你想往哪個方向走？"
+    }
+  },
+  "journey": "default",
+  "origin": { "type": "uncertain" },
+  "status": "draft",
+  "sources": [ { "title": "Wiktionary: 方", "url": "https://en.wiktionary.org/wiki/%E6%96%B9" } ]
+}

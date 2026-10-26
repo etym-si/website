@@ -1,0 +1,38 @@
+{
+ "id": "说",
+ "s": "说",
+ "t": "說",
+ "forms": {
+  "s": "说",
+  "t2": "説"
+ },
+ "pinyin": [
+  "shuō",
+  "shuì",
+  "yuè",
+  "tuō"
+ ],
+ "glyph_origin": "Phono-semantic compound (形聲): semantic 言 + phonetic 兌.",
+ "s_page_origin": "Simplified from 説 (訁 → 讠).",
+ "shuowen": [],
+ "senses": [
+  "[shuō] to say; to speak",
+  "[shuō] to explain",
+  "[shuì] to persuade; to canvass; to lobby",
+  "[shuì] (Quanzhou Hokkien) to swindle; to defraud; to cheat out of",
+  "[yuè] (obsolete in standard Chinese) alternative form of 悅 (“happy; delighted”)"
+ ],
+ "sources": [
+  {
+   "title": "Wiktionary: 说",
+   "url": "https://en.wiktionary.org/wiki/%E8%AF%B4",
+   "rev": 72011098
+  },
+  {
+   "title": "Wiktionary: 說",
+   "url": "https://en.wiktionary.org/wiki/%E8%AA%AA",
+   "rev": 92201762
+  }
+ ],
+ "note": "glyph_origin is from the traditional page 說; s_page_origin explains the simplified 说."
+}

@@ -1,0 +1,38 @@
+{
+  "id": "戈",
+  "text": { "Hans": "戈", "Hant": "戈" },
+  "readings": { "pinyin": "gē" },
+  "meaning": { "en": "dagger-axe", "zh-Hans": "干戈", "zh-Hant": "干戈" },
+  "fact": {
+    "en": "戈 is a picture of a dagger-axe, an ancient weapon with a single blade on a handle.",
+    "zh-Hans": "“戈”画的是古代的一种兵器：一根柄上装着一片刀刃。",
+    "zh-Hant": "「戈」畫的是古代的一種兵器：一根柄上裝著一片刀刃。"
+  },
+  "story": {
+    "topic": { "en": "Arming the Toy Warrior", "zh-Hans": "给玩具勇士配兵器", "zh-Hant": "幫玩具勇士配兵器" },
+    "hook": {
+      "en": "Ready, warrior! You slide a tiny weapon into your toy figure's hand: one sharp blade on a long pole.",
+      "zh-Hans": "勇士准备好了！你把一件小小的兵器插进玩具人偶的手里：长杆上只有一片锋利的刀刃。",
+      "zh-Hant": "勇士準備好了！你把一件小小的兵器插進玩具公仔的手裡：長桿上只有一片鋒利的刀刃。"
+    },
+    "early": {
+      "en": "The oldest 戈 shows the weapon itself: one blade fixed to an upright handle.",
+      "zh-Hans": "最早的“戈”画的就是这种兵器：一片刀刃，装在一根竖直的柄上。",
+      "zh-Hant": "最早的「戈」畫的就是這種兵器：一片刀刃，裝在一根直直的柄上。"
+    },
+    "turn": {
+      "en": "Over time, the upright handle tipped over into the long slanting stroke of today's 戈.",
+      "zh-Hans": "后来，竖直的柄慢慢斜了过来，变成了今天“戈”里那长长的斜钩。",
+      "zh-Hant": "後來，直直的柄慢慢斜了過來，變成了今天「戈」裡那長長的斜鉤。"
+    },
+    "closer": {
+      "en": "One blade on a handle: that is 戈 — and 我 began as the same weapon with three blades!",
+      "zh-Hans": "柄上一片刃：这就是“戈”——而“我”最早就是同一种兵器，只不过有三片刃！",
+      "zh-Hant": "柄上一片刃：這就是「戈」——而「我」最早就是同一種兵器，只不過有三片刃！"
+    }
+  },
+  "journey": "default",
+  "origin": { "type": "pictogram" },
+  "status": "draft",
+  "sources": [ { "title": "Wiktionary: 戈", "url": "https://en.wiktionary.org/wiki/%E6%88%88" } ]
+}

@@ -1,0 +1,25 @@
+{
+ "id": "您",
+ "s": "您",
+ "t": "您",
+ "forms": {
+  "alt": "恁"
+ },
+ "pinyin": [
+  "nín"
+ ],
+ "glyph_origin": "Ideogrammic compound (會意): 你 (“you”) + 心 (“heart”). 心 may also phonetically signify the original -m ending (Yuan et al., 1996).",
+ "s_page_origin": "",
+ "shuowen": [],
+ "senses": [
+  "[nín] (polite, honorific, sometimes, sarcastic) you (usually singular, may be plural)",
+  "[nín] (archaic, dialectal) you (plural)"
+ ],
+ "sources": [
+  {
+   "title": "Wiktionary: 您",
+   "url": "https://en.wiktionary.org/wiki/%E6%82%A8",
+   "rev": 92081190
+  }
+ ]
+}

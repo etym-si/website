@@ -1,0 +1,37 @@
+{
+  "id": "鹅",
+  "text": { "Hans": "鹅", "Hant": "鵝" },
+  "readings": { "pinyin": "é" },
+  "meaning": { "en": "goose", "zh-Hans": "白鹅", "zh-Hant": "白鵝" },
+  "fact": {
+    "en": "鹅 (鵝) has 我 (I, me) on the left, chosen only for its sound, and a bird, 鸟 (鳥), on the right for the meaning.",
+    "zh-Hans": "“鹅”左边的“我”只管读音，右边的“鸟”表示意思。",
+    "zh-Hant": "「鵝」左邊的「我」只管讀音，右邊的「鳥」表示意思。"
+  },
+  "story": {
+    "topic": { "en": "The Singing Goose", "zh-Hans": "唱歌的大白鹅", "zh-Hant": "唱歌的大白鵝" },
+    "hook": {
+      "en": "'Goose, goose, goose!' Just like in the famous poem, a white goose stretches its curved neck and sings to the sky.",
+      "zh-Hans": "“鹅，鹅，鹅，曲项向天歌。”一只大白鹅伸长弯弯的脖子，朝着天空放声歌唱。",
+      "zh-Hant": "「鵝，鵝，鵝，曲項向天歌。」一隻大白鵝伸長彎彎的脖子，朝著天空放聲歌唱。"
+    },
+    "closer": {
+      "en": "A bird part plus 我 for the sound: here comes 鹅 (鵝), the singing goose!",
+      "zh-Hans": "鸟字旁加上表示读音的“我”，唱歌的大白“鹅”来啦！",
+      "zh-Hant": "「鳥」加上表示讀音的「我」，唱歌的大白「鵝」來啦！"
+    }
+  },
+  "journey": "default",
+  "origin": {
+    "type": "phono-semantic",
+    "parts": [
+      { "char": "鳥", "role": "meaning", "gloss": { "en": "bird", "zh-Hans": "鸟", "zh-Hant": "鳥" } },
+      { "char": "我", "role": "sound" }
+    ]
+  },
+  "status": "draft",
+  "sources": [
+    { "title": "Wiktionary: 鹅", "url": "https://en.wiktionary.org/wiki/%E9%B9%85" },
+    { "title": "Wiktionary: 鵝", "url": "https://en.wiktionary.org/wiki/%E9%B5%9D" }
+  ]
+}

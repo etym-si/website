@@ -1,0 +1,25 @@
+{
+ "id": "客",
+ "s": "客",
+ "t": "客",
+ "forms": {},
+ "pinyin": [
+  "kè",
+  "qiě",
+  "colloquial"
+ ],
+ "glyph_origin": "Phono-semantic compound (形聲): semantic 宀 (“roof”) + phonetic 各 – a guest.",
+ "s_page_origin": "",
+ "shuowen": [],
+ "senses": [
+  "[kè] guest; visitor",
+  "[kè] customer; client; consumer"
+ ],
+ "sources": [
+  {
+   "title": "Wiktionary: 客",
+   "url": "https://en.wiktionary.org/wiki/%E5%AE%A2",
+   "rev": 93635077
+  }
+ ]
+}

@@ -1,0 +1,37 @@
+{
+ "id": "还",
+ "s": "还",
+ "t": "還",
+ "forms": {
+  "s": "还",
+  "alt": "𨘣,𢕼,𨕔,𨖞"
+ },
+ "pinyin": [
+  "huán",
+  "hái",
+  "xuán"
+ ],
+ "glyph_origin": "Phono-semantic compound (形聲): semantic 辵 (“walk”) + phonetic 睘 – to go back; to return.",
+ "s_page_origin": "",
+ "shuowen": [],
+ "senses": [
+  "[huán] to return to a place; to go back to a place",
+  "[huán] to return an object; to give back",
+  "[hái] still; yet; indicates that the phenomenon or observation still exists or the action is still o …",
+  "[hái] also; as well",
+  "[xuán] (obsolete in standard Chinese) alternative form of 旋 (“to rotate; to turn around”)"
+ ],
+ "sources": [
+  {
+   "title": "Wiktionary: 还",
+   "url": "https://en.wiktionary.org/wiki/%E8%BF%98",
+   "rev": 82731781
+  },
+  {
+   "title": "Wiktionary: 還",
+   "url": "https://en.wiktionary.org/wiki/%E9%82%84",
+   "rev": 93466865
+  }
+ ],
+ "note": "glyph_origin is from the traditional page 還; s_page_origin explains the simplified 还."
+}

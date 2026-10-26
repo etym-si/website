@@ -1,0 +1,42 @@
+{
+  "id": "线",
+  "text": { "Hans": "线", "Hant": "線" },
+  "readings": { "pinyin": "xiàn" },
+  "meaning": { "en": "thread; line", "zh-Hans": "毛线", "zh-Hant": "毛線" },
+  "fact": {
+    "en": "線 (线) has the silk part 糹 (糸) on the left for the meaning and 泉 on the right for the sound.",
+    "zh-Hans": "繁体字里，左边的“糹”表示丝，是意思部分；右边的“泉”表示读音。",
+    "zh-Hant": "「線」左邊的「糹」表示絲，是意思部分；右邊的「泉」表示讀音。"
+  },
+  "story": {
+    "topic": { "en": "The Paper-Cup Telephone", "zh-Hans": "纸杯电话", "zh-Hant": "紙杯電話" },
+    "hook": {
+      "en": "Can you hear me? Two paper cups and one long string carry Mila's whisper all the way to her brother's room.",
+      "zh-Hans": "听得见吗？两个纸杯加一根长长的线，把米拉的悄悄话传到了弟弟的房间。",
+      "zh-Hant": "聽得見嗎？兩個紙杯加一根長長的線，把米拉的悄悄話傳到了弟弟的房間。"
+    },
+    "turn": {
+      "en": "Simplified 线 comes from another traditional form, 綫: the silk part became 纟 and 戔 became 戋.",
+      "zh-Hans": "简化字“线”来自另一个繁体写法“綫”：“糹”变成了“纟”，“戔”变成了“戋”。",
+      "zh-Hant": "簡化字來自另一個繁體寫法「綫」：「糹」變成了「纟」，「戔」變成了「戋」。"
+    },
+    "closer": {
+      "en": "Silk on the left, 泉 for the sound: 线 (線) is a thread, a string, a line!",
+      "zh-Hans": "绞丝旁加上读音部分，就是一根长长的“线”！",
+      "zh-Hant": "「糹」加上「泉」，就是一根長長的「線」！"
+    }
+  },
+  "journey": "default",
+  "origin": {
+    "type": "phono-semantic",
+    "parts": [
+      { "char": "糹", "role": "meaning", "gloss": { "en": "silk", "zh-Hans": "丝", "zh-Hant": "絲" } },
+      { "char": "泉", "role": "sound" }
+    ]
+  },
+  "status": "draft",
+  "sources": [
+    { "title": "Wiktionary: 线", "url": "https://en.wiktionary.org/wiki/%E7%BA%BF" },
+    { "title": "Wiktionary: 線", "url": "https://en.wiktionary.org/wiki/%E7%B7%9A" }
+  ]
+}

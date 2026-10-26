@@ -1,0 +1,22 @@
+id: 爷
+text: { Hans: 爷, Hant: 爺 }
+readings: { pinyin: yé }
+meaning: { en: grandpa (father's father), zh-Hans: 爷爷, zh-Hant: 爺爺 }
+fact:
+  en: 爷 (爺) has 父, father, on top for the meaning; in 爺, 耶 underneath gives the sound. In old writing, 爷 could even mean 'father'!
+  zh-Hans: “爷”上面的“父”表示意思；繁体字“爺”下面的“耶”表示读音。在古书里，“爷”还可以指父亲呢！
+  zh-Hant: 「爺」上面的「父」表示意思，下面的「耶」表示讀音。在古書裡，「爺」還可以指父親呢！
+story:
+  topic: { en: Grandpa's Tomato Garden, zh-Hans: 爷爷的番茄园, zh-Hant: 爺爺的番茄園 }
+  hook: { en: 'Snip, snip! Grandpa trims his tomato plants while his grandson waddles behind with a sloshing watering can.', zh-Hans: 咔嚓，咔嚓！爷爷修剪着番茄苗，小孙子提着晃来晃去的水壶跟在后面。, zh-Hant: 喀嚓，喀嚓！爺爺修剪著番茄苗，小孫子提著晃來晃去的水壺跟在後面。 }
+  closer: { en: "Father 父 sitting on top: that's 爷 (爺), as in 爷爷, Grandpa!", zh-Hans: 头上顶着“父”，这就是爷爷的“爷”！, zh-Hant: 頭上頂著「父」，這就是爺爺的「爺」！ }
+journey: []
+origin:
+  type: phono-semantic
+  parts:
+    - { char: 父, role: meaning, gloss: { en: father, zh-Hans: 父亲, zh-Hant: 父親 } }
+    - { char: 耶, role: sound }
+status: draft
+sources:
+  - { title: 'Wiktionary: 爷', url: 'https://en.wiktionary.org/wiki/%E7%88%B7' }
+  - { title: 'Wiktionary: 爺', url: 'https://en.wiktionary.org/wiki/%E7%88%BA' }

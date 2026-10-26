@@ -1,0 +1,63 @@
+{
+  "id": "球",
+  "text": {
+    "Hans": "球",
+    "Hant": "球"
+  },
+  "readings": {
+    "pinyin": "qiú"
+  },
+  "meaning": {
+    "en": "ball",
+    "zh-Hans": "足球",
+    "zh-Hant": "足球"
+  },
+  "fact": {
+    "en": "球 has 玉 (jade, written like 王) for the meaning and 求 for the sound: 求 qiú, 球 qiú, they sound the same! Its old meaning was a fine jade; today it means a ball.",
+    "zh-Hans": "“球”左边的“王”其实是“玉”，表示意思；右边的“求”表示读音，“求”和“球”读音一样！它的老意思是美玉，现在指球。",
+    "zh-Hant": "「球」左邊的「王」其實是「玉」，表示意思；右邊的「求」表示讀音，「求」和「球」讀音一樣！它的老意思是美玉，現在指球。"
+  },
+  "story": {
+    "topic": {
+      "en": "A Strike at the Bowling Alley",
+      "zh-Hans": "保龄球全中",
+      "zh-Hant": "保齡球全倒"
+    },
+    "hook": {
+      "en": "Rumble, rumble… crash! Tao's bowling ball knocks down all ten pins at once.",
+      "zh-Hans": "轰隆隆……哗啦！小涛的保龄球一下子撞倒了全部十个球瓶。",
+      "zh-Hant": "轟隆隆……嘩啦！小濤的保齡球一下子撞倒了全部十個球瓶。"
+    },
+    "closer": {
+      "en": "求 gives the sound, 玉 gives the meaning, and today 球 is every ball, from bowling balls to ping-pong balls!",
+      "zh-Hans": "“求”给它读音，“玉”给它意思——今天，从保龄球到乒乓球，都是“球”！",
+      "zh-Hant": "「求」給它讀音，「玉」給它意思——今天，從保齡球到乒乓球，都是「球」！"
+    }
+  },
+  "journey": "default",
+  "origin": {
+    "type": "phono-semantic",
+    "parts": [
+      {
+        "char": "玉",
+        "role": "meaning",
+        "gloss": {
+          "en": "jade",
+          "zh-Hans": "玉石",
+          "zh-Hant": "玉石"
+        }
+      },
+      {
+        "char": "求",
+        "role": "sound"
+      }
+    ]
+  },
+  "status": "draft",
+  "sources": [
+    {
+      "title": "Wiktionary: 球",
+      "url": "https://en.wiktionary.org/wiki/%E7%90%83"
+    }
+  ]
+}

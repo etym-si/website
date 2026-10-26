@@ -1,0 +1,25 @@
+{
+ "id": "男",
+ "s": "男",
+ "t": "男",
+ "forms": {
+  "alt": "㽖,侽"
+ },
+ "pinyin": [
+  "nán"
+ ],
+ "glyph_origin": "Ideogrammic compound (會意): 田 (“field”) + 力 (“strength”) – man providing the strength for agricultural and/or other kinds of (physical) labour on a field.",
+ "s_page_origin": "",
+ "shuowen": [],
+ "senses": [
+  "[nán] man; (only of human in Standard Chinese) male",
+  "[nán] son"
+ ],
+ "sources": [
+  {
+   "title": "Wiktionary: 男",
+   "url": "https://en.wiktionary.org/wiki/%E7%94%B7",
+   "rev": 92739176
+  }
+ ]
+}

@@ -1,0 +1,30 @@
+{
+ "id": "它",
+ "s": "它",
+ "t": "它",
+ "forms": {
+  "t2": "牠"
+ },
+ "pinyin": [
+  "tā",
+  "tuō",
+  "yí"
+ ],
+ "glyph_origin": "Pictogram (象形): a snake. This is now written as the derivative 蛇. Jiajie (假借 phonetic loan): the character was later borrowed for the then-homophonous third-person pronoun (“he/she/it”). Today 他 is used for male or gender-unspecified “he” and 她 for “she”.",
+ "s_page_origin": "",
+ "shuowen": [],
+ "senses": [
+  "[tā] third-person singular pronoun for inanimate objects; it",
+  "[tā] (chiefly, simplified Chinese) third-person singular pronoun for animals; it",
+  "[tuō] used in 它它藉藉",
+  "[tuō] alternative form of 駝",
+  "[yí] only used in 它它"
+ ],
+ "sources": [
+  {
+   "title": "Wiktionary: 它",
+   "url": "https://en.wiktionary.org/wiki/%E5%AE%83",
+   "rev": 93416058
+  }
+ ]
+}

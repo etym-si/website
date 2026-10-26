@@ -1,0 +1,37 @@
+{
+ "id": "几-幾",
+ "s": "几",
+ "t": "幾",
+ "forms": {
+  "s": "几",
+  "alt": "㡬,𢆻,𢆼"
+ },
+ "pinyin": [
+  "jǐ",
+  "jī",
+  "jì"
+ ],
+ "glyph_origin": "Ideogrammic compound (會意): 𢆶 (“silk threads; little things”) + 戍 (“to guard against”) – watching over the fine details. Note that the simplified form 几 (“small table”) is also a traditional character on its own.",
+ "s_page_origin": "Pictogram (象形) – a small stool viewed from the side. The original version was 𠀃, in which the horizontal stroke at the bottom represents the floor and/or the ground. See also the bottom component of 其, 真, and 典, in which 八 is the stylization of the legs of a table. Unrelated to 鉛, in which the top component is a stylization of 八, representing stagnant water. Also unrelated to 朵, 凡, and 殳.",
+ "shuowen": [],
+ "senses": [
+  "[jǐ] how much; how many",
+  "[jǐ] (of number, time, date) what; which",
+  "[jī] (obsolete) fine; slight; minute",
+  "[jī] (obsolete) dangerous",
+  "[jì] (obsolete) alternative form of 冀 (“to hope; to look forward to”)"
+ ],
+ "sources": [
+  {
+   "title": "Wiktionary: 几",
+   "url": "https://en.wiktionary.org/wiki/%E5%87%A0",
+   "rev": 92199973
+  },
+  {
+   "title": "Wiktionary: 幾",
+   "url": "https://en.wiktionary.org/wiki/%E5%B9%BE",
+   "rev": 92455516
+  }
+ ],
+ "note": "Composite id: 几 also writes other words; this sign is the 幾 sense. glyph_origin is from the 幾 page; s_page_origin is the 几 page's own text."
+}

@@ -1,0 +1,18 @@
+id: 耳
+text: { Hans: 耳, Hant: 耳 }
+readings: { pinyin: ěr }
+meaning: { en: ear, zh-Hans: 耳朵, zh-Hant: 耳朵 }
+fact:
+  en: 耳 began as a picture of an ear, and it still means ear today.
+  zh-Hans: “耳”最早是一只耳朵的图画，今天的意思还是耳朵。
+  zh-Hant: 「耳」最早是一隻耳朵的圖畫，今天的意思還是耳朵。
+story:
+  topic: { en: A Secret for Your Ear Only, zh-Hans: 只说给你听的秘密, zh-Hant: 只說給你聽的祕密 }
+  hook: { en: 'Psst! You have a secret to tell, and your best friend leans in close with one ear.', zh-Hans: 悄悄告诉你！你有一个小秘密，好朋友赶紧把耳朵凑了过来。, zh-Hant: 偷偷告訴你！你有一個小祕密，好朋友趕緊把耳朵湊了過來。 }
+  closer: { en: 'Listen closely! That shape is 耳, as in 耳朵, ear.', zh-Hans: 竖起耳朵仔细听！这就是耳朵的“耳”。, zh-Hant: 豎起耳朵仔細聽！這就是耳朵的「耳」。 }
+journey: default
+origin:
+  type: pictogram
+status: draft
+sources:
+  - { title: 'Wiktionary: 耳', url: 'https://en.wiktionary.org/wiki/%E8%80%B3' }

@@ -1,0 +1,39 @@
+{
+  "id": "熊",
+  "text": { "Hans": "熊", "Hant": "熊" },
+  "readings": { "pinyin": "xióng" },
+  "meaning": { "en": "bear", "zh-Hans": "小熊", "zh-Hant": "小熊" },
+  "fact": {
+    "en": "An old dictionary says 熊 is 能 (bear) for the meaning plus a shortened 炎 at the bottom for the sound.",
+    "zh-Hans": "古老的字典《说文解字》说，“熊”上面的“能”是熊，表示意思；下面是省略了的“炎”，表示读音。",
+    "zh-Hant": "古老的字典《說文解字》說，「熊」上面的「能」是熊，表示意思；下面是省略了的「炎」，表示讀音。"
+  },
+  "story": {
+    "topic": { "en": "Fishing in the River", "zh-Hans": "河里抓鱼的大熊", "zh-Hant": "河裡抓魚的大熊" },
+    "hook": {
+      "en": "Quick as a flash, a big brown bear swipes a shiny fish right out of the rushing river.",
+      "zh-Hans": "说时迟那时快！一头大棕熊伸出熊掌，从湍急的河水里抓起一条亮闪闪的鱼。",
+      "zh-Hant": "說時遲那時快！一頭大棕熊伸出熊掌，從湍急的河水裡抓起一條亮閃閃的魚。"
+    },
+    "turn": {
+      "en": "At first, 熊 wrote 熊熊, the sound of a roaring fire. When 能 was borrowed to write a different word, 熊 began to mean 'bear' instead.",
+      "zh-Hans": "“熊”原本写的是形容大火烧得很旺的“熊熊”。后来“能”被借去写别的词，“熊”就开始表示熊这种动物了。",
+      "zh-Hant": "「熊」原本寫的是形容大火燒得很旺的「熊熊」。後來「能」被借去寫別的詞，「熊」就開始表示熊這種動物了。"
+    },
+    "closer": {
+      "en": "From a roaring fire to a big brown bear: that's 熊, the bear!",
+      "zh-Hans": "从熊熊的大火，到憨憨的大熊，这就是“熊”！",
+      "zh-Hant": "從熊熊的大火，到憨憨的大熊，這就是「熊」！"
+    }
+  },
+  "journey": "default",
+  "origin": {
+    "type": "phono-semantic",
+    "parts": [
+      { "char": "能", "role": "meaning", "gloss": { "en": "bear", "zh-Hans": "熊", "zh-Hant": "熊" } },
+      { "char": "炎", "role": "sound" }
+    ]
+  },
+  "status": "draft",
+  "sources": [ { "title": "Wiktionary: 熊", "url": "https://en.wiktionary.org/wiki/%E7%86%8A" } ]
+}

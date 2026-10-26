@@ -1,0 +1,252 @@
+id: first-500
+title: { en: My First 500 Characters, zh-Hans: 我的前500个字, zh-Hant: 我的前500個字 }
+system: han
+units:
+  - n: 1
+    title: { en: People Big and Small, zh-Hans: 大人和小孩, zh-Hant: 大人和小孩 }
+    color: '#2fb67c'
+    signs: [人, 大, 立, 介, 夫, 子, 女, 儿, 父, 母]
+  - n: 2
+    title: { en: My Face, zh-Hans: 我的脸, zh-Hant: 我的臉 }
+    color: '#f08a24'
+    signs: [口, 目, 耳, 面, 首, 页, 牙, 齿, 舌, 眉]
+  - n: 3
+    title: { en: Hands and Feet, zh-Hans: 手和脚, zh-Hant: 手和腳 }
+    color: '#3d8fe0'
+    signs: [手, 又, 左, 右, 足, 止, 爪, 力]
+  - n: 4
+    title: { en: Body and Beards, zh-Hans: 身体和胡子, zh-Hant: 身體和鬍子 }
+    color: '#8b5cf6'
+    signs: [身, 心, 皮, 肉, 血, 毛, 而, 须, 长, 老]
+  - n: 5
+    title: { en: 'Sky, Hills and Rivers', zh-Hans: 天空、高山和河流, zh-Hant: 天空、高山和河流 }
+    color: '#e8453c'
+    signs: [天, 日, 月, 山, 水, 火, 石, 田, 土, 川]
+  - n: 6
+    title: { en: 'Wind, Rain and Lightning', zh-Hans: 刮风、下雨和闪电, zh-Hant: 颳風、下雨和閃電 }
+    color: '#d99a00'
+    signs: [雨, 云, 风, 气, 申, 电, 泉, 谷, 丘, 原]
+  - n: 7
+    title: { en: Trees and Grain, zh-Hans: 树木和庄稼, zh-Hant: 樹木和莊稼 }
+    color: '#0f9488'
+    signs: [木, 林, 竹, 草, 花, 禾, 米, 瓜, 果, 生]
+  - n: 8
+    title: { en: On the Farm, zh-Hans: 农场里的动物, zh-Hant: 農場裡的動物 }
+    color: '#db2777'
+    signs: [马, 牛, 羊, 犬, 豕, 鸟, 鱼, 角]
+  - n: 9
+    title: { en: Wild Animals, zh-Hans: 野生动物, zh-Hant: 野生動物 }
+    color: '#4f6bd8'
+    signs: [象, 虎, 鹿, 龟, 燕, 龙, 鼠, 兔]
+  - n: 10
+    title: { en: Wings and Wrigglers, zh-Hans: 会飞会爬的小动物, zh-Hant: 會飛會爬的小動物 }
+    color: '#c0622b'
+    signs: [虫, 它, 蛇, 贝, 羽, 飞]
+  - n: 11
+    title: { en: Weapons and Tools, zh-Hans: 兵器和工具, zh-Hant: 兵器和工具 }
+    color: '#6b8e23'
+    signs: [刀, 弓, 矢, 发-發, 戈, 斤, 工, 王, 刃]
+  - n: 12
+    title: { en: 'Boats, Nets and Roads', zh-Hans: 小船、渔网和道路, zh-Hant: 小船、漁網和道路 }
+    color: '#b04fc4'
+    signs: [舟, 网, 车, 行, 走, 永]
+  - n: 13
+    title: { en: Gates and Houses, zh-Hans: 大门和房子, zh-Hant: 大門和房子 }
+    color: '#2fb67c'
+    signs: [门, 户, 开, 关, 舍, 井, 高, 京, 仓, 宫]
+  - n: 14
+    title: { en: Things at Home, zh-Hans: 家里的东西, zh-Hant: 家裡的東西 }
+    color: '#f08a24'
+    signs: [衣, 巾, 伞, 皿, 豆, 鼎, 瓦, 册, 臼]
+  - n: 15
+    title: { en: Scoops and Rulers, zh-Hans: 量一量, zh-Hant: 量一量 }
+    color: '#3d8fe0'
+    signs: [斗, 升, 尺, 寸, 片, 丰]
+  - n: 16
+    title: { en: 'Shells, Lamps and Jade', zh-Hans: 贝壳、油灯和玉, zh-Hant: 貝殼、油燈和玉 }
+    color: '#8b5cf6'
+    signs: [包, 主, 示, 玉, 周, 美, 元]
+  - n: 17
+    title: { en: 'Old Pictures, New Jobs', zh-Hans: 老图画，新本领, zh-Hant: 老圖畫，新本領 }
+    color: '#e8453c'
+    signs: [同, 非, 再, 次, 告, 回, 带, 用, 必, 事]
+  - n: 18
+    title: { en: Which Way?, zh-Hans: 东南西北, zh-Hant: 東南西北 }
+    color: '#d99a00'
+    signs: [东, 西, 南, 北, 中, 方, 向]
+  - n: 19
+    title: { en: Borrowed Pictures, zh-Hans: 借来的图画, zh-Hant: 借來的圖畫 }
+    color: '#0f9488'
+    signs: [我, 来, 能, 自, 要, 求, 其, 午]
+  - n: 20
+    title: { en: 'Little Words, Old Pictures', zh-Hans: 小字的老图画, zh-Hant: 小字的老圖畫 }
+    color: '#db2777'
+    signs: [不, 了, 也, 以, 己, 已, 才, 者, 且, 由]
+  - n: 21
+    title: { en: Counting One to Ten, zh-Hans: 从一数到十, zh-Hant: 從一數到十 }
+    color: '#4f6bd8'
+    signs: [一, 二, 三, 四, 五, 六, 七, 八, 九, 十]
+  - n: 22
+    title: { en: How Many?, zh-Hans: 有多少, zh-Hant: 有多少 }
+    color: '#c0622b'
+    signs: [百, 千, 万, 两, 半, 几-幾, 多, 少]
+  - n: 23
+    title: { en: 'Up, Down, In and Out', zh-Hans: 上下里外, zh-Hant: 上下裡外 }
+    color: '#6b8e23'
+    signs: [上, 下, 小, 入, 至, 内, 外, 里-裡, 间]
+  - n: 24
+    title: { en: Marks That Point, zh-Hans: 会指路的记号, zh-Hant: 會指路的記號 }
+    color: '#b04fc4'
+    signs: [本, 末, 朱, 今, 古, 文, 言, 音]
+  - n: 25
+    title: { en: Twos and Threes, zh-Hans: 两个和三个, zh-Hant: 兩個和三個 }
+    color: '#2fb67c'
+    signs: [从, 比, 众, 森, 炎, 双, 品]
+  - n: 26
+    title: { en: What Are They Doing?, zh-Hans: 他们在做什么, zh-Hant: 他們在做什麼 }
+    color: '#f08a24'
+    signs: [休, 坐, 交, 听, 哭, 吹, 笑]
+  - n: 27
+    title: { en: Look!, zh-Hans: 看一看, zh-Hant: 看一看 }
+    color: '#3d8fe0'
+    signs: [看, 见, 直, 相, 视, 觉, 现]
+  - n: 28
+    title: { en: Under One Roof, zh-Hans: 屋顶下面, zh-Hant: 屋頂下面 }
+    color: '#8b5cf6'
+    signs: [安, 家, 字, 寒, 床, 因]
+  - n: 29
+    title: { en: Busy Hands, zh-Hans: 忙碌的手, zh-Hant: 忙碌的手 }
+    color: '#e8453c'
+    signs: [取, 受, 争, 印, 为, 只-隻]
+  - n: 30
+    title: { en: Good Friends, zh-Hans: 好朋友, zh-Hant: 好朋友 }
+    color: '#d99a00'
+    signs: [好, 男, 朋, 友, 欢, 帮, 玩, 球]
+  - n: 31
+    title: { en: All Together, zh-Hans: 大家一起来, zh-Hant: 大家一起來 }
+    color: '#0f9488'
+    signs: [合, 共, 全, 公, 会, 对, 就, 加]
+  - n: 32
+    title: { en: Cut It Up!, zh-Hans: 切一切, zh-Hant: 切一切 }
+    color: '#db2777'
+    signs: [分, 利, 别, 新, 解, 初]
+  - n: 33
+    title: { en: Morning and Night, zh-Hans: 早上和晚上, zh-Hant: 早上和晚上 }
+    color: '#4f6bd8'
+    signs: [明, 早, 朝, 晨, 晚, 夜, 星, 晴, 昨]
+  - n: 34
+    title: { en: Four Seasons, zh-Hans: 一年四季, zh-Hant: 一年四季 }
+    color: '#c0622b'
+    signs: [春, 夏, 秋, 冬, 年, 岁, 时, 期]
+  - n: 35
+    title: { en: Coming and Going, zh-Hans: 来来去去, zh-Hant: 來來去去 }
+    color: '#6b8e23'
+    signs: [出, 去, 进, 先, 后-後, 前, 步, 退, 正]
+  - n: 36
+    title: { en: Shells and Money, zh-Hans: 贝壳和钱, zh-Hant: 貝殼和錢 }
+    color: '#b04fc4'
+    signs: [买, 卖, 得, 有, 贵, 宝]
+  - n: 37
+    title: { en: At School, zh-Hans: 上学啦, zh-Hant: 上學啦 }
+    color: '#2fb67c'
+    signs: [学, 习, 师, 教, 书, 典, 班, 考]
+  - n: 38
+    title: { en: Happy Hearts, zh-Hans: 快乐的心, zh-Hant: 快樂的心 }
+    color: '#f08a24'
+    signs: [喜, 乐, 兴, 爱, 知, 念, 名, 息]
+  - n: 39
+    title: { en: 'Fire, Light and Shadow', zh-Hans: 火、光和影子, zh-Hant: 火、光和影子 }
+    color: '#3d8fe0'
+    signs: [光, 灰, 赤, 热, 灯, 点, 影, 叟]
+  - n: 40
+    title: { en: 'Me, You and Them', zh-Hans: 你、我、他, zh-Hant: 你、我、他 }
+    color: '#8b5cf6'
+    signs: [你, 他, 她, 们, 您, 谁, 这, 那]
+  - n: 41
+    title: { en: My Family, zh-Hans: 我的家人, zh-Hant: 我的家人 }
+    color: '#e8453c'
+    signs: [爸, 妈, 爷, 奶, 哥, 姐, 弟, 妹, 孩]
+  - n: 42
+    title: { en: Little Helper Words, zh-Hans: 小小帮手字, zh-Hant: 小小幫手字 }
+    color: '#d99a00'
+    signs: [的, 么, 吗, 呢, 吧, 啊, 很, 都, 最]
+  - n: 43
+    title: { en: More Helper Words, zh-Hans: 更多帮手字, zh-Hant: 更多幫手字 }
+    color: '#0f9488'
+    signs: [是, 在, 个, 等, 样, 怎, 太, 常, 真, 难]
+  - n: 44
+    title: { en: Mouth Words, zh-Hans: 口字旁的字, zh-Hant: 口字旁的字 }
+    color: '#db2777'
+    signs: [叫, 唱, 喊, 歌, 问, 和, 号]
+  - n: 45
+    title: { en: Talking Words, zh-Hans: 会说话的字, zh-Hant: 會說話的字 }
+    color: '#4f6bd8'
+    signs: [说, 话, 语, 请, 谢, 认, 识, 读, 记]
+  - n: 46
+    title: { en: Reading and Writing, zh-Hans: 读书写字, zh-Hant: 讀書寫字 }
+    color: '#c0622b'
+    signs: [写, 画, 课, 汉, 诉, 图, 答, 第]
+  - n: 47
+    title: { en: My Head and Body, zh-Hans: 我的头和身体, zh-Hant: 我的頭和身體 }
+    color: '#6b8e23'
+    signs: [头, 脑, 眼, 睛, 脸, 嘴, 脚, 腿]
+  - n: 48
+    title: { en: 'Yum, Time to Eat!', zh-Hans: 吃饭啦, zh-Hant: 吃飯啦 }
+    color: '#b04fc4'
+    signs: [吃, 喝, 饭, 饿, 饱, 渴, 菜, 茶, 蛋, 食]
+  - n: 49
+    title: { en: Water Words, zh-Hans: 三点水的字, zh-Hant: 三點水的字 }
+    color: '#2fb67c'
+    signs: [河, 海, 湖, 洗, 游, 汽, 油, 清, 没]
+  - n: 50
+    title: { en: Snow and Ice, zh-Hans: 冰和雪, zh-Hant: 冰和雪 }
+    color: '#f08a24'
+    signs: [冰, 冷, 凉, 雪, 雷, 零]
+  - n: 51
+    title: { en: Hand Words, zh-Hans: 提手旁的字, zh-Hant: 提手旁的字 }
+    color: '#3d8fe0'
+    signs: [打, 找, 拿, 拉, 推, 把, 接, 放]
+  - n: 52
+    title: { en: Person Words, zh-Hans: 单人旁的字, zh-Hant: 單人旁的字 }
+    color: '#8b5cf6'
+    signs: [住, 作, 做, 体, 位, 信, 候, 假]
+  - n: 53
+    title: { en: Heart Words, zh-Hans: 心里的字, zh-Hant: 心裡的字 }
+    color: '#e8453c'
+    signs: [想, 忘, 思, 快, 忙, 慢, 怕, 意]
+  - n: 54
+    title: { en: On the Move, zh-Hans: 走来走去, zh-Hant: 走來走去 }
+    color: '#d99a00'
+    signs: [过, 还, 送, 远, 近, 边, 道]
+  - n: 55
+    title: { en: 'Run, Walk and Stand', zh-Hans: 跑一跑，站一站, zh-Hant: 跑一跑，站一站 }
+    color: '#0f9488'
+    signs: [跑, 路, 跟, 起, 站, 到, 动, 重]
+  - n: 56
+    title: { en: Pets and Birds, zh-Hans: 小动物和小鸟, zh-Hant: 小動物和小鳥 }
+    color: '#db2777'
+    signs: [狗, 猫, 猪, 狼, 鸡, 鸭, 鹅, 熊]
+  - n: 57
+    title: { en: Colors, zh-Hans: 五颜六色, zh-Hant: 五顏六色 }
+    color: '#4f6bd8'
+    signs: [白, 黑, 黄, 青, 红, 绿, 蓝, 色]
+  - n: 58
+    title: { en: Metal and Money, zh-Hans: 金属和钱, zh-Hant: 金屬和錢 }
+    color: '#c0622b'
+    signs: [金, 钱, 钟-鐘, 银, 铁, 错]
+  - n: 59
+    title: { en: Trees and Wood, zh-Hans: 木头做的东西, zh-Hant: 木頭做的東西 }
+    color: '#6b8e23'
+    signs: [树, 机, 杯, 桌, 椅, 板, 校, 楼, 条]
+  - n: 60
+    title: { en: Silk and Clothes, zh-Hans: 丝线和衣服, zh-Hant: 絲線和衣服 }
+    color: '#b04fc4'
+    signs: [穿, 服, 鞋, 丝, 线, 纸, 给]
+  - n: 61
+    title: { en: Places, zh-Hans: 各种地方, zh-Hant: 各種地方 }
+    color: '#2fb67c'
+    signs: [地, 国, 房, 店, 客, 旁, 坏, 块]
+  - n: 62
+    title: { en: Feeling Well, zh-Hans: 身体好, zh-Hant: 身體好 }
+    color: '#f08a24'
+    signs: [病, 医, 累, 睡, 康, 备]

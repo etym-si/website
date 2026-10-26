@@ -1,0 +1,33 @@
+{
+ "id": "别",
+ "s": "别",
+ "t": "別",
+ "forms": {
+  "s": "别",
+  "t2": "别",
+  "alt": "𠛰,𠔁-ancient"
+ },
+ "pinyin": [
+  "bié"
+ ],
+ "glyph_origin": "Ideogrammic compound (會意): 冎 (“bone”) + 刂 (= 刀) (“knife”), hence 𠛰 – to cut up bone and flesh. Later, the character was stylized as 別. See also 另.",
+ "s_page_origin": "Variant of 別, where 𠮠 is replaced with the visually-similar 另. Officially adopted as the simplified form of 彆 in the Chinese Character Simplification Scheme (漢字簡化方案) in 1956.",
+ "shuowen": [],
+ "senses": [
+  "[bié] (literary) to divide; to separate",
+  "[bié] to distinguish; to differentiate; to discriminate"
+ ],
+ "sources": [
+  {
+   "title": "Wiktionary: 别",
+   "url": "https://en.wiktionary.org/wiki/%E5%88%AB",
+   "rev": 91047148
+  },
+  {
+   "title": "Wiktionary: 別",
+   "url": "https://en.wiktionary.org/wiki/%E5%88%A5",
+   "rev": 93430073
+  }
+ ],
+ "note": "glyph_origin is from the traditional page 別; s_page_origin explains the simplified 别."
+}

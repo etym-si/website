@@ -1,0 +1,87 @@
+{
+  "id": "寒",
+  "text": {
+    "Hans": "寒",
+    "Hant": "寒"
+  },
+  "readings": {
+    "pinyin": "hán"
+  },
+  "meaning": {
+    "en": "cold, wintry",
+    "zh-Hans": "寒假",
+    "zh-Hant": "寒假"
+  },
+  "fact": {
+    "en": "寒 shows a person 人 inside a house 宀, sleeping in grass 茻 to keep out the cold.",
+    "zh-Hans": "“寒”画的是一个人“人”在房子“宀”里，睡在草堆“茻”中，用来抵挡寒冷。",
+    "zh-Hant": "「寒」畫的是一個人「人」在房子「宀」裡，睡在草堆「茻」中，用來抵擋寒冷。"
+  },
+  "story": {
+    "topic": {
+      "en": "Penguins Huddle Up",
+      "zh-Hans": "挤在一起的企鹅",
+      "zh-Hant": "擠在一起的企鵝"
+    },
+    "hook": {
+      "en": "Huddle up! On the icy shore, a crowd of penguins squeezes together to keep out the bitter cold.",
+      "zh-Hans": "挤一挤！冰天雪地的海边，一大群企鹅紧紧挤在一起，抵挡刺骨的寒冷。",
+      "zh-Hant": "擠一擠！冰天雪地的海邊，一大群企鵝緊緊擠在一起，抵擋刺骨的寒冷。"
+    },
+    "early": {
+      "en": "On some bronze pieces, two little lines 二 were added at the bottom: maybe just decoration, maybe a sleeping mat.",
+      "zh-Hans": "在一些金文里，下面加了两短横“二”，可能只是装饰，也可能是一张睡觉用的席子。",
+      "zh-Hant": "在一些金文裡，下面加了兩短橫「二」，可能只是裝飾，也可能是一張睡覺用的蓆子。"
+    },
+    "turn": {
+      "en": "In seal script, those two lines were changed to 仌, ice, to make the cold even clearer.",
+      "zh-Hans": "到了篆书，这两短横被改成了“仌”（冰），让寒冷的意思更加清楚。",
+      "zh-Hant": "到了篆書，這兩短橫被改成了「仌」（冰），讓寒冷的意思更加清楚。"
+    },
+    "closer": {
+      "en": "A person in a house, tucked into grass with ice below: that's 寒, cold!",
+      "zh-Hans": "屋里的人躲在草堆里，下面还有冰——这就是寒冷的“寒”！",
+      "zh-Hant": "屋裡的人躲在草堆裡，下面還有冰——這就是寒冷的「寒」！"
+    }
+  },
+  "journey": "default",
+  "origin": {
+    "type": "compound-ideogram",
+    "parts": [
+      {
+        "char": "宀",
+        "role": "meaning",
+        "gloss": {
+          "en": "house",
+          "zh-Hans": "房子",
+          "zh-Hant": "房子"
+        }
+      },
+      {
+        "char": "人",
+        "role": "meaning",
+        "gloss": {
+          "en": "person",
+          "zh-Hans": "人",
+          "zh-Hant": "人"
+        }
+      },
+      {
+        "char": "茻",
+        "role": "meaning",
+        "gloss": {
+          "en": "grass",
+          "zh-Hans": "草",
+          "zh-Hant": "草"
+        }
+      }
+    ]
+  },
+  "status": "draft",
+  "sources": [
+    {
+      "title": "Wiktionary: 寒",
+      "url": "https://en.wiktionary.org/wiki/%E5%AF%92"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+ "id": "冷",
+ "s": "冷",
+ "t": "冷",
+ "forms": {
+  "alt": "唥,𦀬-Guangxi"
+ },
+ "pinyin": [
+  "lěng",
+  "líng",
+  "lǐng"
+ ],
+ "glyph_origin": "Phono-semantic compound (形聲): semantic 冫 (= 仌) (“ice”) + phonetic 令 – cold as ice.",
+ "s_page_origin": "",
+ "shuowen": [],
+ "senses": [
+  "[lěng] cold; cool",
+  "[lěng] (dialectal) to cool; to cool down; to become cold",
+  "[líng] only used in 冷凙",
+  "[lǐng] only used in 㓑冷",
+  "(Cantonese, Liuzhou Mandarin, Pinghua, Leizhou Min, Hainanese) woollen yarn",
+  "(Cantonese, slang, humorous) guy; person"
+ ],
+ "sources": [
+  {
+   "title": "Wiktionary: 冷",
+   "url": "https://en.wiktionary.org/wiki/%E5%86%B7",
+   "rev": 93188297
+  }
+ ]
+}

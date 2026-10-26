@@ -1,0 +1,53 @@
+{
+  "id": "音",
+  "text": {
+    "Hans": "音",
+    "Hant": "音"
+  },
+  "readings": {
+    "pinyin": "yīn"
+  },
+  "meaning": {
+    "en": "sound",
+    "zh-Hans": "声音",
+    "zh-Hant": "聲音"
+  },
+  "fact": {
+    "en": "音 is built like 言 (speech), with one extra short line inside the mouth 口. An old dictionary describes it as 言 holding a 一.",
+    "zh-Hans": "“音”是照着“言”的样子造的，只是在“口”里面多加了一短横。一本古老的字典说，“音”就是“言”里含着一个“一”。",
+    "zh-Hant": "「音」是照著「言」的樣子造的，只是在「口」裡面多加了一短橫。一本古老的字典說，「音」就是「言」裡含著一個「一」。"
+  },
+  "story": {
+    "topic": {
+      "en": "Wind Chime Music",
+      "zh-Hans": "风铃的声音",
+      "zh-Hant": "風鈴的聲音"
+    },
+    "hook": {
+      "en": "Tinkle, tinkle! Every time the breeze blows, the wind chimes by the window sing a soft, silvery song.",
+      "zh-Hans": "叮叮当当！微风一吹，窗边的风铃就唱起了清脆的歌。",
+      "zh-Hant": "叮叮噹噹！微風一吹，窗邊的風鈴就唱起了清脆的歌。"
+    },
+    "early": {
+      "en": "That little line half-seals the mouth, so 音 probably stood for a muffled, closed-mouth sound, not clear speech like 言.",
+      "zh-Hans": "这一横好像把嘴巴封住了一半，所以“音”很可能表示闷闷的、含在嘴里的声音，和清清楚楚说话的“言”不一样。",
+      "zh-Hant": "這一橫好像把嘴巴封住了一半，所以「音」很可能表示悶悶的、含在嘴裡的聲音，和清清楚楚說話的「言」不一樣。"
+    },
+    "closer": {
+      "en": "言 is clear speech; put a line in its mouth and you get 音, sound!",
+      "zh-Hans": "“言”是说出来的话，在它的“口”里加一横，就成了声音的“音”！",
+      "zh-Hant": "「言」是說出來的話，在它的「口」裡加一橫，就成了聲音的「音」！"
+    }
+  },
+  "journey": "default",
+  "origin": {
+    "type": "ideogram"
+  },
+  "status": "draft",
+  "sources": [
+    {
+      "title": "Wiktionary: 音",
+      "url": "https://en.wiktionary.org/wiki/%E9%9F%B3"
+    }
+  ]
+}

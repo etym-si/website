@@ -1,0 +1,33 @@
+{
+ "id": "比",
+ "s": "比",
+ "t": "比",
+ "forms": {
+  "alt": "夶-ancient"
+ },
+ "pinyin": [
+  "bǐ",
+  "pí",
+  "bì",
+  "pǐ"
+ ],
+ "glyph_origin": "Chu Wan-li (1948): Phono-semantic compound (形聲): phonetic 匕 + phonetic 匕. Shuowen interprets it as an ideogrammic compound meaning to juxtapose. Graphically similar but unrelated to 从, 尼, 化 and 北.",
+ "s_page_origin": "",
+ "shuowen": [
+  "Shuowen interprets it as an ideogrammic compound meaning to juxtapose."
+ ],
+ "senses": [
+  "[bǐ] to compare; to contrast; to have a contest",
+  "[bǐ] to liken; to draw an analogy to",
+  "to be next to; to be near to; to stand close together; to lie next to",
+  "to cling to; to collude with",
+  "[pí] (obsolete in standard Chinese) used in 比蒲"
+ ],
+ "sources": [
+  {
+   "title": "Wiktionary: 比",
+   "url": "https://en.wiktionary.org/wiki/%E6%AF%94",
+   "rev": 93475012
+  }
+ ]
+}

@@ -1,0 +1,31 @@
+{
+ "id": "记",
+ "s": "记",
+ "t": "記",
+ "forms": {
+  "s": "记"
+ },
+ "pinyin": [
+  "jì"
+ ],
+ "glyph_origin": "Phono-semantic compound (形聲): semantic 言 (“speech; words”) + phonetic 己.",
+ "s_page_origin": "Simplified from 記 (訁 → 讠).",
+ "shuowen": [],
+ "senses": [
+  "[jì] to record; to mark; to note",
+  "[jì] to keep in mind; remember"
+ ],
+ "sources": [
+  {
+   "title": "Wiktionary: 记",
+   "url": "https://en.wiktionary.org/wiki/%E8%AE%B0",
+   "rev": 88036608
+  },
+  {
+   "title": "Wiktionary: 記",
+   "url": "https://en.wiktionary.org/wiki/%E8%A8%98",
+   "rev": 93780523
+  }
+ ],
+ "note": "glyph_origin is from the traditional page 記; s_page_origin explains the simplified 记."
+}

@@ -1,0 +1,32 @@
+{
+ "id": "斗",
+ "s": "斗",
+ "t": "斗",
+ "forms": {
+  "alt": "𤣫,𠦁,𣁬"
+ },
+ "pinyin": [
+  "dǒu",
+  "zhǔ"
+ ],
+ "glyph_origin": "Pictogram (象形) (Shuowen), indicating a ladle-shaped dipper or cup used to measure grain (see below) held by hand. See also 升.",
+ "s_page_origin": "",
+ "shuowen": [
+  "Pictogram (象形) (Shuowen), indicating a ladle-shaped dipper or cup used to measure grain (see below) held by hand."
+ ],
+ "senses": [
+  "[dǒu] (historical) a dipper or cup-like object, used in ancient China as a wine vessel",
+  "[dǒu] Any dou-shaped object; dipper, ladle.",
+  "[zhǔ] A unit of measure for liquids.",
+  "[zhǔ] alternative form of 枓 (“ladle or spoon used for scooping water”)",
+  "(Hokkien) time; an instance or occurrence",
+  "(Xiamen Hokkien, Quanzhou Hokkien, &, Taiwanese Hokkien) snare; trap (especially with a trigger)"
+ ],
+ "sources": [
+  {
+   "title": "Wiktionary: 斗",
+   "url": "https://en.wiktionary.org/wiki/%E6%96%97",
+   "rev": 90013237
+  }
+ ]
+}

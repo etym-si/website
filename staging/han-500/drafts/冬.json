@@ -1,0 +1,30 @@
+{
+  "id": "冬",
+  "text": { "Hans": "冬", "Hant": "冬" },
+  "readings": { "pinyin": "dōng" },
+  "meaning": { "en": "winter", "zh-Hans": "冬天", "zh-Hant": "冬天" },
+  "fact": {
+    "en": "No one is completely sure where 冬 comes from. One idea: it grew out of the feeler-like top of an oracle-bone picture of a katydid, a grasshopper-like insect.",
+    "zh-Hans": "“冬”是怎么来的，到现在还没有定论。有一种说法认为，它来自甲骨文里一种蚱蜢类小虫的图画，取的是上面像触角的那部分。",
+    "zh-Hant": "「冬」是怎麼來的，到現在還沒有定論。有一種說法認為，它來自甲骨文裡一種蚱蜢類小蟲的圖畫，取的是上面像觸角的那部分。"
+  },
+  "story": {
+    "topic": { "en": "Icicles on the Roof", "zh-Hans": "屋檐下的冰柱", "zh-Hant": "屋簷下的冰柱" },
+    "hook": {
+      "en": "Sparkle! Frost glitters on every blade of grass, and long icicles hang from the roof like shiny teeth.",
+      "zh-Hans": "好冷呀！每片草叶上都结着白霜，屋檐下挂着长长的冰柱，像一排闪亮的牙齿。",
+      "zh-Hant": "好冷呀！每片草葉上都結著白霜，屋簷下掛著長長的冰柱，像一排閃亮的牙齒。"
+    },
+    "closer": {
+      "en": "Icicles, frost and chilly red noses: that's 冬, winter, the coldest season of the year!",
+      "zh-Hans": "冰柱、白霜和冻红的鼻子，这就是冬天的“冬”，一年里最冷的季节！",
+      "zh-Hant": "冰柱、白霜和凍紅的鼻子，這就是冬天的「冬」，一年裡最冷的季節！"
+    }
+  },
+  "journey": "default",
+  "origin": {
+    "type": "uncertain"
+  },
+  "status": "draft",
+  "sources": [ { "title": "Wiktionary: 冬", "url": "https://en.wiktionary.org/wiki/%E5%86%AC" } ]
+}

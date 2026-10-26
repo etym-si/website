@@ -1,0 +1,32 @@
+{
+ "id": "现",
+ "s": "现",
+ "t": "現",
+ "forms": {
+  "s": "现",
+  "alt": "見"
+ },
+ "pinyin": [
+  "xiàn"
+ ],
+ "glyph_origin": "Phono-semantic compound (形聲): semantic 玉 (“jade”) + phonetic 見 — to appear.",
+ "s_page_origin": "Simplified from 現 (見 → 见).",
+ "shuowen": [],
+ "senses": [
+  "[xiàn] present; current",
+  "[xiàn] to appear; to manifest; to become visible"
+ ],
+ "sources": [
+  {
+   "title": "Wiktionary: 现",
+   "url": "https://en.wiktionary.org/wiki/%E7%8E%B0",
+   "rev": 88037855
+  },
+  {
+   "title": "Wiktionary: 現",
+   "url": "https://en.wiktionary.org/wiki/%E7%8F%BE",
+   "rev": 92201088
+  }
+ ],
+ "note": "glyph_origin is from the traditional page 現; s_page_origin explains the simplified 现."
+}

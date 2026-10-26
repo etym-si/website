@@ -1,0 +1,23 @@
+id: 进
+text: { Hans: 进, Hant: 進 }
+readings: { pinyin: jìn }
+meaning: { en: to enter; to move forward, zh-Hans: 进来, zh-Hant: 進來 }
+fact:
+  en: '进 (進) is made of 辵, walking, and a bird 隹. The idea: a bird can only walk forward, not backward!'
+  zh-Hans: “进”的繁体字“進”由表示走路的“辵”和小鸟“隹”组成。道理是：小鸟只会往前走，不会往后退！
+  zh-Hant: 「進」由表示走路的「辵」和小鳥「隹」組成。道理是：小鳥只會往前走，不會往後退！
+story:
+  topic: { en: The Sparrow Who Never Backs Up, zh-Hans: 只往前跳的小麻雀, zh-Hant: 只往前跳的小麻雀 }
+  hook: { en: 'Peck, hop, peck! A sparrow bounces along the path after bread crumbs, always forward, never back.', zh-Hans: 啄一啄，蹦一蹦！一只小麻雀追着面包屑在小路上往前跳，一直向前，从不后退。, zh-Hant: 啄一啄，蹦一蹦！一隻小麻雀追著麵包屑在小路上往前跳，一直向前，從不後退。 }
+  turn: { en: 'Simplified 进 is a very young character: it swapped the bird 隹 for 井, which gives the sound.', zh-Hans: 简化字“进”是个很年轻的字：它把小鸟“隹”换成了表示读音的“井”。, zh-Hant: 簡化字把小鳥「隹」換成了表示讀音的「井」，這種寫法是很晚才出現的。 }
+  closer: { en: "A bird that keeps marching forward: that's 进 (進), to go forward or come in!", zh-Hans: 一直往前走的小鸟，就是前进的“进”，也是进来的“进”！, zh-Hant: 一直往前走的小鳥，就是前進的「進」，也是進來的「進」！ }
+journey: default
+origin:
+  type: compound-ideogram
+  parts:
+    - { char: 辵, role: meaning, gloss: { en: walk, zh-Hans: 走路, zh-Hant: 走路 } }
+    - { char: 隹, role: meaning, gloss: { en: short-tailed bird, zh-Hans: 小鸟, zh-Hant: 小鳥 } }
+status: draft
+sources:
+  - { title: 'Wiktionary: 进', url: 'https://en.wiktionary.org/wiki/%E8%BF%9B' }
+  - { title: 'Wiktionary: 進', url: 'https://en.wiktionary.org/wiki/%E9%80%B2' }

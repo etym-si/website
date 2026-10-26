@@ -1,0 +1,38 @@
+{
+ "id": "间",
+ "s": "间",
+ "t": "間",
+ "forms": {
+  "s": "间",
+  "alt": "閒*"
+ },
+ "pinyin": [
+  "jiān",
+  "jiàn",
+  "jiǎn"
+ ],
+ "glyph_origin": "Variant form of 閒 (“space, gap”) with 月 (“moon”) replaced by 日 (“day”).",
+ "s_page_origin": "",
+ "shuowen": [],
+ "senses": [
+  "[jiān] within a definite time period or place",
+  "[jiān] among; between",
+  "[jiàn] opening; gap; break",
+  "[jiàn] estrangement; alienation; hostility",
+  "[jiǎn] (obsolete) Variant pronunciation of the classifier sense.",
+  "[jiǎn] (obsolete)"
+ ],
+ "sources": [
+  {
+   "title": "Wiktionary: 间",
+   "url": "https://en.wiktionary.org/wiki/%E9%97%B4",
+   "rev": 91209700
+  },
+  {
+   "title": "Wiktionary: 間",
+   "url": "https://en.wiktionary.org/wiki/%E9%96%93",
+   "rev": 93648021
+  }
+ ],
+ "note": "glyph_origin is from the traditional page 間; s_page_origin explains the simplified 间."
+}

@@ -1,0 +1,44 @@
+{
+  "id": "向",
+  "text": { "Hans": "向", "Hant": "向" },
+  "readings": { "pinyin": "xiàng" },
+  "meaning": { "en": "to face; toward", "zh-Hans": "向前", "zh-Hant": "向前" },
+  "fact": {
+    "en": "向 is a house (宀) with a mouth (口) inside: a voice echoing in a room. Today it means to face or toward, as in 向前 (forward).",
+    "zh-Hans": "“向”是房子（宀）里有一张嘴（口），表示声音在屋里回响。今天它表示朝着、面向，比如“向前”。",
+    "zh-Hant": "「向」是房子（宀）裡有一張嘴（口），表示聲音在屋裡迴響。今天它表示朝著、面向，比如「向前」。"
+  },
+  "story": {
+    "topic": { "en": "Everybody Face the Camera!", "zh-Hans": "大家看镜头！", "zh-Hant": "大家看鏡頭！" },
+    "hook": {
+      "en": "Say cheese! At the family reunion, everyone turns toward the camera at the very same moment.",
+      "zh-Hans": "准备好，笑一个！家庭聚会上，大家同时转向镜头。",
+      "zh-Hant": "準備好，笑一個！家庭聚會上，大家同時轉向鏡頭。"
+    },
+    "early": {
+      "en": "The old 向 shows a mouth inside a house, its voice echoing around the room. It is the original form of 响 (響).",
+      "zh-Hans": "古老的“向”画的是屋子里的一张嘴，声音在屋里回荡。它就是“响”最早的写法。",
+      "zh-Hant": "古老的「向」畫的是屋子裡的一張嘴，聲音在屋裡迴盪。它就是「響」最早的寫法。"
+    },
+    "turn": {
+      "en": "Later, 向 was borrowed to write another word, 嚮, and today it means to face or toward.",
+      "zh-Hans": "后来，“向”被借去写另一个字“嚮”，今天它的意思是朝着、面向。",
+      "zh-Hant": "後來，「向」被借去寫另一個字「嚮」，今天它的意思是朝著、面向。"
+    },
+    "closer": {
+      "en": "Turn to face that way and march forward: that's 向, toward!",
+      "zh-Hans": "转过身，朝着那个方向往前走，这就是向前的“向”！",
+      "zh-Hant": "轉過身，朝著那個方向往前走，這就是向前的「向」！"
+    }
+  },
+  "journey": "default",
+  "origin": {
+    "type": "compound-ideogram",
+    "parts": [
+      { "char": "宀", "role": "meaning", "gloss": { "en": "house", "zh-Hans": "房子", "zh-Hant": "房子" } },
+      { "char": "口", "role": "meaning", "gloss": { "en": "mouth", "zh-Hans": "嘴巴", "zh-Hant": "嘴巴" } }
+    ]
+  },
+  "status": "draft",
+  "sources": [ { "title": "Wiktionary: 向", "url": "https://en.wiktionary.org/wiki/%E5%90%91" } ]
+}

@@ -1,0 +1,25 @@
+{
+ "id": "右",
+ "s": "右",
+ "t": "右",
+ "forms": {
+  "alt": "又,厷"
+ },
+ "pinyin": [
+  "yòu"
+ ],
+ "glyph_origin": "Phono-semantic compound (形聲): phonetic 又 + semantic 口. Originally written as 又 as a phonetic loan in the oracle bone script; in bronze inscriptions, a meaningless 口 component was added as a distinguishing mark.",
+ "s_page_origin": "",
+ "shuowen": [],
+ "senses": [
+  "[yòu] right (direction)",
+  "[yòu] (typography) above"
+ ],
+ "sources": [
+  {
+   "title": "Wiktionary: 右",
+   "url": "https://en.wiktionary.org/wiki/%E5%8F%B3",
+   "rev": 92490449
+  }
+ ]
+}

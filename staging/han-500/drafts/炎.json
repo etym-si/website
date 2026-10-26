@@ -1,0 +1,68 @@
+{
+  "id": "炎",
+  "text": {
+    "Hans": "炎",
+    "Hant": "炎"
+  },
+  "readings": {
+    "pinyin": "yán"
+  },
+  "meaning": {
+    "en": "blazing hot",
+    "zh-Hans": "炎热",
+    "zh-Hant": "炎熱"
+  },
+  "fact": {
+    "en": "炎 is one fire 火 stacked on top of another. Fire on fire means blazing and burning hot!",
+    "zh-Hans": "“炎”是两个“火”上下叠在一起。火上加火，就是火辣辣、热烘烘！",
+    "zh-Hant": "「炎」是兩個「火」上下疊在一起。火上加火，就是火辣辣、熱烘烘！"
+  },
+  "story": {
+    "topic": {
+      "en": "Camels in the Blazing Desert",
+      "zh-Hans": "炎炎沙漠里的骆驼",
+      "zh-Hant": "炎炎沙漠裡的駱駝"
+    },
+    "hook": {
+      "en": "Under the blazing desert sun, the sand shimmers with heat, and even the camels look for shade.",
+      "zh-Hans": "沙漠里，炎炎烈日烤着大地，沙子热得发烫，连骆驼都想找个阴凉的地方。",
+      "zh-Hant": "沙漠裡，炎炎烈日烤著大地，沙子熱得發燙，連駱駝都想找個陰涼的地方。"
+    },
+    "closer": {
+      "en": "Fire on top of fire: that's 炎, blazing hot!",
+      "zh-Hans": "火上面还有火——这就是炎热的“炎”！",
+      "zh-Hant": "火上面還有火——這就是炎熱的「炎」！"
+    }
+  },
+  "journey": "default",
+  "origin": {
+    "type": "compound-ideogram",
+    "parts": [
+      {
+        "char": "火",
+        "role": "meaning",
+        "gloss": {
+          "en": "fire",
+          "zh-Hans": "火",
+          "zh-Hant": "火"
+        }
+      },
+      {
+        "char": "火",
+        "role": "meaning",
+        "gloss": {
+          "en": "fire",
+          "zh-Hans": "火",
+          "zh-Hant": "火"
+        }
+      }
+    ]
+  },
+  "status": "draft",
+  "sources": [
+    {
+      "title": "Wiktionary: 炎",
+      "url": "https://en.wiktionary.org/wiki/%E7%82%8E"
+    }
+  ]
+}

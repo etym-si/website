@@ -1,0 +1,37 @@
+{
+  "id": "过",
+  "text": { "Hans": "过", "Hant": "過" },
+  "readings": { "pinyin": "guò" },
+  "meaning": { "en": "to cross; to pass", "zh-Hans": "过河", "zh-Hant": "過河" },
+  "fact": {
+    "en": "过 (過) has the walking part 辶 for the meaning. In the traditional form 過, the part on the right, 咼, gives the sound.",
+    "zh-Hans": "“过”的“辶”表示走路，是意思部分。在繁体字里，右边是表示读音的“咼”。",
+    "zh-Hant": "「過」的「辶」表示走路，是意思部分；右邊的「咼」表示讀音。"
+  },
+  "story": {
+    "topic": { "en": "The Wobbly Rope Bridge", "zh-Hans": "摇摇晃晃的吊桥", "zh-Hant": "搖搖晃晃的吊橋" },
+    "hook": {
+      "en": "Sway, sway! Holding the ropes tight, Kai steps across the swinging bridge over the river.",
+      "zh-Hans": "晃悠悠！小凯紧紧抓着绳子，一步一步走过河上的吊桥。",
+      "zh-Hant": "晃悠悠！小凱緊緊抓著繩子，一步一步走過河上的吊橋。"
+    },
+    "closer": {
+      "en": "Over the river, across the bridge: that's 过 (過), to cross and to pass!",
+      "zh-Hans": "走过吊桥，越过小河，这就是经过、越过的“过”！",
+      "zh-Hant": "走過吊橋，越過小河，這就是經過、越過的「過」！"
+    }
+  },
+  "journey": "default",
+  "origin": {
+    "type": "phono-semantic",
+    "parts": [
+      { "char": "辵", "role": "meaning", "gloss": { "en": "walk", "zh-Hans": "走路", "zh-Hant": "走路" } },
+      { "char": "咼", "role": "sound" }
+    ]
+  },
+  "status": "draft",
+  "sources": [
+    { "title": "Wiktionary: 过", "url": "https://en.wiktionary.org/wiki/%E8%BF%87" },
+    { "title": "Wiktionary: 過", "url": "https://en.wiktionary.org/wiki/%E9%81%8E" }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "尺",
+  "text": { "Hans": "尺", "Hant": "尺" },
+  "readings": { "pinyin": "chǐ" },
+  "meaning": { "en": "ruler; Chinese foot", "zh-Hans": "尺子", "zh-Hant": "直尺" },
+  "fact": {
+    "en": "尺 is a unit of length, and the name for a ruler. No one is completely sure what its old shape shows; one idea is a hand stretched out to measure.",
+    "zh-Hans": "“尺”是一种长度单位，也指量长度的尺子。它古老的样子到底画的是什么，谁也说不准；有一种说法是张开来量长度的手。",
+    "zh-Hant": "「尺」是一種長度單位，也指量長度的尺。它古老的樣子到底畫的是什麼，誰也說不準；有一種說法是張開來量長度的手。"
+  },
+  "story": {
+    "topic": { "en": "How Tall Is My Sunflower?", "zh-Hans": "我的向日葵有多高？", "zh-Hant": "我的向日葵有多高？" },
+    "hook": {
+      "en": "Your sunflower seedling has shot up! You grab a ruler to see how many centimeters it grew this week.",
+      "zh-Hans": "你的向日葵小苗又长高了！你拿来尺子，量量这个星期它长了几厘米。",
+      "zh-Hant": "你的向日葵小苗又長高了！你拿來直尺，量量這個星期它長了幾公分。"
+    },
+    "early": {
+      "en": "Scholars have several ideas about the old 尺. Some see a hand with the thumb and middle finger stretched wide to measure, and others see a person with a mark on the leg.",
+      "zh-Hans": "关于古老的“尺”，学者们有好几种说法。有人认为它是张开拇指和中指来量长度的手，也有人认为它是一个人，腿上做了个记号。",
+      "zh-Hant": "關於古老的「尺」，學者們有好幾種說法。有人認為它是張開拇指和中指來量長度的手，也有人認為它是一個人，腿上做了個記號。"
+    },
+    "closer": {
+      "en": "Measure it, mark it, compare it: 尺 is the ruler in your pencil case!",
+      "zh-Hans": "量一量、比一比，铅笔盒里的尺子就是“尺”！",
+      "zh-Hant": "量一量、比一比，鉛筆盒裡的直尺就是「尺」！"
+    }
+  },
+  "journey": "default",
+  "origin": { "type": "uncertain" },
+  "status": "draft",
+  "sources": [ { "title": "Wiktionary: 尺", "url": "https://en.wiktionary.org/wiki/%E5%B0%BA" } ]
+}

@@ -1,0 +1,34 @@
+{
+ "id": "页",
+ "s": "页",
+ "t": "頁",
+ "forms": {
+  "s": "页",
+  "alt": "葉"
+ },
+ "pinyin": [
+  "yè",
+  "xié"
+ ],
+ "glyph_origin": "Pictogram (象形): 首 + 卩 – head of a kneeling person, emphasising “head”. 頁 and 首 were originally the same pictographic character with the same meaning of “head”, and the graphical difference was that 頁 also included the body in addition to the head of the person. 頁 was later used as an alternative popular form of 葉 (“leaf; page”) to mean “sheet; page (of paper)”, which is its main meaning today. The original sense of “head” is preserved in the radical 頁, which is used in characters such as 頭 (“head”) and 頸 (“neck”).",
+ "s_page_origin": "From cursive script of 頁.",
+ "shuowen": [],
+ "senses": [
+  "[yè] sheet (of paper)",
+  "[yè] page",
+  "[xié] (obsolete in standard Chinese) head"
+ ],
+ "sources": [
+  {
+   "title": "Wiktionary: 页",
+   "url": "https://en.wiktionary.org/wiki/%E9%A1%B5",
+   "rev": 87570771
+  },
+  {
+   "title": "Wiktionary: 頁",
+   "url": "https://en.wiktionary.org/wiki/%E9%A0%81",
+   "rev": 87584317
+  }
+ ],
+ "note": "glyph_origin is from the traditional page 頁; s_page_origin explains the simplified 页."
+}

@@ -1,0 +1,33 @@
+{
+  "id": "身",
+  "text": { "Hans": "身", "Hant": "身" },
+  "readings": { "pinyin": "shēn" },
+  "meaning": { "en": "body", "zh-Hans": "身体", "zh-Hant": "身體" },
+  "fact": {
+    "en": "身 began as a picture of a woman expecting a baby. Today it means body.",
+    "zh-Hans": "“身”最早画的是一位怀着宝宝的妈妈。今天它的意思是身体。",
+    "zh-Hant": "「身」最早畫的是一位懷著寶寶的媽媽。今天它的意思是身體。"
+  },
+  "story": {
+    "topic": { "en": "Morning Stretches", "zh-Hans": "早上伸伸懒腰", "zh-Hant": "早上伸伸懶腰" },
+    "hook": {
+      "en": "Reach up high, touch your toes, wiggle your whole body! Morning exercises have begun.",
+      "zh-Hans": "向上伸展，弯腰摸脚尖，再扭扭全身！早操开始啦。",
+      "zh-Hant": "向上伸展，彎腰摸腳尖，再扭扭全身！早操開始囉。"
+    },
+    "early": {
+      "en": "The oldest 身 is a mom-to-be with a baby growing inside her.",
+      "zh-Hans": "最早的“身”是一位准妈妈，肚子里有个小宝宝在慢慢长大。",
+      "zh-Hant": "最早的「身」是一位準媽媽，肚子裡有個小寶寶在慢慢長大。"
+    },
+    "closer": {
+      "en": "From a mom-to-be to your whole wiggly body: that is 身, as in 身体!",
+      "zh-Hans": "从一位准妈妈，到你扭来扭去的全身：这就是身体的“身”！",
+      "zh-Hant": "從一位準媽媽，到你扭來扭去的全身：這就是身體的「身」！"
+    }
+  },
+  "journey": "default",
+  "origin": { "type": "pictogram" },
+  "status": "draft",
+  "sources": [ { "title": "Wiktionary: 身", "url": "https://en.wiktionary.org/wiki/%E8%BA%AB" } ]
+}

@@ -1,0 +1,32 @@
+{
+ "id": "时",
+ "s": "时",
+ "t": "時",
+ "forms": {
+  "s": "时",
+  "alt": "旹,时,峕,𣅱,…"
+ },
+ "pinyin": [
+  "shí"
+ ],
+ "glyph_origin": "Phono-semantic compound (形聲): semantic 日 (“sun; day”) + phonetic 之 (“to go”) — the passing of time. In ancient scripts, it had the form 旹. The phonetic component later changed to 寺.",
+ "s_page_origin": "Simplified from 時 (寺 → 寸)",
+ "shuowen": [],
+ "senses": [
+  "[shí] season",
+  "[shí] time (a duration)"
+ ],
+ "sources": [
+  {
+   "title": "Wiktionary: 时",
+   "url": "https://en.wiktionary.org/wiki/%E6%97%B6",
+   "rev": 92200651
+  },
+  {
+   "title": "Wiktionary: 時",
+   "url": "https://en.wiktionary.org/wiki/%E6%99%82",
+   "rev": 93737692
+  }
+ ],
+ "note": "glyph_origin is from the traditional page 時; s_page_origin explains the simplified 时."
+}

@@ -1,0 +1,21 @@
+id: 第
+text: { Hans: 第, Hant: 第 }
+readings: { pinyin: dì }
+meaning: { en: ordinal prefix (第一 = first), zh-Hans: 第一, zh-Hant: 第一 }
+fact:
+  en: '第 has 竹 (bamboo) on top, for the bamboo strips people once wrote on, and 弟 below for sound: 弟 (dì) sounds just like 第 (dì)!'
+  zh-Hans: “第”上面是竹字头，指古时候用来写字、记账的竹片；下面的“弟”表示读音，“弟”（dì）和“第”（dì）读音一模一样！
+  zh-Hant: 「第」上面是竹字頭，指古時候用來寫字、記帳的竹片；下面的「弟」表示讀音，「弟」（dì）和「第」（dì）讀音一模一樣！
+story:
+  topic: { en: Chapter One, zh-Hans: 第一章, zh-Hant: 第一章 }
+  hook: { en: 'Story time! Dad opens a thick storybook to the very start: Chapter One, The Secret Door.', zh-Hans: 讲故事时间到！爸爸翻开一本厚厚的故事书，从头念起：第一章，神秘的门。, zh-Hant: 講故事時間到！爸爸翻開一本厚厚的故事書，從頭念起：第一章，神祕的門。 }
+  closer: { en: 'First, second, third: put 第 in front of a number, and everything lines up in order!', zh-Hans: 第一、第二、第三……把“第”放在数字前面，大家就排好顺序啦！, zh-Hant: 第一、第二、第三……把「第」放在數字前面，大家就排好順序囉！ }
+journey: []
+origin:
+  type: phono-semantic
+  parts:
+    - { char: 𥫗, role: meaning, gloss: { en: bamboo, zh-Hans: 竹子, zh-Hant: 竹子 } }
+    - { char: 弟, role: sound }
+status: draft
+sources:
+  - { title: 'Wiktionary: 第', url: 'https://en.wiktionary.org/wiki/%E7%AC%AC' }

@@ -1,0 +1,20 @@
+id: 带
+text: { Hans: 带, Hant: 帶 }
+readings: { pinyin: dài }
+meaning: { en: 'belt, ribbon; to bring', zh-Hans: 鞋带, zh-Hant: 鞋帶 }
+fact:
+  en: 带 (帶) is a picture of a woven belt. Today it means a belt, ribbon or strap, and also to bring something along.
+  zh-Hans: “带”画的是一条编织的腰带。今天它表示带子，也有“带上东西”的意思。
+  zh-Hant: 「帶」畫的是一條編織的腰帶。今天它表示帶子，也有「帶上東西」的意思。
+story:
+  topic: { en: Tying Your Shoelaces, zh-Hans: 自己系鞋带, zh-Hant: 自己綁鞋帶 }
+  hook: { en: 'Loop, swoop and pull! You tie your shoelaces into a perfect bunny-ear bow.', zh-Hans: 绕一圈，穿过去，拉一拉！你把鞋带系成了一个漂亮的兔耳朵蝴蝶结。, zh-Hant: 繞一圈，穿過去，拉一拉！你把鞋帶綁成了一個漂亮的兔耳朵蝴蝶結。 }
+  early: { en: The old form of 带 (帶) is a picture of a woven belt., zh-Hans: 古老的“带”画的是一条编织的腰带。, zh-Hant: 古老的「帶」畫的是一條編織的腰帶。 }
+  closer: { en: "A woven strip you can tie, wrap or wear: that's 带 (帶)!", zh-Hans: 可以系、可以绑的长长带子，就是鞋带的“带”！, zh-Hant: 可以繫、可以綁的長長帶子，就是鞋帶的「帶」！ }
+journey: default
+origin:
+  type: pictogram
+status: draft
+sources:
+  - { title: 'Wiktionary: 带', url: 'https://en.wiktionary.org/wiki/%E5%B8%A6' }
+  - { title: 'Wiktionary: 帶', url: 'https://en.wiktionary.org/wiki/%E5%B8%B6' }

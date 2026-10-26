@@ -1,0 +1,63 @@
+{
+  "id": "位",
+  "text": {
+    "Hans": "位",
+    "Hant": "位"
+  },
+  "readings": {
+    "pinyin": "wèi"
+  },
+  "meaning": {
+    "en": "place; seat",
+    "zh-Hans": "座位",
+    "zh-Hant": "座位"
+  },
+  "fact": {
+    "en": "位 has 亻 (person) on the left for meaning and 立 on the right for sound. In old bronze inscriptions, phrases like 即位 often wrote 位 as just 立!",
+    "zh-Hans": "“位”左边的“亻”（人）表示意思，右边的“立”表示读音。在古老的金文里，像“即位”这样的词，常常直接把“位”写成“立”！",
+    "zh-Hant": "「位」左邊的「亻」（人）表示意思，右邊的「立」表示讀音。在古老的金文裡，像「即位」這樣的詞，常常直接把「位」寫成「立」！"
+  },
+  "story": {
+    "topic": {
+      "en": "Finding My Seat at the Movies",
+      "zh-Hans": "电影院里找座位",
+      "zh-Hant": "電影院裡找座位"
+    },
+    "hook": {
+      "en": "Row 5, seat 12! Ningning checks her ticket and finds her very own seat in the dark cinema.",
+      "zh-Hans": "5排12号！宁宁看看电影票，在黑黑的电影院里找到了自己的座位。",
+      "zh-Hant": "5排12號！寧寧看看電影票，在黑黑的電影院裡找到了自己的座位。"
+    },
+    "closer": {
+      "en": "Your seat at the movies, your spot in line: that's 位, your place!",
+      "zh-Hans": "电影院里的座位，队伍里的位置，这就是“位”！",
+      "zh-Hant": "電影院裡的座位，隊伍裡的位置，這就是「位」！"
+    }
+  },
+  "journey": "default",
+  "origin": {
+    "type": "phono-semantic",
+    "parts": [
+      {
+        "char": "人",
+        "role": "meaning",
+        "gloss": {
+          "en": "person",
+          "zh-Hans": "人",
+          "zh-Hant": "人"
+        }
+      },
+      {
+        "char": "立",
+        "role": "sound"
+      }
+    ]
+  },
+  "status": "draft",
+  "sources": [
+    {
+      "title": "Wiktionary: 位",
+      "url": "https://en.wiktionary.org/wiki/%E4%BD%8D"
+    }
+  ]
+}

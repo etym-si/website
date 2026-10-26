@@ -1,0 +1,35 @@
+{
+ "id": "难",
+ "s": "难",
+ "t": "難",
+ "forms": {
+  "s": "难",
+  "alt": "𨿻,𩀏,𩀙,𩀡,…"
+ },
+ "pinyin": [
+  "nán",
+  "nàn"
+ ],
+ "glyph_origin": "Phono-semantic compound (形聲): abbreviated phonetic 暵 + semantic 隹 (“bird”) – a type of bird. Phonetically borrowed for other senses.",
+ "s_page_origin": "Unorthodox variant simplified from 難 (elimination of left component to 又) found in the Ming dynasty orthographic dictionary 《俗書刊誤》. Originally part of the 324 simplified characters introduced by the Republic of China (Kuomintang government) in 1935 but was later retracted in 1936. Eventually adopted as an official simplified character by the People's Republic of China in the 1956 Chinese Character Simplification Scheme.",
+ "shuowen": [],
+ "senses": [
+  "[nán] difficult; hard; troublesome",
+  "[nán] bad; unpleasant",
+  "[nàn] disaster; calamity; catastrophe",
+  "[nàn] (obsolete in standard Chinese) revolt; attack"
+ ],
+ "sources": [
+  {
+   "title": "Wiktionary: 难",
+   "url": "https://en.wiktionary.org/wiki/%E9%9A%BE",
+   "rev": 82454662
+  },
+  {
+   "title": "Wiktionary: 難",
+   "url": "https://en.wiktionary.org/wiki/%E9%9B%A3",
+   "rev": 92922915
+  }
+ ],
+ "note": "glyph_origin is from the traditional page 難; s_page_origin explains the simplified 难."
+}

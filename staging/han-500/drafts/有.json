@@ -1,0 +1,44 @@
+{
+  "id": "有",
+  "text": { "Hans": "有", "Hant": "有" },
+  "readings": { "pinyin": "yǒu" },
+  "meaning": { "en": "to have; there is", "zh-Hans": "有趣", "zh-Hant": "有趣" },
+  "fact": {
+    "en": "有 is made of 又, which gives the sound, and meat 肉 for the meaning. In today's 有, 又 is squeezed into the top and the meat looks like 月.",
+    "zh-Hans": "“有”由表示读音的“又”和表示意思的“肉”组成。今天的“有”里，“又”被挤到了上面，“肉”变得像“月”。",
+    "zh-Hant": "「有」由表示讀音的「又」和表示意思的「肉」組成。今天的「有」裡，「又」被擠到了上面，「肉」變得像「月」。"
+  },
+  "story": {
+    "topic": { "en": "A Firefly in My Hands", "zh-Hans": "手心里的萤火虫", "zh-Hant": "手心裡的螢火蟲" },
+    "hook": {
+      "en": "Guess what I have! A girl slowly opens her cupped hands, and a firefly blinks softly inside.",
+      "zh-Hans": "猜猜我有什么！小女孩慢慢张开拢着的双手，里面有一只萤火虫在轻轻地一闪一闪。",
+      "zh-Hant": "猜猜我有什麼！小女孩慢慢張開攏著的雙手，裡面有一隻螢火蟲在輕輕地一閃一閃。"
+    },
+    "early": {
+      "en": "On oracle bones, there is no meat in 有 at all: the meat 肉 joined later.",
+      "zh-Hans": "在甲骨文里，“有”根本没有肉，“肉”是后来才加进来的。",
+      "zh-Hant": "在甲骨文裡，「有」根本沒有肉，「肉」是後來才加進來的。"
+    },
+    "turn": {
+      "en": "Later the meat 肉 came to be written like 月, so much that an old dictionary mistook it for the moon!",
+      "zh-Hans": "后来，“肉”写得像“月”，像到连古代的一本字典都把它当成了月亮！",
+      "zh-Hant": "後來，「肉」寫得像「月」，像到連古代的一本字典都把它當成了月亮！"
+    },
+    "closer": {
+      "en": "又 for the sound, meat for the meaning: that's 有, to have!",
+      "zh-Hans": "“又”管读音，“肉”管意思，合起来就是有趣的“有”！",
+      "zh-Hant": "「又」管讀音，「肉」管意思，合起來就是有趣的「有」！"
+    }
+  },
+  "journey": "default",
+  "origin": {
+    "type": "phono-semantic",
+    "parts": [
+      { "char": "肉", "role": "meaning", "gloss": { "en": "meat", "zh-Hans": "肉", "zh-Hant": "肉" } },
+      { "char": "又", "role": "sound" }
+    ]
+  },
+  "status": "draft",
+  "sources": [ { "title": "Wiktionary: 有", "url": "https://en.wiktionary.org/wiki/%E6%9C%89" } ]
+}

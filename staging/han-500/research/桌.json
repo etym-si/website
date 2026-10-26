@@ -1,0 +1,25 @@
+{
+ "id": "桌",
+ "s": "桌",
+ "t": "桌",
+ "forms": {
+  "alt": "棹,槕,卓"
+ },
+ "pinyin": [
+  "zhuō"
+ ],
+ "glyph_origin": "Ideogrammic compound (會意) and phono-semantic compound (形聲): phonetic 卓 (“high”) + semantic 木 (“tree; wood”) – table. The bottom 十 of 卓 has merged with or been replaced by 木. An obsolete variant that distinguishes the two components is 棹.",
+ "s_page_origin": "",
+ "shuowen": [],
+ "senses": [
+  "[zhuō] table; desk; stand",
+  "[zhuō] classifier for tablefuls of dishes or people"
+ ],
+ "sources": [
+  {
+   "title": "Wiktionary: 桌",
+   "url": "https://en.wiktionary.org/wiki/%E6%A1%8C",
+   "rev": 92200770
+  }
+ ]
+}

@@ -1,0 +1,27 @@
+{
+ "id": "小",
+ "s": "小",
+ "t": "小",
+ "forms": {
+  "alt": "𡮐-ancient"
+ },
+ "pinyin": [
+  "xiǎo"
+ ],
+ "glyph_origin": "Two possible interpretations: • Ideogram (指事) – three small dots > small. • Pictogram (象形) – three granules of sand – original character of 沙 > small. Starting from some bronze inscriptions, the dots have become elongated. Based on this form, Shuowen erroneously considers it to be an ideogrammic compound (會意): 八 (“to divide; to separate”) + 丨 (“small object”). Compare with 少, represented by four dots in its oracle bone script form. Unrelated to the bottom part of 京, 示, 尞, 尗, and 原.",
+ "s_page_origin": "",
+ "shuowen": [
+  "Based on this form, Shuowen erroneously considers it to be an ideogrammic compound (會意): 八 (“to divide;"
+ ],
+ "senses": [
+  "[xiǎo] small, tiny, little",
+  "[xiǎo] minor, petty"
+ ],
+ "sources": [
+  {
+   "title": "Wiktionary: 小",
+   "url": "https://en.wiktionary.org/wiki/%E5%B0%8F",
+   "rev": 93813458
+  }
+ ]
+}

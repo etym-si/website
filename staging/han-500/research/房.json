@@ -1,0 +1,24 @@
+{
+ "id": "房",
+ "s": "房",
+ "t": "房",
+ "forms": {},
+ "pinyin": [
+  "fáng",
+  "páng"
+ ],
+ "glyph_origin": "Phono-semantic compound (形聲): semantic 戶 (“door”) + phonetic 方. The meaning of 方 'side' can also play a role, if the character originally referred to one of the two rooms beside the central room (side room).",
+ "s_page_origin": "",
+ "shuowen": [],
+ "senses": [
+  "[fáng] house",
+  "[fáng] room"
+ ],
+ "sources": [
+  {
+   "title": "Wiktionary: 房",
+   "url": "https://en.wiktionary.org/wiki/%E6%88%BF",
+   "rev": 93766353
+  }
+ ]
+}

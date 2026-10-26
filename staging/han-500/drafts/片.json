@@ -1,0 +1,33 @@
+{
+  "id": "片",
+  "text": { "Hans": "片", "Hant": "片" },
+  "readings": { "pinyin": "piàn" },
+  "meaning": { "en": "thin piece, slice", "zh-Hans": "薯片", "zh-Hant": "洋芋片" },
+  "fact": {
+    "en": "片 means a thin, flat piece, like a slice or a chip. It is a mirror image of 爿, an old picture of a bed.",
+    "zh-Hans": "“片”指又薄又平的一片东西，比如薯片。它是“爿”的镜像，而“爿”是一张床的古老图画。",
+    "zh-Hant": "「片」指又薄又平的一片東西，比如洋芋片。它是「爿」的鏡像，而「爿」是一張床的古老圖畫。"
+  },
+  "story": {
+    "topic": { "en": "Crunchy Chips for Movie Night", "zh-Hans": "看电影配薯片", "zh-Hant": "看電影配洋芋片" },
+    "hook": {
+      "en": "Crunch, crunch! You pour thin, golden potato chips into a bowl for movie night.",
+      "zh-Hans": "咔嚓！看电影的晚上，你把又薄又脆的金黄薯片倒进碗里。",
+      "zh-Hant": "喀嚓！看電影的晚上，你把又薄又脆的金黃洋芋片倒進碗裡。"
+    },
+    "early": {
+      "en": "Flip 爿, an old picture of a bed, as if in a mirror, and you get 片. An old dictionary called it half of a tree, 木, but the oldest writing doesn't back that up.",
+      "zh-Hans": "把床的古老图画“爿”像照镜子一样翻过来，就是“片”。一本古老的字典说它是半个“木”，不过这种说法在更古老的文字里找不到根据。",
+      "zh-Hant": "把床的古老圖畫「爿」像照鏡子一樣翻過來，就是「片」。一本古老的字典說它是半個「木」，不過這種說法在更古老的文字裡找不到根據。"
+    },
+    "closer": {
+      "en": "Thin and flat, like a chip, a card or a snowflake: that's 片!",
+      "zh-Hans": "薄薄平平的一片，像薯片、卡片、雪片，这就是“片”！",
+      "zh-Hant": "薄薄平平的一片，像洋芋片、卡片、雪片，這就是「片」！"
+    }
+  },
+  "journey": "default",
+  "origin": { "type": "pictogram" },
+  "status": "draft",
+  "sources": [ { "title": "Wiktionary: 片", "url": "https://en.wiktionary.org/wiki/%E7%89%87" } ]
+}

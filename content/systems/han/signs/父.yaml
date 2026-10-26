@@ -1,0 +1,19 @@
+id: 父
+text: { Hans: 父, Hant: 父 }
+readings: { pinyin: fù }
+meaning: { en: father, zh-Hans: 父亲, zh-Hant: 父親 }
+fact:
+  en: '父 means father. It began as a hand holding a stone blade: a man hard at work with a stone axe.'
+  zh-Hans: “父”就是父亲。它最早画的是一只手握着石刀，表示一个男人拿着石斧在干活。
+  zh-Hant: 「父」就是父親。它最早畫的是一隻手握著石刀，表示一個男人拿著石斧在工作。
+story:
+  topic: { en: Dad's Busy Hands, zh-Hans: 爸爸忙碌的双手, zh-Hant: 爸爸忙碌的雙手 }
+  hook: { en: 'Tap, tap, BANG! Dad hammers the last nail into a brand-new birdhouse, just for you.', zh-Hans: 叮叮当当！爸爸把最后一颗钉子敲进去，一个新鸟屋就做好了，是专门给你的。, zh-Hant: 叮叮噹噹！爸爸把最後一根釘子敲進去，一個新鳥屋就做好了，是專門給你的。 }
+  early: { en: 'Look closely at the oldest 父: a hand gripping a sharp stone blade, ready to work.', zh-Hans: 仔细看最早的“父”：一只手紧紧握着锋利的石刀，准备开始干活。, zh-Hant: 仔細看最早的「父」：一隻手緊緊握著鋒利的石刀，準備開始工作。 }
+  closer: { en: 'A strong hand holding a tool: that is 父, as in 父亲, father!', zh-Hans: 一只拿着工具的有力的手：这就是父亲的“父”！, zh-Hant: 一隻拿著工具的有力的手：這就是父親的「父」！ }
+journey: default
+origin:
+  type: pictogram
+status: draft
+sources:
+  - { title: 'Wiktionary: 父', url: 'https://en.wiktionary.org/wiki/%E7%88%B6' }

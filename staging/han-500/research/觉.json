@@ -1,0 +1,35 @@
+{
+ "id": "觉",
+ "s": "觉",
+ "t": "覺",
+ "forms": {
+  "s": "觉",
+  "alt": "*覚,斍,𡕚,覐,…"
+ },
+ "pinyin": [
+  "jué",
+  "jiào"
+ ],
+ "glyph_origin": "Phono-semantic compound (形聲): phonetic 𦥯 + semantic 見 (“see”).",
+ "s_page_origin": "Simplified from 覺 (𦥯 → 𰃮 and 見 → 见).",
+ "shuowen": [],
+ "senses": [
+  "[jué] to become aware; to dawn on; to awaken to",
+  "[jué] to feel; to think",
+  "[jiào] sleep; nap",
+  "[jiào] classifier for periods of sleep"
+ ],
+ "sources": [
+  {
+   "title": "Wiktionary: 觉",
+   "url": "https://en.wiktionary.org/wiki/%E8%A7%89",
+   "rev": 87570846
+  },
+  {
+   "title": "Wiktionary: 覺",
+   "url": "https://en.wiktionary.org/wiki/%E8%A6%BA",
+   "rev": 90067045
+  }
+ ],
+ "note": "glyph_origin is from the traditional page 覺; s_page_origin explains the simplified 觉."
+}

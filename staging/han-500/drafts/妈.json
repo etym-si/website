@@ -1,0 +1,42 @@
+{
+  "id": "妈",
+  "text": { "Hans": "妈", "Hant": "媽" },
+  "readings": { "pinyin": "mā" },
+  "meaning": { "en": "mom, mother", "zh-Hans": "妈妈", "zh-Hant": "媽媽" },
+  "fact": {
+    "en": "妈 (媽) has 女, a woman, for the meaning and 马 (馬), horse, for the sound. Mom isn't a horse: 马 mǎ is there because it sounds like 妈 mā!",
+    "zh-Hans": "“妈”由表示意思的“女”和表示读音的“马”组成。妈妈可不是马，“马”mǎ在这里只是因为读音像“妈”mā！",
+    "zh-Hant": "「媽」由表示意思的「女」和表示讀音的「馬」組成。媽媽可不是馬，「馬」mǎ在這裡只是因為讀音像「媽」mā！"
+  },
+  "story": {
+    "topic": { "en": "Pancake Morning", "zh-Hans": "妈妈的松饼早餐", "zh-Hant": "媽媽的鬆餅早餐" },
+    "hook": {
+      "en": "Flip! Mom tosses a golden pancake high in the air and catches it right back in the pan.",
+      "zh-Hans": "翻个面！妈妈把金黄的松饼高高抛起，又稳稳地接回了平底锅里。",
+      "zh-Hant": "翻個面！媽媽把金黃的鬆餅高高拋起，又穩穩地接回了平底鍋裡。"
+    },
+    "turn": {
+      "en": "Simplified 妈 writes the horse 馬 as 马.",
+      "zh-Hans": "简化字“妈”把右边的“馬”写成了“马”。",
+      "zh-Hant": "簡化字則把右邊的「馬」寫得更簡單。"
+    },
+    "closer": {
+      "en": "A woman 女 with a horse 马 just for the sound: that's 妈 (媽), as in 妈妈, Mom!",
+      "zh-Hans": "女字旁配上读音“马”，这就是妈妈的“妈”！",
+      "zh-Hant": "女字旁配上讀音「馬」，這就是媽媽的「媽」！"
+    }
+  },
+  "journey": [],
+  "origin": {
+    "type": "phono-semantic",
+    "parts": [
+      { "char": "女", "role": "meaning", "gloss": { "en": "woman", "zh-Hans": "女子", "zh-Hant": "女子" } },
+      { "char": "馬", "role": "sound" }
+    ]
+  },
+  "status": "draft",
+  "sources": [
+    { "title": "Wiktionary: 妈", "url": "https://en.wiktionary.org/wiki/%E5%A6%88" },
+    { "title": "Wiktionary: 媽", "url": "https://en.wiktionary.org/wiki/%E5%AA%BD" }
+  ]
+}

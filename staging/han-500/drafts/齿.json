@@ -1,0 +1,36 @@
+{
+  "id": "齿",
+  "text": { "Hans": "齿", "Hant": "齒" },
+  "readings": { "pinyin": "chǐ" },
+  "meaning": { "en": "tooth", "zh-Hans": "牙齿", "zh-Hant": "牙齒" },
+  "fact": {
+    "en": "齿 (齒) means tooth. Look for 止 on top: it was added for its sound.",
+    "zh-Hans": "“齿”就是牙齿。看看上面的“止”：它是后来加上去表示读音的。",
+    "zh-Hant": "「齒」就是牙齒。看看上面的「止」：它是後來加上去表示讀音的。"
+  },
+  "story": {
+    "topic": { "en": "The Wobbly Front Tooth", "zh-Hans": "摇摇晃晃的门牙", "zh-Hant": "搖搖晃晃的門牙" },
+    "hook": {
+      "en": "Wiggle, wobble! Your front tooth is loose, and you can't stop poking it with your tongue.",
+      "zh-Hans": "摇啊摇，晃啊晃！你的门牙松了，你忍不住一直用舌头去顶它。",
+      "zh-Hant": "搖啊搖，晃啊晃！你的門牙鬆了，你忍不住一直用舌頭去頂它。"
+    },
+    "early": {
+      "en": "The oldest 齒 is a picture of a mouth crowded with teeth.",
+      "zh-Hans": "最早的“齿”画的是一张挤满了牙齿的嘴。",
+      "zh-Hant": "最早的「齒」畫的是一張擠滿了牙齒的嘴。"
+    },
+    "closer": {
+      "en": "A mouth full of teeth with 止 on top: that is 齿 (齒), as in 牙齿!",
+      "zh-Hans": "满嘴的牙齿，上面加个“止”：这就是牙齿的“齿”！",
+      "zh-Hant": "滿嘴的牙齒，上面加個「止」：這就是牙齒的「齒」！"
+    }
+  },
+  "journey": "default",
+  "origin": { "type": "pictogram" },
+  "status": "draft",
+  "sources": [
+    { "title": "Wiktionary: 齿", "url": "https://en.wiktionary.org/wiki/%E9%BD%BF" },
+    { "title": "Wiktionary: 齒", "url": "https://en.wiktionary.org/wiki/%E9%BD%92" }
+  ]
+}

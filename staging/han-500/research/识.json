@@ -1,0 +1,33 @@
+{
+ "id": "识",
+ "s": "识",
+ "t": "識",
+ "forms": {
+  "s": "识",
+  "alt": "𧨺,𧬣,𧥾"
+ },
+ "pinyin": [
+  "zhì"
+ ],
+ "glyph_origin": "Phono-semantic compound (形聲): semantic 言 (“say”) + phonetic 戠.",
+ "s_page_origin": "Simplified from 識 (言 → 讠 and 戠 → 只). / Simplified from 䛊 (言 → 讠).",
+ "shuowen": [],
+ "senses": [
+  "to know; to realise; to be aware",
+  "(Cantonese, Hakka, dialectal Wu) to recognise; to be familiar with; …",
+  "[zhì] (obsolete in standard Chinese) to put a mark"
+ ],
+ "sources": [
+  {
+   "title": "Wiktionary: 识",
+   "url": "https://en.wiktionary.org/wiki/%E8%AF%86",
+   "rev": 89686277
+  },
+  {
+   "title": "Wiktionary: 識",
+   "url": "https://en.wiktionary.org/wiki/%E8%AD%98",
+   "rev": 92201787
+  }
+ ],
+ "note": "glyph_origin is from the traditional page 識; s_page_origin explains the simplified 识."
+}

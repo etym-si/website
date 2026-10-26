@@ -1,0 +1,31 @@
+{
+ "id": "后-後",
+ "s": "后",
+ "t": "後",
+ "forms": {
+  "s": "后"
+ },
+ "pinyin": [
+  "hòu"
+ ],
+ "glyph_origin": "In oracle bone script, ideogrammic compound (會意): 幺 (“thread”) + 夊 (“foot”) – a foot bound by a rope, thus lagging behind. The component 彳 was added afterwards to emphasize this action. Note that the simplified form 后 is also a traditional character on its own, with a different meaning.",
+ "s_page_origin": "Multiple theories exist regarding its primary sense: • One traditional view (e.g., Shuowen) interprets it as a reversed form of 司 (“to manage; to command”), depicting a person issuing decrees from within (symbolized by 口 (“mouth”)), with the original meaning of \"sovereign; ruler\" (such as the Xia dynasty rulers). However, this view is considered questionable in contemporary paleography. • Another theory (e.g., Wang Guowei) posits a phonetic and semantic connection with 毓 (“to give birth”). Wang argued that the sense of \"monarch\" extended from the notion of 繼嗣 (\"continuing the lineage\"). Crucially, while the character 毓 graphically depicts a woman giving birth (a head-down delivery), the oracle bone form of 后 does not share this visual depiction; this connection is just phonological and etymological, rather than a direct graphic evolution. • Recent epigraphic studies suggest that oracle bone forms of 后 and 司 were largely interchangeable, often functioning as 司 in sacrificial contexts rather than representing 后. See also the ongoing debate regarding 后母戊鼎.",
+ "shuowen": [],
+ "senses": [
+  "[hòu] behind; rear; back",
+  "[hòu] later; after; afterwards"
+ ],
+ "sources": [
+  {
+   "title": "Wiktionary: 后",
+   "url": "https://en.wiktionary.org/wiki/%E5%90%8E",
+   "rev": 93736856
+  },
+  {
+   "title": "Wiktionary: 後",
+   "url": "https://en.wiktionary.org/wiki/%E5%BE%8C",
+   "rev": 92541771
+  }
+ ],
+ "note": "Composite id: 后 also writes other words; this sign is the 後 sense. glyph_origin is from the 後 page; s_page_origin is the 后 page's own text."
+}

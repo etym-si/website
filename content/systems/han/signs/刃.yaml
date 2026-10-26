@@ -1,0 +1,19 @@
+id: 刃
+text: { Hans: 刃, Hant: 刃 }
+readings: { pinyin: rèn }
+meaning: { en: 'blade, edge', zh-Hans: 刀刃, zh-Hant: 刀刃 }
+fact:
+  en: '刃 is a knife, 刀, with an extra dot that points to the sharp edge: the blade!'
+  zh-Hans: “刃”就是“刀”加上一个点，这个点指着最锋利的地方：刀刃！
+  zh-Hant: 「刃」就是「刀」加上一個點，這個點指著最鋒利的地方：刀刃！
+story:
+  topic: { en: "Careful, It's Sharp!", zh-Hans: 小心，很锋利！, zh-Hant: 小心，很鋒利！ }
+  hook: { en: 'Careful! Mom slides the knife through a crisp apple, keeping her fingers far from the sharp edge.', zh-Hans: 小心！妈妈用刀切开脆脆的苹果，手指离锋利的刀刃远远的。, zh-Hant: 小心！媽媽用刀切開脆脆的蘋果，手指離鋒利的刀刃遠遠的。 }
+  early: { en: "The oldest 刃 is a knife with a little mark right on its blade, as if to say: 'This part is sharp!'", zh-Hans: 最早的“刃”是一把刀，刀口上有一个小记号，好像在说：“这里很锋利！”, zh-Hant: 最早的「刃」是一把刀，刀口上有一個小記號，好像在說：「這裡很鋒利！」 }
+  closer: { en: "A knife 刀 plus one dot that says 'sharp here': that is 刃, the blade!", zh-Hans: “刀”加上一个提醒“这里锋利”的点：这就是刀刃的“刃”！, zh-Hant: 「刀」加上一個提醒「這裡鋒利」的點：這就是刀刃的「刃」！ }
+journey: default
+origin:
+  type: ideogram
+status: draft
+sources:
+  - { title: 'Wiktionary: 刃', url: 'https://en.wiktionary.org/wiki/%E5%88%83' }

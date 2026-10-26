@@ -1,0 +1,28 @@
+{
+  "id": "高",
+  "text": { "Hans": "高", "Hant": "高" },
+  "readings": { "pinyin": "gāo" },
+  "meaning": { "en": "tall, high", "zh-Hans": "高楼", "zh-Hant": "高樓" },
+  "fact": {
+    "en": "高 is a picture of a tall building. Compare it with 京, another tall building!",
+    "zh-Hans": "“高”画的是一座高高的建筑。和“京”比一比，它也是一座高楼！",
+    "zh-Hant": "「高」畫的是一座高高的建築。和「京」比一比，它也是一座高樓！"
+  },
+  "story": {
+    "topic": { "en": "Up to the 30th Floor", "zh-Hans": "电梯升到三十楼", "zh-Hant": "電梯升到三十樓" },
+    "hook": {
+      "en": "Ding! The elevator whooshes up to the 30th floor, and the cars below look like tiny toys.",
+      "zh-Hans": "叮！电梯一下子升到三十楼，楼下的汽车看起来就像小玩具。",
+      "zh-Hant": "叮！電梯一下子升到三十樓，樓下的汽車看起來就像小玩具。"
+    },
+    "closer": {
+      "en": "A building reaching for the clouds: that is 高, tall — as in 高楼!",
+      "zh-Hans": "伸向云朵的高楼：这就是高楼的“高”！",
+      "zh-Hant": "伸向雲朵的高樓：這就是高樓的「高」！"
+    }
+  },
+  "journey": "default",
+  "origin": { "type": "pictogram" },
+  "status": "draft",
+  "sources": [ { "title": "Wiktionary: 高", "url": "https://en.wiktionary.org/wiki/%E9%AB%98" } ]
+}

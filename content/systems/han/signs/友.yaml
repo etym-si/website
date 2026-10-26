@@ -1,0 +1,18 @@
+id: 友
+text: { Hans: 友, Hant: 友 }
+readings: { pinyin: yǒu }
+meaning: { en: friend, zh-Hans: 好友, zh-Hant: 好友 }
+fact:
+  en: 友 is made of two 又, two hands. An old dictionary says two hands together mean friendship; others think both 又 were there for the sound.
+  zh-Hans: “友”由两个“又”（手）组成。一本古老的字典说，两只手在一起就是友谊；也有人认为，两个“又”都是用来表示读音的。
+  zh-Hant: 「友」由兩個「又」（手）組成。一本古老的字典說，兩隻手在一起就是友誼；也有人認為，兩個「又」都是用來表示讀音的。
+story:
+  topic: { en: The Secret Handshake, zh-Hans: 好朋友的握手礼, zh-Hant: 好朋友的握手禮 }
+  hook: { en: 'Clap, bump, wiggle! Mei and Tess do the secret best-friend handshake that only the two of them know.', zh-Hans: 拍一拍，碰一碰，再扭一扭！小美和苔丝做起了只有她们俩才会的好朋友握手礼。, zh-Hant: 拍一拍，碰一碰，再扭一扭！小美和苔絲做起了只有她們倆才會的好朋友握手禮。 }
+  closer: { en: "Two hands side by side, just like two good friends: that's 友!", zh-Hans: 两只手并在一起，就像一对好朋友——这就是“友”！, zh-Hant: 兩隻手並在一起，就像一對好朋友——這就是「友」！ }
+journey: default
+origin:
+  type: uncertain
+status: draft
+sources:
+  - { title: 'Wiktionary: 友', url: 'https://en.wiktionary.org/wiki/%E5%8F%8B' }

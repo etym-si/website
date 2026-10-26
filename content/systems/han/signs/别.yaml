@@ -1,0 +1,23 @@
+id: 别
+text: { Hans: 别, Hant: 別 }
+readings: { pinyin: bié }
+meaning: { en: 'to part, to separate', zh-Hans: 告别, zh-Hant: 告別 }
+fact:
+  en: '別 is 冎 (bone) with a knife 刂: cutting meat away from the bone, to separate.'
+  zh-Hans: 繁体字“別”是“冎”（骨头）加上刀“刂”：用刀把肉和骨头分开。
+  zh-Hant: 「別」是「冎」（骨頭）加上刀「刂」：用刀把肉和骨頭分開。
+story:
+  topic: { en: Goodbye at the Station, zh-Hans: 车站告别, zh-Hant: 車站告別 }
+  hook: { en: 'Bye-bye! Waving from the train window, Ana says goodbye to her cousins until next summer.', zh-Hans: 再见啦！安娜从火车窗口挥着手，和表哥表姐告别，约好明年夏天再见。, zh-Hant: 再見囉！安娜從火車窗口揮著手，和表哥表姊告別，約好明年夏天再見。 }
+  turn: { en: 'Simplified 别 swaps the left part for 另, which looks almost the same.', zh-Hans: 简体字“别”把左边换成了长得很像的“另”。, zh-Hant: 簡體字「别」把左邊換成了長得很像的「另」。 }
+  closer: { en: "A knife that separates: that's 别 (別), to part and say goodbye!", zh-Hans: 一把刀把东西分开——这就是告别的“别”！, zh-Hant: 一把刀把東西分開——這就是告別的「別」！ }
+journey: default
+origin:
+  type: compound-ideogram
+  parts:
+    - { char: 冎, role: meaning, gloss: { en: bone, zh-Hans: 骨头, zh-Hant: 骨頭 } }
+    - { char: 刂, role: meaning, gloss: { en: knife, zh-Hans: 刀子, zh-Hant: 刀子 } }
+status: draft
+sources:
+  - { title: 'Wiktionary: 别', url: 'https://en.wiktionary.org/wiki/%E5%88%AB' }
+  - { title: 'Wiktionary: 別', url: 'https://en.wiktionary.org/wiki/%E5%88%A5' }

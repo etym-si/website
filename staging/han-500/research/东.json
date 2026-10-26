@@ -1,0 +1,34 @@
+{
+ "id": "东",
+ "s": "东",
+ "t": "東",
+ "forms": {
+  "s": "东",
+  "alt": "柬"
+ },
+ "pinyin": [
+  "dōng"
+ ],
+ "glyph_origin": "Pictogram (象形): a pictogram of a full 橐 (“bag”) tied at both ends. It is the original form of 重: forms with a human figure gave rise to 重, while forms without it gave rise to 東. Interpreted in the Shuowen Jiezi as an ideogrammic compound (會意) the sun (日) rising behind a tree (木). According to Allan (1991) p. 47-50, the character represents the Fu Sang tree. However, the original form is rather different, hence any interpretation tied to a tree is most likely a folk etymology. See the top component of 曹 in the original version. See also 柬, 熏, 西 and 鹵/卤.",
+ "s_page_origin": "From cursive script of 東; compare 車 → 车.",
+ "shuowen": [
+  "Interpreted in the Shuowen Jiezi as an ideogrammic compound (會意) the sun (日) rising behind a tree (木)."
+ ],
+ "senses": [
+  "[dōng] east",
+  "[dōng] host"
+ ],
+ "sources": [
+  {
+   "title": "Wiktionary: 东",
+   "url": "https://en.wiktionary.org/wiki/%E4%B8%9C",
+   "rev": 89772777
+  },
+  {
+   "title": "Wiktionary: 東",
+   "url": "https://en.wiktionary.org/wiki/%E6%9D%B1",
+   "rev": 93776654
+  }
+ ],
+ "note": "glyph_origin is from the traditional page 東; s_page_origin explains the simplified 东."
+}

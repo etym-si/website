@@ -1,0 +1,31 @@
+{
+ "id": "宫",
+ "s": "宫",
+ "t": "宮",
+ "forms": {
+  "s": "宫"
+ },
+ "pinyin": [
+  "gōng"
+ ],
+ "glyph_origin": "Ideogrammic compound (會意): 宀 + 呂.",
+ "s_page_origin": "",
+ "shuowen": [],
+ "senses": [
+  "[gōng] (archaic) house; mansion; dwelling",
+  "[gōng] (architecture) palace"
+ ],
+ "sources": [
+  {
+   "title": "Wiktionary: 宫",
+   "url": "https://en.wiktionary.org/wiki/%E5%AE%AB",
+   "rev": 93447932
+  },
+  {
+   "title": "Wiktionary: 宮",
+   "url": "https://en.wiktionary.org/wiki/%E5%AE%AE",
+   "rev": 91915066
+  }
+ ],
+ "note": "glyph_origin is from the traditional page 宮; s_page_origin explains the simplified 宫."
+}

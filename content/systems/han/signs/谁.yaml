@@ -1,0 +1,23 @@
+id: 谁
+text: { Hans: 谁, Hant: 誰 }
+readings: { pinyin: shéi }
+meaning: { en: who, zh-Hans: 是谁, zh-Hant: 是誰 }
+fact:
+  en: 谁 (誰) has 言, speaking, for the meaning and 隹 for the sound.
+  zh-Hans: “谁”由表示说话的“讠”（言）和表示读音的“隹”组成。
+  zh-Hant: 「誰」由表示說話的「言」和表示讀音的「隹」組成。
+story:
+  topic: { en: Who's Knocking?, zh-Hans: 是谁在敲？, zh-Hant: 是誰在敲？ }
+  hook: { en: "Tap, tap, tap, who's there? A girl peeks out the window and spots a woodpecker drumming on the old tree.", zh-Hans: 笃，笃，笃，是谁呀？小女孩往窗外一看，原来是一只啄木鸟在老树上敲个不停。, zh-Hant: 篤，篤，篤，是誰呀？小女孩往窗外一看，原來是一隻啄木鳥在老樹上敲個不停。 }
+  turn: { en: Simplified 谁 shrinks 言 into the quick little 讠., zh-Hans: 简化字“谁”把“言”简化成了小小的“讠”。, zh-Hant: 簡化字則把左邊的「言」寫得更簡單。 }
+  closer: { en: "Speaking 言 plus 隹 for the sound: that's 谁 (誰), who?", zh-Hans: “讠”管意思，“隹”管读音，这就是“是谁”的“谁”！, zh-Hant: 「言」管意思，「隹」管讀音，這就是「是誰」的「誰」！ }
+journey: []
+origin:
+  type: phono-semantic
+  parts:
+    - { char: 言, role: meaning, gloss: { en: speak, zh-Hans: 说话, zh-Hant: 說話 } }
+    - { char: 隹, role: sound }
+status: draft
+sources:
+  - { title: 'Wiktionary: 谁', url: 'https://en.wiktionary.org/wiki/%E8%B0%81' }
+  - { title: 'Wiktionary: 誰', url: 'https://en.wiktionary.org/wiki/%E8%AA%B0' }

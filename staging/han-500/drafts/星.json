@@ -1,0 +1,39 @@
+{
+  "id": "星",
+  "text": { "Hans": "星", "Hant": "星" },
+  "readings": { "pinyin": "xīng" },
+  "meaning": { "en": "star", "zh-Hans": "星星", "zh-Hant": "星星" },
+  "fact": {
+    "en": "星 began as 晶, three twinkling stars. Later 生 was added for the sound.",
+    "zh-Hans": "“星”最早写作“晶”，是三颗闪闪发亮的星星。后来又加上了表示读音的“生”。",
+    "zh-Hant": "「星」最早寫作「晶」，是三顆閃閃發亮的星星。後來又加上了表示讀音的「生」。"
+  },
+  "story": {
+    "topic": { "en": "Counting the Stars", "zh-Hans": "数星星", "zh-Hant": "數星星" },
+    "hook": {
+      "en": "Twinkle, twinkle! Lying on a blanket in the backyard, Lucas tries to count every star in the sky.",
+      "zh-Hans": "一闪一闪亮晶晶！卢卡斯躺在后院的毯子上，想把天上的星星一颗一颗数清楚。",
+      "zh-Hant": "一閃一閃亮晶晶！盧卡斯躺在後院的毯子上，想把天上的星星一顆一顆數清楚。"
+    },
+    "turn": {
+      "en": "Then the three stars of 晶 were simplified into a single 日, so today 星 has 日 sitting on top of 生.",
+      "zh-Hans": "再后来，“晶”的三颗星星简化成了一个“日”，所以今天的“星”是“日”坐在“生”的上面。",
+      "zh-Hant": "再後來，「晶」的三顆星星簡化成了一個「日」，所以今天的「星」是「日」坐在「生」的上面。"
+    },
+    "closer": {
+      "en": "Three twinkles shrank to one 日, with 生 for the sound: that's 星, a star!",
+      "zh-Hans": "三颗星星变成了一个“日”，再加上表示读音的“生”——这就是星星的“星”！",
+      "zh-Hant": "三顆星星變成了一個「日」，再加上表示讀音的「生」——這就是星星的「星」！"
+    }
+  },
+  "journey": "default",
+  "origin": {
+    "type": "phono-semantic",
+    "parts": [
+      { "char": "晶", "role": "meaning", "gloss": { "en": "twinkling stars", "zh-Hans": "闪亮的星星", "zh-Hant": "閃亮的星星" } },
+      { "char": "生", "role": "sound" }
+    ]
+  },
+  "status": "draft",
+  "sources": [ { "title": "Wiktionary: 星", "url": "https://en.wiktionary.org/wiki/%E6%98%9F" } ]
+}

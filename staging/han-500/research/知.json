@@ -1,0 +1,26 @@
+{
+ "id": "知",
+ "s": "知",
+ "t": "知",
+ "forms": {
+  "alt": "𥎿,哉-Puxian Min vernacular reading"
+ },
+ "pinyin": [
+  "zhī",
+  "zhì"
+ ],
+ "glyph_origin": "Originally the same character as 智, used interchangeably. In oracle bone inscriptions, ideogrammic compound (會意): 大 (“adult”) + 口 (“mouth”) + 子 (“child”) – to transmit knowledge. In the Warring States period, 大 corrupted into 矢 and became a sound component. In Western Han script the component 子 started being dropped, arriving at the modern form.",
+ "s_page_origin": "",
+ "shuowen": [],
+ "senses": [
+  "[zhī] to know; to understand; to comprehend",
+  "[zhī] (obsolete in standard Chinese) to cause to know; to tell; to inform"
+ ],
+ "sources": [
+  {
+   "title": "Wiktionary: 知",
+   "url": "https://en.wiktionary.org/wiki/%E7%9F%A5",
+   "rev": 92162220
+  }
+ ]
+}

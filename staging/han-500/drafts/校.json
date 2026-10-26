@@ -1,0 +1,34 @@
+{
+  "id": "校",
+  "text": { "Hans": "校", "Hant": "校" },
+  "readings": { "pinyin": "xiào" },
+  "meaning": { "en": "school", "zh-Hans": "学校", "zh-Hant": "學校" },
+  "fact": {
+    "en": "校 has 木 (tree) on the left for the meaning and 交 on the right for the sound. Today it means school, as in 学校 (學校).",
+    "zh-Hans": "“校”左边的“木”表示意思，右边的“交”表示读音。今天它的意思是学校。",
+    "zh-Hant": "「校」左邊的「木」表示意思，右邊的「交」表示讀音。今天它的意思是學校。"
+  },
+  "story": {
+    "topic": { "en": "The First Day of School", "zh-Hans": "开学第一天", "zh-Hant": "開學第一天" },
+    "hook": {
+      "en": "With a brand-new backpack bouncing on her back, Lulu waves goodbye and walks through the big school gate.",
+      "zh-Hans": "背着崭新的书包，露露挥挥手，走进了学校的大门。",
+      "zh-Hant": "背著嶄新的書包，露露揮揮手，走進了學校的大門。"
+    },
+    "closer": {
+      "en": "Tree part on the left, 交 on the right: 校 is a school, full of new friends!",
+      "zh-Hans": "木字旁加上“交”，就是有好多新朋友的学校的“校”！",
+      "zh-Hant": "木字旁加上「交」，就是有好多新朋友的學校的「校」！"
+    }
+  },
+  "journey": "default",
+  "origin": {
+    "type": "phono-semantic",
+    "parts": [
+      { "char": "木", "role": "meaning", "gloss": { "en": "tree", "zh-Hans": "树木", "zh-Hant": "樹木" } },
+      { "char": "交", "role": "sound" }
+    ]
+  },
+  "status": "draft",
+  "sources": [ { "title": "Wiktionary: 校", "url": "https://en.wiktionary.org/wiki/%E6%A0%A1" } ]
+}

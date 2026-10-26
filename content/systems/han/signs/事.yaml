@@ -1,0 +1,22 @@
+id: 事
+text: { Hans: 事, Hant: 事 }
+readings: { pinyin: shì }
+meaning: { en: 'thing, matter; job', zh-Hans: 事情, zh-Hant: 事情 }
+fact:
+  en: '事 is a hand (又) holding 中, a flagpole with a drum: flag in hand, ready to do the job! Today it means a thing or a job, as in 事情.'
+  zh-Hans: “事”是一只手（又）握着“中”，也就是带鼓的旗杆：手里拿着旗子，准备做事！今天它表示事情、工作。
+  zh-Hant: 「事」是一隻手（又）握著「中」，也就是帶鼓的旗桿：手裡拿著旗子，準備做事！今天它表示事情、工作。
+story:
+  topic: { en: A Job for Everyone, zh-Hans: 人人有事做, zh-Hant: 人人有事做 }
+  hook: { en: 'Chore chart time! You water the plants, your brother feeds the goldfish, and everyone has a job.', zh-Hans: 看看家务表！你负责浇花，哥哥负责喂金鱼，每个人都有自己的事情做。, zh-Hant: 看看家事表！你負責澆花，哥哥負責餵金魚，每個人都有自己的事情做。 }
+  early: { en: 'The old 事 shows a hand, 又, gripping 中, a flagpole with a drum on it.', zh-Hans: 古老的“事”画的是一只手（又）紧紧握着“中”，一根带鼓的旗杆。, zh-Hant: 古老的「事」畫的是一隻手（又）緊緊握著「中」，一根帶鼓的旗桿。 }
+  closer: { en: "A hand holding up the flag, ready to work: that's 事, a job to do!", zh-Hans: 一只手举着旗杆，准备做事，这就是事情的“事”！, zh-Hant: 一隻手舉著旗桿，準備做事，這就是事情的「事」！ }
+journey: default
+origin:
+  type: compound-ideogram
+  parts:
+    - { char: 又, role: meaning, gloss: { en: hand, zh-Hans: 手, zh-Hant: 手 } }
+    - { char: 中, role: meaning, gloss: { en: flagpole with a drum, zh-Hans: 带鼓的旗杆, zh-Hant: 帶鼓的旗桿 } }
+status: draft
+sources:
+  - { title: 'Wiktionary: 事', url: 'https://en.wiktionary.org/wiki/%E4%BA%8B' }

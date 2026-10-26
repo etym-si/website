@@ -1,0 +1,32 @@
+{
+ "id": "热",
+ "s": "热",
+ "t": "熱",
+ "forms": {
+  "s": "热",
+  "alt": "𤍠,𰞖,𤉟,𤍽,…"
+ },
+ "pinyin": [
+  "rè"
+ ],
+ "glyph_origin": "Phono-semantic compound (形聲): phonetic 埶 + semantic 灬 (= 火) (“fire”).",
+ "s_page_origin": "Simplified from 熱 (埶 → 执).",
+ "shuowen": [],
+ "senses": [
+  "[rè] hot; heated; having a high temperature",
+  "[rè] hot (of the weather)"
+ ],
+ "sources": [
+  {
+   "title": "Wiktionary: 热",
+   "url": "https://en.wiktionary.org/wiki/%E7%83%AD",
+   "rev": 71914038
+  },
+  {
+   "title": "Wiktionary: 熱",
+   "url": "https://en.wiktionary.org/wiki/%E7%86%B1",
+   "rev": 93531972
+  }
+ ],
+ "note": "glyph_origin is from the traditional page 熱; s_page_origin explains the simplified 热."
+}

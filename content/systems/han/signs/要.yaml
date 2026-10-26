@@ -1,0 +1,20 @@
+id: 要
+text: { Hans: 要, Hant: 要 }
+readings: { pinyin: yào }
+meaning: { en: to want, zh-Hans: 想要, zh-Hant: 想要 }
+fact:
+  en: 要 began as a person with both hands pointing to the waist; its first meaning was waist, now written 腰. Today 要 means to want.
+  zh-Hans: “要”最早画的是一个人，两只手指着腰部；它最早的意思就是腰，现在写作“腰”。今天“要”的意思是想要。
+  zh-Hant: 「要」最早畫的是一個人，兩隻手指著腰部；它最早的意思就是腰，現在寫作「腰」。今天「要」的意思是想要。
+story:
+  topic: { en: Which Ice Cream Do You Want?, zh-Hans: 你要哪种冰淇淋？, zh-Hant: 你要哪種冰淇淋？ }
+  hook: { en: 'Strawberry, chocolate or mango? You lean over the ice-cream counter and point: I want that one!', zh-Hans: 草莓、巧克力还是芒果？你趴在冰淇淋柜台前，指着说：“我要这个！”, zh-Hant: 草莓、巧克力還是芒果？你趴在冰淇淋櫃檯前，指著說：「我要這個！」 }
+  early: { en: 'The old 要 is a person with two hands pointing to the waist, and a huge eye on top.', zh-Hans: 古老的“要”是一个两手指着腰部的人，最上面还有一只大眼睛。, zh-Hant: 古老的「要」是一個兩手指著腰部的人，最上面還有一隻大眼睛。 }
+  turn: { en: 'The person was later drawn as a woman, 女, the hands slowly moved upward, and the whole top part became 覀.', zh-Hans: 后来，这个人被画成了“女”，两只手慢慢往上移，整个上半部分最后变成了“覀”。, zh-Hant: 後來，這個人被畫成了「女」，兩隻手慢慢往上移，整個上半部分最後變成了「覀」。 }
+  closer: { en: "From a person pointing at the waist to I want that one: that's 要!", zh-Hans: 从指着腰的人，到“我要这个”，这就是想要的“要”！, zh-Hant: 從指著腰的人，到「我要這個」，這就是想要的「要」！ }
+journey: default
+origin:
+  type: pictogram
+status: draft
+sources:
+  - { title: 'Wiktionary: 要', url: 'https://en.wiktionary.org/wiki/%E8%A6%81' }

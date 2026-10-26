@@ -1,0 +1,19 @@
+id: 中
+text: { Hans: 中, Hant: 中 }
+readings: { pinyin: zhōng }
+meaning: { en: 'middle, center', zh-Hans: 中间, zh-Hant: 中間 }
+fact:
+  en: 中 is a flagpole, and the box in the middle is thought to be a drum. It stood at the center of a field to call people together.
+  zh-Hans: “中”画的是一根旗杆，中间的方框被认为是一面鼓。它立在场地的正中央，用来召集大家。
+  zh-Hant: 「中」畫的是一根旗桿，中間的方框被認為是一面鼓。它立在場地的正中央，用來召集大家。
+story:
+  topic: { en: Right in the Middle, zh-Hans: 正中靶心, zh-Hant: 正中靶心 }
+  hook: { en: 'Thwump! Your beanbag lands smack in the middle of the target, and your whole team cheers.', zh-Hans: 噗！你的沙包正好落在靶子的正中间，全队都欢呼起来。, zh-Hant: 噗！你的沙包正好落在靶子的正中間，全隊都歡呼起來。 }
+  early: { en: 'The oldest 中 is a tall flagpole, and the box in the middle has been read as a drum. Planted at the center of a field, it gathered people and showed which way the wind blew.', zh-Hans: 最古老的“中”是一根高高的旗杆，中间的方框被认为是一面鼓。它立在场地正中央，能召集大家，还能看出风往哪边吹。, zh-Hant: 最古老的「中」是一根高高的旗桿，中間的方框被認為是一面鼓。它立在場地正中央，能召集大家，還能看出風往哪邊吹。 }
+  closer: { en: "A line straight through the middle of a box: that's 中, the middle!", zh-Hans: 一竖正好穿过方框的中间，这就是中间的“中”！, zh-Hant: 一豎正好穿過方框的中間，這就是中間的「中」！ }
+journey: default
+origin:
+  type: pictogram
+status: draft
+sources:
+  - { title: 'Wiktionary: 中', url: 'https://en.wiktionary.org/wiki/%E4%B8%AD' }

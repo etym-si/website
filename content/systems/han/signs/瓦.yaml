@@ -1,0 +1,19 @@
+id: 瓦
+text: { Hans: 瓦, Hant: 瓦 }
+readings: { pinyin: wǎ }
+meaning: { en: tile; pottery, zh-Hans: 瓦片, zh-Hant: 瓦片 }
+fact:
+  en: '瓦 is a picture of fired clay: a piece of pottery, or a roof tile. Rows of tiles keep the rain off old rooftops.'
+  zh-Hans: “瓦”画的是烧制过的陶器，也可以是屋顶上的瓦片。一排排瓦片能替老房子挡住雨水。
+  zh-Hant: 「瓦」畫的是燒製過的陶器，也可以是屋頂上的瓦片。一排排瓦片能替老房子擋住雨水。
+story:
+  topic: { en: Raindrops on the Tiled Roof, zh-Hans: 瓦片上的雨点, zh-Hant: 瓦片上的雨點 }
+  hook: { en: "Tip-tap, tip-tap! Rain dances on the curved roof tiles of Grandpa's old house.", zh-Hans: 滴答，滴答！雨点在爷爷老房子弯弯的瓦片上跳舞。, zh-Hant: 滴答，滴答！雨點在爺爺老房子彎彎的瓦片上跳舞。 }
+  early: { en: "瓦 shows earthenware: clay that has been fired until it's hard, like a pot or a tile.", zh-Hans: “瓦”画的是陶器：用泥土烧硬的东西，比如陶罐或瓦片。, zh-Hant: 「瓦」畫的是陶器：用泥土燒硬的東西，比如陶罐或瓦片。 }
+  closer: { en: "Baked clay that keeps a house dry: that's 瓦, a tile!", zh-Hans: 烧硬的泥土，帮房子挡住风雨，这就是瓦片的“瓦”！, zh-Hant: 燒硬的泥土，幫房子擋住風雨，這就是瓦片的「瓦」！ }
+journey: default
+origin:
+  type: pictogram
+status: draft
+sources:
+  - { title: 'Wiktionary: 瓦', url: 'https://en.wiktionary.org/wiki/%E7%93%A6' }

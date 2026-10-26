@@ -1,0 +1,42 @@
+{
+  "id": "们",
+  "text": { "Hans": "们", "Hant": "們" },
+  "readings": { "pinyin": "men" },
+  "meaning": { "en": "plural suffix for people (we, you all, they)", "zh-Hans": "我们", "zh-Hant": "我們" },
+  "fact": {
+    "en": "们 (們) has 亻, a person, for the meaning and 门 (門) for the sound. Put it after 我, 你 or 他, and one person becomes a whole group!",
+    "zh-Hans": "“们”由表示人的“亻”和表示读音的“门”组成。把它放在“我”“你”“他”后面，一个人就变成了一群人！",
+    "zh-Hant": "「們」由表示人的「亻」和表示讀音的「門」組成。把它放在「我」「你」「他」後面，一個人就變成了一群人！"
+  },
+  "story": {
+    "topic": { "en": "The Cousins' Sleepover", "zh-Hans": "大家一起过夜", "zh-Hant": "大家一起過夜" },
+    "hook": {
+      "en": "Squeeze in, everybody! Six cousins pile onto one big bed for a sleepover, giggling under one huge blanket.",
+      "zh-Hans": "大家挤一挤！六个表兄弟姐妹挤在一张大床上过夜，在一条大被子下面咯咯直笑。",
+      "zh-Hant": "大家擠一擠！六個表兄弟姊妹擠在一張大床上過夜，在一條大被子下面咯咯直笑。"
+    },
+    "turn": {
+      "en": "Simplified 们 writes the sound part 門 as 门.",
+      "zh-Hans": "简化字把表示读音的“門”写成了“门”。",
+      "zh-Hant": "簡化字則把表示讀音的「門」寫得更簡單。"
+    },
+    "closer": {
+      "en": "One person is 我, a whole group is 我们: that's 们 (們)!",
+      "zh-Hans": "一个人是“我”，一群人是“我们”，这就是我们的“们”！",
+      "zh-Hant": "一個人是「我」，一群人是「我們」，這就是我們的「們」！"
+    }
+  },
+  "journey": [],
+  "origin": {
+    "type": "phono-semantic",
+    "parts": [
+      { "char": "亻", "role": "meaning", "gloss": { "en": "person", "zh-Hans": "人", "zh-Hant": "人" } },
+      { "char": "門", "role": "sound" }
+    ]
+  },
+  "status": "draft",
+  "sources": [
+    { "title": "Wiktionary: 们", "url": "https://en.wiktionary.org/wiki/%E4%BB%AC" },
+    { "title": "Wiktionary: 們", "url": "https://en.wiktionary.org/wiki/%E5%80%91" }
+  ]
+}

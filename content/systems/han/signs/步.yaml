@@ -1,0 +1,21 @@
+id: 步
+text: { Hans: 步, Hant: 步 }
+readings: { pinyin: bù }
+meaning: { en: 'step, pace', zh-Hans: 散步, zh-Hant: 散步 }
+fact:
+  en: "步 is two feet 止, one in front of the other: one step, then the next! You can even find 步 hiding inside 歲, the traditional form of 岁 'year of age'."
+  zh-Hans: “步”是两只脚“止”，一只在前，一只在后：一步接一步！“岁”的繁体字“歲”里，也藏着一个“步”。
+  zh-Hant: 「步」是兩隻腳「止」，一隻在前，一隻在後：一步接一步！「歲」字裡，也藏著一個「步」。
+story:
+  topic: { en: Walking the Chalk Line, zh-Hans: 沿着粉笔线走, zh-Hant: 沿著粉筆線走 }
+  hook: { en: 'Heel, toe, heel, toe! A girl steps along a chalk line on the playground, arms out like a tightrope walker.', zh-Hans: 脚跟，脚尖，脚跟，脚尖！小女孩张开双臂，像走钢丝一样，沿着操场上的粉笔线一步一步往前走。, zh-Hant: 腳跟，腳尖，腳跟，腳尖！小女孩張開雙臂，像走鋼索一樣，沿著操場上的粉筆線一步一步往前走。 }
+  closer: { en: "One foot, then the other: that's 步, a step! The bottom looks like 少, but it's really the second foot.", zh-Hans: 一只脚，再一只脚，这就是散步的“步”！下面那部分像“少”，其实是第二只脚。, zh-Hant: 一隻腳，再一隻腳，這就是散步的「步」！下面那部分像「少」，其實是第二隻腳。 }
+journey: default
+origin:
+  type: compound-ideogram
+  parts:
+    - { char: 止, role: meaning, gloss: { en: foot, zh-Hans: 脚, zh-Hant: 腳 } }
+    - { char: 止, role: meaning, gloss: { en: foot (reversed), zh-Hans: 反过来的脚, zh-Hant: 反過來的腳 } }
+status: draft
+sources:
+  - { title: 'Wiktionary: 步', url: 'https://en.wiktionary.org/wiki/%E6%AD%A5' }

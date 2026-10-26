@@ -1,0 +1,33 @@
+{
+ "id": "纸",
+ "s": "纸",
+ "t": "紙",
+ "forms": {
+  "s": "纸",
+  "alt": "帋,𦀦,𥾬"
+ },
+ "pinyin": [
+  "zhǐ"
+ ],
+ "glyph_origin": "Phono-semantic compound (形聲): semantic 糸 (“silk”) + phonetic 氏.",
+ "s_page_origin": "",
+ "shuowen": [],
+ "senses": [
+  "[zhǐ] (countable) paper",
+  "[zhǐ] (chiefly, Cantonese) currency",
+  "a surname"
+ ],
+ "sources": [
+  {
+   "title": "Wiktionary: 纸",
+   "url": "https://en.wiktionary.org/wiki/%E7%BA%B8",
+   "rev": 87570496
+  },
+  {
+   "title": "Wiktionary: 紙",
+   "url": "https://en.wiktionary.org/wiki/%E7%B4%99",
+   "rev": 92201341
+  }
+ ],
+ "note": "glyph_origin is from the traditional page 紙; s_page_origin explains the simplified 纸."
+}

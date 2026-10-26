@@ -1,0 +1,31 @@
+{
+ "id": "黄",
+ "s": "黄",
+ "t": "黃",
+ "forms": {
+  "s": "黄"
+ },
+ "pinyin": [
+  "huáng"
+ ],
+ "glyph_origin": "In the oracle bone script, 黃 was written in two forms. One depicts a person 大 with a swollen abdomen, the more detailed forms adding a dot for the navel, representing an infirm person; it is read as 尪. With 火 added beneath, the character is used of the victim in the burning sacrifice. The other form also depicts a person, with a 田 shape or a simplified 口 at the abdomen; it has been proposed as the original form of 璜 (“semicircular jade”). In the oracle bone script it is used for the former Shang minister 黃尹, for the color \"yellow\", and in place names; or, with 夕 appended, it denotes dusk. In bronze inscriptions, and sporadically already in the late oracle bone script groups, 廿 is added above the 大, depicting a wide open mouth crying upward. Compare 堇.",
+ "s_page_origin": "",
+ "shuowen": [],
+ "senses": [
+  "[huáng] yellow",
+  "[huáng] yolk"
+ ],
+ "sources": [
+  {
+   "title": "Wiktionary: 黄",
+   "url": "https://en.wiktionary.org/wiki/%E9%BB%84",
+   "rev": 93443693
+  },
+  {
+   "title": "Wiktionary: 黃",
+   "url": "https://en.wiktionary.org/wiki/%E9%BB%83",
+   "rev": 93452287
+  }
+ ],
+ "note": "glyph_origin is from the traditional page 黃; s_page_origin explains the simplified 黄."
+}

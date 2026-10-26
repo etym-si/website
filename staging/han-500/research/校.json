@@ -1,0 +1,28 @@
+{
+ "id": "校",
+ "s": "校",
+ "t": "校",
+ "forms": {
+  "alt": "較-Cantonese \"to adjust\""
+ },
+ "pinyin": [
+  "xiào",
+  "jiào"
+ ],
+ "glyph_origin": "Phono-semantic compound (形聲): semantic 木 (“tree”) + phonetic 交.",
+ "s_page_origin": "",
+ "shuowen": [],
+ "senses": [
+  "[xiào] school; college; university",
+  "[xiào] a surname",
+  "[jiào] (obsolete in standard Chinese) fetters; shackles",
+  "[jiào] (historical) horsekeeper official"
+ ],
+ "sources": [
+  {
+   "title": "Wiktionary: 校",
+   "url": "https://en.wiktionary.org/wiki/%E6%A0%A1",
+   "rev": 90028528
+  }
+ ]
+}

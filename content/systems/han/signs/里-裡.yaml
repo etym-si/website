@@ -1,0 +1,22 @@
+id: 里-裡
+text: { Hans: 里, Hant: 裡 }
+readings: { pinyin: lǐ }
+meaning: { en: 'inside, in', zh-Hans: 里面, zh-Hant: 裡面 }
+fact:
+  en: 裡 (inside) puts 衤, clothes, next to 里, which gives the sound. Simplified Chinese writes just 里, a character made of 田 (field) and 土 (soil) that also means a measure of land and distance.
+  zh-Hans: 繁体字“裡”左边的“衤”表示衣服，右边的“里”表示读音。简体字只写“里”；“里”由“田”和“土”组成，也是量土地和路程的单位。
+  zh-Hant: 「裡」左邊的「衤」表示衣服，右邊的「里」表示讀音。簡體字只寫「里」；「里」由「田」和「土」組成，也是量土地和路程的單位。
+story:
+  topic: { en: Treasures in Grandpa's Pocket, zh-Hans: 爷爷口袋里的宝贝, zh-Hant: 爺爺口袋裡的寶貝 }
+  hook: { en: "What's inside Grandpa's coat pocket? A peppermint candy, an old bus ticket and a crumpled shopping list!", zh-Hans: 爷爷的外套口袋里有什么？一颗薄荷糖、一张旧车票，还有一张皱巴巴的购物清单！, zh-Hant: 爺爺的外套口袋裡有什麼？一顆薄荷糖、一張舊車票，還有一張皺巴巴的購物清單！ }
+  closer: { en: 'Clothes 衤 for the meaning, 里 for the sound: together they make 裡, inside!', zh-Hans: “衤”管意思，“里”管读音，合起来就是“裡”，简体字写作里面的“里”！, zh-Hant: 「衤」管意思，「里」管讀音，合起來就是裡面的「裡」！ }
+journey: []
+origin:
+  type: phono-semantic
+  parts:
+    - { char: 衤, role: meaning, gloss: { en: clothes, zh-Hans: 衣服, zh-Hant: 衣服 } }
+    - { char: 里, role: sound }
+status: draft
+sources:
+  - { title: 'Wiktionary: 里', url: 'https://en.wiktionary.org/wiki/%E9%87%8C' }
+  - { title: 'Wiktionary: 裡', url: 'https://en.wiktionary.org/wiki/%E8%A3%A1' }

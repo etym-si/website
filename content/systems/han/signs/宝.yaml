@@ -1,0 +1,24 @@
+id: 宝
+text: { Hans: 宝, Hant: 寶 }
+readings: { pinyin: bǎo }
+meaning: { en: treasure, zh-Hans: 宝贝, zh-Hant: 寶貝 }
+fact:
+  en: '宝 (寶) began as jade and a cowrie shell under a roof 宀: treasures kept safe inside a house!'
+  zh-Hans: “宝”最早是屋顶“宀”下面放着玉和贝壳：家里藏着的宝贝！
+  zh-Hant: 「寶」最早是屋頂「宀」下面放著玉和貝殼：家裡藏著的寶貝！
+story:
+  topic: { en: The Secret Treasure Box, zh-Hans: 秘密百宝箱, zh-Hant: 祕密百寶箱 }
+  hook: { en: "Shh, it's a secret! Under her bed, a girl keeps a little tin box with a glass marble, a pressed flower and a tiny key.", zh-Hans: 嘘，这是秘密！小女孩床底下藏着一个小铁盒，里面有玻璃弹珠、压干的小花，还有一把小钥匙。, zh-Hant: 噓，這是祕密！小女孩床底下藏著一個小鐵盒，裡面有玻璃彈珠、壓乾的小花，還有一把小鑰匙。 }
+  turn: { en: 'On bronze, 缶 was added to give the sound. Simplified 宝 keeps just the roof and the jade 玉.', zh-Hans: 到了金文，又加上了表示读音的“缶”。简化字“宝”只留下屋顶和一块“玉”。, zh-Hant: 到了金文，又加上了表示讀音的「缶」。簡化字只留下屋頂和一塊「玉」。 }
+  closer: { en: "Jade and shells safe under a roof: that's 宝 (寶), treasure!", zh-Hans: 屋子里藏着玉和贝壳，这就是宝贝的“宝”！, zh-Hant: 屋子裡藏著玉和貝殼，這就是寶貝的「寶」！ }
+journey: default
+origin:
+  type: compound-ideogram
+  parts:
+    - { char: 宀, role: meaning, gloss: { en: house, zh-Hans: 房子, zh-Hant: 房子 } }
+    - { char: 琡, role: meaning, gloss: { en: jade, zh-Hans: 玉, zh-Hant: 玉 } }
+    - { char: 貝, role: meaning, gloss: { en: cowrie shell, zh-Hans: 贝壳, zh-Hant: 貝殼 } }
+status: draft
+sources:
+  - { title: 'Wiktionary: 宝', url: 'https://en.wiktionary.org/wiki/%E5%AE%9D' }
+  - { title: 'Wiktionary: 寶', url: 'https://en.wiktionary.org/wiki/%E5%AF%B6' }

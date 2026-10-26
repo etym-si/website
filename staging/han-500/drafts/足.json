@@ -1,0 +1,28 @@
+{
+  "id": "足",
+  "text": { "Hans": "足", "Hant": "足" },
+  "readings": { "pinyin": "zú" },
+  "meaning": { "en": "foot", "zh-Hans": "足球", "zh-Hant": "足球" },
+  "fact": {
+    "en": "足 began as a picture of a leg. Today it means foot, as in 足球, football!",
+    "zh-Hans": "“足”最早画的是一条腿。今天它的意思是脚，比如足球的“足”！",
+    "zh-Hant": "「足」最早畫的是一條腿。今天它的意思是腳，比如足球的「足」！"
+  },
+  "story": {
+    "topic": { "en": "The Big Kick", "zh-Hans": "用力一脚", "zh-Hant": "用力一腳" },
+    "hook": {
+      "en": "Thump! You kick the ball as hard as you can, and it soars toward the goal.",
+      "zh-Hans": "嘭！你用力一脚把球踢出去，球直直地飞向球门。",
+      "zh-Hant": "砰！你用力一腳把球踢出去，球直直地飛向球門。"
+    },
+    "closer": {
+      "en": "From a picture of a leg to the kick in 足球: that is 足, foot!",
+      "zh-Hans": "从一条腿的图画，到踢足球的那一脚：这就是“足”！",
+      "zh-Hant": "從一條腿的圖畫，到踢足球的那一腳：這就是「足」！"
+    }
+  },
+  "journey": "default",
+  "origin": { "type": "pictogram" },
+  "status": "draft",
+  "sources": [ { "title": "Wiktionary: 足", "url": "https://en.wiktionary.org/wiki/%E8%B6%B3" } ]
+}

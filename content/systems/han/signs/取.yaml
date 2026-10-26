@@ -1,0 +1,21 @@
+id: 取
+text: { Hans: 取, Hant: 取 }
+readings: { pinyin: qǔ }
+meaning: { en: 'to take, to fetch', zh-Hans: 取东西, zh-Hant: 取東西 }
+fact:
+  en: "取 is a hand 又 taking hold of an ear 耳. It comes from an old hunters' custom: whoever caught an animal took its left ear."
+  zh-Hans: “取”是一只手“又”抓住一只耳朵“耳”。它来自古代猎人的一个规矩：谁捉到了猎物，就取下它的左耳朵。
+  zh-Hant: 「取」是一隻手「又」抓住一隻耳朵「耳」。它來自古代獵人的一個規矩：誰捉到了獵物，就取下牠的左耳朵。
+story:
+  topic: { en: The Claw Machine Prize, zh-Hans: 抓娃娃机的奖品, zh-Hant: 夾娃娃機的獎品 }
+  hook: { en: 'Whirr, clunk! The claw machine grabs a fluffy pink bunny by the ear, and Josh takes his prize home.', zh-Hans: 呜——咔！抓娃娃机的爪子夹住了一只粉红小兔的耳朵，乔乔开心地取走了奖品。, zh-Hant: 嗚——喀！夾娃娃機的爪子夾住了一隻粉紅小兔的耳朵，喬喬開心地取走了獎品。 }
+  closer: { en: "A hand 又 grabbing an ear 耳: that's 取, to take!", zh-Hans: 一只手抓住一只耳朵——这就是“取”！, zh-Hant: 一隻手抓住一隻耳朵——這就是「取」！ }
+journey: default
+origin:
+  type: compound-ideogram
+  parts:
+    - { char: 耳, role: meaning, gloss: { en: ear, zh-Hans: 耳朵, zh-Hant: 耳朵 } }
+    - { char: 又, role: meaning, gloss: { en: hand, zh-Hans: 手, zh-Hant: 手 } }
+status: draft
+sources:
+  - { title: 'Wiktionary: 取', url: 'https://en.wiktionary.org/wiki/%E5%8F%96' }

@@ -1,0 +1,20 @@
+id: 左
+text: { Hans: 左, Hant: 左 }
+readings: { pinyin: zuǒ }
+meaning: { en: left, zh-Hans: 左边, zh-Hant: 左邊 }
+fact:
+  en: 左 began as a picture of a left hand, the partner of 又, the right hand. Look for 工 tucked underneath!
+  zh-Hans: “左”最早画的是一只左手，是右手“又”的好搭档。找一找下面的“工”！
+  zh-Hant: 「左」最早畫的是一隻左手，是右手「又」的好搭檔。找一找下面的「工」！
+story:
+  topic: { en: Turn Left at the Big Tree, zh-Hans: 在大树那儿向左转, zh-Hant: 在大樹那裡向左轉 }
+  hook: { en: Turn left at the big tree! Lili studies the treasure map and points her left hand down the path., zh-Hans: 在大树那儿向左转！莉莉看着藏宝图，用左手指向小路。, zh-Hant: 在大樹那裡向左轉！莉莉看著藏寶圖，用左手指向小路。 }
+  early: { en: 'On oracle bones, 左 was simply a left hand, with no 工 at all.', zh-Hans: 在甲骨文里，“左”就只是一只左手，还没有“工”。, zh-Hant: 在甲骨文裡，「左」就只是一隻左手，還沒有「工」。 }
+  turn: { en: "Later bronze inscriptions added 工 (work). This new form first wrote the word 'to help', which is now written 佐.", zh-Hans: 晚期的金文又加上了“工”（工作）。这样写出来的字，原来表示“帮助”，这个意思现在写作“佐”。, zh-Hant: 晚期的金文又加上了「工」（工作）。這樣寫出來的字，原本表示「幫助」，這個意思現在寫作「佐」。 }
+  closer: { en: 'A left hand that picked up 工: that is 左, left!', zh-Hans: 一只左手，加上一个“工”：这就是左边的“左”！, zh-Hant: 一隻左手，加上一個「工」：這就是左邊的「左」！ }
+journey: default
+origin:
+  type: pictogram
+status: draft
+sources:
+  - { title: 'Wiktionary: 左', url: 'https://en.wiktionary.org/wiki/%E5%B7%A6' }

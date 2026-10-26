@@ -1,0 +1,22 @@
+id: 错
+text: { Hans: 错, Hant: 錯 }
+readings: { pinyin: cuò }
+meaning: { en: wrong; mistake, zh-Hans: 错误, zh-Hant: 錯誤 }
+fact:
+  en: 错 (錯) has 金 (metal) for the meaning and 昔 for the sound, and it was built to name a grindstone for grinding and sharpening. Today it means 'wrong'.
+  zh-Hans: “错”左边的“钅”表示金属，右边的“昔”表示读音，本来指磨东西用的磨石。现在它的意思是“不对”。
+  zh-Hant: 「錯」左邊的「金」表示金屬，右邊的「昔」表示讀音，本來指磨東西用的磨石。現在它的意思是「不對」。
+story:
+  topic: { en: 'Oops, a Mistake!', zh-Hans: 哎呀，算错了！, zh-Hant: 哎呀，算錯了！ }
+  hook: { en: 'Two plus two is five? Oops, Noah grabs his eraser and rubs out the wrong answer!', zh-Hans: 二加二等于五？哎呀，诺亚赶紧拿起橡皮，把错的答案擦掉！, zh-Hant: 二加二等於五？哎呀，諾亞趕緊拿起橡皮擦，把錯的答案擦掉！ }
+  closer: { en: "Everybody makes mistakes sometimes; that's 错 (錯), wrong. Fix it and try again!", zh-Hans: 谁都会有做错的时候，这就是错误的“错”。改正过来，再试一次！, zh-Hant: 誰都會有做錯的時候，這就是錯誤的「錯」。改正過來，再試一次！ }
+journey: []
+origin:
+  type: phono-semantic
+  parts:
+    - { char: 金, role: meaning, gloss: { en: metal, zh-Hans: 金属, zh-Hant: 金屬 } }
+    - { char: 昔, role: sound }
+status: draft
+sources:
+  - { title: 'Wiktionary: 错', url: 'https://en.wiktionary.org/wiki/%E9%94%99' }
+  - { title: 'Wiktionary: 錯', url: 'https://en.wiktionary.org/wiki/%E9%8C%AF' }

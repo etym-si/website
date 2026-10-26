@@ -1,0 +1,20 @@
+id: 八
+text: { Hans: 八, Hant: 八 }
+readings: { pinyin: bā }
+meaning: { en: eight, zh-Hans: 八月, zh-Hant: 八月 }
+fact:
+  en: '八 is two lines bending away from each other: it first meant to divide. It was borrowed to mean eight because the words sounded the same.'
+  zh-Hans: “八”是两笔向两边分开的线，最早的意思是分开。因为读音相同，它被借来表示数字八。
+  zh-Hant: 「八」是兩筆向兩邊分開的線，最早的意思是分開。因為讀音相同，它被借來表示數字八。
+story:
+  topic: { en: Eight Waving Arms, zh-Hans: 八条挥舞的腿, zh-Hant: 八隻揮舞的腳 }
+  hook: { en: 'Swish, swish! At the aquarium, an octopus waves all eight of its long arms at you.', zh-Hans: 嗖，嗖！水族馆里，一只章鱼朝你挥舞着八条长长的腿。, zh-Hant: 咻，咻！水族館裡，一隻章魚朝你揮舞著八隻長長的腳。 }
+  early: { en: 'The oldest 八 is two bent lines pulling apart, showing something being divided.', zh-Hans: 最古老的“八”是两笔弯弯的线向两边分开，表示把东西分开。, zh-Hant: 最古老的「八」是兩筆彎彎的線向兩邊分開，表示把東西分開。 }
+  turn: { en: 'Because the word for eight sounded the same, 八 was borrowed for it, and dividing went to 分 and 别.', zh-Hans: 因为“八”这个数和它读音一样，人们就借它来表示八；分开的意思交给了“分”和“别”。, zh-Hant: 因為「八」這個數和它讀音一樣，人們就借它來表示八；分開的意思交給了「分」和「別」。 }
+  closer: { en: "Two lines splitting apart, borrowed to count eight: that's 八!", zh-Hans: 两笔分开的线，被借来数到八，这就是“八”！, zh-Hant: 兩筆分開的線，被借來數到八，這就是「八」！ }
+journey: default
+origin:
+  type: loan
+status: draft
+sources:
+  - { title: 'Wiktionary: 八', url: 'https://en.wiktionary.org/wiki/%E5%85%AB' }

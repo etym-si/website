@@ -1,0 +1,35 @@
+{
+ "id": "谁",
+ "s": "谁",
+ "t": "誰",
+ "forms": {
+  "s": "谁",
+  "alt": "倽,上,仩"
+ },
+ "pinyin": [
+  "shéi",
+  "shuí"
+ ],
+ "glyph_origin": "Phono-semantic compound (形聲): semantic 言 (“speak”) + phonetic 隹.",
+ "s_page_origin": "Simplified from 誰 (訁 → 讠)",
+ "shuowen": [],
+ "senses": [
+  "[shéi] who; whom",
+  "[shéi] someone; anyone",
+  "(Southern Min) who; whom",
+  "(Hokkien, including, Xiamen Hokkien, Longyan Hokkien, Kinmen Hokkien, Magong Hokkien, Klang Hokkien, …"
+ ],
+ "sources": [
+  {
+   "title": "Wiktionary: 谁",
+   "url": "https://en.wiktionary.org/wiki/%E8%B0%81",
+   "rev": 87570819
+  },
+  {
+   "title": "Wiktionary: 誰",
+   "url": "https://en.wiktionary.org/wiki/%E8%AA%B0",
+   "rev": 93648369
+  }
+ ],
+ "note": "glyph_origin is from the traditional page 誰; s_page_origin explains the simplified 谁."
+}

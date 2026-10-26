@@ -1,0 +1,19 @@
+id: 三
+text: { Hans: 三, Hant: 三 }
+readings: { pinyin: sān }
+meaning: { en: three, zh-Hans: 三角形, zh-Hant: 三角形 }
+fact:
+  en: '三 is three flat lines stacked up: three strokes for three. It looks a bit like 丰, but the two are not related.'
+  zh-Hans: “三”是叠在一起的三道横画，三笔就表示三。它和“丰”有点像，但两个字没有关系。
+  zh-Hant: 「三」是疊在一起的三道橫畫，三筆就表示三。它和「丰」有點像，但兩個字沒有關係。
+story:
+  topic: { en: A Three-Leaf Clover, zh-Hans: 三叶草, zh-Hant: 三葉草 }
+  hook: { en: 'You find a clover in the grass and count its leaves: one, two, three.', zh-Hans: 你在草地上找到一株三叶草，数数叶子：一片、两片、三片。, zh-Hant: 你在草地上找到一株三葉草，數數葉子：一片、兩片、三片。 }
+  early: { en: 'The old 三 is three parallel strokes, 一 three times over.', zh-Hans: 古老的“三”是三道平行的横画，就是三个“一”。, zh-Hant: 古老的「三」是三道平行的橫畫，就是三個「一」。 }
+  closer: { en: "Three lines stacked up: that's 三, three!", zh-Hans: 三横叠在一起，就是“三”！, zh-Hant: 三橫疊在一起，就是「三」！ }
+journey: default
+origin:
+  type: ideogram
+status: draft
+sources:
+  - { title: 'Wiktionary: 三', url: 'https://en.wiktionary.org/wiki/%E4%B8%89' }

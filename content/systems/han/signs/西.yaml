@@ -1,0 +1,19 @@
+id: 西
+text: { Hans: 西, Hant: 西 }
+readings: { pinyin: xī }
+meaning: { en: west, zh-Hans: 西边, zh-Hant: 西邊 }
+fact:
+  en: Some of the oldest forms of 西 have been read as a bird's nest. Today it means west.
+  zh-Hans: “西”最古老的一些写法，有人认为画的是鸟窝。今天它表示西边。
+  zh-Hant: 「西」最古老的一些寫法，有人認為畫的是鳥窩。今天它表示西邊。
+story:
+  topic: { en: When the Sun Goes Down, zh-Hans: 太阳下山了, zh-Hant: 太陽下山了 }
+  hook: { en: The sun slides down behind the hills and paints the sky orange and pink as it sets in the west., zh-Hans: 太阳慢慢滑到山后面，把天空染成橙色和粉红色，它正从西边落下去。, zh-Hant: 太陽慢慢滑到山後面，把天空染成橘色和粉紅色，它正從西邊落下去。 }
+  early: { en: "On oracle bones, 西 comes in two kinds: open at the top or closed at the top. The open kind has been read as a bird's nest, and the closed kind is the one later scripts kept.", zh-Hans: 在甲骨文里，“西”有两种写法：顶上开口的和顶上封口的。开口的那种有人认为是鸟窝，而后来的文字留下的是封口的那种。, zh-Hant: 在甲骨文裡，「西」有兩種寫法：頂上開口的和頂上封口的。開口的那種有人認為是鳥窩，而後來的文字留下的是封口的那種。 }
+  closer: { en: "Where the sun says goodnight: that's 西, west!", zh-Hans: 太阳说晚安的地方，就是西边的“西”！, zh-Hant: 太陽說晚安的地方，就是西邊的「西」！ }
+journey: default
+origin:
+  type: uncertain
+status: draft
+sources:
+  - { title: 'Wiktionary: 西', url: 'https://en.wiktionary.org/wiki/%E8%A5%BF' }

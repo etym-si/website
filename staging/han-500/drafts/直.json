@@ -1,0 +1,39 @@
+{
+  "id": "直",
+  "text": { "Hans": "直", "Hant": "直" },
+  "readings": { "pinyin": "zhí" },
+  "meaning": { "en": "straight", "zh-Hans": "直线", "zh-Hant": "直線" },
+  "fact": {
+    "en": "直 means straight, like a line drawn with a ruler. Look closely and you'll find an eye 目 in the middle!",
+    "zh-Hans": "“直”的意思是笔直，就像用尺子画出来的线。仔细看，它的中间藏着一只“目”（眼睛）！",
+    "zh-Hant": "「直」的意思是筆直，就像用尺畫出來的線。仔細看，它的中間藏著一隻「目」（眼睛）！"
+  },
+  "story": {
+    "topic": { "en": "Stand Up Straight!", "zh-Hans": "站得笔直", "zh-Hant": "站得筆直" },
+    "hook": {
+      "en": "Stand up tall! Before the class photo, everyone stands up straight like a row of pencils.",
+      "zh-Hans": "站直啦！拍班级合照前，大家站得笔直，像一排铅笔。",
+      "zh-Hant": "站直囉！拍班級合照前，大家站得筆直，像一排鉛筆。"
+    },
+    "early": {
+      "en": "On oracle bones, 直 was an eye 目 with a line 丨. Nobody knows for sure what the line meant.",
+      "zh-Hans": "在甲骨文里，“直”是一只“目”加上一条线“丨”。这条线是什么意思，到现在还没有人能确定。",
+      "zh-Hant": "在甲骨文裡，「直」是一隻「目」加上一條線「丨」。這條線是什麼意思，到現在還沒有人能確定。"
+    },
+    "closer": {
+      "en": "Tall and true, with no bends at all: that's 直, straight!",
+      "zh-Hans": "不弯也不歪，这就是笔直的“直”！",
+      "zh-Hant": "不彎也不歪，這就是筆直的「直」！"
+    }
+  },
+  "journey": "default",
+  "origin": {
+    "type": "compound-ideogram",
+    "parts": [
+      { "char": "目", "role": "meaning", "gloss": { "en": "eye", "zh-Hans": "眼睛", "zh-Hant": "眼睛" } },
+      { "char": "丨", "role": "meaning", "gloss": { "en": "a line (meaning unclear)", "zh-Hans": "一条线（意思不明）", "zh-Hant": "一條線（意思不明）" } }
+    ]
+  },
+  "status": "draft",
+  "sources": [ { "title": "Wiktionary: 直", "url": "https://en.wiktionary.org/wiki/%E7%9B%B4" } ]
+}

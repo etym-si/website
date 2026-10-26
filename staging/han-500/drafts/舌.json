@@ -1,0 +1,38 @@
+{
+  "id": "舌",
+  "text": { "Hans": "舌", "Hant": "舌" },
+  "readings": { "pinyin": "shé" },
+  "meaning": { "en": "tongue", "zh-Hans": "舌头", "zh-Hant": "舌頭" },
+  "fact": {
+    "en": "舌 means tongue. It began as a snake's forked tongue flicking up out of a mouth, 口.",
+    "zh-Hans": "“舌”就是舌头。它最早画的是从嘴巴“口”里向上伸出来的分叉的蛇舌头。",
+    "zh-Hant": "「舌」就是舌頭。它最早畫的是從嘴巴「口」裡向上伸出來的分岔的蛇舌頭。"
+  },
+  "story": {
+    "topic": { "en": "Catching the Ice-Cream Drip", "zh-Hans": "接住冰淇淋的那一滴", "zh-Hant": "接住冰淇淋的那一滴" },
+    "hook": {
+      "en": "Slurp! You stick out your tongue to catch a drip of melting ice cream before it lands on your hand.",
+      "zh-Hans": "吸溜！冰淇淋快化了，你赶紧伸出舌头，接住快要滴到手上的那一滴。",
+      "zh-Hant": "吸溜！冰淇淋快融化了，你趕緊伸出舌頭，接住快要滴到手上的那一滴。"
+    },
+    "early": {
+      "en": "On oracle bones, 舌 is a mouth with a forked snake tongue poking up. Later versions added a line at the base, which often grew into a second fork.",
+      "zh-Hans": "在甲骨文里，“舌”是一张嘴，向上伸出分叉的蛇舌头。后来又在底部加了一横，常常变成了第二个分叉。",
+      "zh-Hant": "在甲骨文裡，「舌」是一張嘴，向上伸出分岔的蛇舌頭。後來又在底部加了一橫，常常變成了第二個分岔。"
+    },
+    "turn": {
+      "en": "Bronze writers set four little dots between the forks and the mouth. Later the dots disappeared, leaving today's 舌.",
+      "zh-Hans": "金文在分叉和嘴巴之间整整齐齐地加了四个小点。后来小点不见了，就成了今天的“舌”。",
+      "zh-Hant": "金文在分岔和嘴巴之間整整齊齊地加了四個小點。後來小點不見了，就成了今天的「舌」。"
+    },
+    "closer": {
+      "en": "A tongue flicking up out of 口, the mouth: that is 舌, as in 舌头!",
+      "zh-Hans": "从“口”里伸出来的舌头：这就是舌头的“舌”！",
+      "zh-Hant": "從「口」裡伸出來的舌頭：這就是舌頭的「舌」！"
+    }
+  },
+  "journey": "default",
+  "origin": { "type": "pictogram" },
+  "status": "draft",
+  "sources": [ { "title": "Wiktionary: 舌", "url": "https://en.wiktionary.org/wiki/%E8%88%8C" } ]
+}

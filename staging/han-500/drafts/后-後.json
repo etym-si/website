@@ -1,0 +1,42 @@
+{
+  "id": "后-後",
+  "text": { "Hans": "后", "Hant": "後" },
+  "readings": { "pinyin": "hòu" },
+  "meaning": { "en": "behind, after", "zh-Hans": "后面", "zh-Hant": "後面" },
+  "fact": {
+    "en": "后 (後) began as a foot 夊 tied with a thread 幺: someone lagging behind! The simplified form 后 is also an old character of its own, with another meaning.",
+    "zh-Hans": "“后”的繁体字“後”，最早是一只被绳子“幺”绑住的脚“夊”：走不快，只好落在后面！简化字写成“后”，而“后”本来也是一个独立的老字，意思不一样。",
+    "zh-Hant": "「後」最早是一隻被繩子「幺」綁住的腳「夊」：走不快，只好落在後面！簡化字寫成「后」，而「后」本來也是一個獨立的老字，意思不一樣。"
+  },
+  "story": {
+    "topic": { "en": "Lagging Behind", "zh-Hans": "落在后面", "zh-Hant": "落在後面" },
+    "hook": {
+      "en": "Wait for me! Little brother stops to pick up every pinecone and ends up far behind the family on the forest path.",
+      "zh-Hans": "等等我！弟弟一路停下来捡松果，结果远远落在了全家人后面。",
+      "zh-Hant": "等等我！弟弟一路停下來撿松果，結果遠遠落在了全家人後面。"
+    },
+    "turn": {
+      "en": "Later the walking part 彳 was added on the left to show the action even more clearly.",
+      "zh-Hans": "后来，左边又加上了表示走路的“彳”，让“走在后面”的意思更清楚。",
+      "zh-Hant": "後來，左邊又加上了表示走路的「彳」，讓「走在後面」的意思更清楚。"
+    },
+    "closer": {
+      "en": "A foot tied with a rope can only lag behind: that's 后 (後), behind or after!",
+      "zh-Hans": "被绳子绑住的脚只能落在后面，这就是后面的“后”！",
+      "zh-Hant": "被繩子綁住的腳只能落在後面，這就是後面的「後」！"
+    }
+  },
+  "journey": "default",
+  "origin": {
+    "type": "compound-ideogram",
+    "parts": [
+      { "char": "幺", "role": "meaning", "gloss": { "en": "thread", "zh-Hans": "细线", "zh-Hant": "細線" } },
+      { "char": "夊", "role": "meaning", "gloss": { "en": "foot", "zh-Hans": "脚", "zh-Hant": "腳" } }
+    ]
+  },
+  "status": "draft",
+  "sources": [
+    { "title": "Wiktionary: 后", "url": "https://en.wiktionary.org/wiki/%E5%90%8E" },
+    { "title": "Wiktionary: 後", "url": "https://en.wiktionary.org/wiki/%E5%BE%8C" }
+  ]
+}

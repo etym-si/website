@@ -1,0 +1,35 @@
+{
+ "id": "发-發",
+ "s": "发",
+ "t": "發",
+ "forms": {
+  "s": "发",
+  "alt": "𤼲,𤼵,彂,𭛁,…"
+ },
+ "pinyin": [
+  "fā",
+  "bō"
+ ],
+ "glyph_origin": "Pictogram (象形) — a bow firing an arrow. A hand (攴) was added later, forming 㢭. The hand further turned into the phonetic component 癹, leading to the current form as a phono-semantic compound (形聲).",
+ "s_page_origin": "Simplified from 發 and 髮 in the 1956 Chinese Character Simplification Scheme by the People's Republic of China.",
+ "shuowen": [],
+ "senses": [
+  "[fā] to shoot; to launch",
+  "[fā] to issue",
+  "[bō] (obsolete in standard Chinese) bent; crooked",
+  "(Cantonese) alternative form of 𢪎"
+ ],
+ "sources": [
+  {
+   "title": "Wiktionary: 发",
+   "url": "https://en.wiktionary.org/wiki/%E5%8F%91",
+   "rev": 83588941
+  },
+  {
+   "title": "Wiktionary: 發",
+   "url": "https://en.wiktionary.org/wiki/%E7%99%BC",
+   "rev": 93428758
+  }
+ ],
+ "note": "Composite id: 发 also writes other words; this sign is the 發 sense. glyph_origin is from the 發 page; s_page_origin is the 发 page's own text."
+}

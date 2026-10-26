@@ -1,0 +1,23 @@
+id: 帮
+text: { Hans: 帮, Hant: 幫 }
+readings: { pinyin: bāng }
+meaning: { en: to help, zh-Hans: 帮忙, zh-Hant: 幫忙 }
+fact:
+  en: 幫 has 帛 (silk) at the bottom for the meaning and 封 on top for the sound. It first meant the upper part of a shoe!
+  zh-Hans: 繁体字“幫”下面的“帛”（丝绸）表示意思，上面的“封”表示读音。它最早指的是鞋子的鞋帮！
+  zh-Hant: 「幫」下面的「帛」（絲綢）表示意思，上面的「封」表示讀音。它最早指的是鞋子的鞋幫！
+story:
+  topic: { en: Up You Get!, zh-Hans: 快站起来, zh-Hant: 快站起來 }
+  hook: { en: 'Oops! When Yaya trips on the playground, Zac runs over and helps her up.', zh-Hans: 哎哟！丫丫在操场上摔了一跤，小泽赶紧跑过去，帮她站了起来。, zh-Hant: 哎喲！丫丫在操場上摔了一跤，小澤趕緊跑過去，幫她站了起來。 }
+  turn: { en: 'Simplified 帮 comes from a variant with 邦 as the sound part, where 帛 was then swapped for 巾 (cloth).', zh-Hans: 简体字“帮”来自另一种写法：用“邦”表示读音，再把“帛”换成了“巾”。, zh-Hant: 簡體字「帮」來自另一種寫法：用「邦」表示讀音，再把「帛」換成了「巾」。 }
+  closer: { en: "From the side of a shoe to a helping hand: that's 帮 (幫), to help!", zh-Hans: 从鞋子的鞋帮，到伸出援手——这就是帮忙的“帮”！, zh-Hant: 從鞋子的鞋幫，到伸出援手——這就是幫忙的「幫」！ }
+journey: []
+origin:
+  type: phono-semantic
+  parts:
+    - { char: 帛, role: meaning, gloss: { en: silk, zh-Hans: 丝绸, zh-Hant: 絲綢 } }
+    - { char: 封, role: sound }
+status: draft
+sources:
+  - { title: 'Wiktionary: 帮', url: 'https://en.wiktionary.org/wiki/%E5%B8%AE' }
+  - { title: 'Wiktionary: 幫', url: 'https://en.wiktionary.org/wiki/%E5%B9%AB' }

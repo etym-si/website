@@ -1,0 +1,21 @@
+id: 飞
+text: { Hans: 飞, Hant: 飛 }
+readings: { pinyin: fēi }
+meaning: { en: to fly, zh-Hans: 飞机, zh-Hant: 飛機 }
+fact:
+  en: 飞 (飛) began as a picture of a bird flying upward. Simplified 飞 is a much shorter way to write 飛.
+  zh-Hans: “飞”最早画的是一只向上飞的鸟。简体的“飞”是“飛”的简化写法。
+  zh-Hant: 「飛」最早畫的是一隻向上飛的鳥。簡體字把它寫得簡短多了。
+story:
+  topic: { en: Pigeons Take Off, zh-Hans: 鸽子起飞了, zh-Hant: 鴿子起飛了 }
+  hook: { en: 'Flap, flap, flap! Pigeons burst up from the square and soar over the rooftops.', zh-Hans: 扑棱棱！一群鸽子从广场上飞起来，掠过屋顶飞向天空。, zh-Hant: 撲稜稜！一群鴿子從廣場上飛起來，掠過屋頂飛向天空。 }
+  early: { en: The oldest 飛 is a bird flying upward into the sky., zh-Hans: 最早的“飞”是一只向天上飞去的鸟。, zh-Hant: 最早的「飛」是一隻向天上飛去的鳥。 }
+  turn: { en: Traditional 飛 looks a bit like 升 with tassels., zh-Hans: 繁体的“飛”看起来有点像挂着穗子的“升”。, zh-Hant: 今天的「飛」看起來有點像掛著穗子的「升」。 }
+  closer: { en: 'A bird zooming upward: that is 飞 (飛), to fly — like a 飞机, an airplane!', zh-Hans: 一只向上冲的鸟：这就是“飞”——就像飞机一样！, zh-Hant: 一隻向上衝的鳥：這就是「飛」——就像飛機一樣！ }
+journey: default
+origin:
+  type: pictogram
+status: draft
+sources:
+  - { title: 'Wiktionary: 飞', url: 'https://en.wiktionary.org/wiki/%E9%A3%9E' }
+  - { title: 'Wiktionary: 飛', url: 'https://en.wiktionary.org/wiki/%E9%A3%9B' }

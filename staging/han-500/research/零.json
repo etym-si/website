@@ -1,0 +1,27 @@
+{
+ "id": "零",
+ "s": "零",
+ "t": "零",
+ "forms": {
+  "alt": "𠏡,𡈍,𤅫,𥥋,…"
+ },
+ "pinyin": [
+  "líng",
+  "lián"
+ ],
+ "glyph_origin": "Phono-semantic compound (形聲): semantic 雨 (“rain”) + phonetic 令. On the oracle bone script, only thick raindrops are depicted falling from the sky.",
+ "s_page_origin": "",
+ "shuowen": [],
+ "senses": [
+  "[líng] fragmentary; scattered",
+  "[líng] fraction; remainder",
+  "[lián] only used in 先零/先零, 西零/西零"
+ ],
+ "sources": [
+  {
+   "title": "Wiktionary: 零",
+   "url": "https://en.wiktionary.org/wiki/%E9%9B%B6",
+   "rev": 92509134
+  }
+ ]
+}

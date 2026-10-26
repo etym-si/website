@@ -1,0 +1,67 @@
+{
+  "id": "饱",
+  "text": {
+    "Hans": "饱",
+    "Hant": "飽"
+  },
+  "readings": {
+    "pinyin": "bǎo"
+  },
+  "meaning": {
+    "en": "full (after eating)",
+    "zh-Hans": "吃饱",
+    "zh-Hant": "吃飽"
+  },
+  "fact": {
+    "en": "饱 (飽) has 食 (food) on the left for meaning and 包 on the right for sound: 包 (bāo) sounds a lot like 饱 (bǎo).",
+    "zh-Hans": "“饱”左边的“饣”（食物）表示意思，右边的“包”表示读音，“包”（bāo）和“饱”（bǎo）读起来很像。",
+    "zh-Hant": "「飽」左邊的「食」（食物）表示意思，右邊的「包」表示讀音，「包」（bāo）和「飽」（bǎo）讀起來很像。"
+  },
+  "story": {
+    "topic": {
+      "en": "The Round Little Hamster",
+      "zh-Hans": "圆滚滚的小仓鼠",
+      "zh-Hant": "圓滾滾的小倉鼠"
+    },
+    "hook": {
+      "en": "Nom, nom! The hamster nibbles seed after seed, then flops into his bedding, too full to run on his wheel.",
+      "zh-Hans": "嚼嚼嚼！小仓鼠吃了一颗又一颗瓜子，最后往木屑里一躺，饱得连轮子都不想跑了。",
+      "zh-Hant": "嚼嚼嚼！小倉鼠吃了一顆又一顆瓜子，最後往木屑裡一躺，飽得連滾輪都不想跑了。"
+    },
+    "closer": {
+      "en": "Not one more bite fits: you're 饱 (飽), full!",
+      "zh-Hans": "再也吃不下一口了，这就是吃饱的“饱”！",
+      "zh-Hant": "再也吃不下一口了，這就是吃飽的「飽」！"
+    }
+  },
+  "journey": "default",
+  "origin": {
+    "type": "phono-semantic",
+    "parts": [
+      {
+        "char": "食",
+        "role": "meaning",
+        "gloss": {
+          "en": "food",
+          "zh-Hans": "食物",
+          "zh-Hant": "食物"
+        }
+      },
+      {
+        "char": "包",
+        "role": "sound"
+      }
+    ]
+  },
+  "status": "draft",
+  "sources": [
+    {
+      "title": "Wiktionary: 饱",
+      "url": "https://en.wiktionary.org/wiki/%E9%A5%B1"
+    },
+    {
+      "title": "Wiktionary: 飽",
+      "url": "https://en.wiktionary.org/wiki/%E9%A3%BD"
+    }
+  ]
+}

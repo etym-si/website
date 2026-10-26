@@ -1,0 +1,34 @@
+{
+  "id": "喜",
+  "text": { "Hans": "喜", "Hant": "喜" },
+  "readings": { "pinyin": "xǐ" },
+  "meaning": { "en": "happy; to like", "zh-Hans": "喜欢", "zh-Hant": "喜歡" },
+  "fact": {
+    "en": "喜 is made of a drum 壴 and a mouth 口. Write it twice side by side and you get a special character, 囍!",
+    "zh-Hans": "“喜”由鼓“壴”和嘴巴“口”组成。把两个“喜”并排写在一起，就成了一个特别的字：“囍”！",
+    "zh-Hant": "「喜」由鼓「壴」和嘴巴「口」組成。把兩個「喜」並排寫在一起，就成了一個特別的字：「囍」！"
+  },
+  "story": {
+    "topic": { "en": "The Surprise Party", "zh-Hans": "惊喜派对", "zh-Hant": "驚喜派對" },
+    "hook": {
+      "en": "Surprise! The lights flick on, and a girl finds all her friends waving balloons and shouting her name.",
+      "zh-Hans": "惊喜！灯一下子亮了，小女孩看见好朋友们都挥着气球，大声喊着她的名字。",
+      "zh-Hant": "驚喜！燈一下子亮了，小女孩看見好朋友們都揮著氣球，大聲喊著她的名字。"
+    },
+    "closer": {
+      "en": "A drum 壴 and a mouth 口 together make 喜, happy!",
+      "zh-Hans": "一面鼓加一张嘴，这就是喜欢的“喜”！",
+      "zh-Hant": "一面鼓加一張嘴，這就是喜歡的「喜」！"
+    }
+  },
+  "journey": "default",
+  "origin": {
+    "type": "compound-ideogram",
+    "parts": [
+      { "char": "壴", "role": "meaning", "gloss": { "en": "drum", "zh-Hans": "鼓", "zh-Hant": "鼓" } },
+      { "char": "口", "role": "meaning", "gloss": { "en": "mouth", "zh-Hans": "嘴巴", "zh-Hant": "嘴巴" } }
+    ]
+  },
+  "status": "draft",
+  "sources": [ { "title": "Wiktionary: 喜", "url": "https://en.wiktionary.org/wiki/%E5%96%9C" } ]
+}

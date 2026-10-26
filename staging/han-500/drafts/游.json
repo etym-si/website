@@ -1,0 +1,63 @@
+{
+  "id": "游",
+  "text": {
+    "Hans": "游",
+    "Hant": "游"
+  },
+  "readings": {
+    "pinyin": "yóu"
+  },
+  "meaning": {
+    "en": "to swim",
+    "zh-Hans": "游泳",
+    "zh-Hant": "游泳"
+  },
+  "fact": {
+    "en": "游 has 氵 (water) for meaning and 斿 for sound, and 斿 also hints at traveling, so it helps with the meaning too!",
+    "zh-Hans": "“游”左边的“氵”表示意思，右边的“斿”表示读音。“斿”还带着“出行”的意思，所以它也帮忙表示意思呢！",
+    "zh-Hant": "「游」左邊的「氵」表示意思，右邊的「斿」表示讀音。「斿」還帶著「出行」的意思，所以它也幫忙表示意思呢！"
+  },
+  "story": {
+    "topic": {
+      "en": "Froggy Goggles",
+      "zh-Hans": "青蛙泳镜",
+      "zh-Hant": "青蛙泳鏡"
+    },
+    "hook": {
+      "en": "Kick, kick, splash! Wearing her froggy goggles, Lanlan swims a whole length of the pool for the very first time.",
+      "zh-Hans": "踢腿，踢腿，哗啦！兰兰戴着青蛙泳镜，第一次游完了整个泳池。",
+      "zh-Hant": "踢腿，踢腿，嘩啦！蘭蘭戴著青蛙泳鏡，第一次游完了整個泳池。"
+    },
+    "closer": {
+      "en": "Water plus a part that hints at traveling: 游 means swimming, traveling through the water!",
+      "zh-Hans": "水加上带着“出行”意思的“斿”，在水里游来游去，就是游泳的“游”！",
+      "zh-Hant": "水加上帶著「出行」意思的「斿」，在水裡游來游去，就是游泳的「游」！"
+    }
+  },
+  "journey": "default",
+  "origin": {
+    "type": "phono-semantic",
+    "parts": [
+      {
+        "char": "水",
+        "role": "meaning",
+        "gloss": {
+          "en": "water",
+          "zh-Hans": "水",
+          "zh-Hant": "水"
+        }
+      },
+      {
+        "char": "斿",
+        "role": "sound"
+      }
+    ]
+  },
+  "status": "draft",
+  "sources": [
+    {
+      "title": "Wiktionary: 游",
+      "url": "https://en.wiktionary.org/wiki/%E6%B8%B8"
+    }
+  ]
+}

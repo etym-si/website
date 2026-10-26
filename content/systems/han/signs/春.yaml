@@ -1,0 +1,24 @@
+id: 春
+text: { Hans: 春, Hant: 春 }
+readings: { pinyin: chūn }
+meaning: { en: spring (season), zh-Hans: 春天, zh-Hant: 春天 }
+fact:
+  en: 春 was built from grass 艸 and the sun 日, which give the meaning, plus 屯, a swelling sprout, which gives the sound.
+  zh-Hans: “春”里有小草“艸”和太阳“日”，它们表示意思；还有表示读音的“屯”，意思是鼓鼓的嫩芽。
+  zh-Hant: 「春」裡有小草「艸」和太陽「日」，它們表示意思；還有表示讀音的「屯」，意思是鼓鼓的嫩芽。
+story:
+  topic: { en: Peach Blossom Breeze, zh-Hans: 桃花飘落, zh-Hant: 桃花飄落 }
+  hook: { en: 'Whoosh! A warm spring breeze shakes the peach tree, and pink petals swirl down on the kids playing below.', zh-Hans: 呼——！暖暖的春风吹过桃树，粉红色的花瓣纷纷飘落在树下玩耍的孩子身上。, zh-Hant: 呼——！暖暖的春風吹過桃樹，粉紅色的花瓣紛紛飄落在樹下玩耍的孩子身上。 }
+  early: { en: 'Some oracle-bone forms of 春 have only two parts: a plant with the sprout 屯, or the sun 日 with 屯.', zh-Hans: 有些甲骨文里的“春”只有两个部分：草木加上“屯”，或者太阳“日”加上“屯”。, zh-Hant: 有些甲骨文裡的「春」只有兩個部分：草木加上「屯」，或者太陽「日」加上「屯」。 }
+  turn: { en: 'Later, the grass and the sprout squeezed together into the top of 春, while the sun 日 stayed at the bottom.', zh-Hans: 后来，小草和“屯”挤在一起，变成了“春”的上半部分，太阳“日”还留在下面。, zh-Hant: 後來，小草和「屯」擠在一起，變成了「春」的上半部分，太陽「日」還留在下面。 }
+  closer: { en: 'Grass and sun for the meaning, the sprout 屯 for the sound: together they make 春, spring!', zh-Hans: 小草和太阳管意思，嫩芽“屯”管读音，合起来就是春天的“春”！, zh-Hant: 小草和太陽管意思，嫩芽「屯」管讀音，合起來就是春天的「春」！ }
+journey: default
+origin:
+  type: phono-semantic
+  parts:
+    - { char: 艸, role: meaning, gloss: { en: grass, zh-Hans: 小草, zh-Hant: 小草 } }
+    - { char: 屯, role: sound }
+    - { char: 日, role: meaning, gloss: { en: sun, zh-Hans: 太阳, zh-Hant: 太陽 } }
+status: draft
+sources:
+  - { title: 'Wiktionary: 春', url: 'https://en.wiktionary.org/wiki/%E6%98%A5' }

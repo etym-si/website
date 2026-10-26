@@ -1,0 +1,23 @@
+id: 鸭
+text: { Hans: 鸭, Hant: 鴨 }
+readings: { pinyin: yā }
+meaning: { en: duck, zh-Hans: 鸭子, zh-Hant: 鴨子 }
+fact:
+  en: 鸭 (鴨) has 甲 on the left for the sound and a bird, 鸟 (鳥), on the right for the meaning.
+  zh-Hans: “鸭”左边的“甲”表示读音，右边的“鸟”表示意思。
+  zh-Hant: 「鴨」左邊的「甲」表示讀音，右邊的「鳥」表示意思。
+story:
+  topic: { en: Ducks in the Rain, zh-Hans: 雨中的鸭子, zh-Hant: 雨中的鴨子 }
+  hook: { en: 'Quack, quack! While everyone else runs from the rain, the ducks waddle happily into the pond.', zh-Hans: 嘎嘎嘎！大家都在躲雨，鸭子们却摇摇摆摆，开开心心地走进了池塘。, zh-Hant: 呱呱呱！大家都在躲雨，鴨子們卻搖搖擺擺，開開心心地走進了池塘。 }
+  turn: { en: 'In simplified 鸭, the bird part 鳥 is written 鸟.', zh-Hans: 简化以后，右边的“鳥”也写成了简化的“鸟”。, zh-Hant: 簡化字把右邊的「鳥」寫成了「鸟」。 }
+  closer: { en: '甲 for the sound, a bird for the meaning: 鸭, the duck that loves rainy days!', zh-Hans: “甲”加上“鸟”，就是最爱下雨天的“鸭”！, zh-Hant: 「甲」加上「鳥」，就是最愛下雨天的「鴨」！ }
+journey: []
+origin:
+  type: phono-semantic
+  parts:
+    - { char: 鳥, role: meaning, gloss: { en: bird, zh-Hans: 鸟, zh-Hant: 鳥 } }
+    - { char: 甲, role: sound }
+status: draft
+sources:
+  - { title: 'Wiktionary: 鸭', url: 'https://en.wiktionary.org/wiki/%E9%B8%AD' }
+  - { title: 'Wiktionary: 鴨', url: 'https://en.wiktionary.org/wiki/%E9%B4%A8' }

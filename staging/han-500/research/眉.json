@@ -1,0 +1,25 @@
+{
+ "id": "眉",
+ "s": "眉",
+ "t": "眉",
+ "forms": {
+  "alt": "屓,𪎯,𪎭,𣅩"
+ },
+ "pinyin": [
+  "méi"
+ ],
+ "glyph_origin": "Pictogram (象形): 𠃜 + 目, hair above an eye. The component for hair became 𠃜 during the development into the seal and clerical scripts.",
+ "s_page_origin": "",
+ "shuowen": [],
+ "senses": [
+  "[méi] eyebrow",
+  "[méi] (by extension) upper margin of a book, leaflet, or page; header"
+ ],
+ "sources": [
+  {
+   "title": "Wiktionary: 眉",
+   "url": "https://en.wiktionary.org/wiki/%E7%9C%89",
+   "rev": 92943110
+  }
+ ]
+}

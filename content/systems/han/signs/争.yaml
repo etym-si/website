@@ -1,0 +1,20 @@
+id: 争
+text: { Hans: 争, Hant: 爭 }
+readings: { pinyin: zhēng }
+meaning: { en: 'to argue, to compete', zh-Hans: 争吵, zh-Hant: 爭吵 }
+fact:
+  en: '爭 is a picture of two hands on a plowshare, the blade of a plow. In 爭 you can still see the two hands on top: 爪 and 彐.'
+  zh-Hans: 繁体字“爭”画的是两只手握着犁头（犁上用来翻土的部分）。在“爭”的上面，还能看到这两只手：“爪”和“彐”。
+  zh-Hant: 「爭」畫的是兩隻手握著犁頭（犁上用來翻土的部分）。在「爭」的上面，還能看到這兩隻手：「爪」和「彐」。
+story:
+  topic: { en: Tug-of-War Over a Truck, zh-Hans: 抢玩具车, zh-Hant: 搶玩具車 }
+  hook: { en: 'Two little brothers grab the same toy truck, shouting “Mine, mine!” as they pull with all their might.', zh-Hans: 两兄弟抓着同一辆玩具卡车，一边喊“我的！我的！”，一边使劲往自己那边拉。, zh-Hant: 兩兄弟抓著同一輛玩具卡車，一邊喊「我的！我的！」，一邊使勁往自己那邊拉。 }
+  turn: { en: The plowshare turned into the long vertical hook running down the middle of the character., zh-Hans: 那个犁头，变成了字中间那一笔长长的竖钩。, zh-Hant: 那個犁頭，變成了字中間那一筆長長的豎鉤。 }
+  closer: { en: 'Shouting “Mine, mine” is 争 (爭), to argue, so how about taking turns instead?', zh-Hans: 抢着喊“我的！我的！”——这就是争吵的“争”。我们轮流玩，好不好？, zh-Hant: 搶著喊「我的！我的！」——這就是爭吵的「爭」。我們輪流玩，好不好？ }
+journey: default
+origin:
+  type: pictogram
+status: draft
+sources:
+  - { title: 'Wiktionary: 争', url: 'https://en.wiktionary.org/wiki/%E4%BA%89' }
+  - { title: 'Wiktionary: 爭', url: 'https://en.wiktionary.org/wiki/%E7%88%AD' }

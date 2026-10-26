@@ -1,0 +1,19 @@
+id: 二
+text: { Hans: 二, Hant: 二 }
+readings: { pinyin: èr }
+meaning: { en: two, zh-Hans: 第二, zh-Hant: 第二 }
+fact:
+  en: '二 is two flat lines, one above the other: 一 doubled for the number two.'
+  zh-Hans: “二”是上下两道横画，就是把“一”写两遍，表示数字二。
+  zh-Hant: 「二」是上下兩道橫畫，就是把「一」寫兩遍，表示數字二。
+story:
+  topic: { en: Hopscotch Square Two, zh-Hans: 跳进第二格, zh-Hant: 跳進第二格 }
+  hook: { en: 'Hop, hop! Your stone lands on square number two of the hopscotch grid, and off you jump.', zh-Hans: 跳，跳！你的小石子落在跳房子的第二格，你马上跳了过去。, zh-Hant: 跳，跳！你的小石子落在跳格子的第二格，你馬上跳了過去。 }
+  early: { en: 'The old 二 is two parallel strokes, just like 一 written twice.', zh-Hans: 古老的“二”是两道平行的横画，就像把“一”写了两次。, zh-Hant: 古老的「二」是兩道平行的橫畫，就像把「一」寫了兩次。 }
+  closer: { en: "One line, then another: that's 二, two!", zh-Hans: 一横再加一横，就是“二”！, zh-Hant: 一橫再加一橫，就是「二」！ }
+journey: default
+origin:
+  type: ideogram
+status: draft
+sources:
+  - { title: 'Wiktionary: 二', url: 'https://en.wiktionary.org/wiki/%E4%BA%8C' }

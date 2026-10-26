@@ -1,0 +1,21 @@
+id: 分
+text: { Hans: 分, Hant: 分 }
+readings: { pinyin: fēn }
+meaning: { en: 'to divide, to share', zh-Hans: 分享, zh-Hant: 分享 }
+fact:
+  en: '分 has 八, “to separate”, on top and 刀, a knife, below: cutting something apart.'
+  zh-Hans: “分”上面是“八”（分开），下面是“刀”（刀子）：用刀把东西分开。
+  zh-Hant: 「分」上面是「八」（分開），下面是「刀」（刀子）：用刀把東西分開。
+story:
+  topic: { en: Sharing a Mooncake, zh-Hans: 一起分月饼, zh-Hant: 一起分月餅 }
+  hook: { en: 'Mid-Autumn night! Mom cuts one big round mooncake into four little wedges, so everyone gets a taste.', zh-Hans: 中秋节的晚上，妈妈把一个大大的圆月饼切成四小块，每个人都吃到了。, zh-Hant: 中秋節的晚上，媽媽把一個大大的圓月餅切成四小塊，每個人都吃到了。 }
+  closer: { en: "A knife 刀 cutting things apart: that's 分, to divide and share!", zh-Hans: 用“刀”把东西切开，分成几份——这就是分享的“分”！, zh-Hant: 用「刀」把東西切開，分成幾份——這就是分享的「分」！ }
+journey: default
+origin:
+  type: compound-ideogram
+  parts:
+    - { char: 八, role: meaning, gloss: { en: to separate, zh-Hans: 分开, zh-Hant: 分開 } }
+    - { char: 刀, role: meaning, gloss: { en: knife, zh-Hans: 刀子, zh-Hant: 刀子 } }
+status: draft
+sources:
+  - { title: 'Wiktionary: 分', url: 'https://en.wiktionary.org/wiki/%E5%88%86' }

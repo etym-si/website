@@ -1,0 +1,47 @@
+{
+  "id": "兴",
+  "text": { "Hans": "兴", "Hant": "興" },
+  "readings": { "pinyin": "xìng" },
+  "meaning": { "en": "joy, interest (as in 高兴)", "zh-Hans": "高兴", "zh-Hant": "高興" },
+  "fact": {
+    "en": "兴 (興) shows four hands 舁 lifting something up together. One of its meanings is 'to rise'.",
+    "zh-Hans": "“兴”的繁体字“興”，画的是四只手“舁”一起把东西抬起来。它的一个意思就是“起来”。",
+    "zh-Hant": "「興」畫的是四隻手「舁」一起把東西抬起來。它的一個意思就是「起來」。"
+  },
+  "story": {
+    "topic": { "en": "The Parachute Game", "zh-Hans": "彩色降落伞游戏", "zh-Hant": "彩色降落傘遊戲" },
+    "hook": {
+      "en": "One, two, three, UP! Kids grab the edges of a colorful parachute, lift it high, then dive underneath, giggling.",
+      "zh-Hans": "一、二、三，起！孩子们抓住彩色降落伞的边，一起把它高高举起，再咯咯笑着钻到下面。",
+      "zh-Hant": "一、二、三，起！孩子們抓住彩色降落傘的邊，一起把它高高舉起，再咯咯笑著鑽到下面。"
+    },
+    "early": {
+      "en": "On oracle bones and early bronze, the thing being lifted had different shapes, like a tray, sometimes looking like 井.",
+      "zh-Hans": "在甲骨文和早期金文里，被抬起来的东西样子各不相同，比如一个托盘，有时还像个“井”字。",
+      "zh-Hant": "在甲骨文和早期金文裡，被抬起來的東西樣子各不相同，比如一個托盤，有時還像個「井」字。"
+    },
+    "turn": {
+      "en": "Later, the thing in the middle settled into the shape 同.",
+      "zh-Hans": "后来，中间那个东西慢慢固定写成了“同”。",
+      "zh-Hant": "後來，中間那個東西慢慢固定寫成了「同」。"
+    },
+    "closer": {
+      "en": "Four hands lifting something up high: that's 兴 (興), as in 高兴, happy!",
+      "zh-Hans": "四只手一起往上抬，这就是高兴的“兴”！",
+      "zh-Hant": "四隻手一起往上抬，這就是高興的「興」！"
+    }
+  },
+  "journey": "default",
+  "origin": {
+    "type": "compound-ideogram",
+    "parts": [
+      { "char": "舁", "role": "meaning", "gloss": { "en": "four hands lifting", "zh-Hans": "四只手", "zh-Hant": "四隻手" } },
+      { "char": "同", "role": "meaning", "gloss": { "en": "the lifted object", "zh-Hans": "被抬起的东西", "zh-Hant": "被抬起的東西" } }
+    ]
+  },
+  "status": "draft",
+  "sources": [
+    { "title": "Wiktionary: 兴", "url": "https://en.wiktionary.org/wiki/%E5%85%B4" },
+    { "title": "Wiktionary: 興", "url": "https://en.wiktionary.org/wiki/%E8%88%88" }
+  ]
+}

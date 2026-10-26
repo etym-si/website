@@ -1,0 +1,32 @@
+{
+ "id": "呢",
+ "s": "呢",
+ "t": "呢",
+ "forms": {
+  "alt": "吶,膩-Hokkien,逆-Hokkien"
+ },
+ "pinyin": [
+  "ne",
+  "ní",
+  "nǐ",
+  "nī"
+ ],
+ "glyph_origin": "Phono-semantic compound (形聲): semantic 口 (“mouth”) + phonetic 尼",
+ "s_page_origin": "",
+ "shuowen": [],
+ "senses": [
+  "[ne] Sentence-final particle indicating a reciprocal question; …",
+  "[ne] (Shanghainese Wu) Sentence-final particle expressing anger.",
+  "[ní] used in 呢喃",
+  "[ní] woollen cloth (for heavy clothing)",
+  "(Cantonese) this",
+  "(Cantonese) hey; Used to raise attention of the listener"
+ ],
+ "sources": [
+  {
+   "title": "Wiktionary: 呢",
+   "url": "https://en.wiktionary.org/wiki/%E5%91%A2",
+   "rev": 93138079
+  }
+ ]
+}

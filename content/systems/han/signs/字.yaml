@@ -1,0 +1,21 @@
+id: 字
+text: { Hans: 字, Hant: 字 }
+readings: { pinyin: zì }
+meaning: { en: written character, zh-Hans: 汉字, zh-Hant: 漢字 }
+fact:
+  en: '字 has a roof 宀 on top for the meaning and 子 (child) underneath for the sound. Say them aloud: 子 zǐ sounds almost like 字 zì!'
+  zh-Hans: “字”上面的“宀”是屋顶，表示意思；下面的“子”表示读音。念一念：“子”和“字”的读音是不是很像？
+  zh-Hant: 「字」上面的「宀」是屋頂，表示意思；下面的「子」表示讀音。唸一唸：「子」和「字」的讀音是不是很像？
+story:
+  topic: { en: Writing on a Foggy Window, zh-Hans: 雾窗上写字, zh-Hant: 霧窗上寫字 }
+  hook: { en: 'Squeak! On the foggy car window, Lin writes the character 大 with one finger, big and tall.', zh-Hans: 吱——！小林用手指在起雾的车窗上写了一个“大”字，又大又高。, zh-Hant: 吱——！小林用手指在起霧的車窗上寫了一個「大」字，又大又高。 }
+  closer: { en: "Roof 宀 on top, 子 for the sound: that's 字, a written character, just like the ones you're reading now!", zh-Hans: 上面是“宀”，下面是表示读音的“子”——这就是汉字的“字”，你现在读的就是字哦！, zh-Hant: 上面是「宀」，下面是表示讀音的「子」——這就是漢字的「字」，你現在讀的就是字喔！ }
+journey: default
+origin:
+  type: phono-semantic
+  parts:
+    - { char: 宀, role: meaning, gloss: { en: roof, zh-Hans: 屋顶, zh-Hant: 屋頂 } }
+    - { char: 子, role: sound }
+status: draft
+sources:
+  - { title: 'Wiktionary: 字', url: 'https://en.wiktionary.org/wiki/%E5%AD%97' }

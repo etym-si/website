@@ -1,0 +1,42 @@
+{
+  "id": "备",
+  "text": { "Hans": "备", "Hant": "備" },
+  "readings": { "pinyin": "bèi" },
+  "meaning": { "en": "to prepare; ready", "zh-Hans": "准备", "zh-Hant": "準備" },
+  "fact": {
+    "en": "備 (备) is a person (亻) carrying a quiver, a case for arrows. The quiver also gives the sound, and the whole picture means 'ready'.",
+    "zh-Hans": "繁体字里，左边是一个人（亻），右边是装箭的箭袋，箭袋同时表示读音。整个字的意思就是“准备好了”。",
+    "zh-Hant": "「備」左邊是一個人（亻），右邊是裝箭的箭袋，箭袋同時表示讀音。整個字的意思就是「準備好了」。"
+  },
+  "story": {
+    "topic": { "en": "Packing for Tomorrow", "zh-Hans": "为明天做准备", "zh-Hant": "為明天做準備" },
+    "hook": {
+      "en": "Pencils, books, water bottle: check, check, check! Coco packs her schoolbag the night before school.",
+      "zh-Hans": "铅笔、课本、水壶：一样，两样，三样！可可在上学前一天晚上就把书包整理好了。",
+      "zh-Hant": "鉛筆、課本、水壺：一樣，兩樣，三樣！可可在上學前一天晚上就把書包整理好了。"
+    },
+    "turn": {
+      "en": "Simplified 备 comes from 俻, another way of writing 備, with the person part 亻 dropped.",
+      "zh-Hans": "简化字“备”来自繁体字的另一种写法“俻”，去掉了左边的“亻”。",
+      "zh-Hant": "簡化字來自「備」的另一種寫法「俻」，去掉了左邊的「亻」。"
+    },
+    "closer": {
+      "en": "Like an archer with arrows on hand, Coco is all set: that's 备 (備), to prepare!",
+      "zh-Hans": "就像背好箭袋的弓箭手一样，可可全都准备好了，这就是准备的“备”！",
+      "zh-Hant": "就像背好箭袋的弓箭手一樣，可可全都準備好了，這就是準備的「備」！"
+    }
+  },
+  "journey": "default",
+  "origin": {
+    "type": "phono-semantic",
+    "parts": [
+      { "char": "亻", "role": "meaning", "gloss": { "en": "person", "zh-Hans": "人", "zh-Hant": "人" } },
+      { "char": "𤰈", "role": "sound" }
+    ]
+  },
+  "status": "draft",
+  "sources": [
+    { "title": "Wiktionary: 备", "url": "https://en.wiktionary.org/wiki/%E5%A4%87" },
+    { "title": "Wiktionary: 備", "url": "https://en.wiktionary.org/wiki/%E5%82%99" }
+  ]
+}

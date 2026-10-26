@@ -1,0 +1,38 @@
+{
+  "id": "美",
+  "text": { "Hans": "美", "Hant": "美" },
+  "readings": { "pinyin": "měi" },
+  "meaning": { "en": "beautiful", "zh-Hans": "美丽", "zh-Hant": "美麗" },
+  "fact": {
+    "en": "美 started as a person (大) wearing a headdress of feathers or ram's horns. It means beautiful.",
+    "zh-Hans": "“美”最早画的是一个人（大），头上戴着用羽毛或羊角做的头饰。它的意思是美丽。",
+    "zh-Hant": "「美」最早畫的是一個人（大），頭上戴著用羽毛或羊角做的頭飾。它的意思是美麗。"
+  },
+  "story": {
+    "topic": { "en": "Dressing Up for the Festival", "zh-Hans": "联欢会上的打扮", "zh-Hant": "同樂會上的打扮" },
+    "hook": {
+      "en": "Ta-da! For the school festival, you put on a crown of bright feathers and twirl in front of the mirror.",
+      "zh-Hans": "当当当！学校联欢会上，你戴上插满彩色羽毛的头冠，对着镜子转了一圈。",
+      "zh-Hant": "噹噹噹！學校同樂會上，你戴上插滿彩色羽毛的頭冠，對著鏡子轉了一圈。"
+    },
+    "early": {
+      "en": "The oldest 美 shows a person, 大, with a headdress of feathers or ram's horns on top.",
+      "zh-Hans": "最古老的“美”画的是一个人（大），头上戴着用羽毛或羊角做的头饰。",
+      "zh-Hant": "最古老的「美」畫的是一個人（大），頭上戴著用羽毛或羊角做的頭飾。"
+    },
+    "turn": {
+      "en": "Over time the headdress came to be written 羊, so today 美 is 羊 sitting on top of 大.",
+      "zh-Hans": "后来，头饰写成了“羊”，所以今天的“美”就是“羊”在上、“大”在下。",
+      "zh-Hant": "後來，頭飾寫成了「羊」，所以今天的「美」就是「羊」在上、「大」在下。"
+    },
+    "closer": {
+      "en": "A person wearing a splendid headdress: that's 美, beautiful!",
+      "zh-Hans": "戴着漂亮头饰的人，就是美丽的“美”！",
+      "zh-Hant": "戴著漂亮頭飾的人，就是美麗的「美」！"
+    }
+  },
+  "journey": "default",
+  "origin": { "type": "pictogram" },
+  "status": "draft",
+  "sources": [ { "title": "Wiktionary: 美", "url": "https://en.wiktionary.org/wiki/%E7%BE%8E" } ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "者",
+  "text": { "Hans": "者", "Hant": "者" },
+  "readings": { "pinyin": "zhě" },
+  "meaning": { "en": "one who; -er", "zh-Hans": "作者", "zh-Hant": "作者" },
+  "fact": {
+    "en": "者 was first a picture of sugarcane with dots around it and a smiling mouth below. It was later borrowed for its sound, and today it means a person who does something, as in 作者 (author).",
+    "zh-Hans": "“者”最早画的是一根甘蔗，周围有些小点，下面还有一张笑着的嘴。后来它被借用读音，今天表示做某件事的人，比如“作者”。",
+    "zh-Hant": "「者」最早畫的是一根甘蔗，周圍有些小點，下面還有一張笑著的嘴。後來它被借用讀音，今天表示做某件事的人，比如「作者」。"
+  },
+  "story": {
+    "topic": { "en": "Meet the Author!", "zh-Hans": "作者来啦！", "zh-Hant": "作者來囉！" },
+    "hook": {
+      "en": "Wow! The author of your favorite space book visits your class and signs your copy.",
+      "zh-Hans": "哇！你最喜欢的太空书的作者来到班上，还在你的书上签了名。",
+      "zh-Hant": "哇！你最喜歡的太空書的作者來到班上，還在你的書上簽了名。"
+    },
+    "early": {
+      "en": "The oldest 者 is a sugarcane plant with dots around it, maybe leaves or drops of sweet juice, above an open, smiling mouth.",
+      "zh-Hans": "最古老的“者”是一根甘蔗，周围的小点也许是叶子，也许是甜甜的汁水，下面是一张张开笑着的嘴。",
+      "zh-Hant": "最古老的「者」是一根甘蔗，周圍的小點也許是葉子，也許是甜甜的汁水，下面是一張張開笑著的嘴。"
+    },
+    "turn": {
+      "en": "Today its top looks like the top of 老 (old), but the two parts are not related.",
+      "zh-Hans": "今天它的上半部分很像“老”字的上面，但它们其实没有关系。",
+      "zh-Hant": "今天它的上半部分很像「老」字的上面，但它們其實沒有關係。"
+    },
+    "closer": {
+      "en": "Sweet sugarcane and a smiling mouth, borrowed to mean the one who does it: that's 者!",
+      "zh-Hans": "甜甜的甘蔗加一张笑嘻嘻的嘴，被借来表示“做事的人”，这就是作者的“者”！",
+      "zh-Hant": "甜甜的甘蔗加一張笑嘻嘻的嘴，被借來表示「做事的人」，這就是作者的「者」！"
+    }
+  },
+  "journey": "default",
+  "origin": { "type": "loan" },
+  "status": "draft",
+  "sources": [ { "title": "Wiktionary: 者", "url": "https://en.wiktionary.org/wiki/%E8%80%85" } ]
+}

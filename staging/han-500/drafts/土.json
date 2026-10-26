@@ -1,0 +1,33 @@
+{
+  "id": "土",
+  "text": { "Hans": "土", "Hant": "土" },
+  "readings": { "pinyin": "tǔ" },
+  "meaning": { "en": "earth, soil", "zh-Hans": "泥土", "zh-Hant": "泥土" },
+  "fact": {
+    "en": "土 began as a picture of a mound of earth. On oracle bones, it could also mean the god of the soil.",
+    "zh-Hans": "“土”最早画的是一堆土。在甲骨文里，它还可以指土地神。",
+    "zh-Hant": "「土」最早畫的是一堆土。在甲骨文裡，它還可以指土地神。"
+  },
+  "story": {
+    "topic": { "en": "The Mud-Pie Bakery", "zh-Hans": "泥巴饼小店", "zh-Hant": "泥巴餅小店" },
+    "hook": {
+      "en": "Pat, pat, squish! You press wet soil into a mud pie and decorate it with tiny pebbles.",
+      "zh-Hans": "拍一拍，压一压！你把湿湿的泥土拍成一个泥巴饼，再用小石子装饰一下。",
+      "zh-Hant": "拍一拍，壓一壓！你把濕濕的泥土拍成一個泥巴餅，再用小石子裝飾一下。"
+    },
+    "turn": {
+      "en": "Later, the mound got narrower and pointy at both ends, and its wide middle stretched into the flat stroke you see today.",
+      "zh-Hans": "后来，土堆变窄了，两头变尖，宽宽的中间部分变成了今天的一横。",
+      "zh-Hant": "後來，土堆變窄了，兩頭變尖，寬寬的中間部分變成了今天的一橫。"
+    },
+    "closer": {
+      "en": "A little mound of earth: that is 土, soil — perfect for mud pies!",
+      "zh-Hans": "一个小土堆：这就是泥土的“土”——做泥巴饼正合适！",
+      "zh-Hant": "一個小土堆：這就是泥土的「土」——做泥巴餅正合適！"
+    }
+  },
+  "journey": "default",
+  "origin": { "type": "pictogram" },
+  "status": "draft",
+  "sources": [ { "title": "Wiktionary: 土", "url": "https://en.wiktionary.org/wiki/%E5%9C%9F" } ]
+}

@@ -1,0 +1,19 @@
+id: 上
+text: { Hans: 上, Hant: 上 }
+readings: { pinyin: shàng }
+meaning: { en: 'up, above', zh-Hans: 上面, zh-Hant: 上面 }
+fact:
+  en: 上 means up. It is not a picture of a thing but a sign that points, and 下 (down) is its flipped partner.
+  zh-Hans: “上”的意思是上面。它不是画出来的东西，而是一个指方向的记号；“下”就是它倒过来的好伙伴。
+  zh-Hant: 「上」的意思是上面。它不是畫出來的東西，而是一個指方向的記號；「下」就是它倒過來的好夥伴。
+story:
+  topic: { en: Up to the Treehouse, zh-Hans: 爬上树屋, zh-Hant: 爬上樹屋 }
+  hook: { en: 'One rung at a time, Rosa climbs the wooden ladder up into her treehouse and waves from the very top.', zh-Hans: 一级、一级、又一级，罗莎顺着木梯爬上了树屋，在最上面开心地挥手。, zh-Hant: 一級、一級、又一級，羅莎順著木梯爬上了樹屋，在最上面開心地揮手。 }
+  early: { en: 'The oldest 上 had just two lines: a long curved line, with a short line sitting above it as if to say “up here!”', zh-Hans: 最早的“上”只有两笔：一条长长的弧线，上面加一条短线，好像在说：“在上面！”, zh-Hant: 最早的「上」只有兩筆：一條長長的弧線，上面加一條短線，好像在說：「在上面！」 }
+  closer: { en: "A short line above a long one points the way: that's 上, up!", zh-Hans: 长线上面加短线，指向上方——这就是“上”！, zh-Hant: 長線上面加短線，指向上方——這就是「上」！ }
+journey: default
+origin:
+  type: ideogram
+status: draft
+sources:
+  - { title: 'Wiktionary: 上', url: 'https://en.wiktionary.org/wiki/%E4%B8%8A' }

@@ -1,0 +1,37 @@
+{
+  "id": "条",
+  "text": { "Hans": "条", "Hant": "條" },
+  "readings": { "pinyin": "tiáo" },
+  "meaning": { "en": "strip; long thin piece", "zh-Hans": "面条", "zh-Hant": "麵條" },
+  "fact": {
+    "en": "條 (条) combines 攸 for the sound and 木 (tree) for the meaning, and it first meant a small branch.",
+    "zh-Hans": "“条”的繁体字由表示读音的“攸”和表示意思的“木”组成，原来指的是细细的小树枝。",
+    "zh-Hant": "「條」由表示讀音的「攸」和表示意思的「木」組成，原來指的是細細的小樹枝。"
+  },
+  "story": {
+    "topic": { "en": "Slurping Noodles", "zh-Hans": "吸溜吸溜吃面条", "zh-Hant": "唏哩呼嚕吃麵條" },
+    "hook": {
+      "en": "The longest noodle ever! It wiggles all the way from the bowl into Tiantian's mouth.",
+      "zh-Hans": "好长好长的面条！它从碗里一路扭进了天天的嘴巴。",
+      "zh-Hant": "好長好長的麵條！它從碗裡一路扭進了天天的嘴巴。"
+    },
+    "closer": {
+      "en": "From a skinny little branch to long, long noodles: 条 (條) is for long, thin things!",
+      "zh-Hans": "从细细的小树枝，到长长的面条，“条”说的都是细长的东西！",
+      "zh-Hant": "從細細的小樹枝，到長長的麵條，「條」說的都是細長的東西！"
+    }
+  },
+  "journey": [],
+  "origin": {
+    "type": "phono-semantic",
+    "parts": [
+      { "char": "木", "role": "meaning", "gloss": { "en": "tree", "zh-Hans": "树木", "zh-Hant": "樹木" } },
+      { "char": "攸", "role": "sound" }
+    ]
+  },
+  "status": "draft",
+  "sources": [
+    { "title": "Wiktionary: 条", "url": "https://en.wiktionary.org/wiki/%E6%9D%A1" },
+    { "title": "Wiktionary: 條", "url": "https://en.wiktionary.org/wiki/%E6%A2%9D" }
+  ]
+}

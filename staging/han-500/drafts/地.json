@@ -1,0 +1,39 @@
+{
+  "id": "地",
+  "text": { "Hans": "地", "Hant": "地" },
+  "readings": { "pinyin": "dì" },
+  "meaning": { "en": "earth; ground", "zh-Hans": "大地", "zh-Hant": "大地" },
+  "fact": {
+    "en": "地 has 土 (earth) on the left for the meaning and 也 on the right for the sound.",
+    "zh-Hans": "“地”左边的“土”表示泥土，是意思部分；右边的“也”表示读音。",
+    "zh-Hant": "「地」左邊的「土」表示泥土，是意思部分；右邊的「也」表示讀音。"
+  },
+  "story": {
+    "topic": { "en": "The Earthworm Says Hello", "zh-Hans": "蚯蚓出来打招呼", "zh-Hant": "蚯蚓出來打招呼" },
+    "hook": {
+      "en": "Look down! After the rain, a pink earthworm pokes its head out of the soft brown ground.",
+      "zh-Hans": "低头看！下过雨后，一条粉红色的蚯蚓从松软的泥地里探出了头。",
+      "zh-Hant": "低頭看！下過雨後，一條粉紅色的蚯蚓從鬆軟的泥地裡探出了頭。"
+    },
+    "early": {
+      "en": "One of the earliest ways to write it packed in a hill, a pig and a mound of earth!",
+      "zh-Hans": "它最早的写法之一，里面能看到一座山坡、一头猪和一堆土！",
+      "zh-Hant": "它最早的寫法之一，裡面能看到一座山坡、一頭豬和一堆土！"
+    },
+    "closer": {
+      "en": "Earth part 土 plus 也: that's 地, the ground beneath our feet!",
+      "zh-Hans": "“土”加上“也”，就是我们脚下大地的“地”！",
+      "zh-Hant": "「土」加上「也」，就是我們腳下大地的「地」！"
+    }
+  },
+  "journey": "default",
+  "origin": {
+    "type": "phono-semantic",
+    "parts": [
+      { "char": "土", "role": "meaning", "gloss": { "en": "earth", "zh-Hans": "泥土", "zh-Hant": "泥土" } },
+      { "char": "也", "role": "sound" }
+    ]
+  },
+  "status": "draft",
+  "sources": [ { "title": "Wiktionary: 地", "url": "https://en.wiktionary.org/wiki/%E5%9C%B0" } ]
+}

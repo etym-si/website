@@ -1,0 +1,23 @@
+id: 汉
+text: { Hans: 汉, Hant: 漢 }
+readings: { pinyin: hàn }
+meaning: { en: Chinese (Han), zh-Hans: 汉字, zh-Hant: 漢字 }
+fact:
+  en: '汉 (漢) has 氵 (water) for meaning and a sound part on the right. In old bronze inscriptions, it already names a river: the Han River.'
+  zh-Hans: “汉”左边的“氵”表示意思，右边原来是表示读音的部分。在古老的金文里，它就已经是一条河的名字——汉水。
+  zh-Hant: 「漢」左邊的「氵」表示意思，右邊是表示讀音的部分。在古老的金文裡，它就已經是一條河的名字——漢水。
+story:
+  topic: { en: A Sign I Can Read!, zh-Hans: 我认得这块招牌！, zh-Hant: 我認得這塊招牌！ }
+  hook: { en: 'On a trip to a faraway city, Yueyue spots a shop sign in Chinese characters and proudly reads it out loud.', zh-Hans: 到很远的城市旅行时，月月看见一块写着汉字的招牌，骄傲地大声念了出来。, zh-Hant: 到很遠的城市旅行時，月月看見一塊寫著漢字的招牌，驕傲地大聲念了出來。 }
+  turn: { en: 'When 漢 was simplified, its whole busy right side was replaced by a single 又.', zh-Hans: 简化的时候，“漢”右边复杂的部分只用一个“又”来代替。, zh-Hant: 簡化的時候，「漢」右邊複雜的部分只用一個「又」來代替。 }
+  closer: { en: "汉 (漢) can name a river on Earth or the river of stars in the sky, and it's the 汉 in 汉字, Chinese characters!", zh-Hans: “汉”可以是地上的汉水，也可以指天上的银河，还是汉字的“汉”！, zh-Hant: 「漢」可以是地上的漢水，也可以指天上的銀河，還是漢字的「漢」！ }
+journey: default
+origin:
+  type: phono-semantic
+  parts:
+    - { char: 水, role: meaning, gloss: { en: water, zh-Hans: 水, zh-Hant: 水 } }
+    - { char: 熯, role: sound }
+status: draft
+sources:
+  - { title: 'Wiktionary: 汉', url: 'https://en.wiktionary.org/wiki/%E6%B1%89' }
+  - { title: 'Wiktionary: 漢', url: 'https://en.wiktionary.org/wiki/%E6%BC%A2' }

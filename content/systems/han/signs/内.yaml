@@ -1,0 +1,23 @@
+id: 内
+text: { Hans: 内, Hant: 內 }
+readings: { pinyin: nèi }
+meaning: { en: 'inside, inner', zh-Hans: 室内, zh-Hant: 室內 }
+fact:
+  en: 内 (內) puts 入, “to go in”, under 冂, which stands for a house, or some say the edge of a town. Go in, and you're inside!
+  zh-Hans: “内”是把“入”（进去）放在“冂”的下面；“冂”表示房子，也有人说是城外的一圈地方。走进去，就到了里面！
+  zh-Hant: 「內」是把「入」（進去）放在「冂」的下面；「冂」表示房子，也有人說是城外的一圈地方。走進去，就到了裡面！
+story:
+  topic: { en: Bring the Laundry In!, zh-Hans: 快把衣服收进屋, zh-Hant: 快把衣服收進屋 }
+  hook: { en: 'Plip, plop, here comes the rain! Ben and Mom grab the laundry off the line and carry it into the house.', zh-Hans: 滴答，滴答——下雨啦！小斌和妈妈赶紧收下晾着的衣服，抱进屋里。, zh-Hant: 滴答，滴答——下雨啦！小斌和媽媽趕緊收下晾著的衣服，抱進屋裡。 }
+  turn: { en: 'Look closely: in 內 the part inside is 入, but simplified 内 writes it like 人.', zh-Hans: 仔细看：繁体字“內”里面是“入”，简体字“内”里面却写成了“人”。, zh-Hant: 仔細看：「內」裡面是「入」，簡體字「内」裡面卻寫成了「人」。 }
+  closer: { en: "Go in (入) under 冂, and you're inside: that's 内 (內)!", zh-Hans: 从“冂”下面走“入”，就到了里面——这就是“内”！, zh-Hant: 從「冂」下面走「入」，就到了裡面——這就是「內」！ }
+journey: [{ stage: oracle, form: 内 }, { stage: bronze, form: 内 }, { stage: seal, form: 内 }, { stage: clerical, form: 内 }]
+origin:
+  type: compound-ideogram
+  parts:
+    - { char: 冂, role: meaning, gloss: { en: 'house, edge of a town', zh-Hans: 房子、城郊, zh-Hant: 房子、城郊 } }
+    - { char: 入, role: meaning, gloss: { en: to enter, zh-Hans: 进入, zh-Hant: 進入 } }
+status: draft
+sources:
+  - { title: 'Wiktionary: 内', url: 'https://en.wiktionary.org/wiki/%E5%86%85' }
+  - { title: 'Wiktionary: 內', url: 'https://en.wiktionary.org/wiki/%E5%85%A7' }

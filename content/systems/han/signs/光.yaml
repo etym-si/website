@@ -1,0 +1,21 @@
+id: 光
+text: { Hans: 光, Hant: 光 }
+readings: { pinyin: guāng }
+meaning: { en: light, zh-Hans: 阳光, zh-Hant: 陽光 }
+fact:
+  en: "光 is fire 火 above a kneeling person 卩: a bright flame shining over someone's head!"
+  zh-Hans: “光”是跪着的人“卩”头上有一团火“火”：火光在头顶上亮闪闪的！
+  zh-Hant: 「光」是跪著的人「卩」頭上有一團火「火」：火光在頭頂上亮閃閃的！
+story:
+  topic: { en: Morning Light Through the Curtains, zh-Hans: 透过窗帘的晨光, zh-Hant: 透過窗簾的晨光 }
+  hook: { en: Rise and shine! Golden sunlight spills through the curtains and paints bright stripes across the bedroom floor., zh-Hans: 起床啦！金色的阳光从窗帘缝里洒进来，在卧室地板上画出一道道亮亮的条纹。, zh-Hant: 起床囉！金色的陽光從窗簾縫裡灑進來，在臥室地板上畫出一道道亮亮的條紋。 }
+  closer: { en: "A flame shining over a person's head: that's 光, light!", zh-Hans: 人的头上火光闪闪，这就是阳光的“光”！, zh-Hant: 人的頭上火光閃閃，這就是陽光的「光」！ }
+journey: default
+origin:
+  type: compound-ideogram
+  parts:
+    - { char: 火, role: meaning, gloss: { en: fire, zh-Hans: 火, zh-Hant: 火 } }
+    - { char: 卩, role: meaning, gloss: { en: kneeling person, zh-Hans: 跪着的人, zh-Hant: 跪著的人 } }
+status: draft
+sources:
+  - { title: 'Wiktionary: 光', url: 'https://en.wiktionary.org/wiki/%E5%85%89' }

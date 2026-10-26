@@ -1,0 +1,11 @@
+{
+  "name": "han-500-tools",
+  "private": true,
+  "version": "0.0.1",
+  "description": "Staging tools for the han-500 content expansion (converter + checker)",
+  "type": "module",
+  "devDependencies": {
+    "hanzi-writer-data": "2.0.1",
+    "yaml": "2.9.1"
+  }
+}

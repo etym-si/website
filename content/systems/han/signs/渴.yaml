@@ -1,0 +1,21 @@
+id: 渴
+text: { Hans: 渴, Hant: 渴 }
+readings: { pinyin: kě }
+meaning: { en: thirsty, zh-Hans: 口渴, zh-Hant: 口渴 }
+fact:
+  en: 渴 has 氵 (water) for meaning and 曷 for sound. It first described water drying up, and today it means thirsty.
+  zh-Hans: “渴”左边的“氵”表示意思，右边的“曷”表示读音。它原来指水干涸了，现在表示口渴。
+  zh-Hant: 「渴」左邊的「氵」表示意思，右邊的「曷」表示讀音。它原來指水乾涸了，現在表示口渴。
+story:
+  topic: { en: A Throat as Dry as Sand, zh-Hans: 喉咙干得像沙子, zh-Hant: 喉嚨乾得像沙子 }
+  hook: { en: "Phew! After building a sandcastle under the hot sun, Fangfang's throat feels as dry as the sand.", zh-Hans: 呼！在大太阳底下堆完沙堡，芳芳觉得喉咙干得像沙子一样。, zh-Hant: 呼！在大太陽底下堆完沙堡，芳芳覺得喉嚨乾得像沙子一樣。 }
+  closer: { en: "Thirsty? That's 渴, so go 喝 some water: the two share the sound part 曷!", zh-Hans: 口渴了，就快去喝水吧！“渴”和“喝”有同一个表示读音的“曷”。, zh-Hant: 口渴了，就快去喝水吧！「渴」和「喝」有同一個表示讀音的「曷」。 }
+journey: default
+origin:
+  type: phono-semantic
+  parts:
+    - { char: 氵, role: meaning, gloss: { en: water, zh-Hans: 水, zh-Hant: 水 } }
+    - { char: 曷, role: sound }
+status: draft
+sources:
+  - { title: 'Wiktionary: 渴', url: 'https://en.wiktionary.org/wiki/%E6%B8%B4' }

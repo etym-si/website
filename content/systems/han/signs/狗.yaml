@@ -1,0 +1,21 @@
+id: 狗
+text: { Hans: 狗, Hant: 狗 }
+readings: { pinyin: gǒu }
+meaning: { en: dog, zh-Hans: 小狗, zh-Hant: 小狗 }
+fact:
+  en: 狗 has the dog part 犭 (犬) on the left for the meaning and 句 on the right for the sound. So 犬 and 狗 both mean dog!
+  zh-Hans: “狗”左边的“犭”就是“犬”，表示狗，是意思部分；右边的“句”表示读音。原来“犬”和“狗”都是狗！
+  zh-Hant: 「狗」左邊的「犭」就是「犬」，表示狗，是意思部分；右邊的「句」表示讀音。原來「犬」和「狗」都是狗！
+story:
+  topic: { en: Waiting at the Door, zh-Hans: 门口等主人的小狗, zh-Hant: 門口等主人的小狗 }
+  hook: { en: 'Woof, woof! The moment the key turns in the lock, the puppy wags its tail so hard its whole body wiggles.', zh-Hans: 汪汪！钥匙一插进门锁，小狗就使劲摇尾巴，连屁股都扭起来了。, zh-Hant: 汪汪！鑰匙一插進門鎖，小狗就使勁搖尾巴，連屁股都扭起來了。 }
+  closer: { en: 'A dog part for the meaning and 句 for the sound: 狗, your faithful friend!', zh-Hans: “犭”表示狗，“句”表示读音，合起来就是忠心的小“狗”！, zh-Hant: 「犭」表示狗，「句」表示讀音，合起來就是忠心的小「狗」！ }
+journey: default
+origin:
+  type: phono-semantic
+  parts:
+    - { char: 犬, role: meaning, gloss: { en: dog, zh-Hans: 狗, zh-Hant: 狗 } }
+    - { char: 句, role: sound }
+status: draft
+sources:
+  - { title: 'Wiktionary: 狗', url: 'https://en.wiktionary.org/wiki/%E7%8B%97' }

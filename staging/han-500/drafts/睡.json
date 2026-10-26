@@ -1,0 +1,34 @@
+{
+  "id": "睡",
+  "text": { "Hans": "睡", "Hant": "睡" },
+  "readings": { "pinyin": "shuì" },
+  "meaning": { "en": "to sleep", "zh-Hans": "睡觉", "zh-Hant": "睡覺" },
+  "fact": {
+    "en": "睡 has 目 (eye) on the left for the meaning and 垂 on the right for the sound.",
+    "zh-Hans": "“睡”左边的“目”是眼睛，表示意思；右边的“垂”表示读音。",
+    "zh-Hant": "「睡」左邊的「目」是眼睛，表示意思；右邊的「垂」表示讀音。"
+  },
+  "story": {
+    "topic": { "en": "Goodnight, Baby Sister", "zh-Hans": "妹妹睡着了", "zh-Hant": "妹妹睡著了" },
+    "hook": {
+      "en": "Night-night! Baby sister rubs her eyes, hugs her toy bunny and drifts off to sleep.",
+      "zh-Hans": "晚安啦！妹妹揉揉眼睛，抱着小兔子玩偶，慢慢地睡着了。",
+      "zh-Hant": "晚安囉！妹妹揉揉眼睛，抱著小兔子玩偶，慢慢地睡著了。"
+    },
+    "closer": {
+      "en": "Eyes closed for a good night's rest: 目 plus 垂 makes 睡, to sleep!",
+      "zh-Hans": "眼睛闭上，好好休息：“目”加上“垂”，就是睡觉的“睡”！",
+      "zh-Hant": "眼睛閉上，好好休息：「目」加上「垂」，就是睡覺的「睡」！"
+    }
+  },
+  "journey": "default",
+  "origin": {
+    "type": "phono-semantic",
+    "parts": [
+      { "char": "目", "role": "meaning", "gloss": { "en": "eye", "zh-Hans": "眼睛", "zh-Hant": "眼睛" } },
+      { "char": "垂", "role": "sound" }
+    ]
+  },
+  "status": "draft",
+  "sources": [ { "title": "Wiktionary: 睡", "url": "https://en.wiktionary.org/wiki/%E7%9D%A1" } ]
+}

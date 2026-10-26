@@ -1,0 +1,34 @@
+{
+ "id": "带",
+ "s": "带",
+ "t": "帶",
+ "forms": {
+  "s": "带",
+  "alt": "帯"
+ },
+ "pinyin": [
+  "dài"
+ ],
+ "glyph_origin": "Pictogram (象形) - a woven belt.",
+ "s_page_origin": "",
+ "shuowen": [],
+ "senses": [
+  "[dài] belt; ribbon; tape",
+  "[dài] tyre",
+  "(Hokkien, Hainanese) place",
+  "(Hainanese) where"
+ ],
+ "sources": [
+  {
+   "title": "Wiktionary: 带",
+   "url": "https://en.wiktionary.org/wiki/%E5%B8%A6",
+   "rev": 91372319
+  },
+  {
+   "title": "Wiktionary: 帶",
+   "url": "https://en.wiktionary.org/wiki/%E5%B8%B6",
+   "rev": 92436757
+  }
+ ],
+ "note": "glyph_origin is from the traditional page 帶; s_page_origin explains the simplified 带."
+}

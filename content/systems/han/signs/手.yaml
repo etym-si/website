@@ -1,0 +1,19 @@
+id: 手
+text: { Hans: 手, Hant: 手 }
+readings: { pinyin: shǒu }
+meaning: { en: hand, zh-Hans: 小手, zh-Hant: 小手 }
+fact:
+  en: 手 is a hand with all five fingers. The top stroke is the bent middle finger, and each flat stroke stands for two fingers.
+  zh-Hans: “手”是一只有五根手指的手。最上面一笔是弯下来的中指，每一横代表两根手指。
+  zh-Hant: 「手」是一隻有五根手指的手。最上面一筆是彎下來的中指，每一橫代表兩根手指。
+story:
+  topic: { en: A Painty Handprint, zh-Hans: 五彩的小手印, zh-Hant: 五彩的小手印 }
+  hook: { en: Splat! You press your paint-covered hand onto the paper and leave a five-finger print., zh-Hans: 啪嗒！你把沾满颜料的小手按在纸上，印出一个五根手指的手印。, zh-Hant: 啪嗒！你把沾滿顏料的小手按在紙上，印出一個五根手指的手印。 }
+  early: { en: 'Even the oldest 手 has five fingers, while other hand characters, like 又, often make do with three.', zh-Hans: 就连最早的“手”也有五根手指，而别的表示手的字，比如“又”，常常只画三根。, zh-Hant: 就連最早的「手」也有五根手指，而別的表示手的字，比如「又」，常常只畫三根。 }
+  closer: { en: 'Count them: five fingers on one hand. That is 手, hand!', zh-Hans: 数一数：一只手，五根手指。这就是“手”！, zh-Hant: 數一數：一隻手，五根手指。這就是「手」！ }
+journey: default
+origin:
+  type: pictogram
+status: draft
+sources:
+  - { title: 'Wiktionary: 手', url: 'https://en.wiktionary.org/wiki/%E6%89%8B' }

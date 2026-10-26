@@ -1,0 +1,29 @@
+{
+ "id": "在",
+ "s": "在",
+ "t": "在",
+ "forms": {
+  "alt": "扗,才-ancient,抂,𡉄,…"
+ },
+ "pinyin": [
+  "zài",
+  "zǎi",
+  "dài",
+  "dǎi"
+ ],
+ "glyph_origin": "Phono-semantic compound (形聲): phonetic 才 + phonetic 士. In the oracle bone script and some of the bronze inscriptions, 才 is phonetically borrowed to represent this word; a phonetic 士 was added later. 士 eventually corrupted into 土 (“earth”).",
+ "s_page_origin": "",
+ "shuowen": [],
+ "senses": [
+  "[zài] to exist; to be present; to be alive",
+  "[zài] to be at; to be in; to be located",
+  "(Hokkien) alternative form of 佇 (“at, in”)"
+ ],
+ "sources": [
+  {
+   "title": "Wiktionary: 在",
+   "url": "https://en.wiktionary.org/wiki/%E5%9C%A8",
+   "rev": 92701669
+  }
+ ]
+}

@@ -1,0 +1,19 @@
+id: 我
+text: { Hans: 我, Hant: 我 }
+readings: { pinyin: wǒ }
+meaning: { en: 'I, me', zh-Hans: 我的, zh-Hant: 我的 }
+fact:
+  en: 我 was first a picture of a weapon or tool with three blades, a bit like a trident. Already on the oracle bones, it was borrowed for its sound to mean I.
+  zh-Hans: “我”最早画的是一种有三个刃的兵器或工具，有点像三叉戟。在甲骨文里，它就已经被借用读音，表示“我”了。
+  zh-Hant: 「我」最早畫的是一種有三個刃的兵器或工具，有點像三叉戟。在甲骨文裡，它就已經被借用讀音，表示「我」了。
+story:
+  topic: { en: 'Me, Me, Me!', zh-Hans: 我！我！我！, zh-Hant: 我！我！我！ }
+  hook: { en: 'Who wants to read the next page aloud? You shoot your hand up high: me, me, me!', zh-Hans: 谁想朗读下一页？你把手举得高高的：我，我，我！, zh-Hant: 誰想朗讀下一頁？你把手舉得高高的：我，我，我！ }
+  early: { en: 'The oldest 我 is a long-handled weapon with three blades, like 戈 but with three blades instead of one.', zh-Hans: 最古老的“我”是一种长柄兵器，有三个刃，跟“戈”很像，只不过“戈”只有一个刃。, zh-Hant: 最古老的「我」是一種長柄兵器，有三個刃，跟「戈」很像，只不過「戈」只有一個刃。 }
+  closer: { en: "A three-bladed weapon borrowed to mean me: that's 我!", zh-Hans: 一件三刃的兵器，被借来表示自己，这就是我的“我”！, zh-Hant: 一件三刃的兵器，被借來表示自己，這就是我的「我」！ }
+journey: default
+origin:
+  type: loan
+status: draft
+sources:
+  - { title: 'Wiktionary: 我', url: 'https://en.wiktionary.org/wiki/%E6%88%91' }

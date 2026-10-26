@@ -1,0 +1,68 @@
+{
+  "id": "真",
+  "text": {
+    "Hans": "真",
+    "Hant": "真"
+  },
+  "readings": {
+    "pinyin": "zhēn"
+  },
+  "meaning": {
+    "en": "real; true",
+    "zh-Hans": "真的",
+    "zh-Hant": "真的"
+  },
+  "fact": {
+    "en": "In bronze inscriptions, 真 was 贝 (貝, a cowrie shell) plus a sound part. Later a 鼎 (a pot with legs) often took the shell's place.",
+    "zh-Hans": "在金文里，“真”由“贝”（贝壳）和一个表示读音的部分组成。后来，常常用有脚的“鼎”代替了“贝”。",
+    "zh-Hant": "在金文裡，「真」由「貝」（貝殼）和一個表示讀音的部分組成。後來，常常用有腳的「鼎」代替了「貝」。"
+  },
+  "story": {
+    "topic": {
+      "en": "A Real Dinosaur!",
+      "zh-Hans": "真的恐龙！",
+      "zh-Hant": "真的恐龍！"
+    },
+    "hook": {
+      "en": "Is that a real dinosaur? At the museum, Xiaole's eyes go wide: it's a real skeleton, bone by bone!",
+      "zh-Hans": "那是真的恐龙吗？在博物馆里，小乐瞪大了眼睛：这可是一副真正的恐龙骨架！",
+      "zh-Hant": "那是真的恐龍嗎？在博物館裡，小樂瞪大了眼睛：這可是一副真正的恐龍骨架！"
+    },
+    "turn": {
+      "en": "Over time, the pot's legs got mixed up with 火 (fire). The last strokes at the bottom of today's 真 may be what's left of them.",
+      "zh-Hans": "慢慢地，鼎的脚和“火”字混在了一起。今天“真”字最下面的几笔，可能就是从“火”简化来的。",
+      "zh-Hant": "慢慢地，鼎的腳和「火」字混在了一起。今天「真」字最下面的幾筆，可能就是從「火」簡化來的。"
+    },
+    "closer": {
+      "en": "Not pretend, not a toy, really real: that's 真!",
+      "zh-Hans": "不是假装，也不是玩具，是真真正正的“真”！",
+      "zh-Hant": "不是假裝，也不是玩具，是真真正正的「真」！"
+    }
+  },
+  "journey": "default",
+  "origin": {
+    "type": "phono-semantic",
+    "parts": [
+      {
+        "char": "貝",
+        "role": "meaning",
+        "gloss": {
+          "en": "cowrie shell",
+          "zh-Hans": "贝壳",
+          "zh-Hant": "貝殼"
+        }
+      },
+      {
+        "char": "𠂈",
+        "role": "sound"
+      }
+    ]
+  },
+  "status": "draft",
+  "sources": [
+    {
+      "title": "Wiktionary: 真",
+      "url": "https://en.wiktionary.org/wiki/%E7%9C%9F"
+    }
+  ]
+}

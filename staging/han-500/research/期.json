@@ -1,0 +1,28 @@
+{
+ "id": "期",
+ "s": "期",
+ "t": "期",
+ "forms": {
+  "alt": "朞,𣍡,𣍣,𣍠,…"
+ },
+ "pinyin": [
+  "jī",
+  "qī"
+ ],
+ "glyph_origin": "Phono-semantic compound (形聲): phonetic 其 + semantic 日. The original composition with the semantic 日 (“sun”) is preserved in the variant forms 㫷 and 𣇳. The sun then changed to 月 (“moon”) to produce 朞, from which the character then evolved to the current form.",
+ "s_page_origin": "",
+ "shuowen": [],
+ "senses": [
+  "to arrange a time; to engage; to arrange to meet",
+  "(literary) to meet; to gather",
+  "[jī] (obsolete) whole year; entire month; one-year anniversary",
+  "[jī] (historical, obsolete) short for 期服 (“mourning garment worn for one year following the death of …"
+ ],
+ "sources": [
+  {
+   "title": "Wiktionary: 期",
+   "url": "https://en.wiktionary.org/wiki/%E6%9C%9F",
+   "rev": 93586122
+  }
+ ]
+}

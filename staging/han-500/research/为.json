@@ -1,0 +1,38 @@
+{
+ "id": "为",
+ "s": "为",
+ "t": "為",
+ "forms": {
+  "s": "为",
+  "t2": "爲",
+  "alt": "𤔡,𫞟,𬊓,𦥮-ancient"
+ },
+ "pinyin": [
+  "wéi",
+  "wèi"
+ ],
+ "glyph_origin": "Simplified from 爲. In the oracle bone script, it is an ideogrammic compound (會意): 又 (“hand”) + 象 (“elephant”) — a hand holding an elephant. The 又 later became 爪 (“hand; claw”). Shuowen Jiezi interprets the character as a representation of the female macaque.",
+ "s_page_origin": "From cursive script of 為; compare Japanese 為 → ゐ.",
+ "shuowen": [
+  "Shuowen Jiezi interprets the character as a representation of the female macaque."
+ ],
+ "senses": [
+  "[wéi] to do, to accomplish, to take action",
+  "[wéi] to administer, to govern",
+  "[wèi] for; to serve, to assist, to do for others",
+  "[wèi] because of"
+ ],
+ "sources": [
+  {
+   "title": "Wiktionary: 为",
+   "url": "https://en.wiktionary.org/wiki/%E4%B8%BA",
+   "rev": 91517232
+  },
+  {
+   "title": "Wiktionary: 為",
+   "url": "https://en.wiktionary.org/wiki/%E7%82%BA",
+   "rev": 93780149
+  }
+ ],
+ "note": "glyph_origin is from the traditional page 為; s_page_origin explains the simplified 为."
+}

@@ -1,0 +1,28 @@
+{
+ "id": "一",
+ "s": "一",
+ "t": "一",
+ "forms": {
+  "alt": "壹-financial,弌-ancient,𠤪,𭍶,…"
+ },
+ "pinyin": [
+  "yī",
+  "yí"
+ ],
+ "glyph_origin": "Ideogram (指事): a horizontal stroke, indicating the number one.",
+ "s_page_origin": "",
+ "shuowen": [],
+ "senses": [
+  "one",
+  "each; every",
+  "[yī] (music) Kunqu gongche notation for the note low ti (7̣).",
+  "[yí] (Beijing) one"
+ ],
+ "sources": [
+  {
+   "title": "Wiktionary: 一",
+   "url": "https://en.wiktionary.org/wiki/%E4%B8%80",
+   "rev": 92923652
+  }
+ ]
+}

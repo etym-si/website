@@ -1,0 +1,63 @@
+{
+  "id": "怎",
+  "text": {
+    "Hans": "怎",
+    "Hant": "怎"
+  },
+  "readings": {
+    "pinyin": "zěn"
+  },
+  "meaning": {
+    "en": "how; why",
+    "zh-Hans": "怎么",
+    "zh-Hant": "怎麼"
+  },
+  "fact": {
+    "en": "怎 has 心 (heart) at the bottom for meaning and 乍 on top for sound. You'll meet it in lots of questions, like 怎么 (how).",
+    "zh-Hans": "“怎”下面的“心”表示意思，上面的“乍”表示读音。很多问题都用得上它：怎么办？怎么样？",
+    "zh-Hant": "「怎」下面的「心」表示意思，上面的「乍」表示讀音。很多問題都用得上它：怎麼辦？怎麼樣？"
+  },
+  "story": {
+    "topic": {
+      "en": "How Does a Caterpillar Change?",
+      "zh-Hans": "毛毛虫怎么变？",
+      "zh-Hant": "毛毛蟲怎麼變？"
+    },
+    "hook": {
+      "en": "How does a caterpillar turn into a butterfly? Xiaoyu presses her nose to the jar, bursting with questions.",
+      "zh-Hans": "毛毛虫怎么会变成蝴蝶呢？小雨把鼻子贴在玻璃罐上，满脑子都是问题。",
+      "zh-Hant": "毛毛蟲怎麼會變成蝴蝶呢？小雨把鼻子貼在玻璃罐上，滿腦子都是問題。"
+    },
+    "closer": {
+      "en": "Whenever you wonder 'how?', reach for 怎: 心 below, 乍 on top!",
+      "zh-Hans": "想问“怎么”的时候，就请出“怎”：下面一颗“心”，上面一个“乍”！",
+      "zh-Hant": "想問「怎麼」的時候，就請出「怎」：下面一顆「心」，上面一個「乍」！"
+    }
+  },
+  "journey": [],
+  "origin": {
+    "type": "phono-semantic",
+    "parts": [
+      {
+        "char": "心",
+        "role": "meaning",
+        "gloss": {
+          "en": "heart",
+          "zh-Hans": "心",
+          "zh-Hant": "心"
+        }
+      },
+      {
+        "char": "乍",
+        "role": "sound"
+      }
+    ]
+  },
+  "status": "draft",
+  "sources": [
+    {
+      "title": "Wiktionary: 怎",
+      "url": "https://en.wiktionary.org/wiki/%E6%80%8E"
+    }
+  ]
+}

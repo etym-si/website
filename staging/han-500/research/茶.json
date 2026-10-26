@@ -1,0 +1,25 @@
+{
+ "id": "茶",
+ "s": "茶",
+ "t": "茶",
+ "forms": {
+  "alt": "荼,𦯬,𣘻,𣗪,…"
+ },
+ "pinyin": [
+  "chá"
+ ],
+ "glyph_origin": "Phono-semantic compound (形聲): semantic 艹 (= 艸) + phonetic 余. 茶, then slightly modified into a more conservative 茶, originates as a graphical modification of archaic 荼 (“bitter plant”), used for “tea” in classical sources. The modern version is unrelated to the bottom right component of 條.",
+ "s_page_origin": "",
+ "shuowen": [],
+ "senses": [
+  "[chá] tea (plant, leaves)",
+  "[chá] tea (beverage made by infusing tea leaves in hot water)"
+ ],
+ "sources": [
+  {
+   "title": "Wiktionary: 茶",
+   "url": "https://en.wiktionary.org/wiki/%E8%8C%B6",
+   "rev": 92201515
+  }
+ ]
+}

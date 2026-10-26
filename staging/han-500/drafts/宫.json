@@ -1,0 +1,37 @@
+{
+  "id": "宫",
+  "text": { "Hans": "宫", "Hant": "宮" },
+  "readings": { "pinyin": "gōng" },
+  "meaning": { "en": "palace", "zh-Hans": "宫殿", "zh-Hant": "宮殿" },
+  "fact": {
+    "en": "宫 (宮) is put together from 宀 on top and 吕 (呂) underneath, and it means a palace.",
+    "zh-Hans": "“宫”由上面的“宀”和下面的“吕”组合而成，意思是宫殿。",
+    "zh-Hant": "「宮」由上面的「宀」和下面的「呂」組合而成，意思是宮殿。"
+  },
+  "story": {
+    "topic": { "en": "Inside the Golden Palace", "zh-Hans": "走进金色的宫殿", "zh-Hant": "走進金色的宮殿" },
+    "hook": {
+      "en": "Look up! Golden roofs, red walls and more rooms than you can count: you've stepped inside a grand palace.",
+      "zh-Hans": "抬头看！金色的屋顶，红色的墙，还有数不清的房间：你走进了一座宏伟的宫殿！",
+      "zh-Hant": "抬頭看！金色的屋頂，紅色的牆，還有數不清的房間：你走進了一座宏偉的宮殿！"
+    },
+    "closer": {
+      "en": "宀 on top, 吕 below: put them together and you get 宫 (宮), a palace!",
+      "zh-Hans": "上面“宀”，下面“吕”：合起来就是宫殿的“宫”！",
+      "zh-Hant": "上面「宀」，下面「呂」：合起來就是宮殿的「宮」！"
+    }
+  },
+  "journey": "default",
+  "origin": {
+    "type": "compound-ideogram",
+    "parts": [
+      { "char": "宀", "role": "meaning" },
+      { "char": "呂", "role": "meaning" }
+    ]
+  },
+  "status": "draft",
+  "sources": [
+    { "title": "Wiktionary: 宫", "url": "https://en.wiktionary.org/wiki/%E5%AE%AB" },
+    { "title": "Wiktionary: 宮", "url": "https://en.wiktionary.org/wiki/%E5%AE%AE" }
+  ]
+}

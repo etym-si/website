@@ -1,0 +1,32 @@
+{
+ "id": "万",
+ "s": "万",
+ "t": "萬",
+ "forms": {
+  "s": "万",
+  "alt": "㸘,𤍚,𢁭,𥝄,…"
+ },
+ "pinyin": [
+  "wàn"
+ ],
+ "glyph_origin": "Pictogram (象形) – scorpion. The derivative 蠆 refers to the original word. Later phonetically borrowed to refer to 萬 (“ten thousand”).",
+ "s_page_origin": "Unknown. Used as a tribal name in oracle inscriptions. Used as a number since the Spring and Autumn and Warring States periods. Various theories have been proposed for its original meaning: • Qu Wanli, Qiu Xigui and others propose that it originally refers to a type of dancer-musicians. This usage is attested in the oracle inscriptions. This may be supported by ancient literature, e.g. Shijing, which mentions a type of dance called 萬舞. • Lin Yiguang proposes that it is an ancient form of 丏, acting as a phonetic component in 賓. • Some propose that it is a differentiated form of 亥.",
+ "shuowen": [],
+ "senses": [
+  "[wàn] (obsolete) 蠆",
+  "[wàn] (historical) A ritual dance in ancient China."
+ ],
+ "sources": [
+  {
+   "title": "Wiktionary: 万",
+   "url": "https://en.wiktionary.org/wiki/%E4%B8%87",
+   "rev": 92199727
+  },
+  {
+   "title": "Wiktionary: 萬",
+   "url": "https://en.wiktionary.org/wiki/%E8%90%AC",
+   "rev": 92481227
+  }
+ ],
+ "note": "glyph_origin is from the traditional page 萬; s_page_origin explains the simplified 万."
+}

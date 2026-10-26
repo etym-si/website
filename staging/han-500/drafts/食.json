@@ -1,0 +1,78 @@
+{
+  "id": "食",
+  "text": {
+    "Hans": "食",
+    "Hant": "食"
+  },
+  "readings": {
+    "pinyin": "shí"
+  },
+  "meaning": {
+    "en": "food; to eat",
+    "zh-Hans": "食物",
+    "zh-Hant": "食物"
+  },
+  "fact": {
+    "en": "食 puts a mouth over a bowl of rice: food, ready to eat! Squeezed onto the left side, it becomes 饣 (飠 in traditional) in 饭, 饿 and 饱.",
+    "zh-Hans": "“食”是一张嘴对着一碗饭，好吃的来啦！它站到左边时，在简体字里写成“饣”，比如“饭、饿、饱”。",
+    "zh-Hant": "「食」是一張嘴對著一碗飯，好吃的來囉！它站到左邊時寫成「飠」，比如「飯、餓、飽」。"
+  },
+  "story": {
+    "topic": {
+      "en": "Night Market Smells",
+      "zh-Hans": "夜市的香味",
+      "zh-Hant": "夜市的香味"
+    },
+    "hook": {
+      "en": "Mmm, smell that? At the night market, steamy food stalls glow and sizzle in every direction.",
+      "zh-Hans": "嗯——好香！夜市里，冒着热气的小吃摊一家挨着一家，滋滋作响。",
+      "zh-Hant": "嗯——好香！夜市裡，冒著熱氣的小吃攤一家挨著一家，滋滋作響。"
+    },
+    "early": {
+      "en": "At first, 食 showed a mouth (亼) right over a bowl of rice on a stand (皀): time to eat!",
+      "zh-Hans": "最早的“食”，是一张嘴（亼）正对着一碗放在座上的饭（皀）：要吃饭啦！",
+      "zh-Hant": "最早的「食」，是一張嘴（亼）正對著一碗放在座上的飯（皀）：要吃飯囉！"
+    },
+    "turn": {
+      "en": "Over time, the rice bowl turned into look-alike shapes, 良 or 艮, which have nothing to do with rice.",
+      "zh-Hans": "后来，那碗饭慢慢变成了长得很像的“良”或“艮”，可它们跟饭一点关系也没有。",
+      "zh-Hant": "後來，那碗飯慢慢變成了長得很像的「良」或「艮」，可是它們跟飯一點關係也沒有。"
+    },
+    "closer": {
+      "en": "A mouth and a bowl of rice: 食 means food, and to eat!",
+      "zh-Hans": "一张嘴，一碗饭，这就是食物的“食”！",
+      "zh-Hant": "一張嘴，一碗飯，這就是食物的「食」！"
+    }
+  },
+  "journey": "default",
+  "origin": {
+    "type": "compound-ideogram",
+    "parts": [
+      {
+        "char": "亼",
+        "role": "meaning",
+        "gloss": {
+          "en": "mouth",
+          "zh-Hans": "嘴",
+          "zh-Hant": "嘴"
+        }
+      },
+      {
+        "char": "皀",
+        "role": "meaning",
+        "gloss": {
+          "en": "a bowl of rice on a stand",
+          "zh-Hans": "座上的一碗饭",
+          "zh-Hant": "座上的一碗飯"
+        }
+      }
+    ]
+  },
+  "status": "draft",
+  "sources": [
+    {
+      "title": "Wiktionary: 食",
+      "url": "https://en.wiktionary.org/wiki/%E9%A3%9F"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+ "id": "奶",
+ "s": "奶",
+ "t": "奶",
+ "forms": {
+  "t2": "妳",
+  "alt": "𬂌-Eastern Min"
+ },
+ "pinyin": [
+  "nǎi"
+ ],
+ "glyph_origin": "Phono-semantic compound (形聲): semantic 女 + phonetic 乃.",
+ "s_page_origin": "",
+ "shuowen": [],
+ "senses": [
+  "[nǎi] breast",
+  "[nǎi] milk; breast milk",
+  "(Hokkien) to behave in a coy, childish or coquettish manner; to coax; to wheedle"
+ ],
+ "sources": [
+  {
+   "title": "Wiktionary: 奶",
+   "url": "https://en.wiktionary.org/wiki/%E5%A5%B6",
+   "rev": 93481600
+  }
+ ]
+}

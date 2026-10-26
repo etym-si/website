@@ -1,0 +1,21 @@
+id: 歌
+text: { Hans: 歌, Hant: 歌 }
+readings: { pinyin: gē }
+meaning: { en: song, zh-Hans: 儿歌, zh-Hant: 兒歌 }
+fact:
+  en: 歌 has 哥 (gē) on the left for sound, and 欠 (to blow out breath) on the right for meaning. It's a special form of 哥, which once meant 'to sing'!
+  zh-Hans: “歌”左边的“哥”（gē）表示读音，右边的“欠”（吹气）表示意思。“歌”是从“哥”分化出来的，“哥”原来就有“唱歌”的意思！
+  zh-Hant: 「歌」左邊的「哥」（gē）表示讀音，右邊的「欠」（吹氣）表示意思。「歌」是從「哥」分化出來的，「哥」原來就有「唱歌」的意思！
+story:
+  topic: { en: The Song Stuck in My Head, zh-Hans: 停不下来的歌, zh-Hant: 停不下來的歌 }
+  hook: { en: "Da-da-dee! The cartoon theme song is stuck in Tongtong's head, so he hums it even while brushing his teeth.", zh-Hans: 嗒嗒嘀！动画片的主题歌一直在童童脑子里转，连刷牙的时候都在哼。, zh-Hant: 嗒嗒嘀！卡通的主題曲一直在童童腦子裡轉，連刷牙的時候都在哼。 }
+  closer: { en: 'Cartoon songs, birthday songs, lullabies: every song is a 歌!', zh-Hans: 动画歌、生日歌、摇篮曲……每一首都是“歌”！, zh-Hant: 卡通歌、生日歌、搖籃曲……每一首都是「歌」！ }
+journey: default
+origin:
+  type: phono-semantic
+  parts:
+    - { char: 欠, role: meaning, gloss: { en: to blow, zh-Hans: 吹气, zh-Hant: 吹氣 } }
+    - { char: 哥, role: sound }
+status: draft
+sources:
+  - { title: 'Wiktionary: 歌', url: 'https://en.wiktionary.org/wiki/%E6%AD%8C' }

@@ -1,0 +1,34 @@
+{
+ "id": "铁",
+ "s": "铁",
+ "t": "鐵",
+ "forms": {
+  "s": "铁",
+  "alt": "𨬿,鐡,𨮯,𨫓,…"
+ },
+ "pinyin": [
+  "tiě"
+ ],
+ "glyph_origin": "Phono-semantic compound (形聲): semantic 金 (“metal”) + phonetic 𢧤. The original version, according to the Shuowen Jiezi, is 𨮯, with 大 on top, hence the original phonetic component should be not 𢧜.",
+ "s_page_origin": "",
+ "shuowen": [
+  "The original version, according to the Shuowen Jiezi, is 𨮯, with 大 on top, hence the original phonetic component should be not 𢧜."
+ ],
+ "senses": [
+  "[tiě] iron (Fe)",
+  "[tiě] (only in compounds) short for 鐵路 (“railway”)"
+ ],
+ "sources": [
+  {
+   "title": "Wiktionary: 铁",
+   "url": "https://en.wiktionary.org/wiki/%E9%93%81",
+   "rev": 87570465
+  },
+  {
+   "title": "Wiktionary: 鐵",
+   "url": "https://en.wiktionary.org/wiki/%E9%90%B5",
+   "rev": 93430798
+  }
+ ],
+ "note": "glyph_origin is from the traditional page 鐵; s_page_origin explains the simplified 铁."
+}

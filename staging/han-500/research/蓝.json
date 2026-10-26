@@ -1,0 +1,31 @@
+{
+ "id": "蓝",
+ "s": "蓝",
+ "t": "藍",
+ "forms": {
+  "s": "蓝"
+ },
+ "pinyin": [
+  "lán"
+ ],
+ "glyph_origin": "Phono-semantic compound (形聲): semantic 艸 (“grass”) + phonetic 監.",
+ "s_page_origin": "Simplified from 藍 (監 → 监).",
+ "shuowen": [],
+ "senses": [
+  "[lán] blue",
+  "[lán] (botany) a plant used to make indigo"
+ ],
+ "sources": [
+  {
+   "title": "Wiktionary: 蓝",
+   "url": "https://en.wiktionary.org/wiki/%E8%93%9D",
+   "rev": 92201555
+  },
+  {
+   "title": "Wiktionary: 藍",
+   "url": "https://en.wiktionary.org/wiki/%E8%97%8D",
+   "rev": 92201592
+  }
+ ],
+ "note": "glyph_origin is from the traditional page 藍; s_page_origin explains the simplified 蓝."
+}

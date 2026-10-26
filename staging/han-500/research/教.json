@@ -1,0 +1,28 @@
+{
+ "id": "教",
+ "s": "教",
+ "t": "教",
+ "forms": {
+  "t2": "敎",
+  "alt": "斅/𢽾,𧧿,𤕝,*敎,…"
+ },
+ "pinyin": [
+  "jiāo",
+  "jiào"
+ ],
+ "glyph_origin": "Phono-semantic compound (形聲): phonetic 爻 + semantic 子 (“child”) + semantic 攵 (= 攴) (“teaching cane; stick that represents authority”) – teaching a child. See also 學 and 算.",
+ "s_page_origin": "",
+ "shuowen": [],
+ "senses": [
+  "[jiāo] to teach; to instruct",
+  "[jiào] to cause; to make",
+  "[jiào] to provide guidance; to instruct"
+ ],
+ "sources": [
+  {
+   "title": "Wiktionary: 教",
+   "url": "https://en.wiktionary.org/wiki/%E6%95%99",
+   "rev": 92200621
+  }
+ ]
+}

@@ -1,0 +1,21 @@
+id: 板
+text: { Hans: 板, Hant: 板 }
+readings: { pinyin: bǎn }
+meaning: { en: board; plank, zh-Hans: 木板, zh-Hant: 木板 }
+fact:
+  en: 板 has 木 (tree, wood) on the left for the meaning and 反 on the right for the sound. In simplified Chinese, 板 also stands for another character, 闆.
+  zh-Hans: “板”左边的“木”表示意思，右边的“反”表示读音。在简化字里，“板”还代替了另一个繁体字“闆”。
+  zh-Hant: 「板」左邊的「木」表示意思，右邊的「反」表示讀音。在簡化字裡，「板」還代替了另一個繁體字「闆」。
+story:
+  topic: { en: Up and Down on the Seesaw, zh-Hans: 跷跷板, zh-Hant: 翹翹板 }
+  hook: { en: 'Seesaw, seesaw! Two friends ride a long board that tips them up and down, back and forth.', zh-Hans: 跷跷板，上上下下！两个好朋友坐在长长的木板两头，一上一下。, zh-Hant: 翹翹板，上上下下！兩個好朋友坐在長長的木板兩頭，一上一下。 }
+  closer: { en: "Flat, long and wooden: that's 板, a board, even the one in a seesaw!", zh-Hans: 平平的、长长的、木头做的，这就是木板的“板”，跷跷板也有它！, zh-Hant: 平平的、長長的、木頭做的，這就是木板的「板」，翹翹板也有它！ }
+journey: default
+origin:
+  type: phono-semantic
+  parts:
+    - { char: 木, role: meaning, gloss: { en: tree; wood, zh-Hans: 木头, zh-Hant: 木頭 } }
+    - { char: 反, role: sound }
+status: draft
+sources:
+  - { title: 'Wiktionary: 板', url: 'https://en.wiktionary.org/wiki/%E6%9D%BF' }

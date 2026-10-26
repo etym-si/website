@@ -1,0 +1,22 @@
+id: 双
+text: { Hans: 双, Hant: 雙 }
+readings: { pinyin: shuāng }
+meaning: { en: 'pair, double', zh-Hans: 双手, zh-Hant: 雙手 }
+fact:
+  en: 雙 shows two birds 隹 held in one hand 又. Simplified 双 is simply two 又 side by side.
+  zh-Hans: 繁体字“雙”画的是一只手（又）抓着两只鸟（隹）。简体字“双”就是两个“又”并排在一起。
+  zh-Hant: 「雙」畫的是一隻手（又）抓著兩隻鳥（隹）。簡體字「双」就是兩個「又」並排在一起。
+story:
+  topic: { en: A Pair of Chopsticks, zh-Hans: 一双筷子, zh-Hant: 一雙筷子 }
+  hook: { en: 'Clack, clack! Little brother finally picks up a dumpling all by himself with a pair of chopsticks.', zh-Hans: 咔哒，咔哒！小弟弟终于学会自己用一双筷子夹起饺子了。, zh-Hant: 喀噠，喀噠！小弟弟終於學會自己用一雙筷子夾起餃子了。 }
+  closer: { en: 'Two birds in one hand make 雙; two 又 side by side make 双: a pair!', zh-Hans: 一只手抓两只鸟是“雙”，两个“又”并排是“双”——一双的“双”！, zh-Hant: 一隻手抓兩隻鳥，就是一雙的「雙」！ }
+journey: default
+origin:
+  type: compound-ideogram
+  parts:
+    - { char: 雔, role: meaning, gloss: { en: two birds, zh-Hans: 两只鸟, zh-Hant: 兩隻鳥 } }
+    - { char: 又, role: meaning, gloss: { en: hand, zh-Hans: 手, zh-Hant: 手 } }
+status: draft
+sources:
+  - { title: 'Wiktionary: 双', url: 'https://en.wiktionary.org/wiki/%E5%8F%8C' }
+  - { title: 'Wiktionary: 雙', url: 'https://en.wiktionary.org/wiki/%E9%9B%99' }

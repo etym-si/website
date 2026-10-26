@@ -1,0 +1,21 @@
+id: 黄
+text: { Hans: 黄, Hant: 黃 }
+readings: { pinyin: huáng }
+meaning: { en: yellow, zh-Hans: 黄色, zh-Hant: 黃色 }
+fact:
+  en: The oldest 黄 (黃) is a drawing of a person, and the oracle bones already used it for the color yellow.
+  zh-Hans: 最早的“黄”画的是一个人，在甲骨文里就已经用来表示黄色了。
+  zh-Hant: 最早的「黃」畫的是一個人，在甲骨文裡就已經用來表示黃色了。
+story:
+  topic: { en: Sunflowers Facing the Sun, zh-Hans: 向着太阳的向日葵, zh-Hant: 向著太陽的向日葵 }
+  hook: { en: 'In the summer field, hundreds of bright yellow sunflowers turn their faces toward the sun.', zh-Hans: 夏天的田野里，几百朵金黄的向日葵都把笑脸转向太阳。, zh-Hant: 夏天的田野裡，幾百朵金黃的向日葵都把笑臉轉向太陽。 }
+  early: { en: 'One oracle-bone 黄 shows a person (大) with a round, swollen belly. Another has a 田 shape at the belly, and some scholars think it first wrote 璜, a half-ring of jade.', zh-Hans: 甲骨文里有一种“黄”，画的是一个肚子鼓鼓的人（大）；另一种在肚子的位置有个“田”形，有学者认为它原本是“璜”字，指半圆形的玉。, zh-Hant: 甲骨文裡有一種「黃」，畫的是一個肚子鼓鼓的人（大）；另一種在肚子的位置有個「田」形，有學者認為它原本是「璜」字，指半圓形的玉。 }
+  turn: { en: 'On bronze vessels, 廿 was added on top, like a wide-open mouth calling up to the sky.', zh-Hans: 到了金文，上面加了个“廿”，像一张朝天大声呼喊的嘴。, zh-Hant: 到了金文，上面加了個「廿」，像一張朝天大聲呼喊的嘴。 }
+  closer: { en: 'From a person drawn on bone to bright sunflower petals: 黄 (黃) means yellow!', zh-Hans: 从甲骨上画的一个人，到金灿灿的向日葵花瓣，“黄”就是黄色！, zh-Hant: 從甲骨上畫的一個人，到金燦燦的向日葵花瓣，「黃」就是黃色！ }
+journey: default
+origin:
+  type: pictogram
+status: draft
+sources:
+  - { title: 'Wiktionary: 黄', url: 'https://en.wiktionary.org/wiki/%E9%BB%84' }
+  - { title: 'Wiktionary: 黃', url: 'https://en.wiktionary.org/wiki/%E9%BB%83' }

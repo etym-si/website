@@ -1,0 +1,20 @@
+id: 也
+text: { Hans: 也, Hant: 也 }
+readings: { pinyin: yě }
+meaning: { en: 'also, too', zh-Hans: 也是, zh-Hant: 也是 }
+fact:
+  en: 也 means also or too. Scholars have many ideas about its old shape; one is a child crying with its mouth wide open.
+  zh-Hans: “也”是“也是、还有”的意思。关于它古老的样子，学者们有很多种说法；其中一种认为是一个张大嘴巴哭的孩子。
+  zh-Hant: 「也」是「也是、還有」的意思。關於它古老的樣子，學者們有很多種說法；其中一種認為是一個張大嘴巴哭的孩子。
+story:
+  topic: { en: Me Too!, zh-Hans: 我也是！, zh-Hant: 我也是！ }
+  hook: { en: 'Your friend says, ‘I love dumplings!’ and you shout, ‘Me too!’', zh-Hans: 好朋友说：“我最爱吃饺子！”你马上喊：“我也是！”, zh-Hant: 好朋友說：「我最愛吃餃子！」你馬上喊：「我也是！」 }
+  early: { en: 'One idea is that 也 shows a crying child, 子, with a wide-open mouth, 口. Others see a snake, a funnel or a mouth breathing out.', zh-Hans: 有一种说法认为，“也”画的是一个张大嘴巴（口）哭的孩子（子）。也有人认为它是一条蛇、一个漏斗，或者一张正在呼气的嘴。, zh-Hant: 有一種說法認為，「也」畫的是一個張大嘴巴（口）哭的孩子（子）。也有人認為它是一條蛇、一個漏斗，或者一張正在呼氣的嘴。 }
+  turn: { en: "In the crying-child idea, the child's arms disappeared and the two parts melted together into today's 也.", zh-Hans: 按照“哭孩子”的说法，孩子的手臂后来不见了，两个部分合在一起，成了今天的“也”。, zh-Hant: 按照「哭孩子」的說法，孩子的手臂後來不見了，兩個部分合在一起，成了今天的「也」。 }
+  closer: { en: 'You like it and I like it too: one little 也 joins us together!', zh-Hans: 你喜欢，我也喜欢，一个“也”字把我们连在一起！, zh-Hant: 你喜歡，我也喜歡，一個「也」字把我們連在一起！ }
+journey: default
+origin:
+  type: uncertain
+status: draft
+sources:
+  - { title: 'Wiktionary: 也', url: 'https://en.wiktionary.org/wiki/%E4%B9%9F' }

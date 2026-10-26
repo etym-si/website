@@ -1,0 +1,67 @@
+{
+  "id": "记",
+  "text": {
+    "Hans": "记",
+    "Hant": "記"
+  },
+  "readings": {
+    "pinyin": "jì"
+  },
+  "meaning": {
+    "en": "to remember; to write down",
+    "zh-Hans": "日记",
+    "zh-Hant": "日記"
+  },
+  "fact": {
+    "en": "记 (記) has 言 (words) for meaning and 己 for sound: 己 (jǐ) sounds a lot like 记 (jì). It means both to write something down and to keep it in mind.",
+    "zh-Hans": "“记”的“讠”（言）表示意思，“己”表示读音，“己”（jǐ）和“记”（jì）读起来很像。“记”既可以是写下来，也可以是记在心里。",
+    "zh-Hant": "「記」左邊的「言」表示意思，右邊的「己」表示讀音，「己」（jǐ）和「記」（jì）讀起來很像。「記」既可以是寫下來，也可以是記在心裡。"
+  },
+  "story": {
+    "topic": {
+      "en": "Dear Diary",
+      "zh-Hans": "亲爱的日记",
+      "zh-Hant": "親愛的日記"
+    },
+    "hook": {
+      "en": "Dear Diary: today I saw a rainbow and a snail in a hurry! Jojo writes it all down so she'll never forget.",
+      "zh-Hans": "亲爱的日记：今天我看见了彩虹，还有一只急急忙忙的蜗牛！乔乔把这些都写下来，永远不会忘记。",
+      "zh-Hant": "親愛的日記：今天我看見了彩虹，還有一隻急急忙忙的蝸牛！喬喬把這些都寫下來，永遠不會忘記。"
+    },
+    "closer": {
+      "en": "Write it down, keep it in mind: 记 (記), to remember!",
+      "zh-Hans": "写下来，记在心里，这就是日记的“记”！",
+      "zh-Hant": "寫下來，記在心裡，這就是日記的「記」！"
+    }
+  },
+  "journey": "default",
+  "origin": {
+    "type": "phono-semantic",
+    "parts": [
+      {
+        "char": "言",
+        "role": "meaning",
+        "gloss": {
+          "en": "speech; words",
+          "zh-Hans": "话语",
+          "zh-Hant": "話語"
+        }
+      },
+      {
+        "char": "己",
+        "role": "sound"
+      }
+    ]
+  },
+  "status": "draft",
+  "sources": [
+    {
+      "title": "Wiktionary: 记",
+      "url": "https://en.wiktionary.org/wiki/%E8%AE%B0"
+    },
+    {
+      "title": "Wiktionary: 記",
+      "url": "https://en.wiktionary.org/wiki/%E8%A8%98"
+    }
+  ]
+}

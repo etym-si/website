@@ -1,0 +1,44 @@
+{
+  "id": "思",
+  "text": { "Hans": "思", "Hant": "思" },
+  "readings": { "pinyin": "sī" },
+  "meaning": { "en": "to think", "zh-Hans": "思考", "zh-Hant": "思考" },
+  "fact": {
+    "en": "思 was originally written 恖: 囟 on top and 心, the heart, below.",
+    "zh-Hans": "“思”原来写作“恖”：上面是“囟”，下面是“心”。",
+    "zh-Hant": "「思」原來寫作「恖」：上面是「囟」，下面是「心」。"
+  },
+  "story": {
+    "topic": { "en": "Wondering at the Rainy Window", "zh-Hans": "雨天的窗前", "zh-Hant": "雨天的窗前" },
+    "hook": {
+      "en": "Chin in her hands, Lily watches raindrops race down the window and wonders: where does all that water come from?",
+      "zh-Hans": "莉莉双手托着下巴，看着雨滴顺着窗户往下滑，心里琢磨：这么多雨水是从哪里来的呢？",
+      "zh-Hant": "莉莉雙手托著下巴，看著雨滴順著窗戶往下滑，心裡琢磨：這麼多雨水是從哪裡來的呢？"
+    },
+    "early": {
+      "en": "An old dictionary says 囟 was there for its sound. Others think 囟, the soft spot on top of a baby's head, joins the heart to make the meaning.",
+      "zh-Hans": "古老的字典认为“囟”是表示读音的。也有人认为，“囟”是婴儿头顶软软的囟门，和“心”一起表示意思。",
+      "zh-Hant": "古老的字典認為「囟」是表示讀音的。也有人認為，「囟」是嬰兒頭頂軟軟的囟門，和「心」一起表示意思。"
+    },
+    "turn": {
+      "en": "Over time, scribes began writing 囟 like 田 (field), even though the two are unrelated. That's why 思 has a 田 on top today.",
+      "zh-Hans": "后来，人们渐渐把“囟”写得像“田”，其实两者毫无关系。所以今天“思”的上面是个“田”。",
+      "zh-Hant": "後來，人們漸漸把「囟」寫得像「田」，其實兩者毫無關係。所以今天「思」的上面是個「田」。"
+    },
+    "closer": {
+      "en": "Thinking slowly and carefully, with 囟 and 心 (now 田 and 心): that's 思, to think deeply.",
+      "zh-Hans": "从“囟”加“心”，到今天的“田”加“心”，慢慢地、认真地想，这就是思考的“思”。",
+      "zh-Hant": "從「囟」加「心」，到今天的「田」加「心」，慢慢地、認真地想，這就是思考的「思」。"
+    }
+  },
+  "journey": "default",
+  "origin": {
+    "type": "phono-semantic",
+    "parts": [
+      { "char": "心", "role": "meaning", "gloss": { "en": "heart", "zh-Hans": "心", "zh-Hant": "心" } },
+      { "char": "囟", "role": "sound" }
+    ]
+  },
+  "status": "draft",
+  "sources": [ { "title": "Wiktionary: 思", "url": "https://en.wiktionary.org/wiki/%E6%80%9D" } ]
+}

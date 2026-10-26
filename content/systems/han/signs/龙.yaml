@@ -1,0 +1,21 @@
+id: 龙
+text: { Hans: 龙, Hant: 龍 }
+readings: { pinyin: lóng }
+meaning: { en: dragon, zh-Hans: 龙舟, zh-Hant: 龍舟 }
+fact:
+  en: '龙 (龍) is a dragon: a sacred, imaginary creature that mixes a snake, a crocodile, a fish, a deer and more.'
+  zh-Hans: “龙”是一种神圣的想象中的动物，身上有蛇、鳄鱼、鱼、鹿等动物的特点。
+  zh-Hant: 「龍」是一種神聖的想像中的動物，身上有蛇、鱷魚、魚、鹿等動物的特點。
+story:
+  topic: { en: The Dancing Dragon Parade, zh-Hans: 街上舞龙, zh-Hant: 街上舞龍 }
+  hook: { en: 'Boom, boom, clang! A long dragon dances down the street, twisting and wiggling on dozens of legs.', zh-Hans: 咚咚锵，咚咚锵！一条长长的龙在街上舞动，扭来扭去，下面是好多条腿。, zh-Hant: 咚咚鏘，咚咚鏘！一條長長的龍在街上舞動，扭來扭去，下面是好多條腿。 }
+  early: { en: 'On oracle bones and bronzes, 龍 has a big-mouthed head and an S-shaped body, sometimes with decorations on its head.', zh-Hans: 在甲骨文和金文里，“龙”有一个大嘴巴的脑袋和S形的身体，头上有时还戴着装饰。, zh-Hant: 在甲骨文和金文裡，「龍」有一個大嘴巴的腦袋和S形的身體，頭上有時還戴著裝飾。 }
+  turn: { en: 'Simplified 龙 was made by trimming a variant of 龍 again and again, until just a few strokes were left.', zh-Hans: 简体的“龙”是从“龍”的一个异体字一次次删减笔画变来的，最后只剩下几笔。, zh-Hant: 簡體字是從「龍」的一個異體字一次次刪減筆畫變來的，最後只剩下幾筆。 }
+  closer: { en: 'A snaky, fishy, deer-ish wonder: that is 龙 (龍), the dragon!', zh-Hans: 像蛇、像鱼又像鹿的神奇动物：这就是“龙”！, zh-Hant: 像蛇、像魚又像鹿的神奇動物：這就是「龍」！ }
+journey: default
+origin:
+  type: pictogram
+status: draft
+sources:
+  - { title: 'Wiktionary: 龙', url: 'https://en.wiktionary.org/wiki/%E9%BE%99' }
+  - { title: 'Wiktionary: 龍', url: 'https://en.wiktionary.org/wiki/%E9%BE%8D' }

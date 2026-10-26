@@ -1,0 +1,32 @@
+{
+ "id": "关",
+ "s": "关",
+ "t": "關",
+ "forms": {
+  "s": "关",
+  "alt": "関,𨶚,𢇅,𬮦-Singapore simp.,…"
+ },
+ "pinyin": [
+  "guān"
+ ],
+ "glyph_origin": "The bronze inscription was in the form of 門 (“door”) + 卝 (“locked door; two wooden sticks to lock a door”). 卝 might also serve as a phonetic component. The whole character represents a door locked with two wooden sticks. Then, the character slightly evolved into Phono-semantic compound (形聲): semantic 門 (“door”) + phonetic 𢇅, in which two couples of rings similar to 幺幺 are visible on top of the two wooden sticks.",
+ "s_page_origin": "Simplified from 関 (門 →).",
+ "shuowen": [],
+ "senses": [
+  "[guān] door bolt",
+  "[guān] to close; to shut"
+ ],
+ "sources": [
+  {
+   "title": "Wiktionary: 关",
+   "url": "https://en.wiktionary.org/wiki/%E5%85%B3",
+   "rev": 84772547
+  },
+  {
+   "title": "Wiktionary: 關",
+   "url": "https://en.wiktionary.org/wiki/%E9%97%9C",
+   "rev": 93531655
+  }
+ ],
+ "note": "glyph_origin is from the traditional page 關; s_page_origin explains the simplified 关."
+}

@@ -1,0 +1,19 @@
+id: 口
+text: { Hans: 口, Hant: 口 }
+readings: { pinyin: kǒu }
+meaning: { en: mouth, zh-Hans: 口水, zh-Hant: 口水 }
+fact:
+  en: 口 is a picture of an open mouth. Today it's drawn as a neat square.
+  zh-Hans: “口”画的是一张张开的嘴巴。今天它写成了一个方方正正的框。
+  zh-Hant: 「口」畫的是一張張開的嘴巴。今天它寫成了一個方方正正的框。
+story:
+  topic: { en: Blowing Out the Candles, zh-Hans: 吹蜡烛, zh-Hant: 吹蠟燭 }
+  hook: { en: Take a deep breath — whoosh! You open your mouth wide and blow out all seven birthday candles., zh-Hans: 深吸一口气——呼！你张大嘴巴，一下子吹灭了七根生日蜡烛。, zh-Hant: 深吸一口氣——呼！你張大嘴巴，一下子吹熄了七根生日蠟燭。 }
+  early: { en: "The oldest 口 is a mouth opened wide, as if it's about to talk, eat or sing.", zh-Hans: 最早的“口”就是一张张开的嘴，好像正要说话、吃东西或唱歌。, zh-Hant: 最早的「口」就是一張張開的嘴，好像正要說話、吃東西或唱歌。 }
+  closer: { en: 'Open wide! That shape is 口, mouth — now go find it hiding in other characters.', zh-Hans: 张大嘴巴！这就是“口”——快去别的字里找找它吧。, zh-Hant: 張大嘴巴！這就是「口」——快去別的字裡找找它吧。 }
+journey: default
+origin:
+  type: pictogram
+status: draft
+sources:
+  - { title: 'Wiktionary: 口', url: 'https://en.wiktionary.org/wiki/%E5%8F%A3' }

@@ -1,0 +1,33 @@
+{
+  "id": "五",
+  "text": { "Hans": "五", "Hant": "五" },
+  "readings": { "pinyin": "wǔ" },
+  "meaning": { "en": "five", "zh-Hans": "五颜六色", "zh-Hant": "五顏六色" },
+  "fact": {
+    "en": "五 means five. It was first written as an X (㐅) with a bar on top and bottom, and no one is completely sure what that first showed.",
+    "zh-Hans": "“五”表示数字五。它最早写成一个叉（㐅），上下各加一横；这到底画的是什么，谁也说不准。",
+    "zh-Hant": "「五」表示數字五。它最早寫成一個叉（㐅），上下各加一橫；這到底畫的是什麼，誰也說不準。"
+  },
+  "story": {
+    "topic": { "en": "A Starfish on the Beach", "zh-Hans": "沙滩上的海星", "zh-Hant": "沙灘上的海星" },
+    "hook": {
+      "en": "Look what the waves left behind: a bumpy orange starfish with five arms!",
+      "zh-Hans": "看，海浪留下了什么：一只疙疙瘩瘩的橙色海星，有五条腕！",
+      "zh-Hant": "看，海浪留下了什麼：一隻疙疙瘩瘩的橘色海星，有五條腕！"
+    },
+    "early": {
+      "en": "The old 五 is an X shape with a line above and a line below. Ideas about it include a tally mark, a picture of crossing, or lines on an open palm.",
+      "zh-Hans": "古老的“五”是一个叉，上下各有一横。有人说它是计数的记号，有人说它表示交叉，也有人说它是张开手掌时的掌纹。",
+      "zh-Hant": "古老的「五」是一個叉，上下各有一橫。有人說它是計數的記號，有人說它表示交叉，也有人說它是張開手掌時的掌紋。"
+    },
+    "closer": {
+      "en": "An X tucked between two lines: that's 五, five!",
+      "zh-Hans": "上下两横夹着一个叉，这就是“五”！",
+      "zh-Hant": "上下兩橫夾著一個叉，這就是「五」！"
+    }
+  },
+  "journey": "default",
+  "origin": { "type": "uncertain" },
+  "status": "draft",
+  "sources": [ { "title": "Wiktionary: 五", "url": "https://en.wiktionary.org/wiki/%E4%BA%94" } ]
+}

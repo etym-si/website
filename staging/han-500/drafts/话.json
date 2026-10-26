@@ -1,0 +1,67 @@
+{
+  "id": "话",
+  "text": {
+    "Hans": "话",
+    "Hant": "話"
+  },
+  "readings": {
+    "pinyin": "huà"
+  },
+  "meaning": {
+    "en": "words; talk",
+    "zh-Hans": "电话",
+    "zh-Hant": "電話"
+  },
+  "fact": {
+    "en": "话 (話) has 言 (words) for meaning and a sound part on the right. That right part looks like 舌 (tongue), but it has nothing to do with the tongue!",
+    "zh-Hans": "“话”的“讠”（言）表示意思，右边是表示读音的部分。右边看起来像舌头的“舌”，其实和舌头一点关系也没有！",
+    "zh-Hant": "「話」左邊的「言」表示意思，右邊是表示讀音的部分。右邊看起來像舌頭的「舌」，其實和舌頭一點關係也沒有！"
+  },
+  "story": {
+    "topic": {
+      "en": "A Phone Call from Grandma",
+      "zh-Hans": "奶奶打来的电话",
+      "zh-Hant": "奶奶打來的電話"
+    },
+    "hook": {
+      "en": "Ring, ring! Grandma calls from far away, and Lulu tells her all about the school play: she was a dancing carrot!",
+      "zh-Hans": "叮铃铃！奶奶从很远的地方打来电话，露露把学校演出的事一五一十都告诉了她：她演了一根会跳舞的胡萝卜！",
+      "zh-Hant": "叮鈴鈴！奶奶從很遠的地方打來電話，露露把學校表演的事一五一十都告訴了她：她演了一根會跳舞的紅蘿蔔！"
+    },
+    "closer": {
+      "en": "Words on the phone, words in stories, words between friends: they're all 话 (話)!",
+      "zh-Hans": "电话里的话，童话里的话，好朋友之间的悄悄话，都是“话”！",
+      "zh-Hant": "電話裡的話，童話裡的話，好朋友之間的悄悄話，都是「話」！"
+    }
+  },
+  "journey": "default",
+  "origin": {
+    "type": "phono-semantic",
+    "parts": [
+      {
+        "char": "言",
+        "role": "meaning",
+        "gloss": {
+          "en": "word",
+          "zh-Hans": "话语",
+          "zh-Hant": "話語"
+        }
+      },
+      {
+        "char": "𠯑",
+        "role": "sound"
+      }
+    ]
+  },
+  "status": "draft",
+  "sources": [
+    {
+      "title": "Wiktionary: 话",
+      "url": "https://en.wiktionary.org/wiki/%E8%AF%9D"
+    },
+    {
+      "title": "Wiktionary: 話",
+      "url": "https://en.wiktionary.org/wiki/%E8%A9%B1"
+    }
+  ]
+}

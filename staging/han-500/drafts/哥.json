@@ -1,0 +1,30 @@
+{
+  "id": "哥",
+  "text": { "Hans": "哥", "Hant": "哥" },
+  "readings": { "pinyin": "gē" },
+  "meaning": { "en": "older brother", "zh-Hans": "哥哥", "zh-Hant": "哥哥" },
+  "fact": {
+    "en": "哥 is two 可 stacked up. It first meant 'to sing' or 'a song'; perhaps each 可 is an open mouth letting out breath.",
+    "zh-Hans": "“哥”是两个“可”叠在一起。它最早的意思是“唱歌”；也许每个“可”都是一张张开的嘴，正往外吐气。",
+    "zh-Hant": "「哥」是兩個「可」疊在一起。它最早的意思是「唱歌」；也許每個「可」都是一張張開的嘴，正往外吐氣。"
+  },
+  "story": {
+    "topic": { "en": "Big Brother's Basketball Boost", "zh-Hans": "哥哥帮我投篮", "zh-Hant": "哥哥幫我投籃" },
+    "hook": {
+      "en": "Swish! Big brother sinks a basket, then lifts his little brother up high so he can score one too.",
+      "zh-Hans": "唰！哥哥投进一个球，又把弟弟高高举起来，让他也投进一个。",
+      "zh-Hant": "唰！哥哥投進一顆球，又把弟弟高高舉起來，讓他也投進一顆。"
+    },
+    "closer": {
+      "en": "Two 可 stacked up: that's 哥, as in 哥哥, big brother!",
+      "zh-Hans": "两个“可”叠起来，这就是哥哥的“哥”！",
+      "zh-Hant": "兩個「可」疊起來，這就是哥哥的「哥」！"
+    }
+  },
+  "journey": [],
+  "origin": {
+    "type": "uncertain"
+  },
+  "status": "draft",
+  "sources": [ { "title": "Wiktionary: 哥", "url": "https://en.wiktionary.org/wiki/%E5%93%A5" } ]
+}

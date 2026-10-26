@@ -1,0 +1,21 @@
+id: 菜
+text: { Hans: 菜, Hant: 菜 }
+readings: { pinyin: cài }
+meaning: { en: vegetables; dish, zh-Hans: 青菜, zh-Hant: 青菜 }
+fact:
+  en: '菜 has 艹 (plants) on top for meaning and 采 below for sound: 采 (cǎi) sounds a lot like 菜 (cài).'
+  zh-Hans: “菜”上面的“艹”（植物）表示意思，下面的“采”表示读音，“采”（cǎi）和“菜”（cài）读起来很像。
+  zh-Hant: 「菜」上面的「艹」（植物）表示意思，下面的「采」表示讀音，「采」（cǎi）和「菜」（cài）讀起來很像。
+story:
+  topic: { en: Grandma's Vegetable Garden, zh-Hans: 奶奶的菜园, zh-Hant: 奶奶的菜園 }
+  hook: { en: "Snap! In Grandma's vegetable garden, Linlin picks a crunchy pea pod and pops it straight into her mouth.", zh-Hans: 啪！在奶奶的菜园里，琳琳摘下一个脆脆的豆荚，直接塞进了嘴里。, zh-Hant: 啪！在奶奶的菜園裡，琳琳摘下一個脆脆的豆莢，直接塞進了嘴裡。 }
+  closer: { en: 'From the garden to your plate: veggies and tasty dishes are all 菜!', zh-Hans: 从菜园到饭桌，青菜和一盘盘好菜，都是“菜”！, zh-Hant: 從菜園到飯桌，青菜和一盤盤好菜，都是「菜」！ }
+journey: default
+origin:
+  type: phono-semantic
+  parts:
+    - { char: 艹, role: meaning, gloss: { en: grass; plant, zh-Hans: 草、植物, zh-Hant: 草、植物 } }
+    - { char: 采, role: sound }
+status: draft
+sources:
+  - { title: 'Wiktionary: 菜', url: 'https://en.wiktionary.org/wiki/%E8%8F%9C' }

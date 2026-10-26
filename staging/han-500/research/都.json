@@ -1,0 +1,28 @@
+{
+ "id": "都",
+ "s": "都",
+ "t": "都",
+ "forms": {
+  "alt": "𨜞,𨛷"
+ },
+ "pinyin": [
+  "dū",
+  "dōu"
+ ],
+ "glyph_origin": "Phono-semantic compound (形聲): phonetic 者 + semantic 邑 (“town, city”).",
+ "s_page_origin": "",
+ "shuowen": [],
+ "senses": [
+  "[dū] metropolis; large city",
+  "[dū] capital; capital city",
+  "[dōu] all; both (used to indicate that the statement is true for every subject or object); …",
+  "[dōu] (emphasis on subject) even"
+ ],
+ "sources": [
+  {
+   "title": "Wiktionary: 都",
+   "url": "https://en.wiktionary.org/wiki/%E9%83%BD",
+   "rev": 92731497
+  }
+ ]
+}

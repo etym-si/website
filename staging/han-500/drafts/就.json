@@ -1,0 +1,73 @@
+{
+  "id": "就",
+  "text": {
+    "Hans": "就",
+    "Hant": "就"
+  },
+  "readings": {
+    "pinyin": "jiù"
+  },
+  "meaning": {
+    "en": "right away; then",
+    "zh-Hans": "就是",
+    "zh-Hant": "就是"
+  },
+  "fact": {
+    "en": "就 began as 享 and 京, a temple and a tower: going to a high place to make offerings.",
+    "zh-Hans": "“就”最早由“享”和“京”组成，是一座庙和一座高楼，意思是到高处去祭祀。",
+    "zh-Hant": "「就」最早由「享」和「京」組成，是一座廟和一座高樓，意思是到高處去祭祀。"
+  },
+  "story": {
+    "topic": {
+      "en": "Here Comes the Garbage Truck!",
+      "zh-Hans": "垃圾车来啦！",
+      "zh-Hant": "垃圾車來囉！"
+    },
+    "hook": {
+      "en": "As soon as the garbage truck's tune comes down the street, Kim races out right away to wave at the driver.",
+      "zh-Hans": "垃圾车的音乐一传过来，小金马上就跑出门，向司机叔叔挥手。",
+      "zh-Hant": "垃圾車的音樂一傳過來，小金馬上就跑出門，向司機叔叔揮手。"
+    },
+    "turn": {
+      "en": "Later 享 was dropped, and in seal script 尤 was added on the right, meaning “going higher”.",
+      "zh-Hans": "后来，“享”被省掉了；到了篆书，右边又加上了“尤”，表示“往更高的地方去”。",
+      "zh-Hant": "後來，「享」被省掉了；到了篆書，右邊又加上了「尤」，表示「往更高的地方去」。"
+    },
+    "closer": {
+      "en": "A tower 京 and 尤 for going higher: that's 就! Today it helps us say “right away”.",
+      "zh-Hans": "高楼“京”加上往高处去的“尤”——这就是“就”！今天我们说“马上就来”，用的就是它。",
+      "zh-Hant": "高樓「京」加上往高處去的「尤」——這就是「就」！今天我們說「馬上就來」，用的就是它。"
+    }
+  },
+  "journey": "default",
+  "origin": {
+    "type": "compound-ideogram",
+    "parts": [
+      {
+        "char": "京",
+        "role": "meaning",
+        "gloss": {
+          "en": "tower",
+          "zh-Hans": "高楼",
+          "zh-Hant": "高樓"
+        }
+      },
+      {
+        "char": "尤",
+        "role": "meaning",
+        "gloss": {
+          "en": "even more, higher",
+          "zh-Hans": "更加",
+          "zh-Hant": "更加"
+        }
+      }
+    ]
+  },
+  "status": "draft",
+  "sources": [
+    {
+      "title": "Wiktionary: 就",
+      "url": "https://en.wiktionary.org/wiki/%E5%B0%B1"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+ "id": "拉",
+ "s": "拉",
+ "t": "拉",
+ "forms": {
+  "alt": "啦"
+ },
+ "pinyin": [
+  "lā",
+  "lá",
+  "lǎ",
+  "là",
+  "la"
+ ],
+ "glyph_origin": "Phono-semantic compound (形聲): semantic 手 (“hand”) + phonetic 立.",
+ "s_page_origin": "",
+ "shuowen": [],
+ "senses": [
+  "[lā] to pull; to drag; to tug",
+  "[lā] to transport by vehicle; to haul; to carry on a vehicle",
+  "[lá] (Mainland China) to cut; to slit; to slash",
+  "[lǎ] (Mainland China, colloquial) section; part",
+  "to be at; to be in",
+  "at; in"
+ ],
+ "sources": [
+  {
+   "title": "Wiktionary: 拉",
+   "url": "https://en.wiktionary.org/wiki/%E6%8B%89",
+   "rev": 93585269
+  }
+ ]
+}

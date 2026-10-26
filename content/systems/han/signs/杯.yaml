@@ -1,0 +1,21 @@
+id: 杯
+text: { Hans: 杯, Hant: 杯 }
+readings: { pinyin: bēi }
+meaning: { en: cup, zh-Hans: 杯子, zh-Hant: 杯子 }
+fact:
+  en: 杯 has 木 (wood) on the left for the meaning and 不 on the right for the sound. Another way to write it, 桮, uses 否 instead.
+  zh-Hans: “杯”左边的“木”表示意思，右边的“不”表示读音。它还有另一种写法“桮”，读音部分用的是“否”。
+  zh-Hant: 「杯」左邊的「木」表示意思，右邊的「不」表示讀音。它還有另一種寫法「桮」，讀音部分用的是「否」。
+story:
+  topic: { en: Hot Cocoa on a Cold Day, zh-Hans: 冷天里的热可可, zh-Hant: 冷天裡的熱可可 }
+  hook: { en: 'Blow, blow! Amy wraps her mittens around a steaming cup of cocoa and takes a tiny sip.', zh-Hans: 呼——呼——！艾米戴着手套捧起一杯热腾腾的可可，小小地喝了一口。, zh-Hant: 呼——呼——！艾米戴著手套捧起一杯熱騰騰的可可，小小地喝了一口。 }
+  closer: { en: "Wood on the left, 不 for the sound: that's 杯, a cup!", zh-Hans: 左边“木”，右边“不”，这就是杯子的“杯”！, zh-Hant: 左邊「木」，右邊「不」，這就是杯子的「杯」！ }
+journey: []
+origin:
+  type: phono-semantic
+  parts:
+    - { char: 木, role: meaning, gloss: { en: wood, zh-Hans: 木头, zh-Hant: 木頭 } }
+    - { char: 不, role: sound }
+status: draft
+sources:
+  - { title: 'Wiktionary: 杯', url: 'https://en.wiktionary.org/wiki/%E6%9D%AF' }

@@ -1,0 +1,27 @@
+{
+ "id": "晴",
+ "s": "晴",
+ "t": "晴",
+ "forms": {
+  "alt": "夝,星,暒,精,…"
+ },
+ "pinyin": [
+  "qíng"
+ ],
+ "glyph_origin": "Written as 夝 in Shuowen and as 星 in the Classic of Poetry. Phono-semantic compound (形聲): semantic 日 (“sun”) + phonetic 青.",
+ "s_page_origin": "",
+ "shuowen": [
+  "Written as 夝 in Shuowen and as 星 in the Classic of Poetry."
+ ],
+ "senses": [
+  "[qíng] (of weather) clear; fine; cloudless",
+  "[qíng] (Hokkien, obsolete in standard Chinese) to stop (of rain, snow, etc.)"
+ ],
+ "sources": [
+  {
+   "title": "Wiktionary: 晴",
+   "url": "https://en.wiktionary.org/wiki/%E6%99%B4",
+   "rev": 92200676
+  }
+ ]
+}

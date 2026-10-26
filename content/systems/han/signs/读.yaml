@@ -1,0 +1,23 @@
+id: 读
+text: { Hans: 读, Hant: 讀 }
+readings: { pinyin: dú }
+meaning: { en: to read, zh-Hans: 读书, zh-Hant: 讀書 }
+fact:
+  en: 读 (讀) has 言 (to say) for meaning, and it could once mean 'to say aloud, to tell'. Today it means to read.
+  zh-Hans: “读”的“讠”（言）表示意思，它以前还可以表示“念出来、讲述”。现在它的意思是读书、阅读。
+  zh-Hant: 「讀」左邊的「言」表示意思，它以前還可以表示「念出來、講述」。現在它的意思是讀書、閱讀。
+story:
+  topic: { en: One More Page!, zh-Hans: 再读一页！, zh-Hant: 再讀一頁！ }
+  hook: { en: 'Under the blanket with a flashlight, Ella reads one more page... and then just one more!', zh-Hans: 艾拉躲在被窝里，打着手电筒看书：再读一页……就再读一页！, zh-Hant: 艾拉躲在被窩裡，打著手電筒看書：再讀一頁……就再讀一頁！ }
+  turn: { en: 'In simplified 读, 言 shrank to 讠 and the right side 賣 became 卖.', zh-Hans: 在简体字“读”里，“言”变成了“讠”，右边的“賣”也简化成了“卖”。, zh-Hant: 在簡體字「读」裡，「言」變成了「讠」，右邊的「賣」也簡化成了「卖」。 }
+  closer: { en: 'Out loud or in your head, every page you read is 读 (讀)!', zh-Hans: 大声读也好，静静读也好，翻开每一页都是读书的“读”！, zh-Hant: 大聲讀也好，靜靜讀也好，翻開每一頁都是讀書的「讀」！ }
+journey: default
+origin:
+  type: phono-semantic
+  parts:
+    - { char: 言, role: meaning, gloss: { en: to say, zh-Hans: 说, zh-Hant: 說 } }
+    - { char: 𧶠, role: sound }
+status: draft
+sources:
+  - { title: 'Wiktionary: 读', url: 'https://en.wiktionary.org/wiki/%E8%AF%BB' }
+  - { title: 'Wiktionary: 讀', url: 'https://en.wiktionary.org/wiki/%E8%AE%80' }

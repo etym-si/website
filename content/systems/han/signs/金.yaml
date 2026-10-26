@@ -1,0 +1,22 @@
+id: 金
+text: { Hans: 金, Hant: 金 }
+readings: { pinyin: jīn }
+meaning: { en: gold; metal, zh-Hans: 金子, zh-Hant: 金子 }
+fact:
+  en: 金 first meant copper. Later it meant any metal, and then gold!
+  zh-Hans: “金”最早指的是铜，后来泛指各种金属，再后来才指黄金！
+  zh-Hant: 「金」最早指的是銅，後來泛指各種金屬，再後來才指黃金！
+story:
+  topic: { en: The Gold Medal, zh-Hans: 闪亮的金牌, zh-Hant: 閃亮的金牌 }
+  hook: { en: First place! A shiny gold medal swings from Huahua's neck as everyone claps and cheers., zh-Hans: 第一名！一枚亮闪闪的金牌挂在花花的脖子上，大家都为她鼓掌欢呼。, zh-Hant: 第一名！一面亮閃閃的金牌掛在花花的脖子上，大家都為她鼓掌歡呼。 }
+  early: { en: 'The oldest 金 includes two little blocks of metal, which later turned into two short strokes. An old dictionary thought it showed metal buried in the earth, but the oldest versions have no earth in them at all.', zh-Hans: 最古老的“金”里有两小块金属，后来变成了两个短短的点。古代的字典以为它画的是埋在土里的金属，可是最古老的“金”里根本没有土！, zh-Hant: 最古老的「金」裡有兩小塊金屬，後來變成了兩個短短的點。古代的字典以為它畫的是埋在土裡的金屬，可是最古老的「金」裡根本沒有土！ }
+  closer: { en: "Two blocks of metal and 亼 (今, jīn) for the sound: that's 金 (jīn), metal and gold!", zh-Hans: 两块金属，加上表示读音的“亼”（今，jīn），就是金子的“金”（jīn）！, zh-Hant: 兩塊金屬，加上表示讀音的「亼」（今，jīn），就是金子的「金」（jīn）！ }
+journey: default
+origin:
+  type: phono-semantic
+  parts:
+    - { char: 呂, role: meaning, gloss: { en: two blocks of metal, zh-Hans: 两块金属, zh-Hant: 兩塊金屬 } }
+    - { char: 亼, role: sound }
+status: draft
+sources:
+  - { title: 'Wiktionary: 金', url: 'https://en.wiktionary.org/wiki/%E9%87%91' }

@@ -1,0 +1,34 @@
+{
+  "id": "到",
+  "text": { "Hans": "到", "Hant": "到" },
+  "readings": { "pinyin": "dào" },
+  "meaning": { "en": "to arrive", "zh-Hans": "到达", "zh-Hant": "到達" },
+  "fact": {
+    "en": "到 has 至 (to arrive) on the left for the meaning. On the right, 刀 (dāo), written 刂, gives the sound, close to dào!",
+    "zh-Hans": "“到”左边的“至”表示到达，是意思部分；右边的“刂”就是“刀”（dāo），表示读音，和“到”（dào）读起来很像！",
+    "zh-Hant": "「到」左邊的「至」表示到達，是意思部分；右邊的「刂」就是「刀」（dāo），表示讀音，和「到」（dào）讀起來很像！"
+  },
+  "story": {
+    "topic": { "en": "Are We There Yet?", "zh-Hans": "到了没有？", "zh-Hant": "到了沒有？" },
+    "hook": {
+      "en": "Are we there yet? After a long drive, Max finally spots the sparkling blue sea through the car window.",
+      "zh-Hans": "“到了吗？”坐了好久的车，麦克斯终于从车窗里看见了闪闪发亮的蓝色大海。",
+      "zh-Hant": "「到了嗎？」坐了好久的車，麥克斯終於從車窗裡看見了閃閃發亮的藍色大海。"
+    },
+    "closer": {
+      "en": "We made it! Getting to the place you're going is 到, to arrive.",
+      "zh-Hans": "我们到啦！到达要去的地方，就是“到”。",
+      "zh-Hant": "我們到啦！到達要去的地方，就是「到」。"
+    }
+  },
+  "journey": "default",
+  "origin": {
+    "type": "phono-semantic",
+    "parts": [
+      { "char": "至", "role": "meaning", "gloss": { "en": "to arrive", "zh-Hans": "到达", "zh-Hant": "到達" } },
+      { "char": "刀", "role": "sound" }
+    ]
+  },
+  "status": "draft",
+  "sources": [ { "title": "Wiktionary: 到", "url": "https://en.wiktionary.org/wiki/%E5%88%B0" } ]
+}

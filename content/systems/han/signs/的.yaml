@@ -1,0 +1,22 @@
+id: 的
+text: { Hans: 的, Hant: 的 }
+readings: { pinyin: de }
+meaning: { en: possessive particle ('s), zh-Hans: 我的, zh-Hant: 我的 }
+fact:
+  en: 的 first meant 'bright', with 白 (white) for the meaning and 勺 for the sound. Its oldest form, 旳, had a sun 日 instead of 白.
+  zh-Hans: “的”本来的意思是“明亮”，“白”表示意思，“勺”表示读音。它最早写作“旳”，用的是太阳“日”，而不是“白”。
+  zh-Hant: 「的」本來的意思是「明亮」，「白」表示意思，「勺」表示讀音。它最早寫作「旳」，用的是太陽「日」，而不是「白」。
+story:
+  topic: { en: Whose Drawing Is This?, zh-Hans: 这是谁的画？, zh-Hant: 這是誰的畫？ }
+  hook: { en: "Whose drawing is this? 'Mine!' says a boy, pointing proudly at the yellow sun wearing sunglasses.", zh-Hans: 这幅画是谁的？“是我的！”小男孩骄傲地指着那个戴墨镜的黄太阳。, zh-Hant: 這幅畫是誰的？「是我的！」小男孩驕傲地指著那個戴墨鏡的黃太陽。 }
+  turn: { en: "Later the sun 日 was swapped for white 白, giving today's 的.", zh-Hans: 后来，太阳“日”换成了“白”，就成了今天的“的”。, zh-Hant: 後來，太陽「日」換成了「白」，就成了今天的「的」。 }
+  closer: { en: "It started out meaning 'bright'; today 的 is the little word in 我的, mine!", zh-Hans: 从前它的意思是“明亮”，今天它是“我的”里的那个“的”！, zh-Hant: 從前它的意思是「明亮」，今天它是「我的」裡的那個「的」！ }
+journey: default
+origin:
+  type: phono-semantic
+  parts:
+    - { char: 白, role: meaning, gloss: { en: white, zh-Hans: 白色, zh-Hant: 白色 } }
+    - { char: 勺, role: sound }
+status: draft
+sources:
+  - { title: 'Wiktionary: 的', url: 'https://en.wiktionary.org/wiki/%E7%9A%84' }
