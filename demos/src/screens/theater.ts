@@ -152,19 +152,28 @@ export function renderTheater(root: HTMLElement, param: string | null): () => vo
   }
 
   // The picker shows the collection that contains the requested sign (else the default collection).
-  void (async () => {
+  // Resolves to the sign to start with ('' when there is none or the screen is gone).
+  const ready = (async () => {
     const found = param ? await findSign(param) : null;
     const coll = found?.collection ?? (await loadCollection(defaultCollectionId()));
-    if (!alive) return;
+    if (!alive) return '';
     renderPicker(coll);
     current = found ? found.summary.key : coll.units[0]?.signs[0] ?? '';
-    if (!current) return;
-    // Browsers only allow speech after a user gesture: ask for one tap if needed.
-    const activated = (navigator as Navigator & { userActivation?: { hasBeenActive: boolean } }).userActivation?.hasBeenActive ?? true;
-    startOverlay.addEventListener('click', () => select(current));
-    if (activated) select(current);
-    else pickBtns.forEach((b, k) => b.classList.toggle('on', k === current));
+    return current;
   })();
+
+  // Browsers only allow speech after a user gesture: ask for one tap if needed. The overlay takes taps from
+  // the moment it is shown, so a tap while the collection is still loading starts the theater once it is ready.
+  startOverlay.addEventListener('click', () => {
+    startOverlay.remove();
+    void ready.then((key) => { if (alive && key) select(key); });
+  });
+  void ready.then((key) => {
+    if (!key || !startOverlay.isConnected) return; // nothing to play, or a tap is already starting it
+    const activated = (navigator as Navigator & { userActivation?: { hasBeenActive: boolean } }).userActivation?.hasBeenActive ?? true;
+    if (activated) select(key);
+    else pickBtns.forEach((b, k) => b.classList.toggle('on', k === key));
+  });
 
   return () => {
     alive = false;

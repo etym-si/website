@@ -24,9 +24,10 @@ after(async () => {
   await server?.close();
 });
 
-async function visit(hash: string, act: (page: Page) => Promise<void>): Promise<{ mp3: { url: string; status: number }[] }> {
+async function visit(hash: string, act: (page: Page) => Promise<void>, prepare?: (page: Page) => Promise<void>): Promise<{ mp3: { url: string; status: number }[] }> {
   const page = await browser.newPage({ viewport: { width: 1366, height: 900 } });
   const w = await watchPage(page);
+  await prepare?.(page);
   await page.goto(server.url + hash);
   await act(page);
   await page.close();
@@ -51,6 +52,26 @@ test('the theater plays on the namespaced route and the legacy route', async () 
       assert.match(p.url(), /#\/theater\/han\/%E9%A9%AC$/);
     });
     assert.ok(w.mp3.length >= 1, `${hash}: the sign's audio section was fetched`);
+  }
+});
+
+test('a tap on the theater overlay while the collection is still loading is never lost', async () => {
+  let release = () => {};
+  const held = new Promise<void>((resolve) => { release = resolve; });
+  try {
+    await visit('#/theater/han/%E9%A9%AC', async (p) => {
+      await p.locator('.start-overlay').click(); // the collection response is held back: nothing has loaded yet
+      await p.locator('.start-overlay').waitFor({ state: 'detached', timeout: 2000 }); // the tap was taken at once
+      release();
+      await p.locator('.tl-station[data-stage="picture"].current').waitFor({ timeout: 15000 }); // and the theater plays
+    }, async (p) => {
+      await p.route('**/data/collections/**', async (route) => {
+        await held;
+        await route.continue();
+      });
+    });
+  } finally {
+    release();
   }
 });
 
