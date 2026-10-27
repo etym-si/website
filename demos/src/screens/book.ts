@@ -51,9 +51,9 @@ export function renderBook(root: HTMLElement, collectionId: string): () => void 
         io.observe(art);
         return h('a', {
           class: `sticker ${have ? 'got' : 'missing'}`, href: `#/theater/${coll.system}/${encodeURIComponent(sum.id)}`, style: { '--u': u.color },
-          'aria-label': have ? `${signText(sum.text)} ${sum.reading}` : '?',
-        }, art, h('span', { class: 'sticker-char', lang: 'zh' }, have ? signText(sum.text) : '?'),
-        have ? h('span', { class: 'sticker-pinyin' }, sum.reading) : null);
+          'aria-label': `${signText(sum.text)} ${sum.reading}`,
+        }, art, h('span', { class: 'sticker-char', lang: 'zh' }, signText(sum.text)),
+        h('span', { class: 'sticker-pinyin' }, sum.reading));
       });
       return h('section', { class: 'book-unit' },
         h('h2', { style: { color: u.color } }, `${t('unit')} ${u.n} · ${tx(u.title)}`),

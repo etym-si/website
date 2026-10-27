@@ -1,11 +1,17 @@
 import { h } from '../dom';
-import { t } from '../i18n';
+import { t, tx } from '../i18n';
 import { header, mascot } from '../ui/common';
 import { Stage } from '../engine/stage';
 import { Player } from '../engine/player';
-import { defaultCollectionId, loadCollection, loadSign, system } from '../content';
+import { CATALOG, defaultCollectionId, loadCollection, loadSign, system } from '../content';
 import { signSource } from '../play-source';
 import type { Step } from '../../shared/bundle-types.ts';
+
+const FIRST_500_DESC = {
+  en: 'Explore 500 foundational characters across 50 themed units — people, nature, animals, tools & home.',
+  'zh-Hans': '探索50个主题单元里的500个基础汉字：人物、自然、动物、工具与家园。',
+  'zh-Hant': '探索50個主題單元裡的500個基礎漢字：人物、自然、動物、工具與家園。',
+};
 
 function card(href: string, icon: string, title: string, desc: string, cls: string): HTMLElement {
   return h('a', { href, class: `card ${cls}` },
@@ -16,6 +22,7 @@ function card(href: string, icon: string, title: string, desc: string, cls: stri
 
 export function renderHome(root: HTMLElement): () => void {
   const stageBox = h('div', { class: 'teaser', 'aria-hidden': 'true' });
+  const first500 = CATALOG.collections.find((c) => c.id === 'first-500');
   root.replaceChildren(
     header(),
     h('main', { class: 'home' },
@@ -26,6 +33,9 @@ export function renderHome(root: HTMLElement): () => void {
         stageBox),
       h('nav', { class: 'cards' },
         card('#/theater', '🎭', t('theaterTitle'), t('theaterDesc'), 'c1'),
+        first500
+          ? card('#/theater/first-500', '📚', tx(first500.title), tx(FIRST_500_DESC), 'c5')
+          : null,
         card('#/story', '🎬', t('storyTitle'), t('storyDesc'), 'c2'),
         card('#/learn', '🐢', t('learnTitle'), t('learnDesc'), 'c3'),
         card('#/book', '📒', t('bookTitle'), t('bookDesc'), 'c4')),

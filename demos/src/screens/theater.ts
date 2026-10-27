@@ -12,6 +12,7 @@ import type { CollectionBundle, SignBundle } from '../../shared/bundle-types.ts'
 
 let narration = true;
 let speed = 1;
+let activeCollectionId: string | null = null;
 
 /** The Evolution Theater for one sign key (`han/马`); null shows the first sign of the default collection. */
 export function renderTheater(root: HTMLElement, param: string | null): () => void {
@@ -92,10 +93,12 @@ export function renderTheater(root: HTMLElement, param: string | null): () => vo
   }
 
   function renderCollTabs(activeId: string) {
+    activeCollectionId = activeId;
     if (CATALOG.collections.length < 2) return;
     collTabs.replaceChildren(
-      ...CATALOG.collections.map((c) =>
-        h(
+      ...CATALOG.collections.map((c) => {
+        const count = c.id === 'first-500' ? '500' : c.id === 'film-36' ? '36' : '';
+        return h(
           'button',
           {
             type: 'button',
@@ -103,18 +106,19 @@ export function renderTheater(root: HTMLElement, param: string | null): () => vo
             class: `tab ${c.id === activeId ? 'on' : ''}`,
             'aria-selected': String(c.id === activeId),
             onclick: () => {
+              activeCollectionId = c.id;
               void loadCollection(c.id).then((coll) => {
                 if (!alive) return;
                 renderCollTabs(coll.id);
                 renderPicker(coll);
-                const firstKey = coll.signs[current] ? current : (coll.units[0]?.signs[0] ?? '');
+                const firstKey = coll.units[0]?.signs[0] ?? '';
                 if (firstKey) select(firstKey);
               });
             },
           },
-          tx(c.title),
-        ),
-      ),
+          count ? `📚 ${tx(c.title)} (${count})` : tx(c.title),
+        );
+      }),
     );
   }
 
@@ -131,7 +135,10 @@ export function renderTheater(root: HTMLElement, param: string | null): () => vo
         pickBtns.set(key, b);
         row.appendChild(b);
       }
-      picker.append(h('div', { class: 'pick-unit', title: tx(u.title) }, h('span', { class: 'pick-unit-n', style: { background: u.color } }, String(u.n)), row));
+      picker.append(
+        h('div', { class: 'pick-unit-head', style: { color: u.color } }, `${u.n}. ${tx(u.title)}`),
+        h('div', { class: 'pick-unit', title: tx(u.title) }, h('span', { class: 'pick-unit-n', style: { background: u.color } }, String(u.n)), row),
+      );
     }
   }
 
@@ -181,11 +188,32 @@ export function renderTheater(root: HTMLElement, param: string | null): () => vo
     void load(key);
   }
 
-  // The picker shows the collection that contains the requested sign (else the default collection).
+  // The picker shows the collection that contains the requested sign (else the active/default collection).
   // Resolves to the sign to start with ('' when there is none or the screen is gone).
   const ready = (async () => {
+    const rawSlug = param?.includes('/') ? param.slice(param.indexOf('/') + 1) : param;
+    const matchedColl = rawSlug ? CATALOG.collections.find((c) => c.id === rawSlug) : undefined;
+    if (matchedColl) {
+      const coll = await loadCollection(matchedColl.id);
+      if (!alive) return '';
+      renderCollTabs(coll.id);
+      renderPicker(coll);
+      current = coll.units[0]?.signs[0] ?? '';
+      return current;
+    }
+    if (param && activeCollectionId) {
+      const prefColl = await loadCollection(activeCollectionId).catch(() => null);
+      const prefSum = prefColl?.signs[param];
+      if (prefColl && prefSum) {
+        if (!alive) return '';
+        renderCollTabs(prefColl.id);
+        renderPicker(prefColl);
+        current = prefSum.key;
+        return current;
+      }
+    }
     const found = param ? await findSign(param) : null;
-    const coll = found?.collection ?? (await loadCollection(defaultCollectionId()));
+    const coll = found?.collection ?? (await loadCollection(activeCollectionId ?? defaultCollectionId()));
     if (!alive) return '';
     renderCollTabs(coll.id);
     renderPicker(coll);
