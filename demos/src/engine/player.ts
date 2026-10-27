@@ -317,7 +317,11 @@ export class Player {
         const clip = st.clip?.[locale()];
         if (!st.wait) {
           // Character tag callout inside a story beat: speak when narration is off/silent
-          if (!st.silent && !this.speakingNarration) void speakLine(this.section, clip, text, lang);
+          if (!st.silent && !this.speakingNarration) {
+            this.pendingSpeech = speakLine(this.section, clip, text, lang)
+              .then(() => this.wait(180, gen))
+              .catch(() => {});
+          }
           return;
         }
         await this.finishSpeech(gen);

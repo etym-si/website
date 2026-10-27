@@ -160,16 +160,17 @@ export function prepareSection(index: AudioIndex | null, localeId: string = loca
 }
 
 /** How much longer than its length (in media time) a clip may take before we stop waiting for it. */
-const CLIP_SLACK_MS = 1500;
+const CLIP_SLACK_MS = 4000;
 
-/** Seek to a clip, play it, and stop at its end (inside the 240 ms silent gap that follows every clip).
+/** Seek to a clip, play it, and stop inside the 240 ms silent gap that follows every clip.
  *  A stalled or crawling audio clock can't hold the caller up: playing time is capped at the clip's length plus slack. */
 function playClip(section: Section, key: string): Promise<void> {
   const [ms, dur] = section.clips[key];
   cancelSpeech();
   return new Promise((resolve) => {
     const a = section.audio;
-    const end = (ms + dur) / 1000;
+    const startSec = ms / 1000;
+    const end = (ms + dur + 120) / 1000; // play 120ms into the 240ms silent frame gap so OS audio buffer flushes completely
     let done = false;
     let raf = 0;
     let lastTime = -1;
@@ -195,13 +196,21 @@ function playClip(section: Section, key: string): Promise<void> {
     };
     const tick = () => {
       if (done) return;
-      if (a.currentTime >= end) { finish(); return; }
       const now = performance.now();
+      if (a.seeking) {
+        prev = now;
+        raf = requestAnimationFrame(tick);
+        return;
+      }
+      if (a.currentTime >= end && a.currentTime <= end + 2) { finish(); return; }
+      if (a.currentTime < startSec - 0.25 || a.currentTime > end + 2) {
+        a.currentTime = startSec;
+      }
       if (!a.paused) budget -= (now - prev) * a.playbackRate;
       prev = now;
       if (budget <= 0) { finish(); return; } // the audio clock crawls
       if (a.paused || a.currentTime !== lastTime) { lastTime = a.currentTime; stuckSince = now; }
-      else if (now - stuckSince > 3000) { finish(); return; } // stalled while playing
+      else if (now - stuckSince > 3500) { finish(); return; } // stalled while playing
       raf = requestAnimationFrame(tick);
     };
     activeAudio = a;
@@ -210,7 +219,7 @@ function playClip(section: Section, key: string): Promise<void> {
     a.playbackRate = speechSpeed;
     a.addEventListener('ended', finish, { once: true });
     a.addEventListener('error', finish, { once: true });
-    a.currentTime = ms / 1000;
+    a.currentTime = startSec;
     void a.play().catch(finish);
     raf = requestAnimationFrame(tick); // watch from the start: a seek or play() that never settles is a stall too
   });
@@ -284,21 +293,29 @@ function playBlobUrl(blobUrl: string, textLen: number): Promise<void> {
   return new Promise((resolve) => {
     const a = new Audio(blobUrl);
     let done = false;
+    let timer = setTimeout(() => finish(), Math.max(15000, textLen * 500));
     const finish = () => {
       if (done) return;
       done = true;
       clearTimeout(timer);
       a.removeEventListener('ended', finish);
       a.removeEventListener('error', finish);
+      a.removeEventListener('loadedmetadata', onMeta);
       if (!a.paused) a.pause();
       if (activeAudio === a) activeAudio = null;
       if (activeFinish === finish) activeFinish = null;
       resolve();
     };
-    const timer = setTimeout(finish, Math.max(4000, textLen * 260));
+    const onMeta = () => {
+      if (done || !Number.isFinite(a.duration) || a.duration <= 0) return;
+      clearTimeout(timer);
+      const rate = Math.max(0.5, a.playbackRate || speechSpeed || 1);
+      timer = setTimeout(finish, Math.ceil((a.duration * 1000) / rate) + 3000);
+    };
     activeAudio = a;
     activeFinish = finish;
     a.playbackRate = speechSpeed;
+    a.addEventListener('loadedmetadata', onMeta, { once: true });
     a.addEventListener('ended', finish, { once: true });
     a.addEventListener('error', finish, { once: true });
     void a.play().catch(finish);

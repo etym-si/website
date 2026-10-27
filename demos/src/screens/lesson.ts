@@ -40,7 +40,7 @@ const shuffle = <T>(xs: T[]): T[] => {
 };
 const disp = (ctx: Ctx, key: string) => signText(ctx.coll.signs[key]?.text ?? {});
 const reading = (ctx: Ctx, key: string) => ctx.coll.signs[key]?.reading ?? '';
-const say = (ctx: Ctx, key: string) => void speakLine(ctx.section, ctx.coll.signs[key]?.clip, disp(ctx, key), 'zh');
+const say = (ctx: Ctx, key: string): Promise<void> => speakLine(ctx.section, ctx.coll.signs[key]?.clip, disp(ctx, key), 'zh');
 const glyphOf = (ctx: Ctx, key: string): GlyphData | undefined => { const b = ctx.bundles.get(key); return b && firstGlyph(b, ctx.sys); };
 
 function buildQueue(ctx: Ctx): Ex[] {
@@ -260,8 +260,8 @@ function match(ctx: Ctx, keys: string[], host: HTMLElement, api: ExApi): () => v
     if (a.dataset.c === b.dataset.c) {
       [a, b].forEach((x) => { x.classList.remove('sel'); x.classList.add('right'); x.disabled = true; });
       chime('pop');
-      say(ctx, b.dataset.c ?? '');
-      if (++matched === keys.length) setTimeout(() => api.done(true), 350);
+      const spoken = say(ctx, b.dataset.c ?? '');
+      if (++matched === keys.length) void spoken.then(() => { setTimeout(() => api.done(true), 220); });
     } else {
       [a, b].forEach((x) => { x.classList.remove('sel'); x.classList.add('shake'); setTimeout(() => x.classList.remove('shake'), 500); });
       api.miss();
@@ -307,8 +307,7 @@ function trace(ctx: Ctx, key: string, host: HTMLElement, api: ExApi): () => void
     onComplete: () => {
       if (finished) return;
       finished = true;
-      say(ctx, key);
-      setTimeout(() => api.done(true), 600);
+      void say(ctx, key).then(() => { setTimeout(() => api.done(true), 220); });
     },
   });
   show.addEventListener('click', () => {

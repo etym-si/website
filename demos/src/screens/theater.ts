@@ -4,7 +4,7 @@ import { header, scriptViewer, timeline, button, speakerButton } from '../ui/com
 import { Stage } from '../engine/stage';
 import { Player } from '../engine/player';
 import { withoutNarration } from '../engine/narration';
-import { defaultCollectionId, findSign, loadCollection, loadSign, stageMeta, system } from '../content';
+import { CATALOG, defaultCollectionId, findSign, loadCollection, loadSign, stageMeta, system } from '../content';
 import { prepareSection, speakLine } from '../audio';
 import { artifactCard, artifactList, cardItems } from '../ui/artifact';
 import { signSource } from '../play-source';
@@ -37,14 +37,15 @@ export function renderTheater(root: HTMLElement, param: string | null): () => vo
     narrBtn);
   const infoCard = h('div', { class: 'info-card' });
   const topicBar = h('div', { class: 'story-topic' });
+  const collTabs = h('div', { class: 'tabs', role: 'tablist' });
   root.replaceChildren(
     header(),
     h('main', { class: 'theater' },
       h('h1', { class: 'page-title' }, `🎭 ${t('theaterTitle')}`),
+      collTabs,
       h('div', { class: 'theater-grid' },
         picker,
-        h('section', { class: 'theater-main' }, topicBar, stageBox, caption, tlHost, controls, infoCard),
-        h('section', { class: 'theater-side' }, viewer.el))),
+        h('section', { class: 'theater-main' }, topicBar, stageBox, caption, tlHost, controls, infoCard))),
   );
 
   // --- engine -------------------------------------------------------------
@@ -90,7 +91,36 @@ export function renderTheater(root: HTMLElement, param: string | null): () => vo
     playBtn.textContent = player.paused ? `▶ ${t('play')}` : `⏸ ${t('pause')}`;
   }
 
+  function renderCollTabs(activeId: string) {
+    if (CATALOG.collections.length < 2) return;
+    collTabs.replaceChildren(
+      ...CATALOG.collections.map((c) =>
+        h(
+          'button',
+          {
+            type: 'button',
+            role: 'tab',
+            class: `tab ${c.id === activeId ? 'on' : ''}`,
+            'aria-selected': String(c.id === activeId),
+            onclick: () => {
+              void loadCollection(c.id).then((coll) => {
+                if (!alive) return;
+                renderCollTabs(coll.id);
+                renderPicker(coll);
+                const firstKey = coll.signs[current] ? current : (coll.units[0]?.signs[0] ?? '');
+                if (firstKey) select(firstKey);
+              });
+            },
+          },
+          tx(c.title),
+        ),
+      ),
+    );
+  }
+
   function renderPicker(coll: CollectionBundle) {
+    pickBtns.clear();
+    picker.replaceChildren(h('h2', {}, `${t('pickChar')} · ${tx(coll.title)}`));
     for (const u of coll.units) {
       const row = h('div', { class: 'pick-row' });
       for (const key of u.signs) {
@@ -101,7 +131,7 @@ export function renderTheater(root: HTMLElement, param: string | null): () => vo
         pickBtns.set(key, b);
         row.appendChild(b);
       }
-      picker.append(h('div', { class: 'pick-unit' }, h('span', { class: 'pick-unit-n', style: { background: u.color } }, String(u.n)), row));
+      picker.append(h('div', { class: 'pick-unit', title: tx(u.title) }, h('span', { class: 'pick-unit-n', style: { background: u.color } }, String(u.n)), row));
     }
   }
 
@@ -157,6 +187,7 @@ export function renderTheater(root: HTMLElement, param: string | null): () => vo
     const found = param ? await findSign(param) : null;
     const coll = found?.collection ?? (await loadCollection(defaultCollectionId()));
     if (!alive) return '';
+    renderCollTabs(coll.id);
     renderPicker(coll);
     current = found ? found.summary.key : coll.units[0]?.signs[0] ?? '';
     return current;

@@ -45,7 +45,7 @@ export function storyPlayer(host: HTMLElement, opts: { onDone?: () => void; with
     h('div', { class: 'seg', role: 'group', 'aria-label': t('speed') }, ...speedBtns),
     narrBtn);
   host.append(stageBox, caption, controls);
-  if (opts.withScript !== false) host.appendChild(viewer.el);
+  if (opts.withScript === true) host.appendChild(viewer.el);
 
   async function run(bundle: StoryBundle) {
     current = bundle;
